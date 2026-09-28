@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FinanceHubW: Standards and Corrections</title>
+<meta name="description" content="How FinanceHubW verifies, writes and corrects its finance news, and a public log of every correction.">
+<meta property="og:title" content="FinanceHubW: Standards and Corrections">
+<meta property="og:description" content="How we verify finance news before posting, and every correction we have made.">
+<meta property="og:image" content="og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="icon" href="favicon.png">
+<style>
+:root{--ink:#0A1A33;--ink2:#3A4B63;--line:#D9E0EA;--bg:#F7F9FC;--card:#FFFFFF;--green:#0B7F55;--gold:#8A5A00}
+@media (prefers-color-scheme:dark){:root{--ink:#EAF0F8;--ink2:#A9B8CC;--line:#23344F;--bg:#0A1A33;--card:#0F2344;--green:#3DDC9E;--gold:#F2B233}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--green)}
+a:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+header,main,footer{max-width:760px;margin:0 auto;padding:0 16px}
+header{display:flex;align-items:center;gap:14px;padding-top:32px}
+header img{width:56px;height:56px;border-radius:50%}
+header a{text-decoration:none;color:inherit}
+h1{font-size:1.9rem;line-height:1.2;margin:28px 0 8px}
+h2{font-size:1.25rem;margin:40px 0 10px;padding-top:16px;border-top:1px solid var(--line)}
+p,li{color:var(--ink2)}
+ol{padding-left:22px}
+li{margin:6px 0}
+strong{color:var(--ink)}
+table{width:100%;border-collapse:collapse;font-size:.95rem}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere}
+th{color:var(--ink)}
+.empty{padding:16px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+footer{padding:40px 16px;font-size:.9rem;color:var(--ink2)}
+</style>
+</head>
+<body>
+<header>
+  <a href="./" aria-label="FinanceHubW home"><img src="logo.png" alt="FinanceHubW logo" width="56" height="56"></a>
+  <div><strong>FinanceHubW</strong><br><a href="https://x.com/FinanceHubW">@FinanceHubW on X</a></div>
+</header>
+<main>
+<h1>Our standards</h1>
+<p>FinanceHubW is an automated finance news service. Software reads public reporting from newsrooms, exchanges, central banks and regulators in 49 countries and regions, and publishes short, plain-language summaries. This page explains exactly how, so you can judge how far to trust us.</p>
+
+<h2>How a story gets posted</h2>
+<ol>
+  <li><strong>Confirmation first.</strong> We only consider a story if at least two independent outlets report it, it comes directly from an official body (a central bank, regulator or exchange), or it comes from an established newsroom with its own editorial checks.</li>
+  <li><strong>Written from the reporting.</strong> An AI model writes the summary using only facts stated in that reporting. It may not add numbers, quotes or causes.</li>
+  <li><strong>Independent fact-check.</strong> Several separate AI models from different companies compare every number, name and place in the draft against the original reports. If any one of them objects, the post is not published.</li>
+  <li><strong>Credit and link.</strong> Every post names the outlet, shows how many sources confirmed it, and links to the original article.</li>
+</ol>
+
+<h2>What we never do</h2>
+<ol>
+  <li>Give investment advice or tell anyone to buy or sell.</li>
+  <li>Predict prices or market moves.</li>
+  <li>Post opinions, rumours or single-source claims from unknown sites.</li>
+  <li>Accept payment to post or promote anything.</li>
+</ol>
+
+<h2>Market numbers</h2>
+<p>Price snapshots (Sensex, Nifty, S&amp;P 500, gold, Bitcoin and others) come directly from market data, not from headlines or AI. Changes are shown against the previous close.</p>
+
+<h2>Corrections</h2>
+<p>Every recent post is re-checked against newer reporting. If most of our fact-checkers find an error, we reply to the original post with a correction and log it below. We never quietly delete a mistake.</p>
+<div id="corrections"><p class="empty">Loading corrections…</p></div>
+
+<h2>Limits you should know</h2>
+<p>Our checks confirm that a post matches what reputable outlets reported. If those outlets are wrong, we can be wrong too. Always read the linked source before making a financial decision.</p>
+
+<h2>Reusing our posts</h2>
+<p>You are welcome to retweet, quote-post, link and embed our posts. News organisations may quote a post with visible credit: <strong>"via @FinanceHubW"</strong>. Copying our posts to another account or site without credit, or presenting them as your own, is not permitted. The news facts themselves belong to no one; our wording, selection, layout and brand belong to FinanceHubW. Copies that break these terms are reported to the platform they appear on.</p>
+
+<h2>Privacy</h2>
+<p>This page uses no cookies, analytics or trackers and collects no personal data.</p>
+</main>
+<footer>
+  <p>Contact: message <a href="https://x.com/FinanceHubW">@FinanceHubW</a> on X to report an error.</p>
+  <p>© <span id="year">2026</span> FinanceHubW. Not financial advice.</p>
+</footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+(function () {
+  var box = document.getElementById("corrections");
+  function empty(msg) { box.innerHTML = ""; var p = document.createElement("p"); p.className = "empty"; p.textContent = msg; box.appendChild(p); }
+  fetch("corrections.json", { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (list) {
+      if (!Array.isArray(list) || !list.length) { empty("No corrections so far. When we get something wrong, it will be listed here."); return; }
+      var t = document.createElement("table"), h = t.insertRow();
+      ["Date", "Original post", "What was wrong"].forEach(function (x) { var th = document.createElement("th"); th.textContent = x; h.appendChild(th); });
+      list.forEach(function (c) {
+        var row = t.insertRow();
+        row.insertCell().textContent = c.date || "";
+        var cell = row.insertCell(), a = document.createElement("a");
+        a.textContent = c.original || "View post";
+        if (/^https:\/\/x\.com\//.test(c.url || "")) { a.href = c.url; a.rel = "noopener"; }
+        cell.appendChild(a);
+        row.insertCell().textContent = c.reason || "";
+      });
+      box.innerHTML = ""; box.appendChild(t);
+    })
+    .catch(function () { empty("Couldn't load the corrections log right now. Please refresh to try again."); });
+})();
+</script>
+</body>
+</html>
