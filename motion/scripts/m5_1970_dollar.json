@@ -1,0 +1,41 @@
+{
+ "scenes": [
+  {
+   "t": "kicker",
+   "dur": 2.6,
+   "text": "What happened to the 1970 dollar?",
+   "hl": [
+    "1970"
+   ],
+   "sub": "US inflation, approx."
+  },
+  {
+   "t": "shrink",
+   "dur": 6.0,
+   "title": "Buying power of $1",
+   "y0": 1970,
+   "y1": 2025,
+   "v0": 1.0,
+   "v1": 0.12,
+   "face": "$1",
+   "dec": 2,
+   "fmt": "{}",
+   "bottom": "of what it bought in 1970"
+  },
+  {
+   "t": "kicker",
+   "dur": 2.8,
+   "text": "About 88% of its value gone.",
+   "hl": [
+    "88%"
+   ],
+   "size": 104
+  },
+  {
+   "t": "end",
+   "dur": 2.6,
+   "text": "Inflation never sleeps.",
+   "cta": "Follow for more"
+  }
+ ]
+}

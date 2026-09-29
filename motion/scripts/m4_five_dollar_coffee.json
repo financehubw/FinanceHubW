@@ -1,0 +1,46 @@
+{
+ "scenes": [
+  {
+   "t": "kicker",
+   "dur": 2.6,
+   "text": "The $5 coffee habit",
+   "hl": [
+    "$5"
+   ],
+   "sub": "$5 a day · every day"
+  },
+  {
+   "t": "counter",
+   "dur": 3.0,
+   "from": 0,
+   "to": 1825,
+   "top": "One year of coffee",
+   "bottom": "$5 × 365 days",
+   "land_red": false
+  },
+  {
+   "t": "counter",
+   "dur": 4.4,
+   "from": 1825,
+   "to": 226659,
+   "top": "Invested instead, 30 years at 8%",
+   "bottom": "approx., compounded monthly"
+  },
+  {
+   "t": "kicker",
+   "dur": 2.8,
+   "text": "Not a reason to quit coffee. A reason to notice.",
+   "hl": [
+    "notice."
+   ],
+   "wrap": 18,
+   "size": 92
+  },
+  {
+   "t": "end",
+   "dur": 2.6,
+   "text": "Small habits. Big numbers.",
+   "cta": "Follow for more"
+  }
+ ]
+}

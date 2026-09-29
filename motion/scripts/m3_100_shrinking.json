@@ -1,0 +1,44 @@
+{
+ "scenes": [
+  {
+   "t": "kicker",
+   "dur": 2.6,
+   "text": "Your $100 is shrinking.",
+   "hl": [
+    "shrinking."
+   ],
+   "sub": "Even under your mattress"
+  },
+  {
+   "t": "shrink",
+   "dur": 6.0,
+   "title": "3% inflation a year",
+   "y0": 2026,
+   "y1": 2050,
+   "v0": 100,
+   "v1": 49.19,
+   "face": "$100",
+   "dec": 0,
+   "fmt": "Worth {}",
+   "bottom": "of today's buying power"
+  },
+  {
+   "t": "kicker",
+   "dur": 3.0,
+   "text": "Cash loses. Invested money can keep up.",
+   "hl": [
+    "loses.",
+    "keep",
+    "up."
+   ],
+   "wrap": 16,
+   "size": 100
+  },
+  {
+   "t": "end",
+   "dur": 2.6,
+   "text": "Make your money work.",
+   "cta": "Follow for more"
+  }
+ ]
+}

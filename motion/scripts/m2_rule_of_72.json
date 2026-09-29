@@ -1,0 +1,57 @@
+{
+ "scenes": [
+  {
+   "t": "kicker",
+   "dur": 2.6,
+   "text": "How fast does your money double?",
+   "hl": [
+    "double?"
+   ],
+   "sub": "The Rule of 72"
+  },
+  {
+   "t": "kicker",
+   "dur": 2.8,
+   "text": "72 ÷ your return = years",
+   "hl": [
+    "72",
+    "years"
+   ],
+   "sub": "at 8% a year: 72 ÷ 8 = 9 years",
+   "wrap": 12
+  },
+  {
+   "t": "tiles",
+   "dur": 6.4,
+   "title": "$10,000 at 8% a year",
+   "steps": [
+    [
+     "Today",
+     10000
+    ],
+    [
+     "9 years",
+     20000
+    ],
+    [
+     "18 years",
+     40000
+    ],
+    [
+     "27 years",
+     80000
+    ],
+    [
+     "36 years",
+     160000
+    ]
+   ]
+  },
+  {
+   "t": "end",
+   "dur": 2.6,
+   "text": "Start early. Let it double.",
+   "cta": "Follow for more"
+  }
+ ]
+}
