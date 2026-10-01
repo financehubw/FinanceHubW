@@ -37,6 +37,8 @@ from sources import FEEDS, REGIONS, TIER1
 
 ROOT = Path(__file__).parent
 STATE_FILE = ROOT / "state.json"
+SITE_FEED = ROOT / "site" / "tweets.json"   # read by the website's "Live from X" calendar
+SITE_FEED_KEEP = 3000
 HANDLE = os.environ.get("X_HANDLE", "FinanceHubW")
 
 MAX_AGE_HOURS = 4
@@ -332,9 +334,34 @@ class RateLimited(Exception):
     pass
 
 
+def record_for_site(text: str, tweet_id: str) -> None:
+    """Appends a published post to site/tweets.json so the website can show it.
+    Never lets a feed problem stop the bot from posting."""
+    try:
+        feed = {"sample": False, "posts": []}
+        if SITE_FEED.exists():
+            feed.update(json.loads(SITE_FEED.read_text(encoding="utf-8")))
+        feed["sample"] = False
+        feed["posts"] = [p for p in feed.get("posts", []) if p.get("id") != tweet_id]
+        feed["posts"].append({
+            "id": tweet_id,
+            "date": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+            "text": text,
+            "url": f"https://x.com/{HANDLE}/status/{tweet_id}",
+        })
+        feed["posts"] = feed["posts"][-SITE_FEED_KEEP:]
+        SITE_FEED.parent.mkdir(exist_ok=True)
+        SITE_FEED.write_text(json.dumps(feed, ensure_ascii=False, separators=(",", ":")),
+                             encoding="utf-8")
+    except Exception as e:  # noqa: BLE001
+        print(f"could not update site feed: {e}", file=sys.stderr)
+
+
 def publish(client: tweepy.Client, text: str, **kw) -> str | None:
     try:
-        return str(client.create_tweet(text=text, **kw).data["id"])
+        tweet_id = str(client.create_tweet(text=text, **kw).data["id"])
+        record_for_site(text, tweet_id)
+        return tweet_id
     except tweepy.Forbidden as e:
         print(f"X rejected post: {e}", file=sys.stderr)
         return None

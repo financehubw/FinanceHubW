@@ -156,3 +156,12 @@ Colours: Navy `#0A1A33` / `#0F2B55` · Growth green `#18C98B` · Gold `#F2B233`.
 
 ## License
 Code: MIT (see `LICENSE`). Posts and the FinanceHubW name, logo and brand assets © FinanceHubW, all rights reserved; see `CONTENT_LICENSE.md`.
+
+## Website (`site/`)
+
+The public site lives in `site/` and is deployed by Vercel (project root directory: `site`).
+
+- `site/tweets.json` is written by `bot.py` every time a post is published. The site's
+  "Live from X" calendar reads it, so the archive fills itself.
+- `site/magazine.json` holds the weekly magazine. Add a new object to `issues` each week
+  (highest `issue` number shows first) and set `"sample": false` once the first real issue is in.
