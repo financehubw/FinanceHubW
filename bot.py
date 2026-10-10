@@ -9,7 +9,7 @@ Each run:
  4. Claude writes the post; every AI fact-checker (verify.py) must approve it.
  5. Posts to X with the region and the original source credited.
 
-Required secrets: ANTHROPIC_API_KEY, X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN,
+Required secrets: X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN,
 X_ACCESS_SECRET. Fact-check keys: GEMINI_API_KEY, GROQ_API_KEY,
 OPENROUTER_API_KEY (free), XAI_API_KEY (Grok, optional).
 Optional: DRY_RUN=1, POSTS_PER_RUN (default 2), YOUTUBE_URL, X_HANDLE.
@@ -26,7 +26,6 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-import anthropic
 import feedparser
 import tweepy
 
@@ -289,24 +288,15 @@ def compose(d: dict, region: str, st: dict, max_len: int) -> str:
     return build([], False, False)[: max_len - URL_LEN - 2]
 
 
-def write_post(st: dict, ai: anthropic.Anthropic, previous: str = "") -> tuple[str, str] | None:
+def write_post(st: dict, previous: str = "") -> tuple[str, str, str] | None:
     reports = "\n\n".join(f"[{r['publisher']}] {r['title']}\n{r['summary']}" for r in st["reports"][:6])
     prompt = WRITE_PROMPT.format(handle=HANDLE, reports=reports, regions=", ".join(REGIONS))
     if previous:
         prompt += ("\n\nThis is an UPDATE to a story we already posted (below). The headline "
                    "and 'what' must state only what is NEW compared with it. If nothing is "
                    "new, set headline to SKIP.\nEarlier post:\n" + previous)
-    for attempt in range(3):
-        try:
-            msg = ai.messages.create(model=WRITER_MODEL, max_tokens=500,
-                                     messages=[{"role": "user", "content": prompt}])
-            break
-        except anthropic.APIStatusError as e:
-            if e.status_code in (429, 500, 502, 503, 529) and attempt < 2:
-                time.sleep(10 * (attempt + 1))
-                continue
-            raise
-    m = re.search(r"\{.*\}", msg.content[0].text, re.S)
+    reply, writer = verify.write(prompt)
+    m = re.search(r"\{.*\}", reply, re.S)
     try:
         d = json.loads(m.group(0)) if m else {}
     except json.JSONDecodeError:
@@ -320,7 +310,7 @@ def write_post(st: dict, ai: anthropic.Anthropic, previous: str = "") -> tuple[s
         d["headline"] = "🔄 UPDATE: " + d["headline"]
     region = d.get("region") if d.get("region") in REGIONS else st["region"]
     max_len = 1200 if LONG_POSTS else TWEET_LIMIT
-    return compose(d, region, st, max_len), region
+    return compose(d, region, st, max_len), region, writer
 
 
 # ------------------------------------------------------------------ posting
@@ -527,16 +517,16 @@ def check_corrections(stories: list[dict], state: dict, x) -> None:
 # ------------------------------------------------------------------ main
 def main() -> None:
     dry = os.environ.get("DRY_RUN") == "1"
-    need = ["ANTHROPIC_API_KEY"] + ([] if dry else
-            ["X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_SECRET"])
+    need = [] if dry else ["X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_SECRET"]
     missing = [k for k in need if not os.environ.get(k)]
     if missing:
         sys.exit(f"Missing secrets: {', '.join(missing)}")
     checkers = verify.active_checkers()
-    print(f"fact-checkers: {', '.join(checkers)}")
+    if not checkers:
+        sys.exit("Missing secrets: add GEMINI_API_KEY, GROQ_API_KEY and OPENROUTER_API_KEY (all free)")
+    print(f"models available: {', '.join(checkers)}")
 
     state = load_state()
-    ai = anthropic.Anthropic()
     x = None if dry else x_client()
     posted_now = 0
 
@@ -573,14 +563,19 @@ def main() -> None:
                 break
             state["posted"] += [st["key"], *st["links"]]  # never retry the same story
             prev = newsroom.match_recent(st["kw"], state.get("recent", []))
-            result = write_post(st, ai, previous=prev["text"] if prev else "")
+            try:
+                result = write_post(st, previous=prev["text"] if prev else "")
+            except RuntimeError as e:
+                print(f"writer unavailable, stopping this run: {e}", file=sys.stderr)
+                break
             if not result:
                 print(f"skip (off-topic or nothing new): {st['lead']['title']}")
                 continue
-            body, region = result
+            body, region, writer = result
             text = f"{body}\n{st['lead']['link']}"
 
-            ok, log = verify.fact_check(text, st["reports"])
+            ok, log = verify.fact_check(text, st["reports"], skip=writer)
+            log.insert(0, f"written by {writer}")
             print("---\n" + text + "\n" + "\n".join("  " + l for l in log))
             if not ok:
                 print("  -> blocked by fact-check")

@@ -119,7 +119,7 @@ YouTube link: set repo variable `YOUTUBE_URL` to change it. Profile tip: put `yo
 1. **X keys** at developer.x.com → your Project → App → *User authentication settings*: set **Read and Write**. Then *Keys and tokens*: copy API Key, API Secret, and generate Access Token + Secret (generate them *after* setting Read and Write).
 2. **Claude key** at console.anthropic.com → API Keys.
 3. In this repo: **Settings → Secrets and variables → Actions → New repository secret**, add:
-   `ANTHROPIC_API_KEY`, `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_SECRET`, plus the fact-check keys above
+   `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_SECRET`, plus the free `GEMINI_API_KEY`, `GROQ_API_KEY` and `OPENROUTER_API_KEY` (one writes, the other two check). `ANTHROPIC_API_KEY` is optional: when set, Claude writes the posts instead
 4. **Test**: Actions → *Post finance update* → Run workflow → tick *Preview only*. Check the log for the post it would have made.
 5. Run it once without *Preview only*. From then on it posts every 30 minutes by itself.
 6. On X: Settings → Your account → Account information → **Automation** → mark the account as automated (required by X rules).

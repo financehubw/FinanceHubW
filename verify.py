@@ -11,7 +11,11 @@ Free models used when their key is set:
   OPENROUTER_API_KEY  free models on OpenRouter (openrouter.ai)
 Optional paid:
   XAI_API_KEY         Grok (console.x.ai)
-Claude (ANTHROPIC_API_KEY) always runs as a checker too.
+  ANTHROPIC_API_KEY   Claude (paid). Optional: when set it writes the posts and also checks.
+
+The writer is chosen by write(): Claude if its key is set, otherwise the first free
+model that answers (Gemini, then Groq, then OpenRouter). The model that wrote a post
+never checks that same post.
 """
 from __future__ import annotations
 
@@ -21,7 +25,6 @@ import re
 import sys
 import time
 
-import anthropic
 import requests
 
 PROMPT = """You are a strict financial fact-checker. Below is a draft social media post and
@@ -56,11 +59,12 @@ def _parse(text: str) -> tuple[bool, str]:
     return str(d.get("verdict", "")).upper() == "PASS", str(d.get("reason", ""))[:200]
 
 
-def _openai_style(url: str, key: str, model: str, prompt: str, extra: dict | None = None) -> str:
+def _openai_style(url: str, key: str, model: str, prompt: str, extra: dict | None = None,
+                  max_tokens: int = 200) -> str:
     r = requests.post(
         url,
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json", **(extra or {})},
-        json={"model": model, "temperature": 0, "max_tokens": 200,
+        json={"model": model, "temperature": 0, "max_tokens": max_tokens,
               "messages": [{"role": "user", "content": prompt}]},
         timeout=45,
     )
@@ -68,28 +72,30 @@ def _openai_style(url: str, key: str, model: str, prompt: str, extra: dict | Non
     return r.json()["choices"][0]["message"]["content"]
 
 
-def _gemini(prompt: str) -> str:
+def _gemini(prompt: str, max_tokens: int = 200) -> str:
     model = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
     r = requests.post(
         f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
         params={"key": os.environ["GEMINI_API_KEY"]},
         json={"contents": [{"parts": [{"text": prompt}]}],
-              "generationConfig": {"temperature": 0, "maxOutputTokens": 200}},
+              "generationConfig": {"temperature": 0, "maxOutputTokens": max_tokens}},
         timeout=45,
     )
     r.raise_for_status()
     return r.json()["candidates"][0]["content"]["parts"][0]["text"]
 
 
-def _groq(prompt: str) -> str:
+def _groq(prompt: str, max_tokens: int = 200) -> str:
     return _openai_style("https://api.groq.com/openai/v1/chat/completions", os.environ["GROQ_API_KEY"],
-                         os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile"), prompt)
+                         os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile"), prompt,
+                         max_tokens=max_tokens)
 
 
-def _openrouter(prompt: str) -> str:
+def _openrouter(prompt: str, max_tokens: int = 200) -> str:
     return _openai_style("https://openrouter.ai/api/v1/chat/completions", os.environ["OPENROUTER_API_KEY"],
                          os.environ.get("OPENROUTER_MODEL", "meta-llama/llama-3.3-70b-instruct:free"), prompt,
-                         {"HTTP-Referer": "https://x.com/FinanceHubW", "X-Title": "FinanceHubW"})
+                         {"HTTP-Referer": "https://x.com/FinanceHubW", "X-Title": "FinanceHubW"},
+                         max_tokens=max_tokens)
 
 
 def _grok(prompt: str) -> str:
@@ -97,9 +103,10 @@ def _grok(prompt: str) -> str:
                          os.environ.get("XAI_MODEL", "grok-3-mini"), prompt)
 
 
-def _claude(prompt: str) -> str:
+def _claude(prompt: str, max_tokens: int = 200, model: str = "") -> str:
+    import anthropic  # only needed when the paid key is set
     msg = anthropic.Anthropic().messages.create(
-        model=os.environ.get("CLAUDE_CHECK_MODEL", "claude-sonnet-5"), max_tokens=200,
+        model=model or os.environ.get("CLAUDE_CHECK_MODEL", "claude-sonnet-5"), max_tokens=max_tokens,
         messages=[{"role": "user", "content": prompt}])
     return msg.content[0].text
 
@@ -117,7 +124,33 @@ def active_checkers() -> list[str]:
     return [name for name, env, _ in CHECKERS if os.environ.get(env)]
 
 
-def fact_check(post: str, sources: list[dict]) -> tuple[bool, list[str]]:
+WRITERS = ["Claude", "Gemini", "Groq Llama", "OpenRouter"]
+
+
+def write(prompt: str) -> tuple[str, str]:
+    """Returns (reply text, model name) from the first writer that answers.
+    Raises RuntimeError if none is configured or all fail."""
+    errors = []
+    for name in WRITERS:
+        env, fn = next((e, f) for n, e, f in CHECKERS if n == name)
+        if not os.environ.get(env):
+            continue
+        for attempt in range(3):
+            try:
+                if name == "Claude":
+                    text = fn(prompt, 500, os.environ.get("WRITER_MODEL", "claude-haiku-4-5-20251001"))
+                else:
+                    text = fn(prompt, 500)
+                return text, name
+            except Exception as e:  # noqa: BLE001  quota, network, bad model name
+                if attempt < 2:
+                    time.sleep(10 * (attempt + 1))
+                    continue
+                errors.append(f"{name}: {type(e).__name__}")
+    raise RuntimeError("no writer model available (" + "; ".join(errors or ["no keys set"]) + ")")
+
+
+def fact_check(post: str, sources: list[dict], skip: str = "") -> tuple[bool, list[str]]:
     """Returns (approved, log lines). Approved only if no checker says FAIL
     and at least MIN_PASSES checkers say PASS. A checker that errors is ignored."""
     min_passes = int(os.environ.get("MIN_PASSES", "2"))
@@ -127,7 +160,7 @@ def fact_check(post: str, sources: list[dict]) -> tuple[bool, list[str]]:
 
     passes, log = 0, []
     for name, env, fn in CHECKERS:
-        if not os.environ.get(env):
+        if not os.environ.get(env) or name == skip:
             continue
         for attempt in range(2):
             try:
