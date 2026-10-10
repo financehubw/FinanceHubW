@@ -130,7 +130,10 @@ def _openai_style(url: str, key: str, model: str, prompt: str, extra: dict | Non
         timeout=60,
     )
     r.raise_for_status()
-    return r.json()["choices"][0]["message"]["content"] or ""
+    try:
+        return r.json()["choices"][0]["message"]["content"] or ""
+    except ValueError:
+        raise RuntimeError(f"HTTP {r.status_code}, not JSON: {r.text[:160]!r}") from None
 
 
 GEMINI_MODELS = ["gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-3.1-flash-lite", "gemini-2.5-flash"]
@@ -244,6 +247,7 @@ CHECKERS = [
     ("Gemini", "GEMINI_API_KEY", _gemini),
     ("Groq GPT-OSS", "GROQ_API_KEY", _groq_oss),
     ("Gemini Pro", "GEMINI_API_KEY", gemini_pro),
+    ("Groq GPT-OSS 20B", "GROQ_API_KEY", _oa("Groq GPT-OSS 20B", GROQ, "GROQ_API_KEY", ["openai/gpt-oss-20b"], 1200)),
     ("Groq Qwen", "GROQ_API_KEY", _groq_alt),
     ("Groq Kimi", "GROQ_API_KEY", _oa("Groq Kimi", GROQ, "GROQ_API_KEY", ["moonshotai/kimi-k2-instruct-0905", "moonshotai/kimi-k2-instruct"])),
     ("Groq Llama", "GROQ_API_KEY", _oa("Groq Llama", GROQ, "GROQ_API_KEY", ["meta-llama/llama-4-maverick-17b-128e-instruct", "meta-llama/llama-4-scout-17b-16e-instruct", "llama-3.3-70b-versatile"])),
