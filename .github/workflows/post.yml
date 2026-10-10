@@ -56,7 +56,7 @@ jobs:
         if: always()
         run: |
           mkdir -p docs
-          { echo "run $(date -u +%FT%TZ)"; tail -n 120 bot_run.log 2>/dev/null; } > docs/last_run.log
+          { echo "=== run $(date -u +%FT%TZ)"; tail -n 150 bot_run.log 2>/dev/null; cat docs/last_run.log 2>/dev/null; } | head -n 1500 > docs/run.tmp && mv docs/run.tmp docs/last_run.log
 
       - name: Draw Story cards for new X posts
         if: always()
