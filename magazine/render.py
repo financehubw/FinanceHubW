@@ -46,7 +46,7 @@ def main() -> None:
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     if sys.argv[1] == "daily":
-        if len(sys.argv) < 3 or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", sys.argv[2]):
+        if len(sys.argv) < 3 or not re.fullmatch(r"\d{4}-\d{2}-\d{2}(-sample)?", sys.argv[2]):
             sys.exit("usage: python magazine/render.py daily YYYY-MM-DD")
         src = ROOT / "magazine" / "daily" / sys.argv[2] / "slides"
         dst = ROOT / "site" / "media" / "daily" / sys.argv[2]
