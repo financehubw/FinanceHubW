@@ -183,10 +183,6 @@ The public site lives in `site/` and is deployed by Vercel (project root directo
 
 The Weekly is a 20-slide Instagram carousel and website issue published every Saturday. The Daily is a 6-slide carousel for each market day, with its own look. The slides live in `magazine/`, the rendered images in `site/media/magazine/`, and the `Post magazine` workflow posts each new issue to Instagram. See [`magazine/README.md`](magazine/README.md).
 
-## The Daily: why it stays on Claude
+## The Daily stays on Claude
 
-A free version (`magazine/daily_free.py`, Gemini writing into the fixed template, checked by the free
-models) was built and tested on 10 October 2026. The design came out identical, but from a reader's
-point of view the writing was weaker than the Claude edition (meaningless figures like "1st" or a
-year, vague lines, a wrong photo for a UK story), so The Daily stays with Claude. The script is kept
-for a future retry; it has no schedule and posts nothing.
+A free-model Daily was tested on 10-11 October 2026 and judged weaker for readers, so The Daily and The Weekly are made by Claude. The test code was removed.

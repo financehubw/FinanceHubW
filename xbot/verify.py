@@ -142,9 +142,6 @@ GROQ_OSS_MODELS = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
 OPENROUTER_PREFER = ("llama-3.3-70b", "gpt-oss-120b", "deepseek", "qwen", "gemma", "mistral", "llama")
 
 
-GEMINI_PRO_MODELS = ["gemini-3.6-pro", "gemini-3.5-pro", "gemini-3.1-pro", "gemini-3-pro", "gemini-2.5-pro"]
-
-
 def _gemini_call(models: list[str], provider: str, prompt: str, max_tokens: int) -> str:
     def call(model):
         r = requests.post(
@@ -158,11 +155,6 @@ def _gemini_call(models: list[str], provider: str, prompt: str, max_tokens: int)
         parts = r.json()["candidates"][0]["content"]["parts"]
         return "".join(p.get("text", "") for p in parts if not p.get("thought"))
     return _try_models(provider, models, call)
-
-
-def gemini_pro(prompt: str, max_tokens: int = 4000) -> str:
-    """Google's strongest free model on the FinanceHubW key (each Gemini model has its own daily limit)."""
-    return _gemini_call(_models("GEMINI_PRO_MODEL", GEMINI_PRO_MODELS), "Gemini Pro", prompt, max(max_tokens, 2000))
 
 
 def _gemini(prompt: str, max_tokens: int = 200) -> str:

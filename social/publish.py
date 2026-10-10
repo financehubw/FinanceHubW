@@ -7,7 +7,7 @@ The video is served from the website (site/media/shorts/...), which gives Instag
 Facebook a public URL to fetch it from. YouTube gets the file uploaded directly.
 
 Secrets (GitHub → Settings → Secrets and variables → Actions):
-  YT_TOKEN_JSON   from get_youtube_token.py (run once on your PC)
+  YT_TOKEN_JSON   Google OAuth token for the channel (renew: see the handbook runbook "Reconnect YouTube")
   META_TOKEN      long-lived token with instagram_content_publish
   IG_USER_ID      Instagram Business/Creator account id
   FB_PAGE_ID, FB_PAGE_TOKEN   optional, to also post to the Facebook Page
