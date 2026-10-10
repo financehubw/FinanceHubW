@@ -139,6 +139,29 @@ GROQ_OSS_MODELS = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
 OPENROUTER_PREFER = ("llama-3.3-70b", "gpt-oss-120b", "deepseek", "qwen", "gemma", "mistral", "llama")
 
 
+GEMINI_PRO_MODELS = ["gemini-3.6-pro", "gemini-3.5-pro", "gemini-3.1-pro", "gemini-3-pro", "gemini-2.5-pro"]
+
+
+def _gemini_call(models: list[str], provider: str, prompt: str, max_tokens: int) -> str:
+    def call(model):
+        r = requests.post(
+            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+            headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
+            json={"contents": [{"parts": [{"text": prompt}]}],
+                  "generationConfig": {"temperature": 0, "maxOutputTokens": max_tokens}},
+            timeout=120,
+        )
+        r.raise_for_status()
+        parts = r.json()["candidates"][0]["content"]["parts"]
+        return "".join(p.get("text", "") for p in parts if not p.get("thought"))
+    return _try_models(provider, models, call)
+
+
+def gemini_pro(prompt: str, max_tokens: int = 4000) -> str:
+    """Google's strongest free model on the FinanceHubW key (each Gemini model has its own daily limit)."""
+    return _gemini_call(_models("GEMINI_PRO_MODEL", GEMINI_PRO_MODELS), "Gemini Pro", prompt, max(max_tokens, 2000))
+
+
 def _gemini(prompt: str, max_tokens: int = 200) -> str:
     def call(model):
         r = requests.post(
@@ -220,6 +243,7 @@ _groq_alt = _oa("Groq Qwen", GROQ, "GROQ_API_KEY", ["qwen/qwen3-32b"], 1200)
 CHECKERS = [
     ("Gemini", "GEMINI_API_KEY", _gemini),
     ("Groq GPT-OSS", "GROQ_API_KEY", _groq_oss),
+    ("Gemini Pro", "GEMINI_API_KEY", gemini_pro),
     ("Groq Qwen", "GROQ_API_KEY", _groq_alt),
     ("Groq Kimi", "GROQ_API_KEY", _oa("Groq Kimi", GROQ, "GROQ_API_KEY", ["moonshotai/kimi-k2-instruct-0905", "moonshotai/kimi-k2-instruct"])),
     ("Groq Llama", "GROQ_API_KEY", _oa("Groq Llama", GROQ, "GROQ_API_KEY", ["meta-llama/llama-4-maverick-17b-128e-instruct", "meta-llama/llama-4-scout-17b-16e-instruct", "llama-3.3-70b-versatile"])),
@@ -238,7 +262,7 @@ def active_checkers() -> list[str]:
     return [name for name, env, _ in CHECKERS if os.environ.get(env)]
 
 
-WRITERS = ["Claude", "Gemini", "Groq GPT-OSS", "OpenRouter"]
+WRITERS = ["Claude", "Gemini Pro", "Gemini", "Groq GPT-OSS", "OpenRouter"]
 
 
 def write(prompt: str) -> tuple[str, str]:

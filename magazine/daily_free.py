@@ -174,8 +174,10 @@ def parse_json(text: str) -> dict:
 
 
 def llm(prompt: str) -> tuple[str, str]:
-    for name, fn in (("Gemini", verify._gemini), ("Groq GPT-OSS", verify._groq_oss), ("OpenRouter", verify._openrouter)):
-        env = {"Gemini": "GEMINI_API_KEY", "Groq GPT-OSS": "GROQ_API_KEY", "OpenRouter": "OPENROUTER_API_KEY"}[name]
+    for name, fn in (("Gemini Pro", verify.gemini_pro), ("Gemini", verify._gemini), ("Groq GPT-OSS", verify._groq_oss),
+                     ("OpenRouter", verify._openrouter)):
+        env = {"Gemini Pro": "GEMINI_API_KEY", "Gemini": "GEMINI_API_KEY", "Groq GPT-OSS": "GROQ_API_KEY",
+               "OpenRouter": "OPENROUTER_API_KEY"}[name]
         if not os.environ.get(env):
             continue
         try:
@@ -502,7 +504,7 @@ def write_slot(slot: str, st: dict, writer_skip: list) -> tuple[dict | None, str
         if errs:
             extra = "\nYour last answer was rejected: " + "; ".join(errs) + ". Last answer: " + json.dumps(out, ensure_ascii=False) + "\n"
             continue
-        ok, log = verify.fact_check(slot_check_text(slot, out), st["reports"], skip=writer, limit=10, template=CHECK)
+        ok, log = verify.fact_check(slot_check_text(slot, out), st["reports"], skip=writer, limit=10, template=CHECK)  # the writer never checks its own slide
         print(f"  {slot} #{st['id']} draft {attempt + 1}: " + " | ".join(log), file=sys.stderr)
         if ok:
             return out, writer
