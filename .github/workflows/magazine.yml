@@ -43,9 +43,10 @@ jobs:
       - name: Save what was posted
         if: always()
         run: |
+          python social/build_archive.py || true
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          git add social/magazine_posted.json
+          git add social/magazine_posted.json site/archive.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Record posted magazine edition"
           for i in 1 2 3; do

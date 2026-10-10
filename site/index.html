@@ -165,9 +165,10 @@
 <section class="w-full px-space-md lg:px-margin py-space-xl bg-surface" id="live">
 <div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
 <div class="flex flex-col gap-space-sm">
-<span class="flex items-center gap-2 text-primary-container font-label-caps text-label-caps uppercase tracking-widest"><span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>Live from X</span>
-<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">What we're posting right now.</h2>
-<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">Every post from @FinanceHubW lands here automatically. Pick a date on the calendar to read older posts.</p>
+<span class="flex items-center gap-2 text-primary-container font-label-caps text-label-caps uppercase tracking-widest"><span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>Live · Archive</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Everything we publish, by day.</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">X posts, The Daily, The Weekly, Shorts and Instagram Stories land here automatically. Pick a date to see what went out.</p>
+<div class="flex flex-wrap gap-space-sm font-label-caps text-[11px] uppercase text-on-surface-variant" id="cal-legend"></div>
 </div>
 <a class="shrink-0 bg-primary-container text-on-primary-container font-label-caps text-label-caps uppercase px-space-lg py-space-sm" href="https://x.com/FinanceHubW" rel="noopener" target="_blank">Follow on X</a>
 </div>
@@ -181,7 +182,7 @@
 </div>
 <div class="grid grid-cols-7 gap-1 text-center font-label-caps text-[11px] uppercase text-outline mb-1"><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span></div>
 <div class="grid grid-cols-7 gap-1" id="cal-grid"></div>
-<button class="mt-space-md w-full bg-surface-container text-on-surface font-label-caps text-label-caps uppercase py-space-sm hover:bg-surface-container-high" id="cal-latest">Show latest posts</button>
+<button class="mt-space-md w-full bg-surface-container text-on-surface font-label-caps text-label-caps uppercase py-space-sm hover:bg-surface-container-high" id="cal-latest">Show latest</button>
 </div>
 <div class="lg:col-span-8 min-w-0">
 <div class="flex items-center justify-between mb-space-sm"><span class="font-label-caps text-label-caps uppercase text-secondary" id="tw-head">Latest</span><span class="font-data-mono text-data-mono text-outline" id="tw-count"></span></div>
@@ -1097,27 +1098,36 @@ document.querySelectorAll('img').forEach(function(im){function f(){var d=documen
 var still=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 (function(){
 function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+var arch=[],TYPES={x:['X post','#f0ece4'],daily:['The Daily','#fabc4d'],weekly:['The Weekly','#fa5b3c'],short:['Short','#7fd1a8'],story:['IG Story','#c58cff']};
 var posts=[],view=new Date(),sel=null,MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
 function key(d){return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate();}
-function byDay(){var m={};posts.forEach(function(p){var k=key(new Date(p.date));(m[k]=m[k]||[]).push(p);});return m;}
-function card(p){var d=new Date(p.date);var lines=esc(p.text).split('\n');
+function all(){return posts.concat(arch);}
+function ad(s){var p=s.split('-');return new Date(+p[0],p[1]-1,+p[2],12);}
+function byDay(){var m={};all().forEach(function(p){var k=key(p.type?ad(p.date):new Date(p.date));(m[k]=m[k]||[]).push(p);});return m;}
+function tag(t){var c=TYPES[t]||TYPES.x;return '<span class="inline-flex items-center gap-1"><span class="w-2 h-2 rounded-full" style="background:'+c[1]+'"></span>'+c[0]+'</span>';}
+function acard(p){var media=p.thumb?'<img loading="lazy" style="width:80px;height:96px;object-fit:cover;flex-shrink:0" class="w-20 h-24 object-cover shrink-0" alt="" src="'+esc(p.thumb)+'"/>':(p.video?'<video style="width:80px;height:96px;object-fit:cover;flex-shrink:0" class="w-20 h-24 object-cover shrink-0" muted preload="metadata" src="'+esc(p.video)+'#t=2"></video>':'');var ext=/^https?:/.test(p.link);
+ return '<a href="'+esc(p.link||'#')+'"'+(ext?' target="_blank" rel="noopener"':'')+' class="flex gap-space-md bg-surface-container-low hover:bg-surface-container p-space-md transition-colors">'+media+'<div class="min-w-0"><div class="font-label-caps text-label-caps uppercase text-on-surface-variant mb-1">'+tag(p.type)+'</div><p class="font-headline-sm text-[17px] leading-snug text-on-surface">'+esc(p.title)+'</p>'+(p.text?'<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">'+esc(p.text)+'</p>':'')+'</div></a>';}
+function card(p){if(p.type)return acard(p);var d=new Date(p.date);var lines=esc(p.text).split('\n');
  return '<a href="'+esc(p.url||'https://x.com/FinanceHubW')+'" target="_blank" rel="noopener" class="block bg-surface-container-low hover:bg-surface-container p-space-md transition-colors">'+
  '<div class="flex items-center justify-between gap-2 mb-1"><span class="font-label-caps text-label-caps uppercase text-on-surface">FinanceHub <span class="text-outline normal-case">@FinanceHubW</span></span><span class="font-data-mono text-[12px] text-outline">'+d.toLocaleString('en-IN',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})+'</span></div>'+
  '<p class="font-headline-sm text-[17px] leading-snug text-on-surface">'+lines[0]+'</p>'+
  (lines.length>1?'<p class="font-body-sm text-body-sm text-on-surface-variant whitespace-pre-line mt-1" style="overflow-wrap:anywhere">'+lines.slice(1).join('\n')+'</p>':'')+'</a>';}
-function show(list,head){document.getElementById('tw-head').textContent=head;document.getElementById('tw-count').textContent=list.length+(list.length===1?' post':' posts');
- document.getElementById('tw-list').innerHTML=list.length?list.map(card).join(''):'<div class="bg-surface-container-low p-space-md text-on-surface-variant">'+(posts.length?'No posts on this day. Pick a highlighted date.':'Posts from @FinanceHubW will appear here as soon as the account starts posting.')+'</div>';}
-function latest(){sel=null;show(posts.slice(0,8),'Latest');drawCal();}
+function show(list,head){document.getElementById('tw-head').textContent=head;document.getElementById('tw-count').textContent=list.length+(list.length===1?' item':' items');
+ document.getElementById('tw-list').innerHTML=list.length?list.map(card).join(''):'<div class="bg-surface-container-low p-space-md text-on-surface-variant">'+(all().length?'Nothing published on this day. Pick a highlighted date.':'Posts will appear here as soon as they go out.')+'</div>';}
+function latest(){sel=null;var l=all().slice().sort(function(a,b){return (b.type?ad(b.date):new Date(b.date))-(a.type?ad(a.date):new Date(a.date));});show(l.slice(0,10),'Latest');drawCal();}
 function drawCal(){var m=byDay(),y=view.getFullYear(),mo=view.getMonth();document.getElementById('cal-title').textContent=MONTHS[mo]+' '+y;
  var first=(new Date(y,mo,1).getDay()+6)%7,days=new Date(y,mo+1,0).getDate(),h='',today=key(new Date());
  for(var i=0;i<first;i++)h+='<span></span>';
- for(var d=1;d<=days;d++){var k=y+'-'+(mo+1)+'-'+d,n=(m[k]||[]).length,on=sel===k;
-  h+='<button data-k="'+k+'" '+(n?'':'disabled')+' aria-label="'+d+' '+MONTHS[mo]+', '+n+' posts" class="aspect-square flex flex-col items-center justify-center font-data-mono text-[13px] '+(on?'bg-primary-container text-on-primary-container':n?'bg-surface-container text-on-surface hover:bg-surface-container-high':'text-outline/50')+(k===today&&!on?' ring-1 ring-secondary':'')+'">'+d+(n?'<span class="w-1 h-1 rounded-full '+(on?'bg-on-primary-container':'bg-secondary')+' mt-0.5"></span>':'')+'</button>';}
+ for(var d=1;d<=days;d++){var k=y+'-'+(mo+1)+'-'+d,its=m[k]||[],n=its.length,on=sel===k,dots=[];its.forEach(function(p){var t=p.type||'x';if(dots.indexOf(t)<0)dots.push(t);});
+  h+='<button data-k="'+k+'" '+(n?'':'disabled')+' aria-label="'+d+' '+MONTHS[mo]+', '+n+' items" class="aspect-square flex flex-col items-center justify-center font-data-mono text-[13px] '+(on?'bg-primary-container text-on-primary-container':n?'bg-surface-container text-on-surface hover:bg-surface-container-high':'text-outline/50')+(k===today&&!on?' ring-1 ring-secondary':'')+'">'+d+(n?'<span class="flex gap-0.5 mt-0.5">'+dots.map(function(t){return '<span class="w-1 h-1 rounded-full" style="background:'+TYPES[t][1]+'"></span>';}).join('')+'</span>':'')+'</button>';}
  document.getElementById('cal-grid').innerHTML=h;}
 document.getElementById('cal-grid').addEventListener('click',function(e){var b=e.target.closest('button[data-k]');if(!b)return;sel=b.dataset.k;var p=sel.split('-');show(byDay()[sel]||[],p[2]+' '+MONTHS[p[1]-1]+' '+p[0]);drawCal();});
 document.getElementById('cal-prev').onclick=function(){view=new Date(view.getFullYear(),view.getMonth()-1,1);drawCal();};
 document.getElementById('cal-next').onclick=function(){view=new Date(view.getFullYear(),view.getMonth()+1,1);drawCal();};
-document.getElementById('cal-latest').onclick=function(){view=posts[0]?new Date(posts[0].date):new Date();latest();};
+document.getElementById('cal-latest').onclick=function(){view=new Date();latest();};
+document.getElementById('cal-legend').innerHTML=Object.keys(TYPES).map(tag).join('');
+function loadArch(){fetch('archive.json',{cache:'no-store'}).then(function(r){return r.json();}).then(function(j){arch=j.items||[];if(sel===null)latest();else drawCal();}).catch(function(){});}
+loadArch();setInterval(loadArch,300000);
 function load(first){fetch('tweets.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(j){
  posts=(j.posts||[]).sort(function(a,b){return new Date(b.date)-new Date(a.date);});
  document.getElementById('tw-sample').classList.toggle('hidden',!j.sample);
