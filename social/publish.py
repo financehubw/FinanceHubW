@@ -32,7 +32,7 @@ SHORTS = ROOT / "site" / "media" / "shorts"
 SITE_URL = (os.environ.get("SITE_URL") or "https://financehubw-site.vercel.app").rstrip("/")
 GRAPH = "https://graph.facebook.com/v21.0"
 FOOTER = ("\n\nFull breakdowns on YouTube: @FinanceHubW\n"
-          "Educational content, not financial advice.")
+          "Narration is AI-generated. Educational content, not financial advice.")
 
 
 def load(p: Path, default):
@@ -65,7 +65,8 @@ def post_youtube(item: dict, path: Path) -> str:
     body = {
         "snippet": {"title": title, "description": caption_for(item),
                     "tags": [t.lstrip("#") for t in item.get("tags", [])], "categoryId": "27"},
-        "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False},
+        "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False,
+                   "containsSyntheticMedia": True},   # YouTube's altered/synthetic content disclosure
     }
     r = yt.videos().insert(part="snippet,status", body=body,
                            media_body=MediaFileUpload(str(path), resumable=True)).execute()
