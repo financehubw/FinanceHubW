@@ -209,7 +209,7 @@ def write(prompt: str) -> tuple[str, str]:
 def fact_check(post: str, sources: list[dict], skip: str = "") -> tuple[bool, list[str]]:
     """Returns (approved, log lines). Approved only if no checker says FAIL
     and at least MIN_PASSES checkers say PASS. A checker that errors is ignored."""
-    min_passes = int(os.environ.get("MIN_PASSES", "2"))
+    min_passes = int(os.environ.get("MIN_PASSES") or 2)
     src_text = "\n\n".join(
         f"[{s['publisher']}] {s['title']}\n{s['summary']}" for s in sources[:6])
     prompt = PROMPT.format(post=post, sources=src_text)
