@@ -86,20 +86,29 @@ def _models(env: str, defaults: list[str]) -> list[str]:
 
 
 def _try_models(provider: str, models: list[str], call) -> str:
-    """Tries each model in order; moves on only when a model is missing or not allowed."""
+    """Tries each model in order. A busy model (429) gets one retry after a pause;
+    a missing/blocked model or an empty reply moves on to the next model."""
     if provider in _working:
-        models = [_working[provider]]
-    last = None
+        models = [_working[provider]] + [m for m in models if m != _working[provider]]
+    last: Exception | None = None
     for model in models:
-        try:
-            text = call(model)
-            _working[provider] = model
-            return text
-        except requests.HTTPError as e:
-            last = e
-            if e.response is not None and e.response.status_code in (400, 403, 404, 429, 500, 502, 503):
-                continue          # model unknown, not enabled, or busy: try the next one
-            raise
+        for attempt in range(2):
+            try:
+                text = call(model)
+            except requests.HTTPError as e:
+                last = e
+                code = e.response.status_code if e.response is not None else 0
+                if code == 429 and attempt == 0:
+                    time.sleep(20)      # free tiers limit requests per minute; wait and retry once
+                    continue
+                if code in (400, 403, 404, 429, 500, 502, 503):
+                    break               # this model is unavailable: try the next one
+                raise
+            if text and text.strip():
+                _working[provider] = model
+                return text
+            last = RuntimeError(f"{model} returned an empty reply")
+            break                       # empty reply: try the next model
     raise last or RuntimeError(f"{provider}: no model configured")
 
 
@@ -117,7 +126,7 @@ def _openai_style(url: str, key: str, model: str, prompt: str, extra: dict | Non
 
 
 GEMINI_MODELS = ["gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-3.1-flash-lite", "gemini-2.5-flash"]
-GROQ_MODELS = ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"]
+GROQ_MODELS = ["llama-3.3-70b-versatile"]
 GROQ_OSS_MODELS = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
 OPENROUTER_PREFER = ("llama-3.3-70b", "gpt-oss-120b", "deepseek", "qwen", "gemma", "mistral", "llama")
 
@@ -169,7 +178,7 @@ def _openrouter(prompt: str, max_tokens: int = 200) -> str:
     return _try_models("OpenRouter", models, lambda m: _openai_style(
         "https://openrouter.ai/api/v1/chat/completions", os.environ["OPENROUTER_API_KEY"], m, prompt,
         {"HTTP-Referer": "https://financehubw-site.vercel.app", "X-Title": "FinanceHubW"},
-        max_tokens=max_tokens))
+        max_tokens=max(max_tokens, 1200)))
 
 
 def _grok(prompt: str) -> str:
