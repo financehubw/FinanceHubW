@@ -32,7 +32,9 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Run bot
-        run: python bot.py
+        run: |
+          set -o pipefail
+          python bot.py 2>&1 | tee bot_run.log
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           X_API_KEY: ${{ secrets.X_API_KEY }}
@@ -50,6 +52,12 @@ jobs:
           YOUTUBE_URL: ${{ vars.YOUTUBE_URL }}
           DRY_RUN: ${{ (inputs.dry_run || vars.DRY_RUN == '1') && '1' || '' }}
 
+      - name: Keep the latest run log in the repo
+        if: always()
+        run: |
+          mkdir -p docs
+          { echo "run $(date -u +%FT%TZ)"; tail -n 120 bot_run.log 2>/dev/null; } > docs/last_run.log
+
       - name: Draw Story cards for new X posts
         if: always()
         run: python social/x_story.py render
@@ -59,7 +67,7 @@ jobs:
         run: |
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          git add state.json docs/corrections.json site/tweets.json site/media/stories social/stories_posted.json 2>/dev/null || true
+          git add state.json docs/corrections.json site/tweets.json docs/last_run.log site/media/stories social/stories_posted.json 2>/dev/null || true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Update posting history"
           for i in 1 2 3; do
