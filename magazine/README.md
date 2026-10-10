@@ -6,8 +6,8 @@ Two editions, built to look different at a glance:
 |---|---|---|
 | When | Every Saturday, covering Monday to Friday | One for every market day, Monday to Friday, posted the next morning India time (Tuesday to Saturday) once US markets have closed |
 | Length | 20 slides | 7 slides |
-| Look | Dark and colourful, one colour per chapter, colour-tinted photos, Bodoni Moda serif headlines | White pages, black sans-serif (Schibsted Grotesk) headlines, one coral band across the top of every slide, black-and-white photos |
-| Cover | Full-bleed tinted photo with the issue title | Giant coral date numeral above a black-and-white photo |
+| Look | Dark and colourful, one colour per chapter, colour-tinted photos, Bodoni Moda serif headlines | White pages, black sans-serif (Schibsted Grotesk) headlines, one coral band across the top of every slide, full-colour photos |
+| Cover | Full-bleed tinted photo with the issue title | Giant coral date numeral above a full-colour photo |
 | Name on slide | "The Weekly" box on the cover | "The Daily" plus the date in the coral band on every slide |
 | Job | One story that ties the week together | What happened today, in a minute |
 
@@ -62,16 +62,16 @@ Without them the workflow does nothing. Set the repo variable `SOCIAL_DRY_RUN=1`
 
 ## Photos
 
-`magazine/photos/bw/` is the photo library: 34 black-and-white pictures, each named for its
+`magazine/photos/color/` is the photo library: 34 full-colour pictures, each named for its
 subject (for example `fed`, `ecb`, `boe`, `imf`, `eu`, `whitehouse`, `port`, `containership`,
 `tanker`, `pumpjack`, `refinery`, `wheat`, `supermarket`, `factory`, `chips`, `construction`,
 `solar`, `mine`, `atm`, `dollars`, `euro`, `gold`, `bitcoin`, `nyse`, `tradingfloor`, `servers`,
 `rocket`, `jet`, `hurricane`, and the skylines `london`, `shanghai`, `tokyo`, `dubai`, `saopaulo`).
 `magazine/photos/CREDITS.md` lists every file with its subject, author and licence.
 
-- The Daily uses these photos as they are, black and white: on the cover and on the big story,
+- The Daily uses these photos as they are, in full natural colour: on the cover and on the big story,
   money and policy, business and up next slides.
-- The Weekly uses colour-tinted copies: `python magazine/tint.py fed "#2F5BFF"` writes
+- The Weekly uses one-colour tinted copies, never the natural-colour originals: `python magazine/tint.py fed "#2F5BFF"` writes
   `magazine/photos/tinted/fed-2F5BFF.jpg`.
 - Pick a photo only when its subject matches the story on that slide (a central bank story gets
   that central bank, a trade story a port or container ship, an inflation story a supermarket).

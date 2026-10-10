@@ -3,10 +3,10 @@ Makes a one-colour (tinted) copy of a library photo, the treatment The Weekly us
 
     python magazine/tint.py fed "#2F5BFF"
 
-Reads  magazine/photos/bw/fed.jpg
+Reads  magazine/photos/color/fed.jpg
 Writes magazine/photos/tinted/fed-2F5BFF.jpg   (dark tones near-black, light tones the colour)
 
-The Daily uses the black-and-white photos in magazine/photos/bw/ as they are.
+The Daily uses the full-colour photos in magazine/photos/color/ as they are.
 Needs: pip install pillow
 """
 from __future__ import annotations
@@ -24,7 +24,7 @@ def main() -> None:
     if len(sys.argv) != 3 or not re.fullmatch(r"#[0-9A-Fa-f]{6}", sys.argv[2]):
         sys.exit(__doc__)
     key, colour = sys.argv[1], sys.argv[2].upper()
-    src = ROOT / "photos" / "bw" / f"{key}.jpg"
+    src = ROOT / "photos" / "color" / f"{key}.jpg"
     if not src.exists():
         sys.exit(f"no such photo: {src}")
     dst = ROOT / "photos" / "tinted" / f"{key}-{colour[1:]}.jpg"
