@@ -202,22 +202,32 @@ def _claude(prompt: str, max_tokens: int = 200, model: str = "") -> str:
     return msg.content[0].text
 
 
-GROQ_ALT_MODELS = ["qwen/qwen3-32b", "moonshotai/kimi-k2-instruct", "meta-llama/llama-4-scout-17b-16e-instruct",
-                   "llama-3.3-70b-versatile"]
+def _oa(provider: str, url: str, key_env: str, models: list[str], min_tokens: int = 0):
+    """Makes a checker for any OpenAI-style free endpoint. Each one has its own free allowance."""
+    def fn(prompt: str, max_tokens: int = 200) -> str:
+        return _try_models(provider, _models(provider.upper().replace(" ", "_").replace("-", "_") + "_MODEL", models),
+                           lambda m: _openai_style(url, os.environ[key_env], m, prompt,
+                                                   max_tokens=max(max_tokens, min_tokens)))
+    return fn
 
 
-def _groq_alt(prompt: str, max_tokens: int = 200) -> str:
-    """A third model family on the same free Groq key, so a check never depends on OpenRouter's
-    small free daily allowance alone."""
-    return _try_models("Groq Qwen", _models("GROQ_ALT_MODEL", GROQ_ALT_MODELS), lambda m: _openai_style(
-        "https://api.groq.com/openai/v1/chat/completions", os.environ["GROQ_API_KEY"], m, prompt,
-        max_tokens=max(max_tokens, 1200)))
+GROQ = "https://api.groq.com/openai/v1/chat/completions"
+GITHUB = "https://models.github.ai/inference/chat/completions"     # free with the Actions GITHUB_TOKEN
+_groq_alt = _oa("Groq Qwen", GROQ, "GROQ_API_KEY", ["qwen/qwen3-32b"], 1200)
 
-
+# Every free checker. Each has its own separate free limits, so one running out never blocks posting.
+# The ones without a key set are skipped automatically.
 CHECKERS = [
     ("Gemini", "GEMINI_API_KEY", _gemini),
     ("Groq GPT-OSS", "GROQ_API_KEY", _groq_oss),
     ("Groq Qwen", "GROQ_API_KEY", _groq_alt),
+    ("Groq Kimi", "GROQ_API_KEY", _oa("Groq Kimi", GROQ, "GROQ_API_KEY", ["moonshotai/kimi-k2-instruct-0905", "moonshotai/kimi-k2-instruct"])),
+    ("Groq Llama", "GROQ_API_KEY", _oa("Groq Llama", GROQ, "GROQ_API_KEY", ["meta-llama/llama-4-maverick-17b-128e-instruct", "meta-llama/llama-4-scout-17b-16e-instruct", "llama-3.3-70b-versatile"])),
+    ("GitHub GPT", "GITHUB_TOKEN", _oa("GitHub GPT", GITHUB, "GITHUB_TOKEN", ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "openai/gpt-4.1-nano"])),
+    ("GitHub Llama", "GITHUB_TOKEN", _oa("GitHub Llama", GITHUB, "GITHUB_TOKEN", ["meta/Llama-3.3-70B-Instruct", "meta/Meta-Llama-3.1-405B-Instruct"])),
+    ("GitHub Mistral", "GITHUB_TOKEN", _oa("GitHub Mistral", GITHUB, "GITHUB_TOKEN", ["mistral-ai/mistral-medium-2505", "mistral-ai/mistral-small-2503"])),
+    ("Cerebras", "CEREBRAS_API_KEY", _oa("Cerebras", "https://api.cerebras.ai/v1/chat/completions", "CEREBRAS_API_KEY", ["gpt-oss-120b", "llama-3.3-70b", "qwen-3-32b"], 1200)),
+    ("Mistral", "MISTRAL_API_KEY", _oa("Mistral", "https://api.mistral.ai/v1/chat/completions", "MISTRAL_API_KEY", ["mistral-small-latest", "open-mistral-nemo"])),
     ("OpenRouter", "OPENROUTER_API_KEY", _openrouter),
     ("Grok", "XAI_API_KEY", _grok),
     ("Claude", "ANTHROPIC_API_KEY", _claude),
@@ -280,6 +290,8 @@ def fact_check(post: str, sources: list[dict], skip: str = "", limit: int = 6, t
             return False, log  # one objection is enough
         if ok:
             passes += 1
+            if passes >= min_passes + 1:
+                break
 
     if passes < min_passes:
         log.append(f"only {passes} checker(s) passed, need {min_passes}")
