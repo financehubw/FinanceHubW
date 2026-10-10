@@ -6,8 +6,8 @@ Two editions, built to look different at a glance:
 |---|---|---|
 | When | Every Saturday, covering Monday to Friday | One for every market day, Monday to Friday, posted the next morning India time (Tuesday to Saturday) once US markets have closed |
 | Length | 20 slides | 7 slides |
-| Look | Dark and colourful, one colour per chapter, tinted photos, Bodoni Moda serif headlines | White pages, black sans-serif (Schibsted Grotesk) headlines, one coral band across the top of every slide, no photos |
-| Cover | Full-bleed photo with the issue title | Giant coral date numeral |
+| Look | Dark and colourful, one colour per chapter, colour-tinted photos, Bodoni Moda serif headlines | White pages, black sans-serif (Schibsted Grotesk) headlines, one coral band across the top of every slide, black-and-white photos |
+| Cover | Full-bleed tinted photo with the issue title | Giant coral date numeral above a black-and-white photo |
 | Name on slide | "The Weekly" box on the cover | "The Daily" plus the date in the coral band on every slide |
 | Job | One story that ties the week together | What happened today, in a minute |
 
@@ -59,3 +59,24 @@ Without them the workflow does nothing. Set the repo variable `SOCIAL_DRY_RUN=1`
   "© <year> FinanceHubW. All rights reserved. Share with credit to @financehubw." The terms are in
   `CONTENT_LICENSE.md`.
 - Photo credits: `magazine/photos/CREDITS.md`. Fonts are under the SIL Open Font License.
+
+## Photos
+
+`magazine/photos/bw/` is the photo library: 34 black-and-white pictures, each named for its
+subject (for example `fed`, `ecb`, `boe`, `imf`, `eu`, `whitehouse`, `port`, `containership`,
+`tanker`, `pumpjack`, `refinery`, `wheat`, `supermarket`, `factory`, `chips`, `construction`,
+`solar`, `mine`, `atm`, `dollars`, `euro`, `gold`, `bitcoin`, `nyse`, `tradingfloor`, `servers`,
+`rocket`, `jet`, `hurricane`, and the skylines `london`, `shanghai`, `tokyo`, `dubai`, `saopaulo`).
+`magazine/photos/CREDITS.md` lists every file with its subject, author and licence.
+
+- The Daily uses these photos as they are, black and white: on the cover and on the big story,
+  money and policy, business and up next slides.
+- The Weekly uses colour-tinted copies: `python magazine/tint.py fed "#2F5BFF"` writes
+  `magazine/photos/tinted/fed-2F5BFF.jpg`.
+- Pick a photo only when its subject matches the story on that slide (a central bank story gets
+  that central bank, a trade story a port or container ship, an inflation story a supermarket).
+  If nothing in the library fits, make the slide typographic; never use an unrelated picture.
+- Print the credit on the photo ("Photo: author, licence"), write "File photo:" when the picture
+  does not show the event itself, and list the credits in the caption.
+- New photos may be added only if they are public domain, CC0, CC BY or CC BY-SA, with a row in
+  `CREDITS.md`.
