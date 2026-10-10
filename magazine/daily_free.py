@@ -148,7 +148,7 @@ HARD RULES
   up = the next dated event mentioned in the sources (with its day or date).
 - Every story you use must be a different story. Do not repeat the big story anywhere else.
 - Stats ("big_stat", "pol_stat", biz "value") are a single figure like "$100+", "5.24%", "+15.6%", "-13.3%".
-- Region names must be one of: {regions}.
+- Region names must be one of: {regions}. (Bermuda, Canada, Brazil, the US -> THE AMERICAS; Japan, China -> ASIA; UK, Germany -> EUROPE.)
 - Photos: choose for each *_photo the key from PHOTOS whose subject matches that slide's story; use each key once.
 - Length limits (characters, hard maximum): {limits}
 - "sources_used": the outlets you took facts from. "story_ids": the #numbers of EVERY source story you used.
@@ -390,7 +390,7 @@ def main() -> None:
                             for s in news),
         extra="{extra}")
     extra, ed, writer = "", None, ""
-    for attempt in range(6):
+    for attempt in range(8):
         reply, writer = llm(base.replace("{extra}", extra))
         try:
             ed = parse_json(reply)
@@ -401,7 +401,9 @@ def main() -> None:
         errs = validate(ed, src_text, lib)
         if errs:
             print(f"  draft {attempt + 1} rejected: {errs}", file=sys.stderr)
-            extra = "\nYOUR LAST DRAFT WAS REJECTED. Fix these and send the whole JSON again:\n- " + "\n- ".join(errs) + "\n"
+            extra = ("\nYOUR LAST DRAFT (below) WAS REJECTED. Keep everything that is fine and change ONLY what is needed "
+                     "to fix these problems (for a number not in the sources, use a figure that IS in the sources or drop it):\n- "
+                     + "\n- ".join(errs) + "\nLAST DRAFT:\n" + json.dumps(ed, ensure_ascii=False) + "\n")
             ed = None
             continue
         used = [s for s in news if s["id"] in set(ed.get("story_ids") or [])]
@@ -412,7 +414,9 @@ def main() -> None:
         ok, log = verify.fact_check(flatten(ed), [r for s in used for r in s["reports"][:3]][:30], skip=writer, limit=30)
         print("  fact-check: " + " | ".join(log), file=sys.stderr)
         if not ok:
-            extra = "\nYOUR LAST DRAFT FAILED THE FACT-CHECK:\n" + "\n".join(log) + "\nRemove or fix anything not supported by the sources.\n"
+            extra = ("\nYOUR LAST DRAFT (below) FAILED THE FACT-CHECK:\n" + "\n".join(log) +
+                     "\nChange ONLY the claims named there: replace them with facts stated in the sources. LAST DRAFT:\n"
+                     + json.dumps(ed, ensure_ascii=False) + "\n")
             ed = None
             continue
         ok, rlog = build(ed, day, lib, mkt_title, mkt, name)
