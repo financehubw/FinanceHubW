@@ -389,6 +389,7 @@ SOURCES:
 SLOT = """You write one slide of "The Daily", a world-finance Instagram edition for ordinary people.
 Write it in the same style and at most the same length as the MODEL SLIDE: plain words, short sentences,
 every term explained in the same sentence, calm and precise, no hype, no emojis, no advice or predictions.
+The big figure fields must be a meaningful amount with a unit (money, percent, tonnes, barrels...), never a year or a count like "12" or "1".
 Use ONLY facts and numbers stated in the SOURCE below. Never add background, causes, reactions or
 numbers that the source does not state. Copy numbers exactly. Do not mention India.
 Hard length limits in characters: {limits}
@@ -454,7 +455,19 @@ def slot_errors(slot: str, out: dict, st: dict) -> list[str]:
             if not isinstance(v, str) or not v.strip() or len(v) > LIMITS[k]:
                 errs.append(f"{k} must be 1-{LIMITS[k]} characters (it is {len(v) if isinstance(v, str) else 0})")
             texts.append(v if isinstance(v, str) else "")
+    for k in ("big_stat", "pol_stat"):
+        if k in SLOT_FIELDS.get(slot, []) and not good_stat(out.get(k, "")):
+            errs.append(f"{k} must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)")
+    if slot == "biz":
+        for b in out.get("biz_stats") or []:
+            if not good_stat(b.get("value", "")):
+                errs.append("each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)")
     text = " ".join(texts)
+    if TAKEN and slot != "big":
+        import bot
+        overlap = bot.keywords(text) & TAKEN
+        if len(overlap) >= 3:
+            errs.append("this repeats the big story (" + ", ".join(sorted(overlap)[:4]) + "); it must be a different story")
     if INDIA.search(text):
         errs.append("do not mention India")
     src = numbers(story_text(st))
@@ -462,6 +475,18 @@ def slot_errors(slot: str, out: dict, st: dict) -> list[str]:
     if bad:
         errs.append("these numbers are not in the source: " + ", ".join(bad))
     return errs
+
+
+TAKEN: set[str] = set()
+
+
+def good_stat(v: str) -> bool:
+    v = v.strip().replace("−", "-")
+    if not re.fullmatch(r"[+-]?[$€£¥]?\d[\d,]*(\.\d+)?\s?(%|bn|billion|m|million|tn|trillion|k|K|bp|pts?)?\+?", v):
+        return False
+    if re.fullmatch(r"(19|20)\d\d", v):
+        return False
+    return bool(re.search(r"[%$€£¥]|bn|billion|million|tn|trillion|[kK]\b|bp|pt|\.", v)) or int(re.sub(r"\D", "", v) or 0) >= 1000
 
 
 def slot_check_text(slot: str, out: dict) -> str:
@@ -578,6 +603,9 @@ def main() -> None:
                 ed["regions"][int(slot[1]) - 1] = out["region"]
             else:
                 ed.update(out)
+            if slot == "big":
+                import bot
+                TAKEN.update(bot.keywords(slot_check_text("big", out)))
             used.add(sid)
             ed["story_ids"].append(sid)
             writers.add(w)
