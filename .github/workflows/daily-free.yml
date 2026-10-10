@@ -3,8 +3,8 @@ name: The Daily (free)
 # Makes The Daily with free AI models and the fixed template, then posts it.
 # Tue-Sat 7:10 AM IST, covering the previous weekday.
 on:
-  schedule:
-    - cron: "40 1 * * 2-6"
+  # schedule (switched off until the free edition matches the Claude edition's quality):
+  #   - cron: "40 1 * * 2-6"
   push:
     branches: [main]
     paths: ["magazine/sample_request.txt"]   # write a date in this file to build a sample (not posted)
