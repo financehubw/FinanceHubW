@@ -196,7 +196,6 @@ def _claude(prompt: str, max_tokens: int = 200, model: str = "") -> str:
 
 CHECKERS = [
     ("Gemini", "GEMINI_API_KEY", _gemini),
-    ("Groq Llama", "GROQ_API_KEY", _groq),
     ("Groq GPT-OSS", "GROQ_API_KEY", _groq_oss),
     ("OpenRouter", "OPENROUTER_API_KEY", _openrouter),
     ("Grok", "XAI_API_KEY", _grok),
@@ -208,7 +207,7 @@ def active_checkers() -> list[str]:
     return [name for name, env, _ in CHECKERS if os.environ.get(env)]
 
 
-WRITERS = ["Claude", "Gemini", "Groq Llama", "OpenRouter"]
+WRITERS = ["Claude", "Gemini", "Groq GPT-OSS", "OpenRouter"]
 
 
 def write(prompt: str) -> tuple[str, str]:

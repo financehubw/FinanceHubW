@@ -16,6 +16,7 @@ Optional: DRY_RUN=1, POSTS_PER_RUN (default 2), YOUTUBE_URL, X_HANDLE.
 """
 from __future__ import annotations
 
+import calendar
 import hashlib
 import json
 import os
@@ -43,6 +44,8 @@ HANDLE = os.environ.get("X_HANDLE", "FinanceHubW")
 MAX_AGE_HOURS = 4
 KEEP_HISTORY = 6000
 POSTS_PER_RUN = max(1, min(int(os.environ.get("POSTS_PER_RUN", "2") or 2), 6))
+# Hard ceiling across all runs in any 24 hours, so the account stays inside X's API limit.
+MAX_POSTS_PER_DAY = max(1, int(os.environ.get("MAX_POSTS_PER_DAY") or 15))
 MAX_CANDIDATES = 12        # stories tried per run before giving up
 TWEET_LIMIT = 280
 URL_LEN = 23               # X counts every link as 23 characters
@@ -88,7 +91,8 @@ def norm_pub(name: str) -> str:
 
 
 PUBLISHER_NAMES = {
-    "press releases from rbi": "RBI", "reserve bank of india": "RBI",
+    "press releases from rbi": "RBI", "notifications from rbi": "RBI", "reserve bank of india": "RBI",
+    "european securities and markets": "ESMA", "financial conduct authority": "FCA",
     "economic times": "Economic Times", "mint": "Mint", "livemint": "Mint",
     "businessday": "BusinessDay", "the guardian": "The Guardian",
 }
@@ -345,6 +349,22 @@ class RateLimited(Exception):
     pass
 
 
+def posts_last_24h() -> int:
+    try:
+        feed = json.loads(SITE_FEED.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return 0
+    cutoff = time.time() - 86400
+    n = 0
+    for p in feed.get("posts", []):
+        try:
+            if calendar.timegm(time.strptime(p["date"], "%Y-%m-%dT%H:%M:%SZ")) >= cutoff:
+                n += 1
+        except (KeyError, ValueError):
+            pass
+    return n
+
+
 def record_for_site(text: str, tweet_id: str) -> None:
     """Appends a published post to site/tweets.json so the website can show it.
     Never lets a feed problem stop the bot from posting."""
@@ -550,6 +570,12 @@ def main() -> None:
     state = load_state()
     x = None if dry else x_client()
     posted_now = 0
+    left_today = MAX_POSTS_PER_DAY - posts_last_24h()
+    print(f"daily cap: {MAX_POSTS_PER_DAY}, room left in the last 24h: {max(left_today, 0)}")
+    if left_today <= 0 and not dry:
+        print("daily cap reached, nothing to do this run")
+        save_state(state)
+        return
 
     try:
         for special in specials_due(state):
@@ -576,6 +602,7 @@ def main() -> None:
         stat(state, "trusted", len(new_trusted))
         state["seen"] = (state["seen"] + sorted(new_links) + new_trusted)[-8000:]
         budget = newsroom.posts_this_run(POSTS_PER_RUN, score(stories[0]) if stories else 0)
+        budget = min(budget, max(left_today - posted_now, 0)) if not dry else budget
         print(f"{len(stories)} new trusted stories, posting up to {budget} this run")
 
         news_posted = 0
