@@ -1,7 +1,24 @@
-# The Weekly: the FinanceHubW magazine
+# The Weekly and The Daily: the FinanceHubW magazine
 
-One issue a week, covering global finance for the Monday to Friday just ended. Each issue is a
-20-slide Instagram carousel plus an entry in the website's magazine section.
+Two editions, built to look different at a glance:
+
+| | The Weekly | The Daily |
+|---|---|---|
+| When | Every Saturday, covering Monday to Friday | Tuesday to Friday mornings (IST), covering the previous market day |
+| Length | 20 slides | 6 slides |
+| Look | Dark and colourful, one colour per chapter, tinted photos, Bodoni Moda serif headlines | White pages, black sans-serif (Schibsted Grotesk) headlines, one coral band across the top of every slide, no photos |
+| Cover | Full-bleed photo with the issue title | Giant coral date numeral |
+| Name on slide | "The Weekly" box on the cover | "The Daily" plus the date in the coral band on every slide |
+| Job | One story that ties the week together | What happened today, in a minute |
+
+Saturday has no Daily: Friday's session is covered by The Weekly.
+
+The sections below describe The Weekly. The Daily follows the same steps with these paths:
+slides in `magazine/daily/YYYY-MM-DD/slides/01.html` ... `06.html` (the date is the market day
+covered), `python magazine/render.py daily YYYY-MM-DD`, an entry in `site/daily.json`
+(date, label, title, summary, `"slides": 6`) and an entry in `social/daily_queue.json`
+(date, title, caption). Daily slide order: cover, the story, the scoreboard, mover of the day,
+also today, up next. Never restyle one edition to look like the other.
 
 ## How an issue goes out
 

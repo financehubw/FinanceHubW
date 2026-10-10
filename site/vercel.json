@@ -6,7 +6,7 @@
       { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
       { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains" }
     ]},
-    { "source": "/(tweets|magazine).json", "headers": [
+    { "source": "/(tweets|magazine|daily).json", "headers": [
       { "key": "Cache-Control", "value": "public, max-age=60" }
     ]}
   ]

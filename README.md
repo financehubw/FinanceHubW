@@ -168,4 +168,4 @@ The public site lives in `site/` and is deployed by Vercel (project root directo
 
 ## Weekly magazine
 
-The Weekly is a 20-slide Instagram carousel and website issue published every week. The slides live in `magazine/`, the rendered images in `site/media/magazine/`, and the `Post magazine` workflow posts each new issue to Instagram. See [`magazine/README.md`](magazine/README.md).
+The Weekly is a 20-slide Instagram carousel and website issue published every Saturday. The Daily is a 6-slide carousel for each market day, with its own look. The slides live in `magazine/`, the rendered images in `site/media/magazine/`, and the `Post magazine` workflow posts each new issue to Instagram. See [`magazine/README.md`](magazine/README.md).

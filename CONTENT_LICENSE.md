@@ -5,8 +5,8 @@
 This covers the written posts published by @FinanceHubW on X and elsewhere, the glossary, the
 standards page text, and the FinanceHubW name, logo and brand assets in `/brand`.
 
-It also covers **The Weekly**, the FinanceHubW magazine: the text, headlines, slide designs and
-layouts in `/magazine`, the rendered slides in `/site/media/magazine`, and the magazine section of
+It also covers **The Weekly** and **The Daily**, the FinanceHubW magazine editions: the text, headlines, slide designs and
+layouts in `/magazine`, the rendered slides in `/site/media/magazine` and `/site/media/daily`, and the magazine section of
 the website.
 
 **Allowed without asking**

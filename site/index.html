@@ -1126,6 +1126,15 @@ function load(first){fetch('tweets.json',{cache:'no-store'}).then(function(r){if
 }).catch(function(){if(first)document.getElementById('tw-list').innerHTML='<div class="bg-surface-container-low p-space-md text-on-surface-variant">Posts couldn\'t load right now. <a class="text-primary underline" href="https://x.com/FinanceHubW" target="_blank" rel="noopener">See them on X</a>.</div>';});}
 load(true);setInterval(load,300000);
 
+// the daily: latest edition's slides, shown above the weekly issue
+fetch('daily.json',{cache:'no-store'}).then(function(r){return r.json();}).then(function(j){
+ var e=(j.editions||[]).sort(function(a,b){return a.date<b.date?1:-1;})[0];var m=document.getElementById('mag-current');
+ if(!e||!m||!/^\d{4}-\d{2}-\d{2}$/.test(e.date))return;var n=Math.min(parseInt(e.slides,10)||0,20),h='';
+ for(var i=1;i<=n;i++)h+='<img loading="lazy" width="1080" height="1350" class="h-64 w-auto shrink-0" alt="The Daily, '+esc(e.label)+', slide '+i+' of '+n+'" src="media/daily/'+e.date+'/'+(i<10?'0':'')+i+'.jpg"/>';
+ var d=document.createElement('div');d.className='mb-space-xl';
+ d.innerHTML='<div class="flex items-center gap-space-sm mb-space-sm"><span class="bg-on-surface text-surface font-label-caps text-label-caps uppercase px-space-xs py-0.5">The Daily</span><span class="font-label-caps text-label-caps uppercase text-outline">'+esc(e.label)+'</span></div><h3 class="font-headline-sm text-headline-sm text-on-surface">'+esc(e.title)+'</h3><p class="font-body-sm text-body-sm text-on-surface-variant mt-1">'+esc(e.summary)+'</p><div class="flex gap-space-sm overflow-x-auto mt-space-md pb-space-sm" tabindex="0" aria-label="The Daily slides">'+h+'</div><div class="flex items-center gap-space-sm mt-space-lg"><span class="bg-primary-container text-on-primary-container font-label-caps text-label-caps uppercase px-space-xs py-0.5">The Weekly</span></div>';
+ var g=m.parentNode;g.parentNode.insertBefore(d,g);
+}).catch(function(){});
 // magazine
 fetch('magazine.json',{cache:'no-store'}).then(function(r){return r.json();}).then(function(j){
  var iss=(j.issues||[]).sort(function(a,b){return b.issue-a.issue;});

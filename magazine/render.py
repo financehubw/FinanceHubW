@@ -1,17 +1,20 @@
 """
-Renders the magazine slides of one issue to JPEGs for Instagram.
+Renders the slides of one Weekly issue or one Daily edition to JPEGs for Instagram.
 
-    python magazine/render.py 1          # issue number
+    python magazine/render.py 1                   # The Weekly, issue number
+    python magazine/render.py daily 2026-10-09    # The Daily, the market day it covers
 
-Reads   magazine/issues/issue-01/slides/01.html ... (each a 1080x1350 page)
-Writes  site/media/magazine/issue-01/01.jpg ...     (served by the website, which gives
-                                                     Instagram a public URL to fetch)
+Weekly  reads magazine/issues/issue-01/slides/01.html ...   writes site/media/magazine/issue-01/01.jpg ...
+Daily   reads magazine/daily/2026-10-09/slides/01.html ...  writes site/media/daily/2026-10-09/01.jpg ...
+Each slide is a 1080x1350 page. The website serves the JPEGs, which gives Instagram a public
+URL to fetch them from.
 Fails if any slide's content overflows its 1080x1350 frame, so a clipped slide never ships.
 
 Needs: pip install playwright && playwright install chromium
 """
 from __future__ import annotations
 
+import re
 import sys
 from pathlib import Path
 
@@ -42,9 +45,15 @@ CHECK = """
 def main() -> None:
     if len(sys.argv) < 2:
         sys.exit(__doc__)
-    n = int(sys.argv[1])
-    src = ROOT / "magazine" / "issues" / f"issue-{n:02d}" / "slides"
-    dst = ROOT / "site" / "media" / "magazine" / f"issue-{n:02d}"
+    if sys.argv[1] == "daily":
+        if len(sys.argv) < 3 or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", sys.argv[2]):
+            sys.exit("usage: python magazine/render.py daily YYYY-MM-DD")
+        src = ROOT / "magazine" / "daily" / sys.argv[2] / "slides"
+        dst = ROOT / "site" / "media" / "daily" / sys.argv[2]
+    else:
+        n = int(sys.argv[1])
+        src = ROOT / "magazine" / "issues" / f"issue-{n:02d}" / "slides"
+        dst = ROOT / "site" / "media" / "magazine" / f"issue-{n:02d}"
     slides = sorted(src.glob("[0-9][0-9].html"))
     if not slides:
         sys.exit(f"no slides in {src}")

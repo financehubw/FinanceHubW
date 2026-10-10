@@ -1,10 +1,15 @@
 """
-Posts the next weekly magazine issue to Instagram as one carousel post.
+Posts the magazine to Instagram as carousel posts: The Weekly (one issue a week) and
+The Daily (one short edition per market day).
 
-An issue is ready when its slides exist as site/media/magazine/issue-NN/01.jpg ... and it has
-an entry in social/magazine_queue.json. The slides are served from the website, which gives
-Instagram a public URL to fetch each image from, so the site must have redeployed first
-(this script waits for that).
+A Weekly issue is ready when its slides exist as site/media/magazine/issue-NN/01.jpg ... and it
+has an entry in social/magazine_queue.json. A Daily edition is ready when its slides exist as
+site/media/daily/YYYY-MM-DD/01.jpg ... and it has an entry in social/daily_queue.json. The
+slides are served from the website, which gives Instagram a public URL to fetch each image
+from, so the site must have redeployed first (this script waits for that).
+
+Each run posts every edition that is ready and not yet posted, oldest first. A Daily that is
+more than three days old is skipped as stale instead of being posted late.
 
 Secrets (the same ones social/publish.py uses):
   META_TOKEN   long-lived token with instagram_content_publish
@@ -18,6 +23,7 @@ the script retries with the issue's "short" list (ten slide numbers that still t
 """
 from __future__ import annotations
 
+import datetime
 import json
 import os
 import sys
@@ -28,8 +34,10 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "social" / "magazine_queue.json"
+DAILY_QUEUE = ROOT / "social" / "daily_queue.json"
 POSTED = ROOT / "social" / "magazine_posted.json"
-MEDIA = ROOT / "site" / "media" / "magazine"
+MEDIA = ROOT / "site" / "media"
+DAILY_MAX_AGE_DAYS = 3
 SITE_URL = (os.environ.get("SITE_URL") or "https://financehubw-site.vercel.app").rstrip("/")
 GRAPH = "https://graph.facebook.com/v21.0"
 CAPTION_LIMIT = 2200          # Instagram's caption limit
@@ -43,21 +51,32 @@ def load(p: Path, default):
         return default
 
 
-def slide_numbers(item: dict) -> list[int]:
-    folder = MEDIA / f"issue-{int(item['issue']):02d}"
-    return sorted(int(p.stem) for p in folder.glob("[0-9][0-9].jpg"))
+def numbers_in(folder: str) -> list[int]:
+    return sorted(int(p.stem) for p in (MEDIA / folder).glob("[0-9][0-9].jpg"))
 
 
-def next_item() -> dict | None:
-    done = {p["issue"] for p in load(POSTED, {"posted": []})["posted"]}
-    for item in sorted(load(QUEUE, {"issues": []})["issues"], key=lambda i: i["issue"]):
-        if item["issue"] not in done and slide_numbers(item):
-            return item
-    return None
+def pending() -> list[dict]:
+    """Every edition that has slides and is not posted yet, oldest first."""
+    log = load(POSTED, {"posted": []})["posted"]
+    done = {p.get("key") or f"weekly-{int(p['issue']):02d}" for p in log}
+    items = []
+    for d in load(DAILY_QUEUE, {"editions": []})["editions"]:
+        day = datetime.date.fromisoformat(d["date"])
+        if (datetime.date.today() - day).days > DAILY_MAX_AGE_DAYS:
+            continue
+        items.append({"key": f"daily-{d['date']}", "folder": f"daily/{d['date']}", "sort": d["date"] + "a",
+                      "title": d["title"], "caption": d["caption"], "short": d.get("short", [])})
+    for w in load(QUEUE, {"issues": []})["issues"]:
+        n = int(w["issue"])
+        items.append({"key": f"weekly-{n:02d}", "folder": f"magazine/issue-{n:02d}",
+                      "sort": w.get("date", "0000-00-00") + "b", "title": w["title"],
+                      "caption": w["caption"], "short": w.get("short", [])})
+    return sorted((i for i in items if i["key"] not in done and numbers_in(i["folder"])),
+                  key=lambda i: i["sort"])
 
 
-def url_for(issue: int, n: int) -> str:
-    return f"{SITE_URL}/media/magazine/issue-{issue:02d}/{n:02d}.jpg"
+def url_for(folder: str, n: int) -> str:
+    return f"{SITE_URL}/media/{folder}/{n:02d}.jpg"
 
 
 def wait_until_live(urls: list[str]) -> None:
@@ -90,10 +109,9 @@ def graph_post(path: str, data: dict) -> dict:
 
 def post_carousel(item: dict, numbers: list[int]) -> str:
     ig, tok = os.environ["IG_USER_ID"], os.environ["META_TOKEN"]
-    issue = int(item["issue"])
     children = {}
     for n in numbers:
-        children[n] = graph_post(f"{ig}/media", {"image_url": url_for(issue, n),
+        children[n] = graph_post(f"{ig}/media", {"image_url": url_for(item["folder"], n),
                                                  "is_carousel_item": "true", "access_token": tok})["id"]
         time.sleep(1)
 
@@ -123,31 +141,39 @@ def post_carousel(item: dict, numbers: list[int]) -> str:
 
 
 def main() -> None:
-    item = next_item()
-    if not item:
-        print("nothing to post: every queued issue is already posted, or its slides are missing")
+    items = pending()
+    if not items:
+        print("nothing to post: every queued edition is already posted, stale, or missing its slides")
         return
-    issue = int(item["issue"])
-    numbers = slide_numbers(item)[:20]
-    urls = [url_for(issue, n) for n in numbers]
-    print(f"next issue: #{issue} {item['title']} ({len(numbers)} slides)\n  first: {urls[0]}")
-    print("--- caption\n" + item["caption"][:CAPTION_LIMIT])
-    if len(item["caption"]) > CAPTION_LIMIT:
-        print(f"note: caption is {len(item['caption'])} characters and will be cut at {CAPTION_LIMIT}")
-    if os.environ.get("DRY_RUN"):
-        print("DRY_RUN: nothing posted")
-        return
-    if not (os.environ.get("IG_USER_ID") and os.environ.get("META_TOKEN")):
-        print("IG_USER_ID / META_TOKEN secrets are not set yet, nothing to do")
-        return
-    wait_until_live(urls)
-    media_id = post_carousel(item, numbers)
-    print(f"  Instagram: posted {media_id}")
-    log = load(POSTED, {"posted": []})
-    log["posted"].append({"issue": issue, "title": item["title"],
-                          "date": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-                          "instagram": media_id})
-    POSTED.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
+    failed = 0
+    for item in items:
+        numbers = numbers_in(item["folder"])[:20]
+        urls = [url_for(item["folder"], n) for n in numbers]
+        print(f"next: {item['key']} {item['title']} ({len(numbers)} slides)\n  first: {urls[0]}")
+        print("--- caption\n" + item["caption"][:CAPTION_LIMIT])
+        if len(item["caption"]) > CAPTION_LIMIT:
+            print(f"note: caption is {len(item['caption'])} characters and will be cut at {CAPTION_LIMIT}")
+        if os.environ.get("DRY_RUN"):
+            print("DRY_RUN: nothing posted")
+            continue
+        if not (os.environ.get("IG_USER_ID") and os.environ.get("META_TOKEN")):
+            print("IG_USER_ID / META_TOKEN secrets are not set yet, nothing to do")
+            return
+        wait_until_live(urls)
+        try:
+            media_id = post_carousel(item, numbers)
+        except Exception as e:  # noqa: BLE001  one edition failing must not stop the next
+            failed += 1
+            print(f"  {item['key']}: FAILED - {e}", file=sys.stderr)
+            continue
+        print(f"  Instagram: posted {media_id}")
+        log = load(POSTED, {"posted": []})
+        log["posted"].append({"key": item["key"], "title": item["title"],
+                              "date": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                              "instagram": media_id})
+        POSTED.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
+    if failed:
+        sys.exit(f"{failed} edition(s) failed")
 
 
 if __name__ == "__main__":

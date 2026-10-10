@@ -5,8 +5,9 @@ on:
     branches: [main]
     paths:
       - "social/magazine_queue.json"
+      - "social/daily_queue.json"
   schedule:
-    - cron: "23 6 * * 6,0"   # Sat and Sun 11:53 AM IST: retries an issue that did not go out
+    - cron: "23 6 * * *"   # every day 11:53 AM IST: retries an edition that did not go out
   workflow_dispatch:
     inputs:
       dry_run:
@@ -31,7 +32,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - name: Post next issue
+      - name: Post editions that are ready
         run: python social/publish_magazine.py
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
@@ -45,7 +46,7 @@ jobs:
           git config user.email "bot@financehubw.invalid"
           git add social/magazine_posted.json
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Record posted magazine issue"
+          git commit -m "Record posted magazine edition"
           for i in 1 2 3; do
             git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
             sleep 5
