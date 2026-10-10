@@ -365,6 +365,137 @@ def upsert(path: Path, key: str, entry: dict, field: str = "date", keep: int = 3
     path.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
+PLAN = """You are the editor of "The Daily", a 7-slide Instagram edition about WORLD finance for ordinary people,
+for {day_long}. Pick the stories for each slot from the SOURCES (by #number). Do NOT pick anything about India.
+- big: the most important world finance story.
+- r1, r2, r3: three stories from three DIFFERENT regions, mixing economy, policy and business (not only share prices).
+- pol: a central-bank, government or economy story. biz: one company or deal story that has figures.
+- up: a story that mentions a dated upcoming event.
+- backups: 6 more good stories, best first.
+Every pick must be a different story. Prefer stories reported by several outlets and with clear figures.
+Also choose photos (keys from PHOTOS, each used once) whose subject matches: cover (for the big story), big, pol, biz, up.
+Reply with JSON only, like:
+{{"big": 4, "r1": 9, "r2": 13, "r3": 2, "pol": 7, "biz": 11, "up": 20, "backups": [5, 8, 15, 17, 22, 25],
+ "photos": {{"cover": "pumpjack", "big": "tanker", "pol": "fed", "biz": "rocket", "up": "nyse"}}}}
+
+PHOTOS (key: subject):
+{photos}
+
+SOURCES:
+{sources}"""
+
+SLOT = """You write one slide of "The Daily", a world-finance Instagram edition for ordinary people.
+Write it in the same style and at most the same length as the MODEL SLIDE: plain words, short sentences,
+every term explained in the same sentence, calm and precise, no hype, no emojis, no advice or predictions.
+Use ONLY facts and numbers stated in the SOURCE below. Never add background, causes, reactions or
+numbers that the source does not state. Copy numbers exactly. Do not mention India.
+Hard length limits in characters: {limits}
+{extra}
+MODEL SLIDE (JSON, same keys you must return):
+{sample}
+
+SOURCE ({region}; reported by {outlets}):
+{source}
+
+Reply with the JSON only."""
+
+SLOT_FIELDS = {
+    "big": ["cover_title", "cover_dek", "big_headline", "big_body", "big_stat", "big_stat_l1", "big_stat_l2"],
+    "pol": ["pol_headline", "pol_body", "pol_stat", "pol_stat_l1", "pol_stat_l2"],
+    "biz": ["biz_headline", "biz_body", "biz_stats"],
+    "up": ["up_headline", "up_body"],
+    "r1": ["region"], "r2": ["region"], "r3": ["region"],
+}
+
+
+def slot_sample(slot: str) -> dict:
+    if slot.startswith("r"):
+        return {"region": SAMPLE["regions"][int(slot[1]) - 1]}
+    return {k: SAMPLE[k] for k in SLOT_FIELDS[slot]}
+
+
+def slot_limits(slot: str) -> dict:
+    if slot.startswith("r"):
+        return {"region.name": "one of " + ", ".join(REGIONS_OK), "region.text": LIMITS["region_text"]}
+    if slot == "biz":
+        return {"biz_headline": LIMITS["biz_headline"], "biz_body": LIMITS["biz_body"],
+                "biz_stats[].value": LIMITS["s_value"], "biz_stats[].name": LIMITS["s_name"], "biz_stats[].note": LIMITS["s_note"]}
+    return {k: LIMITS[k] for k in SLOT_FIELDS[slot]}
+
+
+def story_text(st: dict) -> str:
+    return "\n".join(f"- [{r['publisher']}] {r['title']}. {r['summary']}" for r in st["reports"])
+
+
+def slot_errors(slot: str, out: dict, st: dict) -> list[str]:
+    errs, texts = [], []
+    if slot.startswith("r"):
+        r = out.get("region") or {}
+        if r.get("name") not in REGIONS_OK:
+            errs.append(f"region name must be one of {REGIONS_OK}")
+        if not r.get("text") or len(r["text"]) > LIMITS["region_text"]:
+            errs.append(f"region text must be 1-{LIMITS['region_text']} characters")
+        texts.append(r.get("text", ""))
+    else:
+        for k in SLOT_FIELDS[slot]:
+            if k == "biz_stats":
+                bs = out.get(k) or []
+                if len(bs) != 2:
+                    errs.append("biz_stats needs exactly two figures")
+                for b in bs:
+                    for f, lim in (("value", "s_value"), ("name", "s_name"), ("note", "s_note")):
+                        if not b.get(f) or len(b[f]) > LIMITS[lim]:
+                            errs.append(f"biz_stats {f} must be 1-{LIMITS[lim]} characters")
+                        texts.append(b.get(f, ""))
+                continue
+            v = out.get(k)
+            if not isinstance(v, str) or not v.strip() or len(v) > LIMITS[k]:
+                errs.append(f"{k} must be 1-{LIMITS[k]} characters (it is {len(v) if isinstance(v, str) else 0})")
+            texts.append(v if isinstance(v, str) else "")
+    text = " ".join(texts)
+    if INDIA.search(text):
+        errs.append("do not mention India")
+    src = numbers(story_text(st))
+    bad = sorted(n for n in numbers(text) if n not in src and not re.fullmatch(r"20\d\d|[1-9]|[12][0-9]|3[01]", n))
+    if bad:
+        errs.append("these numbers are not in the source: " + ", ".join(bad))
+    return errs
+
+
+def slot_check_text(slot: str, out: dict) -> str:
+    if slot.startswith("r"):
+        return f"{out['region']['name'].title()}: {out['region']['text']}"
+    if slot == "biz":
+        return f"{out['biz_headline']}. {out['biz_body']} " + "; ".join(f"{b['name']} {b['value']} ({b['note']})" for b in out["biz_stats"])
+    parts = [out[k] for k in SLOT_FIELDS[slot]]
+    return " ".join(parts)
+
+
+def write_slot(slot: str, st: dict, writer_skip: list) -> tuple[dict | None, str]:
+    extra = ""
+    for attempt in range(3):
+        prompt = SLOT.format(limits=json.dumps(slot_limits(slot)), extra=extra,
+                             sample=json.dumps(slot_sample(slot), ensure_ascii=False, indent=1),
+                             region=st["region"], outlets=", ".join(st["outlets"]), source=story_text(st))
+        reply, writer = llm(prompt)
+        try:
+            out = parse_json(reply)
+        except Exception:  # noqa: BLE001
+            extra = "\nYour last reply was not valid JSON.\n"
+            continue
+        errs = slot_errors(slot, out, st)
+        if errs:
+            extra = "\nYour last answer was rejected: " + "; ".join(errs) + ". Last answer: " + json.dumps(out, ensure_ascii=False) + "\n"
+            continue
+        ok, log = verify.fact_check(slot_check_text(slot, out), st["reports"], skip=writer, limit=10)
+        print(f"  {slot} #{st['id']} draft {attempt + 1}: " + " | ".join(log), file=sys.stderr)
+        if ok:
+            return out, writer
+        extra = ("\nYour last answer failed the fact-check: " + " ".join(log) +
+                 ". Remove or rewrite only the unsupported claim. Last answer: " + json.dumps(out, ensure_ascii=False) + "\n")
+    return None, ""
+
+
 def main() -> None:
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     sample = "--sample" in sys.argv
@@ -378,59 +509,67 @@ def main() -> None:
     news = gather_news(day)
     if len(news) < 8:
         sys.exit(f"only {len(news)} trusted stories found; not enough for an edition")
-    src_text = "\n\n".join(f"[{r['publisher']}] {r['title']}\n{r['summary']}" for s in news for r in s["reports"])
+    by_id = {s["id"]: s for s in news}
     mkt_title, mkt = market_rows(day)
     day_long = day.strftime("%A %-d %B %Y")
-    base = PROMPT.format(
-        day_long=day_long, regions=", ".join(REGIONS_OK), limits=json.dumps(LIMITS),
-        sample=json.dumps(SAMPLE, ensure_ascii=False, indent=1),
-        photos="\n".join(f"{k}: {v['subject']}" for k, v in lib.items()),
-        sources="\n\n".join(f"#{s['id']} ({s['region']}, {s['category']}; reported by {', '.join(s['outlets'])})\n" +
-                            "\n".join(f"- [{r['publisher']}] {r['title']}. {r['summary']}" for r in s["reports"])
-                            for s in news),
-        extra="{extra}")
-    extra, ed, writer = "", None, ""
-    for attempt in range(8):
-        reply, writer = llm(base.replace("{extra}", extra))
+    plan = None
+    for _ in range(3):
         try:
-            ed = parse_json(reply)
+            plan = parse_json(llm(PLAN.format(
+                day_long=day_long, photos="\n".join(f"{k}: {v['subject']}" for k, v in lib.items()),
+                sources="\n\n".join(f"#{s['id']} ({s['region']}, {s['category']}; reported by {', '.join(s['outlets'])})\n" + story_text(s)
+                                    for s in news)))[0])
+            ids = [plan[k] for k in ("big", "r1", "r2", "r3", "pol", "biz", "up")]
+            ph = plan["photos"]
+            if all(i in by_id for i in ids) and len(set(ids)) == 7 and all(ph.get(k) in lib for k in ("cover", "big", "pol", "biz", "up")) \
+                    and len({ph[k] for k in ("cover", "big", "pol", "biz", "up")}) == 5:
+                break
         except Exception as e:  # noqa: BLE001
-            extra = f"\nYOUR LAST REPLY WAS NOT VALID JSON ({e}). Reply with the JSON only.\n"
-            continue
-        ed = shorten(ed)
-        errs = validate(ed, src_text, lib)
-        if errs:
-            print(f"  draft {attempt + 1} rejected: {errs}", file=sys.stderr)
-            extra = ("\nYOUR LAST DRAFT (below) WAS REJECTED. Keep everything that is fine and change ONLY what is needed "
-                     "to fix these problems (for a number not in the sources, use a figure that IS in the sources or drop it):\n- "
-                     + "\n- ".join(errs) + "\nLAST DRAFT:\n" + json.dumps(ed, ensure_ascii=False) + "\n")
-            ed = None
-            continue
-        used = [s for s in news if s["id"] in set(ed.get("story_ids") or [])]
-        if len(used) < 4:
-            extra = "\nList in story_ids the #numbers of every source story you used.\n"
-            ed = None
-            continue
-        ok, log = verify.fact_check(flatten(ed), [r for s in used for r in s["reports"][:3]][:30], skip=writer, limit=30)
-        print("  fact-check: " + " | ".join(log), file=sys.stderr)
-        if not ok:
-            extra = ("\nYOUR LAST DRAFT (below) FAILED THE FACT-CHECK:\n" + "\n".join(log) +
-                     "\nChange ONLY the claims named there: replace them with facts stated in the sources. LAST DRAFT:\n"
-                     + json.dumps(ed, ensure_ascii=False) + "\n")
-            ed = None
-            continue
+            print(f"  plan rejected: {e}", file=sys.stderr)
+        plan = None
+    if not plan:
+        sys.exit("could not plan the edition today; nothing published")
+    backups = [b for b in plan.get("backups", []) if b in by_id]
+    used, ed, writers, regions = set(), {"regions": [None, None, None], "story_ids": []}, set(), set()
+    for slot in ("big", "pol", "biz", "up", "r1", "r2", "r3"):
+        for sid in [plan[slot]] + backups:
+            if sid in used:
+                continue
+            out, w = write_slot(slot, by_id[sid], [])
+            if not out:
+                continue
+            if slot.startswith("r"):
+                if out["region"]["name"] in regions:
+                    continue
+                regions.add(out["region"]["name"])
+                ed["regions"][int(slot[1]) - 1] = out["region"]
+            else:
+                ed.update(out)
+            used.add(sid)
+            ed["story_ids"].append(sid)
+            writers.add(w)
+            break
+        else:
+            sys.exit(f"no story passed the checks for the {slot} slide; nothing published")
+    ph = plan["photos"]
+    ed.update({"cover_photo": ph["cover"], "big_photo": ph["big"], "pol_photo": ph["pol"],
+               "biz_photo": ph["biz"], "up_photo": ph["up"]})
+    ed["sources_used"] = sorted({r["publisher"] for i in used for r in by_id[i]["reports"]})[:8]
+    for _ in range(3):
         ok, rlog = build(ed, day, lib, mkt_title, mkt, name)
         if ok:
             break
-        print("  layout problem: " + rlog, file=sys.stderr)
-        extra = "\nTHE TEXT DID NOT FIT THE SLIDES:\n" + rlog + "\nMake the fields named there clearly shorter.\n"
-        ed = None
-    if not ed:
+        print("  layout problem, shortening: " + rlog, file=sys.stderr)
+        for k in list(LIMITS):
+            LIMITS[k] = int(LIMITS[k] * 0.88)
+        ed = shorten(ed)
+    else:
         import shutil
         shutil.rmtree(folder, ignore_errors=True)
-        sys.exit("no edition passed every check today; nothing published")
+        sys.exit("the text would not fit the slides; nothing published")
+    writer = "/".join(sorted(writers))
     (folder / "edition.json").write_text(json.dumps({"writer": writer, **ed}, indent=1, ensure_ascii=False), encoding="utf-8")
-    print(f"The Daily for {day}: {ed['cover_title']} (written by {writer}, checked by two other models)")
+    print(f"The Daily for {day}: {ed['cover_title']} (written by {writer}; every slide passed two other models)")
     if sample:
         return
     label = day.strftime("%a %-d %b %Y")
