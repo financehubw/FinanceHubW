@@ -2,68 +2,68 @@
  "writer": "Gemini",
  "regions": [
   {
-   "name": "THE AMERICAS",
-   "text": "Hurricane Isaias shut in 71% of U.S. Gulf oil production."
-  },
-  {
    "name": "AFRICA",
-   "text": "Nigeria's foreign exchange reserves rose to $54.9 billion."
+   "text": "Nigeria's credit outlook was revised to positive by Fitch as reserves rose to $54.9 billion."
   },
   {
-   "name": "EUROPE",
-   "text": "UK crypto firms can apply for authorization from the Financial Conduct Authority."
+   "name": "ASIA-PACIFIC",
+   "text": "A ban on payment surcharges took effect a week ago."
+  },
+  {
+   "name": "THE AMERICAS",
+   "text": "Bitcoin steadies near $82,500 after a political decision on Iran."
   }
  ],
  "story_ids": [
-  2,
-  6,
-  3,
-  39,
-  10,
-  12,
-  9
+  1,
+  9,
+  11,
+  20,
+  14,
+  25,
+  13
  ],
  "cover_title": "The diesel deal",
- "cover_dek": "Washington and Moscow agreed on fuel supplies before the midterm elections.",
- "big_headline": "Russia will supply diesel fuel to the United States and the global market.",
- "big_body": "Donald Trump said Vladimir Putin agreed to supply over 300K tons immediately, add 500K tons for November, and deliver 1 million tons after.",
+ "cover_dek": "Washington and Moscow agreed on fuel supplies before US midterm elections.",
+ "big_headline": "Russia will supply diesel to the US and the global market.",
+ "big_body": "President Trump says Putin agreed to immediately supply over 300K tons of diesel, add 500K tons for November, and deliver 1 million tons after.",
  "big_stat": "300K+",
  "big_stat_l1": "Tons of diesel fuel",
  "big_stat_l2": "to be supplied immediately",
- "pol_headline": "Stablecoin rules clarified",
- "pol_body": "The European Securities and Markets Authority published an opinion on crypto-asset services involving certain stablecoins that do not comply with regulations.",
- "pol_stat": "2026",
- "pol_stat_l1": "year the statement",
- "pol_stat_l2": "was published in October",
- "biz_headline": "US announces Russian diesel deal",
- "biz_body": "US President Donald Trump announced an agreement to buy Russian diesel. Ukraine President Volodymyr Zelenskyy criticized the move.",
+ "pol_headline": "Regulated UK crypto",
+ "pol_body": "Crypto firms can now apply for authorisation from the FCA, which is the Financial Conduct Authority, marking the first time such firms in the UK face full regulation.",
+ "pol_stat": "1st",
+ "pol_stat_l1": "time crypto firms in",
+ "pol_stat_l2": "the UK face full regulation",
+ "biz_headline": "Hurricane Isaias disrupts oil",
+ "biz_body": "The storm disrupted U.S. oil and gas production in the Gulf of Mexico, shutting in a large portion of output.",
  "biz_stats": [
   {
-   "value": "12",
-   "name": "recent attacks",
-   "note": "kill people in war"
+   "value": "71.51%",
+   "name": "Gulf oil output",
+   "note": "shut in"
   },
   {
-   "value": "1",
-   "name": "new agreement",
-   "note": "to buy fuel"
+   "value": "58.84%",
+   "name": "Gulf gas output",
+   "note": "shut in"
   }
  ],
- "up_headline": "Changes to the Euribor panel",
- "up_body": "Cecabank, based in Spain, will withdraw from the Euribor panel, a group of banks that helps set interest rates.",
- "cover_photo": "tanker",
- "big_photo": "pumpjack",
- "pol_photo": "eu",
- "biz_photo": "dollars",
+ "up_headline": "Europe: Regulators ask about assets",
+ "up_body": "The European Securities and Markets Authority asks for evidence on using tokenised collateral in central clearing by 15 January 2027.",
+ "cover_photo": "pumpjack",
+ "big_photo": "tanker",
+ "pol_photo": "fed",
+ "biz_photo": "refinery",
  "up_photo": "ecb",
  "sources_used": [
-  "Al Jazeera",
-  "BBC News",
+  "ABC News & Headlines",
   "BusinessDay",
+  "CoinDesk: Bitcoin, Ethereum, Crypto News",
+  "Cointelegraph.com News",
   "ESMA",
   "FCA",
   "FXStreet Forex & Commodities News",
-  "International: Top News And Analysis",
-  "Latest business news"
+  "International: Top News And Analysis"
  ]
 }
