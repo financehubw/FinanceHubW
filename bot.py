@@ -87,6 +87,27 @@ def norm_pub(name: str) -> str:
     return re.sub(r"[^a-z0-9 ]", "", n).strip() or name.lower()
 
 
+PUBLISHER_NAMES = {
+    "press releases from rbi": "RBI", "reserve bank of india": "RBI",
+    "economic times": "Economic Times", "mint": "Mint", "livemint": "Mint",
+    "businessday": "BusinessDay", "the guardian": "The Guardian",
+}
+
+
+def display_pub(name: str) -> str:
+    """Turns feed titles like 'Economy-News-Economic Times' or 'mint - markets' into
+    the outlet's plain name for the post footer."""
+    raw = (name or "").strip()
+    low = raw.lower()
+    for key, nice in PUBLISHER_NAMES.items():
+        if key in low:
+            return nice
+    raw = re.split(r"\s+[-|:\u2013\u2014]\s+", raw)[0]                     # 'mint - markets' -> 'mint'
+    raw = re.sub(r"^(?:[A-Za-z]+-)+(?=[A-Z])", "", raw)               # 'Economy-News-Economic Times'
+    raw = re.sub(r"\b(NG|RSS|Feed|Latest News|Top Stories)\b", "", raw).strip(" -|:")
+    return raw.title() if raw.isupper() and " " in raw else raw
+
+
 def is_tier1(publisher: str) -> bool:
     p = publisher.lower()
     return any(t in p for t in TIER1)
@@ -263,7 +284,7 @@ def compose(d: dict, region: str, st: dict, max_len: int) -> str:
     place = REGIONS[region].split(" ", 1)[1]
     n = len(st["outlets"])
     stamp = "🏛️ Official" if st["lead"]["official"] else (f"✅ {n} sources" if n >= 2 else "")
-    foot = f"📍 {place} · 📰 {st['lead']['publisher']}" + (f" · {stamp}" if stamp else "")
+    foot = f"📍 {place} · 📰 {display_pub(st['lead']['publisher'])}" + (f" · {stamp}" if stamp else "")
 
     head = f"{flag} {d['headline']}"
     what = f"📌 {d['what']}" if d.get("what") else ""

@@ -97,8 +97,8 @@ def _try_models(provider: str, models: list[str], call) -> str:
             return text
         except requests.HTTPError as e:
             last = e
-            if e.response is not None and e.response.status_code in (400, 403, 404):
-                continue          # model unknown / not enabled for this key: try the next one
+            if e.response is not None and e.response.status_code in (400, 403, 404, 429, 500, 502, 503):
+                continue          # model unknown, not enabled, or busy: try the next one
             raise
     raise last or RuntimeError(f"{provider}: no model configured")
 
@@ -117,7 +117,8 @@ def _openai_style(url: str, key: str, model: str, prompt: str, extra: dict | Non
 
 
 GEMINI_MODELS = ["gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-3.1-flash-lite", "gemini-2.5-flash"]
-GROQ_MODELS = ["llama-3.3-70b-versatile", "openai/gpt-oss-120b", "llama-3.1-8b-instant"]
+GROQ_MODELS = ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"]
+GROQ_OSS_MODELS = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
 OPENROUTER_PREFER = ("llama-3.3-70b", "gpt-oss-120b", "deepseek", "qwen", "gemma", "mistral", "llama")
 
 
@@ -140,6 +141,14 @@ def _groq(prompt: str, max_tokens: int = 200) -> str:
     return _try_models("Groq", _models("GROQ_MODEL", GROQ_MODELS), lambda m: _openai_style(
         "https://api.groq.com/openai/v1/chat/completions", os.environ["GROQ_API_KEY"], m, prompt,
         max_tokens=max_tokens))
+
+
+def _groq_oss(prompt: str, max_tokens: int = 200) -> str:
+    """A second, independent checker on the same free Groq key (a different model family).
+    It reasons before answering, so it gets extra room."""
+    return _try_models("Groq OSS", _models("GROQ_OSS_MODEL", GROQ_OSS_MODELS), lambda m: _openai_style(
+        "https://api.groq.com/openai/v1/chat/completions", os.environ["GROQ_API_KEY"], m, prompt,
+        max_tokens=max(max_tokens, 1200)))
 
 
 def _openrouter_free_models() -> list[str]:
@@ -179,6 +188,7 @@ def _claude(prompt: str, max_tokens: int = 200, model: str = "") -> str:
 CHECKERS = [
     ("Gemini", "GEMINI_API_KEY", _gemini),
     ("Groq Llama", "GROQ_API_KEY", _groq),
+    ("Groq GPT-OSS", "GROQ_API_KEY", _groq_oss),
     ("OpenRouter", "OPENROUTER_API_KEY", _openrouter),
     ("Grok", "XAI_API_KEY", _grok),
     ("Claude", "ANTHROPIC_API_KEY", _claude),
