@@ -1,0 +1,8 @@
+  draft 1 rejected: ["region name 'BERMUDA' not allowed", 'numbers not found in the sources: 500000, 800']
+  fact-check: Groq GPT-OSS: FAIL - The claim that Zelenskyy reacted furiously, calling the diesel deal 'absolutely terrible and not fair', is not supported by any of the provided sources.
+  draft 3 rejected: ['numbers not found in the sources: 800']
+  draft 4 rejected: ['numbers not found in the sources: 500000']
+  draft 5 rejected: ['regions must be three different regions', 'numbers not found in the sources: 800']
+  draft 6 rejected: ['numbers not found in the sources: 51654']
+93/171 sources returned news, 933 recent items
+no edition passed every check today; nothing published
