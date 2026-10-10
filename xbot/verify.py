@@ -85,9 +85,14 @@ def _models(env: str, defaults: list[str]) -> list[str]:
     return [chosen] if chosen else defaults
 
 
+_exhausted: set[str] = set()
+
+
 def _try_models(provider: str, models: list[str], call) -> str:
     """Tries each model in order. A busy model (429) gets one retry after a pause;
     a missing/blocked model or an empty reply moves on to the next model."""
+    if provider in _exhausted:
+        raise RuntimeError(f"{provider}: daily free limit reached")
     if provider in _working:
         models = [_working[provider]] + [m for m in models if m != _working[provider]]
     last: Exception | None = None
@@ -98,6 +103,9 @@ def _try_models(provider: str, models: list[str], call) -> str:
             except requests.HTTPError as e:
                 last = e
                 code = e.response.status_code if e.response is not None else 0
+                if code == 429 and "per-day" in (e.response.text if e.response is not None else ""):
+                    _exhausted.add(provider)   # daily allowance used up: stop asking this provider today
+                    raise
                 if code == 429 and attempt == 0:
                     time.sleep(20)      # free tiers limit requests per minute; wait and retry once
                     continue
@@ -194,9 +202,22 @@ def _claude(prompt: str, max_tokens: int = 200, model: str = "") -> str:
     return msg.content[0].text
 
 
+GROQ_ALT_MODELS = ["qwen/qwen3-32b", "moonshotai/kimi-k2-instruct", "meta-llama/llama-4-scout-17b-16e-instruct",
+                   "llama-3.3-70b-versatile"]
+
+
+def _groq_alt(prompt: str, max_tokens: int = 200) -> str:
+    """A third model family on the same free Groq key, so a check never depends on OpenRouter's
+    small free daily allowance alone."""
+    return _try_models("Groq Qwen", _models("GROQ_ALT_MODEL", GROQ_ALT_MODELS), lambda m: _openai_style(
+        "https://api.groq.com/openai/v1/chat/completions", os.environ["GROQ_API_KEY"], m, prompt,
+        max_tokens=max(max_tokens, 1200)))
+
+
 CHECKERS = [
     ("Gemini", "GEMINI_API_KEY", _gemini),
     ("Groq GPT-OSS", "GROQ_API_KEY", _groq_oss),
+    ("Groq Qwen", "GROQ_API_KEY", _groq_alt),
     ("OpenRouter", "OPENROUTER_API_KEY", _openrouter),
     ("Grok", "XAI_API_KEY", _grok),
     ("Claude", "ANTHROPIC_API_KEY", _claude),
@@ -233,13 +254,13 @@ def write(prompt: str) -> tuple[str, str]:
     raise RuntimeError("no writer model available (" + "; ".join(errors or ["no keys set"]) + ")")
 
 
-def fact_check(post: str, sources: list[dict], skip: str = "", limit: int = 6) -> tuple[bool, list[str]]:
+def fact_check(post: str, sources: list[dict], skip: str = "", limit: int = 6, template: str = "") -> tuple[bool, list[str]]:
     """Returns (approved, log lines). Approved only if no checker says FAIL
     and at least MIN_PASSES checkers say PASS. A checker that errors is ignored."""
     min_passes = int(os.environ.get("MIN_PASSES") or 2)
     src_text = "\n\n".join(
         f"[{s['publisher']}] {s['title']}\n{s['summary']}" for s in sources[:limit])
-    prompt = PROMPT.format(post=post, sources=src_text)
+    prompt = (template or PROMPT).format(post=post, sources=src_text)
 
     passes, log = 0, []
     for name, env, fn in CHECKERS:

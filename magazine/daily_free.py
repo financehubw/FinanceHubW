@@ -471,6 +471,21 @@ def slot_check_text(slot: str, out: dict) -> str:
     return " ".join(parts)
 
 
+CHECK = """You are a strict financial fact-checker. Below is the text of one magazine slide and the source
+reporting it is based on. Answer PASS only if every factual claim (numbers, names, places, directions like
+rise/fall, dates, who said or did what) is supported by the sources. Short plain-English explanations of a
+term (for example "a central bank, which sets interest rates") are fine. Answer FAIL if anything is
+unsupported, exaggerated, contradicted or phrased as advice or a prediction.
+
+Reply with JSON only: {{"verdict": "PASS" or "FAIL", "reason": "<one short sentence>"}}
+
+SLIDE TEXT:
+{post}
+
+SOURCES:
+{sources}"""
+
+
 def write_slot(slot: str, st: dict, writer_skip: list) -> tuple[dict | None, str]:
     extra = ""
     for attempt in range(3):
@@ -487,7 +502,7 @@ def write_slot(slot: str, st: dict, writer_skip: list) -> tuple[dict | None, str
         if errs:
             extra = "\nYour last answer was rejected: " + "; ".join(errs) + ". Last answer: " + json.dumps(out, ensure_ascii=False) + "\n"
             continue
-        ok, log = verify.fact_check(slot_check_text(slot, out), st["reports"], skip=writer, limit=10)
+        ok, log = verify.fact_check(slot_check_text(slot, out), st["reports"], skip=writer, limit=10, template=CHECK)
         print(f"  {slot} #{st['id']} draft {attempt + 1}: " + " | ".join(log), file=sys.stderr)
         if ok:
             return out, writer
