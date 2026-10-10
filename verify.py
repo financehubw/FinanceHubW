@@ -48,15 +48,24 @@ SOURCES:
 {sources}"""
 
 
-def _parse(text: str) -> tuple[bool, str]:
-    m = re.search(r"\{.*\}", text or "", re.S)
-    if not m:
-        return False, "unreadable reply"
-    try:
-        d = json.loads(m.group(0))
-    except json.JSONDecodeError:
-        return False, "unreadable reply"
-    return str(d.get("verdict", "")).upper() == "PASS", str(d.get("reason", ""))[:200]
+def _parse(text: str) -> tuple[bool | None, str]:
+    """(True, reason) for PASS, (False, reason) for FAIL, (None, snippet) if the reply
+    can't be read. An unreadable reply is not an objection, so it never blocks a post."""
+    text = text or ""
+    # reasoning models sometimes think out loud first; only the final answer matters
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.S)
+    for m in reversed(list(re.finditer(r"\{[^{}]*\}", text, re.S))):
+        try:
+            d = json.loads(m.group(0))
+        except json.JSONDecodeError:
+            continue
+        verdict = str(d.get("verdict", "")).strip().upper()
+        if verdict in ("PASS", "FAIL"):
+            return verdict == "PASS", str(d.get("reason", ""))[:200]
+    words = re.findall(r"\b(PASS|FAIL)\b", text.upper())
+    if words:
+        return words[-1] == "PASS", "(plain-text verdict)"
+    return None, "unreadable reply: " + re.sub(r"\s+", " ", text)[:80]
 
 
 _working: dict[str, str] = {}   # provider -> model that answered, reused for the rest of the run
@@ -220,7 +229,7 @@ def fact_check(post: str, sources: list[dict], skip: str = "") -> tuple[bool, li
             continue
         for attempt in range(2):
             try:
-                ok, reason = _parse(fn(prompt))
+                ok, reason = _parse(fn(prompt, 400))
                 break
             except Exception as e:  # noqa: BLE001  network, quota, bad model name
                 if attempt == 0:
@@ -252,8 +261,10 @@ def recheck(post: str, sources: list[dict]) -> tuple[int, int, list[str]]:
         if not os.environ.get(env):
             continue
         try:
-            ok, reason = _parse(fn(prompt))
+            ok, reason = _parse(fn(prompt, 400))
         except Exception:  # noqa: BLE001
+            continue
+        if ok is None:
             continue
         if ok:
             passes += 1
