@@ -20,7 +20,7 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v5
 
@@ -50,12 +50,16 @@ jobs:
           YOUTUBE_URL: ${{ vars.YOUTUBE_URL }}
           DRY_RUN: ${{ (inputs.dry_run || vars.DRY_RUN == '1') && '1' || '' }}
 
+      - name: Draw Story cards for new X posts
+        if: always()
+        run: python social/x_story.py render
+
       - name: Save posting history
         if: always()
         run: |
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          git add state.json docs/corrections.json site/tweets.json 2>/dev/null || true
+          git add state.json docs/corrections.json site/tweets.json site/media/stories social/stories_posted.json 2>/dev/null || true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Update posting history"
           for i in 1 2 3; do
@@ -63,3 +67,23 @@ jobs:
             sleep 5
           done
           exit 1
+
+      - name: Share new X posts as Instagram Stories
+        if: always()
+        run: python social/x_story.py post
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          DRY_RUN: ${{ (inputs.dry_run || vars.DRY_RUN == '1') && '1' || '' }}
+
+      - name: Save Story history
+        if: always()
+        run: |
+          git add social/stories_posted.json 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Record posted Stories"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 5
+          done
