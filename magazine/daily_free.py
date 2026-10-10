@@ -68,6 +68,7 @@ SAMPLE = {
     "up_body": "Citigroup, JPMorgan and Wells Fargo publish their profits on 13 October, the first real look at how the economy is holding up.",
     "up_photo": "nyse",
     "sources_used": ["Associated Press", "TheStreet", "Yahoo Finance"],
+    "story_ids": [3, 7, 12, 15, 21, 26, 30],
 }
 
 
@@ -150,7 +151,7 @@ HARD RULES
 - Region names must be one of: {regions}.
 - Photos: choose for each *_photo the key from PHOTOS whose subject matches that slide's story; use each key once.
 - Length limits (characters, hard maximum): {limits}
-- "sources_used": the outlets you took facts from.
+- "sources_used": the outlets you took facts from. "story_ids": the #numbers of EVERY source story you used.
 
 MODEL ANSWER (9 October 2026):
 {sample}
@@ -263,9 +264,11 @@ def shorten(ed: dict) -> dict:
             v = v["text"] if isinstance(v, dict) else v
             if not isinstance(v, str) or k not in todo or len(v) > todo[k][1] or numbers(v) - numbers(todo[k][0]):
                 continue
-            if k.startswith("region"):
+            if k in LIMITS:
+                ed[k] = v
+            elif k.startswith("region"):
                 ed["regions"][int(k[6:])]["text"] = v
-            elif k.startswith("biz"):
+            elif re.fullmatch(r"biz\d_(name|note)", k):
                 i, f = k[3:].split("_", 1)
                 ed["biz_stats"][int(i)][f] = v
             else:
@@ -401,7 +404,12 @@ def main() -> None:
             extra = "\nYOUR LAST DRAFT WAS REJECTED. Fix these and send the whole JSON again:\n- " + "\n- ".join(errs) + "\n"
             ed = None
             continue
-        ok, log = verify.fact_check(flatten(ed), [r for s in news for r in s["reports"]][:24], skip=writer)
+        used = [s for s in news if s["id"] in set(ed.get("story_ids") or [])]
+        if len(used) < 4:
+            extra = "\nList in story_ids the #numbers of every source story you used.\n"
+            ed = None
+            continue
+        ok, log = verify.fact_check(flatten(ed), [r for s in used for r in s["reports"][:3]][:30], skip=writer, limit=30)
         print("  fact-check: " + " | ".join(log), file=sys.stderr)
         if not ok:
             extra = "\nYOUR LAST DRAFT FAILED THE FACT-CHECK:\n" + "\n".join(log) + "\nRemove or fix anything not supported by the sources.\n"
