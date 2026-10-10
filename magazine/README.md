@@ -4,14 +4,14 @@ Two editions, built to look different at a glance:
 
 | | The Weekly | The Daily |
 |---|---|---|
-| When | Every Saturday, covering Monday to Friday | Tuesday to Friday mornings (IST), covering the previous market day |
+| When | Every Saturday, covering Monday to Friday | One for every market day, Monday to Friday, posted the next morning India time (Tuesday to Saturday) once US markets have closed |
 | Length | 20 slides | 6 slides |
 | Look | Dark and colourful, one colour per chapter, tinted photos, Bodoni Moda serif headlines | White pages, black sans-serif (Schibsted Grotesk) headlines, one coral band across the top of every slide, no photos |
 | Cover | Full-bleed photo with the issue title | Giant coral date numeral |
 | Name on slide | "The Weekly" box on the cover | "The Daily" plus the date in the coral band on every slide |
 | Job | One story that ties the week together | What happened today, in a minute |
 
-Saturday has no Daily: Friday's session is covered by The Weekly.
+Saturday morning carries both: Friday's Daily first, then The Weekly.
 
 The sections below describe The Weekly. The Daily follows the same steps with these paths:
 slides in `magazine/daily/YYYY-MM-DD/slides/01.html` ... `06.html` (the date is the market day
