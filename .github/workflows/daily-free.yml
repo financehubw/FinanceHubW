@@ -26,7 +26,11 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - run: pip install -r requirements.txt playwright && python -m playwright install --with-deps chromium
+      - name: Install
+        run: |
+          set -o pipefail
+          mkdir -p docs
+          (pip install -r requirements.txt playwright && python -m playwright install --with-deps chromium) 2>&1 | tail -n 30 | tee docs/daily_free.log
       - name: Write, check and render The Daily
         id: make
         env:
@@ -36,10 +40,11 @@ jobs:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
           MIN_PASSES: ${{ vars.MIN_PASSES }}
         run: |
+          set -o pipefail
           if [ "${{ github.event_name }}" = "push" ]; then
-            python magazine/daily_free.py "$(head -n1 magazine/sample_request.txt)" --sample
+            python magazine/daily_free.py "$(head -n1 magazine/sample_request.txt)" --sample 2>&1 | tee docs/daily_free.log
           else
-            python magazine/daily_free.py
+            python magazine/daily_free.py 2>&1 | tee docs/daily_free.log
           fi
       - name: Save
         if: always()
@@ -47,7 +52,7 @@ jobs:
           python social/build_archive.py || true
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          git add magazine/daily site/media/daily site/daily.json social/daily_queue.json site/archive.json
+          git add docs/daily_free.log; git add magazine/daily site/media/daily site/daily.json social/daily_queue.json site/archive.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "The Daily (free edition)"
           for i in 1 2 3; do
