@@ -29,4 +29,7 @@ Without them the workflow does nothing. Set the repo variable `SOCIAL_DRY_RUN=1`
   pink `#FF3D8B`, gold `#FABC4D`). Plus and minus signs next to big Bodoni numbers are set in
   Schibsted Grotesk, because Bodoni's own signs are too thin to see.
 - Every slide but the cover ends with a teaser for the next slide and a progress bar.
+- Copyright: the cover and the last slide carry "© <year> FinanceHubW", and the caption ends with
+  "© <year> FinanceHubW. All rights reserved. Share with credit to @financehubw." The terms are in
+  `CONTENT_LICENSE.md`.
 - Photo credits: `magazine/photos/CREDITS.md`. Fonts are under the SIL Open Font License.
