@@ -1,0 +1,52 @@
+name: Post Short
+
+on:
+  schedule:
+    - cron: "17 13 * * *"   # once a day, 6:47 PM IST
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview only (don't post)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: social
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install requests google-api-python-client google-auth
+      - name: Post next Short
+        run: python social/publish.py
+        env:
+          YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          DRY_RUN: ${{ (inputs.dry_run || vars.SOCIAL_DRY_RUN == '1') && '1' || '' }}
+      - name: Save what was posted
+        if: always()
+        run: |
+          git config user.name "FinanceHubW"
+          git config user.email "bot@financehubw.invalid"
+          git add social/posted.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Record posted Short"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 5
+          done
+          exit 1

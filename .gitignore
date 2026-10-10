@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 .env
+
+# never commit OAuth files
+client_secret*.json
+youtube_token.json

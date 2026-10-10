@@ -1,0 +1,44 @@
+{
+  "about": "Shorts waiting to be posted, oldest first. To add one: put the .mp4 in site/media/shorts/ and add an entry here. The publisher posts the first entry not yet in posted.json.",
+  "items": [
+    {
+      "file": "car_payment.mp4",
+      "title": "Your car payment could cost you $78,000",
+      "caption": "$1,000 a month for 5 years is $60,000 in car payments.\nInvested instead at around 10% a year, the same money could have grown to about $78,000.\nThe car loses value. The investment can grow. (Returns are not guaranteed.)",
+      "tags": [
+        "#personalfinance",
+        "#money",
+        "#investing",
+        "#carloan",
+        "#compoundinterest",
+        "#financetips"
+      ]
+    },
+    {
+      "file": "bank_spread.mp4",
+      "title": "Your bank pays you 0.5% and charges you 20%",
+      "caption": "A traditional savings account can pay as little as 0.5% a year.\nThe same bank's credit card can charge 20% or more.\nThat gap is how banks make money from you.",
+      "tags": [
+        "#banking",
+        "#creditcard",
+        "#savings",
+        "#personalfinance",
+        "#money",
+        "#financetips"
+      ]
+    },
+    {
+      "file": "bread_billion_marks.mp4",
+      "title": "When bread cost 200 billion marks",
+      "caption": "Germany, 1923. Prices doubled again and again until one loaf of bread cost about 200 billion marks.\nThis is what hyperinflation looks like.",
+      "tags": [
+        "#history",
+        "#inflation",
+        "#hyperinflation",
+        "#economics",
+        "#money",
+        "#germany"
+      ]
+    }
+  ]
+}
