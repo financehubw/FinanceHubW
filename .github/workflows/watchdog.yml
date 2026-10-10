@@ -1,0 +1,37 @@
+name: Watchdog
+
+# Fails (and GitHub emails the account owner) if anything stops posting.
+on:
+  schedule:
+    - cron: "41 4 * * *"   # every day 10:11 AM IST
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Check everything is still posting
+        run: |
+          python3 - <<'PY'
+          import json, sys, datetime as dt
+          now = dt.datetime.utcnow()
+          def age(path, key, field="date"):
+              try:
+                  items = json.load(open(path))[key]
+              except Exception:
+                  return None
+              ds = [i[field] for i in items if i.get(field)]
+              if not ds: return None
+              last = max(dt.datetime.fromisoformat(d.replace("Z", "")[:19]) for d in ds)
+              return (now - last).total_seconds() / 3600
+          problems = []
+          x = age("site/tweets.json", "posts")
+          if x is None or x > 24: problems.append(f"X: no post in the last 24 hours (last: {x and round(x)} h ago)")
+          s = age("social/posted.json", "posted")
+          if s is None or s > 30: problems.append(f"Shorts: none posted in the last 30 hours (last: {s and round(s)} h ago)")
+          if problems:
+              print("\n".join(problems)); print("See docs/last_run.log and the failed runs in the Actions tab.")
+              sys.exit(1)
+          print(f"OK: X {round(x)} h ago, Short {round(s)} h ago")
+          PY
