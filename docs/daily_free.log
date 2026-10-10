@@ -1,14 +1,9 @@
-89/171 sources returned news, 890 recent items
-  plan rejected: ['stories repeat']
-  big #1 draft 1: Groq GPT-OSS: PASS - All factual statements are directly supported by the provided sources. | OpenRouter: SKIP - unavailable (HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metada) | only 1 checker(s) passed, need 2
-  big #1 draft 2: Groq GPT-OSS: PASS - All factual statements are directly supported by the provided sources. | OpenRouter: SKIP - unavailable (HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metada) | only 1 checker(s) passed, need 2
-  big #1 draft 3: Groq GPT-OSS: PASS - All factual statements are directly supported by the provided sources. | OpenRouter: SKIP - unavailable (HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metada) | only 1 checker(s) passed, need 2
-  big: story #1 failed in 620s
-  big #5 draft 2: Groq GPT-OSS: FAIL - The post lacks the required 📍 place and 📰 source name tags matching the sources
-  big #5 draft 3: Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources. | OpenRouter: SKIP - unavailable (HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metada) | only 1 checker(s) passed, need 2
-  big: story #5 failed in 210s
-  big #8 draft 1: Groq GPT-OSS: PASS - All statements about ESMA's opinion, focus on asset‑referenced and e‑money tokens, unauthorized stablecoins, and the 2026 publication date are directly supported by the source. | OpenRouter: SKIP - unavailable (HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metada) | only 1 checker(s) passed, need 2
-  big #8 draft 2: Groq GPT-OSS: PASS - All statements about ESMA's opinion, focus on asset‑referenced and e‑money tokens, unauthorized stablecoins, and the 2026 publication date are directly supported by the source. | OpenRouter: SKIP - unavailable (HTTP 429: {"error":{"message":"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day","code":429,"metada) | only 1 checker(s) passed, need 2
-  big #8 draft 3: Groq GPT-OSS: FAIL - The statement that the EU 'warns' on crypto is not explicitly supported by the source.
-  big: story #8 failed in 416s
+89/171 sources returned news, 883 recent items
+  big: story #2 failed in 2s
+  big #3 draft 3: Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources. | Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","co) | OpenRouter: SKIP - unavailable (RuntimeError) | only 1 checker(s) passed, need 2
+  big: story #3 failed in 10s
+  big #10 draft 1: Groq GPT-OSS: PASS - All factual claims in the slide are directly supported by the FCA source. | Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","co) | OpenRouter: SKIP - unavailable (RuntimeError) | only 1 checker(s) passed, need 2
+  big #10 draft 2: Groq GPT-OSS: PASS - All factual claims in the slide are directly supported by the FCA source. | Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","co) | OpenRouter: SKIP - unavailable (RuntimeError) | only 1 checker(s) passed, need 2
+  big #10 draft 3: Groq GPT-OSS: PASS - All statements in the slide are directly supported by the FCA source. | Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","co) | OpenRouter: SKIP - unavailable (RuntimeError) | only 1 checker(s) passed, need 2
+  big: story #10 failed in 25s
 no story passed the checks for the big slide; nothing published
