@@ -59,6 +59,41 @@ def _parse(text: str) -> tuple[bool, str]:
     return str(d.get("verdict", "")).upper() == "PASS", str(d.get("reason", ""))[:200]
 
 
+_working: dict[str, str] = {}   # provider -> model that answered, reused for the rest of the run
+
+
+def _detail(e: Exception) -> str:
+    """Short, key-free reason for a failed call (HTTP status + start of the error body)."""
+    r = getattr(e, "response", None)
+    if r is not None:
+        body = re.sub(r"\s+", " ", (r.text or ""))[:140]
+        return f"HTTP {r.status_code}: {body}"
+    return type(e).__name__
+
+
+def _models(env: str, defaults: list[str]) -> list[str]:
+    chosen = os.environ.get(env, "").strip()
+    return [chosen] if chosen else defaults
+
+
+def _try_models(provider: str, models: list[str], call) -> str:
+    """Tries each model in order; moves on only when a model is missing or not allowed."""
+    if provider in _working:
+        models = [_working[provider]]
+    last = None
+    for model in models:
+        try:
+            text = call(model)
+            _working[provider] = model
+            return text
+        except requests.HTTPError as e:
+            last = e
+            if e.response is not None and e.response.status_code in (400, 403, 404):
+                continue          # model unknown / not enabled for this key: try the next one
+            raise
+    raise last or RuntimeError(f"{provider}: no model configured")
+
+
 def _openai_style(url: str, key: str, model: str, prompt: str, extra: dict | None = None,
                   max_tokens: int = 200) -> str:
     r = requests.post(
@@ -66,36 +101,57 @@ def _openai_style(url: str, key: str, model: str, prompt: str, extra: dict | Non
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json", **(extra or {})},
         json={"model": model, "temperature": 0, "max_tokens": max_tokens,
               "messages": [{"role": "user", "content": prompt}]},
-        timeout=45,
+        timeout=60,
     )
     r.raise_for_status()
-    return r.json()["choices"][0]["message"]["content"]
+    return r.json()["choices"][0]["message"]["content"] or ""
+
+
+GEMINI_MODELS = ["gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-3.1-flash-lite", "gemini-2.5-flash"]
+GROQ_MODELS = ["llama-3.3-70b-versatile", "openai/gpt-oss-120b", "llama-3.1-8b-instant"]
+OPENROUTER_PREFER = ("llama-3.3-70b", "gpt-oss-120b", "deepseek", "qwen", "gemma", "mistral", "llama")
 
 
 def _gemini(prompt: str, max_tokens: int = 200) -> str:
-    model = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
-    r = requests.post(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-        params={"key": os.environ["GEMINI_API_KEY"]},
-        json={"contents": [{"parts": [{"text": prompt}]}],
-              "generationConfig": {"temperature": 0, "maxOutputTokens": max_tokens}},
-        timeout=45,
-    )
-    r.raise_for_status()
-    return r.json()["candidates"][0]["content"]["parts"][0]["text"]
+    def call(model):
+        r = requests.post(
+            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+            headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},   # header, so the key never appears in logs
+            json={"contents": [{"parts": [{"text": prompt}]}],
+                  "generationConfig": {"temperature": 0, "maxOutputTokens": max_tokens}},
+            timeout=60,
+        )
+        r.raise_for_status()
+        parts = r.json()["candidates"][0]["content"]["parts"]
+        return "".join(p.get("text", "") for p in parts)
+    return _try_models("Gemini", _models("GEMINI_MODEL", GEMINI_MODELS), call)
 
 
 def _groq(prompt: str, max_tokens: int = 200) -> str:
-    return _openai_style("https://api.groq.com/openai/v1/chat/completions", os.environ["GROQ_API_KEY"],
-                         os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile"), prompt,
-                         max_tokens=max_tokens)
+    return _try_models("Groq", _models("GROQ_MODEL", GROQ_MODELS), lambda m: _openai_style(
+        "https://api.groq.com/openai/v1/chat/completions", os.environ["GROQ_API_KEY"], m, prompt,
+        max_tokens=max_tokens))
+
+
+def _openrouter_free_models() -> list[str]:
+    """Free models change often, so ask OpenRouter which ones exist right now."""
+    try:
+        r = requests.get("https://openrouter.ai/api/v1/models", timeout=30)
+        r.raise_for_status()
+        ids = [m["id"] for m in r.json().get("data", []) if str(m.get("id", "")).endswith(":free")]
+    except Exception:  # noqa: BLE001
+        return []
+    ranked = sorted(ids, key=lambda i: next((n for n, k in enumerate(OPENROUTER_PREFER) if k in i),
+                                            len(OPENROUTER_PREFER)))
+    return ranked[:5]
 
 
 def _openrouter(prompt: str, max_tokens: int = 200) -> str:
-    return _openai_style("https://openrouter.ai/api/v1/chat/completions", os.environ["OPENROUTER_API_KEY"],
-                         os.environ.get("OPENROUTER_MODEL", "meta-llama/llama-3.3-70b-instruct:free"), prompt,
-                         {"HTTP-Referer": "https://x.com/FinanceHubW", "X-Title": "FinanceHubW"},
-                         max_tokens=max_tokens)
+    models = _models("OPENROUTER_MODEL", []) or _openrouter_free_models()
+    return _try_models("OpenRouter", models, lambda m: _openai_style(
+        "https://openrouter.ai/api/v1/chat/completions", os.environ["OPENROUTER_API_KEY"], m, prompt,
+        {"HTTP-Referer": "https://financehubw-site.vercel.app", "X-Title": "FinanceHubW"},
+        max_tokens=max_tokens))
 
 
 def _grok(prompt: str) -> str:
@@ -146,7 +202,7 @@ def write(prompt: str) -> tuple[str, str]:
                 if attempt < 2:
                     time.sleep(10 * (attempt + 1))
                     continue
-                errors.append(f"{name}: {type(e).__name__}")
+                errors.append(f"{name}: {_detail(e)}")
     raise RuntimeError("no writer model available (" + "; ".join(errors or ["no keys set"]) + ")")
 
 
@@ -170,7 +226,7 @@ def fact_check(post: str, sources: list[dict], skip: str = "") -> tuple[bool, li
                 if attempt == 0:
                     time.sleep(3)
                     continue
-                ok, reason = None, f"unavailable ({type(e).__name__})"
+                ok, reason = None, f"unavailable ({_detail(e)})"
         log.append(f"{name}: {'PASS' if ok else 'FAIL' if ok is False else 'SKIP'} - {reason}")
         if ok is False:
             return False, log  # one objection is enough
