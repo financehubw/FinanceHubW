@@ -35,8 +35,9 @@ import newsroom
 import verify
 from sources import FEEDS, REGIONS, TIER1
 
-ROOT = Path(__file__).parent
-STATE_FILE = ROOT / "state.json"
+HERE = Path(__file__).parent
+ROOT = HERE.parent
+STATE_FILE = HERE / "state.json"
 SITE_FEED = ROOT / "site" / "tweets.json"   # read by the website's "Live from X" calendar
 SITE_FEED_KEEP = 3000
 HANDLE = os.environ.get("X_HANDLE", "FinanceHubW")
@@ -416,7 +417,7 @@ PROMOS = [
 # (hour, minute) in IST -> special post type
 SPECIALS = {(7, 0): "global_close", (8, 30): "brief", (9, 0): "promo", (13, 0): "word",
             (16, 0): "india_close", (16, 30): "wrap", (20, 0): "promo"}
-GLOSSARY = json.loads((ROOT / "glossary.json").read_text())
+GLOSSARY = json.loads((HERE / "glossary.json").read_text())
 
 
 def _fit(lines: list[str], tail: str, max_len: int = TWEET_LIMIT) -> str:

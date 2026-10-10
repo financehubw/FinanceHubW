@@ -2,10 +2,23 @@
 
 Automated finance news account for X, plus the FinanceHubW brand kit.
 
-## What the bot does
-Every 30 minutes GitHub Actions runs `bot.py`:
+## Folder map
 
-1. **Reads 170+ sources covering 49 countries and regions** (`sources.py`): 82 direct feeds from newsrooms, exchanges,
+| Folder | What's in it |
+|---|---|
+| `xbot/` | The X bot: news sources, writing, fact-checking, posting (`bot.py`), its memory (`state.json`) |
+| `social/` | Posting to YouTube, Instagram and Facebook: Shorts queue, magazine posting, Stories, news Shorts |
+| `magazine/` | The Weekly and The Daily: renderer, fonts, photos, issue sources |
+| `motion/` | Motion-graphics Shorts engine, sound design and fonts |
+| `site/` | The website (financehubw-site.vercel.app) and every image/video it serves |
+| `brand/` | Logo, profile pictures, banners |
+| `docs/` | Public corrections log and the bot's latest run log |
+| `.github/workflows/` | The schedules: X every 30 min, Shorts daily, magazine, source checks |
+
+## What the bot does
+Every 30 minutes GitHub Actions runs `xbot/bot.py`:
+
+1. **Reads 170+ sources covering 49 countries and regions** (`xbot/sources.py`): 82 direct feeds from newsrooms, exchanges,
    central banks and regulators (RBI, SEBI, Fed, SEC, ECB, BoE, BoJ, MAS, RBA, Bank of Canada, IMF,
    World Bank, BIS…) plus 51 Google News searches covering India, US, UK, Europe, Japan, China,
    Hong Kong, Singapore, Australia, Canada, Korea, Middle East, Africa, Latin America, crypto,
@@ -14,7 +27,7 @@ Every 30 minutes GitHub Actions runs `bot.py`:
 3. **Trust filter:** a story is only considered if 2+ independent outlets report it, or it comes
    from an official body, or from a top-tier newsroom. Single-source rumours are dropped.
 4. **Claude writes the post** from the combined reporting and picks the region.
-5. **AI fact-check (`verify.py`):** Gemini, Groq (Llama), OpenRouter and Grok (whichever keys you add)
+5. **AI fact-check (`xbot/verify.py`):** Gemini, Groq (Llama), OpenRouter and Grok (whichever keys you add)
    plus Claude each check every number, name and region against the source reports.
    **One FAIL blocks the post**, and at least 2 checkers must PASS (`MIN_PASSES`).
 6. **Posts to X** (default 2 per run = up to 96/day, set `POSTS_PER_RUN`, max 6) in one fixed
@@ -61,7 +74,7 @@ Add at least two of the free ones. Model names can be changed with repo variable
 |---|---|
 | 8:30 AM | 🌅 Morning brief: top 3 verified stories |
 | 9:00 AM | 📺 YouTube promo |
-| 1:00 PM | 📚 Finance word of the day (hand-written, `glossary.json`) |
+| 1:00 PM | 📚 Finance word of the day (hand-written, `xbot/glossary.json`) |
 | 7:00 AM | 🌐 Global markets overnight (live prices) |
 | 4:00 PM | 📈 India markets at close (live prices) |
 | 4:30 PM | 🌆 Market wrap after Indian close |
@@ -71,7 +84,7 @@ Add at least two of the free ones. Model names can be changed with repo variable
 
 | Sunday 11:00 AM | 🗳️ Weekly poll |
 
-## Runs itself like a newsroom (`newsroom.py`)
+## Runs itself like a newsroom (`xbot/newsroom.py`)
 - **Natural rhythm:** post count varies by hour with randomness; busier in Indian market hours and
   the US open, silent 1-6 AM IST unless there's breaking news, bursts on big news days.
 - **🔄 Updates:** new reporting on a story already posted becomes an UPDATE that quotes the original.
@@ -112,7 +125,7 @@ How we work 👇
 Private repos get 2,000 GitHub Actions minutes/month, which this bot can exceed. Make the repo
 public (Settings → General → Change visibility) for unlimited free minutes. Keys stay safe in Secrets.
 
-Briefs only use stories that already passed fact-checking. Add terms to `glossary.json` any time.
+Briefs only use stories that already passed fact-checking. Add terms to `xbot/glossary.json` any time.
 YouTube link: set repo variable `YOUTUBE_URL` to change it. Profile tip: put `youtube.com/@FinanceHubW` in the X bio and your X link on YouTube.
 
 ## One-time setup
@@ -131,7 +144,7 @@ YouTube link: set repo variable `YOUTUBE_URL` to change it. Profile tip: put `yo
 
 ## Controls
 - Pause: Actions → *Post finance update* → ⋯ → Disable workflow.
-- Sources: `sources.py` (add any RSS feed or Google News search). Topic weighting: `PRIORITY_WORDS` in `bot.py`.
+- Sources: `xbot/sources.py` (add any RSS feed or Google News search). Topic weighting: `PRIORITY_WORDS` in `xbot/bot.py`.
 - Failures: GitHub emails you when a run fails.
 
 ## Brand kit (`brand/`)
@@ -161,7 +174,7 @@ Code: MIT (see `LICENSE`). Posts and the FinanceHubW name, logo and brand assets
 
 The public site lives in `site/` and is deployed by Vercel (project root directory: `site`).
 
-- `site/tweets.json` is written by `bot.py` every time a post is published. The site's
+- `site/tweets.json` is written by `xbot/bot.py` every time a post is published. The site's
   "Live from X" calendar reads it, so the archive fills itself.
 - `site/magazine.json` holds the weekly magazine. Add a new object to `issues` each week
   (highest `issue` number shows first) and set `"sample": false` once the first real issue is in.
