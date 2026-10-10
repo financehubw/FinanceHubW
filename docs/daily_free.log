@@ -1,6 +1,0 @@
-  draft 1 rejected: ['big_stat_l2 is 30 characters, limit 28', 'pol_stat_l1 is 27 characters, limit 26', 'biz_stats note missing or too long', 'biz_stats note missing or too long']
-  draft 2 rejected: ['cover_title is 23 characters, limit 22', "region name 'BERMUDA' not allowed", 'biz_stats name missing or too long']
-  draft 3 rejected: ['up_body is 147 characters, limit 140']
-  draft 4 rejected: ['cover_title is 23 characters, limit 22', 'big_body is 156 characters, limit 150', 'big_stat_l2 is 30 characters, limit 28', 'pol_body is 187 characters, limit 170', 'pol_stat_l1 is 29 characters, limit 26', 'biz_headline is 35 characters, limit 34', 'region text too long (THE AMERICAS)', 'region text too long (MIDDLE EAST)', 'biz_stats note missing or too long', 'numbers not found in the sources: 19657.5']
-49/171 sources returned news, 649 recent items
-no edition passed every check today; nothing published

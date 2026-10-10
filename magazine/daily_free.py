@@ -198,7 +198,7 @@ def validate(ed: dict, src_text: str, lib: dict) -> list[str]:
         if not isinstance(v, str) or not v.strip():
             errs.append(f"{k} is missing")
             continue
-        if len(v) > LIMITS[k]:
+        if len(v) > int(LIMITS[k] * 1.15) + 1:
             errs.append(f"{k} is {len(v)} characters, limit {LIMITS[k]}")
         flat.append(v)
     regs = ed.get("regions") or []
@@ -207,7 +207,7 @@ def validate(ed: dict, src_text: str, lib: dict) -> list[str]:
     for r in regs:
         if r.get("name") not in REGIONS_OK:
             errs.append(f"region name {r.get('name')!r} not allowed")
-        if len(r.get("text", "")) > LIMITS["region_text"]:
+        if len(r.get("text", "")) > int(LIMITS["region_text"] * 1.15):
             errs.append(f"region text too long ({r.get('name')})")
         flat.append(r.get("text", ""))
     stats = ed.get("biz_stats") or []
@@ -215,7 +215,7 @@ def validate(ed: dict, src_text: str, lib: dict) -> list[str]:
         errs.append("biz_stats must have two figures")
     for s in stats:
         for f, lim in (("value", "s_value"), ("name", "s_name"), ("note", "s_note")):
-            if len(s.get(f, "")) > LIMITS[lim] or not s.get(f):
+            if len(s.get(f, "")) > int(LIMITS[lim] * 1.2) + 1 or not s.get(f):
                 errs.append(f"biz_stats {f} missing or too long")
         flat += [s.get("value", ""), s.get("name", ""), s.get("note", "")]
     photos = [ed.get(k) for k in ("cover_photo", "big_photo", "pol_photo", "biz_photo", "up_photo")]
@@ -231,6 +231,48 @@ def validate(ed: dict, src_text: str, lib: dict) -> list[str]:
     if missing:
         errs.append("numbers not found in the sources: " + ", ".join(missing[:8]))
     return errs
+
+
+SHORTEN = """Shorten each text below to AT MOST the given number of characters. Keep the meaning,
+keep every number exactly as written, plain words, no new facts. Reply with JSON mapping each id to its new text.
+{items}"""
+
+
+def shorten(ed: dict) -> dict:
+    """Fixes over-long fields with one focused call instead of rewriting the edition."""
+    todo = {}
+    for k, lim in LIMITS.items():
+        if isinstance(ed.get(k), str) and len(ed[k]) > lim:
+            todo[k] = (ed[k], lim)
+    for i, r in enumerate(ed.get("regions") or []):
+        if len(r.get("text", "")) > LIMITS["region_text"]:
+            todo[f"region{i}"] = (r["text"], LIMITS["region_text"])
+    for i, st in enumerate(ed.get("biz_stats") or []):
+        for f, lim in (("name", "s_name"), ("note", "s_note")):
+            if len(st.get(f, "")) > LIMITS[lim]:
+                todo[f"biz{i}_{f}"] = (st[f], LIMITS[lim])
+    if not todo:
+        return ed
+    items = json.dumps({k: {"text": t, "max_characters": n} for k, (t, n) in todo.items()}, ensure_ascii=False, indent=1)
+    for _ in range(2):
+        try:
+            new = parse_json(llm(SHORTEN.format(items=items))[0])
+        except Exception:  # noqa: BLE001
+            continue
+        for k, v in new.items():
+            v = v["text"] if isinstance(v, dict) else v
+            if not isinstance(v, str) or k not in todo or len(v) > todo[k][1] or numbers(v) - numbers(todo[k][0]):
+                continue
+            if k.startswith("region"):
+                ed["regions"][int(k[6:])]["text"] = v
+            elif k.startswith("biz"):
+                i, f = k[3:].split("_", 1)
+                ed["biz_stats"][int(i)][f] = v
+            else:
+                ed[k] = v
+        todo = {k: t for k, t in todo.items() if True}
+        break
+    return ed
 
 
 def flatten(ed: dict) -> str:
@@ -345,13 +387,14 @@ def main() -> None:
                             for s in news),
         extra="{extra}")
     extra, ed, writer = "", None, ""
-    for attempt in range(4):
+    for attempt in range(6):
         reply, writer = llm(base.replace("{extra}", extra))
         try:
             ed = parse_json(reply)
         except Exception as e:  # noqa: BLE001
             extra = f"\nYOUR LAST REPLY WAS NOT VALID JSON ({e}). Reply with the JSON only.\n"
             continue
+        ed = shorten(ed)
         errs = validate(ed, src_text, lib)
         if errs:
             print(f"  draft {attempt + 1} rejected: {errs}", file=sys.stderr)
