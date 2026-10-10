@@ -519,11 +519,21 @@ def main() -> None:
                 day_long=day_long, photos="\n".join(f"{k}: {v['subject']}" for k, v in lib.items()),
                 sources="\n\n".join(f"#{s['id']} ({s['region']}, {s['category']}; reported by {', '.join(s['outlets'])})\n" + story_text(s)
                                     for s in news)))[0])
+            for k in ("big", "r1", "r2", "r3", "pol", "biz", "up"):
+                plan[k] = int(str(plan[k]).lstrip("#"))
+            plan["backups"] = [int(str(b).lstrip("#")) for b in plan.get("backups", [])]
             ids = [plan[k] for k in ("big", "r1", "r2", "r3", "pol", "biz", "up")]
-            ph = plan["photos"]
-            if all(i in by_id for i in ids) and len(set(ids)) == 7 and all(ph.get(k) in lib for k in ("cover", "big", "pol", "biz", "up")) \
-                    and len({ph[k] for k in ("cover", "big", "pol", "biz", "up")}) == 5:
+            ph = plan.get("photos") or {}
+            seen = set()
+            for k in ("cover", "big", "pol", "biz", "up"):      # repair bad or repeated photo picks
+                if ph.get(k) not in lib or ph[k] in seen:
+                    ph[k] = next(x for x in lib if x not in seen and x not in ph.values())
+                seen.add(ph[k])
+            plan["photos"] = ph
+            problems = [f"#{i} unknown" for i in ids if i not in by_id] + (["stories repeat"] if len(set(ids)) < 7 else [])
+            if not problems:
                 break
+            print(f"  plan rejected: {problems}", file=sys.stderr)
         except Exception as e:  # noqa: BLE001
             print(f"  plan rejected: {e}", file=sys.stderr)
         plan = None
