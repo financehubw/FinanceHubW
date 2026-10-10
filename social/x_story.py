@@ -61,20 +61,41 @@ def card(post: dict, out: Path) -> None:
         img.paste(m, (90, 170), m)
     d.text((200, 182), "FinanceHubW", font=font("archivo-latin-800-normal.ttf", 44), fill=INK)
     d.text((200, 236), "LIVE FROM X", font=font("archivo-latin-600-normal.ttf", 28), fill=CORAL)
-    text = post["text"].split("\n\nhttp")[0].strip()
-    text = " ".join(w for w in text.split(" ") if not w.startswith("http")) if "http" in text else text
-    for size in (64, 58, 52, 46, 40, 36):
-        f = font("archivo-latin-600-normal.ttf", size)
-        lines = wrap(d, text, f, W - 180)
-        if len(lines) * size * 1.32 < 1050:
+    import re
+    lines_in = [ln for ln in post["text"].split("\n") if not ln.strip().startswith("http")]
+    clean = [re.sub(r"[^\u0000-\u024F\u2010-\u2027\u2030-\u205E\u20AC\u2122]", "", ln).strip(" ·") for ln in (l.replace("\u2192", " to ") for l in lines_in)]
+    head = clean[0] if clean else ""
+    rest = [c for c in clean[1:] if c and not c.startswith("#")]
+    foot = rest.pop() if rest and ("·" in lines_in[-1] or "📍" in lines_in[-1]) else ""
+    head = head.replace("BREAKING:", "").strip()
+    rest = [r.replace("\u2192", "to") for r in rest]
+    y = 470
+    if "BREAKING" in lines_in[0]:
+        d.text((90, y - 70), "BREAKING", font=font("archivo-latin-800-normal.ttf", 34), fill=CORAL)
+    for hs in (84, 76, 68, 60, 54):
+        hf = font("archivo-latin-800-normal.ttf", hs)
+        hl = wrap(d, head, hf, W - 180)
+        if len(hl) <= 4:
             break
-    y = 420
-    d.text((90, y - 10), "“", font=font("fraunces-latin-900-normal.ttf", 160), fill=CORAL)
-    y += 130
-    for ln in lines:
-        d.text((90, y), ln, font=f, fill=INK)
-        y += int(size * 1.32)
+    for ln in hl:
+        d.text((90, y), ln, font=hf, fill=INK)
+        y += int(hs * 1.15)
+    y += 40
+    d.rectangle([90, y, 210, y + 8], fill=CORAL)
+    y += 60
+    for bs in (44, 40, 36, 32):
+        bf = font("archivo-latin-600-normal.ttf", bs)
+        blocks = [wrap(d, r, bf, W - 180) for r in rest]
+        if sum(len(b) for b in blocks) * bs * 1.35 + len(blocks) * 28 < (H - 470) - y:
+            break
+    for blk in blocks:
+        for ln in blk:
+            d.text((90, y), ln, font=bf, fill=(214, 208, 198))
+            y += int(bs * 1.35)
+        y += 28
     when = dt.datetime.strptime(post["date"], "%Y-%m-%dT%H:%M:%SZ").strftime("%-d %b %Y, %H:%M UTC")
+    if foot:
+        d.text((90, H - 390), foot[:60], font=font("archivo-latin-600-normal.ttf", 30), fill=CORAL)
     d.text((90, H - 330), when, font=font("archivo-latin-600-normal.ttf", 30), fill=MUTED)
     d.rectangle([90, H - 260, W - 90, H - 258], fill=(60, 57, 52))
     d.text((90, H - 225), "Follow @FinanceHubW on X for live updates",
