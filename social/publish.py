@@ -31,8 +31,8 @@ POSTED = ROOT / "social" / "posted.json"
 SHORTS = ROOT / "site" / "media" / "shorts"
 SITE_URL = (os.environ.get("SITE_URL") or "https://financehubw-site.vercel.app").rstrip("/")
 GRAPH = "https://graph.facebook.com/v21.0"
-FOOTER = ("\n\nFull breakdowns on YouTube: @FinanceHubW\n"
-          "Narration is AI-generated. Educational content, not financial advice.")
+FOOTER = "\n\nFull breakdowns on YouTube: @FinanceHubW\nEducational content, not financial advice."
+AI_NOTE = "\nNarration is AI-generated."
 
 
 def load(p: Path, default):
@@ -51,7 +51,8 @@ def next_item() -> dict | None:
 
 
 def caption_for(item: dict) -> str:
-    return item["caption"] + FOOTER + "\n\n" + " ".join(item.get("tags", []))
+    note = AI_NOTE if item.get("ai_voice", True) else ""
+    return item["caption"] + FOOTER + note + "\n\n" + " ".join(item.get("tags", []))
 
 
 # ---------------------------------------------------------------- YouTube
@@ -66,7 +67,8 @@ def post_youtube(item: dict, path: Path) -> str:
         "snippet": {"title": title, "description": caption_for(item),
                     "tags": [t.lstrip("#") for t in item.get("tags", [])], "categoryId": "27"},
         "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False,
-                   "containsSyntheticMedia": True},   # YouTube's altered/synthetic content disclosure
+                   # YouTube's altered/synthetic content disclosure (realistic AI voice)
+                   "containsSyntheticMedia": bool(item.get("ai_voice", True))},
     }
     r = yt.videos().insert(part="snippet,status", body=body,
                            media_body=MediaFileUpload(str(path), resumable=True)).execute()

@@ -175,8 +175,19 @@ def sc_tiles(s, t, d):
 def sc_shrink(s, t, d):
     """A bill shrinking while a year counter runs."""
     k = ease_in_out(seg(t, 0.4, d - 0.8))
-    yr = int(s["y0"] + (s["y1"] - s["y0"]) * k)
-    val = s["v0"] + (s["v1"] - s["v0"]) * k
+    yr_f = s["y0"] + (s["y1"] - s["y0"]) * k
+    yr = int(yr_f)
+    if s.get("table"):
+        # real data points [[year, value], ...]: every on-screen pair (year, value) is true,
+        # not a straight line between the two ends
+        tab = s["table"]
+        val = tab[-1][1]
+        for (ya, va), (yb, vb) in zip(tab, tab[1:]):
+            if ya <= yr <= yb:                       # value for the year actually shown
+                val = va + (vb - va) * ((yr - ya) / (yb - ya) if yb > ya else 1)
+                break
+    else:
+        val = s["v0"] + (s["v1"] - s["v0"]) * k
     scale = math.sqrt(val / s["v0"])
     bw, bh = 700 * scale, 320 * scale
     cx, cy = W / 2, 1020

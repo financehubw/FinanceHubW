@@ -12,7 +12,22 @@
         "#carloan",
         "#compoundinterest",
         "#financetips"
-      ]
+      ],
+      "ai_voice": true
+    },
+    {
+      "file": "m1_ten_year_head_start.mp4",
+      "title": "Start investing at 20 or 30? The gap is $298,066",
+      "caption": "$100 a month at 8% a year, invested until 65.\nStart at 20: about $527,454. Start at 30: about $229,388.\nTen extra years of saving, just $12,000 more put in, is worth roughly $298,000.",
+      "tags": [
+        "#investing",
+        "#compoundinterest",
+        "#personalfinance",
+        "#money",
+        "#financetips",
+        "#wealth"
+      ],
+      "ai_voice": false
     },
     {
       "file": "bank_spread.mp4",
@@ -25,7 +40,22 @@
         "#personalfinance",
         "#money",
         "#financetips"
-      ]
+      ],
+      "ai_voice": true
+    },
+    {
+      "file": "m4_five_dollar_coffee.mp4",
+      "title": "Your $5 coffee could be worth $226,659",
+      "caption": "$5 a day is $1,825 a year.\nInvested instead for 30 years at 8% a year, compounded monthly, it grows to about $226,659.\nSmall habits, big numbers.",
+      "tags": [
+        "#money",
+        "#savingmoney",
+        "#investing",
+        "#compoundinterest",
+        "#personalfinance",
+        "#financetips"
+      ],
+      "ai_voice": false
     },
     {
       "file": "bread_billion_marks.mp4",
@@ -38,7 +68,50 @@
         "#economics",
         "#money",
         "#germany"
-      ]
+      ],
+      "ai_voice": true
+    },
+    {
+      "file": "m2_rule_of_72.mp4",
+      "title": "The Rule of 72 in 15 seconds",
+      "caption": "Divide 72 by your yearly return to see how fast money doubles.\nAt 8%, $10,000 doubles about every 9 years: $20k, $40k, $80k, $160k by year 36.",
+      "tags": [
+        "#ruleof72",
+        "#investing",
+        "#compoundinterest",
+        "#money",
+        "#personalfinance",
+        "#financetips"
+      ],
+      "ai_voice": false
+    },
+    {
+      "file": "m3_100_shrinking.mp4",
+      "title": "What 3% inflation does to $100",
+      "caption": "At 3% inflation a year, $100 today buys only about $49 worth of things in 24 years.\nCash that sits still loses value.",
+      "tags": [
+        "#inflation",
+        "#money",
+        "#savings",
+        "#personalfinance",
+        "#economics",
+        "#financetips"
+      ],
+      "ai_voice": false
+    },
+    {
+      "file": "m5_1970_dollar.mp4",
+      "title": "What happened to the 1970 dollar?",
+      "caption": "A dollar from 1970 buys only about 12 cents' worth of things today.\nThat's roughly 88% of its buying power gone (US CPI data).",
+      "tags": [
+        "#inflation",
+        "#history",
+        "#money",
+        "#economics",
+        "#usd",
+        "#personalfinance"
+      ],
+      "ai_voice": false
     }
   ]
 }
