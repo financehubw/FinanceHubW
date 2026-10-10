@@ -20,7 +20,7 @@ concurrency:
 jobs:
   daily:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -33,7 +33,9 @@ jobs:
           (pip install -r requirements.txt playwright && python -m playwright install --with-deps chromium) 2>&1 | tail -n 30 | tee docs/daily_free.log
       - name: Write, check and render The Daily
         id: make
+        timeout-minutes: 45
         env:
+          PYTHONUNBUFFERED: "1"
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}

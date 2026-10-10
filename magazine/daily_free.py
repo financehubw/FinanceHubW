@@ -542,10 +542,16 @@ def main() -> None:
     backups = [b for b in plan.get("backups", []) if b in by_id]
     used, ed, writers, regions = set(), {"regions": [None, None, None], "story_ids": []}, set(), set()
     for slot in ("big", "pol", "biz", "up", "r1", "r2", "r3"):
+        tried = 0
         for sid in [plan[slot]] + backups:
+            if tried >= 3:
+                break
             if sid in used:
                 continue
+            tried += 1
+            t0 = time.time()
             out, w = write_slot(slot, by_id[sid], [])
+            print(f"  {slot}: story #{sid} {'ok' if out else 'failed'} in {time.time() - t0:.0f}s", file=sys.stderr)
             if not out:
                 continue
             if slot.startswith("r"):
@@ -559,7 +565,7 @@ def main() -> None:
             ed["story_ids"].append(sid)
             writers.add(w)
             break
-        else:
+        if slot.startswith("r") and ed["regions"][int(slot[1]) - 1] is None or not slot.startswith("r") and not ed.get(SLOT_FIELDS[slot][0]):
             sys.exit(f"no story passed the checks for the {slot} slide; nothing published")
     ph = plan["photos"]
     ed.update({"cover_photo": ph["cover"], "big_photo": ph["big"], "pol_photo": ph["pol"],
