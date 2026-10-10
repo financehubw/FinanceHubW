@@ -68,7 +68,7 @@ jobs:
           python social/build_archive.py || true
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          for f in xbot/state.json docs/corrections.json site/tweets.json docs/last_run.log site/media/stories social/stories_posted.json site/archive.json; do [ -e "$f" ] && git add "$f"; done
+          for f in xbot/state.json docs/corrections.json site/tweets.json docs/last_run.log site/media/stories social/stories_posted.json site/archive.json; do if [ -e "$f" ]; then git add "$f"; fi; done
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Update posting history"
           for i in 1 2 3; do
