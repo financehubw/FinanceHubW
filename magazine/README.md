@@ -5,7 +5,7 @@ Two editions, built to look different at a glance:
 | | The Weekly | The Daily |
 |---|---|---|
 | When | Every Saturday, covering Monday to Friday | One for every market day, Monday to Friday, posted the next morning India time (Tuesday to Saturday) once US markets have closed |
-| Length | 20 slides | 6 slides |
+| Length | 20 slides | 7 slides |
 | Look | Dark and colourful, one colour per chapter, tinted photos, Bodoni Moda serif headlines | White pages, black sans-serif (Schibsted Grotesk) headlines, one coral band across the top of every slide, no photos |
 | Cover | Full-bleed photo with the issue title | Giant coral date numeral |
 | Name on slide | "The Weekly" box on the cover | "The Daily" plus the date in the coral band on every slide |
@@ -14,13 +14,20 @@ Two editions, built to look different at a glance:
 Saturday morning carries both: Friday's Daily first, then The Weekly.
 
 The sections below describe The Weekly. The Daily follows the same steps with these paths:
-slides in `magazine/daily/YYYY-MM-DD/slides/01.html` ... `06.html` (the date is the market day
+slides in `magazine/daily/YYYY-MM-DD/slides/01.html` ... `07.html` (the date is the market day
 covered), `python magazine/render.py daily YYYY-MM-DD`, an entry in `site/daily.json`
-(date, label, title, summary, `"slides": 6`) and an entry in `social/daily_queue.json`
-(date, title, caption). Daily slide order: cover, the story, around the world, mover of the day,
-also today, up next. The Daily covers the whole world, not only America: the "around the world"
-slide shows two indexes each for Asia, Europe and the Americas, and the story, the mover and the
-"also today" items are picked from wherever the day's biggest news was. Never restyle one edition to look like the other.
+(date, label, title, summary, `"slides": 7`) and an entry in `social/daily_queue.json`
+(date, title, caption). Daily slide order: cover, the big story, around the world,
+money and policy, business, markets in one look, up next.
+
+Both editions cover the finance of the whole world, not only stock markets and not only America.
+Look across central banks and interest rates, governments, taxes and budgets, trade and tariffs,
+economies (inflation, jobs, growth), currencies, energy and commodities, banks, big companies and
+deals, technology money, crypto, and anything that changes what ordinary people pay or earn.
+Look across regions: the Americas, Europe, Asia-Pacific, the Middle East and Africa. India is the
+one exception and is left out. In The Daily, "around the world" carries one line each for three
+different regions, "money and policy" is a central-bank, government or economy story, "business"
+is a company or deal story, and share prices get one slide only. Never restyle one edition to look like the other.
 
 ## How an issue goes out
 
