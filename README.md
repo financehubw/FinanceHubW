@@ -27,7 +27,7 @@ Every 30 minutes GitHub Actions runs `xbot/bot.py`:
 3. **Trust filter:** a story is only considered if 2+ independent outlets report it, or it comes
    from an official body, or from a top-tier newsroom. Single-source rumours are dropped.
 4. **Claude writes the post** from the combined reporting and picks the region.
-5. **AI fact-check (`xbot/verify.py`):** up to 13 free checkers, each with its own free limit: Gemini; Groq GPT-OSS, Qwen, Kimi and Llama; GitHub Models GPT, Llama and Mistral (free, no key); Cerebras and Mistral (optional free keys); OpenRouter; Grok; Claude (only if a key is added)
+5. **AI fact-check (`xbot/verify.py`):** 17 free checkers with separate limits (Gemini Pro, Gemini, Gemma; Groq GPT-OSS, Qwen, Kimi, Llama; GitHub Models GPT, Llama, DeepSeek, Grok, Cohere, Phi, Mistral; OpenRouter), plus optional free keys: Cerebras, Mistral, SambaNova, NVIDIA, Hugging Face, Cohere. One FAIL blocks a post.
    plus Claude each check every number, name and region against the source reports.
    **One FAIL blocks the post**, and at least 2 checkers must PASS (`MIN_PASSES`).
 6. **Posts to X** (default 2 per run = up to 96/day, set `POSTS_PER_RUN`, max 6) in one fixed
