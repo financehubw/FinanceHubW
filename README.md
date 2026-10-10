@@ -165,3 +165,7 @@ The public site lives in `site/` and is deployed by Vercel (project root directo
   "Live from X" calendar reads it, so the archive fills itself.
 - `site/magazine.json` holds the weekly magazine. Add a new object to `issues` each week
   (highest `issue` number shows first) and set `"sample": false` once the first real issue is in.
+
+## Weekly magazine
+
+The Weekly is a 20-slide Instagram carousel and website issue published every week. The slides live in `magazine/`, the rendered images in `site/media/magazine/`, and the `Post magazine` workflow posts each new issue to Instagram. See [`magazine/README.md`](magazine/README.md).
