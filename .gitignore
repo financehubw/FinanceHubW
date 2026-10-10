@@ -5,3 +5,4 @@ __pycache__/
 # never commit OAuth files
 client_secret*.json
 youtube_token.json
+build/

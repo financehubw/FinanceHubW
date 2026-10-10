@@ -140,6 +140,32 @@ def post_carousel(item: dict, numbers: list[int]) -> str:
         return publish(short)
 
 
+def post_story(item: dict) -> str:
+    """The Daily's cover as an Instagram Story (Instagram letterboxes the 4:5 slide)."""
+    ig, tok = os.environ["IG_USER_ID"], os.environ["META_TOKEN"]
+    c = graph_post(f"{ig}/media", {"media_type": "STORIES", "image_url": url_for(item["folder"], 1),
+                                   "access_token": tok})["id"]
+    for _ in range(20):
+        st = requests.get(f"{GRAPH}/{c}", timeout=30, params={"fields": "status_code", "access_token": tok}).json()
+        if st.get("status_code") in ("FINISHED", None):
+            break
+        time.sleep(3)
+    return graph_post(f"{ig}/media_publish", {"creation_id": c, "access_token": tok})["id"]
+
+
+def post_news_short(item: dict) -> str:
+    """The Daily as a vertical news Short on YouTube."""
+    sys.path.insert(0, str(ROOT / "social"))
+    from daily_short import build
+    from publish import post_youtube
+    date = item["key"].removeprefix("daily-")
+    path = build(date)
+    first = item["caption"].split("\n")[0]
+    return post_youtube({"title": f"The Daily, {item['title']}", "ai_voice": False,
+                         "caption": first + "\n\nEvery slide from today's edition: Instagram @financehubw",
+                         "tags": ["#finance", "#news", "#economy", "#markets", "#shorts"]}, path)
+
+
 def main() -> None:
     items = pending()
     if not items:
@@ -167,10 +193,22 @@ def main() -> None:
             print(f"  {item['key']}: FAILED - {e}", file=sys.stderr)
             continue
         print(f"  Instagram: posted {media_id}")
+        entry = {"key": item["key"], "title": item["title"],
+                 "date": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "instagram": media_id}
+        if item["key"].startswith("daily-"):
+            try:
+                entry["story"] = post_story(item)
+                print(f"  Story: posted {entry['story']}")
+            except Exception as e:  # noqa: BLE001
+                print(f"  Story: FAILED - {e}", file=sys.stderr)
+            if os.environ.get("YT_TOKEN_JSON"):
+                try:
+                    entry["youtube"] = post_news_short(item)
+                    print(f"  YouTube news Short: {entry['youtube']}")
+                except Exception as e:  # noqa: BLE001
+                    print(f"  YouTube news Short: FAILED - {e}", file=sys.stderr)
         log = load(POSTED, {"posted": []})
-        log["posted"].append({"key": item["key"], "title": item["title"],
-                              "date": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-                              "instagram": media_id})
+        log["posted"].append(entry)
         POSTED.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
     if failed:
         sys.exit(f"{failed} edition(s) failed")
