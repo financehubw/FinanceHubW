@@ -17,8 +17,10 @@ The sections below describe The Weekly. The Daily follows the same steps with th
 slides in `magazine/daily/YYYY-MM-DD/slides/01.html` ... `06.html` (the date is the market day
 covered), `python magazine/render.py daily YYYY-MM-DD`, an entry in `site/daily.json`
 (date, label, title, summary, `"slides": 6`) and an entry in `social/daily_queue.json`
-(date, title, caption). Daily slide order: cover, the story, the scoreboard, mover of the day,
-also today, up next. Never restyle one edition to look like the other.
+(date, title, caption). Daily slide order: cover, the story, around the world, mover of the day,
+also today, up next. The Daily covers the whole world, not only America: the "around the world"
+slide shows two indexes each for Asia, Europe and the Americas, and the story, the mover and the
+"also today" items are picked from wherever the day's biggest news was. Never restyle one edition to look like the other.
 
 ## How an issue goes out
 
