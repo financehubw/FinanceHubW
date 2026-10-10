@@ -246,7 +246,6 @@ _groq_alt = _oa("Groq Qwen", GROQ, "GROQ_API_KEY", ["qwen/qwen3-32b"], 1200)
 CHECKERS = [
     ("Gemini", "GEMINI_API_KEY", _gemini),
     ("Groq GPT-OSS", "GROQ_API_KEY", _groq_oss),
-    ("Gemini Pro", "GEMINI_API_KEY", gemini_pro),
     ("Groq GPT-OSS 20B", "GROQ_API_KEY", _oa("Groq GPT-OSS 20B", GROQ, "GROQ_API_KEY", ["openai/gpt-oss-20b"], 1200)),
     ("Groq Qwen", "GROQ_API_KEY", _groq_alt),
     ("Groq Kimi", "GROQ_API_KEY", _oa("Groq Kimi", GROQ, "GROQ_API_KEY", ["moonshotai/kimi-k2-instruct-0905", "moonshotai/kimi-k2-instruct"])),
@@ -276,7 +275,7 @@ def active_checkers() -> list[str]:
     return [name for name, env, _ in CHECKERS if os.environ.get(env)]
 
 
-WRITERS = ["Claude", "Gemini Pro", "Gemini", "Groq GPT-OSS", "OpenRouter"]
+WRITERS = ["Claude", "Gemini", "Groq GPT-OSS", "OpenRouter"]
 
 
 def write(prompt: str) -> tuple[str, str]:

@@ -174,7 +174,7 @@ def parse_json(text: str) -> dict:
 
 
 def llm(prompt: str) -> tuple[str, str]:
-    for name, fn in (("Gemini Pro", verify.gemini_pro), ("Gemini", verify._gemini), ("Groq GPT-OSS", verify._groq_oss),
+    for name, fn in (("Gemini", verify._gemini), ("Groq GPT-OSS", verify._groq_oss),
                      ("OpenRouter", verify._openrouter)):
         env = {"Gemini Pro": "GEMINI_API_KEY", "Gemini": "GEMINI_API_KEY", "Groq GPT-OSS": "GROQ_API_KEY",
                "OpenRouter": "OPENROUTER_API_KEY"}[name]
