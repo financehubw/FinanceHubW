@@ -32,7 +32,6 @@ POSTED = ROOT / "social" / "posted.json"
 SHORTS = ROOT / "site" / "media" / "shorts"
 SITE_URL = (os.environ.get("SITE_URL") or "https://financehubw-site.vercel.app").rstrip("/")
 GRAPH = "https://graph.facebook.com/v21.0"
-FOOTER = "\n\nFull breakdowns on YouTube: @FinanceHubW\nEducational content, not financial advice."
 AI_NOTE = "\nNarration is AI-generated."
 
 
@@ -56,9 +55,24 @@ def thumb_for(item: dict) -> Path | None:
     return t if t.exists() else None
 
 
-def caption_for(item: dict) -> str:
+def caption_for(item: dict, platform: str = "instagram") -> str:
+    """Platform-tuned text. Instagram/Facebook: hook in the first 125 characters (shown before "more"),
+    a save/share prompt (saves and sends weigh most for Explore/Reels reach), the comment question and
+    3-5 niche hashtags. YouTube: searchable first line, subscribe line, and 3 hashtags (YouTube shows
+    the first three above the title; more than that adds nothing)."""
     note = AI_NOTE if item.get("ai_voice", True) else ""
-    return item["caption"] + FOOTER + note + "\n\n" + " ".join(item.get("tags", []))
+    tags = item.get("tags", [])
+    if platform == "youtube":
+        yt_tags = ["#shorts"] + [t for t in tags if t != "#shorts"][:2]
+        return (f"{item['title']}. {item['caption']}\n\n"
+                "A new money breakdown every day. Subscribe so you don't miss one: @FinanceHubW\n"
+                f"Educational content, not financial advice.{note}\n\n" + " ".join(yt_tags))
+    q = item.get("comment", "")
+    return (f"{item['title']} 👀\n\n{item['caption']}\n\n"
+            "💾 Save this for later and send it to a friend who needs it.\n"
+            + (f"{q}\n" if q else "") +
+            f"\nFollow @financehubw for a new one every day.\nEducational content, not financial advice.{note}\n\n"
+            + " ".join(tags[:5]))
 
 
 # ---------------------------------------------------------------- YouTube
@@ -70,7 +84,7 @@ def post_youtube(item: dict, path: Path) -> str:
     yt = build("youtube", "v3", credentials=creds, cache_discovery=False)
     title = item["title"][:90] + " #Shorts"
     body = {
-        "snippet": {"title": title, "description": caption_for(item),
+        "snippet": {"title": title, "description": caption_for(item, "youtube"),
                     "tags": [t.lstrip("#") for t in item.get("tags", [])], "categoryId": "27"},
         "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False,
                    # YouTube's altered/synthetic content disclosure (realistic AI voice)
@@ -216,7 +230,7 @@ def main() -> None:
     path = SHORTS / item["file"]
     url = f"{SITE_URL}/media/shorts/{item['file']}"
     print(f"next Short: {item['title']}\n  file: {path.name} ({path.stat().st_size // 1024} KB)\n  url:  {url}")
-    print("--- caption\n" + caption_for(item))
+    print("--- Instagram\n" + caption_for(item) + "\n--- YouTube\n" + caption_for(item, "youtube"))
 
     jobs = [
         ("YouTube", "YT_TOKEN_JSON", lambda: post_youtube(item, path)),
