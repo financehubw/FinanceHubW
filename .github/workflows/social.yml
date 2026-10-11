@@ -16,6 +16,10 @@ on:
         description: "Only catch up platforms that missed recent Shorts"
         type: boolean
         default: false
+      rethumb:
+        description: "Apply cover thumbnails to already-posted Shorts"
+        type: boolean
+        default: false
       fb_check:
         description: "Only diagnose the Facebook connection"
         type: boolean
@@ -63,6 +67,7 @@ jobs:
         if: ${{ !inputs.fb_check }}
         run: |
           if [ -f /tmp/skip ]; then echo "already posted today"; exit 0; fi
+          if [ "${{ inputs.rethumb }}" = "true" ]; then python social/rethumb.py; exit 0; fi
           python social/publish.py
         env:
           YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
