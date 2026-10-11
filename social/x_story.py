@@ -381,15 +381,16 @@ def render_digest() -> None:
     stories = digest_stories()
     if len(stories) < 3:
         print(f"digest {key}: only {len(stories)} new stories, waiting"); return
-    folder = DIGEST_DIR / key
-    if (folder / "manifest.json").exists():
+    if any(DIGEST_DIR.glob(f"{key}*/manifest.json")):
         return
+    # unique folder per render, so Instagram can never fetch an older copy cached at the same URL
+    folder = DIGEST_DIR / f"{key}-{int(time.time())}"
     edition = key.rsplit("-", 1)[1].title()
     briefing_cover(stories, folder / "00.jpg", edition, now)
     for i, p in enumerate(stories, 1):
         card(p, folder / f"{i:02d}.jpg", 1080, 1350)
     briefing_end(folder / f"{len(stories) + 1:02d}.jpg")
-    (folder / "manifest.json").write_text(json.dumps({"key": key, "edition": edition,
+    (folder / "manifest.json").write_text(json.dumps({"key": key, "dir": folder.name, "edition": edition,
         "ids": [p["id"] for p in stories], "slides": len(stories) + 2}), encoding="utf-8")
     print(f"digest {key}: {len(stories)} stories drawn")
 
@@ -425,7 +426,7 @@ def feed() -> None:
     m = pending[-1]
     feedposts = {p["id"]: p for p in load(FEED, {"posts": []})["posts"]}
     stories = [feedposts[i] for i in m["ids"] if i in feedposts]
-    urls = [f"{SITE_URL}/media/digests/{m['key']}/{n:02d}.jpg" for n in range(m["slides"])]
+    urls = [f"{SITE_URL}/media/digests/{m.get('dir', m['key'])}/{n:02d}.jpg" for n in range(m["slides"])]
     if os.environ.get("DRY_RUN") or not (ig and tok):
         print("briefing ready:", m["key"]); return
     if not all(wait_live(u) for u in urls):
