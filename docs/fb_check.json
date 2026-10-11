@@ -1,0 +1,28 @@
+{
+ "page_id_set": true,
+ "token_set": false,
+ "me": {
+  "error": {
+   "message": "An active access token must be used to query information about the current user.",
+   "type": "OAuthException",
+   "code": 2500,
+   "fbtrace_id": "A7w9qR095J-ErNcL5ZkOQkD"
+  }
+ },
+ "page": {
+  "error": {
+   "message": "(#200) Provide valid app ID",
+   "type": "OAuthException",
+   "code": 200,
+   "fbtrace_id": "AhjhMCq0WaQHb7WZzjB8ai9"
+  }
+ },
+ "debug": {
+  "type": null,
+  "is_valid": null,
+  "expires_at": null,
+  "scopes": null,
+  "profile_id": null,
+  "error": null
+ }
+}
