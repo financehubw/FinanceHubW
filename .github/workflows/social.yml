@@ -38,6 +38,7 @@ jobs:
         if: inputs.fb_check
         run: python social/fb_check.py
         env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
       - name: Wait until 6:00 PM IST

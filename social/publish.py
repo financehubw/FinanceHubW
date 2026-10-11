@@ -103,8 +103,19 @@ def post_instagram(item: dict, url: str) -> str:
 
 
 # ---------------------------------------------------------------- Facebook Page
+def page_token() -> str:
+    """FB_PAGE_TOKEN if set, otherwise the Page token derived from META_TOKEN."""
+    if os.environ.get("FB_PAGE_TOKEN"):
+        return os.environ["FB_PAGE_TOKEN"]
+    r = requests.get(f"{GRAPH}/{os.environ['FB_PAGE_ID']}", timeout=30,
+                     params={"fields": "access_token", "access_token": os.environ["META_TOKEN"]}).json()
+    if "access_token" not in r:
+        raise RuntimeError(f"no Page token: {r.get('error', r)}")
+    return r["access_token"]
+
+
 def post_facebook(item: dict, url: str) -> str:
-    page, tok = os.environ["FB_PAGE_ID"], os.environ["FB_PAGE_TOKEN"]
+    page, tok = os.environ["FB_PAGE_ID"], page_token()
     r = requests.post(f"{GRAPH}/{page}/videos", timeout=120, data={
         "file_url": url, "title": item["title"], "description": caption_for(item),
         "access_token": tok}).json()
@@ -133,7 +144,7 @@ def post_comments(item: dict, results: dict) -> None:
                 yt.commentThreads().insert(part="snippet", body={"snippet": {"videoId": vid,
                     "topLevelComment": {"snippet": {"textOriginal": text}}}}).execute()
             else:
-                tok = os.environ["META_TOKEN" if name == "Instagram" else "FB_PAGE_TOKEN"]
+                tok = os.environ["META_TOKEN"] if name == "Instagram" else page_token()
                 r = requests.post(f"{GRAPH}/{target}/comments", timeout=60,
                                   data={"message": text, "access_token": tok}).json()
                 if "id" not in r:
