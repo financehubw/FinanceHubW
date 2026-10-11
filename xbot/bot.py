@@ -389,7 +389,7 @@ def record_for_site(text: str, tweet_id: str) -> None:
         print(f"could not update site feed: {e}", file=sys.stderr)
 
 
-X_BLOCKED = False   # set when X refuses for lack of API credits (HTTP 402)
+X_BLOCKED = os.environ.get("X_ENABLED", "").lower() in ("0", "false", "no")  # X has no free API posting
 
 
 def publish(client: tweepy.Client, text: str, **kw) -> str | None:
@@ -400,6 +400,9 @@ def publish(client: tweepy.Client, text: str, **kw) -> str | None:
         if kw:                       # replies and polls only make sense on X
             return None
         local_id = "web-" + hashlib.sha1(text.encode()).hexdigest()[:12]
+        from free_social import publish_free
+        where = publish_free(text)
+        print("published to: " + ", ".join(["website", "Instagram Story"] + where))
         record_for_site(text, local_id)
         return local_id
     try:
