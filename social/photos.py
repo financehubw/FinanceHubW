@@ -49,8 +49,15 @@ LIBRARY = {"bitcoin coin": "bitcoin", "cryptocurrency": "bitcoin", "gold bars": 
 LIB_DIR = __import__("pathlib").Path(__file__).resolve().parent.parent / "magazine" / "photos" / "color"
 
 
-def _library(q: str):
+VARIANTS = {"bitcoin": ["bitcoin", "servers", "chips"], "atm": ["atm", "dollars", "tradingfloor"],
+            "eu": ["eu", "ecb", "euro"], "nyse": ["nyse", "tradingfloor", "dollars"],
+            "tradingfloor": ["tradingfloor", "nyse", "dollars"]}
+
+
+def _library(q: str, seed: str = ""):
     name = LIBRARY.get(q, "nyse")
+    opts = VARIANTS.get(name, [name])
+    name = opts[int(hashlib.sha1(seed.encode()).hexdigest(), 16) % len(opts)] if seed else name
     path = LIB_DIR / f"{name}.jpg"
     if not path.exists():
         return None
@@ -119,7 +126,7 @@ def photo(text: str, seed: str) -> Image.Image | None:
                 return img
         except Exception as e:  # noqa: BLE001  a missing photo never blocks a post
             print(f"photo ({src.__name__}, {q}): {e}")
-    return _library(q)
+    return _library(q, seed)
 
 
 def cover_fit(img: Image.Image, w: int, h: int) -> Image.Image:
