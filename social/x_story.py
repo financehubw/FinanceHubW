@@ -151,9 +151,9 @@ def post() -> None:
         print(f"{len(todo)} Story card(s) ready; not posting (dry run or Instagram not connected)"); return
     for p in todo:
         url = f"{SITE_URL}/media/stories/{p['id']}.jpg"
-        for _ in range(36):
+        for _ in range(12):
             try:
-                r = requests.head(url, timeout=20)
+                r = requests.head(url, timeout=8)
                 if r.ok and "image" in r.headers.get("content-type", ""):
                     break
             except requests.RequestException:
@@ -186,9 +186,9 @@ def caption(p: dict) -> str:
 
 
 def wait_live(url: str) -> bool:
-    for _ in range(36):
+    for _ in range(12):
         try:
-            r = requests.head(url, timeout=20)
+            r = requests.head(url, timeout=8)
             if r.ok and "image" in r.headers.get("content-type", ""):
                 return True
         except requests.RequestException:

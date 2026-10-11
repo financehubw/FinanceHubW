@@ -93,6 +93,7 @@ jobs:
 
       - name: Share new X posts as Instagram Stories
         if: always()
+        timeout-minutes: 12
         run: |
           python social/x_story.py post
           python social/x_story.py feed
