@@ -77,7 +77,7 @@ def _detail(e: Exception) -> str:
     if r is not None:
         body = re.sub(r"\s+", " ", (r.text or ""))[:140]
         return f"HTTP {r.status_code}: {body}"
-    return type(e).__name__
+    return f"{type(e).__name__}: {str(e)[:160]}"
 
 
 def _models(env: str, defaults: list[str]) -> list[str]:

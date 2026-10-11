@@ -53,6 +53,10 @@ jobs:
           set -o pipefail
           if [ "${{ github.event_name }}" = "push" ]; then
             : > docs/daily_free.log
+            echo "== groq models" >> docs/daily_free.log
+            curl -s https://api.groq.com/openai/v1/models -H "Authorization: Bearer $GROQ_API_KEY" | python3 -c "import sys,json;print([m['id'] for m in json.load(sys.stdin).get('data',[])])" >> docs/daily_free.log 2>&1 || true
+            echo "== github models test" >> docs/daily_free.log
+            curl -s -o /dev/stdout -w "\nHTTP %{http_code}\n" https://models.github.ai/inference/chat/completions -H "Authorization: Bearer $GITHUB_TOKEN" -H "Content-Type: application/json" -d '{"model":"openai/gpt-4.1","messages":[{"role":"user","content":"say ok"}],"max_tokens":5}' | head -c 400 >> docs/daily_free.log 2>&1 || true
             for w in GPT-4.1 DeepSeek Kimi Gemini; do
               echo "===== writer $w" | tee -a docs/daily_free.log
               DAILY_WRITER=$w timeout 900 python magazine/daily_free.py "$(head -n1 magazine/sample_request.txt)" --sample 2>&1 | tee -a docs/daily_free.log || true
