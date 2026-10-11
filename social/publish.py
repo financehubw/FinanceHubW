@@ -17,6 +17,7 @@ Variables:
 """
 from __future__ import annotations
 
+import calendar
 import json
 import os
 import sys
@@ -120,7 +121,34 @@ def video_is_live(url: str) -> bool:
         return False
 
 
+def backfill() -> None:
+    """A Short posted before a platform was connected also goes to that platform (within 3 days)."""
+    if os.environ.get("DRY_RUN"):
+        return
+    log = load(POSTED, {"posted": []})
+    queue = {i["file"]: i for i in load(QUEUE, {"items": []})["items"]}
+    changed = False
+    for entry in log["posted"]:
+        age = time.time() - calendar.timegm(time.strptime(entry["date"], "%Y-%m-%dT%H:%M:%SZ"))
+        item = queue.get(entry["file"])
+        if not item or age > 3 * 86400:
+            continue
+        url = f"{SITE_URL}/media/shorts/{item['file']}"
+        for name, env, fn in (("Instagram", "IG_USER_ID", post_instagram), ("Facebook", "FB_PAGE_ID", post_facebook)):
+            if name in entry["results"] or not os.environ.get(env):
+                continue
+            try:
+                entry["results"][name] = fn(item, url)
+                changed = True
+                print(f"  backfill {item['file']} -> {name}: {entry['results'][name]}")
+            except Exception as e:  # noqa: BLE001
+                print(f"  backfill {item['file']} -> {name}: FAILED - {e}", file=sys.stderr)
+    if changed:
+        POSTED.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
+
+
 def main() -> None:
+    backfill()
     item = next_item()
     if not item:
         print("queue empty: add a video to site/media/shorts/ and an entry to social/queue.json")
