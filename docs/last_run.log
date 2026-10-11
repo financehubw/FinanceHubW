@@ -1,3 +1,51 @@
+=== run 2026-10-11T00:52:40Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
+daily cap: 3, room left in the last 24h: 3
+58/171 sources returned news, 400 recent items
+85 new trusted stories, posting up to 2 this run
+---
+🇮🇳 RBI TIGHTENS RULES ON FOREX BETS
+
+📌 India restricted currency trades to protect the falling rupee.
+💡 Foreign exchange rules help control the value of local money.
+#RBI
+
+📍 India · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/news/economy/policy/rbi-tightens-rules-for-forex-bets-to-shield-bruised-rupee/articleshow/134860362.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the Economic Times article on RBI tightening forex rules.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
+  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
+  Groq Kimi: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.","type":"invalid_request_error")
+  Groq Llama: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","co)
+  GitHub GPT: SKIP - unavailable (RuntimeError)
+  GitHub Llama: SKIP - unavailable (RuntimeError)
+  GitHub DeepSeek: SKIP - unavailable (RuntimeError)
+  GitHub Grok: SKIP - unavailable (RuntimeError)
+  GitHub Cohere: SKIP - unavailable (RuntimeError)
+  GitHub Phi: SKIP - unavailable (RuntimeError)
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  GitHub Mistral: SKIP - unavailable (RuntimeError)
+  OpenRouter: PASS - All factual claims are directly supported by the sources.
+Traceback (most recent call last):
+  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 655, in <module>
+    main()
+  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 638, in main
+    tweet_id = publish(x, text, **extra)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 394, in publish
+    tweet_id = str(client.create_tweet(text=text, **kw).data["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 849, in create_tweet
+    return self._make_request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 133, in _make_request
+    response = self.request(method, route, params=request_params,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 123, in request
+    raise HTTPException(response)
+tweepy.errors.HTTPException: 402 Payment Required
+credits depleted
 === run 2026-10-11T00:08:58Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
 daily cap: 3, room left in the last 24h: 3
