@@ -345,10 +345,24 @@
   "https://www.esma.europa.eu/press-news/esma-news/esas-call-vigilance-over-external-dependencies-cyber-threats-and-private",
   "6f90ad9da79feace",
   "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNl9UZUZ5T3Q0Z251eDlmZ09mZnlMcTdvTzh6LWZVSEUycTFkeUE1MGJsVFE4RnVkclpsUWk2MmJUZDJ5bEItNk1NVXVqVm9lcWhlbHU3VVVBMlZPLWFFOGtISkFYYk5ZYTFpZnpjLThVM0dlOEFrTE01LWxMZjRyWWVza1FaRlR6UWpsNmIyZ29TOC1EV2M5cXFacktSeEM5Ty16aFo5SFk",
-  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcjBKZUJ5cnBva0txbkRFbkR5bnVOMVpUYks5SzJQTnhtZUZ3WUttejRxOUFaS1V4S0RoTXR3TFlHbDJEc3FmS0pjeXcxcXNaT3JqRDJ2YlNuWU9LSHdFa3l3c2tqYUVRb3IzaUUyODhMc1dKRE9HVjVGeno2OUFaNk41ejFiX2Vt"
+  "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcjBKZUJ5cnBva0txbkRFbkR5bnVOMVpUYks5SzJQTnhtZUZ3WUttejRxOUFaS1V4S0RoTXR3TFlHbDJEc3FmS0pjeXcxcXNaT3JqRDJ2YlNuWU9LSHdFa3l3c2tqYUVRb3IzaUUyODhMc1dKRE9HVjVGeno2OUFaNk41ejFiX2Vt",
+  "63baeaafda4996d9",
+  "https://www.fca.org.uk/news/blogs/strong-compliance-functions-support-trusted-corporate-finance-markets",
+  "7a77b80f2213ee95",
+  "https://www.fca.org.uk/news/press-releases/new-rules-make-long-term-investment-funds-clearer",
+  "86452357d22228be",
+  "https://www.fca.org.uk/news/blogs/looking-how-we-interact-whistleblowers",
+  "0330db55e3d77b3a",
+  "https://www.fca.org.uk/news/speeches/reforming-uk-capital-markets-ensure-they-work-well-our-economy",
+  "df8f29ffe88f227d",
+  "https://www.fca.org.uk/news/news-stories/firms-confidence-satisfaction-and-trust-fca-rise",
+  "3edf833e0e2aaa3f",
+  "https://www.fca.org.uk/news/news-stories/fca-secures-bankruptcy-order-against-arthur-temlett",
+  "f63d2d67a57625d6",
+  "https://www.fca.org.uk/news/news-stories/imfp-appointed-representative-ima-enter-administration"
  ],
- "last_region": "global",
- "last_category": "markets",
+ "last_region": "uk",
+ "last_category": "policy",
  "seen": [
   "0286332aa4",
   "02f8fc94ef",
@@ -5225,14 +5239,17 @@
   "58e98527bb2b4af4",
   "43a5436f6c9f72f2",
   "4dbe7172c27348ed",
-  "3a2f96831c2ceef2"
+  "3a2f96831c2ceef2",
+  "3489ef694a",
+  "af4498c813",
+  "b7127a5a8a"
  ],
  "stats": {
   "2026-40": {
-   "scanned": 4027,
+   "scanned": 4030,
    "trusted": 849,
    "blocked": 25,
-   "posted": 8
+   "posted": 10
   }
  },
  "last_special": "2026-10-11-20:0",
@@ -5429,6 +5446,48 @@
    ],
    "text": "🌐 POKEMON CARDS BEAT BITCOIN\n\n📌 Rare Pokémon cards returned 150 percent, beating Bitcoin, gold, and stocks.\n📊 Returns: 150%\n💡 Alternative collectibles can sometimes gain more value than traditional assets.\n#Crypto\n\n📍 Global · 📰 KuCoin · ✅ 2 sources\nhttps://news.google.com/rss/articles/CBMiqAFBVV95cUxNNl9UZUZ5T3Q0Z251eDlmZ09mZnlMcTdvTzh6LWZVSEUycTFkeUE1MGJsVFE4RnVkclpsUWk2MmJUZDJ5bEItNk1NVXVqVm9lcWhlbHU3VVVBMlZPLWFFOGtISkFYYk5ZYTFpZnpjLThVM0dlOEFrTE01LWxMZjRyWWVza1FaRlR6UWpsNmIyZ29TOC1EV2M5cXFacktSeEM5Ty16aFo5SFk?oc=5",
    "outlets": 2,
+   "rechecked": false
+  },
+  {
+   "flag": "🇬🇧",
+   "headline": "NEW RULES FOR LONG-TERM FUNDS",
+   "score": 2.98,
+   "ts": 1791731208.9908984,
+   "tweet_id": "web-9c2f6e950141",
+   "kw": [
+    "clearer",
+    "funds",
+    "investment",
+    "long",
+    "make",
+    "rules",
+    "term"
+   ],
+   "text": "🇬🇧 NEW RULES FOR LONG-TERM FUNDS\n\n📌 Investors must now give 90 days' notice to access money in long-term funds like property.\n💡 Longer notice periods help protect funds during stressful market times.\n#Investing\n\n📍 UK · 📰 FCA · 🏛️ Official\nhttps://www.fca.org.uk/news/press-releases/new-rules-make-long-term-investment-funds-clearer",
+   "outlets": 1,
+   "rechecked": false
+  },
+  {
+   "flag": "🇬🇧",
+   "headline": "INTERESTME FINANCIAL FIRMS ENTER ADMINISTRATION",
+   "score": 2.98,
+   "ts": 1791731214.3998272,
+   "tweet_id": "web-c1b80115e50e",
+   "kw": [
+    "administration",
+    "advisers",
+    "appointed",
+    "enter",
+    "financial",
+    "ima",
+    "imfp",
+    "interestme",
+    "limited",
+    "planning",
+    "representative"
+   ],
+   "text": "🇬🇧 INTERESTME FINANCIAL FIRMS ENTER ADMINISTRATION\n\n📌 Two UK financial planning and advice firms entered administration on 24 Sept 2026.\n💡 Insolvency (when a firm cannot pay debts) can freeze client services and funds.\n\n📍 UK · 📰 FCA · 🏛️ Official\nhttps://www.fca.org.uk/news/news-stories/imfp-appointed-representative-ima-enter-administration",
+   "outlets": 1,
    "rechecked": false
   }
  ]

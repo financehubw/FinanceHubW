@@ -1,3 +1,43 @@
+=== run 2026-10-11T15:06:54Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+29/171 sources returned news, 187 recent items
+82 new trusted stories, posting up to 2 this run
+skip (off-topic or nothing new): Strong compliance functions support trusted corporate finance markets
+---
+🇬🇧 NEW RULES FOR LONG-TERM FUNDS
+
+📌 Investors must now give 90 days' notice to access money in long-term funds like property.
+💡 Longer notice periods help protect funds during stressful market times.
+#Investing
+
+📍 UK · 📰 FCA · 🏛️ Official
+https://www.fca.org.uk/news/press-releases/new-rules-make-long-term-investment-funds-clearer
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the 90‑day notice rule and its purpose are directly supported by the FCA source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the FCA source.
+  Groq Qwen: PASS - All factual claims regarding the 90-day notice period, the entity (FCA), the location (UK), and the source are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-9c2f6e950141
+skip (off-topic or nothing new): Looking at how we interact with whistleblowers
+skip (off-topic or nothing new): Reforming UK capital markets to ensure they work well for our economy
+skip (off-topic or nothing new): Firms’ confidence, satisfaction and trust in the FCA rise
+skip (off-topic or nothing new): FCA secures bankruptcy order against Arthur Temlett
+---
+🇬🇧 INTERESTME FINANCIAL FIRMS ENTER ADMINISTRATION
+
+📌 Two UK financial planning and advice firms entered administration on 24 Sept 2026.
+💡 Insolvency (when a firm cannot pay debts) can freeze client services and funds.
+
+📍 UK · 📰 FCA · 🏛️ Official
+https://www.fca.org.uk/news/news-stories/imfp-appointed-representative-ima-enter-administration
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the FCA source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the FCA source.
+  Groq Qwen: PASS - All factual claims regarding the firms, date, location, and source are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-c1b80115e50e
+done: 2 post(s) this run
 === run 2026-10-11T14:51:47Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 4
