@@ -1,3 +1,80 @@
+=== run 2026-10-11T14:28:09Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+78/171 sources returned news, 603 recent items
+155 new trusted stories, posting up to 3 this run
+skip (off-topic or nothing new): The stock market this week (October 12–16): Big bank earnings, September CPI, and retail sales to test record rally
+skip (off-topic or nothing new): Should investors buy or sell gold and silver this Navratri week? Commodity Outlook for precious metal traders
+skip (off-topic or nothing new): The Week Ahead: Inflation Data, Q2 Earnings, IPOs, US CPI In Focus
+---
+🇺🇸 US STOCKS HOVER NEAR RECORD HIGHS
+
+📌 The S&P 500 stays close to record levels as banks report earnings and CPI (consumer price index, a measure of inflation) data arrives.
+📊 S&P 500: Near records
+#Stocks
+
+📍 US · 📰 All News · ✅ 2 sources
+https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4942657
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about the S&P 500 hovering near record levels and the context of bank earnings and CPI are directly supported by the cited article.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the S&P 500's position, upcoming bank earnings, and CPI data are directly supported by the source headlines, and the location and source attribution are correct.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims in the post are directly supported by the sources, including the S&P 500 hovering near records, bank earnings, and CPI data arrival.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f23c5d48d960
+---
+🇮🇳 STARLINK PLANS LOW PRICE IN INDIA
+
+📌 Elon Musk says Starlink will offer cheap internet in India to compete with Jio.
+📊 Jio IPO: $106B
+💡 Lower prices for buyers usually mean more choices and savings.
+
+📍 India · 📰 Outlook Business · ✅ 5 sources
+https://news.google.com/rss/articles/CBMivwFBVV95cUxQS2tzSS1Bek1uR052ckwxenlpcms1MXZhdDJNWmlUSnQzcWZpbUtFNmNlNXk2UnZSUFlHdUdTdE01ckh3RUh5SVR1WWdCU0swbUk1US1mdGNVcGtoM3IyVWNISjNVMkp3T1R2eDRMU21PUVRFR1NWQjhHLUNXbTV0YXVmakMtejVJVVpTblo0cHlUQWNoRThqdEk5dVdzRDctcmlnSWJUSW11eHNGcy1MWm1KaWVqMmlGVFlHSHNNZ9IBzAFBVV95cUxPN192SFBHQ3VIMTlYckNpSHNFdW9rVHFKRGNGaTlTV2g5NjZTaXVhdkZQVTdfYlFaYkRfRVJTNDNhOEg2RnBFclNyLTl6bnd5X09wNV9qZ085aFlOYUV4d3czUFB4eUZTZmNHRjY3UTVDZzFXTEZxLXBJYUxSbXp1ZTFPbGcySTI5TG12bk1HZ202VmVsLVVnUXBLbmwtT1h1TXRwRVUxYmRja2lHeXVqM0Q1cDgxYUZtVmVFTzZlVUx6amhIVmZ3aGxPUmk?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the listed sources.
+  Groq GPT-OSS 20B: FAIL - The post claims 5 sources, but 6 sources are listed.
+  -> blocked by fact-check
+---
+🇺🇸 XRP ETFS EXTEND STREAK AS OTHERS SHED CASH
+
+📌 XRP funds grew for 13 straight weeks while Bitcoin, Ethereum and Solana lost $1.25 billion.
+📊 $BTC outflows: $681.1M
+📊 $ETH outflows: $542.07M
+#Crypto
+
+📍 US · 📰 CryptoSlate · ✅ 2 sources
+https://cryptoslate.com/bitcoin-ethereum-and-solana-etfs-lose-1-25-billion-as-xrp-extends-13-week-inflow-streak/
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the CryptoSlate source
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: PASS - All factual claims regarding the 13-week streak, specific outflow amounts for BTC and ETH, and the combined $1.25 billion loss are directly supported by the CryptoSlate source.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All numbers, timeframes, and outflow figures match the provided source exactly.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-adad4ad308c3
+skip (off-topic or nothing new): Why Does Ethereum Fall Harder Than Bitcoin?
+skip (off-topic or nothing new): DBS, OCBC, UOB face rate hike reality check
+skip (off-topic or nothing new): We’re about to get a huge read on whether earnings can keep propping up the stock market
+skip (off-topic or nothing new): AI’s quiet safety gatekeepers are stepping into the spotlight
+skip (off-topic or nothing new): Prediction: Meta Platforms Stock Will Drop After Earnings, and That Could Be an Incredible Buying Opportunity
+---
+🇮🇳 GOLD AND SILVER TO TRADE IN TIGHT RANGE
+
+📌 Gold and silver prices are expected to stay in a narrow range this week.
+💡 A weaker local currency helps keep local prices supported.
+#Gold
+
+📍 India · 📰 NDTV Profit
+https://news.google.com/rss/articles/CBMivAFBVV95cUxPYnBMdXFYNlQyYTZtSE9ZMEZQUlU2X1ZXLW1QRi15bzhkb2FCaDJvOGJUS3QxY255b09EWjNDQlZkNXo3YWtRMjk2czhZT25PTEY5TFMwY1dzZWRaNV9qU0lveXVJRHZXMHBNMVMxVkk5SzdmQU5RcFpiOWc0TDRPOGUwRzFEZzY4N3hjbzdyWmZfWk94bVZzdG85b1VTWVhGUDNrR2FVbmJwdzVzN2VmdTJVUmZ2UnhjZlppT9IBxAFBVV95cUxQME5IdEJFanpfeE1QV1VuNWdRSVQ1cG1MZlZmQ0JUUGUwU0pFWWduQlh3RDBRNGRkbHVqQmpaN29ud25rQWtRVjVMX0htOW5xdThxMnlmQ0VNOVhlV3NMTzZYMXdsWVpNNUd1UnQyRlEwVEJHN0FCVlNqQVNETy14VEt1T25PLXMtcmRXNUxtUGZqUWJKekRSLVk1Y2ZBMDhGQllNSlhMdWtudVo1X2R4SDVkVEFad1JSSEpTcXdfYUZydnhF?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about range-bound gold/silver and rupee weakness are directly supported by the NDTV Profit article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the NDTV Profit article.
+  Groq Qwen: PASS - The post accurately reflects the source headline regarding range-bound trading for gold and silver in India, supported by rupee weakness, with correct location and source attribution.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-168954cea20f
+done: 3 post(s) this run
 === run 2026-10-11T14:06:22Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 3, room left in the last 24h: 0
