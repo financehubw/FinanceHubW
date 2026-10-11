@@ -1,0 +1,50 @@
+name: Weekly draft (Gemini, free)
+
+# Saturday 8:30 AM IST: Gemini drafts The Weekly for the week just ended.
+# Nothing is posted here. The Claude review task checks facts at 9:48 and publishes.
+on:
+  schedule:
+    - cron: "0 3 * * 6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: social
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt playwright && python -m playwright install --with-deps chromium
+      - name: Write the draft
+        timeout-minutes: 45
+        env:
+          PYTHONUNBUFFERED: "1"
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          mkdir -p docs
+          set -o pipefail
+          python magazine/weekly_free.py 2>&1 | tee docs/weekly_draft.log
+      - name: Save the draft
+        if: always()
+        run: |
+          git config user.name "FinanceHubW"
+          git config user.email "bot@financehubw.invalid"
+          git add docs/weekly_draft.log magazine/issues magazine/photos/tinted site/media/magazine 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "The Weekly: draft for review"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 5
+          done
