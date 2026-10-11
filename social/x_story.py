@@ -179,10 +179,37 @@ def post() -> None:
     LOG.write_text(json.dumps(log, indent=1), encoding="utf-8")
 
 
+TOPIC_TAGS = [
+    (r"\b(rbi|sebi|sensex|nifty|rupee|india)\b", ["#india", "#rbi", "#sensex", "#indianeconomy"]),
+    (r"\b(fed|federal reserve|powell|wall street|s&p|nasdaq|dow|treasury)\b", ["#federalreserve", "#wallstreet", "#stocks"]),
+    (r"\b(ecb|esma|euro|eurozone|europe|eu)\b", ["#ecb", "#europe", "#eurozone"]),
+    (r"\b(bitcoin|crypto|ethereum|btc|eth|stablecoin)\b", ["#crypto", "#bitcoin", "#cryptonews"]),
+    (r"\b(oil|opec|crude|gold|silver|commodit)", ["#oil", "#gold", "#commodities"]),
+    (r"\b(inflation|cpi|rate|rates|repo|interest)\b", ["#interestrates", "#inflation"]),
+    (r"\b(earnings|revenue|profit|ipo|shares)\b", ["#earnings", "#stockmarket"]),
+]
+
+
 def caption(p: dict) -> str:
-    lines = [ln for ln in p["text"].split("\n") if ln.strip() and not ln.strip().startswith("http")]
-    return ("\n".join(lines) + "\n\nDaily finance news, fact-checked. Follow @financehubw\n"
-            "Information only, not investment advice.\n\n#financenews #markets #economy #stockmarket #investing")
+    """Grid caption tuned for Explore: the headline as the hook (first 125 characters show before
+    "more"), the facts in plain words, a question for comments, a save/send prompt (the strongest
+    reach signals), keywords written out, and 5 hashtags matched to the story's topic."""
+    import re
+    lines = [ln.strip() for ln in p["text"].split("\n") if ln.strip() and not ln.strip().startswith("http")]
+    head, body = (lines[0] if lines else ""), lines[1:]
+    head = re.sub(r"^[^A-Za-z0-9$₹€£]+", "", head).replace("BREAKING:", "").strip()
+    hook = head.capitalize() if head.isupper() else head
+    low = p["text"].lower()
+    tags = []
+    for pat, t in TOPIC_TAGS:
+        if re.search(pat, low):
+            tags += [x for x in t if x not in tags]
+    tags = (tags + [t for t in ["#financenews", "#markets", "#economy", "#investing", "#money"] if t not in tags])[:5]
+    q = "Good news or bad news for your money? Tell us 👇"
+    return (f"🚨 {hook}\n\n" + "\n".join(body) + f"\n\n{q}\n"
+            "💾 Save this and send it to someone who follows the markets.\n\n"
+            "Follow @financehubw for fact-checked finance news every day.\n"
+            "Information only, not investment advice.\n\n" + " ".join(tags))
 
 
 def wait_live(url: str) -> bool:
