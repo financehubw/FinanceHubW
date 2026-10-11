@@ -14,7 +14,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "Would you still buy the car, or invest the payment instead? 👇"
+   "comment": "Would you still buy the car, or invest the payment instead? 👇",
+   "thumb": "Your car really costs *$78,000*"
   },
   {
    "file": "m1_ten_year_head_start.mp4",
@@ -29,7 +30,8 @@
     "#wealth"
    ],
    "ai_voice": false,
-   "comment": "How old were you when you started investing? 👇"
+   "comment": "How old were you when you started investing? 👇",
+   "thumb": "Start at 20 = *$298K* more"
   },
   {
    "file": "bank_spread.mp4",
@@ -44,7 +46,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "What interest does your savings account pay right now? 👇"
+   "comment": "What interest does your savings account pay right now? 👇",
+   "thumb": "Pays you *0.5%* Charges you 20%"
   },
   {
    "file": "bread_billion_marks.mp4",
@@ -59,7 +62,8 @@
     "#germany"
    ],
    "ai_voice": true,
-   "comment": "Could hyperinflation happen again today? Yes or no 👇"
+   "comment": "Could hyperinflation happen again today? Yes or no 👇",
+   "thumb": "Bread cost *200 billion* marks"
   },
   {
    "file": "m4_five_dollar_coffee.mp4",
@@ -74,7 +78,8 @@
     "#financetips"
    ],
    "ai_voice": false,
-   "comment": "Coffee or compounding: which one are you keeping? ☕👇"
+   "comment": "Coffee or compounding: which one are you keeping? ☕👇",
+   "thumb": "Your coffee = *$226,659*"
   },
   {
    "file": "manhattan_real.mp4",
@@ -89,7 +94,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "Worst deal ever, or not? Tell us what you think 👇"
+   "comment": "Worst deal ever, or not? Tell us what you think 👇",
+   "thumb": "Manhattan for *$24?*"
   },
   {
    "file": "hundred_a_month.mp4",
@@ -103,7 +109,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "Could you set aside $100 a month? What would you cut? 👇"
+   "comment": "Could you set aside $100 a month? What would you cut? 👇",
+   "thumb": "$100 a month = *$228,000*"
   },
   {
    "file": "m2_rule_of_72.mp4",
@@ -118,7 +125,8 @@
     "#financetips"
    ],
    "ai_voice": false,
-   "comment": "Did you know the Rule of 72 before this? 👇"
+   "comment": "Did you know the Rule of 72 before this? 👇",
+   "thumb": "The Rule of *72*"
   },
   {
    "file": "credit_card_20_years.mp4",
@@ -133,7 +141,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "Minimum payment or pay it off in full: what do you do? 👇"
+   "comment": "Minimum payment or pay it off in full: what do you do? 👇",
+   "thumb": "$5,000 debt for *20 years*"
   },
   {
    "file": "buffett_after_65.mp4",
@@ -148,7 +157,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "Did you know most of his wealth came after 65? 👇"
+   "comment": "Did you know most of his wealth came after 65? 👇",
+   "thumb": "Buffett got rich *after 65*"
   },
   {
    "file": "m3_100_shrinking.mp4",
@@ -163,7 +173,8 @@
     "#financetips"
    ],
    "ai_voice": false,
-   "comment": "What feels most expensive to you this year? 👇"
+   "comment": "What feels most expensive to you this year? 👇",
+   "thumb": "Your $100 is *shrinking*"
   },
   {
    "file": "ten_percent_salary.mp4",
@@ -178,7 +189,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "What % of your salary do you save? 👇"
+   "comment": "What % of your salary do you save? 👇",
+   "thumb": "Save 10% = *$860,000*"
   },
   {
    "file": "dollar_1970.mp4",
@@ -193,7 +205,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "What did something cost when you were a kid vs now? 👇"
+   "comment": "What did something cost when you were a kid vs now? 👇",
+   "thumb": "The dollar lost *85%*"
   },
   {
    "file": "m5_1970_dollar.mp4",
@@ -208,7 +221,8 @@
     "#personalfinance"
    ],
    "ai_voice": false,
-   "comment": "Is cash a good place to keep savings long-term? 👇"
+   "comment": "Is cash a good place to keep savings long-term? 👇",
+   "thumb": "What killed the *1970 dollar?*"
   },
   {
    "file": "coffee_million.mp4",
@@ -223,7 +237,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "Is this worth giving up your daily coffee for? ☕👇"
+   "comment": "Is this worth giving up your daily coffee for? ☕👇",
+   "thumb": "Coffee could cost you *$1 million*"
   },
   {
    "file": "doubling_17x.mp4",
@@ -238,7 +253,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "How many years would you let your money grow? 👇"
+   "comment": "How many years would you let your money grow? 👇",
+   "thumb": "Grow your money *17x*"
   },
   {
    "file": "one_thousand_fifty_years.mp4",
@@ -253,7 +269,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "What would you do with $1,000 today? 👇"
+   "comment": "What would you do with $1,000 today? 👇",
+   "thumb": "$1,000 for *50 years*"
   },
   {
    "file": "dollar_41_cents.mp4",
@@ -268,7 +285,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "How do you protect your savings from inflation? 👇"
+   "comment": "How do you protect your savings from inflation? 👇",
+   "thumb": "Your dollar = *41 cents*"
   },
   {
    "file": "rule_of_72_global.mp4",
@@ -283,7 +301,8 @@
     "#financetips"
    ],
    "ai_voice": true,
-   "comment": "Try it: what rate does your money earn, and when does it double? 👇"
+   "comment": "Try it: what rate does your money earn, and when does it double? 👇",
+   "thumb": "When does your money *double?*"
   }
  ]
 }

@@ -51,6 +51,11 @@ def next_item() -> dict | None:
     return None
 
 
+def thumb_for(item: dict) -> Path | None:
+    t = SHORTS / "thumbs" / (Path(item["file"]).stem + ".jpg")
+    return t if t.exists() else None
+
+
 def caption_for(item: dict) -> str:
     note = AI_NOTE if item.get("ai_voice", True) else ""
     return item["caption"] + FOOTER + note + "\n\n" + " ".join(item.get("tags", []))
@@ -73,6 +78,12 @@ def post_youtube(item: dict, path: Path) -> str:
     }
     r = yt.videos().insert(part="snippet,status", body=body,
                            media_body=MediaFileUpload(str(path), resumable=True)).execute()
+    t = thumb_for(item)
+    if t:
+        try:   # needs a phone-verified channel; skipped quietly if not allowed
+            yt.thumbnails().set(videoId=r["id"], media_body=MediaFileUpload(str(t), mimetype="image/jpeg")).execute()
+        except Exception as e:  # noqa: BLE001
+            print(f"  YouTube thumbnail skipped - {e}", file=sys.stderr)
     return f"https://youtube.com/shorts/{r['id']}"
 
 
@@ -81,7 +92,8 @@ def post_instagram(item: dict, url: str) -> str:
     ig, tok = os.environ["IG_USER_ID"], os.environ["META_TOKEN"]
     c = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data={
         "media_type": "REELS", "video_url": url, "caption": caption_for(item),
-        "share_to_feed": "true", "access_token": tok}).json()
+        "share_to_feed": "true", "access_token": tok,
+        **({"cover_url": f"{SITE_URL}/media/shorts/thumbs/{thumb_for(item).name}"} if thumb_for(item) else {})}).json()
     if "id" not in c:
         raise RuntimeError(f"container not created: {c.get('error', c)}")
     cid = c["id"]
@@ -116,7 +128,9 @@ def page_token() -> str:
 
 def post_facebook(item: dict, url: str) -> str:
     page, tok = os.environ["FB_PAGE_ID"], page_token()
-    r = requests.post(f"{GRAPH}/{page}/videos", timeout=120, data={
+    t = thumb_for(item)
+    files = {"thumb": (t.name, t.read_bytes(), "image/jpeg")} if t else None
+    r = requests.post(f"{GRAPH}/{page}/videos", timeout=180, files=files, data={
         "file_url": url, "title": item["title"], "description": caption_for(item),
         "access_token": tok}).json()
     if "id" not in r:
