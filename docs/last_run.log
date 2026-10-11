@@ -1,3 +1,41 @@
+=== run 2026-10-11T02:08:58Z
+X API: 402 Payment Required (credits depleted). Posting to the website and Instagram Stories only until X credits are available.
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
+daily cap: 3, room left in the last 24h: 3
+60/171 sources returned news, 436 recent items
+97 new trusted stories, posting up to 1 this run
+skip (off-topic or nothing new): Trump says 'I think it's time for Ukraine to get a new president' as he blames Zelenskyy for diesel prices
+skip (off-topic or nothing new): WWE Money In The Bank 2026 Results As Penta Wins, Bron Breakker Shines
+skip (off-topic or nothing new): BOK and Policy Banks Face Surge in Hacking Attempts, Exceeding 1 Million This Year
+skip (off-topic or nothing new): GIFT City funds or direct overseas investing? Experts explain the costs, tax rules and risks investors should know
+skip (off-topic or nothing new): Silver Rate Today In Ranchi Live, Latest Silver Price
+skip (off-topic or nothing new): Chartist Talk: Are bears finally losing their grip after Nifty 50 snaps 8-week losses? Sudeep Shah of SBI...
+skip (off-topic or nothing new): Why 10-Year Treasury Yields Are Rising: Lessons From 200 Years of Bond History
+skip (off-topic or nothing new): Trump’s DOJ probes major TV networks over response to White House ban of CNN
+---
+🇪🇺 CARLO COMPORTI TO LEAD EU MARKETS WATCHDOG
+
+📌 Carlo Comporti was named the next Chair of the European Securities and Markets Authority.
+
+📍 Europe · 📰 ESMA · 🏛️ Official
+https://www.esma.europa.eu/press-news/esma-news/carlo-comporti-appointed-chair-european-securities-and-markets-authority
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about Carlo Comporti's appointment as ESMA Chair are directly supported by the source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
+  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
+  Groq Kimi: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.","type":"invalid_request_error")
+  Groq Llama: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","co)
+  GitHub GPT: SKIP - unavailable (RuntimeError)
+  GitHub Llama: SKIP - unavailable (RuntimeError)
+  GitHub DeepSeek: SKIP - unavailable (RuntimeError)
+  GitHub Grok: SKIP - unavailable (RuntimeError)
+  GitHub Cohere: SKIP - unavailable (RuntimeError)
+  GitHub Phi: SKIP - unavailable (RuntimeError)
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  GitHub Mistral: SKIP - unavailable (RuntimeError)
+  OpenRouter: PASS - The appointment of Carlo Comporti as ESMA Chair is directly confirmed by the ESMA source.
+  -> posted https://x.com/FinanceHubW/status/web-36ab609fdcd0
+done: 1 post(s) this run
 === run 2026-10-11T01:41:19Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
 daily cap: 3, room left in the last 24h: 3
