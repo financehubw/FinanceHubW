@@ -174,6 +174,8 @@ def backfill() -> None:
                 print(f"  backfill {item['file']} -> {name}: {entry['results'][name]}")
             except Exception as e:  # noqa: BLE001
                 print(f"  backfill {item['file']} -> {name}: FAILED - {e}", file=sys.stderr)
+                entry.setdefault("errors", {})[name] = str(e)[:300]
+                changed = True
     if changed:
         POSTED.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
 
@@ -205,13 +207,14 @@ def main() -> None:
     if any(n != "YouTube" for n, _ in active) and not video_is_live(url):
         sys.exit(f"the video is not reachable at {url} yet (has the website redeployed?)")
 
-    results, failed = {}, []
+    results, failed, errors = {}, [], {}
     for name, fn in active:
         try:
             results[name] = fn()
             print(f"  {name}: posted {results[name]}")
         except Exception as e:  # noqa: BLE001  one platform failing must not stop the others
             failed.append(name)
+            errors[name] = str(e)[:300]
             print(f"  {name}: FAILED - {e}", file=sys.stderr)
 
     post_comments(item, results)
@@ -219,7 +222,7 @@ def main() -> None:
         log = load(POSTED, {"posted": []})
         log["posted"].append({"file": item["file"], "title": item["title"],
                               "date": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-                              "results": results, "failed": failed})
+                              "results": results, "failed": failed, "errors": errors})
         POSTED.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
     if failed and not results:
         sys.exit("every platform failed")
