@@ -87,7 +87,7 @@ def card(post: dict, out: Path, W: int = W, H: int = H) -> None:
     d.text((200, 182 if H > 1500 else 92), "FinanceHubW", font=font("archivo-latin-800-normal.ttf", 44), fill=INK)
     d.text((200, 236 if H > 1500 else 146), "LIVE NEWS" if str(post.get("id", "")).startswith("web-") else "LIVE FROM X", font=font("archivo-latin-600-normal.ttf", 28), fill=CORAL)
     import re
-    lines_in = [ln for ln in post["text"].split("\n") if not ln.strip().startswith("http")]
+    lines_in = [ln.replace("₹", "Rs ") for ln in post["text"].split("\n") if not ln.strip().startswith("http")]
     clean = [re.sub(r"[^\u0000-\u024F\u2010-\u2027\u2030-\u205E\u20AC\u2122]", "", ln).strip(" ·") for ln in (l.replace("\u2192", " to ") for l in lines_in)]
     head = clean[0] if clean else ""
     rest = [c for c in clean[1:] if c and not c.startswith("#")]
@@ -266,7 +266,7 @@ EDITIONS = [("Morning", 3, 30), ("Evening", 12, 30)]   # UTC: 9:00 AM and 6:00 P
 
 def _head(p: dict) -> str:
     import re
-    first = next((ln for ln in p["text"].split("\n") if ln.strip()), "")
+    first = next((ln for ln in p["text"].split("\n") if ln.strip()), "").replace("₹", "Rs ")
     return re.sub(r"^[^A-Za-z0-9$₹€£]+", "", first).replace("BREAKING:", "").strip()
 
 

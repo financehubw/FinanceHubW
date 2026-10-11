@@ -21,6 +21,10 @@ on:
         description: "Apply cover thumbnails to already-posted Shorts"
         type: boolean
         default: false
+      ig_delete:
+        description: "Instagram media id to delete"
+        type: string
+        default: ""
       fb_check:
         description: "Only diagnose the Facebook connection"
         type: boolean
@@ -43,6 +47,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests google-api-python-client google-auth pillow
+      - name: Delete an Instagram post
+        if: inputs.ig_delete != ''
+        run: python social/ig_delete.py "${{ inputs.ig_delete }}" | tee docs/ig_delete.txt
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
       - name: Facebook check
         if: inputs.fb_check
         run: python social/fb_check.py
@@ -65,7 +74,7 @@ jobs:
           if wait > 0: time.sleep(wait)
           PY
       - name: Post next Short
-        if: ${{ !inputs.fb_check }}
+        if: ${{ !inputs.fb_check && inputs.ig_delete == '' }}
         run: |
           if [ -f /tmp/skip ]; then echo "already posted today"; exit 0; fi
           if [ "${{ inputs.rethumb }}" = "true" ]; then python social/rethumb.py; exit 0; fi
@@ -87,6 +96,7 @@ jobs:
           git config user.email "bot@financehubw.invalid"
           git add social/posted.json site/archive.json
           if [ -f docs/fb_check.json ]; then git add docs/fb_check.json; fi
+          if [ -f docs/ig_delete.txt ]; then git add docs/ig_delete.txt; fi
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Record posted Short"
           for i in 1 2 3; do

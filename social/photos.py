@@ -108,7 +108,7 @@ def _openverse(q: str, seed: str) -> str | None:
 
 def photo(text: str, seed: str) -> Image.Image | None:
     q = query_for(text)
-    for src in (_pexels, _pixabay, _openverse):
+    for src in (_pexels, _pixabay):   # Openverse dropped: its results were often off-topic
         try:
             url = src(q, seed)
             if not url:
