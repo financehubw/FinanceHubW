@@ -74,7 +74,7 @@ jobs:
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
           git add social/posted.json site/archive.json
-          [ -f docs/fb_check.json ] && git add docs/fb_check.json
+          if [ -f docs/fb_check.json ]; then git add docs/fb_check.json; fi
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Record posted Short"
           for i in 1 2 3; do
