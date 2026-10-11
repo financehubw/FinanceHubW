@@ -201,7 +201,8 @@ def main() -> None:
                 print(f"  Story: posted {entry['story']}")
             except Exception as e:  # noqa: BLE001
                 print(f"  Story: FAILED - {e}", file=sys.stderr)
-            if os.environ.get("YT_TOKEN_JSON"):
+            # YouTube carries only the hand-made Shorts (quality over volume). Set NEWS_SHORTS=1 to re-enable.
+            if os.environ.get("NEWS_SHORTS") == "1" and os.environ.get("YT_TOKEN_JSON"):
                 try:
                     entry["youtube"] = post_news_short(item)
                     print(f"  YouTube news Short: {entry['youtube']}")
