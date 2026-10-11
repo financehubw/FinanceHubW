@@ -2,10 +2,11 @@ name: Post Short
 
 on:
   schedule:
-    # Target 6:00 PM IST (12:30 UTC). GitHub often starts scheduled jobs late, so two early
-    # triggers fire and the job waits until 6:00 PM exactly; whichever runs second does nothing.
-    - cron: "41 11 * * *"   # 5:11 PM IST
-    - cron: "7 12 * * *"    # 5:37 PM IST (backup)
+    # Target 8:30 PM IST = 15:00 UTC = 11 AM New York = 4 PM London: India's evening peak and the
+    # US late-morning Reels/Shorts peak in one slot. Two early triggers (GitHub often starts late);
+    # the job waits until 15:00 UTC, and whichever runs second sees today's post and does nothing.
+    - cron: "43 14 * * *"   # 8:13 PM IST
+    - cron: "51 14 * * *"   # 8:21 PM IST (backup)
   workflow_dispatch:
     inputs:
       dry_run:
@@ -49,7 +50,7 @@ jobs:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
-      - name: Wait until 6:00 PM IST
+      - name: Wait until 8:30 PM IST
         if: github.event_name == 'schedule'
         run: |
           python - <<'PY'
@@ -58,9 +59,9 @@ jobs:
           log = json.load(open("social/posted.json"))["posted"]
           if any(p["date"].startswith(now.strftime("%Y-%m-%d")) for p in log):
               open("/tmp/skip", "w").write("1"); sys.exit(0)
-          target = now.replace(hour=12, minute=30, second=0, microsecond=0)
+          target = now.replace(hour=15, minute=0, second=0, microsecond=0)
           wait = (target - now).total_seconds()
-          print(f"waiting {max(0, wait):.0f}s until 12:30 UTC")
+          print(f"waiting {max(0, wait):.0f}s until 15:00 UTC")
           if wait > 0: time.sleep(wait)
           PY
       - name: Post next Short

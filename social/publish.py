@@ -138,7 +138,7 @@ def post_facebook(item: dict, url: str) -> str:
     return r["id"]
 
 
-COMMENT_TAIL = "\nNew finance breakdown every day at 6:47 PM IST."
+COMMENT_TAIL = "\nNew finance breakdown every day at 8:30 PM IST."
 
 
 def post_comments(item: dict, results: dict) -> None:
