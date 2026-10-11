@@ -231,7 +231,7 @@ def _oa(provider: str, url: str, key_env: str, models: list[str], min_tokens: in
 
 GROQ = "https://api.groq.com/openai/v1/chat/completions"
 GITHUB = "https://models.github.ai/inference/chat/completions"     # free with the Actions GITHUB_TOKEN
-_groq_alt = _oa("Groq Qwen", GROQ, "GROQ_API_KEY", ["qwen/qwen3-32b"], 1200)
+_groq_alt = _oa("Groq Qwen", GROQ, "GROQ_API_KEY", ["qwen/qwen3.8-27b", "qwen/qwen3-32b"], 1200)
 
 # Every free checker. Each has its own separate free limits, so one running out never blocks posting.
 # The ones without a key set are skipped automatically.

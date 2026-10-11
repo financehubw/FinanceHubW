@@ -179,8 +179,9 @@ WRITERS = {   # free writers we can test; DAILY_WRITER picks one
     "DeepSeek": ("GITHUB_TOKEN", lambda p: verify._oa("DeepSeek", verify.GITHUB, "GITHUB_TOKEN", ["deepseek/DeepSeek-V3-0324"])(p, 4000)),
     "Kimi": ("GROQ_API_KEY", lambda p: verify._oa("Kimi", verify.GROQ, "GROQ_API_KEY", ["moonshotai/kimi-k2-instruct-0905", "moonshotai/kimi-k2-instruct"])(p, 4000)),
     "GPT-OSS": ("GROQ_API_KEY", lambda p: verify._groq_oss(p, 4000)),
+    "Qwen": ("GROQ_API_KEY", lambda p: verify._oa("Qwen", verify.GROQ, "GROQ_API_KEY", ["qwen/qwen3.8-27b"], 4000)(p, 4000)),
 }
-CHECKER_OF = {"Gemini": "Gemini", "GPT-4.1": "GitHub GPT", "DeepSeek": "GitHub DeepSeek", "Kimi": "Groq Kimi", "GPT-OSS": "Groq GPT-OSS"}
+CHECKER_OF = {"Gemini": "Gemini", "GPT-4.1": "GitHub GPT", "DeepSeek": "GitHub DeepSeek", "Kimi": "Groq Kimi", "GPT-OSS": "Groq GPT-OSS", "Qwen": "Groq Qwen"}
 
 
 def llm(prompt: str) -> tuple[str, str]:
