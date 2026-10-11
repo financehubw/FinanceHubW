@@ -389,7 +389,7 @@ def record_for_site(text: str, tweet_id: str) -> None:
         print(f"could not update site feed: {e}", file=sys.stderr)
 
 
-X_BLOCKED = os.environ.get("X_ENABLED", "").lower() in ("0", "false", "no")  # X has no free API posting
+X_BLOCKED = os.environ.get("X_ENABLED", "").lower() not in ("1", "true", "yes")  # X is posted by hand (no free API); set X_ENABLED=1 if credits are ever added
 
 
 def publish(client: tweepy.Client, text: str, **kw) -> str | None:
