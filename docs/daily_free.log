@@ -1,0 +1,33 @@
+===== writer GPT-4.1
+98/171 sources returned news, 874 recent items
+  writer GPT-4.1 unavailable: RuntimeError
+  plan rejected: no free writer model answered
+  writer GPT-4.1 unavailable: RuntimeError
+  plan rejected: no free writer model answered
+  writer GPT-4.1 unavailable: RuntimeError
+  plan rejected: no free writer model answered
+could not plan the edition today; nothing published
+===== writer DeepSeek
+98/171 sources returned news, 874 recent items
+  writer DeepSeek unavailable: RuntimeError
+  plan rejected: no free writer model answered
+  writer DeepSeek unavailable: RuntimeError
+  plan rejected: no free writer model answered
+  writer DeepSeek unavailable: RuntimeError
+  plan rejected: no free writer model answered
+could not plan the edition today; nothing published
+===== writer Kimi
+98/171 sources returned news, 874 recent items
+  writer Kimi unavailable: HTTP 404: {"error":{"message":"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.","type":"invalid_request_error"
+  plan rejected: no free writer model answered
+  writer Kimi unavailable: HTTP 404: {"error":{"message":"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.","type":"invalid_request_error"
+  plan rejected: no free writer model answered
+  writer Kimi unavailable: HTTP 404: {"error":{"message":"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.","type":"invalid_request_error"
+  plan rejected: no free writer model answered
+could not plan the edition today; nothing published
+===== writer Gemini
+97/171 sources returned news, 864 recent items
+  big: story #1 failed in 3s
+  big: story #6 failed in 3s
+  big: story #9 failed in 2s
+no story passed the checks for the big slide; nothing published
