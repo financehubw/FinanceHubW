@@ -75,6 +75,8 @@ jobs:
       - name: Draw Story cards for new X posts
         if: always()
         run: python social/x_story.py render
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
 
       - name: Save posting history
         if: always()

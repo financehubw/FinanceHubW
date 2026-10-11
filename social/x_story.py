@@ -58,6 +58,26 @@ def card(post: dict, out: Path, W: int = W, H: int = H) -> None:
     top = 470 if H > 1500 else 300
     fy = H - 390 if H > 1500 else H - 300   # footer block top
     img = Image.new("RGB", (W, H), BG)
+    ph = photo_for(post)
+    if ph is not None:   # topic photo in the top band, fading into the dark page
+        import photos
+        band = int(H * (0.40 if H > 1500 else 0.34))
+        pic = photos.cover_fit(ph, W, band)
+        from PIL import ImageEnhance
+        pic = ImageEnhance.Brightness(pic).enhance(0.75)
+        mask = Image.new("L", (1, band))
+        for yy in range(band):
+            t = yy / band
+            mask.putpixel((0, yy), int(255 * (1 - max(0, (t - 0.45) / 0.55)) ** 1.4 * (0.55 + 0.45 * min(1, t / 0.25))))
+        img.paste(pic, (0, 0), mask.resize((W, band)))
+        scrim = Image.new("L", (1, 300))
+        for yy in range(300):
+            scrim.putpixel((0, yy), int(170 * (1 - yy / 300) ** 1.5))
+        img.paste(Image.new("RGB", (W, 300), BG), (0, 0), scrim.resize((W, 300)))
+        top = band - (70 if H > 1500 else 40)
+        if ph.info.get("credit"):
+            cf = font("archivo-latin-600-normal.ttf", 18)
+            ImageDraw.Draw(img).text((W - 40, 28), ph.info["credit"][:70], font=cf, fill=(200, 196, 188), anchor="ra")
     d = ImageDraw.Draw(img)
     d.rectangle([0, 0, W, 14], fill=CORAL)
     icon = ROOT / "brand" / "financehubw-icon.png"
@@ -109,6 +129,22 @@ def card(post: dict, out: Path, W: int = W, H: int = H) -> None:
            font=font("archivo-latin-600-normal.ttf", 26), fill=MUTED)
     out.parent.mkdir(parents=True, exist_ok=True)
     img.save(out, quality=92)
+
+
+_PHOTOS: dict = {}
+
+
+def photo_for(post: dict):
+    """Cached per post so the Story and the briefing slide use the same picture."""
+    if os.environ.get("NO_PHOTOS"):
+        return None
+    if post["id"] not in _PHOTOS:
+        try:
+            import photos
+            _PHOTOS[post["id"]] = photos.photo(post["text"], post["id"])
+        except Exception as e:  # noqa: BLE001
+            print("photo:", e); _PHOTOS[post["id"]] = None
+    return _PHOTOS[post["id"]]
 
 
 def load(p: Path, default):
@@ -244,6 +280,16 @@ def briefing_cover(stories: list[dict], out: Path, edition: str, when: dt.dateti
     """Cover in the same look as the Story cards: dark paper, coral accents, Archivo."""
     W2, H2 = 1080, 1350
     img = Image.new("RGB", (W2, H2), BG)
+    ph = photo_for(stories[0]) if stories else None
+    if ph is not None:   # lead story's photo behind the date, fading into the page
+        import photos
+        from PIL import ImageEnhance
+        band = 500
+        pic = ImageEnhance.Brightness(photos.cover_fit(ph, W2, band)).enhance(0.55)
+        mask = Image.new("L", (1, band))
+        for yy in range(band):
+            mask.putpixel((0, yy), int(255 * max(0.0, 1 - max(0, (yy / band - 0.4) / 0.6)) ** 1.3))
+        img.paste(pic, (0, 0), mask.resize((W2, band)))
     d = ImageDraw.Draw(img)
     d.rectangle([0, 0, W2, 14], fill=CORAL)
     icon = ROOT / "brand" / "financehubw-icon.png"
