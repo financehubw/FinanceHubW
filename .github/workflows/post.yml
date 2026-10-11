@@ -60,7 +60,8 @@ jobs:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
           LONG_POSTS: ${{ vars.LONG_POSTS }}
           POSTS_PER_RUN: ${{ vars.POSTS_PER_RUN }}
-          MAX_POSTS_PER_DAY: ${{ vars.MAX_POSTS_PER_DAY }}
+          # X is posted by hand (no paid API), so the 3-a-day credit cap no longer applies.
+          MAX_POSTS_PER_DAY: ${{ vars.X_ENABLED == '1' && vars.MAX_POSTS_PER_DAY || '12' }}
           MIN_PASSES: ${{ vars.MIN_PASSES }}
           YOUTUBE_URL: ${{ vars.YOUTUBE_URL }}
           DRY_RUN: ${{ (inputs.dry_run || vars.DRY_RUN == '1') && '1' || '' }}
