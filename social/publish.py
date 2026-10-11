@@ -113,6 +113,36 @@ def post_facebook(item: dict, url: str) -> str:
     return r["id"]
 
 
+COMMENT_TAIL = "\nNew finance breakdown every day at 6:47 PM IST."
+
+
+def post_comments(item: dict, results: dict) -> None:
+    """First comment under each new post (pin it by hand: ⋮ → Pin). Never blocks posting."""
+    text = item.get("comment")
+    if not text:
+        return
+    text += COMMENT_TAIL
+    for name, target in results.items():
+        try:
+            if name == "YouTube":
+                from google.oauth2.credentials import Credentials
+                from googleapiclient.discovery import build
+                yt = build("youtube", "v3", cache_discovery=False,
+                           credentials=Credentials.from_authorized_user_info(json.loads(os.environ["YT_TOKEN_JSON"])))
+                vid = target.rsplit("/", 1)[-1]
+                yt.commentThreads().insert(part="snippet", body={"snippet": {"videoId": vid,
+                    "topLevelComment": {"snippet": {"textOriginal": text}}}}).execute()
+            else:
+                tok = os.environ["META_TOKEN" if name == "Instagram" else "FB_PAGE_TOKEN"]
+                r = requests.post(f"{GRAPH}/{target}/comments", timeout=60,
+                                  data={"message": text, "access_token": tok}).json()
+                if "id" not in r:
+                    raise RuntimeError(r.get("error", r))
+            print(f"  {name}: comment posted")
+        except Exception as e:  # noqa: BLE001
+            print(f"  {name}: comment skipped - {e}", file=sys.stderr)
+
+
 def video_is_live(url: str) -> bool:
     try:
         r = requests.head(url, timeout=30, allow_redirects=True)
@@ -140,6 +170,7 @@ def backfill() -> None:
             try:
                 entry["results"][name] = fn(item, url)
                 changed = True
+                post_comments(item, {name: entry["results"][name]})
                 print(f"  backfill {item['file']} -> {name}: {entry['results'][name]}")
             except Exception as e:  # noqa: BLE001
                 print(f"  backfill {item['file']} -> {name}: FAILED - {e}", file=sys.stderr)
@@ -183,6 +214,7 @@ def main() -> None:
             failed.append(name)
             print(f"  {name}: FAILED - {e}", file=sys.stderr)
 
+    post_comments(item, results)
     if results:   # mark as done only if at least one platform got it, so a total failure retries
         log = load(POSTED, {"posted": []})
         log["posted"].append({"file": item["file"], "title": item["title"],

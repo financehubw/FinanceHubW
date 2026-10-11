@@ -1,270 +1,289 @@
 {
-  "about": "Shorts waiting to be posted, oldest first. To add one: put the .mp4 in site/media/shorts/ and add an entry here. The publisher posts the first entry not yet in posted.json.",
-  "items": [
-    {
-      "file": "car_payment.mp4",
-      "title": "Your car payment could cost you $78,000",
-      "caption": "$1,000 a month for 5 years is $60,000 in car payments.\nInvested instead at around 10% a year, the same money could have grown to about $78,000.\nThe car loses value. The investment can grow. (Returns are not guaranteed.)",
-      "tags": [
-        "#personalfinance",
-        "#money",
-        "#investing",
-        "#carloan",
-        "#compoundinterest",
-        "#financetips"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "m1_ten_year_head_start.mp4",
-      "title": "Start investing at 20 or 30? The gap is $298,066",
-      "caption": "$100 a month at 8% a year, invested until 65.\nStart at 20: about $527,454. Start at 30: about $229,388.\nTen extra years of saving, just $12,000 more put in, is worth roughly $298,000.",
-      "tags": [
-        "#investing",
-        "#compoundinterest",
-        "#personalfinance",
-        "#money",
-        "#financetips",
-        "#wealth"
-      ],
-      "ai_voice": false
-    },
-    {
-      "file": "bank_spread.mp4",
-      "title": "Your bank pays you 0.5% and charges you 20%",
-      "caption": "A traditional savings account can pay as little as 0.5% a year.\nThe same bank's credit card can charge 20% or more.\nThat gap is how banks make money from you.",
-      "tags": [
-        "#banking",
-        "#creditcard",
-        "#savings",
-        "#personalfinance",
-        "#money",
-        "#financetips"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "bread_billion_marks.mp4",
-      "title": "When bread cost 200 billion marks",
-      "caption": "Germany, 1923. Prices doubled again and again until one loaf of bread cost about 200 billion marks.\nThis is what hyperinflation looks like.",
-      "tags": [
-        "#history",
-        "#inflation",
-        "#hyperinflation",
-        "#economics",
-        "#money",
-        "#germany"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "m4_five_dollar_coffee.mp4",
-      "title": "Your $5 coffee could be worth $226,659",
-      "caption": "$5 a day is $1,825 a year.\nInvested instead for 30 years at 8% a year, compounded monthly, it grows to about $226,659.\nSmall habits, big numbers.",
-      "tags": [
-        "#money",
-        "#savingmoney",
-        "#investing",
-        "#compoundinterest",
-        "#personalfinance",
-        "#financetips"
-      ],
-      "ai_voice": false
-    },
-    {
-      "file": "manhattan_real.mp4",
-      "title": "The worst deal in history?",
-      "caption": "In 1626, Manhattan was traded for goods worth about $24.\nInvested at 6% a year for 400 years, that would be around $300 billion. At 8%, about $560 trillion, more than the whole world economy.\nThe returns are hypothetical, for illustration.",
-      "tags": [
-        "#compounding",
-        "#history",
-        "#personalfinance",
-        "#money",
-        "#investing",
-        "#financetips"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "hundred_a_month.mp4",
-      "title": "$100 a month could become $228,000",
-      "caption": "$100 a month, invested at an assumed 10% a year for 30 years.\nYou put in $36,000. It could be worth about $228,000.\nStart small. Start now. (Returns are not guaranteed.)",
-      "tags": [
-        "#compoundinterest",
-        "#personalfinance",
-        "#money",
-        "#investing",
-        "#financetips"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "m2_rule_of_72.mp4",
-      "title": "The Rule of 72 in 15 seconds",
-      "caption": "Divide 72 by your yearly return to see how fast money doubles.\nAt 8%, $10,000 doubles about every 9 years: $20k, $40k, $80k, $160k by year 36.",
-      "tags": [
-        "#ruleof72",
-        "#investing",
-        "#compoundinterest",
-        "#money",
-        "#personalfinance",
-        "#financetips"
-      ],
-      "ai_voice": false
-    },
-    {
-      "file": "credit_card_20_years.mp4",
-      "title": "The $5,000 debt that lasts 20 years",
-      "caption": "$5,000 on a card at 24% APR, paying only the minimum (interest plus 1% of the balance, $25 floor).\nIt takes about 19.5 years to clear, and you pay back nearly $14,000.\nPay more than the minimum, every month. Terms vary by card.",
-      "tags": [
-        "#creditcard",
-        "#debt",
-        "#personalfinance",
-        "#money",
-        "#investing",
-        "#financetips"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "buffett_after_65.mp4",
-      "title": "Buffett's secret nobody talks about",
-      "caption": "According to Morgan Housel's The Psychology of Money, $81.5 billion of Warren Buffett's $84.5 billion fortune came after his 65th birthday.\nHe wasn't just a great investor. He was a great investor for 70 years.",
-      "tags": [
-        "#warrenbuffett",
-        "#compoundinterest",
-        "#personalfinance",
-        "#money",
-        "#investing",
-        "#financetips"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "m3_100_shrinking.mp4",
-      "title": "What 3% inflation does to $100",
-      "caption": "At 3% inflation a year, $100 today buys only about $49 worth of things in 24 years.\nCash that sits still loses value.",
-      "tags": [
-        "#inflation",
-        "#money",
-        "#savings",
-        "#personalfinance",
-        "#economics",
-        "#financetips"
-      ],
-      "ai_voice": false
-    },
-    {
-      "file": "ten_percent_salary.mp4",
-      "title": "Save 10% and retire with $860,000",
-      "caption": "Save 10% of a $50,000 salary: $5,000 a year.\nInvested for 35 years at an assumed 8% a year, it could grow to about $860,000.\nPay yourself first. (Returns are not guaranteed.)",
-      "tags": [
-        "#retirement",
-        "#savingmoney",
-        "#personalfinance",
-        "#money",
-        "#investing",
-        "#financetips"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "dollar_1970.mp4",
-      "title": "The dollar lost 85% since 1970",
-      "caption": "What cost $1 in 1970 cost about $6.67 in 2020, based on the US consumer price index.\nThat's about 85% of the dollar's buying power gone.\nNobody stole it. Inflation took it, a few cents at a time.",
-      "tags": [
-        "#inflation",
-        "#history",
-        "#personalfinance",
-        "#money",
-        "#investing",
-        "#financetips"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "m5_1970_dollar.mp4",
-      "title": "What happened to the 1970 dollar?",
-      "caption": "A dollar from 1970 buys only about 12 cents' worth of things today.\nThat's roughly 88% of its buying power gone (US CPI data).",
-      "tags": [
-        "#inflation",
-        "#history",
-        "#money",
-        "#economics",
-        "#usd",
-        "#personalfinance"
-      ],
-      "ai_voice": false
-    },
-    {
-      "file": "coffee_million.mp4",
-      "title": "Your coffee could cost you nearly $1 million",
-      "caption": "$5 a day is about $152 a month.\nInvested at an assumed 10% a year for 40 years, that's roughly $969,000.\nDon't quit coffee. Just know what your habits really cost.",
-      "tags": [
-        "#savingmoney",
-        "#compoundinterest",
-        "#personalfinance",
-        "#money",
-        "#investing",
-        "#financetips"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "doubling_17x.mp4",
-      "title": "How your money could grow 17x",
-      "caption": "At an assumed 10% a year, money doubles about every 7 years.\nIn 30 years, that's roughly 17 times what you started with.\nNo lottery. Just math. (Returns are not guaranteed.)",
-      "tags": [
-        "#compoundinterest",
-        "#ruleof72",
-        "#personalfinance",
-        "#money",
-        "#investing",
-        "#financetips"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "one_thousand_fifty_years.mp4",
-      "title": "What $1,000 becomes in 50 years",
-      "caption": "Put $1,000 away and don't touch it.\nAt an assumed 10% a year for 50 years, it could grow to about $117,000.\nPatience is the real superpower.",
-      "tags": [
-        "#compoundinterest",
-        "#longterminvesting",
-        "#personalfinance",
-        "#money",
-        "#investing",
-        "#financetips"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "dollar_41_cents.mp4",
-      "title": "Why your dollar will be worth 41 cents",
-      "caption": "At a steady 3% inflation rate, $1 buys only about 41 cents' worth of today's goods after 30 years.\nMoney that sits still loses value.",
-      "tags": [
-        "#inflation",
-        "#savings",
-        "#personalfinance",
-        "#money",
-        "#investing",
-        "#financetips"
-      ],
-      "ai_voice": true
-    },
-    {
-      "file": "rule_of_72_global.mp4",
-      "title": "The one-second trick that tells you when your money doubles",
-      "caption": "Divide 72 by your yearly return.\nSavings at 2%: about 36 years. Bonds at 6%: about 12 years. Stocks at an assumed 10%: about 7 years.\nSame money, totally different futures.",
-      "tags": [
-        "#ruleof72",
-        "#investing",
-        "#personalfinance",
-        "#money",
-        "#investing",
-        "#financetips"
-      ],
-      "ai_voice": true
-    }
-  ]
+ "about": "Shorts waiting to be posted, oldest first. To add one: put the .mp4 in site/media/shorts/ and add an entry here. The publisher posts the first entry not yet in posted.json. Optional \"comment\": posted as the first comment on each platform.",
+ "items": [
+  {
+   "file": "car_payment.mp4",
+   "title": "Your car payment could cost you $78,000",
+   "caption": "$1,000 a month for 5 years is $60,000 in car payments.\nInvested instead at around 10% a year, the same money could have grown to about $78,000.\nThe car loses value. The investment can grow. (Returns are not guaranteed.)",
+   "tags": [
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#carloan",
+    "#compoundinterest",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "Would you still buy the car, or invest the payment instead? 👇"
+  },
+  {
+   "file": "m1_ten_year_head_start.mp4",
+   "title": "Start investing at 20 or 30? The gap is $298,066",
+   "caption": "$100 a month at 8% a year, invested until 65.\nStart at 20: about $527,454. Start at 30: about $229,388.\nTen extra years of saving, just $12,000 more put in, is worth roughly $298,000.",
+   "tags": [
+    "#investing",
+    "#compoundinterest",
+    "#personalfinance",
+    "#money",
+    "#financetips",
+    "#wealth"
+   ],
+   "ai_voice": false,
+   "comment": "How old were you when you started investing? 👇"
+  },
+  {
+   "file": "bank_spread.mp4",
+   "title": "Your bank pays you 0.5% and charges you 20%",
+   "caption": "A traditional savings account can pay as little as 0.5% a year.\nThe same bank's credit card can charge 20% or more.\nThat gap is how banks make money from you.",
+   "tags": [
+    "#banking",
+    "#creditcard",
+    "#savings",
+    "#personalfinance",
+    "#money",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "What interest does your savings account pay right now? 👇"
+  },
+  {
+   "file": "bread_billion_marks.mp4",
+   "title": "When bread cost 200 billion marks",
+   "caption": "Germany, 1923. Prices doubled again and again until one loaf of bread cost about 200 billion marks.\nThis is what hyperinflation looks like.",
+   "tags": [
+    "#history",
+    "#inflation",
+    "#hyperinflation",
+    "#economics",
+    "#money",
+    "#germany"
+   ],
+   "ai_voice": true,
+   "comment": "Could hyperinflation happen again today? Yes or no 👇"
+  },
+  {
+   "file": "m4_five_dollar_coffee.mp4",
+   "title": "Your $5 coffee could be worth $226,659",
+   "caption": "$5 a day is $1,825 a year.\nInvested instead for 30 years at 8% a year, compounded monthly, it grows to about $226,659.\nSmall habits, big numbers.",
+   "tags": [
+    "#money",
+    "#savingmoney",
+    "#investing",
+    "#compoundinterest",
+    "#personalfinance",
+    "#financetips"
+   ],
+   "ai_voice": false,
+   "comment": "Coffee or compounding: which one are you keeping? ☕👇"
+  },
+  {
+   "file": "manhattan_real.mp4",
+   "title": "The worst deal in history?",
+   "caption": "In 1626, Manhattan was traded for goods worth about $24.\nInvested at 6% a year for 400 years, that would be around $300 billion. At 8%, about $560 trillion, more than the whole world economy.\nThe returns are hypothetical, for illustration.",
+   "tags": [
+    "#compounding",
+    "#history",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "Worst deal ever, or not? Tell us what you think 👇"
+  },
+  {
+   "file": "hundred_a_month.mp4",
+   "title": "$100 a month could become $228,000",
+   "caption": "$100 a month, invested at an assumed 10% a year for 30 years.\nYou put in $36,000. It could be worth about $228,000.\nStart small. Start now. (Returns are not guaranteed.)",
+   "tags": [
+    "#compoundinterest",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "Could you set aside $100 a month? What would you cut? 👇"
+  },
+  {
+   "file": "m2_rule_of_72.mp4",
+   "title": "The Rule of 72 in 15 seconds",
+   "caption": "Divide 72 by your yearly return to see how fast money doubles.\nAt 8%, $10,000 doubles about every 9 years: $20k, $40k, $80k, $160k by year 36.",
+   "tags": [
+    "#ruleof72",
+    "#investing",
+    "#compoundinterest",
+    "#money",
+    "#personalfinance",
+    "#financetips"
+   ],
+   "ai_voice": false,
+   "comment": "Did you know the Rule of 72 before this? 👇"
+  },
+  {
+   "file": "credit_card_20_years.mp4",
+   "title": "The $5,000 debt that lasts 20 years",
+   "caption": "$5,000 on a card at 24% APR, paying only the minimum (interest plus 1% of the balance, $25 floor).\nIt takes about 19.5 years to clear, and you pay back nearly $14,000.\nPay more than the minimum, every month. Terms vary by card.",
+   "tags": [
+    "#creditcard",
+    "#debt",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "Minimum payment or pay it off in full: what do you do? 👇"
+  },
+  {
+   "file": "buffett_after_65.mp4",
+   "title": "Buffett's secret nobody talks about",
+   "caption": "According to Morgan Housel's The Psychology of Money, $81.5 billion of Warren Buffett's $84.5 billion fortune came after his 65th birthday.\nHe wasn't just a great investor. He was a great investor for 70 years.",
+   "tags": [
+    "#warrenbuffett",
+    "#compoundinterest",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "Did you know most of his wealth came after 65? 👇"
+  },
+  {
+   "file": "m3_100_shrinking.mp4",
+   "title": "What 3% inflation does to $100",
+   "caption": "At 3% inflation a year, $100 today buys only about $49 worth of things in 24 years.\nCash that sits still loses value.",
+   "tags": [
+    "#inflation",
+    "#money",
+    "#savings",
+    "#personalfinance",
+    "#economics",
+    "#financetips"
+   ],
+   "ai_voice": false,
+   "comment": "What feels most expensive to you this year? 👇"
+  },
+  {
+   "file": "ten_percent_salary.mp4",
+   "title": "Save 10% and retire with $860,000",
+   "caption": "Save 10% of a $50,000 salary: $5,000 a year.\nInvested for 35 years at an assumed 8% a year, it could grow to about $860,000.\nPay yourself first. (Returns are not guaranteed.)",
+   "tags": [
+    "#retirement",
+    "#savingmoney",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "What % of your salary do you save? 👇"
+  },
+  {
+   "file": "dollar_1970.mp4",
+   "title": "The dollar lost 85% since 1970",
+   "caption": "What cost $1 in 1970 cost about $6.67 in 2020, based on the US consumer price index.\nThat's about 85% of the dollar's buying power gone.\nNobody stole it. Inflation took it, a few cents at a time.",
+   "tags": [
+    "#inflation",
+    "#history",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "What did something cost when you were a kid vs now? 👇"
+  },
+  {
+   "file": "m5_1970_dollar.mp4",
+   "title": "What happened to the 1970 dollar?",
+   "caption": "A dollar from 1970 buys only about 12 cents' worth of things today.\nThat's roughly 88% of its buying power gone (US CPI data).",
+   "tags": [
+    "#inflation",
+    "#history",
+    "#money",
+    "#economics",
+    "#usd",
+    "#personalfinance"
+   ],
+   "ai_voice": false,
+   "comment": "Is cash a good place to keep savings long-term? 👇"
+  },
+  {
+   "file": "coffee_million.mp4",
+   "title": "Your coffee could cost you nearly $1 million",
+   "caption": "$5 a day is about $152 a month.\nInvested at an assumed 10% a year for 40 years, that's roughly $969,000.\nDon't quit coffee. Just know what your habits really cost.",
+   "tags": [
+    "#savingmoney",
+    "#compoundinterest",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "Is this worth giving up your daily coffee for? ☕👇"
+  },
+  {
+   "file": "doubling_17x.mp4",
+   "title": "How your money could grow 17x",
+   "caption": "At an assumed 10% a year, money doubles about every 7 years.\nIn 30 years, that's roughly 17 times what you started with.\nNo lottery. Just math. (Returns are not guaranteed.)",
+   "tags": [
+    "#compoundinterest",
+    "#ruleof72",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "How many years would you let your money grow? 👇"
+  },
+  {
+   "file": "one_thousand_fifty_years.mp4",
+   "title": "What $1,000 becomes in 50 years",
+   "caption": "Put $1,000 away and don't touch it.\nAt an assumed 10% a year for 50 years, it could grow to about $117,000.\nPatience is the real superpower.",
+   "tags": [
+    "#compoundinterest",
+    "#longterminvesting",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "What would you do with $1,000 today? 👇"
+  },
+  {
+   "file": "dollar_41_cents.mp4",
+   "title": "Why your dollar will be worth 41 cents",
+   "caption": "At a steady 3% inflation rate, $1 buys only about 41 cents' worth of today's goods after 30 years.\nMoney that sits still loses value.",
+   "tags": [
+    "#inflation",
+    "#savings",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "How do you protect your savings from inflation? 👇"
+  },
+  {
+   "file": "rule_of_72_global.mp4",
+   "title": "The one-second trick that tells you when your money doubles",
+   "caption": "Divide 72 by your yearly return.\nSavings at 2%: about 36 years. Bonds at 6%: about 12 years. Stocks at an assumed 10%: about 7 years.\nSame money, totally different futures.",
+   "tags": [
+    "#ruleof72",
+    "#investing",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "Try it: what rate does your money earn, and when does it double? 👇"
+  }
+ ]
 }
