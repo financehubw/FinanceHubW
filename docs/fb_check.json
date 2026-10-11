@@ -1,28 +1,33 @@
 {
  "page_id_set": true,
  "token_set": false,
+ "derived_from_meta_token": "ok",
  "me": {
-  "error": {
-   "message": "An active access token must be used to query information about the current user.",
-   "type": "OAuthException",
-   "code": 2500,
-   "fbtrace_id": "A7w9qR095J-ErNcL5ZkOQkD"
-  }
+  "id": "1350820541447560",
+  "name": "FinancehubW"
  },
  "page": {
   "error": {
-   "message": "(#200) Provide valid app ID",
+   "message": "(#100) Tried accessing nonexisting field (tasks)",
    "type": "OAuthException",
-   "code": 200,
-   "fbtrace_id": "AhjhMCq0WaQHb7WZzjB8ai9"
+   "code": 100,
+   "fbtrace_id": "AqoicuxfyleJD1CG5Ib6htQ"
   }
  },
  "debug": {
-  "type": null,
-  "is_valid": null,
-  "expires_at": null,
-  "scopes": null,
-  "profile_id": null,
+  "type": "PAGE",
+  "is_valid": true,
+  "expires_at": 0,
+  "scopes": [
+   "pages_show_list",
+   "business_management",
+   "instagram_basic",
+   "instagram_content_publish",
+   "pages_read_engagement",
+   "pages_manage_posts",
+   "public_profile"
+  ],
+  "profile_id": "1350820541447560",
   "error": null
  }
 }
