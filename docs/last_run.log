@@ -1,3 +1,37 @@
+=== run 2026-10-11T01:41:19Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
+daily cap: 3, room left in the last 24h: 3
+--- special
+🌐 GLOBAL MARKETS OVERNIGHT
+
+🟢 S&P 500: 7,812 (+0.59%)
+🟢 Nasdaq: 27,366 (+0.64%)
+🟢 Dow: 51,655 (+0.83%)
+🟢 FTSE 100: 10,552 (+1.06%)
+⚪ Nikkei: 69,031 (-0.02%)
+🟢 Brent oil: $104.72 (+0.42%)
+
+🟢 up · 🔴 down · vs previous close
+#Markets #StockMarket
+Traceback (most recent call last):
+  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 655, in <module>
+    main()
+  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 584, in main
+    if not dry and publish(x, special):
+                   ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 394, in publish
+    tweet_id = str(client.create_tweet(text=text, **kw).data["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 849, in create_tweet
+    return self._make_request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 133, in _make_request
+    response = self.request(method, route, params=request_params,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 123, in request
+    raise HTTPException(response)
+tweepy.errors.HTTPException: 402 Payment Required
+credits depleted
 === run 2026-10-11T01:18:01Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
 daily cap: 3, room left in the last 24h: 3
