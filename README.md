@@ -27,7 +27,7 @@ Every 30 minutes GitHub Actions runs `xbot/bot.py`:
 3. **Trust filter:** a story is only considered if 2+ independent outlets report it, or it comes
    from an official body, or from a top-tier newsroom. Single-source rumours are dropped.
 4. **Claude writes the post** from the combined reporting and picks the region.
-5. **AI fact-check (`xbot/verify.py`):** 17 free checkers with separate limits (Gemini Pro, Gemini, Gemma; Groq GPT-OSS, Qwen, Kimi, Llama; GitHub Models GPT, Llama, DeepSeek, Grok, Cohere, Phi, Mistral; OpenRouter), plus optional free keys: Cerebras, Mistral, SambaNova, NVIDIA, Hugging Face, Cohere. One FAIL blocks a post.
+5. **AI fact-check (`xbot/verify.py`):** free checkers with separate limits: Gemini, Gemma, Groq GPT-OSS 120B and 20B, Groq Qwen, OpenRouter, plus optional free keys (Cerebras, Mistral, SambaNova, NVIDIA, Hugging Face, Cohere). One FAIL blocks a post.
    plus Claude each check every number, name and region against the source reports.
    **One FAIL blocks the post**, and at least 2 checkers must PASS (`MIN_PASSES`).
 6. **Posts to X** (default 2 per run = up to 96/day, set `POSTS_PER_RUN`, max 6) in one fixed
@@ -185,4 +185,4 @@ The Weekly is a 20-slide Instagram carousel and website issue published every Sa
 
 ## The Daily stays on Claude
 
-A free-model Daily was tested on 10-11 October 2026 and judged weaker for readers, so The Daily and The Weekly are made by Claude. The test code was removed.
+A free-model Daily was tested on 10-11 October 2026 with Gemini, GPT-OSS, Qwen and GPT-4.1 as writers. None produced an edition that passed the fact-checks or matched the Claude edition for readers, so The Daily and The Weekly stay on Claude. The test code was removed.

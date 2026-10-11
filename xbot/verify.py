@@ -230,7 +230,6 @@ def _oa(provider: str, url: str, key_env: str, models: list[str], min_tokens: in
 
 
 GROQ = "https://api.groq.com/openai/v1/chat/completions"
-GITHUB = "https://models.github.ai/inference/chat/completions"     # free with the Actions GITHUB_TOKEN
 _groq_alt = _oa("Groq Qwen", GROQ, "GROQ_API_KEY", ["qwen/qwen3.8-27b", "qwen/qwen3-32b"], 1200)
 
 # Every free checker. Each has its own separate free limits, so one running out never blocks posting.
@@ -240,16 +239,7 @@ CHECKERS = [
     ("Groq GPT-OSS", "GROQ_API_KEY", _groq_oss),
     ("Groq GPT-OSS 20B", "GROQ_API_KEY", _oa("Groq GPT-OSS 20B", GROQ, "GROQ_API_KEY", ["openai/gpt-oss-20b"], 1200)),
     ("Groq Qwen", "GROQ_API_KEY", _groq_alt),
-    ("Groq Kimi", "GROQ_API_KEY", _oa("Groq Kimi", GROQ, "GROQ_API_KEY", ["moonshotai/kimi-k2-instruct-0905", "moonshotai/kimi-k2-instruct"])),
-    ("Groq Llama", "GROQ_API_KEY", _oa("Groq Llama", GROQ, "GROQ_API_KEY", ["meta-llama/llama-4-maverick-17b-128e-instruct", "meta-llama/llama-4-scout-17b-16e-instruct", "llama-3.3-70b-versatile"])),
-    ("GitHub GPT", "GITHUB_TOKEN", _oa("GitHub GPT", GITHUB, "GITHUB_TOKEN", ["openai/gpt-4.1-mini", "openai/gpt-4o-mini", "openai/gpt-4.1-nano"])),
-    ("GitHub Llama", "GITHUB_TOKEN", _oa("GitHub Llama", GITHUB, "GITHUB_TOKEN", ["meta/Llama-3.3-70B-Instruct", "meta/Meta-Llama-3.1-405B-Instruct"])),
-    ("GitHub DeepSeek", "GITHUB_TOKEN", _oa("GitHub DeepSeek", GITHUB, "GITHUB_TOKEN", ["deepseek/DeepSeek-V3-0324", "deepseek/DeepSeek-R1-0528", "deepseek/DeepSeek-R1"], 1500)),
-    ("GitHub Grok", "GITHUB_TOKEN", _oa("GitHub Grok", GITHUB, "GITHUB_TOKEN", ["xai/grok-3-mini", "xai/grok-3"], 1200)),
-    ("GitHub Cohere", "GITHUB_TOKEN", _oa("GitHub Cohere", GITHUB, "GITHUB_TOKEN", ["cohere/cohere-command-a", "cohere/Cohere-command-r-plus-08-2024"])),
-    ("GitHub Phi", "GITHUB_TOKEN", _oa("GitHub Phi", GITHUB, "GITHUB_TOKEN", ["microsoft/Phi-4", "microsoft/Phi-4-reasoning"], 1200)),
     ("Gemma", "GEMINI_API_KEY", lambda p, n=200: _gemini_call(_models("GEMMA_MODEL", ["gemma-3-27b-it", "gemma-3-12b-it"]), "Gemma", p, max(n, 400))),
-    ("GitHub Mistral", "GITHUB_TOKEN", _oa("GitHub Mistral", GITHUB, "GITHUB_TOKEN", ["mistral-ai/mistral-medium-2505", "mistral-ai/mistral-small-2503"])),
     ("Cerebras", "CEREBRAS_API_KEY", _oa("Cerebras", "https://api.cerebras.ai/v1/chat/completions", "CEREBRAS_API_KEY", ["gpt-oss-120b", "llama-3.3-70b", "qwen-3-32b"], 1200)),
     ("Mistral", "MISTRAL_API_KEY", _oa("Mistral", "https://api.mistral.ai/v1/chat/completions", "MISTRAL_API_KEY", ["mistral-small-latest", "open-mistral-nemo"])),
     # optional free keys: add the GitHub secret and the checker switches itself on
