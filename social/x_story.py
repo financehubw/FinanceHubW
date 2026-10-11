@@ -60,7 +60,7 @@ def card(post: dict, out: Path) -> None:
         m = Image.open(icon).convert("RGBA"); m.thumbnail((92, 92))
         img.paste(m, (90, 170), m)
     d.text((200, 182), "FinanceHubW", font=font("archivo-latin-800-normal.ttf", 44), fill=INK)
-    d.text((200, 236), "LIVE FROM X", font=font("archivo-latin-600-normal.ttf", 28), fill=CORAL)
+    d.text((200, 236), "LIVE NEWS" if str(post.get("id", "")).startswith("web-") else "LIVE FROM X", font=font("archivo-latin-600-normal.ttf", 28), fill=CORAL)
     import re
     lines_in = [ln for ln in post["text"].split("\n") if not ln.strip().startswith("http")]
     clean = [re.sub(r"[^\u0000-\u024F\u2010-\u2027\u2030-\u205E\u20AC\u2122]", "", ln).strip(" ·") for ln in (l.replace("\u2192", " to ") for l in lines_in)]
