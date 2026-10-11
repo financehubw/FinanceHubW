@@ -9,7 +9,11 @@
     "Instagram": "18106557770352717",
     "Facebook": "1407285561551286"
    },
-   "failed": []
+   "failed": [],
+   "thumbs": {
+    "YouTube": "<HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=yNfP99LSP4E&alt=json&uploadType=media returned \"The authenticated user doesn't have permissions t",
+    "Facebook": "ok"
+   }
   },
   {
    "file": "m1_ten_year_head_start.mp4",
@@ -22,7 +26,11 @@
    },
    "failed": [
     "Facebook"
-   ]
+   ],
+   "thumbs": {
+    "YouTube": "<HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=rQPTKTejUpM&alt=json&uploadType=media returned \"The authenticated user doesn't have permissions t",
+    "Facebook": "ok"
+   }
   }
  ]
 }
