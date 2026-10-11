@@ -228,6 +228,80 @@ DIGEST_LOG = ROOT / "social" / "digests_posted.json"
 EDITIONS = [("Morning", 3, 30), ("Evening", 12, 30)]   # UTC: 9:00 AM and 6:00 PM IST
 
 
+def _head(p: dict) -> str:
+    import re
+    first = next((ln for ln in p["text"].split("\n") if ln.strip()), "")
+    return re.sub(r"^[^A-Za-z0-9$₹€£]+", "", first).replace("BREAKING:", "").strip()
+
+
+def _region(p: dict) -> str:
+    import re
+    m = re.search(r"📍\s*([^·\n]+)", p["text"])
+    return m.group(1).strip() if m else ""
+
+
+def briefing_cover(stories: list[dict], out: Path, edition: str, when: dt.datetime) -> None:
+    """Cover in the same look as the Story cards: dark paper, coral accents, Archivo."""
+    W2, H2 = 1080, 1350
+    img = Image.new("RGB", (W2, H2), BG)
+    d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, W2, 14], fill=CORAL)
+    icon = ROOT / "brand" / "financehubw-icon.png"
+    if icon.exists():
+        m = Image.open(icon).convert("RGBA"); m.thumbnail((92, 92))
+        img.paste(m, (90, 80), m)
+    d.text((200, 92), "FinanceHubW", font=font("archivo-latin-800-normal.ttf", 44), fill=INK)
+    d.text((200, 146), f"{edition.upper()} BRIEFING", font=font("archivo-latin-600-normal.ttf", 28), fill=CORAL)
+    big = font("archivo-latin-800-normal.ttf", 210)
+    day = when.strftime("%-d")
+    d.text((84, 225), day, font=big, fill=INK)
+    x = 84 + d.textlength(day, font=big) + 36
+    d.text((x, 262), when.strftime("%B").upper(), font=font("archivo-latin-800-normal.ttf", 64), fill=INK)
+    d.text((x, 340), f"{when:%A}  ·  {len(stories)} stories".upper(), font=font("archivo-latin-600-normal.ttf", 30), fill=MUTED)
+    d.rectangle([90, 470, 210, 478], fill=CORAL)
+    d.text((90, 505), "IN THIS ISSUE", font=font("archivo-latin-800-normal.ttf", 30), fill=CORAL)
+    n = len(stories)
+    hs = 32 if n <= 6 else 28
+    hf, nf = font("archivo-latin-800-normal.ttf", hs), font("archivo-latin-800-normal.ttf", hs)
+    rf = font("archivo-latin-600-normal.ttf", 22)
+    y, step = 565, (H2 - 300 - 565) // max(n, 1)
+    for i, p in enumerate(stories, 1):
+        h = _head(p)
+        while d.textlength(h, font=hf) > W2 - 260 and " " in h:
+            h = h.rsplit(" ", 1)[0].rstrip(",:;") + "…"
+        d.text((90, y), f"{i:02d}", font=nf, fill=CORAL)
+        d.text((160, y), h, font=hf, fill=INK)
+        d.text((160, y + hs + 6), _region(p).upper(), font=rf, fill=MUTED)
+        y += step
+    d.rectangle([90, H2 - 230, W2 - 90, H2 - 228], fill=(60, 57, 52))
+    sf = font("archivo-latin-800-normal.ttf", 38)
+    d.text((90, H2 - 190), "Swipe for every story", font=sf, fill=INK)
+    ax = 90 + d.textlength("Swipe for every story", font=sf) + 24
+    d.line([(ax, H2 - 167), (ax + 64, H2 - 167)], fill=CORAL, width=6)
+    d.polygon([(ax + 64, H2 - 180), (ax + 86, H2 - 167), (ax + 64, H2 - 154)], fill=CORAL)
+    d.text((90, H2 - 120), "Fact-checked by multiple sources. Information only, not investment advice.",
+           font=font("archivo-latin-600-normal.ttf", 24), fill=MUTED)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out, quality=92)
+
+
+def briefing_end(out: Path) -> None:
+    W2, H2 = 1080, 1350
+    img = Image.new("RGB", (W2, H2), BG)
+    d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, W2, 14], fill=CORAL)
+    y = 420
+    for ln, col in (("Markets move", INK), ("every hour.", INK), ("Stay ahead.", CORAL)):
+        d.text((90, y), ln, font=font("archivo-latin-800-normal.ttf", 100), fill=col); y += 112
+    d.rectangle([90, y + 40, 210, y + 48], fill=CORAL)
+    y += 100
+    d.text((90, y), "Follow @financehubw", font=font("archivo-latin-800-normal.ttf", 46), fill=INK)
+    for i, ln in enumerate(["Fact-checked finance news every day", "Daily brief Tue–Sat · Magazine every Saturday"]):
+        d.text((90, y + 70 + i * 56), ln, font=font("archivo-latin-600-normal.ttf", 36), fill=MUTED)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out, quality=92)
+
+
 def digest_due() -> tuple[str, dt.datetime] | None:
     now = dt.datetime.utcnow()
     log = load(DIGEST_LOG, {"posted": []})
@@ -261,15 +335,14 @@ def render_digest() -> None:
     stories = digest_stories()
     if len(stories) < 3:
         print(f"digest {key}: only {len(stories)} new stories, waiting"); return
-    import news_cover as N
     folder = DIGEST_DIR / key
     if (folder / "manifest.json").exists():
         return
     edition = key.rsplit("-", 1)[1].title()
-    N.digest_cover(stories, folder / "00.jpg", edition, now)
+    briefing_cover(stories, folder / "00.jpg", edition, now)
     for i, p in enumerate(stories, 1):
-        N.facts(p, folder / f"{i:02d}.jpg", f"{i:02d} / {len(stories):02d}")
-    N.closer(stories[0], folder / f"{len(stories) + 1:02d}.jpg")
+        card(p, folder / f"{i:02d}.jpg", 1080, 1350)
+    briefing_end(folder / f"{len(stories) + 1:02d}.jpg")
     (folder / "manifest.json").write_text(json.dumps({"key": key, "edition": edition,
         "ids": [p["id"] for p in stories], "slides": len(stories) + 2}), encoding="utf-8")
     print(f"digest {key}: {len(stories)} stories drawn")
