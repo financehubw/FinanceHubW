@@ -185,17 +185,9 @@ def post() -> None:
     if os.environ.get("DRY_RUN") or not (ig and tok):
         print(f"{len(todo)} Story card(s) ready; not posting (dry run or Instagram not connected)"); return
     for p in todo:
-        url = f"{SITE_URL}/media/stories/{p['id']}.jpg"
-        for _ in range(12):
-            try:
-                r = requests.head(url, timeout=8)
-                if r.ok and "image" in r.headers.get("content-type", ""):
-                    break
-            except requests.RequestException:
-                pass
-            time.sleep(10)
-        else:
-            print(f"{url} not live yet; will retry next run"); continue
+        url = image_url(DIR / f"{p['id']}.jpg", f"{SITE_URL}/media/stories/{p['id']}.jpg")
+        if not url:
+            print(f"Story card for {p['id']} could not be hosted; will retry next run"); continue
         try:
             c = requests.post(f"{GRAPH}/{ig}/media", timeout=60,
                               data={"media_type": "STORIES", "image_url": url, "access_token": tok}).json()
@@ -245,6 +237,37 @@ def caption(p: dict) -> str:
             "💾 Save this and send it to someone who follows the markets.\n\n"
             "Follow @financehubw for fact-checked finance news every day.\n"
             "Information only, not investment advice.\n\n" + " ".join(tags))
+
+
+def fb_host(path: Path) -> str | None:
+    """Upload an image to the Facebook Page as an unpublished photo and return its public CDN URL.
+    Lets Instagram fetch the image even when the website has not redeployed yet."""
+    page = os.environ.get("FB_PAGE_ID")
+    if not page:
+        return None
+    try:
+        import publish
+        tok = publish.page_token()
+        r = requests.post(f"{GRAPH}/{page}/photos", timeout=120, data={"published": "false", "access_token": tok},
+                          files={"source": (path.name, path.read_bytes(), "image/jpeg")}).json()
+        if "id" not in r:
+            raise RuntimeError(r.get("error", r))
+        info = requests.get(f"{GRAPH}/{r['id']}", timeout=30, params={"fields": "images", "access_token": tok}).json()
+        return max(info["images"], key=lambda i: i["width"])["source"]
+    except Exception as e:  # noqa: BLE001
+        print(f"fb_host {path.name}: {e}", file=sys.stderr)
+        return None
+
+
+def image_url(path: Path, site_url: str) -> str | None:
+    """Site URL if it is already live, otherwise a Facebook-hosted copy."""
+    try:
+        r = requests.head(site_url, timeout=8)
+        if r.ok and "image" in r.headers.get("content-type", ""):
+            return site_url
+    except requests.RequestException:
+        pass
+    return fb_host(path)
 
 
 def wait_live(url: str) -> bool:
@@ -426,11 +449,12 @@ def feed() -> None:
     m = pending[-1]
     feedposts = {p["id"]: p for p in load(FEED, {"posts": []})["posts"]}
     stories = [feedposts[i] for i in m["ids"] if i in feedposts]
-    urls = [f"{SITE_URL}/media/digests/{m.get('dir', m['key'])}/{n:02d}.jpg" for n in range(m["slides"])]
+    folder = DIGEST_DIR / m.get("dir", m["key"])
     if os.environ.get("DRY_RUN") or not (ig and tok):
         print("briefing ready:", m["key"]); return
-    if not all(wait_live(u) for u in urls):
-        print("briefing slides not live yet"); return
+    urls = [image_url(folder / f"{n:02d}.jpg", f"{SITE_URL}/media/digests/{folder.name}/{n:02d}.jpg") for n in range(m["slides"])]
+    if not all(urls):
+        print("briefing slides could not be hosted yet"); return
     try:
         kids = []
         for u in urls:
