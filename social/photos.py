@@ -1,8 +1,9 @@
 """Topic photo for a news card.
 
 Source order (both free, both allow commercial use with no attribution required):
-  1. Pexels      if PEXELS_API_KEY is set (best quality; free key at pexels.com/api)
-  2. Openverse   public-domain / CC0 images only, no key needed
+  1. Pexels      if PEXELS_API_KEY is set (free key at pexels.com/api)
+  2. Pixabay     if PIXABAY_API_KEY is set (free key at pixabay.com/api/docs)
+  3. Openverse   public-domain / CC0 images only, no key needed
 The search uses a safe topic phrase picked from the story (never a person's name), so the photo
 illustrates the subject rather than claiming to show the event. Returns a PIL image or None.
 """
@@ -87,6 +88,16 @@ def _pexels(q: str, seed: str) -> str | None:
     return _pick([p["src"]["large2x"] for p in r.get("photos", [])], seed)
 
 
+def _pixabay(q: str, seed: str) -> str | None:
+    key = os.environ.get("PIXABAY_API_KEY")
+    if not key:
+        return None
+    r = requests.get("https://pixabay.com/api/", timeout=20, params={
+        "key": key, "q": q, "image_type": "photo", "orientation": "horizontal", "safesearch": "true",
+        "min_width": 1200, "per_page": 20}).json()
+    return _pick([h["largeImageURL"] for h in r.get("hits", [])], seed)
+
+
 def _openverse(q: str, seed: str) -> str | None:
     r = requests.get("https://api.openverse.org/v1/images/", timeout=20, headers=UA,
                      params={"q": q, "license": "cc0,pdm", "page_size": 15, "mature": "false",
@@ -97,7 +108,7 @@ def _openverse(q: str, seed: str) -> str | None:
 
 def photo(text: str, seed: str) -> Image.Image | None:
     q = query_for(text)
-    for src in (_pexels, _openverse):
+    for src in (_pexels, _pixabay, _openverse):
         try:
             url = src(q, seed)
             if not url:
