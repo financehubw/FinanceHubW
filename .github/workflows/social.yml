@@ -21,6 +21,10 @@ on:
         description: "Apply cover thumbnails to already-posted Shorts"
         type: boolean
         default: false
+      ig_list:
+        description: "List recent Instagram posts"
+        type: boolean
+        default: false
       photo_check:
         description: "Only test the photo source"
         type: boolean
@@ -51,6 +55,14 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests google-api-python-client google-auth pillow
+      - name: List Instagram posts
+        if: inputs.ig_list
+        run: |
+          curl -s "https://graph.facebook.com/v21.0/$IG_USER_ID/media?fields=id,media_type,timestamp,caption&limit=10&access_token=$META_TOKEN" \
+            | python -c "import sys,json; d=json.load(sys.stdin); [print(m['id'], m['media_type'], m['timestamp'], (m.get('caption') or '')[:50].replace(chr(10),' ')) for m in d.get('data',[])] or print(d)" | tee docs/ig_list.txt
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
       - name: Photo source check
         if: inputs.photo_check
         run: |
@@ -88,7 +100,7 @@ jobs:
           if wait > 0: time.sleep(wait)
           PY
       - name: Post next Short
-        if: ${{ !inputs.fb_check && !inputs.photo_check && inputs.ig_delete == '' }}
+        if: ${{ !inputs.fb_check && !inputs.photo_check && !inputs.ig_list && inputs.ig_delete == '' }}
         run: |
           if [ -f /tmp/skip ]; then echo "already posted today"; exit 0; fi
           if [ "${{ inputs.rethumb }}" = "true" ]; then python social/rethumb.py; exit 0; fi
@@ -112,6 +124,7 @@ jobs:
           if [ -f docs/fb_check.json ]; then git add docs/fb_check.json; fi
           if [ -f docs/ig_delete.txt ]; then git add docs/ig_delete.txt; fi
           if [ -f docs/photo_check.txt ]; then git add docs/photo_check.txt; fi
+          if [ -f docs/ig_list.txt ]; then git add docs/ig_list.txt; fi
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Record posted Short"
           for i in 1 2 3; do
