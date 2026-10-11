@@ -21,6 +21,10 @@ on:
         description: "Apply cover thumbnails to already-posted Shorts"
         type: boolean
         default: false
+      url_check:
+        description: "HEAD-check a site path"
+        type: string
+        default: ""
       ig_list:
         description: "List recent Instagram posts"
         type: boolean
@@ -55,6 +59,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests google-api-python-client google-auth pillow
+      - name: URL check
+        if: inputs.url_check != ''
+        run: |
+          for p in ${{ inputs.url_check }}; do echo "$p $(curl -s -o /dev/null -w '%{http_code} %{content_type}' -I https://financehubw-site.vercel.app/$p)"; done | tee docs/url_check.txt
       - name: List Instagram posts
         if: inputs.ig_list
         run: |
@@ -100,7 +108,7 @@ jobs:
           if wait > 0: time.sleep(wait)
           PY
       - name: Post next Short
-        if: ${{ !inputs.fb_check && !inputs.photo_check && !inputs.ig_list && inputs.ig_delete == '' }}
+        if: ${{ !inputs.fb_check && !inputs.photo_check && !inputs.ig_list && inputs.url_check == '' && inputs.ig_delete == '' }}
         run: |
           if [ -f /tmp/skip ]; then echo "already posted today"; exit 0; fi
           if [ "${{ inputs.rethumb }}" = "true" ]; then python social/rethumb.py; exit 0; fi
@@ -125,6 +133,7 @@ jobs:
           if [ -f docs/ig_delete.txt ]; then git add docs/ig_delete.txt; fi
           if [ -f docs/photo_check.txt ]; then git add docs/photo_check.txt; fi
           if [ -f docs/ig_list.txt ]; then git add docs/ig_list.txt; fi
+          if [ -f docs/url_check.txt ]; then git add docs/url_check.txt; fi
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Record posted Short"
           for i in 1 2 3; do
