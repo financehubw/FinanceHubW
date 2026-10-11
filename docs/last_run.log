@@ -1,3 +1,36 @@
+=== run 2026-10-11T14:34:38Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+--- special
+📊 Tweets give you the headline. YouTube gives you the why.
+
+Subscribe to FinanceHubW for daily market explainers 👇
+https://www.youtube.com/@FinanceHubW
+published to: website, Instagram Story
+79/171 sources returned news, 598 recent items
+re-check of earlier post: 3 fail / 2 pass
+147 new trusted stories, posting up to 1 this run
+skip (off-topic or nothing new): Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok
+skip (off-topic or nothing new): Why ’Net Stocks’ are down sharply this year despite Nasdaq’s gains
+skip (off-topic or nothing new): ESMA clarifies access for EU market participants to the services of third-country CSDs
+skip (off-topic or nothing new): ESMA sets 2027 priorities for stronger, simpler and more integrated EU capital markets
+skip (off-topic or nothing new): Upcoming changes to the Euribor Panel
+skip (off-topic or nothing new): ESMA sets new supervisory priority on digital innovation from 2027
+---
+🇪🇺 EU WARNS OF NEW FINANCIAL RISKS
+
+📌 Regulators flagged heavy reliance on outside tech and private credit as top risks.
+#Finance
+
+📍 Europe · 📰 ESMA · 🏛️ Official
+https://www.esma.europa.eu/press-news/esma-news/esas-call-vigilance-over-external-dependencies-cyber-threats-and-private
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about regulators flagging external tech reliance and private credit as top risks are directly supported by the ESMA source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
+  Groq Qwen: PASS - The post accurately reflects the source's identification of external dependencies and private credit as key vulnerabilities by the ESAs, with correct attribution and location.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-fdb8b9baa6c0
+done: 2 post(s) this run
 === run 2026-10-11T14:28:09Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
