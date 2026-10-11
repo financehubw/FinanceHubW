@@ -198,7 +198,7 @@ def caption(p: dict) -> str:
     lines = [ln.strip() for ln in p["text"].split("\n") if ln.strip() and not ln.strip().startswith("http")]
     head, body = (lines[0] if lines else ""), lines[1:]
     head = re.sub(r"^[^A-Za-z0-9$₹€£]+", "", head).replace("BREAKING:", "").strip()
-    hook = head.capitalize() if head.isupper() else head
+    hook = head   # kept in capitals: acronyms (RBI, ECB, SEC) stay right and it reads as a headline
     low = p["text"].lower()
     tags = []
     for pat, t in TOPIC_TAGS:
