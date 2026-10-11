@@ -12,6 +12,10 @@ on:
         description: "Preview only (don't post)"
         type: boolean
         default: false
+      backfill_only:
+        description: "Only catch up platforms that missed recent Shorts"
+        type: boolean
+        default: false
       fb_check:
         description: "Only diagnose the Facebook connection"
         type: boolean
@@ -67,6 +71,7 @@ jobs:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           SITE_URL: ${{ vars.SITE_URL }}
+          BACKFILL_ONLY: ${{ inputs.backfill_only && '1' || '' }}
           DRY_RUN: ${{ (inputs.dry_run || vars.SOCIAL_DRY_RUN == '1') && '1' || '' }}
       - name: Save what was posted
         if: always()

@@ -193,6 +193,8 @@ def backfill() -> None:
 
 def main() -> None:
     backfill()
+    if os.environ.get("BACKFILL_ONLY"):
+        return
     item = next_item()
     if not item:
         print("queue empty: add a video to site/media/shorts/ and an entry to social/queue.json")
