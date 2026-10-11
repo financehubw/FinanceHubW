@@ -1,0 +1,95 @@
+name: The Daily (free)
+
+# Makes The Daily with free AI models and the fixed template, then posts it.
+# Tue-Sat 7:10 AM IST, covering the previous weekday.
+on:
+  # schedule (switched off until the free edition matches the Claude edition's quality):
+  #   - cron: "40 1 * * 2-6"
+  push:
+    branches: [main]
+    paths: ["magazine/sample_request.txt"]   # write a date in this file to build a sample (not posted)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: social
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          set -o pipefail
+          mkdir -p docs
+          (pip install -r requirements.txt playwright && python -m playwright install --with-deps chromium) 2>&1 | tail -n 30 | tee docs/daily_free.log
+      - name: Write, check and render The Daily
+        id: make
+        timeout-minutes: 75
+        env:
+          PYTHONUNBUFFERED: "1"
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          SAMBANOVA_API_KEY: ${{ secrets.SAMBANOVA_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          MIN_PASSES: ${{ vars.MIN_PASSES }}
+        run: |
+          set -o pipefail
+          if [ "${{ github.event_name }}" = "push" ]; then
+            : > docs/daily_free.log
+            for w in GPT-4.1 DeepSeek Kimi Gemini; do
+              echo "===== writer $w" | tee -a docs/daily_free.log
+              DAILY_WRITER=$w timeout 900 python magazine/daily_free.py "$(head -n1 magazine/sample_request.txt)" --sample 2>&1 | tee -a docs/daily_free.log || true
+            done
+          else
+            python magazine/daily_free.py 2>&1 | tee docs/daily_free.log
+          fi
+      - name: Save
+        if: always()
+        run: |
+          python social/build_archive.py || true
+          git config user.name "FinanceHubW"
+          git config user.email "bot@financehubw.invalid"
+          git add docs/daily_free.log; git add magazine/daily site/media/daily site/daily.json social/daily_queue.json site/archive.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "The Daily (free edition)"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && break
+            sleep 5
+          done
+      - name: Post to Instagram
+        if: github.event_name != 'push' && steps.make.outcome == 'success'
+        run: pip install numpy scipy pillow google-api-python-client google-auth && python social/publish_magazine.py
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          DRY_RUN: ${{ vars.SOCIAL_DRY_RUN == '1' && '1' || '' }}
+      - name: Save what was posted
+        if: github.event_name != 'push'
+        run: |
+          python social/build_archive.py || true
+          git add social/magazine_posted.json site/archive.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Record posted magazine edition"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 5
+          done
