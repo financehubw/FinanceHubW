@@ -379,7 +379,7 @@ def record_for_site(text: str, tweet_id: str) -> None:
             "id": tweet_id,
             "date": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
             "text": text,
-            "url": f"https://x.com/{HANDLE}/status/{tweet_id}",
+            "url": (f"https://x.com/{HANDLE}/status/{tweet_id}" if not tweet_id.startswith("web-") else "https://www.instagram.com/financehubw"),
         })
         feed["posts"] = feed["posts"][-SITE_FEED_KEEP:]
         SITE_FEED.parent.mkdir(exist_ok=True)
@@ -389,7 +389,19 @@ def record_for_site(text: str, tweet_id: str) -> None:
         print(f"could not update site feed: {e}", file=sys.stderr)
 
 
+X_BLOCKED = False   # set when X refuses for lack of API credits (HTTP 402)
+
+
 def publish(client: tweepy.Client, text: str, **kw) -> str | None:
+    """Posts to X. If X has no API credits left (402), the checked post still goes to the
+    website feed and becomes an Instagram Story, so the news is never lost."""
+    global X_BLOCKED
+    if X_BLOCKED:
+        if kw:                       # replies and polls only make sense on X
+            return None
+        local_id = "web-" + hashlib.sha1(text.encode()).hexdigest()[:12]
+        record_for_site(text, local_id)
+        return local_id
     try:
         tweet_id = str(client.create_tweet(text=text, **kw).data["id"])
         record_for_site(text, tweet_id)
@@ -401,6 +413,13 @@ def publish(client: tweepy.Client, text: str, **kw) -> str | None:
         raise RateLimited from e
     except tweepy.Unauthorized:
         sys.exit("X credentials invalid: check the X_* secrets and that the app has Read and Write")
+    except tweepy.HTTPException as e:
+        if getattr(e.response, "status_code", 0) == 402:
+            print("X API: 402 Payment Required (credits depleted). Posting to the website and "
+                  "Instagram Stories only until X credits are available.", file=sys.stderr)
+            X_BLOCKED = True
+            return publish(client, text, **kw)
+        raise
 
 
 # ------------------------------------------------------------------ scheduled specials (IST)
