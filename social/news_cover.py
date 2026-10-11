@@ -141,7 +141,7 @@ def closer(post: dict, out: Path) -> None:
     img.save(out, quality=92)
 
 
-def facts(post: dict, out: Path) -> None:
+def facts(post: dict, out: Path, page: str = "") -> None:
     """Slide 2: the story in plain words, same look as the cover."""
     text = post["text"]
     label, a, b = theme(text)
@@ -149,7 +149,7 @@ def facts(post: dict, out: Path) -> None:
     d = ImageDraw.Draw(img)
     d.text((70, 70), "FinanceHubW", font=f("fraunces-latin-900-normal.ttf", 92), fill=WHITE)
     d.rectangle([70, 196, W - 70, 199], fill=WHITE)
-    d.text((70, 214), "THE FACTS", font=f("archivo-latin-800-normal.ttf", 28), fill=GOLD)
+    d.text((70, 214), f"{label}" + (f"  ·  {page}" if page else ""), font=f("archivo-latin-800-normal.ttf", 28), fill=GOLD)
     raw = [ln.strip() for ln in text.split("\n") if ln.strip() and not ln.strip().startswith(("http", "#"))]
     clean = lambda s: re.sub(r"[^\u0000-ɏ‐-‧‰-⁞€₹™]", "", s).strip(" ·")
     foot = clean(raw[-1]) if raw and "📍" in raw[-1] else ""
@@ -174,5 +174,51 @@ def facts(post: dict, out: Path) -> None:
         d.text((70, H - 175), "SOURCE  " + foot, font=f("archivo-latin-600-normal.ttf", 30), fill=GOLD)
     d.text((70, H - 115), "Information only, not investment advice.  ·  @financehubw",
            font=f("archivo-latin-600-normal.ttf", 28), fill=(200, 200, 200))
+    out.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out, quality=92)
+
+
+def digest_cover(posts: list[dict], out: Path, edition: str, when: dt.datetime) -> None:
+    """Cover of a news digest carousel: date, edition, and the list of stories inside."""
+    a, b = (15, 43, 85), (5, 10, 24)
+    img = background(a, b)
+    d = ImageDraw.Draw(img)
+    d.text((70, 60), "FinanceHubW", font=f("fraunces-latin-900-normal.ttf", 96), fill=WHITE)
+    d.rectangle([70, 190, W - 70, 193], fill=WHITE)
+    small = f("archivo-latin-600-normal.ttf", 28)
+    d.text((70, 208), f"{edition.upper()} BRIEFING  ·  {len(posts)} STORIES", font=small, fill=(220, 220, 220))
+    chip = f("archivo-latin-800-normal.ttf", 28)
+    t = "FACT-CHECKED"
+    cw = d.textlength(t, font=chip)
+    d.rounded_rectangle([W - 70 - cw - 40, 202, W - 70, 246], 22, fill=GOLD)
+    d.text((W - 70 - cw - 20, 207), t, font=chip, fill=(20, 20, 20))
+    # big date
+    d.text((66, 280), when.strftime("%-d"), font=f("fraunces-latin-900-normal.ttf", 260), fill=GOLD)
+    dx = 66 + d.textlength(when.strftime("%-d"), font=f("fraunces-latin-900-normal.ttf", 260)) + 30
+    d.text((dx, 330), when.strftime("%B").upper(), font=f("archivo-latin-800-normal.ttf", 76), fill=WHITE)
+    d.text((dx, 420), when.strftime("%A, %Y").upper(), font=f("archivo-latin-600-normal.ttf", 40), fill=(210, 210, 210))
+    # contents
+    y = 600
+    d.text((70, y), "IN THIS ISSUE", font=f("archivo-latin-800-normal.ttf", 30), fill=GOLD)
+    y += 60
+    n = len(posts)
+    size = 34 if n <= 5 else 30 if n <= 7 else 26
+    hf = f("archivo-latin-800-normal.ttf", size)
+    nf = f("fraunces-latin-900-normal.ttf", size + 6)
+    gap = int(size * 1.25)
+    for i, p in enumerate(posts, 1):
+        label = theme(p["text"])[0].title()
+        h = headline(p["text"])
+        while d.textlength(h, font=hf) > W - 230 and " " in h:
+            h = h.rsplit(" ", 1)[0].rstrip(",:;") + "…"
+        d.text((70, y - 4), f"{i:02d}", font=nf, fill=GOLD)
+        d.text((150, y), h, font=hf, fill=WHITE)
+        d.text((150, y + gap - 6), label, font=f("archivo-latin-600-normal.ttf", 22), fill=(170, 180, 200))
+        y += gap + 40
+        d.line([(150, y - 12), (W - 70, y - 12)], fill=(60, 75, 105), width=1)
+    d.text((70, H - 110), "Swipe for every story", font=f("archivo-latin-800-normal.ttf", 40), fill=WHITE)
+    ax = 70 + d.textlength("Swipe for every story", font=f("archivo-latin-800-normal.ttf", 40)) + 24
+    d.line([(ax, H - 86), (ax + 70, H - 86)], fill=GOLD, width=6)
+    d.polygon([(ax + 70, H - 100), (ax + 92, H - 86), (ax + 70, H - 72)], fill=GOLD)
     out.parent.mkdir(parents=True, exist_ok=True)
     img.save(out, quality=92)

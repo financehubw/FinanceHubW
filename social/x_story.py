@@ -131,15 +131,10 @@ def render() -> None:
         if p["id"] not in done and not out.exists():
             card(p, out)
             print("card:", out.name)
-        fo = FEED_DIR / f"{p['id']}.jpg"
-        if not fo.exists():
-            card(p, fo, 1080, 1350)
-            import news_cover
-            news_cover.cover(p, FEED_DIR / f"{p['id']}-cover.jpg")
-            news_cover.facts(p, FEED_DIR / f"{p['id']}-facts.jpg")
-            news_cover.closer(p, FEED_DIR / f"{p['id']}-end.jpg")
+
+    render_digest()
     cutoff = time.time() - KEEP_DAYS * 86400
-    for f in [*DIR.glob("*.jpg"), *FEED_DIR.glob("*.jpg")]:
+    for f in [*DIR.glob("*.jpg"), *FEED_DIR.glob("*.jpg"), *DIGEST_DIR.glob("*/*")]:
         if f.stat().st_mtime < cutoff:
             f.unlink()
 
@@ -228,52 +223,121 @@ def wait_live(url: str) -> bool:
     return False
 
 
+DIGEST_DIR = ROOT / "site" / "media" / "digests"
+DIGEST_LOG = ROOT / "social" / "digests_posted.json"
+EDITIONS = [("Morning", 3, 30), ("Evening", 12, 30)]   # UTC: 9:00 AM and 6:00 PM IST
+
+
+def digest_due() -> tuple[str, dt.datetime] | None:
+    now = dt.datetime.utcnow()
+    log = load(DIGEST_LOG, {"posted": []})
+    done = {e["key"] for e in log["posted"]}
+    for name, hh, mm in reversed(EDITIONS):
+        start = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
+        if now >= start and now - start < dt.timedelta(hours=6):
+            key = f"{now:%Y-%m-%d}-{name.lower()}"
+            return None if key in done else (key, now)
+    return None
+
+
+def digest_stories() -> list[dict]:
+    log = load(DIGEST_LOG, {"posted": []})
+    used = {i for e in log["posted"] for i in e.get("ids", [])}
+    now = dt.datetime.utcnow()
+    posts = [p for p in load(FEED, {"posts": []})["posts"]
+             if "📍" in p["text"] and p["id"] not in used
+             and now - dt.datetime.strptime(p["date"], "%Y-%m-%dT%H:%M:%SZ") < dt.timedelta(hours=14)]
+    score = lambda p: ("BREAKING" in p["text"]) * 3 + ("✅" in p["text"]) * 2 + ("Official" in p["text"]) + ("📊" in p["text"])
+    top = sorted(posts, key=score, reverse=True)[:8]
+    return sorted(top, key=lambda p: p["date"], reverse=True)
+
+
+def render_digest() -> None:
+    """Draw the briefing carousel before the commit, so the site serves it when feed() posts it."""
+    due = digest_due()
+    if not due:
+        return
+    key, now = due
+    stories = digest_stories()
+    if len(stories) < 3:
+        print(f"digest {key}: only {len(stories)} new stories, waiting"); return
+    import news_cover as N
+    folder = DIGEST_DIR / key
+    if (folder / "manifest.json").exists():
+        return
+    edition = key.rsplit("-", 1)[1].title()
+    N.digest_cover(stories, folder / "00.jpg", edition, now)
+    for i, p in enumerate(stories, 1):
+        N.facts(p, folder / f"{i:02d}.jpg", f"{i:02d} / {len(stories):02d}")
+    N.closer(stories[0], folder / f"{len(stories) + 1:02d}.jpg")
+    (folder / "manifest.json").write_text(json.dumps({"key": key, "edition": edition,
+        "ids": [p["id"] for p in stories], "slides": len(stories) + 2}), encoding="utf-8")
+    print(f"digest {key}: {len(stories)} stories drawn")
+
+
+def digest_caption(m: dict, stories: list[dict]) -> str:
+    import re
+    heads = []
+    for i, p in enumerate(stories, 1):
+        h = re.sub(r"^[^A-Za-z0-9$₹€£]+", "", p["text"].split("\n")[0]).replace("BREAKING:", "").strip()
+        heads.append(f"{i:02d} {h}")
+    tags = []
+    for pat, t in TOPIC_TAGS:
+        if any(re.search(pat, p["text"].lower()) for p in stories):
+            tags += [x for x in t[:1] if x not in tags]
+    tags = (tags + ["#financenews", "#markets", "#economy", "#stockmarket", "#investing"])[:5]
+    return (f"🗞️ {m['edition']} briefing: {len(stories)} finance stories you need to know today\n\n"
+            + "\n".join(heads) +
+            "\n\nWhich one matters most to you? Tell us 👇\n"
+            "💾 Save this and send it to someone who follows the markets.\n\n"
+            "Follow @financehubw for fact-checked finance news every day.\n"
+            "Information only, not investment advice.\n\n" + " ".join(dict.fromkeys(tags)))
+
+
 def feed() -> None:
-    """The best news updates also go on the Instagram grid, at most FEED_PER_DAY a day, spaced out."""
+    """Post the drawn briefing as a carousel: cover with date + contents, one slide per story, follow slide."""
     ig, tok = os.environ.get("IG_USER_ID"), os.environ.get("META_TOKEN")
-    log = load(FEED_LOG, {"posted": []})
-    today = [e for e in log["posted"] if time.time() - e["t"] < 86400]
-    if len(today) >= FEED_PER_DAY or (today and time.time() - max(e["t"] for e in today) < 86400 / FEED_PER_DAY * 0.8):
-        print("news feed post: not due yet"); return
-    done = {e["id"] for e in log["posted"]}
-    todo = [p for p in fresh(load(FEED, {"posts": []})["posts"]) if p["id"] not in done and (FEED_DIR / f"{p['id']}.jpg").exists()]
-    if not todo:
-        print("news feed post: nothing new"); return
-    p = max(todo, key=lambda p: ("✅" in p["text"]) + ("BREAKING" in p["text"]) * 2 + ("Official" in p["text"]))
+    log = load(DIGEST_LOG, {"posted": []})
+    done = {e["key"] for e in log["posted"]}
+    pending = [json.loads(m.read_text()) for m in sorted(DIGEST_DIR.glob("*/manifest.json"))]
+    pending = [m for m in pending if m["key"] not in done]
+    if not pending:
+        print("briefing: nothing to post"); return
+    m = pending[-1]
+    feedposts = {p["id"]: p for p in load(FEED, {"posts": []})["posts"]}
+    stories = [feedposts[i] for i in m["ids"] if i in feedposts]
+    urls = [f"{SITE_URL}/media/digests/{m['key']}/{n:02d}.jpg" for n in range(m["slides"])]
     if os.environ.get("DRY_RUN") or not (ig and tok):
-        print("news feed post ready:", p["id"]); return
-    names = [f"{p['id']}-cover.jpg", f"{p['id']}-facts.jpg", f"{p['id']}-end.jpg"]
-    if not (FEED_DIR / names[1]).exists():
-        names[1] = f"{p['id']}.jpg"
-    urls = [f"{SITE_URL}/media/newsposts/{n}" for n in names if (FEED_DIR / n).exists()]
+        print("briefing ready:", m["key"]); return
     if not all(wait_live(u) for u in urls):
-        print("feed cards not live yet"); return
+        print("briefing slides not live yet"); return
     try:
-        if len(urls) > 1:   # magazine-style carousel: cover, facts, follow
-            kids = []
-            for u in urls:
-                k = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data={
-                    "image_url": u, "is_carousel_item": "true", "access_token": tok}).json()
-                if "id" not in k:
-                    raise RuntimeError(k.get("error", k))
-                kids.append(k["id"])
-            c = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data={
-                "media_type": "CAROUSEL", "children": ",".join(kids), "caption": caption(p), "access_token": tok}).json()
-        else:
-            c = requests.post(f"{GRAPH}/{ig}/media", timeout=60,
-                              data={"image_url": urls[0], "caption": caption(p), "access_token": tok}).json()
+        kids = []
+        for u in urls:
+            k = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data={
+                "image_url": u, "is_carousel_item": "true", "access_token": tok}).json()
+            if "id" not in k:
+                raise RuntimeError(k.get("error", k))
+            kids.append(k["id"])
+        c = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data={
+            "media_type": "CAROUSEL", "children": ",".join(kids),
+            "caption": digest_caption(m, stories), "access_token": tok}).json()
         if "id" not in c:
             raise RuntimeError(c.get("error", c))
-        time.sleep(5)
+        for _ in range(12):
+            st = requests.get(f"{GRAPH}/{c['id']}", timeout=30, params={"fields": "status_code", "access_token": tok}).json()
+            if st.get("status_code") in ("FINISHED", None):
+                break
+            time.sleep(5)
         r = requests.post(f"{GRAPH}/{ig}/media_publish", timeout=60,
                           data={"creation_id": c["id"], "access_token": tok}).json()
         if "id" not in r:
             raise RuntimeError(r.get("error", r))
-        print("news feed post:", r["id"])
-        log["posted"] = (log["posted"] + [{"id": p["id"], "t": time.time(), "ig": r["id"]}])[-300:]
-        FEED_LOG.write_text(json.dumps(log, indent=1), encoding="utf-8")
+        print("briefing posted:", r["id"])
+        log["posted"] = (log["posted"] + [{"key": m["key"], "ids": m["ids"], "ig": r["id"], "t": time.time()}])[-120:]
+        DIGEST_LOG.write_text(json.dumps(log, indent=1), encoding="utf-8")
     except Exception as e:  # noqa: BLE001
-        print(f"news feed post failed: {e}", file=sys.stderr)
+        print(f"briefing failed: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":
