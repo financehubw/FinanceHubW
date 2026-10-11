@@ -1,3 +1,107 @@
+=== run 2026-10-11T01:18:01Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
+daily cap: 3, room left in the last 24h: 3
+60/171 sources returned news, 404 recent items
+91 new trusted stories, posting up to 1 this run
+skip (off-topic or nothing new): Trump says Ukraine needs a new president, blames Zelenskyy's strikes on Russian refineries for high diesel prices
+skip (off-topic or nothing new): Dow Inc (DOW) Stock Price Today: $28.42
+skip (off-topic or nothing new): Dollar and euro remain unstoppable in Cuba: this is how the informal market closes this Saturday
+skip (off-topic or nothing new): Oil-Dri Earnings Call Highlights Record Growth, Cash Strength
+skip (off-topic or nothing new): 12 killed, hundreds injured in Saudi Arabia airport attack as Houthi strikes intensify
+---
+🇺🇸 ETHEREUM FUNDS SEE RECORD WEEKLY MONEY EXIT
+
+📌 US spot Ethereum ETFs had their biggest weekly money outflow since January.
+💡 Lower fund inflows can reflect weaker investor demand for the asset.
+#Crypto
+
+📍 US · 📰 Crypto Briefing · ✅ 2 sources
+https://news.google.com/rss/articles/CBMihAFBVV95cUxOQy0ybmluOHllZUhGYmt6cVRwbXQyWHhHd3ljWFdUTGs5blVRRTZabkFPY1pfRzhBVUNDQ0F1dFBwZ28tVEowRWJBQVJIUDhndWpUWW55LVRqbUNoY0NxcFNYSzUzUG9kMGUxQ1E1cmR1anVsNGZyZkxDNGFjc2R4alJjdmY?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post calls it a "record" weekly exit, but the source only says it was the largest since January, not an all‑time record.
+  -> blocked by fact-check
+---
+🇺🇸 TRUMP WARNS OF DEPRESSION
+
+📌 Donald Trump warned a Democratic win in midterms could cause a 1929-style depression.
+#Trump
+
+📍 US · 📰 news.sbs.co.kr · ✅ 2 sources
+https://news.google.com/rss/articles/CBMibkFVX3lxTE9SQnFzUktFT0pjcmp5dlRWbEI2c2ZFd0xreTBQbXdzMmV1aXBTNDhLMzhYSFE0d3pMYW1tZVZVelJPRHBUeU9BMFgzWG5WMTd5ZW9hRVNwMUViSW1zdWN4RndIa29TdER4eFpsRjdR?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
+  Groq Kimi: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.","type":"invalid_request_error")
+  Groq Llama: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","co)
+  GitHub GPT: SKIP - unavailable (RuntimeError)
+  GitHub Llama: SKIP - unavailable (RuntimeError)
+  GitHub DeepSeek: SKIP - unavailable (RuntimeError)
+  GitHub Grok: SKIP - unavailable (RuntimeError)
+  GitHub Cohere: SKIP - unavailable (RuntimeError)
+  GitHub Phi: SKIP - unavailable (RuntimeError)
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  GitHub Mistral: SKIP - unavailable (RuntimeError)
+  OpenRouter: SKIP - unavailable (RuntimeError)
+  only 1 checker(s) passed, need 2
+  -> blocked by fact-check
+skip (off-topic or nothing new): Bond yields are rising—and gold is struggling. What should investors do?
+---
+🇰🇷 KOREAN STOCKS LOSE INVESTORS
+
+📌 Foreign and local investors are losing interest in South Korea's $4.3 trillion stock market.
+📊 Market value: $4.3 trillion
+#Korea
+
+📍 South Korea · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/market/oncehot-ai-trade-leaves-korean-stocks-struggling-for-buyers-11791679132163.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims (market value $4.3 trillion and investors losing interest) are directly stated in the Mint article.
+  Groq GPT-OSS 20B: FAIL - The claim that both foreign and local investors are losing interest is not explicitly supported by the cited Mint article.
+  -> blocked by fact-check
+---
+🇮🇳 INDIA-US TRADE PACT TO BE FINALISED
+
+📌 India and the US are updating their trade agreement due to recent global shifts.
+💡 Trade pacts can change prices of imported goods and affect jobs.
+#IndiaUS
+
+📍 India · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/news/economy/foreign-trade/us-trade-deal-to-be-finalised-as-circumstances-have-changed-piyush-goyal/articleshow/134860563.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the Economic Times source.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
+  Groq Kimi: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.","type":"invalid_request_error")
+  Groq Llama: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","co)
+  GitHub GPT: SKIP - unavailable (RuntimeError)
+  GitHub Llama: SKIP - unavailable (RuntimeError)
+  GitHub DeepSeek: SKIP - unavailable (RuntimeError)
+  GitHub Grok: SKIP - unavailable (RuntimeError)
+  GitHub Cohere: SKIP - unavailable (RuntimeError)
+  GitHub Phi: SKIP - unavailable (RuntimeError)
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  GitHub Mistral: SKIP - unavailable (RuntimeError)
+  OpenRouter: PASS - All factual claims in the post are directly supported by the sources, including the update of the India-US trade agreement due to recent global shifts, and the general explanation is accurate.
+Traceback (most recent call last):
+  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 655, in <module>
+    main()
+  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 638, in main
+    tweet_id = publish(x, text, **extra)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 394, in publish
+    tweet_id = str(client.create_tweet(text=text, **kw).data["id"])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 849, in create_tweet
+    return self._make_request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 133, in _make_request
+    response = self.request(method, route, params=request_params,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 123, in request
+    raise HTTPException(response)
+tweepy.errors.HTTPException: 402 Payment Required
+credits depleted
 === run 2026-10-11T00:52:40Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
 daily cap: 3, room left in the last 24h: 3
