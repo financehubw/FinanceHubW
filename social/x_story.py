@@ -134,6 +134,10 @@ def render() -> None:
         fo = FEED_DIR / f"{p['id']}.jpg"
         if not fo.exists():
             card(p, fo, 1080, 1350)
+            import news_cover
+            news_cover.cover(p, FEED_DIR / f"{p['id']}-cover.jpg")
+            news_cover.facts(p, FEED_DIR / f"{p['id']}-facts.jpg")
+            news_cover.closer(p, FEED_DIR / f"{p['id']}-end.jpg")
     cutoff = time.time() - KEEP_DAYS * 86400
     for f in [*DIR.glob("*.jpg"), *FEED_DIR.glob("*.jpg")]:
         if f.stat().st_mtime < cutoff:
@@ -205,7 +209,7 @@ def caption(p: dict) -> str:
         if re.search(pat, low):
             tags += [x for x in t if x not in tags]
     tags = (tags + [t for t in ["#financenews", "#markets", "#economy", "#investing", "#money"] if t not in tags])[:5]
-    q = "Good news or bad news for your money? Tell us 👇"
+    q = "Good news or bad news for your money? Tell us 👇\n👉 Swipe for the full story."
     return (f"🚨 {hook}\n\n" + "\n".join(body) + f"\n\n{q}\n"
             "💾 Save this and send it to someone who follows the markets.\n\n"
             "Follow @financehubw for fact-checked finance news every day.\n"
@@ -238,12 +242,26 @@ def feed() -> None:
     p = max(todo, key=lambda p: ("✅" in p["text"]) + ("BREAKING" in p["text"]) * 2 + ("Official" in p["text"]))
     if os.environ.get("DRY_RUN") or not (ig and tok):
         print("news feed post ready:", p["id"]); return
-    url = f"{SITE_URL}/media/newsposts/{p['id']}.jpg"
-    if not wait_live(url):
-        print("feed card not live yet"); return
+    names = [f"{p['id']}-cover.jpg", f"{p['id']}-facts.jpg", f"{p['id']}-end.jpg"]
+    if not (FEED_DIR / names[1]).exists():
+        names[1] = f"{p['id']}.jpg"
+    urls = [f"{SITE_URL}/media/newsposts/{n}" for n in names if (FEED_DIR / n).exists()]
+    if not all(wait_live(u) for u in urls):
+        print("feed cards not live yet"); return
     try:
-        c = requests.post(f"{GRAPH}/{ig}/media", timeout=60,
-                          data={"image_url": url, "caption": caption(p), "access_token": tok}).json()
+        if len(urls) > 1:   # magazine-style carousel: cover, facts, follow
+            kids = []
+            for u in urls:
+                k = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data={
+                    "image_url": u, "is_carousel_item": "true", "access_token": tok}).json()
+                if "id" not in k:
+                    raise RuntimeError(k.get("error", k))
+                kids.append(k["id"])
+            c = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data={
+                "media_type": "CAROUSEL", "children": ",".join(kids), "caption": caption(p), "access_token": tok}).json()
+        else:
+            c = requests.post(f"{GRAPH}/{ig}/media", timeout=60,
+                              data={"image_url": urls[0], "caption": caption(p), "access_token": tok}).json()
         if "id" not in c:
             raise RuntimeError(c.get("error", c))
         time.sleep(5)
