@@ -8,7 +8,9 @@
   "status": "ok",
   "short": "testing 14:00 UTC this week (0 posts so far)",
   "briefing_morning": "testing 01:30 UTC this week (0 posts so far)",
-  "briefing_evening": "testing 11:30 UTC this week (0 posts so far)"
+  "briefing_evening": "testing 11:30 UTC this week (0 posts so far)",
+  "media_seen": 0,
+  "media_error": "{'error': {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A9-vsaeF2eLOIyuekFlGwJw'}}"
  },
- "updated": "2026-10-12T04:24Z"
+ "updated": "2026-10-12T04:26Z"
 }
