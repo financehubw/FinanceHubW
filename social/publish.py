@@ -229,6 +229,12 @@ def main() -> None:
         return
     path = SHORTS / item["file"]
     url = f"{SITE_URL}/media/shorts/{item['file']}"
+    if not thumb_for(item) and not os.environ.get("DRY_RUN"):
+        try:   # new Shorts get a cover automatically
+            import thumbs
+            thumbs.make(item)
+        except Exception as e:  # noqa: BLE001
+            print(f"  thumbnail skipped - {e}", file=sys.stderr)
     print(f"next Short: {item['title']}\n  file: {path.name} ({path.stat().st_size // 1024} KB)\n  url:  {url}")
     print("--- Instagram\n" + caption_for(item) + "\n--- YouTube\n" + caption_for(item, "youtube"))
 
