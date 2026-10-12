@@ -42,6 +42,10 @@ def main() -> None:
         sys.exit("Instagram secrets missing")
     media = requests.get(f"{GRAPH}/{ig}/media", timeout=30, params={
         "fields": "id,media_type,timestamp,caption", "limit": 100, "access_token": tok}).json().get("data", [])
+    cur["notes"]["media_seen"] = len(media)
+    if not media:
+        cur["notes"]["media_error"] = str(requests.get(f"{GRAPH}/{ig}/media", timeout=30, params={
+            "fields": "id", "limit": 5, "access_token": tok}).json())[:200]
     by = {}
     for m in media:
         k = kind(m)
