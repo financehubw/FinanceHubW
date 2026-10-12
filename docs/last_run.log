@@ -1,3 +1,86 @@
+=== run 2026-10-12T14:49:52Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 5
+--- special
+🇮🇳🌍 Nifty, Sensex, Wall Street, crypto and RBI/Fed policy, explained simply.
+
+New videos on FinanceHubW 👇
+https://www.youtube.com/@FinanceHubW
+published to: website, Instagram Story
+101/171 sources returned news, 1127 recent items
+258 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US STOCKS HOVER NEAR RECORD
+
+📌 US stocks stay near record highs on Wall Street, with the Dow rising and Nasdaq slipping.
+#Stocks
+
+📍 US · 📰 The Globe and Mail · ✅ 9 sources
+https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM1ZJQ0xxdzdXZzhoME5ILUxVSlBHV2tDWTFOelpMRzlYeFBjMGYyd3R3NHZ3elF0d1UybWVKdGxNVUN4Wnl5ZXRoTXlYMEpkbWR0eHNZenI0UjB1Vjg1c0VvVG1aVWdsODJBeDF2bXBlQmg3Vk9mclJxclFFdlFVajd0cHJNTkhRN1JCNmhrcXh5dVBsR2V6T0ZFSHZfaTc3N0ZxTEVYOFN6UExHclVVNnJiNW5KVjl0Y0I1VmlFSE1WTlExeF9zSzQzdmgwN3JMU3E2c0FENWFkNlNPWmNDV2xhaDBTSjBBRllvdjhR?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 9 sources" but the provided source list contains fewer than nine distinct sources
+  -> blocked by fact-check
+---
+🇺🇸 US STOCKS EDGE AS OIL RISES
+
+📌 US stock markets paused near record highs as oil prices jumped before company earnings.
+💡 Higher oil prices can raise costs for businesses and everyday goods.
+#StockMarket
+
+📍 US · 📰 Economic Times · ✅ 7 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-war-trump-hormuz-deal-brent-crude-oil-fed-rate-yield-earnings-season-iren-wells-fargo-goldman-sachs-citigroup-jpmorgan-ai-chip-stock-price-news-12th-october-2026/liveblog/134892994.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly corroborated by the cited Economic Times and related sources
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
+  Groq Qwen: FAIL - The source is Economic Times, but the post attributes the report to 'Economic Times' while the URL and context imply a specific live blog, however the primary failure is that the post claims 'US STOCK
+  -> blocked by fact-check
+---
+🇺🇸 US STOCKS MIXED BEFORE INFLATION DATA
+
+📌 US stocks ended mixed as rising oil prices and tech pressure kept gains small.
+📊 Dow: +0.21%
+📊 Nasdaq: -0.04%
+💡 Higher oil prices can raise costs for businesses and shoppers.
+#Fed
+
+📍 US · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-steady-at-open-as-oil-jumps-ahead-of-key-earnings/articleshow/134894878.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, trends, and context are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source
+  Groq Qwen: PASS - All factual claims regarding stock performance, market conditions, and sources are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-b03667a34578
+---
+🇮🇳 INDIA INFLATION HITS 5.54% IN SEPTEMBER
+
+📌 India's retail inflation (the rate prices rise at) jumped to 5.54% in September.
+📊 Inflation: 5.54%
+
+📍 India · 📰 Mint · ✅ 6 sources
+https://www.livemint.com/economy/indias-retail-inflation-jumps-to-5-54-in-sept-records-new-high-in-2-years-11791802350715.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All figures, country, source and description are directly supported by the Mint article
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited Mint source.
+  Groq Qwen: PASS - All factual claims regarding the inflation rate (5.54%), the month (September), the country (India), and the source attribution (Mint) are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-1ac383cc8ac2
+---
+🇮🇳 INDIA BONDS POST WORST DAY IN 6 MONTHS
+
+📌 Indian government bonds fell hard after the central bank acted to drain cash.
+📊 Inflation: 5.54%
+💡 Higher bond yields usually make loans costlier for people and businesses.
+
+📍 India · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/bonds/india-benchmark-bond-posts-worst-day-in-six-months-on-rbi-measures/articleshow/134893334.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the bond performance, inflation rate, central bank actions, and source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-e2a223153dfb
+done: 4 post(s) this run
 === run 2026-10-12T14:16:31Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
