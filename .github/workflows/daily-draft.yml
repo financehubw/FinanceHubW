@@ -1,10 +1,10 @@
 name: Daily draft (Gemini, free)
 
-# Tue-Sat 7:10 AM IST: Gemini writes The Daily's draft for the previous weekday.
-# Nothing is posted here. The Claude review task checks facts at 7:47 and publishes.
+# Mon-Fri 6:10 PM IST: Gemini writes the draft of TODAY's Daily (news from the last 16 hours only).
+# Nothing is posted here. The Claude review task checks facts at 7:17 PM and publishes.
 on:
   schedule:
-    - cron: "40 1 * * 2-6"
+    - cron: "40 12 * * 1-5"
   workflow_dispatch:
 
 permissions:

@@ -85,7 +85,7 @@ SAMPLE = {
 def market_day(arg: str | None) -> dt.date:
     if arg:
         return dt.date.fromisoformat(arg)
-    d = dt.datetime.utcnow().date() - dt.timedelta(days=1)
+    d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
     while d.weekday() > 4:
         d -= dt.timedelta(days=1)
     return d
@@ -102,7 +102,7 @@ def photo_library() -> dict[str, dict]:
 
 def gather_news(day: dt.date) -> list[dict]:
     import bot  # the X bot's fetcher, sources and trust rules
-    bot.MAX_AGE_HOURS = 40
+    bot.MAX_AGE_HOURS = 16   # today's news only, nothing from yesterday
     items = [i for i in bot.fetch_all() if not INDIA.search(i["title"] + " " + i["summary"])
              and "India" not in i.get("region", "")]
     stories = [s for s in bot.cluster(items) if bot.trusted(s)]
@@ -134,8 +134,12 @@ def market_rows(day: dt.date) -> tuple[str, list[dict]]:
         closed_today = h.index[-1].date() == day
         verb = "rose" if ch >= 0 else "fell"
         text = f"<strong>{label}</strong> " + tpl.format(v=v, verb=verb)
-        if not closed_today and tick == "^GSPC":
-            text = f"<strong>US shares</strong>: markets were shut. Last close {v:,.0f}."
+        if not closed_today and tick == "^GSPC":    # evening in India = before or at the US open
+            text = f"<strong>US shares</strong> (the S&amp;P 500) last closed at {v:,.0f}."
+        elif tick == "BTC-USD":
+            text = f"<strong>Bitcoin</strong> trades at about ${v:,.0f}."
+        elif tick == "GC=F" and not closed_today:
+            text = f"<strong>Gold</strong> trades at about ${v:,.0f} an ounce."
         rows.append({"chg": ("+" if ch >= 0 else "−") + f"{abs(ch):.1f}%", "color": GREEN if ch >= 0 else RED,
                      "text": text})
     return "Shares, gold, bitcoin", rows
