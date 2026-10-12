@@ -1,0 +1,11 @@
+/home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
+106/171 sources returned news, 1375 recent items
+  big #4 draft 1: Groq GPT-OSS: FAIL - Slide includes a prediction (move towards 102.85) which is not a factual claim
+  big #4 draft 2: Groq GPT-OSS: FAIL - Slide includes a predicted move to 102.85, which is a forecast rather than a verifiable fact
+  big #4 draft 3: Groq GPT-OSS: PASS - All factual statements about dollar support, inflation, Fed tightening, geopolitics, and the 102.85 target are directly supported by the cited ING/FXStreet source. | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - All factual claims regarding the dollar's support, inflation, Fed tightening, and the specific target level of 102.85 are directly supported by the ING source.
+  big: story #4 ok in 8s
+  pol: story #25 failed in 2s
+  pol: story #6 failed in 4s
+  pol: story #8 failed in 2s
+no story passed the checks for the pol slide; nothing published
