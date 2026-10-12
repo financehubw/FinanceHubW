@@ -33,7 +33,7 @@ def background(item: dict) -> Image.Image:
     import photos
     img = None
     if item.get("thumb_photo"):
-        img = photos.photo(item["thumb_photo"], item["file"])
+        img = photos.photo(item["thumb_photo"], item["file"], query=item["thumb_photo"])
         if img is not None and not img.info.get("credit") and img.width < 900:
             img = None
     if img is None:
