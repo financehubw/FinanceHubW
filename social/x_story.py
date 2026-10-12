@@ -284,7 +284,11 @@ def wait_live(url: str) -> bool:
 
 DIGEST_DIR = ROOT / "site" / "media" / "digests"
 DIGEST_LOG = ROOT / "social" / "digests_posted.json"
-EDITIONS = [("Morning", 1, 30), ("Evening", 12, 30)]   # UTC: 7:00 AM IST (after the US close) and 6:00 PM IST
+def _editions():
+    """UTC times; learned from the account's own reach by social/best_times.py (defaults 7:00 AM / 6:00 PM IST)."""
+    t = load(ROOT / "social" / "best_times.json", {}).get("times", {})
+    m, e = t.get("briefing_morning", "01:30"), t.get("briefing_evening", "12:30")
+    return [("Morning", int(m[:2]), int(m[3:])), ("Evening", int(e[:2]), int(e[3:]))]
 
 
 def _head(p: dict) -> str:
@@ -375,7 +379,7 @@ def digest_due() -> tuple[str, dt.datetime] | None:
     now = dt.datetime.utcnow()
     log = load(DIGEST_LOG, {"posted": []})
     done = {e["key"] for e in log["posted"]}
-    for name, hh, mm in reversed(EDITIONS):
+    for name, hh, mm in reversed(_editions()):
         start = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
         if now >= start and now - start < dt.timedelta(hours=6):
             key = f"{now:%Y-%m-%d}-{name.lower()}"

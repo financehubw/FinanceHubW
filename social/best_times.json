@@ -1,0 +1,10 @@
+{
+ "times": {
+  "short": "15:00",
+  "briefing_morning": "01:30",
+  "briefing_evening": "12:30"
+ },
+ "notes": {
+  "status": "waiting for data"
+ }
+}

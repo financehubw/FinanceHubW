@@ -5,8 +5,10 @@ on:
     # Target 8:30 PM IST = 15:00 UTC = 11 AM New York = 4 PM London: India's evening peak and the
     # US late-morning Reels/Shorts peak in one slot. Two early triggers (GitHub often starts late);
     # the job waits until 15:00 UTC, and whichever runs second sees today's post and does nothing.
-    - cron: "43 14 * * *"   # 8:13 PM IST
-    - cron: "51 14 * * *"   # 8:21 PM IST (backup)
+    # The posting time comes from social/best_times.json (learned weekly from the account's reach).
+    # Hourly checks from 4:13 PM to 11:13 PM IST; each run posts only if it is within 25 minutes of the
+    # chosen time (waiting for the exact minute), otherwise it exits in seconds.
+    - cron: "43 10-17 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -93,7 +95,7 @@ jobs:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
-      - name: Wait until 8:30 PM IST
+      - name: Wait for the posting time
         if: github.event_name == 'schedule'
         run: |
           python - <<'PY'
@@ -102,9 +104,15 @@ jobs:
           log = json.load(open("social/posted.json"))["posted"]
           if any(p["date"].startswith(now.strftime("%Y-%m-%d")) for p in log):
               open("/tmp/skip", "w").write("1"); sys.exit(0)
-          target = now.replace(hour=15, minute=0, second=0, microsecond=0)
+          try:
+              t = json.load(open("social/best_times.json"))["times"]["short"]
+          except Exception:
+              t = "15:00"
+          target = now.replace(hour=int(t[:2]), minute=int(t[3:]), second=0, microsecond=0)
           wait = (target - now).total_seconds()
-          print(f"waiting {max(0, wait):.0f}s until 15:00 UTC")
+          if wait > 25 * 60 or wait < -50 * 60:
+              print(f"not time yet (posting time {t} UTC)"); open("/tmp/skip", "w").write("1"); sys.exit(0)
+          print(f"waiting {max(0, wait):.0f}s until {t} UTC")
           if wait > 0: time.sleep(wait)
           PY
       - name: Post next Short
