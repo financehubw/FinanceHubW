@@ -284,7 +284,7 @@ def wait_live(url: str) -> bool:
 
 DIGEST_DIR = ROOT / "site" / "media" / "digests"
 DIGEST_LOG = ROOT / "social" / "digests_posted.json"
-EDITIONS = [("Morning", 3, 30), ("Evening", 12, 30)]   # UTC: 9:00 AM and 6:00 PM IST
+EDITIONS = [("Morning", 1, 30), ("Evening", 12, 30)]   # UTC: 7:00 AM IST (after the US close) and 6:00 PM IST
 
 
 def _head(p: dict) -> str:
