@@ -31,6 +31,10 @@ on:
         description: "Redraw every Short thumbnail (uses Pixabay photos)"
         type: boolean
         default: false
+      thumb_files:
+        description: "Only these files (space separated), optional"
+        type: string
+        default: ""
       ig_list:
         description: "List recent Instagram posts"
         type: boolean
@@ -71,7 +75,7 @@ jobs:
           for p in ${{ inputs.url_check }}; do echo "$p $(curl -s -o /dev/null -w '%{http_code} %{content_type}' -I https://financehubw-site.vercel.app/$p)"; done | tee docs/url_check.txt
       - name: Redraw thumbnails
         if: inputs.make_thumbs
-        run: python social/thumbs.py
+        run: python social/thumbs.py ${{ inputs.thumb_files }}
         env:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
       - name: List Instagram posts
