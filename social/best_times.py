@@ -16,6 +16,10 @@ OUT = ROOT / "social" / "best_times.json"
 GRAPH = "https://graph.facebook.com/v21.0"
 MIN_POSTS = 10
 DEFAULTS = {"short": "15:00", "briefing_morning": "01:30", "briefing_evening": "12:30"}   # UTC
+# Until a kind has enough data, rotate its time each week so there are different hours to compare.
+EXPLORE = {"short": ["14:00", "15:00", "16:00"],                 # 7:30 / 8:30 / 9:30 PM IST
+           "briefing_morning": ["01:30", "02:30", "03:30"],      # 7:00 / 8:00 / 9:00 AM IST
+           "briefing_evening": ["11:30", "12:30", "13:00"]}      # 5:00 / 6:00 / 6:30 PM IST
 WINDOWS = {"short": (11, 18), "briefing_morning": (0, 5), "briefing_evening": (10, 15)}     # allowed UTC hours
 
 
@@ -51,7 +55,15 @@ def main() -> None:
         reach = r["data"][0]["values"][0]["value"]
         hour = dt.datetime.strptime(m["timestamp"][:19], "%Y-%m-%dT%H:%M:%S").hour
         by.setdefault(k, []).append((hour, reach))
+    week = dt.date.today().isocalendar()[1]
+    for k in DEFAULTS:
+        rows = by.get(k, [])
+        if len(rows) < MIN_POSTS or len({h for h, _ in rows}) < 3:
+            cur["times"][k] = EXPLORE[k][week % 3]
+            cur["notes"][k] = f"testing {cur['times'][k]} UTC this week ({len(rows)} posts so far)"
     for k, rows in by.items():
+        if len(rows) < MIN_POSTS or len({h for h, _ in rows}) < 3:
+            continue
         hours = {}
         for h, r in rows:
             hours.setdefault(h, []).append(r)
