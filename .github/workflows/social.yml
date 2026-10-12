@@ -27,6 +27,10 @@ on:
         description: "HEAD-check a site path"
         type: string
         default: ""
+      make_thumbs:
+        description: "Redraw every Short thumbnail (uses Pixabay photos)"
+        type: boolean
+        default: false
       ig_list:
         description: "List recent Instagram posts"
         type: boolean
@@ -65,6 +69,11 @@ jobs:
         if: inputs.url_check != ''
         run: |
           for p in ${{ inputs.url_check }}; do echo "$p $(curl -s -o /dev/null -w '%{http_code} %{content_type}' -I https://financehubw-site.vercel.app/$p)"; done | tee docs/url_check.txt
+      - name: Redraw thumbnails
+        if: inputs.make_thumbs
+        run: python social/thumbs.py
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
       - name: List Instagram posts
         if: inputs.ig_list
         run: |
@@ -116,7 +125,7 @@ jobs:
           if wait > 0: time.sleep(wait)
           PY
       - name: Post next Short
-        if: ${{ !inputs.fb_check && !inputs.photo_check && !inputs.ig_list && inputs.url_check == '' && inputs.ig_delete == '' }}
+        if: ${{ !inputs.fb_check && !inputs.photo_check && !inputs.ig_list && !inputs.make_thumbs && inputs.url_check == '' && inputs.ig_delete == '' }}
         run: |
           if [ -f /tmp/skip ]; then echo "already posted today"; exit 0; fi
           if [ "${{ inputs.rethumb }}" = "true" ]; then python social/rethumb.py; exit 0; fi
@@ -142,6 +151,7 @@ jobs:
           if [ -f docs/photo_check.txt ]; then git add docs/photo_check.txt; fi
           if [ -f docs/ig_list.txt ]; then git add docs/ig_list.txt; fi
           if [ -f docs/url_check.txt ]; then git add docs/url_check.txt; fi
+          git add site/media/shorts/thumbs 2>/dev/null || true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Record posted Short"
           for i in 1 2 3; do
