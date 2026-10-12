@@ -1,3 +1,63 @@
+=== run 2026-10-12T03:11:15Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+84/171 sources returned news, 790 recent items
+re-check of earlier post: 1 fail / 3 pass
+169 new trusted stories, posting up to 2 this run
+---
+🇮🇳 INDIAN STOCKS EYE POSITIVE START
+
+📌 GIFT Nifty points to a positive start for Indian stock markets following Friday's rally.
+📊 Nifty: +1.3%
+💡 Market gains can boost retirement and mutual fund savings.
+
+📍 India · 📰 Economic Times · ✅ 4 sources
+https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/134880075.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited Economic Times article and related sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times source and the general explanation is accurate.
+  Groq Qwen: PASS - All factual claims regarding the GIFT Nifty signal, the 1.3% Nifty gain, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-435c586ea313
+---
+🇮🇳 GIFT NIFTY POINTS TO POSITIVE START
+
+📌 Gift Nifty traded near 22,649, up about 47 points ahead of the market open.
+📊 Gift Nifty: 22,649 (+47 pts)
+#Nifty
+
+📍 India · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-12-oct-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-taiwan-cues-11791765619343.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim of "✅ 3 sources" is not directly supported by the listed sources, which are all the same outlet repeated.
+  -> blocked by fact-check
+---
+🌏 ASIAN SHARES CAUTIOUS AHEAD OF EARNINGS
+
+📌 Asian shares stayed cautious and oil prices slipped as investors waited for company earnings.
+#Markets
+
+📍 Asia · 📰 Economic Times · ✅ 10 sources
+https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-earnings-loom-oil-slips/articleshow/134880101.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about cautious Asian shares and slipping oil prices ahead of earnings are directly supported by the Economic Times source.
+  Groq GPT-OSS 20B: FAIL - Unsupported claim about 10 sources
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN SHARES SET TO OPEN HIGHER
+
+📌 Indian shares are set to open higher as oil prices ease and the central bank supports the rupee.
+#Nifty
+
+📍 India · 📰 Mint · ✅ 4 sources
+https://www.livemint.com/market/indian-shares-set-to-open-higher-as-oil-eases-rbi-moves-to-support-rupee-11791772076373.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (share outlook, oil easing, RBI support, location, source) are directly supported by the Mint article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited article.
+  Groq Qwen: PASS - All factual claims regarding the market direction, oil prices, and RBI actions are directly supported by the source headlines.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d546088a825d
+done: 2 post(s) this run
 === run 2026-10-12T02:44:50Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
