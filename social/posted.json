@@ -31,6 +31,22 @@
     "YouTube": "<HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=rQPTKTejUpM&alt=json&uploadType=media returned \"The authenticated user doesn't have permissions t",
     "Facebook": "ok"
    }
+  },
+  {
+   "file": "bank_spread.mp4",
+   "title": "Your bank pays you 0.5% and charges you 20%",
+   "date": "2026-10-12T14:03:41Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/757-gKWyCDQ"
+   },
+   "failed": [
+    "Instagram",
+    "Facebook"
+   ],
+   "errors": {
+    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A7rzLpWXGDcXuj9DHugOZKw'}",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'Ac_OB73415pFfN3MdG3XBtq'}"
+   }
   }
  ]
 }
