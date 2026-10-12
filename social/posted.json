@@ -11,8 +11,8 @@
    },
    "failed": [],
    "thumbs": {
-    "YouTube": "<HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=yNfP99LSP4E&alt=json&uploadType=media returned \"The authenticated user doesn't have permissions t",
-    "Facebook": "ok"
+    "YouTube": "ok",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A97HtpGZc9eympQCVeZ2-mn'}"
    }
   },
   {
@@ -28,8 +28,8 @@
     "Facebook"
    ],
    "thumbs": {
-    "YouTube": "<HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=rQPTKTejUpM&alt=json&uploadType=media returned \"The authenticated user doesn't have permissions t",
-    "Facebook": "ok"
+    "YouTube": "ok",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A0J6dzP1Mjg9aUo2ICfDeCt'}"
    }
   },
   {
@@ -46,6 +46,9 @@
    "errors": {
     "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A7rzLpWXGDcXuj9DHugOZKw'}",
     "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'Ac_OB73415pFfN3MdG3XBtq'}"
+   },
+   "thumbs": {
+    "YouTube": "ok"
    }
   }
  ]
