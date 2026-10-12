@@ -1,11 +1,14 @@
 {
  "times": {
-  "short": "15:00",
+  "short": "14:00",
   "briefing_morning": "01:30",
-  "briefing_evening": "12:30"
+  "briefing_evening": "11:30"
  },
  "notes": {
-  "status": "ok"
+  "status": "ok",
+  "short": "testing 14:00 UTC this week (0 posts so far)",
+  "briefing_morning": "testing 01:30 UTC this week (0 posts so far)",
+  "briefing_evening": "testing 11:30 UTC this week (0 posts so far)"
  },
- "updated": "2026-10-12T04:22Z"
+ "updated": "2026-10-12T04:24Z"
 }
