@@ -24,8 +24,11 @@ for e in log["posted"]:
             e.setdefault("thumbs", {})["YouTube"] = str(x)[:200]
     fb = e["results"].get("Facebook")
     if fb and os.environ.get("FB_PAGE_ID"):
+      try:
         r = requests.post(f"{P.GRAPH}/{fb}/thumbnails", timeout=60, data={"is_preferred": "true", "access_token": P.page_token()},
                           files={"source": (t.name, t.read_bytes(), "image/jpeg")}).json()
         e.setdefault("thumbs", {})["Facebook"] = "ok" if r.get("success") or r.get("id") else str(r.get("error", r))[:200]
+      except Exception as x:
+        e.setdefault("thumbs", {})["Facebook"] = str(x)[:200]
     print(e["file"], e.get("thumbs"))
 P.POSTED.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
