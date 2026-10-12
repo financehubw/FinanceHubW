@@ -1,3 +1,24 @@
+=== run 2026-10-12T02:44:50Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+89/171 sources returned news, 798 recent items
+177 new trusted stories, posting up to 1 this run
+---
+🇺🇸 DOLLAR NEARS 18-MONTH HIGH
+
+📌 The US dollar stayed close to an 18-month high due to middle east conflict.
+💡 A stronger dollar can make imported goods costlier for other countries.
+#Forex
+
+📍 US · 📰 Economic Times · ✅ 6 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-stays-near-18-month-high-as-mideast-conflict-inflation-data-in-focus/articleshow/134880836.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Economic Times article and related sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the dollar's position, the cause (Middle East conflict), and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-a5ce41662494
+done: 1 post(s) this run
 === run 2026-10-12T02:08:42Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
