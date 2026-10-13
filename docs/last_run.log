@@ -1,3 +1,89 @@
+=== run 2026-10-13T03:09:30Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+100/171 sources returned news, 956 recent items
+194 new trusted stories, posting up to 1 this run
+---
+🌐 SILVER FALLS TO NEAR $60
+
+📌 Silver drops to near $60.00 per ounce as higher oil prices fuel inflation worries.
+📊 Silver: $60.00/oz
+
+📍 Global · 📰 FXStreet Forex & Commodities News · ✅ 2 sources
+https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-6000-amid-higher-oil-prices-us-dollar-202610130206
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about silver price, oil‑inflation link, and Fed expectations are directly confirmed by the FXStreet article.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 2 sources, but only one source is provided.
+  -> blocked by fact-check
+---
+🌐 DOLLAR HITS 18-MONTH HIGH
+
+📌 The US dollar stays near an 18-month high due to rising global tensions.
+📊 US dollar index: 102.56
+💡 A strong US dollar can make foreign goods and travel more costly.
+#Forex
+
+📍 Global · 📰 Mint · ✅ 9 sources
+https://www.livemint.com/market/dollar-holds-near-18-month-high-as-geopolitical-risks-rise-11791855761313.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (18‑month high, index 102.56, link to geopolitical tensions) are directly supported by the Livemint article.
+  Groq GPT-OSS 20B: FAIL - The explanation that a strong dollar makes foreign goods and travel more costly is incorrect.
+  -> blocked by fact-check
+---
+🇮🇳 GIFT NIFTY POINTS TO POSITIVE MARKET START
+
+📌 Gift Nifty traded near 22,423, up 41 points ahead of the market opening.
+📊 Gift Nifty: 22,423 (+41 pts)
+#Nifty
+
+📍 India · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-13-oct-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-11791851924757.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about Gift Nifty level and rise are directly supported by the Livemint source.
+  Groq GPT-OSS 20B: FAIL - The claim that the post uses only 3 sources is unsupported; the article lists many more sources.
+  -> blocked by fact-check
+---
+🌏 ASIAN STOCKS FALL
+
+📌 Asian shares dropped as technology and chip stocks fell.
+📊 MSCI Asia Pacific: -0.3%
+📊 South Korea: -3%
+#Markets
+
+📍 Asia · 📰 Economic Times · ✅ 10 sources
+https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-markets-slide-as-chip-stocks-tumble-investors-eye-us-earnings-cpi/articleshow/134905429.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 10 sources" but only six sources are listed, so the source count is unsupported
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS FALL
+
+📌 Indian stock markets dropped due to rising bond yields and foreign investor sell-offs.
+💡 Market drops can reduce the value of retirement accounts and mutual funds.
+#Nifty
+
+📍 India · 📰 Economic Times · ✅ 8 sources
+https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-hcl-tech-rbl-bank-nazara-tech-hero-motors-power-grid-and-ircon/articleshow/134902392.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six source entries are provided, which is unsupported.
+  -> blocked by fact-check
+skip (off-topic or nothing new): GIFT Nifty signals mildly positive start for Sensex, Nifty but Asian rout, inflation, crude oil may cap...
+---
+🌐 IMF WARNS GLOBAL ECONOMY NEAR ITS LIMITS
+
+📌 The IMF says emergency oil reserves are low and government budgets are overstretched.
+💡 Weak global reserves can make economies vulnerable to sudden shocks.
+#IMF
+
+📍 Global · 📰 The Guardian · ✅ 8 sources
+https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Guardian source.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Guardian source.
+  Groq Qwen: PASS - All factual claims regarding the IMF's warning about low oil stocks and overstretched budgets are directly supported by the provided sources, and the metadata matches.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-c6ccba90f672
+done: 1 post(s) this run
 === run 2026-10-13T02:44:30Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
