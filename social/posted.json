@@ -44,11 +44,27 @@
     "Facebook"
    ],
    "errors": {
-    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A7rzLpWXGDcXuj9DHugOZKw'}",
-    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'Ac_OB73415pFfN3MdG3XBtq'}"
+    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'ANrcGXybnXY0OsZH6Hlsq1u'}",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A7AG_ie8XZNM0OjPNgaFWli'}"
    },
    "thumbs": {
     "YouTube": "ok"
+   }
+  },
+  {
+   "file": "bread_billion_marks.mp4",
+   "title": "When bread cost 200 billion marks",
+   "date": "2026-10-13T14:00:28Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/rs7xO5MRc3U"
+   },
+   "failed": [
+    "Instagram",
+    "Facebook"
+   ],
+   "errors": {
+    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AUziAcncyGqEpP-fgG-eOwZ'}",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A6_6wHpKPmbSDa4y9qDIofb'}"
    }
   }
  ]
