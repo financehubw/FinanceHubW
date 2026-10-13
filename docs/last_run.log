@@ -1,3 +1,7 @@
+=== run 2026-10-13T21:21:12Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-13T20:58:31Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ Traceback (most recent call last):
   File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 655, in <module>
     main()
   File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 638, in main
-    tweet_id = publish(x, text, **extra)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 394, in publish
-    tweet_id = str(client.create_tweet(text=text, **kw).data["id"])
