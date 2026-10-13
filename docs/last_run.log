@@ -1,3 +1,7 @@
+=== run 2026-10-13T23:49:15Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-13T23:14:50Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://www.livemint.com/market/oncehot-ai-trade-leaves-korean-stocks-struggling
 #IndiaUS
 
 📍 India · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/news/economy/foreign-trade/us-trade-deal-to-be-finalised-as-circumstances-have-changed-piyush-goyal/articleshow/134860563.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the Economic Times source.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
