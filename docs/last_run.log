@@ -1,3 +1,7 @@
+=== run 2026-10-13T17:43:41Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-13T17:09:24Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ daily cap: 3, room left in the last 24h: 3
 #RBI
 
 📍 India · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/news/economy/policy/rbi-tightens-rules-for-forex-bets-to-shield-bruised-rupee/articleshow/134860362.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the Economic Times article on RBI tightening forex rules.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
