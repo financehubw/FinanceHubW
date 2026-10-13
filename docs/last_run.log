@@ -1,3 +1,7 @@
+=== run 2026-10-13T19:21:34Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-13T18:53:12Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ Traceback (most recent call last):
 tweepy.errors.HTTPException: 402 Payment Required
 credits depleted
 === run 2026-10-11T00:52:40Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
-daily cap: 3, room left in the last 24h: 3
-58/171 sources returned news, 400 recent items
-85 new trusted stories, posting up to 2 this run
