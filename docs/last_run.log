@@ -1,3 +1,67 @@
+=== run 2026-10-13T16:15:16Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 4
+100/171 sources returned news, 1130 recent items
+re-check of earlier post: 0 fail / 3 pass
+272 new trusted stories, posting up to 3 this run
+---
+🇮🇳 INDIAN STOCKS JUMP IN LATE RALLY
+
+📌 Indian markets rose as tech stocks gained and the rupee grew stronger.
+📊 Sensex: +1,110 pts (+1.54%)
+📊 Nifty: >22,700 (+1.60%)
+#Nifty
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/market/stock-market-news/sensex-jumps-1-110-points-nifty-reclaim22-700-5-reasons-behind-today-s-stock-market-rally-11791888964630.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and statements are directly supported by the Mint article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Mint source.
+  Groq Qwen: PASS - All factual claims regarding market movements, percentages, and drivers are directly supported by the Mint source.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-0a9e87017869
+---
+🇮🇳 SEBI EXTENDS EASIER IPO RULES UNTIL MARCH 2027
+
+📌 Companies can change their IPO (initial public offering) size by 50% without new filings.
+📊 Q2 IPO fundraising: Rs 94,649 crore
+
+📍 India · 📰 Mint · ✅ 6 sources
+https://www.livemint.com/market/ipo/sebi-extends-relief-on-ipo-size-tweaks-until-march-2027-11791893737884.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post cites Rs 94,649 crore as Q2 IPO fundraising, but sources report that amount for the September quarter (Q3), not Q2.
+  -> blocked by fact-check
+---
+🇺🇸 US DOLLAR FALLS FROM 18-MONTH HIGH
+
+📌 The US dollar index dropped after reaching its highest level in 18 months.
+💡 A weaker dollar can make imported goods cheaper for other countries.
+#USD
+
+📍 US · 📰 TradingView · ✅ 4 sources
+https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUlo4LXh2MExwMGY5Wm9PSldCNE9zcC1HMXFCcmFHeE1XSkd0TFFSR1I4Q2RNOXlKQTVaU1F3ZGdPNEE0NE53cWVXUnBHRVlranFuV3dFWlluajlrcXl1X1h1VTJHZGducWV3TFhma0M2dWNFWXBLdVVKYzJsT1NKRTBsY3V1XzBHS05kaldvRXNnU0N1aUZQWWJHQ3hfYVBVWGhyNmlOM19jVGxEQldyYnVHUFB4Q3hBSUhkdlUtMVZwT3g0NXE5MVVaTWFkempuZkFFUDMwX1lKLVdt?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source and the explanation is a correct general statement.
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the dollar slipping from an 18-month high, and the general explanation in the 💡 line is factually correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f2ea3ee8fc89
+---
+🇺🇸 INTERACTIVE BROKERS ADDS ETHEREUM STAKING
+
+📌 Interactive Brokers now lets clients stake ETH (locking coins to earn rewards).
+📊 $IBKR
+💡 Staking allows users to earn extra coins on their existing crypto holdings.
+
+📍 US · 📰 The Block · ✅ 7 sources
+https://www.theblock.co/news/ecosystems/2026-10-13-interactive-brokers-ethereum-staking-zerohash-418457
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Interactive Brokers adding Ethereum staking are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding Interactive Brokers adding Ethereum staking for eligible clients are supported by the sources, and the general explanation of staking is accurate.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-926ee18167a3
+done: 3 post(s) this run
 === run 2026-10-13T15:54:02Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 4
@@ -1434,67 +1498,3 @@ Traceback (most recent call last):
     return self._make_request(
            ^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 133, in _make_request
-    response = self.request(method, route, params=request_params,
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 123, in request
-    raise HTTPException(response)
-tweepy.errors.HTTPException: 402 Payment Required
-credits depleted
-=== run 2026-10-11T00:08:58Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
-daily cap: 3, room left in the last 24h: 3
-51/171 sources returned news, 359 recent items
-82 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-10T23:38:43Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
-daily cap: 3, room left in the last 24h: 3
-59/171 sources returned news, 390 recent items
-90 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-10T23:05:27Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
-daily cap: 3, room left in the last 24h: 3
-57/171 sources returned news, 414 recent items
-95 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-10T22:40:22Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
-daily cap: 3, room left in the last 24h: 3
-62/171 sources returned news, 424 recent items
-91 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-10T22:05:50Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
-daily cap: 3, room left in the last 24h: 3
-67/171 sources returned news, 438 recent items
-100 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-10T21:40:50Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
-daily cap: 3, room left in the last 24h: 3
-68/171 sources returned news, 410 recent items
-104 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-10T21:06:06Z
-models available: Gemini, Groq GPT-OSS, Groq Qwen, OpenRouter
-daily cap: 3, room left in the last 24h: 3
-61/171 sources returned news, 420 recent items
-100 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-10T20:41:34Z
-models available: Gemini, Groq GPT-OSS, OpenRouter
-daily cap: 3, room left in the last 24h: 3
-61/171 sources returned news, 428 recent items
-102 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-10T20:05:58Z
-models available: Gemini, Groq GPT-OSS, OpenRouter
-daily cap: 3, room left in the last 24h: 3
-67/171 sources returned news, 465 recent items
-103 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-run 2026-10-10T19:39:13Z
-models available: Gemini, Groq GPT-OSS, OpenRouter
-daily cap: 3, room left in the last 24h: 3
-64/171 sources returned news, 445 recent items
