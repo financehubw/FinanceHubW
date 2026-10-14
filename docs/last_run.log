@@ -1,3 +1,7 @@
+=== run 2026-10-14T04:58:28Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-14T04:25:46Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://www.esma.europa.eu/press-news/esma-news/esma-seeks-evidence-use-tokenise
   Groq GPT-OSS: PASS - All statements about ESMA seeking evidence on tokenised collateral are directly supported by the source.
   Groq GPT-OSS 20B: PASS - All claims are supported by the source.
   Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
-  Groq Kimi: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.","type":"invalid_request_error")
-  Groq Llama: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","co)
-  GitHub GPT: SKIP - unavailable (RuntimeError)
-  GitHub Llama: SKIP - unavailable (RuntimeError)
