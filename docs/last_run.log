@@ -1,3 +1,90 @@
+=== run 2026-10-14T03:20:10Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+96/171 sources returned news, 945 recent items
+209 new trusted stories, posting up to 1 this run
+---
+🇺🇸 US DOLLAR DROPS AHEAD OF INFLATION DATA
+
+📌 The US dollar fell as traders waited for new inflation figures and central bank speeches.
+
+📍 US · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-languishes-as-focus-turns-to-cpi-fed-speakers/articleshow/134929930.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 3 sources" but the listed sources include multiple duplicates and a different outlet, not exactly three distinct sources.
+  -> blocked by fact-check
+---
+🇺🇸 GOLD PRICES HOLD STEADY
+
+📌 Gold prices stayed flat as markets wait for upcoming US inflation data.
+💡 Economic data often shapes future interest rates and borrowing costs.
+#Gold
+
+📍 US · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-flat-as-markets-await-us-cpi-data/articleshow/134929941.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about flat gold prices and awaiting US CPI data are directly supported by the cited Economic Times article.
+  Groq GPT-OSS 20B: FAIL - The location tag (📍 US) does not match the source, which reports on early Asian trading; the place should reflect the source’s context.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN SHARES READY FOR SLOW START
+
+📌 Indian stock markets face a slow opening due to oil prices and foreign money leaving.
+📊 Nifty: +1.6%
+💡 Foreign money leaving can put pressure on local stock prices.
+#Nifty
+
+📍 India · 📰 Mint · ✅ 5 sources
+https://www.livemint.com/market/indian-shares-on-track-for-muted-open-as-oil-prices-foreign-outflows-weigh-11791945285491.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (slow opening due to oil prices and foreign outflows, Nifty +1.6%) are directly supported by the Mint article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: FAIL - The post claims Nifty is +1.6%, but the source states it climbed 1.6% on Tuesday (past performance), while the article reports the market is on track for a muted open (implying a different, likely low
+  -> blocked by fact-check
+---
+🇺🇸 GOLD PRICES DIP AHEAD OF US INFLATION DATA
+
+📌 Gold prices fell near $4,155 as rising oil costs spark inflation worries.
+📊 Gold: $4,155
+💡 Higher inflation can lead to higher borrowing costs.
+#Gold
+
+📍 US · 📰 Reuters · ✅ 3 sources
+https://news.google.com/rss/articles/CBMimAFBVV95cUxNZkM3NGdUajlORC1ZZjBNcFZtNjYwa2JRaFczS1V4OVRORGhzZG1NUGxaY3ppRjdfQlFvUmREakJQM1RGaDNZZmZFMnJrY2Rtemc2Z1dBY1pPRy1ZbnBJVzNfTG1MMGJ5TXY5VzFpaDd6UENqd1pUOVdlTm1sS241QkFzNm1kdDJXTjl5emhLV200WUI1QVh4RQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about price level, oil‑inflation link, and general inflation effect are directly supported by the cited articles.
+  Groq GPT-OSS 20B: FAIL - The post attributes the gold price decline to Reuters, but Reuters reports the price held firm; the decline is only reported by FXStreet, so the source attribution is incorrect.
+  -> blocked by fact-check
+---
+🇺🇸 US STOCK FUTURES MIXED AMID RISING OIL
+
+📌 Stock futures are mixed as oil prices rise and traders wait for inflation data.
+📊 $BAC
+💡 Higher oil prices can raise costs for everyday goods and services.
+#Markets
+
+📍 US · 📰 Stocktwits · ✅ 2 sources
+https://news.google.com/rss/articles/CBMihAJBVV95cUxQZ0w2QjBnZ09paWpGa2d1YUJCTkJOQl80U1M5ck81aWpBai1faHl5Z2dHSjRZdmRST3JfQU4xQjI1SFFUSl9idTR1ZWZpQ1FfaWJobFl6SVFXM3ZBdU9NbWJTU2xsSDNNaDBWNzhWWW9yaUZScmIxbkNNNHFNWGhVa2dJNm9LVF9kRWFyNWJwN0Z5YkQyOEI1Qy1iTmxxUjlrcmR6YjJYQjdjbjJkMlFEeUFyc1N4NjBjS1BONGFvY2tNVEpHQ3RGQzcxOTJtSFQtUXFCM1dEZ3BOUDBhdVpnaWtTSm1tZ210TFZBbmQzRnFFWUxFNGdkelFXZkFDaVlpMS04Ng?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about mixed futures, rising oil, upcoming inflation data, and the source attribution are directly supported by the cited Stocktwits/TradingView article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: FAIL - The draft claims 2 sources, but 4 distinct source entries are provided.
+  -> blocked by fact-check
+---
+🇮🇳 GIFT NIFTY POINTS TO WEAK START
+
+📌 GIFT Nifty (an index traded before markets open) drops after a big market rally.
+#Nifty
+
+📍 India · 📰 Moneycontrol.com
+https://news.google.com/rss/articles/CBMigAJBVV95cUxPaVJ3S2FLZUVITUt0ZnRxd2JsLUdDSXl4cnNnWmd3VWNtMWVUM1NsRjNtcU5aZ0xjMmFqSEtwUXFRdnlacU9hdzlhNDYzcjJ5R3Z2dVloakZkTDhoM0xxbVUxdVB2NUhVUWZ0R1hLNV8zZVk1c0QxLVE2U013UHhucEx2MUExaEl4SXNPc3hUam9oSW5oejNiQjBOemZzOWQ0aDJtWmJXejBZdTJiOXNNVmg1OThRR2tRUy1KMFdweTVyY0U1TlZYRFk0NTRMakc3bkJrX1ZXOWNta1ZWeENqd2lPRGxMMmMybjBoXzlIbmo4UUxnaU9KaTZCS19LOU5z0gGGAkFVX3lxTFB1ZDRTYV9tZ3NtT2dnVEpBQjA4aUFhbVBrVWszNk5vR3RoRXM0LVlvRUxSb2pqc2Jwem05MTJuUkkwUjhldFc0OUFvS3lIV2hWS09ncDh6OW5uZ2xnNS00NDQ1TjBQRy15clhxQU5KR2xGMzdWN3RxbjI5NWNoVm5NVVVvcERBY0wtV1Q0Sko2WmFfQkZ4eDIycVVGMWZzdUVLNXlfM2tLRDVFU1lIUFBWY1dPenllQ28zRXhrRlVkRzR5eEtPRFFPMkV4UHJlcHZNdW5QWW1YYnZuVk83ZHNXUWY5eEVQZnpoMTdqRzFFZVczLVZpRHZtZk9mU0puNmFmY05RUFE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about GIFT Nifty dropping after a large rally and its pre‑market nature are directly supported by the Moneycontrol source.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source
+  Groq Qwen: PASS - The post accurately reflects the source headline regarding GIFT Nifty signaling a weak start after a rally, and the metadata matches.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f40c27af1c1b
+done: 1 post(s) this run
 === run 2026-10-14T02:54:53Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1411,90 +1498,3 @@ https://www.esma.europa.eu/press-news/esma-news/carlo-comporti-appointed-chair-e
   GitHub Cohere: SKIP - unavailable (RuntimeError)
   GitHub Phi: SKIP - unavailable (RuntimeError)
   Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  GitHub Mistral: SKIP - unavailable (RuntimeError)
-  OpenRouter: PASS - The appointment of Carlo Comporti as ESMA Chair is directly confirmed by the ESMA source.
-  -> posted https://x.com/FinanceHubW/status/web-36ab609fdcd0
-done: 1 post(s) this run
-=== run 2026-10-11T01:41:19Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
-daily cap: 3, room left in the last 24h: 3
---- special
-🌐 GLOBAL MARKETS OVERNIGHT
-
-🟢 S&P 500: 7,812 (+0.59%)
-🟢 Nasdaq: 27,366 (+0.64%)
-🟢 Dow: 51,655 (+0.83%)
-🟢 FTSE 100: 10,552 (+1.06%)
-⚪ Nikkei: 69,031 (-0.02%)
-🟢 Brent oil: $104.72 (+0.42%)
-
-🟢 up · 🔴 down · vs previous close
-#Markets #StockMarket
-Traceback (most recent call last):
-  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 655, in <module>
-    main()
-  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 584, in main
-    if not dry and publish(x, special):
-                   ^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/FinanceHubW/FinanceHubW/xbot/bot.py", line 394, in publish
-    tweet_id = str(client.create_tweet(text=text, **kw).data["id"])
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 849, in create_tweet
-    return self._make_request(
-           ^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 133, in _make_request
-    response = self.request(method, route, params=request_params,
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/tweepy/client.py", line 123, in request
-    raise HTTPException(response)
-tweepy.errors.HTTPException: 402 Payment Required
-credits depleted
-=== run 2026-10-11T01:18:01Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
-daily cap: 3, room left in the last 24h: 3
-60/171 sources returned news, 404 recent items
-91 new trusted stories, posting up to 1 this run
-skip (off-topic or nothing new): Trump says Ukraine needs a new president, blames Zelenskyy's strikes on Russian refineries for high diesel prices
-skip (off-topic or nothing new): Dow Inc (DOW) Stock Price Today: $28.42
-skip (off-topic or nothing new): Dollar and euro remain unstoppable in Cuba: this is how the informal market closes this Saturday
-skip (off-topic or nothing new): Oil-Dri Earnings Call Highlights Record Growth, Cash Strength
-skip (off-topic or nothing new): 12 killed, hundreds injured in Saudi Arabia airport attack as Houthi strikes intensify
----
-🇺🇸 ETHEREUM FUNDS SEE RECORD WEEKLY MONEY EXIT
-
-📌 US spot Ethereum ETFs had their biggest weekly money outflow since January.
-💡 Lower fund inflows can reflect weaker investor demand for the asset.
-#Crypto
-
-📍 US · 📰 Crypto Briefing · ✅ 2 sources
-https://news.google.com/rss/articles/CBMihAFBVV95cUxOQy0ybmluOHllZUhGYmt6cVRwbXQyWHhHd3ljWFdUTGs5blVRRTZabkFPY1pfRzhBVUNDQ0F1dFBwZ28tVEowRWJBQVJIUDhndWpUWW55LVRqbUNoY0NxcFNYSzUzUG9kMGUxQ1E1cmR1anVsNGZyZkxDNGFjc2R4alJjdmY?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post calls it a "record" weekly exit, but the source only says it was the largest since January, not an all‑time record.
-  -> blocked by fact-check
----
-🇺🇸 TRUMP WARNS OF DEPRESSION
-
-📌 Donald Trump warned a Democratic win in midterms could cause a 1929-style depression.
-#Trump
-
-📍 US · 📰 news.sbs.co.kr · ✅ 2 sources
-https://news.google.com/rss/articles/CBMibkFVX3lxTE9SQnFzUktFT0pjcmp5dlRWbEI2c2ZFd0xreTBQbXdzMmV1aXBTNDhLMzhYSFE0d3pMYW1tZVZVelJPRHBUeU9BMFgzWG5WMTd5ZW9hRVNwMUViSW1zdWN4RndIa29TdER4eFpsRjdR?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
-  Groq Kimi: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.","type":"invalid_request_error")
-  Groq Llama: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","co)
-  GitHub GPT: SKIP - unavailable (RuntimeError)
-  GitHub Llama: SKIP - unavailable (RuntimeError)
-  GitHub DeepSeek: SKIP - unavailable (RuntimeError)
-  GitHub Grok: SKIP - unavailable (RuntimeError)
-  GitHub Cohere: SKIP - unavailable (RuntimeError)
-  GitHub Phi: SKIP - unavailable (RuntimeError)
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  GitHub Mistral: SKIP - unavailable (RuntimeError)
-  OpenRouter: SKIP - unavailable (RuntimeError)
-  only 1 checker(s) passed, need 2
-  -> blocked by fact-check
-skip (off-topic or nothing new): Bond yields are rising—and gold is struggling. What should investors do?
----
