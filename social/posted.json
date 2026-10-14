@@ -44,8 +44,8 @@
     "Facebook"
    ],
    "errors": {
-    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'ANrcGXybnXY0OsZH6Hlsq1u'}",
-    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A7AG_ie8XZNM0OjPNgaFWli'}"
+    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AOK1em68wf5WAw6fmcC4DW4'}",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AGinYcKa-uHzh_gEQlFdQhE'}"
    },
    "thumbs": {
     "YouTube": "ok"
@@ -63,8 +63,24 @@
     "Facebook"
    ],
    "errors": {
-    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AUziAcncyGqEpP-fgG-eOwZ'}",
-    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A6_6wHpKPmbSDa4y9qDIofb'}"
+    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A3f64xKredsAGqeGfmHmK9t'}",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'Ao6oFukLTngM8lrI9wO_gba'}"
+   }
+  },
+  {
+   "file": "m4_five_dollar_coffee.mp4",
+   "title": "Your $5 coffee could be worth $226,659",
+   "date": "2026-10-14T14:09:06Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/kWeIUBxcdy4"
+   },
+   "failed": [
+    "Instagram",
+    "Facebook"
+   ],
+   "errors": {
+    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'ACXCtmKIi-8ptHuK8PthCJT'}",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A74cma3EBI66cRqRhhU4qFk'}"
    }
   }
  ]
