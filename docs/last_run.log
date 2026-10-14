@@ -1,3 +1,7 @@
+=== run 2026-10-14T01:07:56Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-14T00:16:10Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://www.livemint.com/market/oncehot-ai-trade-leaves-korean-stocks-struggling
   Groq GPT-OSS: PASS - All claims (market value $4.3 trillion and investors losing interest) are directly stated in the Mint article.
   Groq GPT-OSS 20B: FAIL - The claim that both foreign and local investors are losing interest is not explicitly supported by the cited Mint article.
   -> blocked by fact-check
----
-🇮🇳 INDIA-US TRADE PACT TO BE FINALISED
-
-📌 India and the US are updating their trade agreement due to recent global shifts.
