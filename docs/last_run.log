@@ -1,3 +1,68 @@
+=== run 2026-10-14T17:01:27Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+38/171 sources returned news, 331 recent items
+151 new trusted stories, posting up to 3 this run
+skip (off-topic or nothing new): Ahead of Market: 10 things that will decide stock market action on Thursday
+---
+🇮🇳 SILVER FUTURES PLUNGE 4%
+
+📌 Silver prices dropped sharply on the MCX due to rising oil and a stronger dollar.
+📊 Silver: -4%
+#Silver
+
+📍 India · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/commodities/silver-futures-plunge-4-on-mcx-ahead-of-us-cpi-rising-oil-adds-pressure/articleshow/134946048.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about a 4% drop on MCX, caused by rising oil and a stronger dollar, are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the 4% drop, the reasons (rising oil, stronger dollar, US CPI caution), the exchange (MCX), and the source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-89fd4dae8ae3
+skip (off-topic or nothing new): Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma
+---
+🇺🇸 BITCOIN FALLS BELOW $82,000
+
+📌 Bitcoin drops below $82,000 after inflation data beats forecasts.
+📊 $BTC: $82,000
+💡 Higher inflation can lead to higher interest rates (the cost of borrowing money).
+#Crypto
+
+📍 US · 📰 The Block
+https://www.theblock.co/news/markets/2026-10-14-bitcoin-falls-below-82000-core-inflation-fed-rate-hike-418582
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post lists $BTC at $82,000, but the source says Bitcoin fell below $82,000.
+  -> blocked by fact-check
+---
+🇺🇸 SEC COMMITTEE TO DISCUSS IPO RULES
+
+📌 The SEC small business committee is meeting on Oct 27, 2026, to discuss IPO rules.
+#SEC
+
+📍 US · 📰 Press Releases · 🏛️ Official
+https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-business-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the SEC press release.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source.
+  Groq Qwen: PASS - The post accurately reflects the source details regarding the committee name, meeting date, topic, and location.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-05c74ce532fc
+---
+🇺🇸 US INFLATION RISES BEFORE MIDTERMS
+
+📌 US inflation increased ahead of midterm elections, causing uncertainty in the market.
+💡 Higher rates usually make loans costlier
+#Fed
+
+📍 US · 📰 Al Jazeera
+https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears?traffic_source=rss
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Al Jazeera article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Al Jazeera article and the general explanation is accurate.
+  Groq Qwen: PASS - All factual claims regarding US inflation rising before midterms, market uncertainty, and the source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-640068b3ccf5
+done: 3 post(s) this run
 === run 2026-10-14T16:11:42Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 5
@@ -1433,68 +1498,3 @@ https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNl9UZUZ5T3Q0Z251eDlmZ09mZnl
 published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-3125c862d835
 done: 1 post(s) this run
-=== run 2026-10-11T14:34:38Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
---- special
-📊 Tweets give you the headline. YouTube gives you the why.
-
-Subscribe to FinanceHubW for daily market explainers 👇
-https://www.youtube.com/@FinanceHubW
-published to: website, Instagram Story
-79/171 sources returned news, 598 recent items
-re-check of earlier post: 3 fail / 2 pass
-147 new trusted stories, posting up to 1 this run
-skip (off-topic or nothing new): Middle East war, high debt levels to dominate IMF-World Bank meetings in Bangkok
-skip (off-topic or nothing new): Why ’Net Stocks’ are down sharply this year despite Nasdaq’s gains
-skip (off-topic or nothing new): ESMA clarifies access for EU market participants to the services of third-country CSDs
-skip (off-topic or nothing new): ESMA sets 2027 priorities for stronger, simpler and more integrated EU capital markets
-skip (off-topic or nothing new): Upcoming changes to the Euribor Panel
-skip (off-topic or nothing new): ESMA sets new supervisory priority on digital innovation from 2027
----
-🇪🇺 EU WARNS OF NEW FINANCIAL RISKS
-
-📌 Regulators flagged heavy reliance on outside tech and private credit as top risks.
-#Finance
-
-📍 Europe · 📰 ESMA · 🏛️ Official
-https://www.esma.europa.eu/press-news/esma-news/esas-call-vigilance-over-external-dependencies-cyber-threats-and-private
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about regulators flagging external tech reliance and private credit as top risks are directly supported by the ESMA source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
-  Groq Qwen: PASS - The post accurately reflects the source's identification of external dependencies and private credit as key vulnerabilities by the ESAs, with correct attribution and location.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-fdb8b9baa6c0
-done: 2 post(s) this run
-=== run 2026-10-11T14:28:09Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-78/171 sources returned news, 603 recent items
-155 new trusted stories, posting up to 3 this run
-skip (off-topic or nothing new): The stock market this week (October 12–16): Big bank earnings, September CPI, and retail sales to test record rally
-skip (off-topic or nothing new): Should investors buy or sell gold and silver this Navratri week? Commodity Outlook for precious metal traders
-skip (off-topic or nothing new): The Week Ahead: Inflation Data, Q2 Earnings, IPOs, US CPI In Focus
----
-🇺🇸 US STOCKS HOVER NEAR RECORD HIGHS
-
-📌 The S&P 500 stays close to record levels as banks report earnings and CPI (consumer price index, a measure of inflation) data arrives.
-📊 S&P 500: Near records
-#Stocks
-
-📍 US · 📰 All News · ✅ 2 sources
-https://www.investing.com/news/economy-news/bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records-4942657
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about the S&P 500 hovering near record levels and the context of bank earnings and CPI are directly supported by the cited article.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the S&P 500's position, upcoming bank earnings, and CPI data are directly supported by the source headlines, and the location and source attribution are correct.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All factual claims in the post are directly supported by the sources, including the S&P 500 hovering near records, bank earnings, and CPI data arrival.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f23c5d48d960
----
-🇮🇳 STARLINK PLANS LOW PRICE IN INDIA
-
-📌 Elon Musk says Starlink will offer cheap internet in India to compete with Jio.
-📊 Jio IPO: $106B
-💡 Lower prices for buyers usually mean more choices and savings.
-
