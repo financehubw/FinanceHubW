@@ -1,3 +1,7 @@
+=== run 2026-10-14T07:13:18Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-14T06:22:04Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdkFnODROd05YMVE3NFhJWkh6cWs
   GitHub Phi: SKIP - unavailable (RuntimeError)
   Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
   GitHub Mistral: SKIP - unavailable (RuntimeError)
-  OpenRouter: SKIP - unavailable (RuntimeError)
-  -> posted https://x.com/FinanceHubW/status/web-c6b26f778c5d
-skip (off-topic or nothing new): DOJ Probes TV Networks Over White House Coverage Decisions
-skip (off-topic or nothing new): Fading Aroma of Black Cardamom: A $480 million market may bloom while India's 'black gold' wilts
