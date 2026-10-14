@@ -1,3 +1,116 @@
+=== run 2026-10-14T16:11:42Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 5
+105/171 sources returned news, 1193 recent items
+282 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US INFLATION RISES 3.7%
+
+📌 US consumer prices grew 3.7% over the year in September, driven by higher gas prices.
+📊 US Inflation: 3.7% YoY
+💡 Higher inflation can lead to higher interest rates.
+#Fed
+
+📍 US · 📰 Economic Times · ✅ 11 sources
+https://economictimes.indiatimes.com/markets/us-stocks/news/gold-drops-over-1-as-hot-us-inflation-data-boosts-fed-hike-bets/articleshow/134944020.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 11 sources" but the provided source list contains fewer than 11 distinct sources
+  -> blocked by fact-check
+---
+🇺🇸 US STOCKS FALL AS INFLATION WORSENS
+
+📌 US stocks dropped from record highs as inflation (rising prices) got worse.
+📊 Nasdaq: -1%
+💡 Higher inflation often leads to higher interest rates.
+#StockMarket
+
+📍 US · 📰 Economic Times · ✅ 11 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-war-hormuz-deal-brent-crude-oil-fed-rate-yield-inflation-data-bank-earnings-blackrock-bank-of-america-alphabet-micron-inflation-dataai-chip-stock-price-news-14th-october-2026/liveblog/134942729.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post states Nasdaq fell exactly -1%, but the source only says it fell over 1%.
+  -> blocked by fact-check
+---
+🇺🇸 US INFLATION RISES TO 3.7%
+
+📌 US consumer prices rose faster than expected in September, hitting 3.7%.
+📊 CPI: 3.7%
+📊 $BTC: Falls
+💡 Higher rates usually make loans costlier
+#Fed
+
+📍 US · 📰 The Straits Times World News · ✅ 11 sources
+https://www.straitstimes.com/business/us-consumer-prices-accelerate-in-september-on-costlier-petrol-core-cpi-firmer
+  written by Gemini
+  Groq GPT-OSS: PASS - All numeric, date, and directional claims are directly supported by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 11 sources, but only six are listed, so that factual claim is unsupported.
+  -> blocked by fact-check
+---
+🇺🇸 US INFLATION RISES TO 3.7%
+
+📌 US consumer inflation rose to 3.7% in September due to higher gasoline prices.
+📊 US Inflation: 3.7%
+💡 Higher inflation usually reduces the purchasing power of money.
+#Fed
+
+📍 US · 📰 The Times of India · ✅ 3 sources
+https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUm9TTmk5bW1JdWVKNXNGeXdXQlAzOEdYcDAtQ1dEZ0RPWTVuUXNjSVJzN3p0SDVCQlRBdng1WmR6OERBRWtwLWFWQnc2Q1dLYk9GQjh1TW1SUldYT1JrOGF0WTRQNWdMS0c0WUp4Q1E1TlplTElWbkpNaWJGWkdTTE5vdEtvd1YzbzBlQ2I2cFk5bTNoWDZ1NFphRWdncGQ0M1JaZEkxNzlzUHVfbW4wQ3pjR0pNc2dFaVV6THZ3cjE2MV9oZnJRLTFkdEhCZzE1MkNqTVVXQ0YyLUNtUDZFVkNJUFBjMFlZbjJYVUJ1WDRHTUhCdGfSAfsBQVVfeXFMUHVTODJlWG9Ocm1PaV9Vc1BaOUhGM3VBaDVURGp5MkY1N1FHQUVIX1dWMDNWUHd0c3kzRXRVSUVFN0Rub2htdW5COXlDM2REVEZIQzBxYlo5Mk5obU40OEhqRjhmRUYyazRKV2tCV1pWT2VmdkJ5cXM2Vm83Q25mR2Q2YzNEODZSUHBPY0VrVDJTbDFhWnJfQm81TDVETU5xaC1iTU0tSVFrOWRUeV9xQ3JJQTd6dkIwWTllT3I1bnMxV0lXMGZER0xTRGVMRWhLVWVwSFYwX0V5a2dsX204M0lXNGRQTHNfbzdsZllQY3pXZnY0V0hqQ3VfNVk?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly backed by the Times of India and Sunday Guardian articles, and the general explanation is correct.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
+  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-lightning:free returned an empty reply)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-78771a1dff98
+---
+🇺🇸 BITCOIN FALLS BELOW $83,000
+
+📌 Bitcoin's price dropped after US inflation (rising prices) data came out.
+📊 $BTC: Below $83K
+💡 Higher inflation can lead to higher interest rates.
+#Crypto
+
+📍 US · 📰 Cointelegraph.com News · ✅ 3 sources
+https://cointelegraph.com/markets/bitcoin-price-dips-yields-surge-as-high-oil-prices-spike-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the listed sources
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: FAIL - The draft claims Bitcoin fell below $83,000, but the primary source (Cointelegraph) explicitly states it fell below $82,000, making the draft's figure inaccurate or unsupported by the specific source 
+  -> blocked by fact-check
+---
+🇺🇸 US INFLATION RISES TO 3.7%
+
+📌 US annual inflation increased to 3.7% in September, driven by higher fuel costs.
+📊 US Inflation: 3.7%
+💡 Higher inflation usually reduces the purchasing power of money.
+#Inflation
+
+📍 US · 📰 BBC News · ✅ 6 sources
+https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about 3.7% inflation in September and fuel‑cost driver are directly supported by the BBC source, and the general explanation is correct.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited BBC source and the general statement about inflation is accurate.
+  Groq Qwen: PASS - All factual claims regarding the 3.7% inflation rate, September timeframe, and fuel cost drivers are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-cc81b7ed3797
+---
+🇺🇸 WALL STREET FALLS ON INFLATION DATA
+
+📌 US stock markets dropped after inflation data came in higher than expected.
+💡 Higher rates usually make loans costlier.
+#Fed
+
+📍 US · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-lower-after-hot-cpi-data-fuels-rate-hike-bets/articleshow/134944281.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Wall Street falling on higher‑than‑expected inflation data and the general effect of higher rates are directly supported by the cited sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the market drop, the cause (hot CPI data), and the source attribution are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-lightning:free returned an empty reply)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-db8d6cf2ce51
+done: 3 post(s) this run
 === run 2026-10-14T15:02:16Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1385,116 +1498,3 @@ published to: website, Instagram Story
 📊 Jio IPO: $106B
 💡 Lower prices for buyers usually mean more choices and savings.
 
-📍 India · 📰 Outlook Business · ✅ 5 sources
-https://news.google.com/rss/articles/CBMivwFBVV95cUxQS2tzSS1Bek1uR052ckwxenlpcms1MXZhdDJNWmlUSnQzcWZpbUtFNmNlNXk2UnZSUFlHdUdTdE01ckh3RUh5SVR1WWdCU0swbUk1US1mdGNVcGtoM3IyVWNISjNVMkp3T1R2eDRMU21PUVRFR1NWQjhHLUNXbTV0YXVmakMtejVJVVpTblo0cHlUQWNoRThqdEk5dVdzRDctcmlnSWJUSW11eHNGcy1MWm1KaWVqMmlGVFlHSHNNZ9IBzAFBVV95cUxPN192SFBHQ3VIMTlYckNpSHNFdW9rVHFKRGNGaTlTV2g5NjZTaXVhdkZQVTdfYlFaYkRfRVJTNDNhOEg2RnBFclNyLTl6bnd5X09wNV9qZ085aFlOYUV4d3czUFB4eUZTZmNHRjY3UTVDZzFXTEZxLXBJYUxSbXp1ZTFPbGcySTI5TG12bk1HZ202VmVsLVVnUXBLbmwtT1h1TXRwRVUxYmRja2lHeXVqM0Q1cDgxYUZtVmVFTzZlVUx6amhIVmZ3aGxPUmk?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the listed sources.
-  Groq GPT-OSS 20B: FAIL - The post claims 5 sources, but 6 sources are listed.
-  -> blocked by fact-check
----
-🇺🇸 XRP ETFS EXTEND STREAK AS OTHERS SHED CASH
-
-📌 XRP funds grew for 13 straight weeks while Bitcoin, Ethereum and Solana lost $1.25 billion.
-📊 $BTC outflows: $681.1M
-📊 $ETH outflows: $542.07M
-#Crypto
-
-📍 US · 📰 CryptoSlate · ✅ 2 sources
-https://cryptoslate.com/bitcoin-ethereum-and-solana-etfs-lose-1-25-billion-as-xrp-extends-13-week-inflow-streak/
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the CryptoSlate source
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: PASS - All factual claims regarding the 13-week streak, specific outflow amounts for BTC and ETH, and the combined $1.25 billion loss are directly supported by the CryptoSlate source.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All numbers, timeframes, and outflow figures match the provided source exactly.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-adad4ad308c3
-skip (off-topic or nothing new): Why Does Ethereum Fall Harder Than Bitcoin?
-skip (off-topic or nothing new): DBS, OCBC, UOB face rate hike reality check
-skip (off-topic or nothing new): We’re about to get a huge read on whether earnings can keep propping up the stock market
-skip (off-topic or nothing new): AI’s quiet safety gatekeepers are stepping into the spotlight
-skip (off-topic or nothing new): Prediction: Meta Platforms Stock Will Drop After Earnings, and That Could Be an Incredible Buying Opportunity
----
-🇮🇳 GOLD AND SILVER TO TRADE IN TIGHT RANGE
-
-📌 Gold and silver prices are expected to stay in a narrow range this week.
-💡 A weaker local currency helps keep local prices supported.
-#Gold
-
-📍 India · 📰 NDTV Profit
-https://news.google.com/rss/articles/CBMivAFBVV95cUxPYnBMdXFYNlQyYTZtSE9ZMEZQUlU2X1ZXLW1QRi15bzhkb2FCaDJvOGJUS3QxY255b09EWjNDQlZkNXo3YWtRMjk2czhZT25PTEY5TFMwY1dzZWRaNV9qU0lveXVJRHZXMHBNMVMxVkk5SzdmQU5RcFpiOWc0TDRPOGUwRzFEZzY4N3hjbzdyWmZfWk94bVZzdG85b1VTWVhGUDNrR2FVbmJwdzVzN2VmdTJVUmZ2UnhjZlppT9IBxAFBVV95cUxQME5IdEJFanpfeE1QV1VuNWdRSVQ1cG1MZlZmQ0JUUGUwU0pFWWduQlh3RDBRNGRkbHVqQmpaN29ud25rQWtRVjVMX0htOW5xdThxMnlmQ0VNOVhlV3NMTzZYMXdsWVpNNUd1UnQyRlEwVEJHN0FCVlNqQVNETy14VEt1T25PLXMtcmRXNUxtUGZqUWJKekRSLVk1Y2ZBMDhGQllNSlhMdWtudVo1X2R4SDVkVEFad1JSSEpTcXdfYUZydnhF?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about range-bound gold/silver and rupee weakness are directly supported by the NDTV Profit article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the NDTV Profit article.
-  Groq Qwen: PASS - The post accurately reflects the source headline regarding range-bound trading for gold and silver in India, supported by rupee weakness, with correct location and source attribution.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-168954cea20f
-done: 3 post(s) this run
-=== run 2026-10-11T14:06:22Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T13:40:28Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T13:08:40Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T12:47:14Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T12:07:42Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T11:40:02Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T11:05:49Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T10:40:55Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T10:06:20Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T09:41:50Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T09:06:27Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T08:42:15Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T08:07:09Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T07:41:02Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T07:08:29Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T06:47:31Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T06:08:33Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Groq Kimi, Groq Llama, GitHub GPT, GitHub Llama, GitHub DeepSeek, GitHub Grok, GitHub Cohere, GitHub Phi, Gemma, GitHub Mistral, OpenRouter
-daily cap: 3, room left in the last 24h: 0
-daily cap reached, nothing to do this run
