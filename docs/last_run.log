@@ -1,3 +1,7 @@
+=== run 2026-10-14T08:00:21Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-14T07:13:18Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdkFnODROd05YMVE3NFhJWkh6cWs
   GitHub Llama: SKIP - unavailable (RuntimeError)
   GitHub DeepSeek: SKIP - unavailable (RuntimeError)
   GitHub Grok: SKIP - unavailable (RuntimeError)
-  GitHub Cohere: SKIP - unavailable (RuntimeError)
-  GitHub Phi: SKIP - unavailable (RuntimeError)
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  GitHub Mistral: SKIP - unavailable (RuntimeError)
