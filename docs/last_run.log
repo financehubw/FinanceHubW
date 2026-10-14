@@ -1,3 +1,99 @@
+=== run 2026-10-14T17:30:37Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+101/171 sources returned news, 1086 recent items
+re-check of earlier post: 0 fail / 5 pass
+252 new trusted stories, posting up to 3 this run
+skip (off-topic or nothing new): Container ship hit by projectile sinks in Strait of Hormuz, Singapore says
+---
+🇺🇸 BERKSHIRE HATHAWAY INVESTS $330M IN BENDING SPOONS
+
+📌 Berkshire Hathaway invested $330 million in tech firm Bending Spoons.
+📊 $BSP: Up to +45%
+📊 Investment: $330M
+#Stocks
+
+📍 US · 📰 International: Top News And Analysis · ✅ 4 sources
+https://www.cnbc.com/2026/10/14/berkshire-hathaway-investment-bending-spoons.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, company name, investment amount, stock rise figure, and location are directly backed by the cited sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: FAIL - The post claims the stock is up +45%, but the primary sources (International and US Top News) report a 35% surge, and the 45% figure is only from a single source (Benzinga) while other sources cite 35
+  -> blocked by fact-check
+---
+🇮🇳 JIO SETS IPO PRICE BAND UP TO RS 1,119
+
+📌 Jio Platforms set its share price band for an IPO (initial public offering [selling shares to the public]) up to Rs 1,119.
+📊 Price: Rs 1,065-1,119
+
+📍 India · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/ipos/fpos/jio-announces-price-band-for-over-rs-30000-crore-ipo-check-key-dates-gmp-and-other-details/articleshow/134945465.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All stated facts (price band range, upper limit, source, and location) are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All factual claims in the post are directly supported by the cited Economic Times sources.
+  Groq Qwen: PASS - All factual claims regarding the price band (Rs 1,065-1,119), entity (Jio Platforms), location (India), and source (Economic Times) are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-ff752e9fcffd
+---
+🇺🇸 US INFLATION RISES TO 3.7%
+
+📌 US annual price increases went up to 3.7% in September from 3.4% in August.
+📊 Inflation: 3.7%
+💡 Higher inflation usually means everyday goods and services cost more.
+#Fed
+
+📍 US · 📰 The Guardian · ✅ 2 sources
+https://www.theguardian.com/business/2026/oct/14/inflation-numbers-september
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and contextual claims are directly confirmed by the Guardian and Vietnam.vn articles.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the provided sources.
+  Groq Qwen: PASS - All factual claims regarding the inflation rate (3.7% in September, up from 3.4% in August), the location (US), and the source attribution (The Guardian) are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-fe8ea2158631
+skip (off-topic or nothing new): Hex and PulseChain founder Richard Heart detained in Istanbul: reports
+---
+🇮🇳 JIO SETS INDIA'S BIGGEST IPO
+
+📌 Jio Platforms set its IPO (initial public offering, the first sale of company shares to the public) price at ₹1,065 to ₹1,119 per share.
+📊 IPO size: ₹30,213 crore
+#IPO
+
+📍 India · 📰 Mint · ✅ 12 sources
+https://www.livemint.com/market/stock-market-news/jio-platforms-ipo-price-band-fixed-at-rs-1-065-rs-1-119-per-share-minimum-bid-lot-set-at-12-shares-11791992365457.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (price band, IPO size, claim of being India's largest IPO) are directly supported by the cited Mint article.
+  Groq GPT-OSS 20B: FAIL - The post claims 12 sources and that the IPO is definitively India's biggest, neither of which is directly supported by the cited Mint article.
+  -> blocked by fact-check
+---
+🇬🇧 FTSE 100 CLOSES HIGHER
+
+📌 The UK stock market closed higher even with high US inflation news.
+📊 FTSE 100: +0.72%
+#FTSE
+
+📍 UK · 📰 24/7 Wall St. · ✅ 4 sources
+https://news.google.com/rss/articles/CBMiywFBVV95cUxOU1dIaWg0SnFSNEI5alBxZ2IxaUhTcklJaWRycUZKMExCMjh5ZXNpcXNvQXppUC1tNWZVcXBTNWItTWVGMlVLSXo5TFlOZHhYWVBlN05IWmxNc3pEUHh5VFpTaVZVTkMzSjhlZ2ZLMWVheHduN0NhWUoxVFNleXlwQU5IQmVKZm9aMmVnRTBsRGxPanZqOHEwNDNLckVBX04wS2VteGRONDYxeHVab1R1cWJFYTJadDVhcU9FSE05d1lxcHRObklOa0FYSQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - One cited source (24/7 Wall St.) reports the FTSE 100 closed lower, contradicting the claim it closed higher
+  -> blocked by fact-check
+skip (off-topic or nothing new): Nasdaq Composite Falls 0.59% to 27,044.49 as Chip Stocks Extend Losses; Dow and S&P 500 Open Lower
+---
+🇺🇸 STOCKS FALL AFTER INFLATION RISES
+
+📌 US stock indexes dropped as inflation (rising prices) hit 3.7%.
+📊 Nasdaq 100: -1%
+💡 Higher inflation can keep borrowing costs high for everyone.
+#StockMarket
+
+📍 US · 📰 TradingView · ✅ 3 sources
+https://news.google.com/rss/articles/CBMixAFBVV95cUxOWXpnU2xxSTZ6bVVQRTUxR1VFQi1YaGJpa2JyUWRSWGR6WW5panRtWjRudXJjZk9sZXVGWDJaSFladGd5a3Z4T0pkUC00VVdZc3pmQmtwMkJ5eEJFZm9QdFl2dlpsMDVwR0VHTXVhS1A4ajlMbnNoTGVqZXhFOVc1THpCcTRJVlNuMDViTjR3M2JUc1dZRzctWEV3ZTllOWpkMjRKTzh3djJ0aXpFNF9RX0paWFFnVHd6c1JOaW9ZZWwycHI1?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: PASS - All factual claims regarding the stock market drop, the 3.7% inflation rate, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-24693c20f05f
+done: 3 post(s) this run
 === run 2026-10-14T17:01:27Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1402,99 +1498,3 @@ models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, Open
 daily cap: 12, room left in the last 24h: 1
 81/171 sources returned news, 582 recent items
 122 new trusted stories, posting up to 1 this run
-skip (off-topic or nothing new): Ukraine's Zelenskiy tells ABC he will organize elections if Russia agrees to 60-day ceasefire
----
-🇺🇸 S&P 500 PROFITS SEEN UP 31% IN Q3
-
-📌 Tech and AI companies are expected to drive two-thirds of earnings growth.
-📊 Growth: +31%
-💡 Strong corporate earnings often support overall stock market health.
-#Tech
-
-📍 US · 📰 Yahoo Finance UK · ✅ 2 sources
-https://news.google.com/rss/articles/CBMiiAFBVV95cUxQclpHY3R5aFlRS2Y1bjlwMURtZGhyY2RraTBSWVdmbkFQRjVSUWxLTW9GSnBfNkMzbndfMDNLTUtYTkRDeHBia1JtMTNzaFIyVlFnVEpja0dMVmZyZDVMUWZnQmhSc1NuTXdtNGZOdThzMnYtNWMtQkNkSXRhNVJ1TVVyZ01CdkRj?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited Yahoo Finance UK sources.
-  Groq GPT-OSS 20B: FAIL - The post incorrectly states 'profits' instead of 'earnings'.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Bond Volatility Is Lifting S&P Global Stock Into Focus
----
-🇮🇳 OLA ELECTRIC PLANS ₹1,000 CR SHARE SALE
-
-📌 Ola Electric will offer up to 37.03 crore new shares at ₹27 each to raise funds.
-📊 ₹1,000 crore
-💡 Issuing new shares can reduce the value of existing shares.
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/stock-market-news/ola-electric-rs-1k-cr-rights-issue-check-dates-per-share-price-face-value-premium-record-date-ratio-details-11791723054877.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and factual statements are directly supported by the Mint source.
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: PASS - All factual claims regarding the amount, share count, price, and source attribution are directly supported by the provided text.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All numerical and entity details align with the Mint source, and the general dilution explanation is a standard, non‑predictive fact.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-44cac3fbf676
-done: 1 post(s) this run
-=== run 2026-10-11T15:06:54Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-29/171 sources returned news, 187 recent items
-82 new trusted stories, posting up to 2 this run
-skip (off-topic or nothing new): Strong compliance functions support trusted corporate finance markets
----
-🇬🇧 NEW RULES FOR LONG-TERM FUNDS
-
-📌 Investors must now give 90 days' notice to access money in long-term funds like property.
-💡 Longer notice periods help protect funds during stressful market times.
-#Investing
-
-📍 UK · 📰 FCA · 🏛️ Official
-https://www.fca.org.uk/news/press-releases/new-rules-make-long-term-investment-funds-clearer
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the 90‑day notice rule and its purpose are directly supported by the FCA source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the FCA source.
-  Groq Qwen: PASS - All factual claims regarding the 90-day notice period, the entity (FCA), the location (UK), and the source are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-9c2f6e950141
-skip (off-topic or nothing new): Looking at how we interact with whistleblowers
-skip (off-topic or nothing new): Reforming UK capital markets to ensure they work well for our economy
-skip (off-topic or nothing new): Firms’ confidence, satisfaction and trust in the FCA rise
-skip (off-topic or nothing new): FCA secures bankruptcy order against Arthur Temlett
----
-🇬🇧 INTERESTME FINANCIAL FIRMS ENTER ADMINISTRATION
-
-📌 Two UK financial planning and advice firms entered administration on 24 Sept 2026.
-💡 Insolvency (when a firm cannot pay debts) can freeze client services and funds.
-
-📍 UK · 📰 FCA · 🏛️ Official
-https://www.fca.org.uk/news/news-stories/imfp-appointed-representative-ima-enter-administration
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the FCA source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the FCA source.
-  Groq Qwen: PASS - All factual claims regarding the firms, date, location, and source are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-c1b80115e50e
-done: 2 post(s) this run
-=== run 2026-10-11T14:51:47Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 4
-78/171 sources returned news, 593 recent items
-137 new trusted stories, posting up to 1 this run
----
-🌐 POKEMON CARDS BEAT BITCOIN
-
-📌 Rare Pokémon cards returned 150 percent, beating Bitcoin, gold, and stocks.
-📊 Returns: 150%
-💡 Alternative collectibles can sometimes gain more value than traditional assets.
-#Crypto
-
-📍 Global · 📰 KuCoin · ✅ 2 sources
-https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNl9UZUZ5T3Q0Z251eDlmZ09mZnlMcTdvTzh6LWZVSEUycTFkeUE1MGJsVFE4RnVkclpsUWk2MmJUZDJ5bEItNk1NVXVqVm9lcWhlbHU3VVVBMlZPLWFFOGtISkFYYk5ZYTFpZnpjLThVM0dlOEFrTE01LWxMZjRyWWVza1FaRlR6UWpsNmIyZ29TOC1EV2M5cXFacktSeEM5Ty16aFo5SFk?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited KuCoin and CryptoRank sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the 150% return and outperformance of Bitcoin, gold, and stocks are directly supported by the provided sources, and the location and source attribution are accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-3125c862d835
-done: 1 post(s) this run
