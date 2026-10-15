@@ -110,41 +110,6 @@
    "thumb_tag": "HISTORY"
   },
   {
-   "file": "hundred_a_month.mp4",
-   "title": "$100 a month could become $228,000",
-   "caption": "$100 a month, invested at an assumed 10% a year for 30 years.\nYou put in $36,000. It could be worth about $228,000.\nStart small. Start now. (Returns are not guaranteed.)",
-   "tags": [
-    "#compoundinterest",
-    "#personalfinance",
-    "#money",
-    "#investing",
-    "#financetips"
-   ],
-   "ai_voice": true,
-   "comment": "Could you set aside $100 a month? What would you cut? 👇",
-   "thumb": "$100 a month = *$228,000*",
-   "thumb_photo": "piggy bank coins",
-   "thumb_tag": "SAVING"
-  },
-  {
-   "file": "m2_rule_of_72.mp4",
-   "title": "The Rule of 72 in 15 seconds",
-   "caption": "Divide 72 by your yearly return to see how fast money doubles.\nAt 8%, $10,000 doubles about every 9 years: $20k, $40k, $80k, $160k by year 36.",
-   "tags": [
-    "#ruleof72",
-    "#investing",
-    "#compoundinterest",
-    "#money",
-    "#personalfinance",
-    "#financetips"
-   ],
-   "ai_voice": false,
-   "comment": "Did you know the Rule of 72 before this? 👇",
-   "thumb": "The Rule of *72*",
-   "thumb_photo": "calculator money",
-   "thumb_tag": "MONEY MATH"
-  },
-  {
    "file": "credit_card_20_years.mp4",
    "title": "The $5,000 debt that lasts 20 years",
    "caption": "$5,000 on a card at 24% APR, paying only the minimum (interest plus 1% of the balance, $25 floor).\nIt takes about 19.5 years to clear, and you pay back nearly $14,000.\nPay more than the minimum, every month. Terms vary by card.",
@@ -181,21 +146,38 @@
    "thumb_tag": "WEALTH"
   },
   {
-   "file": "m3_100_shrinking.mp4",
-   "title": "What 3% inflation does to $100",
-   "caption": "At 3% inflation a year, $100 today buys only about $49 worth of things in 24 years.\nCash that sits still loses value.",
+   "file": "hundred_a_month.mp4",
+   "title": "$100 a month could become $228,000",
+   "caption": "$100 a month, invested at an assumed 10% a year for 30 years.\nYou put in $36,000. It could be worth about $228,000.\nStart small. Start now. (Returns are not guaranteed.)",
    "tags": [
-    "#inflation",
-    "#money",
-    "#savings",
+    "#compoundinterest",
     "#personalfinance",
-    "#economics",
+    "#money",
+    "#investing",
     "#financetips"
    ],
-   "ai_voice": false,
-   "comment": "What feels most expensive to you this year? 👇",
-   "thumb": "Your $100 is *shrinking*",
-   "thumb_photo": "hundred dollar bill",
+   "ai_voice": true,
+   "comment": "Could you set aside $100 a month? What would you cut? 👇",
+   "thumb": "$100 a month = *$228,000*",
+   "thumb_photo": "piggy bank coins",
+   "thumb_tag": "SAVING"
+  },
+  {
+   "file": "dollar_41_cents.mp4",
+   "title": "Why your dollar will be worth 41 cents",
+   "caption": "At a steady 3% inflation rate, $1 buys only about 41 cents' worth of today's goods after 30 years.\nMoney that sits still loses value.",
+   "tags": [
+    "#inflation",
+    "#savings",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "How do you protect your savings from inflation? 👇",
+   "thumb": "Your dollar = *41 cents*",
+   "thumb_photo": "dollar bills",
    "thumb_tag": "INFLATION"
   },
   {
@@ -215,60 +197,6 @@
    "thumb": "Save 10% = *$860,000*",
    "thumb_photo": "salary money envelope",
    "thumb_tag": "RETIREMENT"
-  },
-  {
-   "file": "dollar_1970.mp4",
-   "title": "The dollar lost 85% since 1970",
-   "caption": "What cost $1 in 1970 cost about $6.67 in 2020, based on the US consumer price index.\nThat's about 85% of the dollar's buying power gone.\nNobody stole it. Inflation took it, a few cents at a time.",
-   "tags": [
-    "#inflation",
-    "#history",
-    "#personalfinance",
-    "#money",
-    "#investing",
-    "#financetips"
-   ],
-   "ai_voice": true,
-   "comment": "What did something cost when you were a kid vs now? 👇",
-   "thumb": "The dollar lost *85%*",
-   "thumb_photo": "vintage dollar",
-   "thumb_tag": "INFLATION"
-  },
-  {
-   "file": "m5_1970_dollar.mp4",
-   "title": "What happened to the 1970 dollar?",
-   "caption": "A dollar from 1970 buys only about 12 cents' worth of things today.\nThat's roughly 88% of its buying power gone (US CPI data).",
-   "tags": [
-    "#inflation",
-    "#history",
-    "#money",
-    "#economics",
-    "#usd",
-    "#personalfinance"
-   ],
-   "ai_voice": false,
-   "comment": "Is cash a good place to keep savings long-term? 👇",
-   "thumb": "What killed the *1970 dollar?*",
-   "thumb_photo": "1970s street",
-   "thumb_tag": "HISTORY"
-  },
-  {
-   "file": "coffee_million.mp4",
-   "title": "Your coffee could cost you nearly $1 million",
-   "caption": "$5 a day is about $152 a month.\nInvested at an assumed 10% a year for 40 years, that's roughly $969,000.\nDon't quit coffee. Just know what your habits really cost.",
-   "tags": [
-    "#savingmoney",
-    "#compoundinterest",
-    "#personalfinance",
-    "#money",
-    "#investing",
-    "#financetips"
-   ],
-   "ai_voice": true,
-   "comment": "Is this worth giving up your daily coffee for? ☕👇",
-   "thumb": "Coffee could cost you *$1 million*",
-   "thumb_photo": "latte coffee",
-   "thumb_tag": "COMPOUNDING"
   },
   {
    "file": "doubling_17x.mp4",
@@ -307,24 +235,6 @@
    "thumb_tag": "COMPOUNDING"
   },
   {
-   "file": "dollar_41_cents.mp4",
-   "title": "Why your dollar will be worth 41 cents",
-   "caption": "At a steady 3% inflation rate, $1 buys only about 41 cents' worth of today's goods after 30 years.\nMoney that sits still loses value.",
-   "tags": [
-    "#inflation",
-    "#savings",
-    "#personalfinance",
-    "#money",
-    "#investing",
-    "#financetips"
-   ],
-   "ai_voice": true,
-   "comment": "How do you protect your savings from inflation? 👇",
-   "thumb": "Your dollar = *41 cents*",
-   "thumb_photo": "dollar bills",
-   "thumb_tag": "INFLATION"
-  },
-  {
    "file": "rule_of_72_global.mp4",
    "title": "The one-second trick that tells you when your money doubles",
    "caption": "Divide 72 by your yearly return.\nSavings at 2%: about 36 years. Bonds at 6%: about 12 years. Stocks at an assumed 10%: about 7 years.\nSame money, totally different futures.",
@@ -341,6 +251,96 @@
    "thumb": "When does your money *double?*",
    "thumb_photo": "stock market chart",
    "thumb_tag": "MONEY MATH"
+  },
+  {
+   "file": "dollar_1970.mp4",
+   "title": "The dollar lost 85% since 1970",
+   "caption": "What cost $1 in 1970 cost about $6.67 in 2020, based on the US consumer price index.\nThat's about 85% of the dollar's buying power gone.\nNobody stole it. Inflation took it, a few cents at a time.",
+   "tags": [
+    "#inflation",
+    "#history",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "What did something cost when you were a kid vs now? 👇",
+   "thumb": "The dollar lost *85%*",
+   "thumb_photo": "vintage dollar",
+   "thumb_tag": "INFLATION"
+  },
+  {
+   "file": "coffee_million.mp4",
+   "title": "Your coffee could cost you nearly $1 million",
+   "caption": "$5 a day is about $152 a month.\nInvested at an assumed 10% a year for 40 years, that's roughly $969,000.\nDon't quit coffee. Just know what your habits really cost.",
+   "tags": [
+    "#savingmoney",
+    "#compoundinterest",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "Is this worth giving up your daily coffee for? ☕👇",
+   "thumb": "Coffee could cost you *$1 million*",
+   "thumb_photo": "latte coffee",
+   "thumb_tag": "COMPOUNDING"
+  },
+  {
+   "file": "m2_rule_of_72.mp4",
+   "title": "The Rule of 72 in 15 seconds",
+   "caption": "Divide 72 by your yearly return to see how fast money doubles.\nAt 8%, $10,000 doubles about every 9 years: $20k, $40k, $80k, $160k by year 36.",
+   "tags": [
+    "#ruleof72",
+    "#investing",
+    "#compoundinterest",
+    "#money",
+    "#personalfinance",
+    "#financetips"
+   ],
+   "ai_voice": false,
+   "comment": "Did you know the Rule of 72 before this? 👇",
+   "thumb": "The Rule of *72*",
+   "thumb_photo": "calculator money",
+   "thumb_tag": "MONEY MATH"
+  },
+  {
+   "file": "m3_100_shrinking.mp4",
+   "title": "What 3% inflation does to $100",
+   "caption": "At 3% inflation a year, $100 today buys only about $49 worth of things in 24 years.\nCash that sits still loses value.",
+   "tags": [
+    "#inflation",
+    "#money",
+    "#savings",
+    "#personalfinance",
+    "#economics",
+    "#financetips"
+   ],
+   "ai_voice": false,
+   "comment": "What feels most expensive to you this year? 👇",
+   "thumb": "Your $100 is *shrinking*",
+   "thumb_photo": "hundred dollar bill",
+   "thumb_tag": "INFLATION"
+  },
+  {
+   "file": "m5_1970_dollar.mp4",
+   "title": "What happened to the 1970 dollar?",
+   "caption": "A dollar from 1970 buys only about 12 cents' worth of things today.\nThat's roughly 88% of its buying power gone (US CPI data).",
+   "tags": [
+    "#inflation",
+    "#history",
+    "#money",
+    "#economics",
+    "#usd",
+    "#personalfinance"
+   ],
+   "ai_voice": false,
+   "comment": "Is cash a good place to keep savings long-term? 👇",
+   "thumb": "What killed the *1970 dollar?*",
+   "thumb_photo": "1970s street",
+   "thumb_tag": "HISTORY"
   }
  ]
 }
