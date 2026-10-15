@@ -8,7 +8,10 @@ log = json.loads((ROOT / "social/posted.json").read_text())["posted"]
 ids = {e["results"]["YouTube"].rsplit("/", 1)[-1]: e for e in log if "YouTube" in e["results"]}
 yt = build("youtube", "v3", cache_discovery=False, credentials=Credentials.from_authorized_user_info(json.loads(os.environ["YT_TOKEN_JSON"])))
 out = []
-r = yt.videos().list(part="statistics,contentDetails,snippet", id=",".join(ids)).execute()
+try:
+    r = yt.videos().list(part="statistics,contentDetails,snippet", id=",".join(ids)).execute()
+except Exception as e:
+    (ROOT / "docs/yt_stats.json").write_text(json.dumps({"error": str(e)[:400]})); raise SystemExit(0)
 for v in r.get("items", []):
     s = v["statistics"]
     out.append({"file": ids[v["id"]]["file"], "posted": ids[v["id"]]["date"], "title": v["snippet"]["title"],
