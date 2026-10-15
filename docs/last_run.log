@@ -1,3 +1,7 @@
+=== run 2026-10-15T11:56:55Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-15T11:25:06Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ re-check of earlier post: 1 fail / 3 pass
 📍 India · 📰 Economic Times · ✅ 4 sources
 https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/134880075.cms
   written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited Economic Times article and related sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times source and the general explanation is accurate.
-  Groq Qwen: PASS - All factual claims regarding the GIFT Nifty signal, the 1.3% Nifty gain, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
