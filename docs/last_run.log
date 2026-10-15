@@ -1,3 +1,7 @@
+=== run 2026-10-15T05:56:04Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-15T05:21:15Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-
 #Nifty
 
 📍 India · 📰 Mint · ✅ 4 sources
-https://www.livemint.com/market/indian-shares-set-to-open-higher-as-oil-eases-rbi-moves-to-support-rupee-11791772076373.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (share outlook, oil easing, RBI support, location, source) are directly supported by the Mint article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited article.
