@@ -1,3 +1,37 @@
+=== run 2026-10-15T18:21:32Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+98/171 sources returned news, 1049 recent items
+re-check of earlier post: 1 fail / 3 pass
+236 new trusted stories, posting up to 1 this run
+---
+🇮🇳 SENSEX JUMPS 1,534 POINTS
+
+📌 Indian stock indexes went up because bank, tech, and Reliance shares rallied.
+📊 Sensex: +1,534 pts
+💡 Higher stock prices can boost retirement and investment account values.
+
+📍 India · 📰 TradingView · ✅ 2 sources
+https://news.google.com/rss/articles/CBMitwFBVV95cUxOcERXTDdYY1RLeEZNMU5UenlaVUU2VmRLNXJodUxzZ1FOSU9sdFQ3NTJ6ZUtLM1hKTDNSTFZmSmNSMExRTGdqeTV4ZnVfOUZxTWVmNGNfSVN3aXVidEQ5OXdZczQ2QzRQM3lKYVJOSkRBV0ZGWF9YSUdRWVdCMl9PbkhHd0pvU0QtYlpxa19UZTdhUURoRGhuOU5KMWt4QjE5bHhfNzMzblowYWVseHBsRy1ISFltcTg?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post lists only TradingView as the source but cites two sources, including MillenniumPost, causing a source mismatch
+  -> blocked by fact-check
+---
+🇮🇳 INDIA MIGHT HIKE FUEL PRICES
+
+📌 India could raise fuel prices in November ahead of state elections.
+💡 Higher fuel costs can push up prices of daily goods.
+#Inflation
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/economy/india-may-hike-fuel-prices-in-november-pushing-inflation-above-rbi-target-oxford-economist-11792086552088.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about a possible November fuel price hike before elections are confirmed by the Mint article, and the general explanation is accurate.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint article.
+  Groq Qwen: PASS - All factual claims regarding the potential fuel price hike in November, the timing relative to state elections, and the source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-5e68d2970cc3
+done: 1 post(s) this run
 === run 2026-10-15T17:56:36Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1464,37 +1498,3 @@ published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-f69c092ea086
 done: 2 post(s) this run
 === run 2026-10-12T15:13:07Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 4
-100/171 sources returned news, 1074 recent items
-248 new trusted stories, posting up to 3 this run
-skip (off-topic or nothing new): The Walmart Recession Signal is hinting that a Fed rate cut is near
----
-🌐 BREAKING: NOBEL PRIZE IN ECONOMICS AWARDED
-
-📌 US economists Robert Hall and Michael Woodford won the 2026 economics Nobel prize.
-#Economy
-
-📍 Global · 📰 Al Jazeera · ✅ 8 sources
-https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%e2%81%a0woodford?traffic_source=rss
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited Al Jazeera and other sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the winners, their nationality, the prize year, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-68304c2fe4e4
----
-🇮🇳 RUPEE JUMPS AFTER RBI FOREX RULES
-
-📌 The Indian rupee rose by 96 paise after the central bank announced new foreign exchange rules.
-📊 Rupee: +96 paise
-
-📍 India · 📰 Economic Times · ✅ 4 sources
-https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJKUWJoYU5sZXplc1ZLby1ydHhuQ2RmblRYLW92WGg0TUl3a2o3ZVVhQjVfelJnRldlVnRFSloxSjdrMzIwWnN1a1lmc1dRNmk1SWFZR0pLeXNYRUFiTzRmb2VaM3IxOFB5YmU2U0ZpUm1PT3VPRXptZW1fcHdveUc3NTNyOHVFd0FHZ1Rsc1JEdzdhVXEyRmxOOUE0RUg4N0JZU1BBYkszckxDOGVvWVpZRDhnNmtFaFc3b1U4akdJZ0FKOHNfNHpUbkpmb1FzcU01c0JFaUY1WXZQWElqY29lVzRDX2ZyQnZkY9IB7AFBVV95cUxOUXJKUWJoYU5sZXplc1ZLby1ydHhuQ2RmblRYLW92WGg0TUl3a2o3ZVVhQjVfelJnRldlVnRFSloxSjdrMzIwWnN1a1lmc1dRNmk1SWFZR0pLeXNYRUFiTzRmb2VaM3IxOFB5YmU2U0ZpUm1PT3VPRXptZW1fcHdveUc3NTNyOHVFd0FHZ1Rsc1JEdzdhVXEyRmxOOUE0RUg4N0JZU1BBYkszckxDOGVvWVpZRDhnNmtFaFc3b1U4akdJZ0FKOHNfNHpUbkpmb1FzcU01c0JFaUY1WXZQWElqY29lVzRDX2ZyQnZkYw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (96 paise rise, RBI forex rules, India, Economic Times source) are directly supported by the cited articles.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the rupee's 96-paise rise, the cause (RBI forex rules), the location, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-2a1c93c8b583
----
