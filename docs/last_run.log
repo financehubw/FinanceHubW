@@ -1,3 +1,9 @@
+=== run 2026-10-15T19:06:55Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+96/171 sources returned news, 1007 recent items
+246 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-15T18:21:32Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1492,9 +1498,3 @@ published to: website, Instagram Story
 https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rebounds-nearly-1-after-rbi-moves-to-curb-speculative-trades/articleshow/134896489.cms
   written by Gemini
   Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the currency movement, specific rate, central bank action, and source attribution are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f69c092ea086
-done: 2 post(s) this run
-=== run 2026-10-12T15:13:07Z
