@@ -1,3 +1,9 @@
+=== run 2026-10-15T21:55:57Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+92/171 sources returned news, 853 recent items
+173 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-15T21:22:38Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1492,9 +1498,3 @@ models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, Open
 daily cap: 12, room left in the last 24h: 0
 daily cap reached, nothing to do this run
 === run 2026-10-12T15:46:23Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-38/171 sources returned news, 294 recent items
-127 new trusted stories, posting up to 2 this run
----
-🇮🇳 SENSEX FALLS 548 POINTS
