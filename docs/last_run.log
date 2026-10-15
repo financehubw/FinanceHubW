@@ -1,3 +1,9 @@
+=== run 2026-10-15T20:18:07Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+93/171 sources returned news, 926 recent items
+200 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-15T19:55:19Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1492,9 +1498,3 @@ https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-thin
   Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
   Groq Qwen: PASS - All factual claims regarding the Sensex drop of 548 points, the causes (FII selling, global worries), and the source attribution are directly supported by the provided text.
 published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-b220998d06c0
----
-🇮🇳 RUPEE REBOUNDS ALMOST ONE PERCENT
-
-📌 The rupee gained nearly 1% to 95.77 per dollar after the central bank curbed speculative trades.
-📊 Rupee: 95.77 per dollar
