@@ -1,3 +1,69 @@
+=== run 2026-10-15T17:56:36Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+101/171 sources returned news, 1038 recent items
+233 new trusted stories, posting up to 3 this run
+---
+🇮🇳 SEBI REVISES CLOSING AUCTION AND DERIVATIVES RULES
+
+📌 New closing auction timings and derivatives settlement rules start in December 2026.
+#SEBI
+
+📍 India · 📰 SEBI · 🏛️ Official
+https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-certain-aspects-of-the-closing-auction-session-market-timings-and-settlement-methodology-for-derivatives-contracts_105293.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about SEBI's revised closing auction timings and derivatives settlement rules starting December 2026 are directly supported by the cited SEBI circular and news sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the SEBI circular and related news sources.
+  Groq Qwen: PASS - All factual claims regarding the revision of closing auction and derivatives rules starting in December 2026 are directly supported by the provided sources, and the location and source attribution are
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-06f86e023f7e
+skip (off-topic or nothing new): What Akash Ambani said on Jio tariff hikes ahead of record IPO launch
+skip (off-topic or nothing new): Sebi writes to IRDAI to include investors' insurance policy details in consolidated account statement
+---
+🇮🇳 INDIAN STOCKS SURGE
+
+📌 Sensex and Nifty jumped over 1.5% as money moved away from global tech markets.
+📊 Sensex: +1,534 pts
+📊 Nifty: +1.66%
+#Nifty
+
+📍 India · 📰 NewsBytes · ✅ 4 sources
+https://news.google.com/rss/articles/CBMingFBVV95cUxPUUVZWUltMUpWQ2Q0bWU4YjVrQlZubFBmR3c3d2xiN2hWblRVb09zTVA5YjlJRnF1VXVfWndmWmtsQ3RZX0xEYkNUbVR5SEZnMExQTVp6RmpEZll5OUpHcXBzY1VJODgzazBkVHpMNmoxLTYxR1lwN1JYSWFpVmpxcUdWZFYtay1teUFuLXV1ZlFwWHpyeFVWWTRmWG02UQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and context are directly supported by the cited sources
+  Groq GPT-OSS 20B: FAIL - The post claims it has 4 sources, but the list contains 5.
+  -> blocked by fact-check
+---
+🇺🇸 S&P 500 FACES HARDER ROAD TO 8,000
+
+📌 The S&P 500 index faces hurdles reaching 8,000 as bond yields rise and tech doubts grow.
+📊 S&P 500: 8,000 (target)
+
+📍 US · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/sp-500s-road-to-8000-grows-tougher-as-yields-rise-ai-doubts-mount-all-eyes-on-quarterly-earnings/articleshow/134972502.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about the S&P 500 facing hurdles to 8,000, rising bond yields, and tech doubts are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
+  Groq Qwen: PASS - All factual claims regarding the S&P 500 target, rising yields, and tech/AI doubts are directly supported by the source text, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-313ac1354244
+---
+🌐 GOLD PRICES BOUNCE BACK
+
+📌 Gold prices went up after the US dollar and bond yields dropped.
+📊 Gold: US$4,149/oz (+1.1%)
+
+📍 Global · 📰 The Straits Times World News · ✅ 2 sources
+https://www.straitstimes.com/business/gold-rebounds-on-weaker-dollar-yield-drop
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about gold price, percentage gain, and the link to a weaker dollar and lower yields are directly supported by the cited article.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the price, percentage change, and market drivers are directly supported by the source text.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims, including the gold price increase, percentage change, and reasons related to the US dollar and bond yields, are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-842f84563295
+done: 3 post(s) this run
 === run 2026-10-15T17:00:57Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1432,69 +1498,3 @@ https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJKUWJoYU5sZXplc1ZLby1ydHh
 published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-2a1c93c8b583
 ---
-🇺🇸 US BOND YIELDS SURGE SPARKS HEDGING
-
-📌 A sharp rise in US bond yields triggered mortgage hedging, increasing pressure on the bond market.
-💡 Higher bond yields usually make borrowing costs rise across the economy.
-
-📍 US · 📰 Reuters · ✅ 3 sources
-https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDF3em5PS0NkZ3ZlcnJlQktDOFBTQjlhZmhpYWJ1WHRyRWlyX1dQbTJRd0FqMk52WU1zZGNvVDdJcnNCUFllLUlnUVBPVzREd3VESXpXU1dLWFpZeVQweW1RYUlqRmtfbk1DYVJ2UWt0dDVrcGUtM282UXNyR0IxejBkLWZFdHg0VF9TenZDMUc4bDZldkk0Uk82WVFObDVST2NsWE9wT0RxZF9jY1RVQg?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the Reuters source and the general explanation is accurate.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Reuters source and the general statement about bond yields is accurate.
-  Groq Qwen: PASS - All factual claims regarding the US bond yield surge, mortgage hedging, and market pressure are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-bb9a55a73c6f
-done: 3 post(s) this run
-=== run 2026-10-12T14:49:52Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 5
---- special
-🇮🇳🌍 Nifty, Sensex, Wall Street, crypto and RBI/Fed policy, explained simply.
-
-New videos on FinanceHubW 👇
-https://www.youtube.com/@FinanceHubW
-published to: website, Instagram Story
-101/171 sources returned news, 1127 recent items
-258 new trusted stories, posting up to 3 this run
----
-🇺🇸 US STOCKS HOVER NEAR RECORD
-
-📌 US stocks stay near record highs on Wall Street, with the Dow rising and Nasdaq slipping.
-#Stocks
-
-📍 US · 📰 The Globe and Mail · ✅ 9 sources
-https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM1ZJQ0xxdzdXZzhoME5ILUxVSlBHV2tDWTFOelpMRzlYeFBjMGYyd3R3NHZ3elF0d1UybWVKdGxNVUN4Wnl5ZXRoTXlYMEpkbWR0eHNZenI0UjB1Vjg1c0VvVG1aVWdsODJBeDF2bXBlQmg3Vk9mclJxclFFdlFVajd0cHJNTkhRN1JCNmhrcXh5dVBsR2V6T0ZFSHZfaTc3N0ZxTEVYOFN6UExHclVVNnJiNW5KVjl0Y0I1VmlFSE1WTlExeF9zSzQzdmgwN3JMU3E2c0FENWFkNlNPWmNDV2xhaDBTSjBBRllvdjhR?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 9 sources" but the provided source list contains fewer than nine distinct sources
-  -> blocked by fact-check
----
-🇺🇸 US STOCKS EDGE AS OIL RISES
-
-📌 US stock markets paused near record highs as oil prices jumped before company earnings.
-💡 Higher oil prices can raise costs for businesses and everyday goods.
-#StockMarket
-
-📍 US · 📰 Economic Times · ✅ 7 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-war-trump-hormuz-deal-brent-crude-oil-fed-rate-yield-earnings-season-iren-wells-fargo-goldman-sachs-citigroup-jpmorgan-ai-chip-stock-price-news-12th-october-2026/liveblog/134892994.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly corroborated by the cited Economic Times and related sources
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
-  Groq Qwen: FAIL - The source is Economic Times, but the post attributes the report to 'Economic Times' while the URL and context imply a specific live blog, however the primary failure is that the post claims 'US STOCK
-  -> blocked by fact-check
----
-🇺🇸 US STOCKS MIXED BEFORE INFLATION DATA
-
-📌 US stocks ended mixed as rising oil prices and tech pressure kept gains small.
-📊 Dow: +0.21%
-📊 Nasdaq: -0.04%
-💡 Higher oil prices can raise costs for businesses and shoppers.
-#Fed
-
-📍 US · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-steady-at-open-as-oil-jumps-ahead-of-key-earnings/articleshow/134894878.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, trends, and context are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source
-  Groq Qwen: PASS - All factual claims regarding stock performance, market conditions, and sources are directly supported by the provided text.
-published to: website, Instagram Story
