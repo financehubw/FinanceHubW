@@ -1,3 +1,9 @@
+=== run 2026-10-15T20:57:32Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+95/171 sources returned news, 888 recent items
+190 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-15T20:18:07Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1492,9 +1498,3 @@ daily cap: 12, room left in the last 24h: 2
 💡 Stock market drops can lower the value of retirement savings and investments.
 
 📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-tuesday/articleshow/134896643.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
-  Groq Qwen: PASS - All factual claims regarding the Sensex drop of 548 points, the causes (FII selling, global worries), and the source attribution are directly supported by the provided text.
-published to: website, Instagram Story
