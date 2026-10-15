@@ -63,8 +63,8 @@
     "Facebook"
    ],
    "errors": {
-    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A3f64xKredsAGqeGfmHmK9t'}",
-    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'Ao6oFukLTngM8lrI9wO_gba'}"
+    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AcprrAPe5CfKzIHdWbHioHR'}",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A68qbmqi-lzJh_e2--cKRlw'}"
    }
   },
   {
@@ -79,8 +79,24 @@
     "Facebook"
    ],
    "errors": {
-    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'ACXCtmKIi-8ptHuK8PthCJT'}",
-    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A74cma3EBI66cRqRhhU4qFk'}"
+    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AtVb2oIy_kdIelo09HLiXXb'}",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AJyL0SSgGwvL64Fe7tj3X6p'}"
+   }
+  },
+  {
+   "file": "manhattan_real.mp4",
+   "title": "The worst deal in history?",
+   "date": "2026-10-15T14:15:18Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/em5KMILUGl0"
+   },
+   "failed": [
+    "Instagram",
+    "Facebook"
+   ],
+   "errors": {
+    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A5wfFxtz5_IfL6u_v9TTyMq'}",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AlF7ZT2sFjKNgrcWV8-NBfh'}"
    }
   }
  ]
