@@ -1,3 +1,9 @@
+=== run 2026-10-15T19:55:19Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+97/171 sources returned news, 965 recent items
+221 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-15T19:06:55Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1492,9 +1498,3 @@ published to: website, Instagram Story
 
 📌 The rupee gained nearly 1% to 95.77 per dollar after the central bank curbed speculative trades.
 📊 Rupee: 95.77 per dollar
-💡 A stronger currency can make imported goods cheaper.
-
-📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rebounds-nearly-1-after-rbi-moves-to-curb-speculative-trades/articleshow/134896489.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article.
