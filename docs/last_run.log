@@ -1,3 +1,7 @@
+=== run 2026-10-15T07:13:03Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-15T06:22:35Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-
   written by Gemini
   Groq GPT-OSS: PASS - All statements about cautious Asian shares and slipping oil prices ahead of earnings are directly supported by the Economic Times source.
   Groq GPT-OSS 20B: FAIL - Unsupported claim about 10 sources
-  -> blocked by fact-check
----
-🇮🇳 INDIAN SHARES SET TO OPEN HIGHER
-
