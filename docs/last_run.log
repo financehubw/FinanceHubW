@@ -1,3 +1,50 @@
+=== run 2026-10-15T04:24:23Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+98/171 sources returned news, 1002 recent items
+226 new trusted stories, posting up to 2 this run
+---
+🇺🇸 DOLLAR FALLS FROM 18-MONTH HIGH
+
+📌 The US dollar drops from an 18-month peak even though inflation came in hot.
+💡 A weaker dollar can make imported goods costlier and affect global trade.
+#Forex
+
+📍 US · 📰 SRN News · ✅ 6 sources
+https://news.google.com/rss/articles/CBMiqAFBVV95cUxONTdzOUphZEw4dzRvX0JNMVBfeW5TUnc5WXVUTFZ1bzlMUGtqWExYSFRIQng3SUxSNkdhZHl4SlpRZC1GQ3FveEs5QmRpX25HazNHVUQtTUliV3JvM1dxS1V5MzRmeVRONlMwTFNSOFlJWHVYbTRRendCZWswVXZaLXp2ZXE4MEE4NmJWam9XOTUtb2Z5SjZxQUY0RVRJR1pUSEg1M1NJejM?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about the dollar retreating from an 18‑month high and hot inflation are confirmed by the cited SRN News article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited SRN News article.
+  Groq Qwen: PASS - All factual claims regarding the dollar's movement from an 18-month high despite hot inflation are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-83da4dae11c0
+---
+🌏 ASIAN STOCKS SLUMP ON TECH SELL-OFF
+
+📌 Asian stock markets fall sharply as technology shares drop and inflation fears grow.
+📊 Kospi: -5.6%
+
+📍 Asia · 📰 Business · ✅ 10 sources
+https://www.euronews.com/2026/10/15/deepening-tech-sell-off-drags-stocks-lower-as-major-markets-slide
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source name "Business" does not directly match any listed outlet (Business Standard, Euronews, Nikkei Asia).
+  -> blocked by fact-check
+---
+🇺🇸 BITCOIN SLIPS BELOW $81,000
+
+📌 Bitcoin fell under $81,000 as US inflation data sparked outflows and rate doubts.
+📊 $BTC: Below $81,000
+#Crypto
+
+📍 US · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 4 sources
+https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly backed by the cited CoinDesk, Moomoo, and NewsBytes articles.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the price drop, the cause (US inflation/Fed rate uncertainty), and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-b3b1fbde45bb
+done: 2 post(s) this run
 === run 2026-10-15T03:58:30Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1451,50 +1498,3 @@ done: 2 post(s) this run
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
 89/171 sources returned news, 798 recent items
-177 new trusted stories, posting up to 1 this run
----
-🇺🇸 DOLLAR NEARS 18-MONTH HIGH
-
-📌 The US dollar stayed close to an 18-month high due to middle east conflict.
-💡 A stronger dollar can make imported goods costlier for other countries.
-#Forex
-
-📍 US · 📰 Economic Times · ✅ 6 sources
-https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-stays-near-18-month-high-as-mideast-conflict-inflation-data-in-focus/articleshow/134880836.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Economic Times article and related sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the dollar's position, the cause (Middle East conflict), and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-a5ce41662494
-done: 1 post(s) this run
-=== run 2026-10-12T02:08:42Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T01:44:19Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T01:13:36Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T00:53:38Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T00:09:49Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T23:40:01Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T23:05:53Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-11T22:41:08Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
