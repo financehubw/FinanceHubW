@@ -1,22 +1,7 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-113/171 sources returned news, 1506 recent items
-  big #3 draft 2: Groq GPT-OSS: PASS - All factual statements about September CPI rising 3.7% annually and being driven by gas prices are confirmed by the listed sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the 3.7% annual rate, the month (September), the driver (gas costs), and the definition of the index are supported by the provided sources.
-  big: story #3 ok in 5s
-  pol: story #2 failed in 2s
-  pol: story #4 failed in 2s
-  pol #5 draft 1: Groq GPT-OSS: PASS - All yield figures and statements are directly supported by the Guardian source excerpt. | Groq GPT-OSS 20B: PASS - All numerical and factual claims are directly supported by the source. | Groq Qwen: PASS - All factual claims regarding the drop in UK 10-year and 30-year bond yields and their specific values are directly supported by the source text.
-  pol: story #5 ok in 3s
-  biz #16 draft 3: Groq GPT-OSS: PASS - All claims about the fine amount, reason, and unreported $5bn are confirmed by the cited sources | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the fine amount ($1.21bn), the nature of the violation (failure to detect/report money laundering), and the volume of unreported data ($5bn) are supported by the provided 
-  biz: story #16 ok in 4s
-  up #22 draft 1: Groq GPT-OSS: PASS - All statements about Morgan Stanley publishing its Q3 2026 earnings are directly supported by the cited Yahoo Finance article. | Groq GPT-OSS 20B: PASS - The slide accurately states that Morgan Stanley published its third‑quarter 2026 earnings results, which is confirmed by the cited Yahoo Finance articles. | Groq Qwen: PASS - The slide accurately reflects the source headline stating that Morgan Stanley reports its third quarter 2026 earnings results.
-  up: story #22 ok in 7s
-  r1 #18 draft 1: Groq GPT-OSS: PASS - Sources explicitly state diesel prices hit record highs in recent weeks in the US and Europe. | Groq GPT-OSS 20B: PASS - All factual claims in the slide are supported by the cited sources. | Groq Qwen: PASS - The claim that diesel prices reached record highs in the US and Europe in recent weeks is directly supported by the Straits Times source.
-  r1: story #18 ok in 2s
-  r2 #28 draft 1: Groq GPT-OSS: PASS - All factual claims about the US, Denmark, and Greenland signing an agreement last month are supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - The claim that the United States, Denmark, and Greenland signed an agreement last month is explicitly supported by the Oilprice.com source.
-  r2: story #28 ok in 2s
-  r2: story #4 failed in 27s
-  r2 #6 draft 1: Groq GPT-OSS: PASS - All claims (yields rose after inflation data) are confirmed by the cited Breakingthenews.net and Seeking Alpha articles | Groq GPT-OSS 20B: FAIL - Some sources report Treasury yields fell or dipped, contradicting the claim that they rose after inflation data.
-  r2 #6 draft 3: Groq GPT-OSS: FAIL - Some cited sources describe yields falling ahead of CPI data, not rising after it, so the claim isn’t fully supported.
-  r2: story #6 ok in 6s
-no story passed the checks for the r2 slide; nothing published
+110/171 sources returned news, 1514 recent items
+  big: story #4 failed in 6s
+  big: story #2 failed in 7s
+  big: story #10 failed in 8s
+no story passed the checks for the big slide; nothing published
