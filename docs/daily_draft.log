@@ -1,7 +1,9 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-110/171 sources returned news, 1514 recent items
-  big: story #4 failed in 6s
-  big: story #2 failed in 7s
-  big: story #10 failed in 8s
+109/171 sources returned news, 1445 recent items
+  writer Gemini unavailable: HTTP 404: { "error": { "code": 404, "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+  big: story #3 failed in 16s
+  big: story #8 failed in 37s
+  writer Gemini unavailable: HTTP 404: { "error": { "code": 404, "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+  big: story #14 failed in 17s
 no story passed the checks for the big slide; nothing published
