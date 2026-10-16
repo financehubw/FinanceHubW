@@ -1,3 +1,50 @@
+=== run 2026-10-16T01:05:15Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+93/171 sources returned news, 802 recent items
+139 new trusted stories, posting up to 1 this run
+---
+🇺🇸 OIL HITS ONE-MONTH HIGH
+
+📌 U.S. crude oil prices jumped to a one-month high due to lower supplies.
+📊 U.S. crude: One-month high
+#Oil
+
+📍 US · 📰 富途牛牛 · ✅ 4 sources
+https://news.google.com/rss/articles/CBMirAFBVV95cUxQa0h3VWtYblVucFdvSTR6bFhuY0dPTjI4MlpNaDB4RUI3V2dkVXVHVG03YkJPVEV0S0QxTEo4ajU4b2hZQWpLSWdMNXdnVko4c01NTGt2OFJxUGdJTE55VHd1VU1qTGxyTUlxZHdkNDc0VWdqWWRHN0tOUkNBLXNlZVhlRDQtUzhtYm5YZDZNUmFZZl9jRjFSTFZuUWllRlVVa1JLdVdyaXZDYlZD?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: FAIL - The claim that prices jumped 'due to lower supplies' is unsupported and contradicted by sources which attribute the jump to a 'big inventory draw' (which implies higher supplies) and 'potential shadow
+  -> blocked by fact-check
+---
+🇮🇳 RUPEE SEEN HEADED TO 100 PER DOLLAR
+
+📌 Analysts forecast India's currency will weaken toward 100 per dollar.
+📊 Rupee: 95 per dollar
+
+📍 India · 📰 International: Top News And Analysis · ✅ 2 sources
+https://www.cnbc.com/2026/10/16/india-rupee-rbi-dollar-iran-war.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the rupee level and analyst forecast are directly supported by the cited sources
+  Groq GPT-OSS 20B: FAIL - Source name does not match the actual CNBC article cited.
+  -> blocked by fact-check
+---
+🌐 MSCI RULES PUT CRYPTO FIRMS AT RISK
+
+📌 New index rules may kick out firms holding big crypto reserves like Strategy.
+💡 Index changes can shift where large institutional investment funds flow.
+#Crypto
+
+📍 Global · 📰 The Block · ✅ 3 sources
+https://www.theblock.co/news/business/2026-10-15-msci-rules-could-exclude-strategy-mstr-from-indexes-418729
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding MSCI's new rules, the specific companies at risk (Strategy, Metaplanet, SharpLink/Upexi), and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-3cf8bb27aa79
+done: 1 post(s) this run
 === run 2026-10-16T00:14:00Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1451,50 +1498,3 @@ daily cap reached, nothing to do this run
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
 daily cap reached, nothing to do this run
-=== run 2026-10-13T01:14:05Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T00:55:23Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T00:11:42Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T23:41:30Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T23:07:44Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T22:42:07Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T22:06:59Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T21:42:45Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T21:07:45Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T20:43:59Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T20:08:10Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-12T19:42:37Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
