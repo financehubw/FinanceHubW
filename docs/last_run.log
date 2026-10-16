@@ -1,3 +1,22 @@
+=== run 2026-10-16T18:18:05Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+99/171 sources returned news, 962 recent items
+219 new trusted stories, posting up to 1 this run
+---
+🇬🇧 FTSE 100 SEES BEST WEEK IN SIX MONTHS
+
+📌 UK stocks had their strongest week in half a year, led by defensive stocks (stable companies holding value in bad times).
+
+📍 UK · 📰 Reuters · ✅ 5 sources
+https://news.google.com/rss/articles/CBMivAFBVV95cUxNM2RvT3plREs0LTdZXzZOZkhINjFCWWZ0NmR0X2tNdzRwelBvekVIdnFVY3ZIVVRYYmhNOC1PYmFPczIwaGxnRTJXRDI2SWtkT2EyX0Z2d1BaZl8wM1R1MHF1bzRwRmNIdGZmSkRIQzAtTmFROGw0Y3hVbFVSd1d0M0pFTzRtenFwZk5yQmdJLW1qWThmNEx2Ui00UzN1WGY3VjhUSWNtWERkT3FYM00tam1fTVBJdUNha3Q3NQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about the FTSE 100's strongest week in six months and defensive‑stock rally are directly confirmed by the Reuters source
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Reuters article and other listed sources.
+  Groq Qwen: PASS - All factual claims regarding the FTSE 100's performance, the timeframe, the leading sector, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-31d6e9a395ab
+done: 1 post(s) this run
 === run 2026-10-16T17:54:36Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1479,22 +1498,3 @@ daily cap: 12, room left in the last 24h: 4
 📍 US · 📰 Business · ✅ 4 sources
 https://www.euronews.com/2026/10/13/us-banks-post-strong-earnings-but-economic-risks-cloud-the-sectors-outlook
   written by Groq GPT-OSS
-  Gemini: PASS - All claims in the post and the explanatory line are directly supported by the provided sources.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: PASS - All factual claims regarding strong Q3 profits, warnings about inflation/rates affecting households, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-69d92c6651d9
----
-🇺🇸 CHIP STOCKS PULL US MARKETS DOWN
-
-📌 US stocks fall as tech and chip shares face heavy selling pressure.
-📊 Dow Jones: +0.47%
-💡 Sector drops can impact broad retirement funds and market indexes.
-#Stocks
-
-📍 US · 📰 Economic Times · ✅ 4 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-war-hormuz-deal-brent-crude-oil-fed-yield-ai-mircon-amd-nvidia-jpmorgan-wells-fargo-bank-chip-stock-price-news-earnings-season-10th-october-2026/liveblog/134918018.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post says US stocks fell, but the source shows the Dow Jones rose 0.47%, contradicting the claim.
-  -> blocked by fact-check
----
