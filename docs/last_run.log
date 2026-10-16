@@ -1,3 +1,9 @@
+=== run 2026-10-16T22:18:32Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+79/171 sources returned news, 673 recent items
+151 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-16T21:54:41Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1492,9 +1498,3 @@ re-check of earlier post: 0 fail / 3 pass
 
 📍 India · 📰 Mint · ✅ 2 sources
 https://www.livemint.com/market/stock-market-news/sensex-jumps-1-110-points-nifty-reclaim22-700-5-reasons-behind-today-s-stock-market-rally-11791888964630.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, percentages, and statements are directly supported by the Mint article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Mint source.
-  Groq Qwen: PASS - All factual claims regarding market movements, percentages, and drivers are directly supported by the Mint source.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-0a9e87017869
