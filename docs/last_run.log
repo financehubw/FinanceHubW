@@ -1,3 +1,30 @@
+=== run 2026-10-16T19:02:28Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+94/171 sources returned news, 899 recent items
+230 new trusted stories, posting up to 1 this run
+skip (off-topic or nothing new): Deutsche Bank To Debut Bitcoin Custody Within Weeks: Report
+skip (off-topic or nothing new): US markets weighed down by extended sell-off in the tech sector
+skip (off-topic or nothing new): Why is Invesco QQQ Trust sliding today?
+skip (off-topic or nothing new): Chip selloff deepens Wall Street losses as doubts grew over AI returns
+skip (off-topic or nothing new): Crypto PACs escalate spending against Sherrod Brown in Ohio Senate race
+skip (off-topic or nothing new): Pakistan gets 2027 chairmanship of IMF, World Bank boards after 74 years, calls appointment ‘historic milestone’
+skip (off-topic or nothing new): Impact Of Rising Inflation And Interest Rates On Commodities
+skip (off-topic or nothing new): MSCI’s new rules could squeeze Strategy’s Bitcoin buying machine
+---
+🇮🇳 CULT.FIT GETS APPROVAL FOR IPO
+
+📌 Fitness firm Cult.fit received approval for an IPO (initial public offering, the first sale of company stock) with a Rs 950 crore fresh share issue.
+
+📍 India · 📰 The Times of India · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdlN2V3NaUkZNVHpHamM4R1B1UFNicnJKcHkzMW5GNGsxa3EyZ1NVLTE3RUNpVzFCbXBCSk51QXcySjk0djFwYUhkd2VWOVF6czEtQ2xCb3VidnZpXzNNMmM0OXZzWGZ3clozMHNhYlAwVkZhbU5tbDJ5UVhmVGlaT2k5Xy1yellTM1NnWXZtRWplYTl4Uzc5WFB5OEkxODE3Vk8zWjh2a2h4YjN2MHJTSUdnb1ZIdFgwS1A3Zm5vM2xPU3JWdUtZLWJESS1NY1NpNlFLWm1sMF9LMlHSAeABQVVfeXFMTXdQTkVjUm10Y0RUZkVOQlQ0cTlNQ1ZxeXlhUE0tbDlFSG1Qc1VDME1mMTd3WjZLOWdnNXdCTHcxbEs4ZDJSTl96UXNFWUJqaXVnNkd6eDFhTVBrN1lBM29aaG5HWDl0WDFCSzRQOXd0SW9WZWstTlAzNWN2X1I4bVozb1hfTE90R09yX2QxazZYUC03OUJ0dzI4czhLZVZSVk5fQ0Q5eng3Q1I4RGtPNDVCcGdESXR3WTh2bkczSkNkWGtCNUIwNkxXWFNTY0V0T3d1MEVqOTlCR19nVGo1T0M?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about Cult.fit's IPO approval and Rs 950 cr fresh issue are directly supported by the cited Times of India source.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding Cult.fit receiving SEBI approval for an IPO with a Rs 950 crore fresh issue, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-7944a7540f95
+done: 1 post(s) this run
 === run 2026-10-16T18:18:05Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1471,30 +1498,3 @@ published to: website, Instagram Story
 🇺🇸 INTERACTIVE BROKERS ADDS ETHEREUM STAKING
 
 📌 Interactive Brokers now lets clients stake ETH (locking coins to earn rewards).
-📊 $IBKR
-💡 Staking allows users to earn extra coins on their existing crypto holdings.
-
-📍 US · 📰 The Block · ✅ 7 sources
-https://www.theblock.co/news/ecosystems/2026-10-13-interactive-brokers-ethereum-staking-zerohash-418457
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about Interactive Brokers adding Ethereum staking are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited source.
-  Groq Qwen: PASS - All factual claims regarding Interactive Brokers adding Ethereum staking for eligible clients are supported by the sources, and the general explanation of staking is accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-926ee18167a3
-done: 3 post(s) this run
-=== run 2026-10-13T15:54:02Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 4
-100/171 sources returned news, 1059 recent items
-271 new trusted stories, posting up to 2 this run
----
-🇺🇸 US BANKS POST STRONG PROFITS AMID RISK WARNINGS
-
-📌 Big US banks posted Q3 earnings, but warned inflation and rates could hurt households.
-💡 Higher rates usually make loans costlier
-#USBanks
-
-📍 US · 📰 Business · ✅ 4 sources
-https://www.euronews.com/2026/10/13/us-banks-post-strong-earnings-but-economic-risks-cloud-the-sectors-outlook
-  written by Groq GPT-OSS
