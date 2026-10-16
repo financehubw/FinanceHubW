@@ -1,3 +1,9 @@
+=== run 2026-10-16T21:54:41Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+83/171 sources returned news, 691 recent items
+160 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-16T21:18:25Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1492,9 +1498,3 @@ https://www.livemint.com/market/stock-market-news/sensex-jumps-1-110-points-nift
   Groq Qwen: PASS - All factual claims regarding market movements, percentages, and drivers are directly supported by the Mint source.
 published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-0a9e87017869
----
-🇮🇳 SEBI EXTENDS EASIER IPO RULES UNTIL MARCH 2027
-
-📌 Companies can change their IPO (initial public offering) size by 50% without new filings.
-📊 Q2 IPO fundraising: Rs 94,649 crore
-
