@@ -79,8 +79,8 @@
     "Facebook"
    ],
    "errors": {
-    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AtVb2oIy_kdIelo09HLiXXb'}",
-    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AJyL0SSgGwvL64Fe7tj3X6p'}"
+    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'Aho6x-hPAnfmTXusozSL2kx'}",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A2Y_OUXukusg76Tt1SgpVdb'}"
    }
   },
   {
@@ -95,8 +95,24 @@
     "Facebook"
    ],
    "errors": {
-    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A5wfFxtz5_IfL6u_v9TTyMq'}",
-    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AlF7ZT2sFjKNgrcWV8-NBfh'}"
+    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AxrqTvgcrtPU-oAfrvnf0cx'}",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A0Qio-EBmGdUt95v2byFkFJ'}"
+   }
+  },
+  {
+   "file": "credit_card_20_years.mp4",
+   "title": "The $5,000 debt that lasts 20 years",
+   "date": "2026-10-16T14:12:11Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/0fvp4V_448w"
+   },
+   "failed": [
+    "Instagram",
+    "Facebook"
+   ],
+   "errors": {
+    "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AsO6VmHNnRvlmPAYeyghtwr'}",
+    "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AyzlpIdYyusJPXRLF3tYYpD'}"
    }
   }
  ]
