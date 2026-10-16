@@ -1,3 +1,111 @@
+=== run 2026-10-16T16:26:52Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+99/171 sources returned news, 1061 recent items
+240 new trusted stories, posting up to 3 this run
+---
+🇺🇸 FED RATE DECISION UNCERTAIN
+
+📌 Investors expect the Fed (US central bank) to hold rates steady in October.
+💡 Interest rates affect the cost of borrowing money for everyone.
+#Fed
+
+📍 US · 📰 Bloomberg.com · ✅ 4 sources
+https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZms1aGNrLWRUb1BHWjJSSS1lOHdqODlJSlB0eDFHd1FDdjZyNEdBejdTZkc1ODhrcTZJUGhidWVpNE05Rm5wLThoT2ktb1BIcFhEWVhGLTV2V2R1S2FjZVNfZEFkNC1PXy1ibkt5YnU5ZkY1ODg1a0w3b0ZPQm9ROEt3ZlhSc25TcmthLUhiMXpObGNUMXlIcTVqMUZTdVNMQ19iUzM2NFk?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about investor expectations and the general effect of interest rates are supported by the listed sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Bloomberg source and are factual.
+  Groq Qwen: PASS - The post accurately reflects the sources' consensus that investors expect the Fed to hold rates in October, and the general explanation of interest rates is correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-2081c38fc938
+skip (off-topic or nothing new): Gold Rate Today In Amritsar, Check Live 22 And 24 Carat Gold Price
+---
+🇺🇸 BITCOIN HOLDS ABOVE $82,000
+
+📌 Bitcoin stayed near $82K after the US central bank gave no sign of raising rates.
+📊 $BTC: $82,000
+💡 Lower rate-hike fears usually calm global financial markets.
+
+📍 US · 📰 Cointelegraph.com News · ✅ 4 sources
+https://cointelegraph.com/markets/bitcoin-price-steadies-82k-fed-warsh-avoids-rate-hike-hints?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source only says Bitcoin was around $82K or above $80K, not that it held above $82,000
+  -> blocked by fact-check
+skip (off-topic or nothing new): Warsh: Inflation Still Weighs on Economy as Fed Eyes Oct. 28 Rate Decision - News and Statistics
+---
+🇩🇪 DEUTSCHE BANK TO LAUNCH CRYPTO CUSTODY
+
+📌 Germany's biggest bank is launching storage services for Bitcoin and Ethereum.
+📊 $BTC
+
+📍 Germany · 📰 Cointelegraph.com News · ✅ 3 sources
+https://cointelegraph.com/news/deutsche-bank-crypto-custody-expansion-asia-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources
+  Groq GPT-OSS 20B: FAIL - Number of sources claim does not match actual sources
+  -> blocked by fact-check
+---
+🇺🇸 BITCOIN FALLS BELOW $82,000
+
+📌 Bitcoin dropped below $82,000 as traders looked at interest rate chances.
+📊 $BTC: Below $82,000
+💡 Higher interest rates usually make borrowing money costlier.
+#Crypto
+
+📍 US · 📰 News · ✅ 2 sources
+https://cryptonews.com/news/polymarket-bitcoin-rate-hike-odds-vs-cme/
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about Bitcoin dropping below $82,000 and the link to interest‑rate expectations are confirmed by the Cryptonews article, and the general interest‑rate explanation is correct.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: FAIL - The post claims traders looked at interest rate chances generally, but the source specifies they weighed 'December risk' while the odds discussed were for an 'October Fed hike', creating a discrepancy
+  -> blocked by fact-check
+---
+🇯🇵 JAPAN CENTRAL BANK SAYS NO MORE INFLATION
+
+📌 The head of Japan's central bank said higher inflation is unacceptable.
+💡 Higher interest rates (the cost of borrowing money) will likely continue.
+#Japan
+
+📍 Japan · 📰 Nikkei Asia · ✅ 2 sources
+https://asia.nikkei.com/economy/bank-of-japan/boj-s-ueda-says-inflation-can-t-be-allowed-to-rise-further
+  written by Gemini
+  Groq GPT-OSS: FAIL - The 💡 line predicts continued higher rates, which is a specific outcome not allowed.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Nasdaq and S&P Index: AI Selling Deepens as Dow Holds Up on Rotation
+---
+🇮🇳 SENSEX GAINS 414 POINTS
+
+📌 Indian stock markets rose, led by technology company shares.
+📊 Sensex: +414 pts
+📊 Nifty: Above 23,100
+#Nifty
+
+📍 India · 📰 INDIA New England News · ✅ 2 sources
+https://news.google.com/rss/articles/CBMirAFBVV95cUxNWm9iaHFnTHJfRGhBQVZpdU5ycGRGb0tOb1ZiRUR2dEJIR0tUYU9MTmpaRHBhZnB4MTMtQkVLNGZLWEhfMjBHcUJwaDB0bTAxemlOcGFIWDM0TlNKeG5acjVvVGtUVk1HSzVDdFNUQmNWeDJfMlhNR0F3Nk1MVm9GeGFNOWxMWUZMWWw2ZWpIcTVORzd3NDR5Z0J0OWhxMFpqTVVfQmctcFF6MDBT?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and descriptive claims are directly confirmed by the cited source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding the Sensex gain, Nifty level, and IT stock leadership are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-86302466e899
+---
+🇺🇸 GAS PRICES SURGE 9.1%
+
+📌 Gas prices jumped 9.1% in one month, pushing annual inflation up to 3.7%.
+📊 Inflation: 3.7%
+📊 Gas: +9.1%
+💡 Higher rates usually make loans costlier.
+#Fed
+
+📍 US · 📰 Yahoo Finance · ✅ 2 sources
+https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2V4eGVSSmYzR2k2T3NydjVsSTRGREVESWdCMnM3dFFkbXBzN3dXZXFfRWJoaXhwd1FrX00xSVNEaVFObVlpOTFablRqcnA2Z1YtSzgtbUpPY3ZQQXhzZ3hqUmV2cm12am1oQmtrYVlMam5qdFVvUDY3Zlk1bThuWW9oQ08xMlNTdmRYUFNR?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and factual statements are directly confirmed by the Yahoo Finance and MoneyWise sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding gas price increase (9.1%), inflation rate (3.7%), and location (US) are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f4ff2f14308d
+done: 3 post(s) this run
 === run 2026-10-16T15:57:53Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1390,111 +1498,3 @@ https://news.google.com/rss/articles/CBMirAFBVV95cUxQbEQ4bGJpbEZhbnZmTDRNci1JWVp
   Groq Qwen: PASS - The post accurately reflects the sources' claims that gold prices are steady/holding firm while the US dollar is at an 18-month high, and the location and source attribution are correct.
   Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
   OpenRouter: PASS - All factual claims, including the 18-month dollar high and gold's stability, are supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-d1770a379aa4
-done: 2 post(s) this run
-=== run 2026-10-13T15:15:01Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 4
-97/171 sources returned news, 1126 recent items
-287 new trusted stories, posting up to 3 this run
----
-🇺🇸 US DOLLAR REMAINS STABLE AHEAD OF INFLATION DATA
-
-📌 The US Dollar is holding steady as markets wait for new inflation (price rise) data.
-
-📍 US · 📰 FXStreet Forex & Commodities News · ✅ 2 sources
-https://www.fxstreet.com/news/us-dollar-supported-but-capped-by-cpi-risks-ocbc-202610131316
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about the dollar’s stability and upcoming inflation data are directly supported by the FXStreet article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited FXStreet article.
-  Groq Qwen: PASS - The post accurately reflects the source's description of the US Dollar as stable/range-bound ahead of inflation data, with matching location and source attribution.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-111e91938878
----
-🇺🇸 US STOCKS OPEN LOWER ON BANK EARNINGS AND CHIP SLUMP
-
-📌 The S&P 500 and Nasdaq fell as investors reacted to new bank earnings and chip stocks.
-📊 S&P 500: Lower
-
-📍 US · 📰 Economic Times · ✅ 15 sources
-https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-opens-lower-after-bank-earnings-chips-weigh/articleshow/134919499.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about US stocks opening lower, S&P 500 and Nasdaq falling, and chip‑stock pressure are directly confirmed by the Economic Times article.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the market direction, indices, and drivers are directly supported by the provided sources, and the metadata matches.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unavailable (RuntimeError: liquid/lfm-2.5-2.6b:free returned an empty reply)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-2c8c6f6b3804
----
-🇮🇳 INDIAN GOVERNMENT BONDS REBOUND
-
-📌 Indian bond prices rose after a period of falling, attracting new investors.
-💡 Higher bond prices often lead to lower borrowing costs for the government.
-#India
-
-📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/bonds/indias-benchmark-bond-breaks-4-day-falling-streak-as-value-investors-return/articleshow/134918791.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about bond price rebound, investor interest, and general explanation are supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source.
-  Groq Qwen: PASS - The post accurately reflects the source's report that Indian government bonds rebounded (prices rose) after a falling streak, and the general explanation regarding the inverse relationship between bon
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-af874fa0ece7
-done: 3 post(s) this run
-=== run 2026-10-13T14:48:04Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T14:13:09Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T13:50:08Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T13:17:46Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T12:54:05Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T12:11:44Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T11:44:01Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T11:10:03Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T10:45:26Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T10:09:30Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T09:44:42Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T09:09:41Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T08:47:00Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T08:10:06Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
