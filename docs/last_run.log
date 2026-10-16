@@ -1,3 +1,23 @@
+=== run 2026-10-16T01:57:35Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+--- special
+🌐 GLOBAL MARKETS OVERNIGHT
+
+🟢 S&P 500: 7,744 (+0.33%)
+🟢 Nasdaq: 26,713 (+0.08%)
+🟢 Dow: 52,178 (+1.08%)
+🟢 FTSE 100: 10,840 (+1.08%)
+🟢 Nikkei: 65,390 (+1.50%)
+🔴 Brent oil: $105.78 (-0.26%)
+
+🟢 up · 🔴 down · vs previous close
+#Markets #StockMarket
+published to: website, Instagram Story
+94/171 sources returned news, 825 recent items
+re-check of earlier post: 1 fail / 3 pass
+151 new trusted stories, posting up to 0 this run
+done: 1 post(s) this run
 === run 2026-10-16T01:05:15Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1478,23 +1498,3 @@ skip (off-topic or nothing new): GIFT Nifty signals mildly positive start for Se
 #IMF
 
 📍 Global · 📰 The Guardian · ✅ 8 sources
-https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Guardian source.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Guardian source.
-  Groq Qwen: PASS - All factual claims regarding the IMF's warning about low oil stocks and overstretched budgets are directly supported by the provided sources, and the metadata matches.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-c6ccba90f672
-done: 1 post(s) this run
-=== run 2026-10-13T02:44:30Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T02:09:06Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T01:44:54Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
