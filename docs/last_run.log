@@ -1,3 +1,15 @@
+=== run 2026-10-16T03:58:58Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+--- special
+📊 Tweets give you the headline. YouTube gives you the why.
+
+Subscribe to FinanceHubW for daily market explainers 👇
+https://www.youtube.com/@FinanceHubW
+published to: website, Instagram Story
+84/171 sources returned news, 936 recent items
+211 new trusted stories, posting up to 0 this run
+done: 1 post(s) this run
 === run 2026-10-16T03:20:57Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1486,15 +1498,3 @@ https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-13-
 
 📍 Asia · 📰 Economic Times · ✅ 10 sources
 https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-markets-slide-as-chip-stocks-tumble-investors-eye-us-earnings-cpi/articleshow/134905429.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 10 sources" but only six sources are listed, so the source count is unsupported
-  -> blocked by fact-check
----
-🇮🇳 INDIAN STOCKS FALL
-
-📌 Indian stock markets dropped due to rising bond yields and foreign investor sell-offs.
-💡 Market drops can reduce the value of retirement accounts and mutual funds.
-#Nifty
-
-📍 India · 📰 Economic Times · ✅ 8 sources
-https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-hcl-tech-rbl-bank-nazara-tech-hero-motors-power-grid-and-ircon/articleshow/134902392.cms
