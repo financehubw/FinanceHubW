@@ -1,3 +1,9 @@
+=== run 2026-10-16T19:52:12Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+93/171 sources returned news, 843 recent items
+212 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-16T19:02:28Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1492,9 +1498,3 @@ https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUlo4LXh2MExwMGY5Wm9PSldCNE9
   Groq GPT-OSS: PASS - All factual claims are directly supported by the cited sources.
   Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source and the explanation is a correct general statement.
   Groq Qwen: PASS - The post accurately reflects the source headlines regarding the dollar slipping from an 18-month high, and the general explanation in the 💡 line is factually correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f2ea3ee8fc89
----
-🇺🇸 INTERACTIVE BROKERS ADDS ETHEREUM STAKING
-
-📌 Interactive Brokers now lets clients stake ETH (locking coins to earn rewards).
