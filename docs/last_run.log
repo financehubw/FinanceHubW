@@ -1,3 +1,9 @@
+=== run 2026-10-16T20:55:51Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+87/171 sources returned news, 719 recent items
+168 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-16T20:14:12Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1492,9 +1498,3 @@ https://www.livemint.com/market/ipo/sebi-extends-relief-on-ipo-size-tweaks-until
   Groq GPT-OSS: FAIL - The post cites Rs 94,649 crore as Q2 IPO fundraising, but sources report that amount for the September quarter (Q3), not Q2.
   -> blocked by fact-check
 ---
-🇺🇸 US DOLLAR FALLS FROM 18-MONTH HIGH
-
-📌 The US dollar index dropped after reaching its highest level in 18 months.
-💡 A weaker dollar can make imported goods cheaper for other countries.
-#USD
-
