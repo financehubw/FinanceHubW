@@ -1,3 +1,70 @@
+=== run 2026-10-16T04:28:13Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+89/171 sources returned news, 982 recent items
+220 new trusted stories, posting up to 2 this run
+skip (off-topic or nothing new): Gold, silver prices today, 16 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata
+skip (off-topic or nothing new): Stock recommendations for 16 October from MarketSmith India
+---
+🇮🇳 INDIAN STOCKS EYE HIGHER OPEN
+
+📌 Indian shares are set to open higher following lower bond yields and relief from SEBI.
+📊 GIFT Nifty: 23,082
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 5 sources
+https://www.thehindubusinessline.com/markets/shares-on-track-for-higher-open-on-lower-treasury-yields-sebi-relief/article71590983.ece
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post includes a predictive claim ('Indian shares are set to open higher') which is disallowed even though the source mentions it.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Bandhan AMC’s Suyash Choudhary on RBI rate hikes, bond yields, and debt strategy
+skip (off-topic or nothing new): BOE’s Bailey Sees Little Evidence of Second-Round Inflation
+---
+🇮🇩 INDONESIA STOCKS PLUNGE 11%
+
+📌 Jakarta shares drop after a major index provider plans to remove the country.
+📊 Jakarta index: -11%
+#Indonesia
+
+📍 Indonesia · 📰 The Straits Times World News · ✅ 7 sources
+https://www.straitstimes.com/business/msci-weighs-downgrading-indonesia-to-standalone-market-status
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims (11% plunge, MSCI removal plan, Jakarta index drop) are directly supported by the cited Reuters and other sources
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
+  Groq Qwen: FAIL - The draft claims the index dropped 11%, but the provided sources report conflicting figures (8%, 10%, or 30% YTD), and the specific 11% figure is not supported by the text of the sources listed in the
+  -> blocked by fact-check
+skip (off-topic or nothing new): Platinum Price Today 16 October 2026 – Latest Platinum Rate per Gram & Kg
+---
+🇮🇳 RUPEE TO RISE AS TRADERS CUT BETS
+
+📌 Traders are stopping bets that the Indian rupee will fall in value.
+💡 A stronger currency can make imported goods cheaper.
+#Rupee
+
+📍 India · 📰 Reuters · ✅ 4 sources
+https://news.google.com/rss/articles/CBMivAFBVV95cUxQMW81dXg4bzRwcUlpOVlIbTdkRTFJa0dLNENNWFczbmRVOHdwbkd6WTdPNkhCeUNZZVFwTzBic3c2Sk9lWS1JM09YdkRZVDNMT3pYNVFmQWdnRHNETTllakhXd1hzV1pwaDBKREtjLXZva045UnhrNVZTTHY5dzNubVM3NEdoSDEwLWw1XzI2NTh2dkR2c0JNT3M5eUNvTjIzNmZqOENXZXRHUFJsT3BNaFc0NjltMjNnRS0zXw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about traders cutting bearish bets, expected rupee rise, and the general effect of a stronger currency are supported by the Reuters source
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the rupee rising due to traders cutting bearish bets, and the general explanation of currency strength is correct.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: SKIP - unavailable (RuntimeError: liquid/lfm-2.5-2.6b:free returned an empty reply)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-9e579ffc1197
+---
+🇮🇳 INDIAN BONDS FACE NEW DEBT SALE
+
+📌 A fresh debt sale is set to hit Indian bonds as worries about rate hikes continue.
+📊 Yield: 7.39%
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
+https://www.thehindubusinessline.com/markets/fresh-debt-sale-set-to-rattle-indian-bonds-as-rate-hike-jitters-persist/article71591026.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements, including the fresh debt sale, yield figure, and source attribution, are directly supported by the cited article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims, including the specific yield figure of 7.39% (derived from the source's 7.3921%), the context of the debt sale and rate hike jitters, and the source attribution, are directly suppo
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d8fbe11b3772
+done: 2 post(s) this run
 === run 2026-10-16T03:58:58Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
@@ -1431,70 +1498,3 @@ https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html
   -> blocked by fact-check
 ---
 🇮🇳 RUPEE SEES SHARPEST RALLY IN SIX MONTHS
-
-📌 The Indian rupee jumped 1% against the US dollar after central bank rules curbed speculation.
-📊 Rupee: 95.77 per USD (+1%)
-
-📍 India · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/markets/forex/rupee-jumps-1-as-rbi-curbs-dollar-demand/articleshow/134905376.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the 1% rise to 95.77, RBI curbing speculation, and the sharpest six‑month rally are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the rupee's 1% rise to 95.77, the cause (RBI curbing speculation), and the headline context are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-ff143a8e2b22
-done: 2 post(s) this run
-=== run 2026-10-13T03:09:30Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
-100/171 sources returned news, 956 recent items
-194 new trusted stories, posting up to 1 this run
----
-🌐 SILVER FALLS TO NEAR $60
-
-📌 Silver drops to near $60.00 per ounce as higher oil prices fuel inflation worries.
-📊 Silver: $60.00/oz
-
-📍 Global · 📰 FXStreet Forex & Commodities News · ✅ 2 sources
-https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-6000-amid-higher-oil-prices-us-dollar-202610130206
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about silver price, oil‑inflation link, and Fed expectations are directly confirmed by the FXStreet article.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 2 sources, but only one source is provided.
-  -> blocked by fact-check
----
-🌐 DOLLAR HITS 18-MONTH HIGH
-
-📌 The US dollar stays near an 18-month high due to rising global tensions.
-📊 US dollar index: 102.56
-💡 A strong US dollar can make foreign goods and travel more costly.
-#Forex
-
-📍 Global · 📰 Mint · ✅ 9 sources
-https://www.livemint.com/market/dollar-holds-near-18-month-high-as-geopolitical-risks-rise-11791855761313.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (18‑month high, index 102.56, link to geopolitical tensions) are directly supported by the Livemint article.
-  Groq GPT-OSS 20B: FAIL - The explanation that a strong dollar makes foreign goods and travel more costly is incorrect.
-  -> blocked by fact-check
----
-🇮🇳 GIFT NIFTY POINTS TO POSITIVE MARKET START
-
-📌 Gift Nifty traded near 22,423, up 41 points ahead of the market opening.
-📊 Gift Nifty: 22,423 (+41 pts)
-#Nifty
-
-📍 India · 📰 Mint · ✅ 3 sources
-https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-13-oct-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-11791851924757.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about Gift Nifty level and rise are directly supported by the Livemint source.
-  Groq GPT-OSS 20B: FAIL - The claim that the post uses only 3 sources is unsupported; the article lists many more sources.
-  -> blocked by fact-check
----
-🌏 ASIAN STOCKS FALL
-
-📌 Asian shares dropped as technology and chip stocks fell.
-📊 MSCI Asia Pacific: -0.3%
-📊 South Korea: -3%
-#Markets
-
-📍 Asia · 📰 Economic Times · ✅ 10 sources
-https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-markets-slide-as-chip-stocks-tumble-investors-eye-us-earnings-cpi/articleshow/134905429.cms
