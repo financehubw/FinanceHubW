@@ -1,3 +1,7 @@
+=== run 2026-10-16T06:20:47Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-16T05:55:38Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ re-check of earlier post: 0 fail / 4 pass
 📍 US · 📰 Economic Times · ✅ 5 sources
 https://economictimes.indiatimes.com/markets/commodities/news/gold-subdued-with-spotlight-on-us-inflation-data/articleshow/134906003.cms
   written by Gemini
-  Groq GPT-OSS: PASS - All statements about gold dipping, dollar rising, and inflation data are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: FAIL - The post claims 5 sources and locates the event in the US, but the listed source is the Economic Times (India) and there are six sources cited.
-  -> blocked by fact-check
----
