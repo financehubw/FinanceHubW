@@ -1,3 +1,7 @@
+=== run 2026-10-16T03:20:57Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-16T02:57:08Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-
 
 📍 India · 📰 Economic Times · ✅ 8 sources
 https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-hcl-tech-rbl-bank-nazara-tech-hero-motors-power-grid-and-ircon/articleshow/134902392.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six source entries are provided, which is unsupported.
-  -> blocked by fact-check
-skip (off-topic or nothing new): GIFT Nifty signals mildly positive start for Sensex, Nifty but Asian rout, inflation, crude oil may cap...
