@@ -1,3 +1,7 @@
+=== run 2026-10-16T04:58:49Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-16T04:28:13Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1494,7 +1498,3 @@ https://economictimes.indiatimes.com/markets/commodities/news/gold-subdued-with-
 https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html
   written by Gemini
   Groq GPT-OSS: PASS - All statements are directly supported by the cited CNBC article.
-  Groq GPT-OSS 20B: FAIL - Source name does not match the actual source
-  -> blocked by fact-check
----
-🇮🇳 RUPEE SEES SHARPEST RALLY IN SIX MONTHS
