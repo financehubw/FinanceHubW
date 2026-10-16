@@ -1,3 +1,9 @@
+=== run 2026-10-16T20:14:12Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+91/171 sources returned news, 804 recent items
+189 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-16T19:52:12Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1492,9 +1498,3 @@ https://www.livemint.com/market/ipo/sebi-extends-relief-on-ipo-size-tweaks-until
 💡 A weaker dollar can make imported goods cheaper for other countries.
 #USD
 
-📍 US · 📰 TradingView · ✅ 4 sources
-https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUlo4LXh2MExwMGY5Wm9PSldCNE9zcC1HMXFCcmFHeE1XSkd0TFFSR1I4Q2RNOXlKQTVaU1F3ZGdPNEE0NE53cWVXUnBHRVlranFuV3dFWlluajlrcXl1X1h1VTJHZGducWV3TFhma0M2dWNFWXBLdVVKYzJsT1NKRTBsY3V1XzBHS05kaldvRXNnU0N1aUZQWWJHQ3hfYVBVWGhyNmlOM19jVGxEQldyYnVHUFB4Q3hBSUhkdlUtMVZwT3g0NXE5MVVaTWFkempuZkFFUDMwX1lKLVdt?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source and the explanation is a correct general statement.
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the dollar slipping from an 18-month high, and the general explanation in the 💡 line is factually correct.
