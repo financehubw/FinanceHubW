@@ -433,7 +433,8 @@ def digest_caption(m: dict, stories: list[dict]) -> str:
         if any(re.search(pat, p["text"].lower()) for p in stories):
             tags += [x for x in t[:1] if x not in tags]
     tags = (tags + ["#financenews", "#markets", "#economy", "#stockmarket", "#investing"])[:5]
-    return (f"🗞️ {m['edition']} briefing: {len(stories)} finance stories you need to know today\n\n"
+    day = dt.date.fromisoformat(m["key"][:10]).strftime("%-d %b")
+    return (f"🗞️ {m['edition']} briefing, {day}: {len(stories)} finance stories you need to know\n\n"
             + "\n".join(heads) +
             "\n\nWhich one matters most to you? Tell us 👇\n"
             "💾 Save this and send it to someone who follows the markets.\n\n"
