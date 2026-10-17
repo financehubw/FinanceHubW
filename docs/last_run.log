@@ -1,3 +1,37 @@
+=== run 2026-10-17T04:18:04Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+79/171 sources returned news, 600 recent items
+125 new trusted stories, posting up to 1 this run
+---
+🇮🇳 TRUMP WAIVES RUSSIA OIL SANCTIONS
+
+📌 Trump paused a planned 100 percent tariff (tax on imports) on Russian oil ahead of a visit by Marco Rubio.
+📊 Tariff: 100% (on hold)
+
+📍 India · 📰 The Statesman · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQnpWMEpzbW5zWVNIbFVnR1lrbm9vSEpLUzZxV0RvLUVTSlB6OHk3VEJnRjNvOFJCdG1RdVlfYVBUUnV2eEVlYXdfRks5R3hMbVMwQmYwdUM2VmplUHptYTNfc0c1M1RFanRtdER2NFF4V0lMQkdRQ0xOU19ncmlUdFBWRVZhVHlobmpNUmxCUEZUX2lvZTBBUkNDT0MyTlduUmNqWGdMWmxPb0Y3NFZWdXgxbFFGN2FkeGhKVzZScktHbVNQU0RjeWZLYlZVM00weF9EZHFoblVud9IB3wFBVV95cUxOZVJoMTRGRDNpVDJIMnlMeHVCRXYwdkllRGFPMVlWMDZ2VVNYWG40WTJMTjNjbko2clM2UnBSX2t5dTNJek1hRGl3QTZwbENpenR1S1dHajNEc29odjgyODhPMVhPZXhfTE1iUlNtR09XSEJBQzVtSktlYmVVX2VLazlZTWhSZkp0eDVBLVd4azRPOEppdTJJbjlfR0FCR19ESmhsVkp0dlljODNvRmN3Ti1uMEFSbWV1M0lha1MyZmNSakVCdjNHalRFbW03VHVQZy0tN1FvSTVLWWlURVo4?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that Trump "waives Russia oil sanctions" is not supported; sources only mention pausing a 100% tariff, not waiving sanctions.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Polymarket Prices a 14% Chance of October Fed Hike as Bitcoin Closes at $81,524
+---
+🇮🇳 JIO PLANS $3.2 BILLION IPO
+
+📌 Jio Platforms plans to raise $3.2 billion in an initial public offering (selling shares to the public) starting Oct. 21.
+📊 IPO size: $3.2B
+📊 Opens: Oct. 21
+#Reliance
+
+📍 India · 📰 Bloomberg.com · ✅ 5 sources
+https://news.google.com/rss/articles/CBMisAFBVV95cUxNdnc4bVVzMmZ6dG4zLXcybG56cl9TUE9jT2tLSEt6cmdUdVhnM01feGxmT2tROXBRdExtbUNxbW1RMjRNWVNtNkEycU5pMVdEc1M0eTRORnJQa3FQZzJNMHBuQk14OHBNZWJBXzNvSi1oM1Znd1l6VThodmtWRkV5SHh3Sm96bnpJaWN0S3Qxck1lNVJDa3h5S1NwU0ZzTllzNWZCODFocHIxd3VCTlNraA?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numeric, date, and entity claims are directly supported by the Bloomberg source
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Bloomberg source.
+  Groq Qwen: PASS - All factual claims regarding the IPO size ($3.2 billion), entity (Jio Platforms), opening date (Oct. 21), and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-fd72a6037841
+done: 1 post(s) this run
 === run 2026-10-17T03:56:02Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1464,37 +1498,3 @@ https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-mon
   Groq GPT-OSS: PASS - All factual claims are directly supported by the Al Jazeera source.
   Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
   Groq Qwen: PASS - All factual claims regarding the fine amount, entity, reasons, and source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-92a785d47d81
-done: 2 post(s) this run
-=== run 2026-10-14T03:20:10Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
-96/171 sources returned news, 945 recent items
-209 new trusted stories, posting up to 1 this run
----
-🇺🇸 US DOLLAR DROPS AHEAD OF INFLATION DATA
-
-📌 The US dollar fell as traders waited for new inflation figures and central bank speeches.
-
-📍 US · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-languishes-as-focus-turns-to-cpi-fed-speakers/articleshow/134929930.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 3 sources" but the listed sources include multiple duplicates and a different outlet, not exactly three distinct sources.
-  -> blocked by fact-check
----
-🇺🇸 GOLD PRICES HOLD STEADY
-
-📌 Gold prices stayed flat as markets wait for upcoming US inflation data.
-💡 Economic data often shapes future interest rates and borrowing costs.
-#Gold
-
-📍 US · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-flat-as-markets-await-us-cpi-data/articleshow/134929941.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about flat gold prices and awaiting US CPI data are directly supported by the cited Economic Times article.
-  Groq GPT-OSS 20B: FAIL - The location tag (📍 US) does not match the source, which reports on early Asian trading; the place should reflect the source’s context.
-  -> blocked by fact-check
----
-🇮🇳 INDIAN SHARES READY FOR SLOW START
-
