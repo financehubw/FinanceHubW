@@ -395,7 +395,15 @@ def digest_stories() -> list[dict]:
              if "📍" in p["text"] and p["id"] not in used
              and now - dt.datetime.strptime(p["date"], "%Y-%m-%dT%H:%M:%SZ") < dt.timedelta(hours=14)]
     score = lambda p: ("BREAKING" in p["text"]) * 3 + ("✅" in p["text"]) * 2 + ("Official" in p["text"]) + ("📊" in p["text"])
-    top = sorted(posts, key=score, reverse=True)[:8]
+    import re
+    seen, uniq = set(), []
+    for p in sorted(posts, key=score, reverse=True):     # one slide per story: drop repeats of the same headline
+        key = re.sub(r"[^a-z0-9 ]", "", _head(p).lower())
+        words = frozenset(w for w in key.split() if len(w) > 3)
+        if key in seen or any(len(words & s) >= max(3, len(words) * 0.7) for s in seen if isinstance(s, frozenset)):
+            continue
+        seen.add(key); seen.add(words); uniq.append(p)
+    top = uniq[:8]
     return sorted(top, key=lambda p: p["date"], reverse=True)
 
 
