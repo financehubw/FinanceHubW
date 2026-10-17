@@ -1,0 +1,49 @@
+{
+ "id": "monthly_cost_2000",
+ "title": "$100 a month into Costco since 2000 is now worth this",
+ "thumb": "$100/month in Costco since 2000 = *{dca:COST:2000-01-03}*",
+ "thumb_photo": "warehouse store",
+ "thumb_tag": "MONTHLY HABIT",
+ "caption": "$100 every month into Costco since 2000.\nToday that would be worth about {dca:COST:2000-01-03} (price growth only, no dividends).",
+ "comment": "Could you put away $100 a month? 👇",
+ "tags": [
+  "#investing",
+  "#sip",
+  "#money",
+  "#stocks",
+  "#finance",
+  "#habits"
+ ],
+ "sources": [
+  "Costco price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One hundred dollars a month, into Costco, starting in 2000.",
+   "photo": "warehouse store",
+   "big": "$100",
+   "sub": "every month since 2000"
+  },
+  {
+   "say": "Back then, Costco was a warehouse store.",
+   "photo": "warehouse store",
+   "clip": {
+    "kicker": "Issaquah",
+    "year": "2000",
+    "text": "Costco: a warehouse store"
+   }
+  },
+  {
+   "say": "Today, those monthly payments would be worth about {dca:COST:2000-01-03}.",
+   "photo": "piggy bank coins",
+   "big": "{dca:COST:2000-01-03}",
+   "sub": "$100 a month, every month"
+  },
+  {
+   "say": "Small, boring, every month. That's how wealth is built.",
+   "photo": "calendar",
+   "big": "Every month",
+   "sub": "the habit that compounds"
+  }
+ ]
+}

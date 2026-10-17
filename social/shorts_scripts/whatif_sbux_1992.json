@@ -1,0 +1,49 @@
+{
+ "id": "whatif_sbux_1992",
+ "title": "$1,000 in Starbucks in 1992 is now worth this",
+ "thumb": "$1,000 in Starbucks 1992 = *{growth:SBUX:1992-06-26}*",
+ "thumb_photo": "coffee shop",
+ "thumb_tag": "WHAT IF",
+ "caption": "In 1992, Starbucks was a coffee chain.\n$1,000 in it then would be worth about {growth:SBUX:1992-06-26} today (price growth only, no dividends).",
+ "comment": "What would you have done with Starbucks in 1992? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#whatif",
+  "#finance",
+  "#compounding"
+ ],
+ "sources": [
+  "Starbucks price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "In 1992, Starbucks was a coffee chain.",
+   "photo": "coffee shop",
+   "clip": {
+    "kicker": "Seattle",
+    "year": "1992",
+    "text": "Starbucks: a coffee chain"
+   }
+  },
+  {
+   "say": "Say you put in one thousand dollars.",
+   "photo": "dollar bills",
+   "big": "$1,000",
+   "sub": "1992"
+  },
+  {
+   "say": "Today, it would be worth about {growth:SBUX:1992-06-26}.",
+   "photo": "stock market chart",
+   "big": "{growth:SBUX:1992-06-26}",
+   "sub": "price growth since 1992"
+  },
+  {
+   "say": "Time in the market does the heavy lifting.",
+   "photo": "hourglass",
+   "big": "Time",
+   "sub": "the real ingredient"
+  }
+ ]
+}

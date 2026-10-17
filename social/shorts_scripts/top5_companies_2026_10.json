@@ -1,0 +1,64 @@
+{
+ "id": "top5_companies_2026_10",
+ "title": "The 5 most valuable companies in the world (October 2026)",
+ "thumb": "World's *TOP 5* companies",
+ "thumb_photo": "city skyline night",
+ "thumb_tag": "COUNTDOWN",
+ "caption": "The 5 most valuable companies in the world right now, by market value:\n#1 Nvidia: about {cap:NVDA*1}\n#2 Apple: about {cap:AAPL*1}\n#3 Alphabet (Google): about {cap:GOOGL*1}\n#4 Microsoft: about {cap:MSFT*1}\n#5 Amazon: about {cap:AMZN*1}",
+ "comment": "Who will be #1 a year from now? 👇",
+ "tags": [
+  "#stocks",
+  "#business",
+  "#investing",
+  "#money",
+  "#top5",
+  "#companies"
+ ],
+ "sources": [
+  "Market values: Yahoo Finance, at render time"
+ ],
+ "scenes": [
+  {
+   "say": "The five most valuable companies on Earth, right now. Number one might surprise you.",
+   "photo": "city skyline night",
+   "big": "Top 5",
+   "sub": "by market value, October 2026"
+  },
+  {
+   "say": "Number 5. Amazon, worth about {cap:AMZN*1}.",
+   "photo": "cardboard boxes",
+   "big": "#5 Amazon",
+   "sub": "about {cap:AMZN*1}"
+  },
+  {
+   "say": "Number 4. Microsoft, worth about {cap:MSFT*1}.",
+   "photo": "office laptop",
+   "big": "#4 Microsoft",
+   "sub": "about {cap:MSFT*1}"
+  },
+  {
+   "say": "Number 3. Alphabet (Google), worth about {cap:GOOGL*1}.",
+   "photo": "search engine laptop",
+   "big": "#3 Alphabet (Google)",
+   "sub": "about {cap:GOOGL*1}"
+  },
+  {
+   "say": "Number 2. Apple, worth about {cap:AAPL*1}.",
+   "photo": "smartphone",
+   "big": "#2 Apple",
+   "sub": "about {cap:AAPL*1}"
+  },
+  {
+   "say": "Number 1. Nvidia, worth about {cap:NVDA*1}.",
+   "photo": "computer chip",
+   "big": "#1 Nvidia",
+   "sub": "about {cap:NVDA*1}"
+  },
+  {
+   "say": "Who will be number one next year?",
+   "photo": "trophy",
+   "big": "Next #1?",
+   "sub": "comment your guess"
+  }
+ ]
+}

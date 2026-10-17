@@ -1,0 +1,49 @@
+{
+ "id": "whatif_googl_2004",
+ "title": "$1,000 in Google in 2004 is now worth this",
+ "thumb": "$1,000 in Google 2004 = *{growth:GOOGL:2004-08-19}*",
+ "thumb_photo": "search engine laptop",
+ "thumb_tag": "WHAT IF",
+ "caption": "In 2004, Google was a search engine with ads.\n$1,000 in it then would be worth about {growth:GOOGL:2004-08-19} today (price growth only, no dividends).",
+ "comment": "What would you have done with Google in 2004? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#whatif",
+  "#finance",
+  "#compounding"
+ ],
+ "sources": [
+  "Google price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "In 2004, Google was a search engine with ads.",
+   "photo": "search engine laptop",
+   "clip": {
+    "kicker": "Mountain View",
+    "year": "2004",
+    "text": "Google: a search engine with ads"
+   }
+  },
+  {
+   "say": "Say you put in one thousand dollars.",
+   "photo": "dollar bills",
+   "big": "$1,000",
+   "sub": "2004"
+  },
+  {
+   "say": "Today, it would be worth about {growth:GOOGL:2004-08-19}.",
+   "photo": "stock market chart",
+   "big": "{growth:GOOGL:2004-08-19}",
+   "sub": "price growth since 2004"
+  },
+  {
+   "say": "Time in the market does the heavy lifting.",
+   "photo": "hourglass",
+   "big": "Time",
+   "sub": "the real ingredient"
+  }
+ ]
+}

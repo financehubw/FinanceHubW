@@ -558,6 +558,270 @@
    "thumb": "Coffee could cost you *$1 million*",
    "thumb_photo": "latte coffee",
    "thumb_tag": "COMPOUNDING"
+  },
+  {
+   "file": "monthly_cost_2000.mp4",
+   "title": "$100 a month into Costco since 2000 is now worth this",
+   "caption": "$100 every month into Costco since 2000.\nToday that would be worth about $386,172 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Costco since 2000 = *$386,172*",
+   "thumb_photo": "warehouse store",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Costco price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_meta_2012.mp4",
+   "title": "$100 a month into Facebook since 2012 is now worth this",
+   "caption": "$100 every month into Facebook since 2012.\nToday that would be worth about $114,524 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Facebook since 2012 = *$114,524*",
+   "thumb_photo": "social media phone",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Facebook price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_nke_1990.mp4",
+   "title": "$100 a month into Nike since 1990 is now worth this",
+   "caption": "$100 every month into Nike since 1990.\nToday that would be worth about $257,403 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Nike since 1990 = *$257,403*",
+   "thumb_photo": "running shoes",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Nike price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "race_big_tech_2015.mp4",
+   "title": "$1,000 in each since 2015: who wins?",
+   "caption": "Big Tech race since 2015. $1,000 in each in 2015.\nWinner: Nvidia, now about $425,494.\nLast: Microsoft, about $11,314.\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#race",
+    "#dataviz"
+   ],
+   "comment": "Did you guess the winner? 👇",
+   "thumb": "$1,000 since 2015: *who wins?*",
+   "thumb_photo": "technology",
+   "thumb_tag": "RACE",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "race_btc_sp_gold_cash.mp4",
+   "title": "$1,000 in each since 2015: who wins?",
+   "caption": "Bitcoin, stocks, gold or cash?. $1,000 in each in 2015.\nWinner: Bitcoin, now about $258,834.\nLast: Cash, about $1,000.\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#race",
+    "#dataviz"
+   ],
+   "comment": "Did you guess the winner? 👇",
+   "thumb": "$1,000 since 2015: *who wins?*",
+   "thumb_photo": "bitcoin gold",
+   "thumb_tag": "RACE",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "top5_companies_2026_10.mp4",
+   "title": "The 5 most valuable companies in the world (October 2026)",
+   "caption": "The 5 most valuable companies in the world right now, by market value:\n#1 Nvidia: about $5.2 trillion\n#2 Apple: about $5 trillion\n#3 Alphabet (Google): about $4.2 trillion\n#4 Microsoft: about $3.9 trillion\n#5 Amazon: about $2.7 trillion",
+   "tags": [
+    "#stocks",
+    "#business",
+    "#investing",
+    "#money",
+    "#top5",
+    "#companies"
+   ],
+   "comment": "Who will be #1 a year from now? 👇",
+   "thumb": "World's *TOP 5* companies",
+   "thumb_photo": "city skyline night",
+   "thumb_tag": "COUNTDOWN",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Market values: Yahoo Finance, at render time"
+   ]
+  },
+  {
+   "file": "vs_aapl_msft_2015.mp4",
+   "title": "Apple vs Microsoft: $1,000 in 2015, who wins?",
+   "caption": "$1,000 in Apple or Microsoft in 2015?\nApple: about $12,566\nMicrosoft: about $11,314\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#apple"
+   ],
+   "comment": "Team Apple or team Microsoft? 👇",
+   "thumb": "Apple vs Microsoft: *who won?*",
+   "thumb_photo": "smartphone",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_ko_pep_2010.mp4",
+   "title": "Coca-Cola vs Pepsi: $1,000 in 2010, who wins?",
+   "caption": "$1,000 in Coca-Cola or Pepsi in 2010?\nCoca-Cola: about $3,292\nPepsi: about $2,147\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#coca-cola"
+   ],
+   "comment": "Team Coca-Cola or team Pepsi? 👇",
+   "thumb": "Coca-Cola vs Pepsi: *who won?*",
+   "thumb_photo": "stock market",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_v_ma_2010.mp4",
+   "title": "Visa vs Mastercard: $1,000 in 2010, who wins?",
+   "caption": "$1,000 in Visa or Mastercard in 2010?\nMastercard: about $24,039\nVisa: about $18,271\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#visa"
+   ],
+   "comment": "Team Visa or team Mastercard? 👇",
+   "thumb": "Visa vs Mastercard: *who won?*",
+   "thumb_photo": "credit card",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_googl_2004.mp4",
+   "title": "$1,000 in Google in 2004 is now worth this",
+   "caption": "In 2004, Google was a search engine with ads.\n$1,000 in it then would be worth about $135,639 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Google in 2004? 👇",
+   "thumb": "$1,000 in Google 2004 = *$135,639*",
+   "thumb_photo": "search engine laptop",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Google price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_nflx_2002.mp4",
+   "title": "$1,000 in Netflix in 2002 is now worth this",
+   "caption": "In 2002, Netflix was mailing DVDs.\n$1,000 in it then would be worth about $589,504 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Netflix in 2002? 👇",
+   "thumb": "$1,000 in Netflix 2002 = *$589,504*",
+   "thumb_photo": "dvd envelope",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Netflix price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_sbux_1992.mp4",
+   "title": "$1,000 in Starbucks in 1992 is now worth this",
+   "caption": "In 1992, Starbucks was a coffee chain.\n$1,000 in it then would be worth about $290,292 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Starbucks in 1992? 👇",
+   "thumb": "$1,000 in Starbucks 1992 = *$290,292*",
+   "thumb_photo": "coffee shop",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Starbucks price history, Yahoo Finance (split-adjusted), at render time"
+   ]
   }
  ]
 }
