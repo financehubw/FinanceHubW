@@ -124,6 +124,18 @@
     "Instagram": "container not created: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AsO6VmHNnRvlmPAYeyghtwr'}",
     "Facebook": "no Page token: {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AyzlpIdYyusJPXRLF3tYYpD'}"
    }
+  },
+  {
+   "file": "netflix_blockbuster.mp4",
+   "title": "Blockbuster could have bought Netflix for $50 million",
+   "date": "2026-10-17T14:03:40Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/kOdjU6X2fjw",
+    "Instagram": "17937597264127925",
+    "Facebook": "1096917819932352"
+   },
+   "failed": [],
+   "errors": {}
   }
  ]
 }
