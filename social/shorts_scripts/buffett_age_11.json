@@ -1,0 +1,55 @@
+{
+ "id": "buffett_age_11",
+ "title": "Warren Buffett's first stock taught him this",
+ "thumb": "Buffett's first stock at *AGE 11*",
+ "thumb_photo": "stock certificate",
+ "thumb_tag": "INVESTING LESSON",
+ "caption": "At 11, Warren Buffett bought 3 shares of Cities Service at about $38.\nThey fell to $27. When they got back to $40, he sold.\nSoon after, they climbed to about $200. His lesson: patience.",
+ "comment": "What's the best investing lesson you learned the hard way? 👇",
+ "tags": [
+  "#warrenbuffett",
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#patience"
+ ],
+ "sources": [
+  "Alice Schroeder, The Snowball: Warren Buffett and the Business of Life (2008)"
+ ],
+ "scenes": [
+  {
+   "say": "Warren Buffett bought his first stock when he was eleven.",
+   "photo": "stock certificate",
+   "clip": {
+    "kicker": "Omaha",
+    "year": "1942",
+    "text": "Three shares of Cities Service"
+   }
+  },
+  {
+   "say": "He paid about thirty-eight dollars a share.",
+   "photo": "old coins",
+   "big": "$38",
+   "sub": "per share, age 11"
+  },
+  {
+   "say": "It fell to twenty-seven. When it got back to forty, he sold.",
+   "photo": "stock market chart",
+   "big": "$40",
+   "sub": "he sold for a tiny profit"
+  },
+  {
+   "say": "Soon after, it shot up to about two hundred dollars.",
+   "photo": "rising graph",
+   "big": "$200",
+   "sub": "the price after he sold"
+  },
+  {
+   "say": "His lesson... be patient.",
+   "photo": "hourglass",
+   "big": "Patience",
+   "sub": "Warren Buffett's first lesson"
+  }
+ ]
+}

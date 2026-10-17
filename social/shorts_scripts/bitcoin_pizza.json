@@ -1,0 +1,57 @@
+{
+ "id": "bitcoin_pizza",
+ "title": "The most expensive pizza ever bought",
+ "thumb": "Two pizzas cost *10,000 BTC*",
+ "thumb_photo": "pizza",
+ "thumb_tag": "CRYPTO HISTORY",
+ "caption": "On May 22, 2010, a programmer paid 10,000 bitcoin for two pizzas, about $41 at the time.\nToday those coins are worth about {price:BTC-USD*10000}.\nMay 22 is now Bitcoin Pizza Day.",
+ "comment": "Would you have spent it on pizza? 🍕👇",
+ "tags": [
+  "#bitcoin",
+  "#crypto",
+  "#btc",
+  "#money",
+  "#investing",
+  "#history"
+ ],
+ "sources": [
+  "BitcoinTalk forum, Laszlo Hanyecz, May 2010",
+  "CoinDesk: Bitcoin Pizza Day",
+  "BTC price: Yahoo Finance, at render time"
+ ],
+ "scenes": [
+  {
+   "say": "On May twenty-second, twenty ten, a man paid for two pizzas with bitcoin.",
+   "photo": "pizza",
+   "clip": {
+    "kicker": "Florida",
+    "year": "2010",
+    "text": "Two pizzas, paid in bitcoin"
+   }
+  },
+  {
+   "say": "He paid ten thousand bitcoin.",
+   "photo": "bitcoin coin",
+   "big": "10,000 BTC",
+   "sub": "for two pizzas"
+  },
+  {
+   "say": "Back then, that was about forty-one dollars.",
+   "photo": "pizza slice",
+   "big": "$41",
+   "sub": "the value in May 2010"
+  },
+  {
+   "say": "Today, those coins are worth about {price:BTC-USD*10000}.",
+   "photo": "bitcoin gold",
+   "big": "{price:BTC-USD*10000}",
+   "sub": "10,000 BTC at today's price"
+  },
+  {
+   "say": "May twenty-second is now called Bitcoin Pizza Day.",
+   "photo": "pizza party",
+   "big": "Pizza Day",
+   "sub": "every May 22"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+name: Make Shorts
+
+# Renders new voiced Shorts from social/shorts_scripts/*.json (free: edge-tts voice, Pixabay photos,
+# live prices from Yahoo Finance) and adds them to the posting queue. Runs Mondays, or on demand.
+on:
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Script names to (re)render, space separated (empty = all new ones)"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: make-shorts
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: pip install -q requests pillow numpy scipy yfinance edge-tts
+      - name: Render
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          mkdir -p docs
+          python social/shorts_factory.py ${{ inputs.only }} 2>&1 | tee docs/make_shorts.log
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "FinanceHubW"
+          git config user.email "bot@financehubw.invalid"
+          git add docs/make_shorts.log social/queue.json site/media/shorts 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "New Shorts rendered"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep 5
+          done
+          exit 1

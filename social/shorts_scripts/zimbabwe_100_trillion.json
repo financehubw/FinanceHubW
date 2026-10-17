@@ -1,0 +1,56 @@
+{
+ "id": "zimbabwe_100_trillion",
+ "title": "The 100 trillion dollar banknote",
+ "thumb": "A *100 TRILLION* dollar note",
+ "thumb_photo": "banknotes",
+ "thumb_tag": "HYPERINFLATION",
+ "caption": "In 2009, Zimbabwe printed a 100 trillion dollar note.\nIn late 2008, prices were doubling about every day.\nWithin months, the country stopped using its own currency.",
+ "comment": "Could this happen to any currency? 👇",
+ "tags": [
+  "#inflation",
+  "#money",
+  "#economics",
+  "#history",
+  "#finance",
+  "#zimbabwe"
+ ],
+ "sources": [
+  "Steve Hanke & Nicholas Krus, World Hyperinflations (Cato Institute, 2012)",
+  "Reserve Bank of Zimbabwe, 2009"
+ ],
+ "scenes": [
+  {
+   "say": "In two thousand nine, Zimbabwe printed a one hundred trillion dollar banknote.",
+   "photo": "banknotes",
+   "big": "100 trillion",
+   "sub": "Zimbabwe dollars, one note"
+  },
+  {
+   "say": "In late two thousand eight, prices were doubling about every day.",
+   "photo": "supermarket",
+   "clip": {
+    "kicker": "Harare",
+    "year": "2008",
+    "text": "Prices double in about 24 hours"
+   }
+  },
+  {
+   "say": "Savings were wiped out.",
+   "photo": "empty wallet",
+   "big": "$0",
+   "sub": "what savings became"
+  },
+  {
+   "say": "Within months, the country stopped using its own currency.",
+   "photo": "us dollars",
+   "big": "2009",
+   "sub": "the Zimbabwe dollar is set aside"
+  },
+  {
+   "say": "That's what runaway inflation does.",
+   "photo": "burning paper",
+   "big": "Inflation",
+   "sub": "the silent tax, at full speed"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "netflix_blockbuster",
+ "title": "Blockbuster could have bought Netflix for $50 million",
+ "thumb": "Netflix was for sale for *$50M*",
+ "thumb_photo": "dvd video store",
+ "thumb_tag": "BIGGEST MISTAKE",
+ "caption": "In 2000, Netflix offered to sell itself to Blockbuster for $50 million.\nBlockbuster said no. Ten years later it filed for bankruptcy.\nToday Netflix is worth about {cap:NFLX*1}.",
+ "comment": "Would you have bought Netflix for $50 million in 2000? 👇",
+ "tags": [
+  "#netflix",
+  "#business",
+  "#investing",
+  "#money",
+  "#finance",
+  "#history"
+ ],
+ "sources": [
+  "Marc Randolph, That Will Never Work (2019): the $50M offer",
+  "Blockbuster Chapter 11 filing, September 2010",
+  "Netflix market value: Yahoo Finance, at render time"
+ ],
+ "scenes": [
+  {
+   "say": "In two thousand, Netflix offered to sell itself to Blockbuster.",
+   "photo": "dvd video store",
+   "clip": {
+    "kicker": "Dallas, Texas",
+    "year": "2000",
+    "text": "Netflix offers itself to Blockbuster"
+   }
+  },
+  {
+   "say": "The price? Fifty million dollars.",
+   "photo": "dollar bills stack",
+   "big": "$50 million",
+   "sub": "the asking price in 2000"
+  },
+  {
+   "say": "Blockbuster turned it down.",
+   "photo": "closed sign shop",
+   "clip": {
+    "kicker": "Blockbuster",
+    "year": "2000",
+    "text": "\"No thanks.\""
+   }
+  },
+  {
+   "say": "Ten years later, Blockbuster filed for bankruptcy.",
+   "photo": "empty store",
+   "big": "2010",
+   "sub": "Blockbuster files for bankruptcy"
+  },
+  {
+   "say": "Today, Netflix is worth about {cap:NFLX*1}.",
+   "photo": "streaming tv remote",
+   "big": "{cap:NFLX*1}",
+   "sub": "Netflix's market value today"
+  },
+  {
+   "say": "The costliest word in business... is no.",
+   "photo": "chess board",
+   "big": "\"No.\"",
+   "sub": "the $50 million decision"
+  }
+ ]
+}

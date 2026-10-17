@@ -1,0 +1,49 @@
+{
+ "id": "apple_ipo",
+ "title": "$1,000 in Apple's first trading day is now worth this",
+ "thumb": "$1,000 in Apple 1980 = *{growth:AAPL:1980-12-12}*",
+ "thumb_photo": "apple computer",
+ "thumb_tag": "WHAT IF",
+ "caption": "Apple started trading in 1980.\n$1,000 at the first day's closing price would be worth about {growth:AAPL:1980-12-12} today (share price only, no dividends).",
+ "comment": "Which company would you go back in time to buy? 👇",
+ "tags": [
+  "#apple",
+  "#stocks",
+  "#investing",
+  "#money",
+  "#finance",
+  "#whatif"
+ ],
+ "sources": [
+  "Apple share price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "In 1980, Apple sold its first shares to the public.",
+   "photo": "apple computer",
+   "clip": {
+    "kicker": "Cupertino",
+    "year": "1980",
+    "text": "Apple lists on the stock market"
+   }
+  },
+  {
+   "say": "Imagine putting in one thousand dollars on day one.",
+   "photo": "dollar bills",
+   "big": "$1,000",
+   "sub": "first day, 1980"
+  },
+  {
+   "say": "Today, that would be worth about {growth:AAPL:1980-12-12}.",
+   "photo": "stock market chart",
+   "big": "{growth:AAPL:1980-12-12}",
+   "sub": "share price growth since 1980"
+  },
+  {
+   "say": "The hardest part? Holding on.",
+   "photo": "hourglass",
+   "big": "Hold",
+   "sub": "through every crash in between"
+  }
+ ]
+}

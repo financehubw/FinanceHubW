@@ -1,0 +1,49 @@
+{
+ "id": "nvidia_2016",
+ "title": "$1,000 in Nvidia in 2016 is now worth this",
+ "thumb": "$1,000 in Nvidia 2016 = *{growth:NVDA:2016-01-04}*",
+ "thumb_photo": "graphics card",
+ "thumb_tag": "WHAT IF",
+ "caption": "In January 2016, Nvidia mostly made graphics cards for gamers.\n$1,000 in its shares then would be worth about {growth:NVDA:2016-01-04} today (share price only, no dividends).",
+ "comment": "What will be the next Nvidia? 👇",
+ "tags": [
+  "#nvidia",
+  "#ai",
+  "#stocks",
+  "#investing",
+  "#money",
+  "#tech"
+ ],
+ "sources": [
+  "NVIDIA share price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "In January twenty sixteen, Nvidia mostly made graphics cards for gamers.",
+   "photo": "graphics card",
+   "clip": {
+    "kicker": "Santa Clara",
+    "year": "2016",
+    "text": "Chipmaker known for gaming cards"
+   }
+  },
+  {
+   "say": "Say you put one thousand dollars into its shares.",
+   "photo": "dollar bills",
+   "big": "$1,000",
+   "sub": "January 2016"
+  },
+  {
+   "say": "Today, that would be worth about {growth:NVDA:2016-01-04}.",
+   "photo": "computer chip",
+   "big": "{growth:NVDA:2016-01-04}",
+   "sub": "share price growth since Jan 2016"
+  },
+  {
+   "say": "Then artificial intelligence changed everything.",
+   "photo": "data center servers",
+   "big": "AI",
+   "sub": "the demand nobody expected"
+  }
+ ]
+}

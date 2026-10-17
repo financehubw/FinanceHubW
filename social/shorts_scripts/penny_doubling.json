@@ -1,0 +1,52 @@
+{
+ "id": "penny_doubling",
+ "title": "A penny doubled for 30 days vs $1 million",
+ "thumb": "A penny doubled = *$5.37M*",
+ "thumb_photo": "penny coins",
+ "thumb_tag": "COMPOUNDING",
+ "caption": "A penny that doubles every day for 30 days:\nDay 10: $5.12\nDay 20: $5,243\nDay 30: $5.37 million.\nThat's compounding. The last days do most of the work.",
+ "comment": "Be honest: would you have picked the million? 👇",
+ "tags": [
+  "#compounding",
+  "#money",
+  "#investing",
+  "#finance",
+  "#math",
+  "#wealth"
+ ],
+ "sources": [
+  "Math: $0.01 × 2^(day − 1)"
+ ],
+ "scenes": [
+  {
+   "say": "A million dollars today... or a penny that doubles every day for thirty days?",
+   "photo": "penny coins",
+   "big": "$0.01",
+   "sub": "day 1"
+  },
+  {
+   "say": "Day ten. Five dollars and twelve cents.",
+   "photo": "coins jar",
+   "big": "$5.12",
+   "sub": "day 10"
+  },
+  {
+   "say": "Day twenty. About five thousand dollars.",
+   "photo": "dollar bills",
+   "big": "$5,243",
+   "sub": "day 20"
+  },
+  {
+   "say": "Day thirty. Over five point three million dollars.",
+   "photo": "money stack",
+   "big": "$5.37 million",
+   "sub": "day 30"
+  },
+  {
+   "say": "That's compounding. The last days do most of the work.",
+   "photo": "calendar",
+   "big": "Compounding",
+   "sub": "time does the heavy lifting"
+  }
+ ]
+}

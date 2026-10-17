@@ -1,0 +1,57 @@
+{
+ "id": "ronald_wayne",
+ "title": "Apple's forgotten co-founder sold 10% for $800",
+ "thumb": "He sold 10% of Apple for *$800*",
+ "thumb_photo": "vintage computer",
+ "thumb_tag": "FORGOTTEN FOUNDER",
+ "caption": "Apple had three founders in 1976. Ronald Wayne owned 10%.\nTwelve days later he sold his stake for $800.\n10% of Apple's value today is about {cap:AAPL*0.10}.",
+ "comment": "Would you have kept the 10%? Be honest 👇",
+ "tags": [
+  "#apple",
+  "#stevejobs",
+  "#business",
+  "#money",
+  "#investing",
+  "#history"
+ ],
+ "sources": [
+  "Apple Computer partnership agreement, 1 April 1976",
+  "Ronald Wayne interviews (Reuters 2011, BBC 2013): sold for $800, no regrets",
+  "Apple market value: Yahoo Finance, at render time"
+ ],
+ "scenes": [
+  {
+   "say": "In nineteen seventy-six, Apple had three founders. You know two of them.",
+   "photo": "vintage computer",
+   "clip": {
+    "kicker": "Apple Computer",
+    "year": "1976",
+    "text": "Jobs, Wozniak... and Ronald Wayne"
+   }
+  },
+  {
+   "say": "Ronald Wayne owned ten percent of the company.",
+   "photo": "old office desk",
+   "big": "10%",
+   "sub": "Ronald Wayne's share of Apple"
+  },
+  {
+   "say": "Twelve days later, he sold it back for eight hundred dollars.",
+   "photo": "old dollar bills",
+   "big": "$800",
+   "sub": "twelve days after signing"
+  },
+  {
+   "say": "Ten percent of Apple today is worth about {cap:AAPL*0.10}.",
+   "photo": "apple store",
+   "big": "{cap:AAPL*0.10}",
+   "sub": "10% of Apple's market value today"
+  },
+  {
+   "say": "He has said he doesn't regret it.",
+   "photo": "old man portrait silhouette",
+   "big": "No regrets",
+   "sub": "Ronald Wayne, in interviews"
+  }
+ ]
+}

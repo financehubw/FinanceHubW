@@ -1,0 +1,52 @@
+{
+ "id": "one_percent_fee",
+ "title": "A 1% fee costs more than you think",
+ "thumb": "A 1% fee cost *$186,876*",
+ "thumb_photo": "calculator",
+ "thumb_tag": "HIDDEN COST",
+ "caption": "$100,000 invested for 30 years:\nAt 7% a year: $761,226\nAt 6% (after a 1% fee): $574,349\nThat 1% fee cost $186,876.\nAlways check the fees.",
+ "comment": "Do you know what fees you pay? 👇",
+ "tags": [
+  "#investing",
+  "#fees",
+  "#money",
+  "#personalfinance",
+  "#finance",
+  "#mutualfunds"
+ ],
+ "sources": [
+  "Math: 100,000 × 1.07^30 and 100,000 × 1.06^30"
+ ],
+ "scenes": [
+  {
+   "say": "A one percent fee sounds tiny.",
+   "photo": "calculator",
+   "big": "1%",
+   "sub": "sounds small"
+  },
+  {
+   "say": "Invest one hundred thousand dollars for thirty years at seven percent.",
+   "photo": "money stack",
+   "big": "$761,226",
+   "sub": "at 7% a year"
+  },
+  {
+   "say": "Now pay one percent in fees, so you earn six.",
+   "photo": "coins",
+   "big": "$574,349",
+   "sub": "at 6% a year"
+  },
+  {
+   "say": "That one percent fee cost you about a hundred and eighty-seven thousand dollars.",
+   "photo": "empty wallet",
+   "big": "$186,876",
+   "sub": "lost to a 1% fee"
+  },
+  {
+   "say": "Always check the fees.",
+   "photo": "magnifying glass",
+   "big": "Check fees",
+   "sub": "before you invest"
+  }
+ ]
+}

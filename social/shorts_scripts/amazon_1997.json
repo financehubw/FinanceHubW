@@ -1,0 +1,49 @@
+{
+ "id": "amazon_1997",
+ "title": "$1,000 in Amazon in 1997 is now worth this",
+ "thumb": "$1,000 in Amazon 1997 = *{growth:AMZN:1997-05-15}*",
+ "thumb_photo": "books stack",
+ "thumb_tag": "WHAT IF",
+ "caption": "Amazon listed its shares in May 1997, when it mostly sold books.\n$1,000 at the first day's closing price would be worth about {growth:AMZN:1997-05-15} today (share price only, no dividends).",
+ "comment": "Which stock do you wish you'd bought years ago? 👇",
+ "tags": [
+  "#amazon",
+  "#stocks",
+  "#investing",
+  "#money",
+  "#finance",
+  "#whatif"
+ ],
+ "sources": [
+  "Amazon.com share price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "In nineteen ninety-seven, Amazon was an online bookstore.",
+   "photo": "books stack",
+   "clip": {
+    "kicker": "Seattle",
+    "year": "1997",
+    "text": "Online bookstore lists on the stock market"
+   }
+  },
+  {
+   "say": "Imagine putting one thousand dollars into its shares on day one.",
+   "photo": "dollar bills",
+   "big": "$1,000",
+   "sub": "May 1997"
+  },
+  {
+   "say": "Today, that would be worth about {growth:AMZN:1997-05-15}.",
+   "photo": "delivery boxes",
+   "big": "{growth:AMZN:1997-05-15}",
+   "sub": "share price growth since May 1997"
+  },
+  {
+   "say": "Patience paid more than any tip ever could.",
+   "photo": "hourglass",
+   "big": "Time",
+   "sub": "the real ingredient"
+  }
+ ]
+}
