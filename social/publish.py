@@ -114,7 +114,7 @@ def post_instagram(item: dict, url: str) -> str:
     ig, tok = os.environ["IG_USER_ID"], os.environ["META_TOKEN"]
     c = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data={
         "media_type": "REELS", "video_url": url, "caption": caption_for(item),
-        "share_to_feed": "true", "access_token": tok,
+        "share_to_feed": "false", "access_token": tok,   # Reels tab only; the grid keeps posts
         **({"cover_url": f"{SITE_URL}/media/shorts/thumbs/{thumb_for(item).name}"} if thumb_for(item) else {})}).json()
     if "id" not in c:
         raise RuntimeError(f"container not created: {c.get('error', c)}")
