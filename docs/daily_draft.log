@@ -1,9 +1,15 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-109/171 sources returned news, 1445 recent items
-  writer Gemini unavailable: HTTP 404: { "error": { "code": 404, "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-  big: story #3 failed in 16s
-  big: story #8 failed in 37s
-  writer Gemini unavailable: HTTP 404: { "error": { "code": 404, "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-  big: story #14 failed in 17s
+35/171 sources returned news, 326 recent items
+  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+  big: story #15 failed in 243s
+  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+  big: story #4 failed in 244s
+  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
+  big: story #10 failed in 133s
 no story passed the checks for the big slide; nothing published
