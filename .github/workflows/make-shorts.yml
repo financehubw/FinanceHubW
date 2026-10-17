@@ -1,6 +1,6 @@
 name: Make Shorts
 
-# Renders new voiced Shorts from social/shorts_scripts/*.json (free: edge-tts voice, Pixabay photos,
+# Writes up to 12 new what-if scripts (code, live prices) and renders new voiced Shorts from social/shorts_scripts/*.json (free: edge-tts voice, Pixabay photos,
 # live prices from Yahoo Finance) and adds them to the posting queue. Runs Mondays, or on demand.
 on:
   schedule:
@@ -30,6 +30,9 @@ jobs:
           python-version: "3.12"
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
       - run: pip install -q requests pillow numpy scipy yfinance edge-tts
+      - name: Write this week's what-if scripts
+        if: github.event_name == 'schedule'
+        run: python social/whatif.py 12
       - name: Render
         env:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
@@ -42,7 +45,7 @@ jobs:
         run: |
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          git add docs/make_shorts.log social/queue.json site/media/shorts 2>/dev/null || true
+          git add docs/make_shorts.log social/queue.json social/shorts_scripts site/media/shorts 2>/dev/null || true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "New Shorts rendered"
           for i in 1 2 3; do

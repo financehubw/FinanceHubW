@@ -73,6 +73,12 @@ def resolve(text: str) -> str:
             tick, start = arg.split(":")
             h = yf.Ticker(tick).history(start=start, auto_adjust=False)["Close"].dropna()
             out = money(1000 * float(h.iloc[-1]) / float(h.iloc[0]))
+        elif kind == "dca":
+            tick, start = arg.split(":")
+            h = yf.Ticker(tick).history(start=start, auto_adjust=False)["Close"].dropna()
+            monthly = h.groupby([h.index.year, h.index.month]).head(1)   # first trading day of each month
+            shares = sum(100 / float(px) for px in monthly)
+            out = money(shares * float(h.iloc[-1]))
         elif kind == "price":
             tick, mult = arg.split("*")
             h = yf.Ticker(tick).history(period="5d")["Close"].dropna()
@@ -84,7 +90,7 @@ def resolve(text: str) -> str:
             raise ValueError(m.group(0))
         _cache[m.group(0)] = out
         return out
-    return re.sub(r"\{(growth|price|cap):([^}]+)\}", rep, text)
+    return re.sub(r"\{(growth|dca|price|cap):([^}]+)\}", rep, text)
 
 
 def deep_resolve(obj):
