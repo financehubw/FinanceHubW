@@ -1,3 +1,9 @@
+=== run 2026-10-17T22:54:16Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+66/171 sources returned news, 450 recent items
+85 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-17T20:57:55Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1492,9 +1498,3 @@ skip (off-topic or nothing new): Ahead of Market: 10 things that will decide sto
 https://economictimes.indiatimes.com/markets/commodities/silver-futures-plunge-4-on-mcx-ahead-of-us-cpi-rising-oil-adds-pressure/articleshow/134946048.cms
   written by Gemini
   Groq GPT-OSS: PASS - All factual statements about a 4% drop on MCX, caused by rising oil and a stronger dollar, are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the 4% drop, the reasons (rising oil, stronger dollar, US CPI caution), the exchange (MCX), and the source attribution are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-89fd4dae8ae3
-skip (off-topic or nothing new): Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma
----
