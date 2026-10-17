@@ -977,6 +977,282 @@
     "Blockbuster Chapter 11 filing, September 2010",
     "Netflix market value: Yahoo Finance, at render time"
    ]
+  },
+  {
+   "file": "monthly_adbe_2000.mp4",
+   "title": "$100 a month into Adobe since 2000 is now worth this",
+   "caption": "$100 every month into Adobe since 2000.\nToday that would be worth about $180,862 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Adobe since 2000 = *$180,862*",
+   "thumb_photo": "graphic design",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Adobe price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_ko_1990.mp4",
+   "title": "$100 a month into Coca-Cola since 1990 is now worth this",
+   "caption": "$100 every month into Coca-Cola since 1990.\nToday that would be worth about $180,634 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Coca-Cola since 1990 = *$180,634*",
+   "thumb_photo": "soda bottles",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Coca-Cola price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_nvda_2010.mp4",
+   "title": "$100 a month into Nvidia since 2010 is now worth this",
+   "caption": "$100 every month into Nvidia since 2010.\nToday that would be worth about $4.4 million (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Nvidia since 2010 = *$4.4 million*",
+   "thumb_photo": "gaming pc",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Nvidia price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "race_brands_2010.mp4",
+   "title": "$1,000 in each since 2010: who wins?",
+   "caption": "Famous brands race since 2010? $1,000 in each in 2010.\nWinner: Starbucks, now about $8,462.\nLast: Nike, about $2,273.\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#race",
+    "#dataviz"
+   ],
+   "comment": "Did you guess the winner? 👇",
+   "thumb": "$1,000 since 2010: *who wins?*",
+   "thumb_photo": "shopping street",
+   "thumb_tag": "RACE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "race_chips_2016.mp4",
+   "title": "$1,000 in each since 2016: who wins?",
+   "caption": "Chip makers since 2016? $1,000 in each in 2016.\nWinner: Nvidia, now about $264,603.\nLast: Intel, about $2,643.\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#race",
+    "#dataviz"
+   ],
+   "comment": "Did you guess the winner? 👇",
+   "thumb": "$1,000 since 2016: *who wins?*",
+   "thumb_photo": "computer chip",
+   "thumb_tag": "RACE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "race_safe_havens_2008.mp4",
+   "title": "$1,000 in each since 2008: who wins?",
+   "caption": "Since the 2008 crash? $1,000 in each in 2008.\nWinner: S&P 500, now about $5,266.\nLast: US bonds, about $848.\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#race",
+    "#dataviz"
+   ],
+   "comment": "Did you guess the winner? 👇",
+   "thumb": "$1,000 since 2008: *who wins?*",
+   "thumb_photo": "gold bars",
+   "thumb_tag": "RACE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_amzn_wmt_2010.mp4",
+   "title": "Amazon vs Walmart: $1,000 in 2010, who wins?",
+   "caption": "$1,000 in Amazon or Walmart in 2010?\nAmazon: about $37,341\nWalmart: about $6,573\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#amazon"
+   ],
+   "comment": "Team Amazon or team Walmart? 👇",
+   "thumb": "Amazon vs Walmart: *who won?*",
+   "thumb_photo": "cardboard boxes",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_btcusd_gld_2016.mp4",
+   "title": "Bitcoin vs Gold: $1,000 in 2016, who wins?",
+   "caption": "$1,000 in Bitcoin or Gold in 2016?\nBitcoin: about $187,519\nGold: about $3,713\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#bitcoin"
+   ],
+   "comment": "Team Bitcoin or team Gold? 👇",
+   "thumb": "Bitcoin vs Gold: *who won?*",
+   "thumb_photo": "stock market",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_gld_spy_2000.mp4",
+   "title": "Gold vs the S&P 500: $1,000 in 2000, who wins?",
+   "caption": "$1,000 in Gold or the S&P 500 in 2000?\nGold: about $8,608\nthe S&P 500: about $5,248\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#gold"
+   ],
+   "comment": "Team Gold or team the S&P 500? 👇",
+   "thumb": "Gold vs the S&P 500: *who won?*",
+   "thumb_photo": "stock market",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_amd_2016.mp4",
+   "title": "$1,000 in AMD in 2016 is now worth this",
+   "caption": "In 2016, AMD was a struggling chipmaker.\n$1,000 in it then would be worth about $190,884 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with AMD in 2016? 👇",
+   "thumb": "$1,000 in AMD 2016 = *$190,884*",
+   "thumb_photo": "computer processor",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "AMD price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_dis_1990.mp4",
+   "title": "$1,000 in Disney in 1990 is now worth this",
+   "caption": "In 1990, Disney was cartoons and theme parks.\n$1,000 in it then would be worth about $11,647 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Disney in 1990? 👇",
+   "thumb": "$1,000 in Disney 1990 = *$11,647*",
+   "thumb_photo": "theme park castle",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Disney price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_mcd_1990.mp4",
+   "title": "$1,000 in McDonald's in 1990 is now worth this",
+   "caption": "In 1990, McDonald's was selling burgers.\n$1,000 in it then would be worth about $27,868 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with McDonald's in 1990? 👇",
+   "thumb": "$1,000 in McDonald's 1990 = *$27,868*",
+   "thumb_photo": "burger fries",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "McDonald's price history, Yahoo Finance (split-adjusted), at render time"
+   ]
   }
  ]
 }

@@ -1,0 +1,66 @@
+{
+ "id": "vs_gld_spy_2000",
+ "title": "Gold vs the S&P 500: $1,000 in 2000, who wins?",
+ "thumb": "Gold vs the S&P 500: *who won?*",
+ "thumb_photo": "stock market",
+ "thumb_tag": "VS",
+ "caption": "$1,000 in Gold or the S&P 500 in 2000?\nGold: about {growth:GLD:2000-01-03}\nthe S&P 500: about {growth:SPY:2000-01-03}\n(Price growth only, no dividends.)",
+ "comment": "Team Gold or team the S&P 500? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#versus",
+  "#gold"
+ ],
+ "sources": [
+  "Yahoo Finance price history (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "Gold or the S&P 500? One thousand dollars each, in 2000. Pick one before the reveal.",
+   "photo": "stock market",
+   "quiz": {
+    "q": "Which is worth more today?",
+    "a": "Gold",
+    "b": "the S&P 500"
+   }
+  },
+  {
+   "say": "Here's how those two thousand dollars played out, year by year.",
+   "versus": {
+    "start": "2000-01-03",
+    "a": [
+     "GLD",
+     "Gold"
+    ],
+    "b": [
+     "SPY",
+     "the S&P 500"
+    ]
+   }
+  },
+  {
+   "say": "Gold wins, at about {growth:GLD:2000-01-03}, against {growth:SPY:2000-01-03}.",
+   "versus": {
+    "start": "2000-01-03",
+    "a": [
+     "GLD",
+     "Gold"
+    ],
+    "b": [
+     "SPY",
+     "the S&P 500"
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Did you pick the winner?",
+   "photo": "trophy",
+   "big": "Your pick?",
+   "sub": "comment A or B"
+  }
+ ]
+}

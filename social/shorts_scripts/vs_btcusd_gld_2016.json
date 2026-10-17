@@ -1,0 +1,66 @@
+{
+ "id": "vs_btcusd_gld_2016",
+ "title": "Bitcoin vs Gold: $1,000 in 2016, who wins?",
+ "thumb": "Bitcoin vs Gold: *who won?*",
+ "thumb_photo": "stock market",
+ "thumb_tag": "VS",
+ "caption": "$1,000 in Bitcoin or Gold in 2016?\nBitcoin: about {growth:BTC-USD:2016-01-01}\nGold: about {growth:GLD:2016-01-01}\n(Price growth only, no dividends.)",
+ "comment": "Team Bitcoin or team Gold? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#versus",
+  "#bitcoin"
+ ],
+ "sources": [
+  "Yahoo Finance price history (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "Bitcoin or Gold? One thousand dollars each, in 2016. Pick one before the reveal.",
+   "photo": "stock market",
+   "quiz": {
+    "q": "Which is worth more today?",
+    "a": "Bitcoin",
+    "b": "Gold"
+   }
+  },
+  {
+   "say": "Here's how those two thousand dollars played out, year by year.",
+   "versus": {
+    "start": "2016-01-01",
+    "a": [
+     "BTC-USD",
+     "Bitcoin"
+    ],
+    "b": [
+     "GLD",
+     "Gold"
+    ]
+   }
+  },
+  {
+   "say": "Bitcoin wins, at about {growth:BTC-USD:2016-01-01}, against {growth:GLD:2016-01-01}.",
+   "versus": {
+    "start": "2016-01-01",
+    "a": [
+     "BTC-USD",
+     "Bitcoin"
+    ],
+    "b": [
+     "GLD",
+     "Gold"
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Did you pick the winner?",
+   "photo": "trophy",
+   "big": "Your pick?",
+   "sub": "comment A or B"
+  }
+ ]
+}

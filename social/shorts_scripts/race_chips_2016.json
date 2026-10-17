@@ -1,0 +1,86 @@
+{
+ "id": "race_chips_2016",
+ "title": "$1,000 in each since 2016: who wins?",
+ "thumb": "$1,000 since 2016: *who wins?*",
+ "thumb_photo": "computer chip",
+ "thumb_tag": "RACE",
+ "caption": "Chip makers since 2016? $1,000 in each in 2016.\nWinner: Nvidia, now about {growth:NVDA:2016-01-04}.\nLast: Intel, about {growth:INTC:2016-01-04}.\n(Price growth only, no dividends.)",
+ "comment": "Did you guess the winner? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#race",
+  "#dataviz"
+ ],
+ "sources": [
+  "Yahoo Finance price history (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One thousand dollars in each, back in 2016. Guess the winner.",
+   "photo": "computer chip",
+   "quiz": {
+    "q": "Which grew the most?",
+    "a": "Nvidia",
+    "b": "AMD"
+   }
+  },
+  {
+   "say": "Watch the race. Every bar is one thousand dollars, growing year by year.",
+   "race": {
+    "start": "2016-01-04",
+    "items": [
+     [
+      "NVDA",
+      "Nvidia"
+     ],
+     [
+      "AMD",
+      "AMD"
+     ],
+     [
+      "TSM",
+      "TSMC"
+     ],
+     [
+      "INTC",
+      "Intel"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Nvidia wins, at about {growth:NVDA:2016-01-04}. Intel comes last, at about {growth:INTC:2016-01-04}.",
+   "race": {
+    "start": "2016-01-04",
+    "items": [
+     [
+      "NVDA",
+      "Nvidia"
+     ],
+     [
+      "AMD",
+      "AMD"
+     ],
+     [
+      "TSM",
+      "TSMC"
+     ],
+     [
+      "INTC",
+      "Intel"
+     ]
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Which one would you have picked?",
+   "photo": "thinking person",
+   "big": "Your pick?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

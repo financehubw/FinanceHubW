@@ -1,0 +1,49 @@
+{
+ "id": "monthly_ko_1990",
+ "title": "$100 a month into Coca-Cola since 1990 is now worth this",
+ "thumb": "$100/month in Coca-Cola since 1990 = *{dca:KO:1990-01-02}*",
+ "thumb_photo": "soda bottles",
+ "thumb_tag": "MONTHLY HABIT",
+ "caption": "$100 every month into Coca-Cola since 1990.\nToday that would be worth about {dca:KO:1990-01-02} (price growth only, no dividends).",
+ "comment": "Could you put away $100 a month? 👇",
+ "tags": [
+  "#investing",
+  "#sip",
+  "#money",
+  "#stocks",
+  "#finance",
+  "#habits"
+ ],
+ "sources": [
+  "Coca-Cola price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One hundred dollars a month, into Coca-Cola, starting in 1990.",
+   "photo": "soda bottles",
+   "big": "$100",
+   "sub": "every month since 1990"
+  },
+  {
+   "say": "Back then, Coca-Cola was selling soda.",
+   "photo": "soda bottles",
+   "clip": {
+    "kicker": "Atlanta",
+    "year": "1990",
+    "text": "Coca-Cola: selling soda"
+   }
+  },
+  {
+   "say": "Today, those monthly payments would be worth about {dca:KO:1990-01-02}.",
+   "photo": "piggy bank coins",
+   "big": "{dca:KO:1990-01-02}",
+   "sub": "$100 a month, every month"
+  },
+  {
+   "say": "Small, boring, every month. That's how wealth is built.",
+   "photo": "calendar",
+   "big": "Every month",
+   "sub": "the habit that compounds"
+  }
+ ]
+}

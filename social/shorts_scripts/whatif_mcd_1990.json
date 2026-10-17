@@ -1,0 +1,49 @@
+{
+ "id": "whatif_mcd_1990",
+ "title": "$1,000 in McDonald's in 1990 is now worth this",
+ "thumb": "$1,000 in McDonald's 1990 = *{growth:MCD:1990-01-02}*",
+ "thumb_photo": "burger fries",
+ "thumb_tag": "WHAT IF",
+ "caption": "In 1990, McDonald's was selling burgers.\n$1,000 in it then would be worth about {growth:MCD:1990-01-02} today (price growth only, no dividends).",
+ "comment": "What would you have done with McDonald's in 1990? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#whatif",
+  "#finance",
+  "#compounding"
+ ],
+ "sources": [
+  "McDonald's price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "In 1990, McDonald's was selling burgers.",
+   "photo": "burger fries",
+   "clip": {
+    "kicker": "Chicago",
+    "year": "1990",
+    "text": "McDonald's: selling burgers"
+   }
+  },
+  {
+   "say": "Say you put in one thousand dollars.",
+   "photo": "dollar bills",
+   "big": "$1,000",
+   "sub": "1990"
+  },
+  {
+   "say": "Today, it would be worth about {growth:MCD:1990-01-02}.",
+   "photo": "stock market chart",
+   "big": "{growth:MCD:1990-01-02}",
+   "sub": "price growth since 1990"
+  },
+  {
+   "say": "Time in the market does the heavy lifting.",
+   "photo": "hourglass",
+   "big": "Time",
+   "sub": "the real ingredient"
+  }
+ ]
+}

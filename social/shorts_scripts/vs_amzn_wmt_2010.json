@@ -1,0 +1,66 @@
+{
+ "id": "vs_amzn_wmt_2010",
+ "title": "Amazon vs Walmart: $1,000 in 2010, who wins?",
+ "thumb": "Amazon vs Walmart: *who won?*",
+ "thumb_photo": "cardboard boxes",
+ "thumb_tag": "VS",
+ "caption": "$1,000 in Amazon or Walmart in 2010?\nAmazon: about {growth:AMZN:2010-01-04}\nWalmart: about {growth:WMT:2010-01-04}\n(Price growth only, no dividends.)",
+ "comment": "Team Amazon or team Walmart? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#versus",
+  "#amazon"
+ ],
+ "sources": [
+  "Yahoo Finance price history (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "Amazon or Walmart? One thousand dollars each, in 2010. Pick one before the reveal.",
+   "photo": "cardboard boxes",
+   "quiz": {
+    "q": "Which is worth more today?",
+    "a": "Amazon",
+    "b": "Walmart"
+   }
+  },
+  {
+   "say": "Here's how those two thousand dollars played out, year by year.",
+   "versus": {
+    "start": "2010-01-04",
+    "a": [
+     "AMZN",
+     "Amazon"
+    ],
+    "b": [
+     "WMT",
+     "Walmart"
+    ]
+   }
+  },
+  {
+   "say": "Amazon wins, at about {growth:AMZN:2010-01-04}, against {growth:WMT:2010-01-04}.",
+   "versus": {
+    "start": "2010-01-04",
+    "a": [
+     "AMZN",
+     "Amazon"
+    ],
+    "b": [
+     "WMT",
+     "Walmart"
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Did you pick the winner?",
+   "photo": "trophy",
+   "big": "Your pick?",
+   "sub": "comment A or B"
+  }
+ ]
+}

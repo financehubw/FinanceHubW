@@ -1,0 +1,49 @@
+{
+ "id": "monthly_adbe_2000",
+ "title": "$100 a month into Adobe since 2000 is now worth this",
+ "thumb": "$100/month in Adobe since 2000 = *{dca:ADBE:2000-01-03}*",
+ "thumb_photo": "graphic design",
+ "thumb_tag": "MONTHLY HABIT",
+ "caption": "$100 every month into Adobe since 2000.\nToday that would be worth about {dca:ADBE:2000-01-03} (price growth only, no dividends).",
+ "comment": "Could you put away $100 a month? 👇",
+ "tags": [
+  "#investing",
+  "#sip",
+  "#money",
+  "#stocks",
+  "#finance",
+  "#habits"
+ ],
+ "sources": [
+  "Adobe price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One hundred dollars a month, into Adobe, starting in 2000.",
+   "photo": "graphic design",
+   "big": "$100",
+   "sub": "every month since 2000"
+  },
+  {
+   "say": "Back then, Adobe was making Photoshop.",
+   "photo": "graphic design",
+   "clip": {
+    "kicker": "San Jose",
+    "year": "2000",
+    "text": "Adobe: making Photoshop"
+   }
+  },
+  {
+   "say": "Today, those monthly payments would be worth about {dca:ADBE:2000-01-03}.",
+   "photo": "piggy bank coins",
+   "big": "{dca:ADBE:2000-01-03}",
+   "sub": "$100 a month, every month"
+  },
+  {
+   "say": "Small, boring, every month. That's how wealth is built.",
+   "photo": "calendar",
+   "big": "Every month",
+   "sub": "the habit that compounds"
+  }
+ ]
+}

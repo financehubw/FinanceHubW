@@ -1,0 +1,49 @@
+{
+ "id": "monthly_nvda_2010",
+ "title": "$100 a month into Nvidia since 2010 is now worth this",
+ "thumb": "$100/month in Nvidia since 2010 = *{dca:NVDA:2010-01-04}*",
+ "thumb_photo": "gaming pc",
+ "thumb_tag": "MONTHLY HABIT",
+ "caption": "$100 every month into Nvidia since 2010.\nToday that would be worth about {dca:NVDA:2010-01-04} (price growth only, no dividends).",
+ "comment": "Could you put away $100 a month? 👇",
+ "tags": [
+  "#investing",
+  "#sip",
+  "#money",
+  "#stocks",
+  "#finance",
+  "#habits"
+ ],
+ "sources": [
+  "Nvidia price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One hundred dollars a month, into Nvidia, starting in 2010.",
+   "photo": "gaming pc",
+   "big": "$100",
+   "sub": "every month since 2010"
+  },
+  {
+   "say": "Back then, Nvidia was making gaming chips.",
+   "photo": "gaming pc",
+   "clip": {
+    "kicker": "Santa Clara",
+    "year": "2010",
+    "text": "Nvidia: making gaming chips"
+   }
+  },
+  {
+   "say": "Today, those monthly payments would be worth about {dca:NVDA:2010-01-04}.",
+   "photo": "piggy bank coins",
+   "big": "{dca:NVDA:2010-01-04}",
+   "sub": "$100 a month, every month"
+  },
+  {
+   "say": "Small, boring, every month. That's how wealth is built.",
+   "photo": "calendar",
+   "big": "Every month",
+   "sub": "the habit that compounds"
+  }
+ ]
+}
