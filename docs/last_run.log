@@ -1,3 +1,25 @@
+=== run 2026-10-17T01:10:19Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+76/171 sources returned news, 599 recent items
+110 new trusted stories, posting up to 1 this run
+---
+🇺🇸 WALL STREET STOCKS FALL ON AI AND OIL WORRIES
+
+📌 US stock markets dropped as worries grew over artificial intelligence and high oil prices.
+📊 S&P 500: 7,659.44 (-1.09%)
+
+📍 US · 📰 The Straits Times World News · ✅ 4 sources
+https://www.straitstimes.com/business/companies-markets/us-stocks-close-sharply-lower-worries-about-ai-trade-and-high-oil-prices-weigh
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (stock decline, percentage, cause, location, source) are directly supported by the cited article.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the market movement, specific index values, and reasons for the decline are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: SKIP - unreadable reply:  {"ver
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-33144350cbc3
+done: 1 post(s) this run
 === run 2026-10-17T00:15:09Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1476,25 +1498,3 @@ daily cap reached, nothing to do this run
 === run 2026-10-13T18:11:02Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T17:43:41Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T17:09:24Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T16:49:06Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
-104/171 sources returned news, 1065 recent items
-re-check of earlier post: 1 fail / 3 pass
-252 new trusted stories, posting up to 1 this run
----
-🇬🇧 BRITISH POUND RISES AGAINST US DOLLAR
-
-📌 The British Pound is up 0.28% against the US Dollar, trading at 1.3244.
-📊 GBP/USD: 1.3244 (+0.28%)
-
-📍 UK · 📰 FXStreet Forex & Commodities News · ✅ 3 sources
