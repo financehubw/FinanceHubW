@@ -1,3 +1,34 @@
+=== run 2026-10-17T19:02:33Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+79/171 sources returned news, 631 recent items
+129 new trusted stories, posting up to 1 this run
+skip (off-topic or nothing new): US Stock Market Prediction: Dow Jones Futures Fall, S&P 500 Futures Slide & Nasdaq Futures Point Lower Ahead of Wall Street Opening; Check Monday Market Outlook, Key Things to Watch
+skip (off-topic or nothing new): Gold prices fall for the week as US inflation fuels rate hike concerns
+skip (off-topic or nothing new): Trump's Russian oil tariff waiver offers India relief, but experts warn of renewed US pressure
+skip (off-topic or nothing new): Masked settlers attack European diplomats in occupied West Bank
+skip (off-topic or nothing new): Pump.fun Adds Hyperliquid-Powered Perpetual Futures With Up to 40x Leverage
+skip (off-topic or nothing new): CoreWeave’s Founders Have Sold $3.3 Billion of Stock Since Its IPO
+---
+🇺🇸 BIG TECH EARNINGS IN FOCUS ON WALL STREET
+
+📌 Meta, Tesla, and Netflix are set to report their latest quarterly results.
+💡 Company results show how businesses and consumer spending are doing.
+#Earnings
+
+📍 US · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/market/stock-market-news/wall-street-week-ahead-earnings-expectations-all-eyes-on-meta-tesla-netflix-and-spacex-this-survey-also-in-focus-11792254700438.html
+  written by Gemini
+  Groq GPT-OSS: PASS - The Mint article confirms Meta, Tesla, and Netflix are slated to report earnings, matching all factual statements.
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: FAIL - The post claims the source is 'Mint' and lists '2 sources', but the provided sources are from 'mint - markets' and 'IndiaIPO' (which is not Mint), and there are three source entries listed.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Turkey confirms Hex founder Richard Heart’s arrest, says police seized $7.15 million and six cold wallets
+skip (off-topic or nothing new): India and West Indies draw T20 cricket series 2-2 after no result in rain-hit decider
+skip (off-topic or nothing new): BIS Warns Higher Bank Deposit Rates Could Cut Stablecoin Growth by 20%
+skip (off-topic or nothing new): GCash parent prices Philippine IPO at record $966m
+skip (off-topic or nothing new): Nigeria remains Africa’s third-largest economy at $386.7 billion in latest rankings, but weak naira and 63% poverty rate weigh on the former economic giant
+done: 0 post(s) this run
 === run 2026-10-17T17:00:51Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1467,34 +1498,3 @@ skip (off-topic or nothing new): Rising bond yields and higher inflation leave t
 📊 $BTC: $82,000
 💡 Higher inflation can lead to higher interest rates (the cost of borrowing money).
 #Crypto
-
-📍 US · 📰 The Block
-https://www.theblock.co/news/markets/2026-10-14-bitcoin-falls-below-82000-core-inflation-fed-rate-hike-418582
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post lists $BTC at $82,000, but the source says Bitcoin fell below $82,000.
-  -> blocked by fact-check
----
-🇺🇸 SEC COMMITTEE TO DISCUSS IPO RULES
-
-📌 The SEC small business committee is meeting on Oct 27, 2026, to discuss IPO rules.
-#SEC
-
-📍 US · 📰 Press Releases · 🏛️ Official
-https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-business-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the SEC press release.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source.
-  Groq Qwen: PASS - The post accurately reflects the source details regarding the committee name, meeting date, topic, and location.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-05c74ce532fc
----
-🇺🇸 US INFLATION RISES BEFORE MIDTERMS
-
-📌 US inflation increased ahead of midterm elections, causing uncertainty in the market.
-💡 Higher rates usually make loans costlier
-#Fed
-
-📍 US · 📰 Al Jazeera
-https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears?traffic_source=rss
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Al Jazeera article.
