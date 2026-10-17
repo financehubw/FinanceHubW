@@ -1,50 +1,7 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/weekly_free.py:230: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   today = dt.datetime.utcnow().date()
-113/171 sources returned news, 1282 recent items
-  slide 01: ['numbers not in the sources: 2018']
-  slide 02: ['piece 8 too long', 'numbers not in the sources: 110.96, 82141']
-  slide 03: ['piece 4 too long']
-  slide 04: ok
-  slide 05: ['piece 5 too long']
-  slide 06: ok
-  slide 07: ok
-  slide 08: ok
-  slide 09: ok
-  slide 10: ok
-  slide 11: ['piece 4 too long', 'numbers not in the sources: 4.0']
-  slide 12: ok
-  slide 13: ok
-  slide 14: ok
-  slide 15: ['piece 3 too long', 'piece 4 too long', 'piece 6 too long', 'piece 13 too long', 'piece 15 too long', 'numbers not in the sources: 3.0']
-  slide 16: ok
-  slide 17: ['piece 9 too long', 'numbers not in the sources: 82']
-  slide 18: ['numbers not in the sources: 3.0']
-  slide 19: ['piece 3 too long', 'numbers not in the sources: 4186']
-  slide 20: ok
-Issue 2 draft ready for review (LAYOUT PROBLEMS: html: outside frame: @FINANCEHUBW
-  02.html: outside frame: @FINANCEHUBW · 02 / 20
-  02.html: content taller than the slide by 187px
-  04.html: outside frame: vessels
-  15.html: outside frame: CEO Jamie Dimon warned of rogue automate
-  15.html: outside frame: millionThe record size of the Philippine
-  15.html: outside frame: The record size of the Philippine IPO fo
-  15.html: outside frame: The record size of the Philippine IPO fo
-  15.html: outside frame: Deutsche Bank prepared to expand its dig
-  15.html: outside frame: Deutsche Bank prepared to expand its dig
-  15.html: outside frame: NEXT: BITCOIN'S NEAR MISS →@FINANCEHUBW 
-  15.html: outside frame: NEXT: BITCOIN'S NEAR MISS →
-  15.html: outside frame: nonenonenone
-  15.html: outside frame: none
-  15.html: outside frame: nonenone
-  15.html: outside frame: none
-  15.html: outside frame: nonenone
-  15.html: outside frame: none
-  15.html: outside frame: none
-  15.html: outside frame: none
-    none@FINANCEHUBW · 15 / 20
-  15.html: outside frame: none
-  15.html: outside frame: none@FINANCEHUBW · 15 / 20
-  15.html: outside frame: none
-  15.html: outside frame: @FINANCEHUBW · 15 / 20
-  15.html: content taller than the slide by 1555px
-)
+100/171 sources returned news, 1304 recent items
+  plan rejected: Expecting ',' delimiter: line 29 column 6 (char 1553)
+  plan rejected: Expecting ',' delimiter: line 25 column 6 (char 1417)
+  plan rejected: no JSON in the reply
+could not plan the issue; nothing drafted
