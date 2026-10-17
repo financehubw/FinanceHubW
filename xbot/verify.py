@@ -187,7 +187,8 @@ def _gemini(prompt: str, max_tokens: int = 200) -> str:
             f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
             headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},   # header, so the key never appears in logs
             json={"contents": [{"parts": [{"text": prompt}]}],
-                  "generationConfig": {"temperature": 0, "maxOutputTokens": max_tokens}},
+                  # newer Gemini models "think" first and that counts against the limit: leave room
+                  "generationConfig": {"temperature": 0, "maxOutputTokens": max(max_tokens * 4, 8192)}},
             timeout=120,
         )
         r.raise_for_status()
