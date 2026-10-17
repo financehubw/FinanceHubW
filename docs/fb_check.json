@@ -1,34 +1,37 @@
 {
  "page_id_set": true,
  "token_set": false,
- "derived_from_meta_token": {
-  "message": "Cannot call API for app 962003666958759 on behalf of user 122105669487498583",
-  "type": "OAuthException",
-  "code": 200,
-  "fbtrace_id": "AQnVVx8-imcMnpO8iwYU1nX"
- },
+ "derived_from_meta_token": "ok",
  "me": {
-  "error": {
-   "message": "An active access token must be used to query information about the current user.",
-   "type": "OAuthException",
-   "code": 2500,
-   "fbtrace_id": "AKQJ2tRvfTqMRtM5htrYk3J"
-  }
+  "id": "1350820541447560",
+  "name": "FinancehubW"
  },
  "page": {
   "error": {
-   "message": "(#200) Provide valid app ID",
+   "message": "(#100) Tried accessing nonexisting field (tasks)",
    "type": "OAuthException",
-   "code": 200,
-   "fbtrace_id": "AbblCBChhZfLJH5vvCzxYrh"
+   "code": 100,
+   "fbtrace_id": "A2WhwSHaPDQT54xjqhWqfkH"
   }
  },
  "debug": {
-  "type": null,
-  "is_valid": null,
-  "expires_at": null,
-  "scopes": null,
-  "profile_id": null,
+  "type": "PAGE",
+  "is_valid": true,
+  "expires_at": 0,
+  "scopes": [
+   "pages_show_list",
+   "business_management",
+   "instagram_basic",
+   "instagram_manage_comments",
+   "instagram_manage_insights",
+   "instagram_content_publish",
+   "pages_read_engagement",
+   "pages_manage_posts",
+   "instagram_manage_contents",
+   "instagram_manage_engagement",
+   "public_profile"
+  ],
+  "profile_id": "1350820541447560",
   "error": null
  }
 }
