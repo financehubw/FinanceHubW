@@ -53,7 +53,7 @@ def next_item() -> dict | None:
     if not ready:
         return None
     for item in ready[:6]:
-        if not last or item.get("thumb_tag", "") != last or last not in ("WHAT IF", "MONTHLY HABIT"):
+        if not last or item.get("thumb_tag", "") != last:
             return item
     return ready[0]
 

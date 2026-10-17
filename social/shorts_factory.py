@@ -103,6 +103,100 @@ def deep_resolve(obj):
     return obj
 
 
+# ------------------------------------------------------------------ animated data scenes
+def series(tick: str, start: str) -> list[tuple[dt.date, float]]:
+    """Monthly value of $1,000 invested at `start` (split-adjusted price, no dividends). CASH stays flat."""
+    if tick == "CASH":
+        d0 = dt.date.fromisoformat(start)
+        out, d = [], d0
+        while d <= dt.date.today():
+            out.append((d, 1000.0)); d = (d.replace(day=1) + dt.timedelta(days=32)).replace(day=1)
+        return out
+    import yfinance as yf
+    h = yf.Ticker(tick).history(start=start, auto_adjust=False)["Close"].dropna()
+    m = h.groupby([h.index.year, h.index.month]).tail(1)
+    base = float(h.iloc[0])
+    pts = [(i.date(), 1000 * float(v) / base) for i, v in m.items()]
+    pts.append((h.index[-1].date(), 1000 * float(h.iloc[-1]) / base))
+    return pts
+
+
+def prepare_dynamic(scene: dict) -> None:
+    for key in ("race", "versus"):
+        if key in scene:
+            spec = scene[key]
+            items = spec["items"] if key == "race" else [spec["a"], spec["b"]]
+            spec["_data"] = [(name, series(tick, spec["start"])) for tick, name in items]
+
+
+def ease(x: float) -> float:
+    x = max(0.0, min(1.0, x))
+    return 1 - (1 - x) ** 3
+
+
+def value_at(pts, frac):
+    k = frac * (len(pts) - 1)
+    a = int(k); b = min(a + 1, len(pts) - 1)
+    return pts[a][1] + (pts[b][1] - pts[a][1]) * (k - a), pts[int(round(k))][0]
+
+
+COLORS = [(232, 69, 44), (242, 178, 51), (40, 120, 200), (40, 150, 90), (120, 80, 170), (90, 90, 90)]
+
+
+def draw_race(img: Image.Image, spec: dict, prog: float) -> None:
+    prog = 1.0 if spec.get("hold") else prog
+    d = ImageDraw.Draw(img)
+    frac = ease(prog / 0.85)
+    vals = []
+    for k, (name, pts) in enumerate(spec["_data"]):
+        v, when = value_at(pts, frac)
+        vals.append((name, v, COLORS[k % len(COLORS)]))
+    d.text((W / 2, 230), str(when.year), font=font(SERIF, 200), fill=INK, anchor="mm")
+    d.text((W / 2, 360), spec.get("label", "$1,000 invested in each"), font=font(SEMI, 40), fill=MUTED, anchor="mm")
+    vals.sort(key=lambda x: -x[1])
+    top = max(v for _, v, _ in vals) or 1
+    y = 470
+    x0 = 60
+    for name, v, col in vals:
+        d.text((x0, y), name, font=font(BOLD, 46), fill=INK)
+        wbar = int(24 + (W - 2 * x0 - 24) * (v / top))
+        d.rounded_rectangle((x0, y + 62, x0 + wbar, y + 142), 16, fill=col)
+        vt = money(v)
+        inside = wbar > d.textlength(vt, font=font(BOLD, 46)) + 60
+        d.text((x0 + wbar - 20, y + 102) if inside else (x0 + wbar + 16, y + 102), vt, font=font(BOLD, 46),
+               fill=(255, 255, 255) if inside else INK, anchor="rm" if inside else "lm")
+        y += 190
+
+
+def draw_versus(img: Image.Image, spec: dict, prog: float) -> None:
+    prog = 1.0 if spec.get("hold") else prog
+    d = ImageDraw.Draw(img)
+    frac = ease(prog / 0.8)
+    (na, pa), (nb, pb) = spec["_data"]
+    va, when = value_at(pa, frac)
+    vb, _ = value_at(pb, frac)
+    d.text((W / 2, 230), f"$1,000 each in {spec['start'][:4]}", font=font(SEMI, 44), fill=MUTED, anchor="mm")
+    d.text((W / 2, 330), str(when.year), font=font(SERIF, 120), fill=INK, anchor="mm")
+    d.text((W / 2, 1330), "VS", font=font(SERIF, 90), fill=INK, anchor="mm")
+    done = prog > 0.85
+    for x0, name, v, other in ((60, na, va, vb), (W // 2 + 15, nb, vb, va)):
+        win = done and v >= other
+        box = (x0, 450, x0 + W // 2 - 75, 1250)
+        d.rounded_rectangle(box, 30, fill=GOLD if win else CARD, outline=INK, width=4)
+        cx = (box[0] + box[2]) / 2
+        nf = font(BOLD, 64)
+        while d.textlength(name, font=nf) > box[2] - box[0] - 40 and nf.size > 34:
+            nf = font(BOLD, nf.size - 4)
+        d.text((cx, 560), name, font=nf, fill=INK, anchor="mm")
+        vf = font(SERIF, 96)
+        txt = money(v)
+        while d.textlength(txt, font=vf) > box[2] - box[0] - 60 and vf.size > 40:
+            vf = font(SERIF, vf.size - 6)
+        d.text((cx, 850), txt, font=vf, fill=INK, anchor="mm")
+        if win:
+            d.text((cx, 1120), "WINNER", font=font(BOLD, 48), fill=INK, anchor="mm")
+
+
 # ------------------------------------------------------------------ voice
 async def _speak(text: str, mp3: Path) -> list[dict]:
     import edge_tts
@@ -165,6 +259,8 @@ def scene_image(scene: dict, seed: str) -> Image.Image:
     img = PAPER_IMG.copy()
     d = ImageDraw.Draw(img)
     d.text((60, 70), "FINANCEHUBW", font=font(BOLD, 26), fill=(150, 140, 126))
+    if scene.get("race") or scene.get("versus"):
+        return img
     # photo card
     ph = photos.photo(scene.get("photo", ""), seed + scene.get("photo", ""), query=scene.get("photo"))
     cw, ch = 760, 620
@@ -202,6 +298,17 @@ def scene_image(scene: dict, seed: str) -> Image.Image:
             for ln in wrap(d, scene["sub"], sf, W - 200):
                 d.text(((W - d.textlength(ln, font=sf)) / 2, y + 10), ln, font=sf, fill=MUTED)
                 y += 52
+    elif scene.get("quiz"):
+        qz = scene["quiz"]
+        qf = font(SERIF, 70)
+        for ln in wrap(d, qz["q"], qf, W - 140):
+            d.text(((W - d.textlength(ln, font=qf)) / 2, y), ln, font=qf, fill=INK); y += 84
+        y += 30
+        for tag, opt in (("A", qz["a"]), ("B", qz["b"])):
+            d.rounded_rectangle((110, y, W - 110, y + 120), 26, fill=CARD, outline=INK, width=4)
+            d.text((150, y + 60), tag, font=font(BOLD, 56), fill=GOLD, anchor="lm", stroke_width=3, stroke_fill=INK)
+            d.text((230, y + 60), opt, font=font(BOLD, 50), fill=INK, anchor="lm")
+            y += 150
     elif scene.get("clip"):
         c = scene["clip"]
         bx0, bx1 = 110, W - 110
@@ -289,6 +396,8 @@ def render(script_path: Path) -> dict:
         from daily_short import music
         music(total, bed)
         # frames
+        for s in timeline:
+            prepare_dynamic(s["scene"])
         bases = [scene_image(s["scene"], vid + str(i)) for i, s in enumerate(timeline)]
         vtmp = td / "v.mp4"
         p = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
@@ -312,6 +421,10 @@ def render(script_path: Path) -> dict:
                     frame = PAPER_IMG.copy(); frame.paste(big, ((W - sw) // 2, (H - sh) // 2))
             else:
                 frame = base.copy()
+            if s["scene"].get("race"):
+                frame = base.copy(); draw_race(frame, s["scene"]["race"], prog)
+            elif s["scene"].get("versus"):
+                frame = base.copy(); draw_versus(frame, s["scene"]["versus"], prog)
             grp = next((g for g in s["groups"] if g[0]["t"] - 0.05 <= t <= g[-1]["t"] + g[-1]["d"] + 0.25), None)
             if grp:
                 draw_caption(frame, grp, t)

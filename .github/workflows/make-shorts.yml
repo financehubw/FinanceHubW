@@ -30,9 +30,9 @@ jobs:
           python-version: "3.12"
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
       - run: pip install -q requests pillow numpy scipy yfinance edge-tts
-      - name: Write this week's what-if scripts
-        if: github.event_name == 'schedule'
-        run: python social/whatif.py 12
+      - name: Write this week's scripts (6 new formats + 6 what-ifs)
+        if: github.event_name == 'schedule' || inputs.only == ''
+        run: python social/formats.py 6 && python social/whatif.py 6
       - name: Render
         env:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
