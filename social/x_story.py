@@ -513,6 +513,18 @@ def feed() -> None:
         if "id" not in r:
             raise RuntimeError(r.get("error", r))
         print("briefing posted:", r["id"])
+        try:   # same briefing on the Facebook Page (multi-photo post)
+            from publish import page_token
+            page, ptok = os.environ["FB_PAGE_ID"], page_token()
+            data = {"message": digest_caption(m, stories), "access_token": ptok}
+            for i in range(m["slides"]):
+                f = folder / f"{i:02d}.jpg"
+                ph = requests.post(f"{GRAPH}/{page}/photos", timeout=120, files={"source": (f.name, f.read_bytes(), "image/jpeg")},
+                                   data={"published": "false", "access_token": ptok}).json()
+                data[f"attached_media[{i}]"] = json.dumps({"media_fbid": ph["id"]})
+            print("briefing on Facebook:", requests.post(f"{GRAPH}/{page}/feed", timeout=60, data=data).json().get("id"))
+        except Exception as e:  # noqa: BLE001
+            print("briefing Facebook skipped:", e)
         log["posted"] = (log["posted"] + [{"key": m["key"], "ids": m["ids"], "ig": r["id"], "t": time.time()}])[-120:]
         DIGEST_LOG.write_text(json.dumps(log, indent=1), encoding="utf-8")
     except Exception as e:  # noqa: BLE001

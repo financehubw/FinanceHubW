@@ -127,7 +127,7 @@ def slide(i: int, n: int, s: dict, out: Path, photo_q: str = ""):
         from PIL import ImageEnhance
         ph = photos.photo(s["head"], f"{photo_q}-{i}", query=photo_q) if photo_q else None
         if ph is not None:
-            band = 380
+            band = 300
             pic = ImageEnhance.Brightness(photos.cover_fit(ph, W2, band)).enhance(0.6)
             mask = Image.new("L", (1, band))
             for yy in range(band):
