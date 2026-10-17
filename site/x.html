@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Post on X · FinanceHubW</title>
+<style>
+  :root { --bg:#141311; --card:#1d1b18; --ink:#f0ece4; --muted:#968f87; --coral:#fa5b3c; --line:#2c2925; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:24px 16px 64px; }
+  header { border-top:6px solid var(--coral); padding-top:18px; margin-bottom:20px; }
+  h1 { font-size:26px; margin:0 0 4px; }
+  header p { color:var(--muted); margin:0; font-size:14px; }
+  .post { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; margin-bottom:14px; }
+  .post.done { opacity:.45; }
+  .meta { color:var(--muted); font-size:13px; margin-bottom:8px; }
+  pre { white-space:pre-wrap; word-break:break-word; font:inherit; margin:0 0 12px; }
+  img { width:100%; border-radius:10px; display:block; margin-bottom:12px; }
+  .row { display:flex; gap:8px; flex-wrap:wrap; }
+  a.btn, button { flex:1 1 140px; text-align:center; padding:12px; border-radius:10px; font-weight:700; font-size:15px;
+    text-decoration:none; border:1px solid var(--line); background:transparent; color:var(--ink); cursor:pointer; }
+  a.btn.go { background:var(--coral); border-color:var(--coral); color:#fff; }
+  .empty { color:var(--muted); text-align:center; padding:40px 0; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Today on X</h1>
+    <p>Tap <b>Post on X</b>: X opens with the text filled in. To add the picture, save it first, then attach it in X.</p>
+  </header>
+  <div id="list"><p class="empty">Loading…</p></div>
+</main>
+<script>
+const KEY = "fhw-x-done";
+function getDone() { try { return new Set(JSON.parse(localStorage.getItem(KEY) || "[]")); } catch (e) { return new Set(); } }
+function setDone(s) { try { localStorage.setItem(KEY, JSON.stringify([...s].slice(-300))); } catch (e) {} }
+function el(tag, cls, text) { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+
+fetch("tweets.json?" + Date.now()).then(r => r.json()).then(d => {
+  const since = Date.now() - 24 * 3600 * 1000;
+  const posts = (d.posts || []).filter(p => Date.parse(p.date) > since)
+                               .sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
+  const list = document.getElementById("list"); list.textContent = "";
+  if (!posts.length) { list.appendChild(el("p", "empty", "Nothing new in the last 24 hours.")); return; }
+  const done = getDone();
+  for (const p of posts) {
+    const card = el("article", "post" + (done.has(p.id) ? " done" : ""));
+    const t = new Date(p.date);
+    card.appendChild(el("div", "meta", t.toLocaleString([], { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })));
+    const img = el("img"); img.alt = ""; img.loading = "lazy";
+    img.src = "media/stories/" + encodeURIComponent(p.id) + ".jpg";
+    img.onerror = () => img.remove();
+    card.appendChild(img);
+    card.appendChild(el("pre", null, p.text));
+    const row = el("div", "row");
+    const go = el("a", "btn go", "Post on X");
+    go.href = "https://x.com/intent/post?text=" + encodeURIComponent(p.text);
+    go.target = "_blank"; go.rel = "noopener";
+    go.onclick = () => { done.add(p.id); setDone(done); card.classList.add("done"); };
+    const save = el("a", "btn", "Save picture");
+    save.href = img.src; save.download = p.id + ".jpg";
+    row.append(go, save);
+    card.appendChild(row);
+    list.appendChild(card);
+  }
+}).catch(() => { document.getElementById("list").textContent = "Couldn't load posts. Refresh in a minute."; });
+</script>
+</body>
+</html>
