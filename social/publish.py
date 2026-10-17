@@ -182,6 +182,26 @@ def post_comments(item: dict, results: dict) -> None:
             print(f"  {name}: comment skipped - {e}", file=sys.stderr)
 
 
+def story_teaser(item: dict) -> None:
+    """Share the new Reel's cover to Instagram Stories so followers see it first (Stories are shown
+    before the feed). Never blocks posting."""
+    t = thumb_for(item)
+    if not t:
+        return
+    try:
+        import x_story
+        url = x_story.image_url(t, f"{SITE_URL}/media/shorts/thumbs/{t.name}")
+        ig, tok = os.environ["IG_USER_ID"], os.environ["META_TOKEN"]
+        c = requests.post(f"{GRAPH}/{ig}/media", timeout=60,
+                          data={"media_type": "STORIES", "image_url": url, "access_token": tok}).json()
+        time.sleep(5)
+        r = requests.post(f"{GRAPH}/{ig}/media_publish", timeout=60,
+                          data={"creation_id": c["id"], "access_token": tok}).json()
+        print("  Instagram Story teaser:", r.get("id", r))
+    except Exception as e:  # noqa: BLE001
+        print(f"  Story teaser skipped - {e}", file=sys.stderr)
+
+
 def video_is_live(url: str) -> bool:
     try:
         r = requests.head(url, timeout=30, allow_redirects=True)
@@ -265,6 +285,8 @@ def main() -> None:
             print(f"  {name}: FAILED - {e}", file=sys.stderr)
 
     post_comments(item, results)
+    if "Instagram" in results:
+        story_teaser(item)
     if results:   # mark as done only if at least one platform got it, so a total failure retries
         log = load(POSTED, {"posted": []})
         log["posted"].append({"file": item["file"], "title": item["title"],
