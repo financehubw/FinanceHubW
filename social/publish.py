@@ -200,7 +200,7 @@ def backfill() -> None:
     for entry in log["posted"]:
         age = time.time() - calendar.timegm(time.strptime(entry["date"], "%Y-%m-%dT%H:%M:%SZ"))
         item = queue.get(entry["file"])
-        if not item or age > 3 * 86400:
+        if not item or age > float(os.environ.get("BACKFILL_DAYS") or 3) * 86400:
             continue
         url = f"{SITE_URL}/media/shorts/{item['file']}"
         for name, env, fn in (("Instagram", "IG_USER_ID", post_instagram), ("Facebook", "FB_PAGE_ID", post_facebook)):

@@ -152,6 +152,7 @@ jobs:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           SITE_URL: ${{ vars.SITE_URL }}
           BACKFILL_ONLY: ${{ inputs.backfill_only && '1' || '' }}
+          BACKFILL_DAYS: ${{ inputs.backfill_only && '8' || '3' }}
           DRY_RUN: ${{ (inputs.dry_run || vars.SOCIAL_DRY_RUN == '1') && '1' || '' }}
       - name: Save what was posted
         if: always()
