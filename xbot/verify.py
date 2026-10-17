@@ -136,7 +136,28 @@ def _openai_style(url: str, key: str, model: str, prompt: str, extra: dict | Non
         raise RuntimeError(f"HTTP {r.status_code}, not JSON: {r.text[:160]!r}") from None
 
 
-GEMINI_MODELS = ["gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-3.1-flash-lite", "gemini-2.5-flash"]
+GEMINI_MODELS = ["gemini-flash-latest", "gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-3.1-flash-lite"]
+_gemini_found: list[str] = []
+
+
+def gemini_models() -> list[str]:
+    """Google retires models often. Ask the API which Flash models this key can use right now
+    (newest first), so a retired model never stops the bot again."""
+    if not _gemini_found:
+        try:
+            r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", timeout=30,
+                             headers={"x-goog-api-key": os.environ.get("GEMINI_API_KEY", "")}, params={"pageSize": 200})
+            names = [m["name"].split("/", 1)[1] for m in r.json().get("models", [])
+                     if "generateContent" in m.get("supportedGenerationMethods", [])
+                     and "flash" in m["name"] and not any(x in m["name"] for x in ("image", "tts", "audio", "live", "embedding"))]
+            import re as _re
+            ver = lambda n: [float(x) for x in _re.findall(r"\d+(?:\.\d+)?", n)[:1]] or [0.0]
+            names.sort(key=lambda n: (ver(n), "lite" not in n, "preview" not in n), reverse=True)
+            _gemini_found.extend(names[:6])
+        except Exception:  # noqa: BLE001
+            pass
+        _gemini_found.extend(m for m in GEMINI_MODELS if m not in _gemini_found)
+    return _gemini_found
 GROQ_MODELS = ["llama-3.3-70b-versatile"]
 GROQ_OSS_MODELS = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
 OPENROUTER_PREFER = ("llama-3.3-70b", "gpt-oss-120b", "deepseek", "qwen", "gemma", "mistral", "llama")
@@ -169,7 +190,7 @@ def _gemini(prompt: str, max_tokens: int = 200) -> str:
         r.raise_for_status()
         parts = r.json()["candidates"][0]["content"]["parts"]
         return "".join(p.get("text", "") for p in parts)
-    return _try_models("Gemini", _models("GEMINI_MODEL", GEMINI_MODELS), call)
+    return _try_models("Gemini", _models("GEMINI_MODEL", gemini_models()), call)
 
 
 def _groq(prompt: str, max_tokens: int = 200) -> str:
