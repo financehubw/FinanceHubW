@@ -6,9 +6,9 @@ on:
     # US late-morning Reels/Shorts peak in one slot. Two early triggers (GitHub often starts late);
     # the job waits until 15:00 UTC, and whichever runs second sees today's post and does nothing.
     # The posting time comes from social/best_times.json (learned weekly from the account's reach).
-    # Hourly checks from 4:13 PM to 11:13 PM IST; each run posts only if it is within 25 minutes of the
+    # Hourly checks from 11:13 AM to 11:13 PM IST (two slots a day); each run posts only if it is within 25 minutes of the
     # chosen time (waiting for the exact minute), otherwise it exits in seconds.
-    - cron: "43 10-17 * * *"
+    - cron: "43 5-17 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -124,16 +124,21 @@ jobs:
           import json, time, datetime as dt, sys
           now = dt.datetime.now(dt.timezone.utc)
           log = json.load(open("social/posted.json"))["posted"]
-          if any(p["date"].startswith(now.strftime("%Y-%m-%d")) for p in log):
-              open("/tmp/skip", "w").write("1"); sys.exit(0)
           try:
-              t = json.load(open("social/best_times.json"))["times"]["short"]
+              times = json.load(open("social/best_times.json"))["times"]
           except Exception:
-              t = "15:00"
-          target = now.replace(hour=int(t[:2]), minute=int(t[3:]), second=0, microsecond=0)
-          wait = (target - now).total_seconds()
-          if wait > 25 * 60 or wait < -50 * 60:
-              print(f"not time yet (posting time {t} UTC)"); open("/tmp/skip", "w").write("1"); sys.exit(0)
+              times = {}
+          slots = [times.get("short_midday", "06:30"), times.get("short", "15:00")]   # 2 Shorts a day
+          best = None
+          for t in slots:
+              target = now.replace(hour=int(t[:2]), minute=int(t[3:]), second=0, microsecond=0)
+              wait = (target - now).total_seconds()
+              if -50 * 60 <= wait <= 25 * 60:
+                  best = (t, wait)
+          last = max((dt.datetime.strptime(p["date"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc) for p in log), default=None)
+          if not best or (last and (now - last).total_seconds() < 3 * 3600):
+              print(f"not a posting slot now ({', '.join(slots)} UTC)"); open("/tmp/skip", "w").write("1"); sys.exit(0)
+          t, wait = best
           print(f"waiting {max(0, wait):.0f}s until {t} UTC")
           if wait > 0: time.sleep(wait)
           PY

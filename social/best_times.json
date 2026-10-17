@@ -2,7 +2,8 @@
  "times": {
   "short": "14:00",
   "briefing_morning": "01:30",
-  "briefing_evening": "11:30"
+  "briefing_evening": "11:30",
+  "short_midday": "06:30"
  },
  "notes": {
   "status": "ok",

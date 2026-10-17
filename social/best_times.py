@@ -15,18 +15,20 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "social" / "best_times.json"
 GRAPH = "https://graph.facebook.com/v21.0"
 MIN_POSTS = 10
-DEFAULTS = {"short": "15:00", "briefing_morning": "01:30", "briefing_evening": "12:30"}   # UTC
+DEFAULTS = {"short_midday": "06:30", "short": "15:00", "briefing_morning": "01:30", "briefing_evening": "12:30"}   # UTC
 # Until a kind has enough data, rotate its time each week so there are different hours to compare.
 EXPLORE = {"short": ["14:00", "15:00", "16:00"],                 # 7:30 / 8:30 / 9:30 PM IST
+           "short_midday": ["05:30", "06:30", "07:30"],          # 11 AM / 12 PM / 1 PM IST
            "briefing_morning": ["01:30", "02:30", "03:30"],      # 7:00 / 8:00 / 9:00 AM IST
            "briefing_evening": ["11:30", "12:30", "13:00"]}      # 5:00 / 6:00 / 6:30 PM IST
-WINDOWS = {"short": (11, 18), "briefing_morning": (0, 5), "briefing_evening": (10, 15)}     # allowed UTC hours
+WINDOWS = {"short_midday": (4, 9), "short": (11, 18), "briefing_morning": (0, 5), "briefing_evening": (10, 15)}     # allowed UTC hours
 
 
 def kind(m: dict) -> str | None:
     cap = (m.get("caption") or "").lower()
     if m.get("media_type") == "VIDEO":
-        return "short"
+        h = int(m["timestamp"][11:13])
+        return "short_midday" if h < 10 else "short"
     if "morning briefing" in cap:
         return "briefing_morning"
     if "evening briefing" in cap:
