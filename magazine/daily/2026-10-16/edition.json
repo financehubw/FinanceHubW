@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "EUROPE",
+   "text": "Crypto firms in the UK can now apply for authorisation from the FCA to be fully regulated."
+  },
+  {
+   "name": "ASIA",
+   "text": "GCash's parent priced its Philippine IPO, or first share sale, at a record $966m."
+  },
+  {
+   "name": "THE AMERICAS",
+   "text": "Spot exchange-traded fund outflows reached $409.2 million."
+  }
+ ],
+ "story_ids": [
+  25,
+  26,
+  21,
+  28,
+  7,
+  23,
+  5
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 25,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 26,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 21,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 28,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 7,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 23,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 5,
+   "free_checkers": "Groq GPT-OSS: FAIL - Sources report $409.2 million in spot ETF outflows but do not specify that the outflows were limited to the Americas."
+  }
+ ],
+ "cover_title": "Hex founder arrested",
+ "cover_dek": "Turkey confirmed the arrest of Hex founder Richard Heart in Istanbul.",
+ "big_headline": "Turkey confirms the arrest of Hex founder Richard Heart in Istanbul.",
+ "big_body": "Police searched 15 addresses. They seized $7.15 million in cash, six cold wallets, seven firearms and 1,400 rounds of ammunition.",
+ "big_stat": "$7.15m",
+ "big_stat_l1": "Cash seized by police",
+ "big_stat_l2": "in searches of 15 addresses",
+ "pol_headline": "Banks could slow stablecoins",
+ "pol_body": "A BIS paper finds that higher bank deposit rates, which is what banks pay savers, could slow the growth of USDT and USDC stablecoins.",
+ "pol_stat": "$1",
+ "pol_stat_l1": "target value of USDT",
+ "pol_stat_l2": "and USDC stablecoins",
+ "biz_headline": "CoreWeave founders sell stock",
+ "biz_body": "Founders sold stock since the IPO, an initial public offering. The chief executive sold nearly one billion dollars.",
+ "biz_stats": [
+  {
+   "value": "$3.3bn",
+   "name": "Founders",
+   "note": "sold since IPO"
+  },
+  {
+   "value": "$1bn",
+   "name": "CoreWeave CEO",
+   "note": "sold nearly this"
+  }
+ ],
+ "up_headline": "EU sets market settlement date",
+ "up_body": "The EU will switch to T+1 settlement on 11 October 2027. ESMA, the EU's financial markets regulator, calls on firms to prepare.",
+ "cover_photo": "tanker",
+ "big_photo": "whitehouse",
+ "pol_photo": "tokyo",
+ "biz_photo": "servers",
+ "up_photo": "tradingfloor",
+ "sources_used": [
+  "24/7 Wall St.",
+  "All News",
+  "BW Businessworld",
+  "Bitcoin News",
+  "CoinDesk: Bitcoin, Ethereum, Crypto News",
+  "Cryptonews.net",
+  "ESMA",
+  "FCA"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−1.1%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,659."
+   },
+   {
+    "chg": "+0.3%",
+    "color": "#0B6B3A",
+    "text": "<strong>Gold</strong> rose to about $4,181 an ounce."
+   },
+   {
+    "chg": "−0.8%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $81,501."
+   }
+  ]
+ },
+ "status": "draft"
+}
