@@ -96,7 +96,7 @@ def cover(c: dict, title: str, photo_q: str, out: Path):
     try:
         import photos
         from PIL import ImageEnhance
-        ph = photos.photo(title, 1, query=photo_q)
+        ph = photos.photo(title, title, query=photo_q)
         if ph is not None:
             band = 620
             pic = ImageEnhance.Brightness(photos.cover_fit(ph, W2, band)).enhance(0.55)
@@ -116,12 +116,27 @@ def cover(c: dict, title: str, photo_q: str, out: Path):
     sf = xs.font("archivo-latin-600-normal.ttf", 36)
     for ln in xs.wrap(d, title, sf, W2 - 180)[:3]:
         d.text((90, y + 70), ln, font=sf, fill=xs.MUTED); y += 46
-    d.text((W2 - 340, H2 - 90), "Swipe  →", font=xs.font("archivo-latin-800-normal.ttf", 34), fill=xs.CORAL)
+    d.text((W2 - 340, H2 - 90), "SWIPE  >>", font=xs.font("archivo-latin-800-normal.ttf", 34), fill=xs.CORAL)
     img.save(out, quality=92)
 
 
-def slide(i: int, n: int, s: dict, out: Path):
+def slide(i: int, n: int, s: dict, out: Path, photo_q: str = ""):
     img, d = _base()
+    try:   # topic photo along the bottom of every slide
+        import photos
+        from PIL import ImageEnhance
+        ph = photos.photo(s["head"], f"{photo_q}-{i}", query=photo_q) if photo_q else None
+        if ph is not None:
+            band = 380
+            pic = ImageEnhance.Brightness(photos.cover_fit(ph, W2, band)).enhance(0.6)
+            mask = Image.new("L", (1, band))
+            for yy in range(band):
+                mask.putpixel((0, yy), int(255 * min(1.0, yy / (band * 0.6)) ** 1.4))
+            img.paste(pic, (0, H2 - band), mask.resize((W2, band)))
+            d = ImageDraw.Draw(img)
+            d.text((90, H2 - 90), "@financehubw", font=xs.font("archivo-latin-600-normal.ttf", 28), fill=xs.INK)
+    except Exception as e:  # noqa: BLE001
+        print("photo skipped:", e)
     d.text((90, 110), f"{i:02d}", font=xs.font("archivo-latin-800-normal.ttf", 150), fill=xs.CORAL)
     d.text((W2 - 200, 140), f"{i}/{n}", font=xs.font("archivo-latin-600-normal.ttf", 30), fill=xs.MUTED)
     hf = xs.font("archivo-latin-800-normal.ttf", 70)
@@ -131,7 +146,7 @@ def slide(i: int, n: int, s: dict, out: Path):
     d.rectangle([90, y + 30, 210, y + 38], fill=xs.CORAL)
     bf = xs.font("archivo-latin-600-normal.ttf", 44)
     y += 90
-    for ln in xs.wrap(d, s["body"], bf, W2 - 180)[:9]:
+    for ln in xs.wrap(d, s["body"], bf, W2 - 180)[:7]:
         d.text((90, y), ln, font=bf, fill=xs.INK); y += 60
     img.save(out, quality=92)
 
@@ -172,7 +187,7 @@ def main():
     folder.mkdir(parents=True, exist_ok=True)
     cover(c, title, photo_q, folder / "00.jpg")
     for i, s in enumerate(c["slides"], 1):
-        slide(i, len(c["slides"]), s, folder / f"{i:02d}.jpg")
+        slide(i, len(c["slides"]), s, folder / f"{i:02d}.jpg", photo_q)
     end(c, folder / f"{len(c['slides']) + 1:02d}.jpg")
     files = sorted(folder.glob("*.jpg"))
     cap = caption(c, title)
