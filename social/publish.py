@@ -112,6 +112,15 @@ def post_youtube(item: dict, path: Path) -> str:
 # ---------------------------------------------------------------- Instagram
 def post_instagram(item: dict, url: str) -> str:
     ig, tok = os.environ["IG_USER_ID"], os.environ["META_TOKEN"]
+    try:   # never post the same Reel twice, even if the log was lost
+        recent = requests.get(f"{GRAPH}/{ig}/media", timeout=30, params={
+            "fields": "id,caption", "limit": 25, "access_token": tok}).json().get("data", [])
+        dup = next((r for r in recent if (r.get("caption") or "").startswith(item["title"])), None)
+        if dup:
+            print("  Instagram: already posted, skipping")
+            return dup["id"]
+    except requests.RequestException:
+        pass
     c = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data={
         "media_type": "REELS", "video_url": url, "caption": caption_for(item),
         "share_to_feed": "true", "access_token": tok,   # in followers' Home feed and the grid (more reach)

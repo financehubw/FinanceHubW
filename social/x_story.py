@@ -477,6 +477,19 @@ def feed() -> None:
     urls = [image_url(folder / f"{n:02d}.jpg", f"{SITE_URL}/media/digests/{folder.name}/{n:02d}.jpg") for n in range(m["slides"])]
     if not all(urls):
         print("briefing slides could not be hosted yet"); return
+    # Last line of defence against duplicates: ask Instagram itself whether this edition is already up.
+    head = digest_caption(m, stories).split(":")[0]
+    try:
+        recent = requests.get(f"{GRAPH}/{ig}/media", timeout=30, params={
+            "fields": "id,caption", "limit": 15, "access_token": tok}).json().get("data", [])
+        dup = next((r for r in recent if (r.get("caption") or "").startswith(head)), None)
+    except Exception:  # noqa: BLE001
+        dup = None
+    if dup:
+        print("briefing already on Instagram:", head)
+        log["posted"].append({"key": m["key"], "ids": m["ids"], "ig": dup["id"], "t": time.time()})
+        DIGEST_LOG.write_text(json.dumps(log, indent=1), encoding="utf-8")
+        return
     try:
         kids = []
         for u in urls:
