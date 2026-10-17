@@ -1,1 +1,73 @@
-{"error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/videos?part=statistics%2CcontentDetails%2Csnippet&id=yNfP99LSP4E%2CrQPTKTejUpM%2C757-gKWyCDQ%2Crs7xO5MRc3U%2CkWeIUBxcdy4%2Cem5KMILUGl0%2C0fvp4V_448w&alt=json returned \"Request had insufficient authentication scopes.\". Details: \"[{'message': 'Insufficient Permission', 'domain': 'global', 'reason': 'insufficientPermissions'}]\">"}
+{
+ "channel": {
+  "viewCount": "936",
+  "subscriberCount": "2",
+  "hiddenSubscriberCount": false,
+  "videoCount": "7"
+ },
+ "videos": [
+  {
+   "file": "car_payment.mp4",
+   "posted": "2026-10-10T17:58:25Z",
+   "title": "Your car payment could cost you $78,000 #Shorts",
+   "duration": "PT21S",
+   "views": 473,
+   "likes": 4,
+   "comments": 0
+  },
+  {
+   "file": "m1_ten_year_head_start.mp4",
+   "posted": "2026-10-11T13:33:01Z",
+   "title": "Start investing at 20 or 30? The gap is $298,066 #Shorts",
+   "duration": "PT16S",
+   "views": 100,
+   "likes": 1,
+   "comments": 0
+  },
+  {
+   "file": "bank_spread.mp4",
+   "posted": "2026-10-12T14:03:41Z",
+   "title": "Your bank pays you 0.5% and charges you 20% #Shorts",
+   "duration": "PT18S",
+   "views": 76,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "file": "bread_billion_marks.mp4",
+   "posted": "2026-10-13T14:00:28Z",
+   "title": "When bread cost 200 billion marks #Shorts",
+   "duration": "PT23S",
+   "views": 20,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "file": "m4_five_dollar_coffee.mp4",
+   "posted": "2026-10-14T14:09:06Z",
+   "title": "Your $5 coffee could be worth $226,659 #Shorts",
+   "duration": "PT16S",
+   "views": 2,
+   "likes": 0,
+   "comments": 0
+  },
+  {
+   "file": "manhattan_real.mp4",
+   "posted": "2026-10-15T14:15:18Z",
+   "title": "The worst deal in history? #Shorts",
+   "duration": "PT24S",
+   "views": 264,
+   "likes": 5,
+   "comments": 0
+  },
+  {
+   "file": "credit_card_20_years.mp4",
+   "posted": "2026-10-16T14:12:11Z",
+   "title": "The $5,000 debt that lasts 20 years #Shorts",
+   "duration": "PT25S",
+   "views": 32,
+   "likes": 0,
+   "comments": 0
+  }
+ ]
+}
