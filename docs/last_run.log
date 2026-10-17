@@ -1,3 +1,18 @@
+=== run 2026-10-17T03:18:20Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+--- special
+📰 Your 30-second morning catch-up
+
+1️⃣ 🌐 OIL HITS $110 A BARREL
+2️⃣ 🇺🇸 WALL STREET STOCKS FALL ON AI AND OIL WORRIES
+3️⃣ 🇬🇧 FTSE 100 SEES BEST WEEK IN SIX MONTHS
+
+No hype, no tips. Just the facts, simply. @FinanceHubW
+published to: website, Instagram Story
+82/171 sources returned news, 572 recent items
+108 new trusted stories, posting up to 0 this run
+done: 1 post(s) this run
 === run 2026-10-17T02:56:25Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
@@ -1483,18 +1498,3 @@ https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-flat-a
 📊 Nifty: +1.6%
 💡 Foreign money leaving can put pressure on local stock prices.
 #Nifty
-
-📍 India · 📰 Mint · ✅ 5 sources
-https://www.livemint.com/market/indian-shares-on-track-for-muted-open-as-oil-prices-foreign-outflows-weigh-11791945285491.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (slow opening due to oil prices and foreign outflows, Nifty +1.6%) are directly supported by the Mint article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: FAIL - The post claims Nifty is +1.6%, but the source states it climbed 1.6% on Tuesday (past performance), while the article reports the market is on track for a muted open (implying a different, likely low
-  -> blocked by fact-check
----
-🇺🇸 GOLD PRICES DIP AHEAD OF US INFLATION DATA
-
-📌 Gold prices fell near $4,155 as rising oil costs spark inflation worries.
-📊 Gold: $4,155
-💡 Higher inflation can lead to higher borrowing costs.
-#Gold
