@@ -369,7 +369,7 @@ def briefing_end(out: Path) -> None:
     d.rectangle([90, y + 40, 210, y + 48], fill=CORAL)
     y += 100
     d.text((90, y), "Follow @financehubw", font=font("archivo-latin-800-normal.ttf", 46), fill=INK)
-    for i, ln in enumerate(["Fact-checked finance news every day", "Daily brief Tue–Sat · Magazine every Saturday"]):
+    for i, ln in enumerate(["Fact-checked finance news every day", "One daily briefing every morning"]):
         d.text((90, y + 70 + i * 56), ln, font=font("archivo-latin-600-normal.ttf", 36), fill=MUTED)
     out.parent.mkdir(parents=True, exist_ok=True)
     img.save(out, quality=92)
