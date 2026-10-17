@@ -100,6 +100,9 @@ def _try_models(provider: str, models: list[str], call) -> str:
         for attempt in range(2):
             try:
                 text = call(model)
+            except (requests.Timeout, requests.ConnectionError) as e:
+                last = e
+                break                   # slow or unreachable model: try the next one
             except requests.HTTPError as e:
                 last = e
                 code = e.response.status_code if e.response is not None else 0
@@ -185,7 +188,7 @@ def _gemini(prompt: str, max_tokens: int = 200) -> str:
             headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},   # header, so the key never appears in logs
             json={"contents": [{"parts": [{"text": prompt}]}],
                   "generationConfig": {"temperature": 0, "maxOutputTokens": max_tokens}},
-            timeout=60,
+            timeout=120,
         )
         r.raise_for_status()
         parts = r.json()["candidates"][0]["content"]["parts"]
