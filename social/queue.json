@@ -128,6 +128,30 @@
    "thumb_tag": "DEBT TRAP"
   },
   {
+   "file": "netflix_blockbuster.mp4",
+   "title": "Blockbuster could have bought Netflix for $50 million",
+   "caption": "In 2000, Netflix offered to sell itself to Blockbuster for $50 million.\nBlockbuster said no. Ten years later it filed for bankruptcy.\nToday Netflix is worth about $294 billion.",
+   "tags": [
+    "#netflix",
+    "#business",
+    "#investing",
+    "#money",
+    "#finance",
+    "#history"
+   ],
+   "comment": "Would you have bought Netflix for $50 million in 2000? 👇",
+   "thumb": "Netflix was for sale for *$50M*",
+   "thumb_photo": "dvd video store",
+   "thumb_tag": "BIGGEST MISTAKE",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Marc Randolph, That Will Never Work (2019): the $50M offer",
+    "Blockbuster Chapter 11 filing, September 2010",
+    "Netflix market value: Yahoo Finance, at render time"
+   ]
+  },
+  {
    "file": "buffett_after_65.mp4",
    "title": "Buffett's secret nobody talks about",
    "caption": "According to Morgan Housel's The Psychology of Money, $81.5 billion of Warren Buffett's $84.5 billion fortune came after his 65th birthday.\nHe wasn't just a great investor. He was a great investor for 70 years.",
@@ -146,6 +170,54 @@
    "thumb_tag": "WEALTH"
   },
   {
+   "file": "bitcoin_pizza.mp4",
+   "title": "The most expensive pizza ever bought",
+   "caption": "On May 22, 2010, a programmer paid 10,000 bitcoin for two pizzas, about $41 at the time.\nToday those coins are worth about $815 million.\nMay 22 is now Bitcoin Pizza Day.",
+   "tags": [
+    "#bitcoin",
+    "#crypto",
+    "#btc",
+    "#money",
+    "#investing",
+    "#history"
+   ],
+   "comment": "Would you have spent it on pizza? 🍕👇",
+   "thumb": "Two pizzas cost *10,000 BTC*",
+   "thumb_photo": "pizza",
+   "thumb_tag": "CRYPTO HISTORY",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "BitcoinTalk forum, Laszlo Hanyecz, May 2010",
+    "CoinDesk: Bitcoin Pizza Day",
+    "BTC price: Yahoo Finance, at render time"
+   ]
+  },
+  {
+   "file": "ronald_wayne.mp4",
+   "title": "Apple's forgotten co-founder sold 10% for $800",
+   "caption": "Apple had three founders in 1976. Ronald Wayne owned 10%.\nTwelve days later he sold his stake for $800.\n10% of Apple's value today is about $501 billion.",
+   "tags": [
+    "#apple",
+    "#stevejobs",
+    "#business",
+    "#money",
+    "#investing",
+    "#history"
+   ],
+   "comment": "Would you have kept the 10%? Be honest 👇",
+   "thumb": "He sold 10% of Apple for *$800*",
+   "thumb_photo": "vintage computer",
+   "thumb_tag": "FORGOTTEN FOUNDER",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Apple Computer partnership agreement, 1 April 1976",
+    "Ronald Wayne interviews (Reuters 2011, BBC 2013): sold for $800, no regrets",
+    "Apple market value: Yahoo Finance, at render time"
+   ]
+  },
+  {
    "file": "hundred_a_month.mp4",
    "title": "$100 a month could become $228,000",
    "caption": "$100 a month, invested at an assumed 10% a year for 30 years.\nYou put in $36,000. It could be worth about $228,000.\nStart small. Start now. (Returns are not guaranteed.)",
@@ -161,6 +233,50 @@
    "thumb": "$100 a month = *$228,000*",
    "thumb_photo": "piggy bank coins",
    "thumb_tag": "SAVING"
+  },
+  {
+   "file": "nvidia_2016.mp4",
+   "title": "$1,000 in Nvidia in 2016 is now worth this",
+   "caption": "In January 2016, Nvidia mostly made graphics cards for gamers.\n$1,000 in its shares then would be worth about $264,603 today (share price only, no dividends).",
+   "tags": [
+    "#nvidia",
+    "#ai",
+    "#stocks",
+    "#investing",
+    "#money",
+    "#tech"
+   ],
+   "comment": "What will be the next Nvidia? 👇",
+   "thumb": "$1,000 in Nvidia 2016 = *$264,603*",
+   "thumb_photo": "graphics card",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "NVIDIA share price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "penny_doubling.mp4",
+   "title": "A penny doubled for 30 days vs $1 million",
+   "caption": "A penny that doubles every day for 30 days:\nDay 10: $5.12\nDay 20: $5,243\nDay 30: $5.37 million.\nThat's compounding. The last days do most of the work.",
+   "tags": [
+    "#compounding",
+    "#money",
+    "#investing",
+    "#finance",
+    "#math",
+    "#wealth"
+   ],
+   "comment": "Be honest: would you have picked the million? 👇",
+   "thumb": "A penny doubled = *$5.37M*",
+   "thumb_photo": "penny coins",
+   "thumb_tag": "COMPOUNDING",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Math: $0.01 × 2^(day − 1)"
+   ]
   },
   {
    "file": "dollar_41_cents.mp4",
@@ -181,6 +297,51 @@
    "thumb_tag": "INFLATION"
   },
   {
+   "file": "amazon_1997.mp4",
+   "title": "$1,000 in Amazon in 1997 is now worth this",
+   "caption": "Amazon listed its shares in May 1997, when it mostly sold books.\n$1,000 at the first day's closing price would be worth about $2.6 million today (share price only, no dividends).",
+   "tags": [
+    "#amazon",
+    "#stocks",
+    "#investing",
+    "#money",
+    "#finance",
+    "#whatif"
+   ],
+   "comment": "Which stock do you wish you'd bought years ago? 👇",
+   "thumb": "$1,000 in Amazon 1997 = *$2.6 million*",
+   "thumb_photo": "books stack",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Amazon.com share price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "zimbabwe_100_trillion.mp4",
+   "title": "The 100 trillion dollar banknote",
+   "caption": "In 2009, Zimbabwe printed a 100 trillion dollar note.\nIn late 2008, prices were doubling about every day.\nWithin months, the country stopped using its own currency.",
+   "tags": [
+    "#inflation",
+    "#money",
+    "#economics",
+    "#history",
+    "#finance",
+    "#zimbabwe"
+   ],
+   "comment": "Could this happen to any currency? 👇",
+   "thumb": "A *100 TRILLION* dollar note",
+   "thumb_photo": "banknotes",
+   "thumb_tag": "HYPERINFLATION",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Steve Hanke & Nicholas Krus, World Hyperinflations (Cato Institute, 2012)",
+    "Reserve Bank of Zimbabwe, 2009"
+   ]
+  },
+  {
    "file": "ten_percent_salary.mp4",
    "title": "Save 10% and retire with $860,000",
    "caption": "Save 10% of a $50,000 salary: $5,000 a year.\nInvested for 35 years at an assumed 8% a year, it could grow to about $860,000.\nPay yourself first. (Returns are not guaranteed.)",
@@ -197,6 +358,116 @@
    "thumb": "Save 10% = *$860,000*",
    "thumb_photo": "salary money envelope",
    "thumb_tag": "RETIREMENT"
+  },
+  {
+   "file": "microsoft_ipo.mp4",
+   "title": "$1,000 in Microsoft's first trading day is now worth this",
+   "caption": "Microsoft started trading in 1986.\n$1,000 at the first day's closing price would be worth about $5.4 million today (share price only, no dividends).",
+   "tags": [
+    "#microsoft",
+    "#stocks",
+    "#investing",
+    "#money",
+    "#finance",
+    "#whatif"
+   ],
+   "comment": "Which company would you go back in time to buy? 👇",
+   "thumb": "$1,000 in Microsoft 1986 = *$5.4 million*",
+   "thumb_photo": "old computer keyboard",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Microsoft share price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "buffett_age_11.mp4",
+   "title": "Warren Buffett's first stock taught him this",
+   "caption": "At 11, Warren Buffett bought 3 shares of Cities Service at about $38.\nThey fell to $27. When they got back to $40, he sold.\nSoon after, they climbed to about $200. His lesson: patience.",
+   "tags": [
+    "#warrenbuffett",
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#patience"
+   ],
+   "comment": "What's the best investing lesson you learned the hard way? 👇",
+   "thumb": "Buffett's first stock at *AGE 11*",
+   "thumb_photo": "stock certificate",
+   "thumb_tag": "INVESTING LESSON",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Alice Schroeder, The Snowball: Warren Buffett and the Business of Life (2008)"
+   ]
+  },
+  {
+   "file": "apple_ipo.mp4",
+   "title": "$1,000 in Apple's first trading day is now worth this",
+   "caption": "Apple started trading in 1980.\n$1,000 at the first day's closing price would be worth about $2.7 million today (share price only, no dividends).",
+   "tags": [
+    "#apple",
+    "#stocks",
+    "#investing",
+    "#money",
+    "#finance",
+    "#whatif"
+   ],
+   "comment": "Which company would you go back in time to buy? 👇",
+   "thumb": "$1,000 in Apple 1980 = *$2.7 million*",
+   "thumb_photo": "apple computer",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Apple share price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "one_percent_fee.mp4",
+   "title": "A 1% fee costs more than you think",
+   "caption": "$100,000 invested for 30 years:\nAt 7% a year: $761,226\nAt 6% (after a 1% fee): $574,349\nThat 1% fee cost $186,876.\nAlways check the fees.",
+   "tags": [
+    "#investing",
+    "#fees",
+    "#money",
+    "#personalfinance",
+    "#finance",
+    "#mutualfunds"
+   ],
+   "comment": "Do you know what fees you pay? 👇",
+   "thumb": "A 1% fee cost *$186,876*",
+   "thumb_photo": "calculator",
+   "thumb_tag": "HIDDEN COST",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Math: 100,000 × 1.07^30 and 100,000 × 1.06^30"
+   ]
+  },
+  {
+   "file": "tesla_ipo.mp4",
+   "title": "$1,000 in Tesla's first trading day is now worth this",
+   "caption": "Tesla started trading in 2010.\n$1,000 at the first day's closing price would be worth about $222,721 today (share price only, no dividends).",
+   "tags": [
+    "#tesla",
+    "#stocks",
+    "#investing",
+    "#money",
+    "#finance",
+    "#whatif"
+   ],
+   "comment": "Which company would you go back in time to buy? 👇",
+   "thumb": "$1,000 in Tesla 2010 = *$222,721*",
+   "thumb_photo": "electric car",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Tesla share price history, Yahoo Finance (split-adjusted), at render time"
+   ]
   },
   {
    "file": "doubling_17x.mp4",
@@ -287,277 +558,6 @@
    "thumb": "Coffee could cost you *$1 million*",
    "thumb_photo": "latte coffee",
    "thumb_tag": "COMPOUNDING"
-  },
-  {
-   "file": "penny_doubling.mp4",
-   "title": "A penny doubled for 30 days vs $1 million",
-   "caption": "A penny that doubles every day for 30 days:\nDay 10: $5.12\nDay 20: $5,243\nDay 30: $5.37 million.\nThat's compounding. The last days do most of the work.",
-   "tags": [
-    "#compounding",
-    "#money",
-    "#investing",
-    "#finance",
-    "#math",
-    "#wealth"
-   ],
-   "comment": "Be honest: would you have picked the million? 👇",
-   "thumb": "A penny doubled = *$5.37M*",
-   "thumb_photo": "penny coins",
-   "thumb_tag": "COMPOUNDING",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Math: $0.01 × 2^(day − 1)"
-   ]
-  },
-  {
-   "file": "netflix_blockbuster.mp4",
-   "title": "Blockbuster could have bought Netflix for $50 million",
-   "caption": "In 2000, Netflix offered to sell itself to Blockbuster for $50 million.\nBlockbuster said no. Ten years later it filed for bankruptcy.\nToday Netflix is worth about $294 billion.",
-   "tags": [
-    "#netflix",
-    "#business",
-    "#investing",
-    "#money",
-    "#finance",
-    "#history"
-   ],
-   "comment": "Would you have bought Netflix for $50 million in 2000? 👇",
-   "thumb": "Netflix was for sale for *$50M*",
-   "thumb_photo": "dvd video store",
-   "thumb_tag": "BIGGEST MISTAKE",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Marc Randolph, That Will Never Work (2019): the $50M offer",
-    "Blockbuster Chapter 11 filing, September 2010",
-    "Netflix market value: Yahoo Finance, at render time"
-   ]
-  },
-  {
-   "file": "ronald_wayne.mp4",
-   "title": "Apple's forgotten co-founder sold 10% for $800",
-   "caption": "Apple had three founders in 1976. Ronald Wayne owned 10%.\nTwelve days later he sold his stake for $800.\n10% of Apple's value today is about $501 billion.",
-   "tags": [
-    "#apple",
-    "#stevejobs",
-    "#business",
-    "#money",
-    "#investing",
-    "#history"
-   ],
-   "comment": "Would you have kept the 10%? Be honest 👇",
-   "thumb": "He sold 10% of Apple for *$800*",
-   "thumb_photo": "vintage computer",
-   "thumb_tag": "FORGOTTEN FOUNDER",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Apple Computer partnership agreement, 1 April 1976",
-    "Ronald Wayne interviews (Reuters 2011, BBC 2013): sold for $800, no regrets",
-    "Apple market value: Yahoo Finance, at render time"
-   ]
-  },
-  {
-   "file": "bitcoin_pizza.mp4",
-   "title": "The most expensive pizza ever bought",
-   "caption": "On May 22, 2010, a programmer paid 10,000 bitcoin for two pizzas, about $41 at the time.\nToday those coins are worth about $815 million.\nMay 22 is now Bitcoin Pizza Day.",
-   "tags": [
-    "#bitcoin",
-    "#crypto",
-    "#btc",
-    "#money",
-    "#investing",
-    "#history"
-   ],
-   "comment": "Would you have spent it on pizza? 🍕👇",
-   "thumb": "Two pizzas cost *10,000 BTC*",
-   "thumb_photo": "pizza",
-   "thumb_tag": "CRYPTO HISTORY",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "BitcoinTalk forum, Laszlo Hanyecz, May 2010",
-    "CoinDesk: Bitcoin Pizza Day",
-    "BTC price: Yahoo Finance, at render time"
-   ]
-  },
-  {
-   "file": "buffett_age_11.mp4",
-   "title": "Warren Buffett's first stock taught him this",
-   "caption": "At 11, Warren Buffett bought 3 shares of Cities Service at about $38.\nThey fell to $27. When they got back to $40, he sold.\nSoon after, they climbed to about $200. His lesson: patience.",
-   "tags": [
-    "#warrenbuffett",
-    "#investing",
-    "#stocks",
-    "#money",
-    "#finance",
-    "#patience"
-   ],
-   "comment": "What's the best investing lesson you learned the hard way? 👇",
-   "thumb": "Buffett's first stock at *AGE 11*",
-   "thumb_photo": "stock certificate",
-   "thumb_tag": "INVESTING LESSON",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Alice Schroeder, The Snowball: Warren Buffett and the Business of Life (2008)"
-   ]
-  },
-  {
-   "file": "amazon_1997.mp4",
-   "title": "$1,000 in Amazon in 1997 is now worth this",
-   "caption": "Amazon listed its shares in May 1997, when it mostly sold books.\n$1,000 at the first day's closing price would be worth about $2.6 million today (share price only, no dividends).",
-   "tags": [
-    "#amazon",
-    "#stocks",
-    "#investing",
-    "#money",
-    "#finance",
-    "#whatif"
-   ],
-   "comment": "Which stock do you wish you'd bought years ago? 👇",
-   "thumb": "$1,000 in Amazon 1997 = *$2.6 million*",
-   "thumb_photo": "books stack",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Amazon.com share price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "nvidia_2016.mp4",
-   "title": "$1,000 in Nvidia in 2016 is now worth this",
-   "caption": "In January 2016, Nvidia mostly made graphics cards for gamers.\n$1,000 in its shares then would be worth about $264,603 today (share price only, no dividends).",
-   "tags": [
-    "#nvidia",
-    "#ai",
-    "#stocks",
-    "#investing",
-    "#money",
-    "#tech"
-   ],
-   "comment": "What will be the next Nvidia? 👇",
-   "thumb": "$1,000 in Nvidia 2016 = *$264,603*",
-   "thumb_photo": "graphics card",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "NVIDIA share price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "zimbabwe_100_trillion.mp4",
-   "title": "The 100 trillion dollar banknote",
-   "caption": "In 2009, Zimbabwe printed a 100 trillion dollar note.\nIn late 2008, prices were doubling about every day.\nWithin months, the country stopped using its own currency.",
-   "tags": [
-    "#inflation",
-    "#money",
-    "#economics",
-    "#history",
-    "#finance",
-    "#zimbabwe"
-   ],
-   "comment": "Could this happen to any currency? 👇",
-   "thumb": "A *100 TRILLION* dollar note",
-   "thumb_photo": "banknotes",
-   "thumb_tag": "HYPERINFLATION",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Steve Hanke & Nicholas Krus, World Hyperinflations (Cato Institute, 2012)",
-    "Reserve Bank of Zimbabwe, 2009"
-   ]
-  },
-  {
-   "file": "one_percent_fee.mp4",
-   "title": "A 1% fee costs more than you think",
-   "caption": "$100,000 invested for 30 years:\nAt 7% a year: $761,226\nAt 6% (after a 1% fee): $574,349\nThat 1% fee cost $186,876.\nAlways check the fees.",
-   "tags": [
-    "#investing",
-    "#fees",
-    "#money",
-    "#personalfinance",
-    "#finance",
-    "#mutualfunds"
-   ],
-   "comment": "Do you know what fees you pay? 👇",
-   "thumb": "A 1% fee cost *$186,876*",
-   "thumb_photo": "calculator",
-   "thumb_tag": "HIDDEN COST",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Math: 100,000 × 1.07^30 and 100,000 × 1.06^30"
-   ]
-  },
-  {
-   "file": "apple_ipo.mp4",
-   "title": "$1,000 in Apple's first trading day is now worth this",
-   "caption": "Apple started trading in 1980.\n$1,000 at the first day's closing price would be worth about $2.7 million today (share price only, no dividends).",
-   "tags": [
-    "#apple",
-    "#stocks",
-    "#investing",
-    "#money",
-    "#finance",
-    "#whatif"
-   ],
-   "comment": "Which company would you go back in time to buy? 👇",
-   "thumb": "$1,000 in Apple 1980 = *$2.7 million*",
-   "thumb_photo": "apple computer",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Apple share price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "microsoft_ipo.mp4",
-   "title": "$1,000 in Microsoft's first trading day is now worth this",
-   "caption": "Microsoft started trading in 1986.\n$1,000 at the first day's closing price would be worth about $5.4 million today (share price only, no dividends).",
-   "tags": [
-    "#microsoft",
-    "#stocks",
-    "#investing",
-    "#money",
-    "#finance",
-    "#whatif"
-   ],
-   "comment": "Which company would you go back in time to buy? 👇",
-   "thumb": "$1,000 in Microsoft 1986 = *$5.4 million*",
-   "thumb_photo": "old computer keyboard",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Microsoft share price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "tesla_ipo.mp4",
-   "title": "$1,000 in Tesla's first trading day is now worth this",
-   "caption": "Tesla started trading in 2010.\n$1,000 at the first day's closing price would be worth about $222,721 today (share price only, no dividends).",
-   "tags": [
-    "#tesla",
-    "#stocks",
-    "#investing",
-    "#money",
-    "#finance",
-    "#whatif"
-   ],
-   "comment": "Which company would you go back in time to buy? 👇",
-   "thumb": "$1,000 in Tesla 2010 = *$222,721*",
-   "thumb_photo": "electric car",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Tesla share price history, Yahoo Finance (split-adjusted), at render time"
-   ]
   }
  ]
 }
