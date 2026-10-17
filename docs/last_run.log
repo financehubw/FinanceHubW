@@ -1,3 +1,87 @@
+=== run 2026-10-17T04:55:09Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+79/171 sources returned news, 594 recent items
+123 new trusted stories, posting up to 2 this run
+---
+🇮🇳 TRUMP WAIVES RUSSIA OIL SANCTIONS
+
+📌 The US waived a proposed 100% tariff (tax on imports) on buyers of Russian oil, giving relief to India.
+📊 Tariff: 100% (waived)
+
+📍 India · 📰 Oneindia · ✅ 6 sources
+https://news.google.com/rss/articles/CBMi4wFBVV95cUxONFZERjF1cFhOTC1QdlV5SXo4ZXlNLTBBekxoUkNPNXkxN0s1LVJhSDJOSjc5WmR0LVg2Vm04S2NLV1hhQVVoTnBnQnY3ZFlKMkNWeXItQTBFeUp2YWdVQmFNcWduakdfclB1dy1KM0E1V3FIek03Rm5SbnN6UlNfWU1PVTVYNjJuSE5YLWRYelVwZFc4cklfc1A2YWRSM014ekhrTzVIX0JXanpxd3A0NDhwRk04NHVWaEtwSGdQQlE2OHZNRnktSHM1Z1ljM0dSekdBZjNrSWtDRWxlZm5lTWc0VQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - No credible source confirms Trump waived a 100% tariff on Russian oil; the claim is unsupported and likely false.
+  -> blocked by fact-check
+---
+🌐 GLOBAL STOCKS SLIP AS DOLLAR HEADS FOR WEEKLY LOSS
+
+📌 Global stocks dropped and the US dollar weakened amid rate hike and AI concerns.
+💡 Lower currency value changes import costs and travel expenses.
+#Markets
+
+📍 Global · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-stocks-slip-as-dollar-heads-for-weekly-loss/articleshow/135007060.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims are directly supported by the Economic Times article and the explanation is generally correct.
+  Groq GPT-OSS 20B: FAIL - Unsupported claim about a rate hike
+  -> blocked by fact-check
+---
+🌐 GOLD HEADED FOR WEEKLY LOSS
+
+📌 Gold prices are set to drop this week as traders watch US interest rate clues.
+📊 Spot gold: -0.1%
+💡 Higher rates can make gold less attractive compared to savings that pay interest.
+#Gold
+
+📍 Global · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-a-weekly-drop-as-traders-assess-fed-signals/articleshow/135007093.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The 📍 location 'Global' does not match the source (Economic Times, an Indian publication).
+  -> blocked by fact-check
+---
+🇯🇵 IMF SAYS JAPAN MAY NEED FASTER RATE HIKES
+
+📌 The IMF says Japan's central bank may need to raise borrowing costs faster if prices rise more than expected.
+💡 Higher rates usually make loans costlier.
+#Japan
+
+📍 Japan · 📰 Reuters · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdWdXNFVpZFpPVGFROEVHcjFiWGdDU1BQdDlMaTJOLWllcnNNazRiSEx4M0RjZUthU09iQzQ1YTNxckczM0dWYVR0LTJwSFpEU1pzV0EzM0x5X3AzaDJVLTM2VmU1cVZnLUQ1Y1FITGE0aXNZa0N0R2ppMGt3TWUybG15QUZlY2dteFFUemdEbU51M0pIMC05MDQ0X253QXp4bEFOZjJfcW1JaUVkb05KbE1PczdQUTNlcVZR?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the Reuters IMF report
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Reuters source and the explanation is accurate.
+  Groq Qwen: PASS - The post accurately reflects the source headlines stating the IMF says the BOJ may need to tighten faster if inflation beats forecast, and the general explanation is correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-c914da62a47a
+---
+🇺🇸 TRUMP WAIVES RUSSIA SANCTIONS
+
+📌 US President Trump signed an order to waive new sanctions and tariffs on Russia.
+#Russia
+
+📍 US · 📰 The New York Times · ✅ 15 sources
+https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - No evidence that President Trump signed an order waiving Russia sanctions; claim is unsupported and factually incorrect.
+  -> blocked by fact-check
+---
+🇮🇳 NIFTY IT SOARS 11.7% IN RECORD WEEKLY RALLY
+
+📌 Indian tech stocks had their biggest weekly jump since 2008 after strong earnings.
+📊 Nifty IT: +11.7%
+💡 Strong tech company earnings often boost local stock market values.
+
+📍 India · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/stocks/news/its-time-to-celebrate-when-chips-are-down-nifty-it-soars-11-7-to-log-biggest-weekly-rally-since-2008/articleshow/135007166.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (11.7% rise, biggest weekly rally since 2008, earnings-driven boost) are confirmed by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the 11.7% rally, the 'biggest weekly rally since 2008' timeframe, the attribution to strong earnings, and the source details are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-94a9b22b8fd5
+done: 2 post(s) this run
 === run 2026-10-17T04:18:04Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
@@ -1414,87 +1498,3 @@ daily cap reached, nothing to do this run
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
 daily cap reached, nothing to do this run
-=== run 2026-10-14T10:58:40Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T10:26:23Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T09:58:37Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T09:22:21Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T08:31:03Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T08:00:21Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T07:13:18Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T06:22:04Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T05:56:12Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T05:24:25Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T04:58:28Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T04:25:46Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T03:59:22Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
---- special
-📺 Markets moving fast? Get the full breakdown in minutes on our YouTube.
-
-Daily Shorts + deep dives on stocks, crypto and policy 👇
-https://www.youtube.com/@FinanceHubW
-published to: website, Instagram Story
-98/171 sources returned news, 926 recent items
-210 new trusted stories, posting up to 1 this run
----
-🇺🇸 BITCOIN NEARS $84,000
-
-📌 Bitcoin price rose toward $84,000 after a top US central bank official spoke.
-📊 $BTC: $84,000
-💡 Lower interest rates often make riskier investments more attractive.
-#Crypto
-
-📍 US · 📰 CoinDesk · ✅ 3 sources
-https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWVBjSEY3cWEzRVlFWGJXX1J3a1JKNG1pNTBraW5uNHd1aTk0Y1lyaGtFdmN5YmFERTRLSkluSUpXLVJBZDgzc3RiVktKWmpLNWQzb3pFN1BweUpPVGI1WGUwelhPWGdnX0psWF9LeEhUbHpsNkQzU1BOazFDdEJ6YktxYnYtUHpjNFpnOFNRUW5zckswNktkTDJ6OTFyM0loX2oyc2FmeElxOFhWUHBDREFmOXZUY3NZdmVMQ0lQMmk?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The exact price $84,000 is not directly stated in the source, which only says Bitcoin is climbing toward that level.
-  -> blocked by fact-check
----
-🇺🇸 BREAKING: BANK OF AMERICA FINED $1.2B
-
-📌 The US government fined Bank of America $1.2 billion for failing anti-money laundering and sanctions laws.
-📊 Fine: $1.2 billion
-
-📍 US · 📰 Al Jazeera · ✅ 16 sources
-https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations?traffic_source=rss
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the Al Jazeera source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the fine amount, entity, reasons, and source attribution are directly supported by the provided sources.
