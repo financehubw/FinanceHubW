@@ -76,7 +76,27 @@ fetch("tweets.json?" + Date.now()).then(r => r.json()).then(d => {
     go.onclick = () => { done.add(p.id); setDone(done); card.classList.add("done"); };
     const save = el("a", "btn", "Save picture");
     save.href = img.src; save.download = p.id + ".jpg";
+    const share = el("button", "btn go", "Share with picture");
+    share.onclick = async () => {
+      const text = fit(p.text);
+      try { await navigator.clipboard.writeText(text); } catch (e) {}
+      try {
+        const blob = await (await fetch(img.src)).blob();
+        const file = new File([blob], p.id + ".jpg", { type: "image/jpeg" });
+        if (navigator.canShare && navigator.canShare({ files: [file] })) {
+          await navigator.share({ files: [file], text });
+          done.add(p.id); setDone(done); card.classList.add("done");
+          return;
+        }
+      } catch (e) { if (e && e.name === "AbortError") return; }
+      alert("This browser can't share pictures. Use 'Save picture', then 'Post on X' and attach it.");
+    };
+    if (img.isConnected !== false) row.append(share);
+    go.textContent = "Text only";
+    go.className = "btn";
     row.append(go, save);
+    const tip = el("div", "meta", "Share with picture: pick X, and if the text is missing, long-press and Paste (it's copied).");
+    card.appendChild(tip);
     card.appendChild(row);
     list.appendChild(card);
   }
