@@ -52,6 +52,110 @@
    ],
    "ig": "17917050705525224",
    "t": 1792232103.0298169
+  },
+  {
+   "key": "2026-10-13-morning",
+   "ids": [
+    "web-f69c092ea086",
+    "web-b220998d06c0",
+    "web-bb9a55a73c6f",
+    "web-2a1c93c8b583",
+    "web-68304c2fe4e4",
+    "web-e2a223153dfb",
+    "web-1ac383cc8ac2",
+    "web-b03667a34578"
+   ],
+   "skipped": "missed its slot (Meta outage)",
+   "t": 1792238084.9526067
+  },
+  {
+   "key": "2026-10-13-evening",
+   "ids": [
+    "web-af874fa0ece7",
+    "web-2c8c6f6b3804",
+    "web-111e91938878",
+    "web-ff143a8e2b22",
+    "web-c6ccba90f672"
+   ],
+   "skipped": "missed its slot (Meta outage)",
+   "t": 1792238084.9527285
+  },
+  {
+   "key": "2026-10-12-evening",
+   "ids": [
+    "web-d546088a825d",
+    "web-435c586ea313",
+    "web-a5ce41662494"
+   ],
+   "skipped": "missed its slot (Meta outage)",
+   "t": 1792238084.9529026
+  },
+  {
+   "key": "2026-10-12-morning",
+   "ids": [
+    "web-d546088a825d",
+    "web-435c586ea313",
+    "web-a5ce41662494",
+    "web-c1b80115e50e",
+    "web-9c2f6e950141",
+    "web-168954cea20f"
+   ],
+   "skipped": "missed its slot (Meta outage)",
+   "t": 1792238084.9531186
+  },
+  {
+   "key": "2026-10-15-evening",
+   "ids": [
+    "web-557751de50d3",
+    "web-20affc10d39e",
+    "web-f186de9c6358",
+    "web-b3b1fbde45bb",
+    "web-83da4dae11c0"
+   ],
+   "skipped": "missed its slot (Meta outage)",
+   "t": 1792238084.953209
+  },
+  {
+   "key": "2026-10-15-morning",
+   "ids": [
+    "web-24693c20f05f",
+    "web-fe8ea2158631",
+    "web-ff752e9fcffd",
+    "web-05c74ce532fc",
+    "web-89fd4dae8ae3",
+    "web-db8d6cf2ce51",
+    "web-cc81b7ed3797",
+    "web-78771a1dff98"
+   ],
+   "skipped": "missed its slot (Meta outage)",
+   "t": 1792238084.953333
+  },
+  {
+   "key": "2026-10-14-evening",
+   "ids": [
+    "web-db8d6cf2ce51",
+    "web-cc81b7ed3797",
+    "web-78771a1dff98",
+    "web-92a785d47d81",
+    "web-f40c27af1c1b"
+   ],
+   "skipped": "missed its slot (Meta outage)",
+   "t": 1792238084.9534385
+  },
+  {
+   "key": "2026-10-14-morning",
+   "ids": [
+    "web-d3f6d699af6a",
+    "web-926ee18167a3",
+    "web-f2ea3ee8fc89",
+    "web-0a9e87017869",
+    "web-d1770a379aa4",
+    "web-69d92c6651d9",
+    "web-2c8c6f6b3804",
+    "web-111e91938878"
+   ],
+   "skipped": "missed its slot (Meta outage)",
+   "t": 1792238084.9536407
   }
  ]
 }

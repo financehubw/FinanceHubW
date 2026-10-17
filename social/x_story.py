@@ -448,6 +448,15 @@ def feed() -> None:
     done = {e["key"] for e in log["posted"]}
     pending = [json.loads(m.read_text()) for m in sorted(DIGEST_DIR.glob("*/manifest.json"))]
     pending = [m for m in pending if m["key"] not in done]
+    due = digest_due()
+    fresh_keys = {due[0]} if due else set()
+    stale = [m for m in pending if m["key"] not in fresh_keys]
+    for m in stale:   # an edition that missed its slot is never posted late (no out-of-order briefings)
+        log["posted"].append({"key": m["key"], "ids": m["ids"], "skipped": "missed its slot", "t": time.time()})
+    if stale:
+        DIGEST_LOG.write_text(json.dumps(log, indent=1), encoding="utf-8")
+        print("briefing: skipped stale", [m["key"] for m in stale])
+    pending = [m for m in pending if m["key"] in fresh_keys]
     if not pending:
         print("briefing: nothing to post"); return
     m = pending[-1]
