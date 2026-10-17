@@ -288,7 +288,7 @@ def _editions():
     """UTC times; learned from the account's own reach by social/best_times.py (defaults 7:00 AM / 6:00 PM IST)."""
     t = load(ROOT / "social" / "best_times.json", {}).get("times", {})
     m, e = t.get("briefing_morning", "01:30"), t.get("briefing_evening", "12:30")
-    return [("Morning", int(m[:2]), int(m[3:])), ("Evening", int(e[:2]), int(e[3:]))]
+    return [("Daily", int(m[:2]), int(m[3:]))]    # ONE briefing a day, after the US close, covering the whole previous day
 
 
 def _head(p: dict) -> str:
@@ -382,14 +382,14 @@ def digest_due() -> tuple[str, dt.datetime] | None:
     for name, hh, mm in reversed(_editions()):
         start = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
         if now >= start and now - start < dt.timedelta(hours=6):
-            key = f"{now:%Y-%m-%d}-{name.lower()}"
+            key = f"{now - dt.timedelta(days=1):%Y-%m-%d}-daily"     # named after the day it covers
             return None if key in done else (key, now)
     return None
 
 
 def digest_stories() -> list[dict]:
     log = load(DIGEST_LOG, {"posted": []})
-    used = {i for e in log["posted"] for i in e.get("ids", [])}
+    used = {i for e in log["posted"] if e["key"].endswith("-daily") for i in e.get("ids", [])}
     now = dt.datetime.utcnow()
     posts = [p for p in load(FEED, {"posts": []})["posts"]
              if "📍" in p["text"] and p["id"] not in used
@@ -403,7 +403,7 @@ def digest_stories() -> list[dict]:
         if key in seen or any(len(words & s) >= max(3, len(words) * 0.7) for s in seen if isinstance(s, frozenset)):
             continue
         seen.add(key); seen.add(words); uniq.append(p)
-    top = uniq[:10]
+    top = uniq[:12]
     return sorted(top, key=lambda p: p["date"], reverse=True)
 
 
@@ -421,7 +421,7 @@ def render_digest() -> None:
     # unique folder per render, so Instagram can never fetch an older copy cached at the same URL
     folder = DIGEST_DIR / f"{key}-{int(time.time())}"
     edition = key.rsplit("-", 1)[1].title()
-    briefing_cover(stories, folder / "00.jpg", edition, now)
+    briefing_cover(stories, folder / "00.jpg", edition, now - dt.timedelta(days=1))
     for i, p in enumerate(stories, 1):
         card(p, folder / f"{i:02d}.jpg", 1080, 1350)
     briefing_end(folder / f"{len(stories) + 1:02d}.jpg")
@@ -442,8 +442,7 @@ def digest_caption(m: dict, stories: list[dict]) -> str:
             tags += [x for x in t[:1] if x not in tags]
     tags = (tags + ["#financenews", "#markets", "#economy", "#stockmarket", "#investing"])[:5]
     day = dt.date.fromisoformat(m["key"][:10]).strftime("%-d %b")
-    span = (f"everything since last night's edition" if m["edition"] == "Morning" else "today so far")
-    return (f"🗞️ {m['edition']} briefing, {day} ({span}): {len(stories)} finance stories you need to know\n\n"
+    return (f"🗞️ Daily briefing, {day} (the full day, incl. the US market close): {len(stories)} finance stories you need to know\n\n"
             + "\n".join(heads) +
             "\n\nWhich one matters most to you? Tell us 👇\n"
             "💾 Save this and send it to someone who follows the markets.\n\n"

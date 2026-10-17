@@ -29,7 +29,7 @@ def kind(m: dict) -> str | None:
     if m.get("media_type") == "VIDEO":
         h = int(m["timestamp"][11:13])
         return "short_midday" if h < 10 else "short"
-    if "morning briefing" in cap:
+    if "morning briefing" in cap or "daily briefing" in cap:
         return "briefing_morning"
     if "evening briefing" in cap:
         return "briefing_evening"
