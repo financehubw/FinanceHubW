@@ -1,1 +1,4 @@
-{'error': {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AjnhiRQFf2g3HJk0N-ndOZh'}}
+18105695300172167 CAROUSEL_ALBUM 2026-10-17T09:17:35+0000 🗞️ Morning briefing: 6 finance stories you need to
+18118152053094511 CAROUSEL_ALBUM 2026-10-11T16:13:58+0000 🗞️ Evening briefing: 8 finance stories you need to
+18217453030349457 VIDEO 2026-10-11T13:32:54+0000 $100 a month at 8% a year, invested until 65. Star
+18106557770352717 VIDEO 2026-10-11T13:32:11+0000 $1,000 a month for 5 years is $60,000 in car payme
