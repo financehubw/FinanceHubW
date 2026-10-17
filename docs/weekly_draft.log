@@ -1,7 +1,52 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/weekly_free.py:230: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   today = dt.datetime.utcnow().date()
-100/171 sources returned news, 1304 recent items
-  plan rejected: Expecting ',' delimiter: line 29 column 6 (char 1553)
-  plan rejected: Expecting ',' delimiter: line 25 column 6 (char 1417)
-  plan rejected: no JSON in the reply
-could not plan the issue; nothing drafted
+101/171 sources returned news, 1303 recent items
+  slide 01: ['numbers not in the sources: 2018']
+  slide 02: ok
+  slide 03: ok
+  slide 04: ['piece 3 too long', 'piece 5 too long']
+  slide 05: ok
+  slide 06: ['piece 7 too long', 'numbers not in the sources: 3.0']
+  slide 07: ok
+  slide 08: ok
+  slide 09: ok
+  slide 10: ok
+  slide 11: ok
+  slide 12: ok
+  slide 13: ok
+  slide 14: ok
+  slide 15: ok
+  slide 16: ok
+  slide 17: ['piece 7 too long', 'numbers not in the sources: 81500']
+  slide 18: ['numbers not in the sources: 3.0']
+  slide 19: ['piece 4 too long', 'numbers not in the sources: 4181']
+  slide 20: ok
+Issue 3 draft ready for review (LAYOUT PROBLEMS: nonenonenone
+  15.html: outside frame: none
+  15.html: outside frame: nonenone
+  15.html: outside frame: none
+  15.html: outside frame: nonenone
+  15.html: outside frame: none
+  15.html: outside frame: none
+  15.html: outside frame: none
+    none@FINANCEHUBW · 15 / 20
+  15.html: outside frame: none
+  15.html: outside frame: none@FINANCEHUBW · 15 / 20
+  15.html: outside frame: none
+  15.html: outside frame: @FINANCEHUBW · 15 / 20
+  15.html: content taller than the slide by 787px
+  17.html: outside frame: $81,500
+    Bitcoin fell below $81,000 b
+  17.html: outside frame: Bitcoin fell below $81,000 before steady
+  17.html: outside frame: $409.2M
+  17.html: outside frame: Net outflows pulled from US spot Bitcoin
+  17.html: outside frame: In Turkey, police arrested Hex founder R
+  17.html: outside frame: In Turkey, police arrested Hex founder R
+  17.html: outside frame: NEXT: INDEXHEADWINDS →
+  17.html: outside frame: NEXT: INDEX
+  17.html: outside frame: HEADWINDS →
+  17.html: outside frame: [KEEP] @FINANCEHUBW · 17 / 20@FINANCEHUB
+  17.html: outside frame: [KEEP] @FINANCEHUBW · 17 / 20
+  17.html: outside frame: @FINANCEHUBW · 17 / 20
+  17.html: content taller than the slide by 1095px
+)

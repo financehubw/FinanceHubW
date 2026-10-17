@@ -1,0 +1,966 @@
+{
+ "issue": 3,
+ "template": 2,
+ "week": "12–16 Oct 2026",
+ "year": 2026,
+ "status": "draft",
+ "title": "The Pressure Test",
+ "thread": "Soaring oil and rigid interest rates squeezed tech stocks and crypto, even as European equities and global dealmakers pushed ahead.",
+ "summary": "Brent crude climbed toward $110 a barrel and the US 10-year yield reached 5.24%, triggering a steep 4.48% drop in the tech-heavy Nasdaq. While crypto saw $409 million in ETF outflows and founders cashed out billions, European stocks rallied and Southeast Asia celebrated a record-breaking tech IPO.",
+ "sections": [
+  {
+   "h": "Oil & Energy",
+   "p": "Brent crude climbed 4.91% to close at $109.86 as Middle East geopolitical tensions and Washington's waiver on Russian sanctions stirred energy markets."
+  },
+  {
+   "h": "Interest Rates",
+   "p": "The US 10-year Treasury yield surged to a high of 5.24% before settling at 5.10%, maintaining intense pressure on global borrowing costs."
+  },
+  {
+   "h": "Wall Street",
+   "p": "Tech valuations tumbled with the Nasdaq shedding 4.48%, while CoreWeave insiders revealed $3.3 billion in post-IPO stock sales."
+  },
+  {
+   "h": "World Markets",
+   "p": "A stark regional divide emerged as European indexes gained over 2% while Tokyo's Nikkei sank 5.37% and Singapore's exports soared 68.4%."
+  },
+  {
+   "h": "Crypto & Regulation",
+   "p": "Bitcoin dipped below $81,000 amid $409.2 million in spot ETF outflows, while the UK FCA opened licensing gateways and Turkish police arrested Hex's founder."
+  },
+  {
+   "h": "Safe Havens",
+   "p": "Gold traded steadily near record highs at $4,181.10 an ounce as investors sought refuge against persistent inflation."
+  }
+ ],
+ "slides": {
+  "01": {
+   "segments": [
+    "The Weekly",
+    "ISSUE 02",
+    "12–16 OCT 2026",
+    "GLOBAL MARKETS",
+    "The Pressure",
+    "Test",
+    "Soaring oil, rising bond yields, and a sharp reality check for tech.",
+    "@FINANCEHUBW",
+    "SWIPE",
+    "© 2026 FinanceHubW · File photo: Hurricane Florence from orbit, 2018. Alexander Gerst / ESA–NASA."
+   ],
+   "photo": "tanker",
+   "writer": "Gemini",
+   "flags": [
+    "numbers not in the sources: 2018"
+   ]
+  },
+  "02": {
+   "segments": [
+    "The week in",
+    "three numbers",
+    "$109.86",
+    "Brent crude closing price, up 4.91% on the week.",
+    "-4.48%",
+    "The Nasdaq's weekly drop as elevated yields weighed.",
+    "$409.2M",
+    "Weekly net outflows from spot Bitcoin exchange funds.",
+    "NEXT: THE OIL SQUEEZE →",
+    "@FINANCEHUBW",
+    "@FINANCEHUBW · 02 / 20"
+   ],
+   "photo": null,
+   "writer": "Gemini",
+   "flags": []
+  },
+  "03": {
+   "segments": [
+    "CHAPTER ONE · OIL",
+    "Brent",
+    "crude",
+    "Brent crude settled at $109.86 as supply concerns mounted.",
+    "File photo: ITookSomePhotos, CC BY-SA, tinted",
+    "NEXT: THE CHOKE POINT →",
+    "@FINANCEHUBW · 03 / 20"
+   ],
+   "photo": "tanker",
+   "writer": "Gemini",
+   "flags": []
+  },
+  "04": {
+   "segments": [
+    "Tensions mount",
+    "at sea",
+    "US-Iran friction rattled energy shipping corridors, propelling Brent crude to a weekly peak of $109.86.",
+    "Friday alone brought a 3.72% price surge as traders priced in escalating transit risks.",
+    "Energy costs are once again driving global inflation expectations higher.",
+    "NEXT: THE SANCTIONS TWIST →",
+    "@FINANCEHUBW · 04 / 20"
+   ],
+   "photo": null,
+   "writer": "Gemini",
+   "flags": [
+    "piece 3 too long",
+    "piece 5 too long"
+   ]
+  },
+  "05": {
+   "segments": [
+    "A POLICY WAIVER",
+    "RUSSIA",
+    "sanctions",
+    "suspended by President Trump.",
+    "President Trump announced a deal with Vladimir Putin and suspended sanctions on Russian diesel until April 2027.",
+    "A policy shift moved fuel supplies, and policies can change.",
+    "NEXT: WHAT IT COSTS YOU →",
+    "@FINANCEHUBW · 05 / 20"
+   ],
+   "photo": null,
+   "writer": "Gemini",
+   "flags": []
+  },
+  "06": {
+   "segments": [
+    "Why",
+    "you",
+    "feel it",
+    "$109.86",
+    "Cost of a barrel of crude, raising daily transport, freight, and heating bills.",
+    "5.10%",
+    "US 10-year Treasury yield, anchoring high global rates for credit cards, auto loans, and mortgages.",
+    "[KEEP] File photo: Arne Hückelheim, CC BY-SA 3.0, tinted",
+    "NEXT: THE PRICE OF MONEY →",
+    "@FINANCEHUBW · 06 / 20"
+   ],
+   "photo": "refinery",
+   "writer": "Gemini",
+   "flags": [
+    "piece 7 too long",
+    "numbers not in the sources: 3.0"
+   ]
+  },
+  "07": {
+   "segments": [
+    "CHAPTER TWO · INTEREST RATES",
+    "The price of",
+    "money",
+    "Persistent price pressures keep central banks restrictive.",
+    "Bank of Japan Governor Ueda warned inflation cannot rise.",
+    "NEXT: THE BENCHMARK YIELD →",
+    "@FINANCEHUBW · 07 / 20"
+   ],
+   "photo": "tokyo",
+   "writer": "Gemini",
+   "flags": []
+  },
+  "08": {
+   "segments": [
+    "US 10-YEAR TREASURY YIELD",
+    "5.10",
+    "%",
+    "Friday's closing yield after climbing as high as 5.24% earlier.",
+    "IN PLAIN WORDS",
+    "This yield sets the cost of capital for governments and businesses worldwide. When it sits above 5%, borrowing stays expensive.",
+    "NEXT: RATE HIKE WARNINGS →",
+    "@FINANCEHUBW · 08 / 20"
+   ],
+   "photo": null,
+   "writer": "Gemini",
+   "flags": []
+  },
+  "09": {
+   "segments": [
+    "Rate hike",
+    "warnings",
+    "High inflation figures led Wall Street forecasters to price in another Federal Reserve interest rate hike.",
+    "Central bankers hold rates as energy costs risk higher inflation.",
+    "Federal Reserve policy",
+    "High borrowing rates continue to drain liquidity from speculative assets.",
+    "NEXT: TECH UNDER PRESSURE →",
+    "@FINANCEHUBW · 09 / 20"
+   ],
+   "photo": "fed",
+   "writer": "Gemini",
+   "flags": []
+  },
+  "10": {
+   "segments": [
+    "CHAPTER THREE · WALL STREET",
+    "Wall Street's",
+    "tech",
+    "selloff",
+    "Elevated bond yields and expensive crude hit growth shares hardest on Friday.",
+    "Big tech led drops as valuations came under scrutiny.",
+    "NEXT: FOUNDERS CASH OUT →",
+    "@FINANCEHUBW · 10 / 20"
+   ],
+   "photo": "nyse",
+   "writer": "Gemini",
+   "flags": []
+  },
+  "11": {
+   "segments": [
+    "COREWEAVE'S $3.3B SALE",
+    "$3.3",
+    "billion",
+    "Total stock sold by CoreWeave's founders since the cloud computing firm's initial public offering.",
+    "The company's CEO alone has offloaded nearly $1 billion in shares as public tech multiples come under heavy pressure.",
+    "File photo: U.S. Department of Energy, Public domain, tinted",
+    "NEXT: THE SCOREBOARD →",
+    "@FINANCEHUBW · 11 / 20"
+   ],
+   "photo": "servers",
+   "writer": "Gemini",
+   "flags": []
+  },
+  "12": {
+   "segments": [
+    "By Friday,",
+    "divergence",
+    "How the main US benchmark indexes finished the trading week:",
+    "Dow Jones",
+    "52,002.41",
+    "+",
+    "0.67%",
+    "S&P 500",
+    "7,659.44",
+    "−",
+    "1.95%",
+    "Nasdaq",
+    "26,140.03",
+    "−",
+    "4.48%",
+    "Russell 2000",
+    "2,721.37",
+    "−",
+    "3.05%",
+    "NEXT: DEAL OF THE WEEK →",
+    "@FINANCEHUBW · 12 / 20"
+   ],
+   "photo": null,
+   "writer": "Gemini",
+   "flags": []
+  },
+  "13": {
+   "segments": [
+    "DEAL OF THE WEEK",
+    "GCash goes",
+    "public",
+    "Mynt, owner of the Philippine payments app GCash, priced its record initial public offering at $966 million.",
+    "Photo: Nikkei",
+    "NEXT: AROUND THE WORLD →",
+    "@FINANCEHUBW · 13 / 20"
+   ],
+   "photo": "nyse",
+   "writer": "Gemini",
+   "flags": []
+  },
+  "14": {
+   "segments": [
+    "One week,",
+    "two directions",
+    "How stocks moved",
+    "▲ EUROPEAN MARKETS",
+    "DAX",
+    "+",
+    "2.13%",
+    "FTSE 100",
+    "+",
+    "3.13%",
+    "▼ ASIAN MARKETS",
+    "Nikkei 225",
+    "−",
+    "5.37%",
+    "Hang Seng",
+    "−",
+    "0.10%",
+    "STOXX 600",
+    "+",
+    "2.09%",
+    "NEXT: RULES AND CRACKDOWNS →",
+    "@FINANCEHUBW · 14 / 20"
+   ],
+   "photo": null,
+   "writer": "Gemini",
+   "flags": []
+  },
+  "15": {
+   "segments": [
+    "Regulators",
+    "step forward",
+    "The UK Financial Conduct Authority opened its gateway for crypto firms to apply for full regulatory authorisation.",
+    "The French National Assembly narrowly passed a tax on crypto-to-stablecoin swaps by a single vote.",
+    "none",
+    "NEXT: MONEY ON THE MOVE →",
+    "@FINANCEHUBW · 15 / 20",
+    "LONDON",
+    "PARIS",
+    "In the US",
+    "a federal judge rejected a joint Gemini-CFTC bid to overturn their $5 million settlement.",
+    "GERMANY",
+    "Deutsche Bank prepared to expand its digital asset custody services into Asian financial centers.",
+    "NEXT: MONEY ON THE MOVE →",
+    "@FINANCEHUBW · 16 / 20",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+    "@FINANCEHUBW · 15 / 20"
+   ],
+   "photo": "london",
+   "writer": "Gemini",
+   "flags": []
+  },
+  "16": {
+   "segments": [
+    "CoreWeave",
+    "founders sold",
+    "$3.3",
+    "billion",
+    "of stock since its initial public offering, according to 24/7 Wall St.",
+    "68.4%",
+    "export surge reported by",
+    "Singapore",
+    "in September, driven by electronics demand.",
+    "Data showed CoreWeave founders sold shares and Singapore exports grew.",
+    "NEXT: INDEX HEADWINDS →",
+    "@FINANCEHUBW · 16 / 20"
+   ],
+   "photo": null,
+   "writer": "Gemini",
+   "flags": []
+  },
+  "17": {
+   "segments": [
+    "Crypto feels",
+    "the heat",
+    "$81,500",
+    "Bitcoin fell below $81,000 before steadying at $81,500.80, down 2.60% for the week.",
+    "$409.2M",
+    "Net outflows pulled from US spot Bitcoin ETFs as US-Iran friction prompted risk-off sentiment.",
+    "In Turkey, police arrested Hex founder Richard Heart in Istanbul, confiscating $7.15 million in cash and six cold wallets.",
+    "NEXT: INDEX",
+    "HEADWINDS →",
+    "[KEEP] @FINANCEHUBW · 17 / 20",
+    "@FINANCEHUBW · 17 / 20"
+   ],
+   "photo": null,
+   "writer": "Gemini",
+   "flags": [
+    "piece 7 too long",
+    "numbers not in the sources: 81500"
+   ]
+  },
+  "18": {
+   "segments": [
+    "CHAPTER FOUR · FEAR",
+    "−",
+    "2.60%",
+    "Bitcoin closed at $81,500.80, ending a three-week winning run. Ether fell 4.53% to $2,419.77.",
+    "File photo: Isokivi, CC BY-SA 3.0, tinted",
+    "NEXT: WHERE THE MONEY HID →",
+    "@FINANCEHUBW · 18 / 20"
+   ],
+   "photo": "bitcoin",
+   "writer": "Gemini",
+   "flags": [
+    "numbers not in the sources: 3.0"
+   ]
+  },
+  "19": {
+   "segments": [
+    "GOLD SITS TIGHT",
+    "$4,181",
+    "Gold held firm at $4,181.10 an ounce after touching an intra-week high of $4,190.60.",
+    "Despite a modest 0.83% weekly dip caused by resilient bond yields, gold remains supported near historical peaks as investors hedge against inflation and Middle East instability.",
+    "NEXT: DATES TO WATCH →",
+    "@FINANCEHUBW · 19 / 20"
+   ],
+   "photo": "gold",
+   "writer": "Gemini",
+   "flags": [
+    "piece 4 too long",
+    "numbers not in the sources: 4181"
+   ]
+  },
+  "20": {
+   "segments": [
+    "Next week,",
+    "circle these",
+    "21",
+    "TUESDAY, OCTOBER",
+    "Meta, Tesla, and Netflix report third-quarter results.",
+    "22",
+    "WEDNESDAY, OCTOBER",
+    "UK inflation data reveals price trajectory.",
+    "ONE YEAR TO T+1",
+    "OCTOBER 2027",
+    "EU markets begin final 12-month T+1 countdown.",
+    "Follow @financehubw",
+    "Where money makes sense.",
+    "© 2026 FinanceHubW. All rights reserved. Information only, not investment advice. Sources and photo credits in the caption.",
+    "SAVE THIS POST · SHARE IT",
+    "@FINANCEHUBW · 20 / 20"
+   ],
+   "photo": null,
+   "writer": "Gemini",
+   "flags": []
+  }
+ },
+ "sources": [
+  {
+   "publisher": "Hokanews",
+   "title": "Bitcoin Falls Below $81,000 as Spot ETF Outflows Reach $409.2 Million Amid US-Iran Tensions",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSzVmNnNsTXpDZnd6RDA0ZU1TQU5maG5CdEVLM09kb05ZdG82SGJjY3YwZ0V5Z2FUT3lOU2JsbmM2SW55emJlTXJCdFFJTXRpNnJkeklBNTV6TGstcmNfcHFORTJfYk9Va3ZIOG0yTXd1eV9jWnFnb25Dd1pRaTA5dQ?oc=5"
+  },
+  {
+   "publisher": "All News",
+   "title": "Bitcoin price holds above $81,000 as ETF outflows weigh on sentiment",
+   "summary": "",
+   "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253"
+  },
+  {
+   "publisher": "FCA",
+   "title": "FCA opens the gateway to regulated crypto",
+   "summary": "From today, crypto firms can apply for authorisation from the FCA, marking a landmark moment as the UK takes a step closer towards becoming one of the most trusted places in the world to build and invest in cryptoasset businesses. For the first time, crypto firms operating in the UK will be brought into full FCA regulation, with clear standards covering consumer protection, safeguarding, market integrity and financial resilience. This is a significant milestone, not just for the industry, but it",
+   "link": "https://www.fca.org.uk/news/press-releases/fca-opens-gateway-regulated-crypto"
+  },
+  {
+   "publisher": "24/7 Wall St.",
+   "title": "CoreWeave’s Founders Have Sold $3.3 Billion of Stock Since Its IPO",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUVlOYlE2d1QyN1lIeTZ2b19CLUJ5eXVmLUV3bm9rQXB1S1V5QWR2Tm9hV2tUZFl6UWVhcjl1U2R3SnpYVVVhVkV6U21UUW8wWm5YYjNZem1zay1oSEt4Q2tIR3VuZmNGLUpGekVPNDdSQVYtSnpYM3Q5U0Q5bVIyMzNHWEY1ckFMbWh4OG1yWEV4SmdTSU5LcURjMTdVTWR5RFJSR3QtYW1jaFpD?oc=5"
+  },
+  {
+   "publisher": "BW Businessworld",
+   "title": "CoreWeave CEO Sells Nearly $1 Bn in Stock Since IPO",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd0RoUTJ1ZG1FXzRBR05kOHNfemJGWVVBREVXSTdwX3ZuSmRrYktpczB2bU90UEhFSElMR1Z5RkJQNGRUVWt2b1JCNGIxSE5pY0x1M2RQX1BtcWJPQTVaWDNuSXRxWmxpM195ZmNrdlNGVWs3SVJoUTRpc2F1Sy01Y3JFem9jalViQVI2U1NBYUR0UmI4amxyam13?oc=5"
+  },
+  {
+   "publisher": "Nikkei Asia",
+   "title": "GCash parent prices Philippine IPO at record $966m",
+   "summary": "",
+   "link": "https://asia.nikkei.com/business/markets/ipo/gcash-parent-prices-philippine-ipo-at-record-966m"
+  },
+  {
+   "publisher": "The Block",
+   "title": "Turkey confirms Hex founder Richard Heart’s arrest, says police seized $7.15 million and six cold wallets",
+   "summary": "Police reportedly seized $7.15 million in cash, six cold wallets, seven firearms and 1,400 rounds of ammunition in searches of 15 addresses.",
+   "link": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852"
+  },
+  {
+   "publisher": "Bitcoin News",
+   "title": "Turkey's Justice Minister Confirms Richard Heart's Istanbul Bust",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRldVaGwydlByZ0toRFByTzllcmdUMXl4UmdRLURRWjRUa3NmNk1nSU82YS1lSzlrM3hRV0RXOXVEaExIdVdLSzd4YUYzS1ZkUmNfMUxFcVFueWR3eUpKeThORlh2Umo0VnNyX2V2Q1pSd3RnQTE3eFcwS21FYmk4X3BQT093RGFxTGI3bVhJRmVTLTI4ZzRzZUdLaDVTUWZ0UTJQWkY2THdFanhCSlE?oc=5"
+  },
+  {
+   "publisher": "CoinDesk: Bitcoin, Ethereum, Crypto News",
+   "title": "Banks could slow stablecoin growth by paying savers more, BIS paper finds",
+   "summary": "",
+   "link": "https://www.coindesk.com/business/2026/10/14/banks-could-slow-stablecoin-growth-by-paying-savers-more-bis-paper-finds"
+  },
+  {
+   "publisher": "Hokanews",
+   "title": "BIS Paper Finds Higher Bank Deposit Rates Could Slow USDT and USDC Stablecoin Growth",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xTVVSUnAtMHo3VnBBZ05mNGJ4clRNSUttM1N2RGZQeERkX2FfTllJLWdDcXJybGpLSk1icnhEc1V5TElHaWdjelhFVkZ3UnYxYnlLMzZNSmNUcHZVUEtGUlpfaHlOS2ZVVW94S2NoZ3dJMkRVZlNrOTRHMUM1Zw?oc=5"
+  },
+  {
+   "publisher": "ESMA",
+   "title": "One year to go for T+1 settlement: the regulatory framework is complete, now let’s make it happen",
+   "summary": "One year to go for T+1 settlement: the regulatory framework is complete, now let’s make it happen 16 October 2026 Guidelines and Technical standards Post Trading Press Releases The European Union (EU) will switch to T+1 settlement on 11 October 2027. Ahead of the transition, the European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, calls on market participants to finalise technical preparations, assess readiness across their entire ecosystems and ",
+   "link": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+  },
+  {
+   "publisher": "News",
+   "title": "Minutes of the Money Market Committee meeting – September 2026",
+   "summary": "The Money Markets Committee is a forum for market participants and authorities to discuss the UK unsecured deposits and funding market and securities lending and repo markets.",
+   "link": "https://www.bankofengland.co.uk/minutes/2026/september/money-markets-committee-minutes-september-2026"
+  },
+  {
+   "publisher": "RBI",
+   "title": "Money Market Operations as on October 15, 2026",
+   "summary": "(Amount in ₹ crore, Rate in Per cent) MONEY MARKETS @ --> Money Markets @ Volume (One Leg) Weighted Average Rate Range A. Overnight Segment (I+II+III+IV) 7,29,578.45 5.70 3.00-6.00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I. Call Money 17,180.77 5.75 4.85-5.90 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Triparty Repo 5,16,439.90 5.71 5.15-5.81 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;III. Market Repo 1,90,848.13 5.64 3.00-5.95 &",
+   "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63815"
+  },
+  {
+   "publisher": "Bank of Japan：",
+   "title": "Summary of the \"Meeting on Market Operations\" (October 2026)",
+   "summary": "",
+   "link": "http://www.boj.or.jp/en/paym/market/mkt261015a.pdf"
+  },
+  {
+   "publisher": "The Sunday Guardian",
+   "title": "US Stock Market Prediction: Dow Jones Futures Fall, S&P 500 Futures Slide & Nasdaq Futures Point Lower Ahead of Wall Street Opening; Check Monday Market Outlook, Key Things to Watch",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOby02UG54aE0tUDM4V2p1WkE1eEJIY1h2VkpCRjFtclBKRWJraWtxQ2xxa1plTUFGSzZaM3VoRnV4amM1Vlgzc3NRRXNUbWdrcGxuOHlUbWZBMWRseDB5ZEVsMG5XUmFGN2l6UWdwMkhyY1NWUEt0YWRGY2ozY0hBaGVhejJyd01FbG50ei1nSE16VjV4QVprdjFibzByMjJ5al84TnJtT1BGYkE3MVZWVk1vZVNzb0JiWVJLUkROUUhXckxpZUxyUG93UXoxMmxVM092bTRZRmdRbkNLa0gtajY2SV9IUlJGR3ZqeXN5U0o1aExaVmRRR2pSVHppT3V5QTNib1gzRWdPMGY2T3M5YkpRR2dZQ0hmNENpMjNBbEJ6ZGxfWW9mZHlxanpfT0Y2ZlFNUzVuaWktNl9VY2hGODRnUjdpZGRET3fSAcoCQVVfeXFMTm8tNlBueGhNLVAzOFdqdVpBNXhCSGNYdlZKQkYxbXJQSkVia2lrcUNscWtaZU1BRks2WjN1aEZ1eGpjNVZYM3NzUUVzVG1na3Bsbjh5VG1mQTFkbHgweWRFbDBuV1JhRjdpelFncDJIcmNTVlBLdGFkRmNqM2NIQWhlYXoycndNRWxudHotZ0hNelY1eEFaa3YxYm8wcjIyeWpfOE5ybU9QRmJBNzFWVlZNb2VTc29CYllSS1JETlFIV3JMaWVMclBvd1F6MTJsVTNPdm00WUZnUW5DS2tILWo2NklfSFJSRkd2anlzeVNKNWhMWlZkUUdqUlR6aU91eUEzYm9YM0VnTzBmNk9zOWJKUUdnWUNIZjRDaTIzQWxCemRsX1lvZmR5cWp6X09GNmZRTVM1bmlpLTZfVWNoRjg0Z1I3aWRkRE93?oc=5"
+  },
+  {
+   "publisher": "Daily News Egypt",
+   "title": "Gold prices rise by EGP 95 in one week",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYkdlYTlVSURtV0xydlk5cFRncm9kTndMcWt3SWJVUHJtb0x0WDRjUjk5TklIcUN1LUtTSkNmUW4yZjUxTkUzanIweVlZU1JlU0FJTW0ybzdNUGlyN05EVi1wUUpxM3BmZVZqU2NsVWY2Y2NvQ0IxV3lZd1YyaEFJV2xYTjZjU2V1?oc=5"
+  },
+  {
+   "publisher": "BW Businessworld",
+   "title": "Weekly Commodity Wrap: Oil Prices Surge, Gold And Silver Fall As Inflation Concerns Rise",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWkp6UHNBRm1UT2NHZFZod2w3aloyZEZEcmo5NVR3VjVTMENVNkZoa2ZHc1dHelM4SmtQQWRRRENxRmhMX1BwY2h4elg4OGtRR2JPQTdRQ2ktdHpMZlFLdnljeTVneC15ZE5UenU0eE8yUUJSdFNNekhkMTlyWjJsV0phOEFFcThLZkFhbTBKbjhvR2hpUHpQVlVvdnZmZEJXTFpncE93VURSLU56bnRVOW4tLTJQbjZpbUdHZGREbXlDMlJrVXlFQnB3?oc=5"
+  },
+  {
+   "publisher": "10News.com",
+   "title": "Another interest rate hike may be ahead as Fed battles inflation",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdWJTRk9qRU53SklJYVlpeE5Pa0h5Zm92dzZlbU9rOG9VWHNvT3FRZW5hY2dCQVBnNVMyME9EZXBsRnhPTWZjVWJiXzZkUUh5SWFaa3pQXzExMFhuYURIckMyLVRiaEFMM3hGSVJNUG15ZHNPZUlFS2VDZ1pVaFdWLWhOTW53ekV4ZV9pNV84ZS1qYzNlVE1zQm95U0VSR2cxUi1CNzNuRQ?oc=5"
+  },
+  {
+   "publisher": "The Block",
+   "title": "US federal judge denies joint Gemini-CFTC bid to undo $5 million settlement",
+   "summary": "The court noted that Gemini voluntarily settled three weeks before trial and that policy changes do not warrant reopening the judgment.",
+   "link": "https://www.theblock.co/news/regulation/2026-10-16-us-judge-denies-joint-gemini-cftc-bid-418775"
+  },
+  {
+   "publisher": "CoinDesk: Bitcoin, Ethereum, Crypto News",
+   "title": "U.S. judge rejects Gemini’s appeal to void $5 million settlement despite CFTC backing",
+   "summary": "",
+   "link": "https://www.coindesk.com/policy/2026/10/16/u-s-judge-rejects-gemini-s-appeal-to-void-usd5-million-settlement-despite-cftc-backing"
+  },
+  {
+   "publisher": "Yahoo Finance",
+   "title": "Judge Rejects Gemini, CFTC Bid To Overturn $5M Settlement In Bitcoin Futures Case",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc1d3QTZ6MTJ1UWRDbHB1TUxEdzRLVTNZMm1qRTlSVHBfWU1MVFdHdFp5QXpFVUJaOURJdnZMZHN4dF9MVHF0RHBKcXFCZlFoM252WTFrUm1ZSmVIS3NOQ3BzaS1hSzZCRGJWYU5kLWE0dEFyWXNDbXhFVkp0ZDhJUE12V3l6U05vSlF1ZVR5TWNCcDhMSnJWdktn?oc=5"
+  },
+  {
+   "publisher": "Bitcoin News",
+   "title": "French Assembly Narrowly Adopts Stablecoin Swap Tax Proposal",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMnZRS2t3dHFHbDVhOTlpZkk0ZnVrMG9uRU9HVERkLVpnb3ZXamV5TUlIQzE1dDk3SVVnOEc5cmNFeWtsSUVoaFVYSTIzVHVZRHFvaEZvc05Cd3E1X0V6TGk3MExGV2lDM0I3czRTVzZZS2s2eTk0QXc4bkpfZHNVY0NMV1YtbXd6MkxJNDNtTnlkb3d2ekVJRFZuS2k1VnhkSGxldmg0QmFRQ2M?oc=5"
+  },
+  {
+   "publisher": "The Defiant",
+   "title": "French Assembly Backs Tax on Crypto-to-Stablecoin Swaps by One Vote",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUHNlRURPVjJQMzFkc3gwMGZmMHlBd3lBQjVIMUJvcTFWbU1ld2ZVQ2ZQNzduWEF0SDExQXgzVmNLUmFXc1g1eDlOa3gydXEyWVdZejhsSEhQeGRnTkc4VC1Vb3BpbkktNnhDQ2dOZm1wQ3F1RXRZR3RONklOZWRGbnVqS3hoUEgxWnF2VFczU01wRFh5WW5ONC12N2RlN21VUU05eXA3RHY?oc=5"
+  },
+  {
+   "publisher": "FCA",
+   "title": "Building the next generation of market infrastructure",
+   "summary": "Speech by Nikhil Rathi, FCA chief executive at TheCityUK dinner, sponsored by Nasdaq. Thank you to TheCityUK and Nasdaq for bringing us together this evening.It’s a fitting venue for us to discuss market transitions: the former HQ of Midland Bank, which of course became part of HSBC.And now HSBC Orion has become the first entrant approved to provide live Digital Securities Depository services.A us",
+   "link": "https://www.fca.org.uk/news/speeches/building-next-generation-market-infrastructure"
+  },
+  {
+   "publisher": "The Guardian",
+   "title": "Israeli settlers attack European diplomats in West Bank",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc1IwNHJlUXV4YkJjMC01bkZ4TlJLS2E0azlhY1Z1UU5lblh2d05LYlRfV3ltMWR6aDUyS2JlVFFCWERlWGFTMVdqcUNKLTRYM1AtRjFZS3lVT2ZkZnlJd1pjQVJBWDN5Y3E2MTJkSk1XU1k4emx6WlFTY3JHV1ZhcWViZWY4UHU5VmxPenVWVXUwdlAwLV80eDAxdWU1ci1aMHdn?oc=5"
+  },
+  {
+   "publisher": "BBC",
+   "title": "European diplomats attacked by Israeli settlers in West Bank",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6MTJzVzlOQ3h3T3UweTdNRjRrUlRhcUhhVWlGZ2EwWG84SnRxRkNFQVBaSldicVlKYzY5b25LN0hBOE9LTi1UcU51Z2xwWVVwX2kxTXZnWm1xVEU?oc=5"
+  },
+  {
+   "publisher": "Al Jazeera",
+   "title": "Israeli settlers attack European diplomats during West Bank olive harvest",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZVlrUDBYQ1lXY0JvbHNXZURHR2NDTGtDRWZVM3huYXRNcTBoRUNSQTcteTRpenJ5VjMxb19TUkl6QVlLODlLRURDbEZmV0JpQTFDbUUzVXFYRTNpUmRvNHpLSjB3QlRPMmdSRFZWRDlzTnZnSm4wOTFoRWFTRmgyQU1hajNxTGZtWTdDVFdUeGRkV1laR1l3ZmJpMGZXaDZCak1vbzBzWmhPV0nSAbABQVVfeXFMTXkyS29qczlWX1hQc0NNd0wtdkpoZE5vSTdGX3VaejRKdUZldzRaamhRYzZaTnp6MXV6QVhVcjRJbDQ5UzJhM0xOVFp1U05aSkpDM3lEUW1rczExT3o0VjYzSWFpYkxVa0l5MlVLX3E1eG1QeGlRbDMxNElGdXJuNGoxSHZZRVpOVFhhQXYtOEIxTFJhWUhRYkk1a2s4dmFCN0NlaGZoVlVWV0dtY0RMMm4?oc=5"
+  },
+  {
+   "publisher": "Al Jazeera",
+   "title": "Trump faces bipartisan backlash over Russia sanctions waiver",
+   "summary": "Republicans and Democrats condemn Trump’s decision to suspend sanctions, saying it undermines support for Ukraine.",
+   "link": "https://www.aljazeera.com/news/2026/10/17/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver?traffic_source=rss"
+  },
+  {
+   "publisher": "International: Top News And Analysis",
+   "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong'",
+   "summary": "Trump signed the Graham Bill, which targeted Russia over its invasion of Ukraine, into law in September.",
+   "link": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html"
+  },
+  {
+   "publisher": "FCA",
+   "title": "FCA announces new Board appointments",
+   "summary": "Three new appointments have been made to our Board, bringing additional experience in public policy, financial services, regulation and corporate leadership as we continue to deliver our strategy. Lea Paterson CBE and Matthew Tobin have been appointed by the Treasury as non-executive directors, while deputy chief executive Sarah Pritchard has joined the Board as an executive member.Lea Paterson CB",
+   "link": "https://www.fca.org.uk/news/news-stories/fca-announces-new-board-appointments-lea-paterson-matthew-tobin-sarah-pritchard"
+  },
+  {
+   "publisher": "NDTV Profit",
+   "title": "Gold Rate Today In Gurgaon, Check Live 22 And 24 Carat Gold Price",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZRzJReDlrM1haTDFjSUo2X1RucklreXJzU0dZTlJhc3BoTS1RYkNwdnRCQzJXTTVlTEZWbTRSclljVGZaVmxZaUZIc0hiYzZNYVAxZ2E0ZUtEZGlaLWRRODhIdVhuWWdmejFKS2RMLXFIUVk?oc=5"
+  },
+  {
+   "publisher": "NDTV Profit",
+   "title": "Silver Rate Today In Bhopal Live, Latest Silver Price",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9JdDR1UVI5aUFFTEhIaFdYaTY4Tll4bXRxYmV4RldEeERqd18xZWNQNmJBd20xWm0xUEtrX3p3UHFWckhCT0g2TXplS2JRTWlNMDJkUy1kQnZ5bzd2Ry1DR09pckF6QWJJZDRTMUFTVTNaV1pBYXFB?oc=5"
+  },
+  {
+   "publisher": "The Straits Times World News",
+   "title": "Singapore’s key exports soar beyond expectations in September on AI and non-electronics boom",
+   "summary": "This marks the seventh consecutive month of double-digit expansion.",
+   "link": "https://www.straitstimes.com/business/singapores-key-exports-rise-more-than-expected-in-september-driven-by-non-electronics"
+  },
+  {
+   "publisher": "",
+   "title": "Singapore key exports jump by higher-than-expected 68.4% in September, led by non-electronics",
+   "summary": "Electronics exports continue to surge on AI-related demand, but economists warn that this will soften in 2027",
+   "link": "https://www.businesstimes.com.sg/singapore/singapore-key-exports-jump-higher-expected-68-4-september-led-non-electronics"
+  },
+  {
+   "publisher": "WSJ",
+   "title": "Chinese Exports Soar in September",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUUM0eFhYRF9UMTBrT3VCZjJaclBJV2tzWXBSY1AtVUI3Zlg1Wm9QWGI1ZzBrVU43MFVNV1VEM05fdkNidGxZc1RtRE94Yi1TRVdKVERqeFVnaGhIYjFTbldEcG9jQ3ZqVEVEd0xvVjZUanMyNmFLel96MDg1WkVnSVQwem1MOG9m?oc=5"
+  },
+  {
+   "publisher": "Nikkei Asia",
+   "title": "BOJ's Ueda says inflation can't be allowed to rise further",
+   "summary": "",
+   "link": "https://asia.nikkei.com/economy/bank-of-japan/boj-s-ueda-says-inflation-can-t-be-allowed-to-rise-further"
+  },
+  {
+   "publisher": "Analytics Insight",
+   "title": "Trump Waives Russia Sanctions Before Oil Tariffs Take Effect",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTWR3cWpXWlZLdGVqRTF6YVZ0MlpQV0VxaVU3Sk9Da2ZtaVRnN0JHRG9sQTNmQkZ2cGI1WTBZMUxKbjI4UWtsbVE0eGhmbXl3NWpOLVFDdEhrRmZyakFCVWhwbm9LNUFydFJWdUxiVmoxYy1fVVB1ZEN1MTFjRmNGQUhaYnpSaG1sVzVRUmtYcmwzY2JBdDhDdVJaRHRWOVdYYk9WcWxkZ3NqRTRl0gGsAUFVX3lxTE9NZHdxaldaVkt0ZWpFMXphVnQyWlBXRXFpVTdKT0NrZm1pVGc3QkdEb2xBM2ZCRnZwYjVZMFkxTEpuMjhRa2xtUTR4aGZteXc1ak4tUUN0SGtGZnJqQUJVaHBub0s1QXJ0UlZ1TGJWajFjLV9VUHVkQ3UxMWNGY0ZBSFpielJobWxXNVFSa1hybDNjYkF0OEN1UlpEdFY5V1hiT1ZxbGRnc2pFNGU?oc=5"
+  },
+  {
+   "publisher": "The Block",
+   "title": "MSCI finalizes index rules that put Strategy, crypto treasury firms at risk of exclusion",
+   "summary": "MSCI's new non-operating company rules could exclude Strategy, Metaplanet and SharpLink. The final list of affected firms is due Nov. 11.",
+   "link": "https://www.theblock.co/news/business/2026-10-15-msci-rules-could-exclude-strategy-mstr-from-indexes-418729"
+  },
+  {
+   "publisher": "Cointelegraph.com News",
+   "title": "MSCI adopts index exclusion rules that could oust Strategy",
+   "summary": "Strategy, Metaplanet and Upexi were previously identified for deletion under the methodology, with MSCI set to announce its final list on Nov. 11.",
+   "link": "https://cointelegraph.com/news/msci-adopts-index-exclusion-rules-that-could-oust-strategy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+   "publisher": "Bitcoin Foundation",
+   "title": "Strategy Index Exclusion Risk Puts $2.8B at Stake",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNd3MxR0Q1MFUwV1BqTWRzUjRCUUNJT0FPbm9zNFk0ZWVTdjd5c3RfbE9IeGtQQWlaVFpzTVFlYnBab2lyOTlQeGxHaWNlamZqYmtkaDRwX0V4UHh4UUpoNnMwYncwS2ZpZnEtMjRiS251RHR2QVpwSjUzaG5jTTZTdkJiSXZLSHJacTNDQXlyNEhqUFBneGhqbVZlQmpyakRRSC14Q3ltWklLWGxybnc?oc=5"
+  },
+  {
+   "publisher": "The Block",
+   "title": "Ripple Prime adds RWA swaps referencing perpetual futures listed on Hyperliquid",
+   "summary": "Ripple Prime has added RWA perpetual swaps tied to equities, ETFs, metals, energy and currencies, with 24/7 trading and settlement.",
+   "link": "https://www.theblock.co/news/business/2026-10-15-ripple-prime-rwa-swaps-perpetual-futures-hyperliquid-418681"
+  },
+  {
+   "publisher": "BigGo Finance",
+   "title": "Pump.fun Adds Hyperliquid-Powered Perpetual Futures With Up to 40x Leverage",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qTlZfWmdrSE9GakoxMVFiX0EweXpOMjFiSHlzZVMySk9UUG1WanBKalJrbHVvamJoTl9lbncwRWt0ampoTGRnc1JhVHJSU0lEU0lnbnhoMmJhTTdYRmtET3FOMGY2d1lIYzdhTGEyZDVub1VILWc?oc=5"
+  },
+  {
+   "publisher": "Cryptonews.net",
+   "title": "Pump.fun perpetual futures offer Bitcoin traders up to 40x leverage",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE96WWVzQXZmUjhZSlBERjU2SmEzN1hocXRxYVlrSjYyTDhIR0JVT0NOaDVXaE5HYXBNcjBlQWdDUjA1UFlkanZUY3hjXzBfZFZnbjkybTVHaw?oc=5"
+  },
+  {
+   "publisher": "ESMA",
+   "title": "New Q&As available",
+   "summary": "New Q&amp;As available 16 October 2026 CCP Digital Finance and Innovation The European Securities and Markets Authority (ESMA), the EU's securities markets regulator, has published the following question and answer: Crypto-Asset Service Provider (CASP) Use by CASPs of payment accounts provided by non-bank payment service providers for holding clients’ funds (2949) European crowdfunding service pro",
+   "link": "https://www.esma.europa.eu/press-news/esma-news/new-qas-available-27"
+  },
+  {
+   "publisher": "ESMA",
+   "title": "ESMA finalises the review of guidelines on the delay in disclosure of inside information",
+   "summary": "ESMA finalises the review of guidelines on the delay in disclosure of inside information 16 October 2026 Guidelines and Technical standards Market Abuse Market Integrity Simplification and Burden Reduction The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has updated and streamlined its Market Abuse Regulation (MAR) guidelines on the delay i",
+   "link": "https://www.esma.europa.eu/press-news/esma-news/esma-finalises-review-guidelines-delay-disclosure-inside-information"
+  },
+  {
+   "publisher": "ESMA",
+   "title": "ESMA's third Sanctions Report highlights the need for greater convergence in enforcement",
+   "summary": "ESMA's third Sanctions Report highlights the need for greater convergence in enforcement 15 October 2026 Market Abuse Supervisory convergence Transparency The European Securities and Markets Authority (ESMA), the EU's financial markets regulator and supervisor, published today its consolidated report on sanctions and measures imposed across the European Economic Area (EEA) in 2025, enhancing the t",
+   "link": "https://www.esma.europa.eu/press-news/esma-news/esmas-third-sanctions-report-highlights-need-greater-convergence-enforcement"
+  },
+  {
+   "publisher": "FCA",
+   "title": "LIBOR/EURIBOR-related bans",
+   "summary": "The FCA has reviewed its regulatory action against individuals whose convictions have recently been overturned by the Court of Appeal.As these convictions formed the basis on which the FCA took its action, we have revoked the bans of Colin Bermingham, Philippe Moryoussef, Jonathan Mathew and Christian Bittar and removed the associated Final Notices from FCA channels.The FCA will take no further ac",
+   "link": "https://www.fca.org.uk/news/statements/libor-euribor-related-bans"
+  },
+  {
+   "publisher": "FCA",
+   "title": "Liam Coleman appointed as chair of the Financial Ombudsman Service",
+   "summary": "The FCA Board has appointed Liam Coleman as chair of the Financial Ombudsman Service, with the approval of the Treasury. Liam will take up the permanent role on 10 October 2026 for a 3-year term, having served as interim chair for the last year.Ashley Alder, chair of the FCA, commented: 'Liam has brought strong leadership and valuable insight to the Financial Ombudsman Service over the past year. ",
+   "link": "https://www.fca.org.uk/news/press-releases/liam-coleman-appointed-chair-financial-ombudsman-service"
+  },
+  {
+   "publisher": "FCA",
+   "title": "FCA secures money back for victims of crypto fraud",
+   "summary": "Victims of a £1.5m crypto investment fraud will recover lost funds after the FCA obtained confiscation orders against Raymondip Bedi and Patrick Mavanga. At a hearing at Southwark Crown Court on 28 September 2026, Raymondip Bedi was ordered to pay £603,404.28 and Patrick Mavanga £247,997.99.Between February 2017 and June 2019, Bedi and Mavanga operated a fraudulent investment scheme, cold-calling ",
+   "link": "https://www.fca.org.uk/news/press-releases/fca-secures-money-back-victims-crypto-fraud"
+  },
+  {
+   "publisher": "RBI",
+   "title": "Government Stock - Full Auction Results",
+   "summary": "(Amount in &#8377; Crore) Auction Results 6.94% GS 2036 I. Notified Amount 34,000 II. Competitive Bids Received &nbsp; (i) Number 400 (ii) Amount 94,072.116 III. Cut-off price (&#8377;) / Yield 96.91 (YTM: 7.3955%) IV. Competitive Bids Accepted &nbsp; (i) Number 113 (ii) Amount 33,960.709 V. Partial Allotment Percentage of Competitive Bids 20.7188% (46 bids) VI. Weighted Average Price (&#8377;) / ",
+   "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63818"
+  },
+  {
+   "publisher": "RBI",
+   "title": "Government Stock - Auction Results: Cut-off",
+   "summary": "&nbsp; &nbsp; 6.94% GS 2036 I. Notified Amount &#8377;34,000 crore II. Cut off Price (&#8377;) / Implicit Yield at cut-off 96.91/7.3955% III. Amount accepted in the auction &#8377;34,000 crore IV. Devolvement on Primary Dealers NIL Ajit Prasad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deputy General Manager (Communications)&nbsp;&nbsp;&nbsp;&nbsp; Press Release: 2026-2027/1339",
+   "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63817"
+  },
+  {
+   "publisher": "RBI",
+   "title": "Auction of State Government Securities",
+   "summary": "The following State Governments have offered to sell stock by way of auction, for an aggregate amount of &#8377;24,400 Crore (Face Value). Sr. No. State/UT Amount to be raised (&#8377; Crore) Tenor (Year) Type of Auction 1. Andhra Pradesh 1000 Re-issue of 7.68% Andhra Pradesh SGS 2051, issued on July 29, 2026 Price 2. Goa 200 Re-issue of 7.80% Goa SGS 2037, issued on September 16, 2026 Price 3. Gu",
+   "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63814"
+  },
+  {
+   "publisher": "Business Standard",
+   "title": "Kolkata puja pandal stampede: PM announces ₹2 lakh ex gratia, Shah to visit injured",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPLXJoazZZa2V5S2JlbGwyaTJnSTNadVdNeE15SzNTWnNCQ0R5X19OQi1jSjg2Z3M3VGpER2g5RnIxWERHTW1HbTJ2Y2haR2VnTzZiWHBlNlFXWGdDYm94VUZRN09KTGU4MnRNeVU2QmlwbkpwTnZlMlczZFZNc1BRdG9Mb3VuVWtsbG5ZQk1wUkJCazc5T0t4V09mWUI5ckFpdkJsLTdIalZEVTE0bzdGamZKa09CbWpYWHJrRWZJbmNtX2owNDJZaE8yM3pSeWI2YkZsOWZFR0l0QVdiMURLbHVOcGk?oc=5"
+  },
+  {
+   "publisher": "NDTV Profit",
+   "title": "Kolkata Puja Pandal Stampede: Amit Shah Cancels Scheduled Programmes In Bengal",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYnlqcHBFMVpRSXQwUS1oUzRyYU5jWTZuQkhpT1lsaWd1RlBoMGhHX2NpR2M4VzdiYlZydEhSMWNiYi01QlUwZTNwXzJNczlMQkxkXy1RUE9Td0NwaFBXWmMzT2ExZy1wU3lTSHlUNUMzeV9RRWVZT25XMU9pclQwSVN3QktGektKbHY0NUZYNmpJRlJya3F6Y2VTQ2hQdGtfTmFhNU1xekdTR0FWTG9faGtxYmM3VnZxQUFr0gHDAUFVX3lxTE8xUTVfTkdBQVhCVEdLSWtsMTZXSHpKaENHLVdBTVhiQjd4RFdhNVVmMURYSnAwdGlkY0VjdjNKUWlab0xNWmtqVUVMblNuTHNHbnBUSVdBMkpaamhjR2lrTUxYeHNhZEk5XzN4UnBNbGtNb25EcVQzR2x0eHVfdGNURG40bjhNVmZBX1RfeEN0QVNHTnkyVjBTM01QelFOM19hcEY2QkpST1JUaVVTYWU2OTF6YU54eTJvOGZsdkpPS1MxZw?oc=5"
+  },
+  {
+   "publisher": "Economic Times",
+   "title": "Durga Puja pandal stampede: 17 dead, 15 injured; PM announces Rs 2 L ex-gratia for kin of deceased",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOS1FNWWVqM1E5VTRKYzNlWFlmenVMOERrMWtQWkhtMVdxT2c4MnY4NHkxZjlwcXRHQnhGVEVWY1huSWpKZDdVRkVwMFBjWnowaGdCU1IwMjUyaFV6Z1ltdjQ3dXFxMkpveTV6YXNoTklMV01rSzBJVnJHUUVDWTZVZzVudi1CT0dtcVVaaC1GNDF6ZHllNGZXTXkzR2h5MV9abm5iaFN1b1E5YW5tTmx0NC1OSzZOZWFjTnAxclZYSnRPTlFlWFFNV01BS0V0ZU94em1nY2lSVUlFb1ZnM0hWLVM2c2IzdDhNT3pWMWstOFrSAfYBQVVfeXFMT0R3NXc5VmgzRWpUSm15RnRvbXhpNHFHaXpoT204Um5qOVl4b0dQSDk4bjRxd0Fabnl3WGNqTEl0dkVGT1BnNnE5aEhIZEtOcFJTUS1saDhQOGVMOHpZYWo5eTI3UlRsMjFObUpmQlRNZk5SXzUydWgzWVl5WXNMWDFReWJHWGhjclh3eUw2VmNoVWFFRHVFMlZ5YzVrUzFDMWFJQ0VQbnI4Vk12UTFscXZYQVY4UkVhc3pvWUJsZ0l4Q0hfREQtLTBQUHkyZ1hrOVZiX1ltazZ2aGlHaDU5ejFyNVRBRnhnbmdvVlZOUEt5RDZETTdB?oc=5"
+  },
+  {
+   "publisher": "Mint",
+   "title": "Wall Street Week Ahead - Earnings expectations: All eyes on Meta, Tesla, Netflix, and SpaceX; this survey also in focus",
+   "summary": "The results are expected to offer insights into corporate earnings, consumer demand, AI investments and cash generation",
+   "link": "https://www.livemint.com/market/stock-market-news/wall-street-week-ahead-earnings-expectations-all-eyes-on-meta-tesla-netflix-and-spacex-this-survey-also-in-focus-11792254700438.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Appeal No. 7107 of 2026 filed by Deepali Singhal",
+   "summary": "Appeal No. 7107 of 2026 filed by Deepali Singhal",
+   "link": "https://www.sebi.gov.in/enforcement/orders/oct-2026/appeal-no-7107-of-2026-filed-by-deepali-singhal_105321.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Appeal No. 7114 of 2026 filed by A. Balamurugan",
+   "summary": "Appeal No. 7114 of 2026 filed by A. Balamurugan",
+   "link": "https://www.sebi.gov.in/enforcement/orders/oct-2026/appeal-no-7114-of-2026-filed-by-a-balamurugan_105319.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Appeal No. 7112 of 2026 filed by Ranjeet Kumar Swain",
+   "summary": "Appeal No. 7112 of 2026 filed by Ranjeet Kumar Swain",
+   "link": "https://www.sebi.gov.in/enforcement/orders/oct-2026/appeal-no-7112-of-2026-filed-by-ranjeet-kumar-swain_105317.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Review of certain aspects of the Closing Auction Session, market timings and settlement methodology for derivatives contracts",
+   "summary": "Review of certain aspects of the Closing Auction Session, market timings and settlement methodology for derivatives contracts",
+   "link": "https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-certain-aspects-of-the-closing-auction-session-market-timings-and-settlement-methodology-for-derivatives-contracts_105293.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Prohibitory Order no. 1575/2026 issued against Venkatachari Suresh in the matter of Securekloud Technologies Ltd under RC No. 8710 of 2025",
+   "summary": "Prohibitory Order no. 1575/2026 issued against Venkatachari Suresh in the matter of Securekloud Technologies Ltd under RC No. 8710 of 2025",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/oct-2026/prohibitory-order-no-1575-2026-issued-against-venkatachari-suresh-in-the-matter-of-securekloud-technologies-ltd-under-rc-no-8710-of-2025_105292.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Prohibitory Order no. 1576/2026 issued against R S Ramani in the matter of Securekloud Technologies Ltd under RC No. 8709 of 2025",
+   "summary": "Prohibitory Order no. 1576/2026 issued against R S Ramani in the matter of Securekloud Technologies Ltd under RC No. 8709 of 2025",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/oct-2026/prohibitory-order-no-1576-2026-issued-against-r-s-ramani-in-the-matter-of-securekloud-technologies-ltd-under-rc-no-8709-of-2025_105290.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Release Order dated October 15, 2026 for RC 8924 of 2025 issued against Yuvika Tradewing LLP (PAN - AABFY4620R) in the matter of Cressanda Solutions Limited",
+   "summary": "Release Order dated October 15, 2026 for RC 8924 of 2025 issued against Yuvika Tradewing LLP (PAN - AABFY4620R) in the matter of Cressanda Solutions Limited",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/oct-2026/release-order-dated-october-15-2026-for-rc-8924-of-2025-issued-against-yuvika-tradewing-llp-pan-aabfy4620r-in-the-matter-of-cressanda-solutions-limited_105289.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Completion of RC No. 8924 of 2025 issued against Yuvika Tradewing LLP (PAN - AABFY4620R) in the matter of Cressanda Solutions Limited",
+   "summary": "Completion of RC No. 8924 of 2025 issued against Yuvika Tradewing LLP (PAN - AABFY4620R) in the matter of Cressanda Solutions Limited",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/oct-2026/completion-of-rc-no-8924-of-2025-issued-against-yuvika-tradewing-llp-pan-aabfy4620r-in-the-matter-of-cressanda-solutions-limited_105287.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Confirmatory order in the matter of Rajesh Exports Limited",
+   "summary": "Confirmatory order in the matter of Rajesh Exports Limited",
+   "link": "https://www.sebi.gov.in/enforcement/orders/oct-2026/confirmatory-order-in-the-matter-of-rajesh-exports-limited_105261.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Order in the matter of Capital Stroke Investment Services Pvt. Ltd.",
+   "summary": "Order in the matter of Capital Stroke Investment Services Pvt. Ltd.",
+   "link": "https://www.sebi.gov.in/enforcement/orders/oct-2026/order-in-the-matter-of-capital-stroke-investment-services-pvt-ltd-_105285.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Release of attachment on immovable property under RC No. 3965 of 2021-Ram Kishore Taparia (PAN – ABJPT1453C) in the matter of Cosboard Industries Ltd",
+   "summary": "Release of attachment on immovable property under RC No. 3965 of 2021-Ram Kishore Taparia (PAN – ABJPT1453C) in the matter of Cosboard Industries Ltd",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/oct-2026/release-of-attachment-on-immovable-property-under-rc-no-3965-of-2021-ram-kishore-taparia-pan-abjpt1453c-in-the-matter-of-cosboard-industries-ltd_105270.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Release Order for RC No.3965 of 2021-Ram Kishore Taparia (PAN – ABJPT1453C) in the matter of Cosboard Industries Ltd",
+   "summary": "Release Order for RC No.3965 of 2021-Ram Kishore Taparia (PAN – ABJPT1453C) in the matter of Cosboard Industries Ltd",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/oct-2026/release-order-for-rc-no-3965-of-2021-ram-kishore-taparia-pan-abjpt1453c-in-the-matter-of-cosboard-industries-ltd_105263.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Completion of Recovery Certificate No. 3965 of 2021-Ram Kishore Taparia (PAN – ABJPT1453C) in the matter of Cosboard Industries Ltd",
+   "summary": "Completion of Recovery Certificate No. 3965 of 2021-Ram Kishore Taparia (PAN – ABJPT1453C) in the matter of Cosboard Industries Ltd",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/oct-2026/completion-of-recovery-certificate-no-3965-of-2021-ram-kishore-taparia-pan-abjpt1453c-in-the-matter-of-cosboard-industries-ltd_105259.html"
+  },
+  {
+   "publisher": "SEBI",
+   "title": "Notice of Demand dated October 14, 2026 issued against Jalaj Agrawal (PAN:AUDPA0226H) in the matter of market manipulation using social media in the scrip of Moksh Ornaments Limited - RC No. 9304 of 2026",
+   "summary": "Notice of Demand dated October 14, 2026 issued against Jalaj Agrawal (PAN:AUDPA0226H) in the matter of market manipulation using social media in the scrip of Moksh Ornaments Limited - RC No. 9304 of 2026",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/oct-2026/notice-of-demand-dated-october-14-2026-issued-against-jalaj-agrawal-pan-audpa0226h-in-the-matter-of-market-manipulation-using-social-media-in-the-scrip-of-moksh-ornaments-limited-rc-no-9304-of-2-_105253.html"
+  },
+  {
+   "publisher": "ESMA",
+   "title": "ESMA updates its manual on transparency with new guidance for OTC derivatives and tick-size regime",
+   "summary": "ESMA updates its manual on transparency with new guidance for OTC derivatives and tick-size regime 15 October 2026 Trading The European Securities and Markets Authority (ESMA), the EU regulator and supervisor, has updated its manual on transparency to provide further guidance on the identification of over-the-counter (OTC) derivatives subject to transparency requirements and to enhance supervisory",
+   "link": "https://www.esma.europa.eu/press-news/esma-news/esma-updates-its-manual-transparency-new-guidance-otc-derivatives-and-tick"
+  },
+  {
+   "publisher": "ESMA",
+   "title": "ESMA analysis shows continued growth in cross-border investment services",
+   "summary": "ESMA analysis shows continued growth in cross-border investment services 14 October 2026 Investor protection The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has completed its annual analysis of the cross-border provision of investment services , together with national competent authorities (NCAs). The exercise collected data from investmen",
+   "link": "https://www.esma.europa.eu/press-news/esma-news/esma-analysis-shows-continued-growth-cross-border-investment-services"
+  },
+  {
+   "publisher": "ESMA",
+   "title": "European Supervisory Authorities set priorities for 2027",
+   "summary": "European Supervisory Authorities set priorities for 2027 13 October 2026 Joint Committee The Joint Committee of the European Supervisory Authorities (EBA, EIOPA and ESMA – the ESAs) published today its Annual Work Programme for 2027 , setting out its priorities for addressing cross-sectoral risks and strengthening coordination across the European Union's financial sector. In 2027, the Joint Commit",
+   "link": "https://www.esma.europa.eu/press-news/esma-news/european-supervisory-authorities-set-priorities-2027"
+  },
+  {
+   "publisher": "ESMA",
+   "title": "ESMA sets out 2026 European Common Enforcement Priorities",
+   "summary": "ESMA sets out 2026 European Common Enforcement Priorities 13 October 2026 Financial reporting Issuer disclosure The European Securities and Markets Authority (ESMA), the European financial markets regulator and supervisor, has outlined the European Common Enforcement Priorities (ECEP) for the 2026 annual financial reports of listed issuers.&nbsp; The priorities identify the following areas of focu",
+   "link": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-2026-european-common-enforcement-priorities"
+  },
+  {
+   "publisher": "ESMA",
+   "title": "ESMA promotes clarity in claims on impact and transition",
+   "summary": "ESMA promotes clarity in claims on impact and transition 12 October 2026 Sustainable finance The European Securities and Markets Authority (ESMA), the EU’s financial markets regulator and supervisor, has published two additional thematic notes on sustainability-related claims.&nbsp; Impact claims This thematic note examines positive impact claims made through funds and bonds. Market participants u",
+   "link": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-claims-impact-and-transition"
+  },
+  {
+   "publisher": "ESMA",
+   "title": "ESMA appoints Carlos San Basilio as the new member of its Management Board",
+   "summary": "ESMA appoints Carlos San Basilio as the new member of its Management Board 09 October 2026 About ESMA Management Board The European Securities and Markets Authority (ESMA), the European Union’s financial markets regulator and supervisor, has appointed Carlos San Basilio of Comisión Nacional del Mercado de Valores (CNMV), as the new member of its&nbsp; Management Board . Mr San Basilio will be&nbsp",
+   "link": "https://www.esma.europa.eu/press-news/esma-news/esma-appoints-carlos-san-basilio-new-member-its-management-board"
+  },
+  {
+   "publisher": "FCA",
+   "title": "ePayments Systems Limited enters special administration",
+   "summary": "On 15 October 2026, ePayments Systems Limited (EPS) entered special administration. Mark Boast and Allister Manson of Opus Restructuring LLP (Opus) have been appointed as joint special administrators. EPS is authorised by the FCA to issue e-money under the Electronic Money Regulations 2011 (EMRs).See details on the Financial Services Register.Who to contactThe special administrators are responsibl",
+   "link": "https://www.fca.org.uk/news/news-stories/epayments-systems-limited-enters-special-administration"
+  },
+  {
+   "publisher": "FCA",
+   "title": "Jarvis Investment Management Limited enters special administration",
+   "summary": "On 14 October 2026, Jarvis Investment Management Limited (Jarvis Investment) entered special administration. Adam Stephens and Philip Hemming of S&amp;W Partners LLP were appointed as special administrators. Jarvis Investment (FRN 116413) is FCA authorised and regulated to provide wealth management services. On 16 September 2022, Jarvis Investment agreed to a voluntary requirement with the FCA, wh",
+   "link": "https://www.fca.org.uk/news/news-stories/jarvis-investment-management-limited-enters-special-administration"
+  },
+  {
+   "publisher": "FCA",
+   "title": "ITI Capital Ltd enters special administration",
+   "summary": "On 25 September 2026, ITI Capital Ltd (ITI Capital) entered special administration. Duncan Perring and David Soden, both of Teneo Financial Advisory Ltd (Teneo), were appointed as special administrators. ITI Capital is a FCA authorised and regulated brokerage company that helped customers invest in shares and bonds and looked after their investments.On 10 August 2025, ITI Capital agreed to stop ca",
+   "link": "https://www.fca.org.uk/news/news-stories/iti-capital-ltd-enters-special-administration"
+  },
+  {
+   "publisher": "FCA",
+   "title": "Three arrests in major FCA operation against criminal insider dealing ring",
+   "summary": "The FCA has conducted a major operation to disrupt a suspected organised criminal group for engaging in insider dealing and money laundering. On 13 October, 3 individuals were arrested following a joint operation by the FCA and the National Crime Agency (NCA). More than 100 FCA and NCA staff took part in searches at 5 residential premises in London and Manchester.More than 30 mobile phones, laptop",
+   "link": "https://www.fca.org.uk/news/press-releases/three-arrests-major-fca-operation-against-criminal-insider-dealing-ring"
+  },
+  {
+   "publisher": "FCA",
+   "title": "Two plead guilty after clients lose £2m in fraud case",
+   "summary": "Two people who worked at financial advice firms have pleaded guilty to fraud after 4 clients lost £2m. Kerry Nelson, the director of Nexus Independent Financial Advisers Limited and Nexus Investment Managers Limited, and Jacqueline Stephens, the firms' business operations manager, admitted all charges brought by the FCA at Portsmouth Crown Court.They admitted defrauding clients between January 201",
+   "link": "https://www.fca.org.uk/news/press-releases/two-plead-guilty-after-clients-lose-2m-fraud-case"
+  },
+  {
+   "publisher": "FCA",
+   "title": "Motor finance legal challenge to be heard in February 2027",
+   "summary": "The Upper Tribunal has confirmed it will hear the legal challenges to our motor finance compensation scheme between 16 to 26 February 2027. The scheme was challenged by 3 lenders - Volkswagen Financial Services, Mercedes Benz Financial Services, and Crédit Agricole Auto Finance - and by Consumer Voice, represented by Courmacs Legal. The scheme is currently partially suspended. However, firms must ",
+   "link": "https://www.fca.org.uk/news/statements/motor-finance-legal-challenge-be-heard-february-2027"
+  },
+  {
+   "publisher": "FCA",
+   "title": "Strong compliance functions support trusted corporate finance markets",
+   "summary": "Corporate finance firms help businesses raise funding and implement strategic transactions, supporting investment and growth.This brings responsibility: clients need to be able to trust that firms will act with integrity and manage any conflicts of interest. That trust underpins effective wholesale markets activity.In our Regulatory Priorities Report, we said we would assess corporate finance firm",
+   "link": "https://www.fca.org.uk/news/blogs/strong-compliance-functions-support-trusted-corporate-finance-markets"
+  },
+  {
+   "publisher": "FCA",
+   "title": "New rules to make long-term investment funds clearer",
+   "summary": "The FCA has set out clearer expectations for asset managers about long-term investments, such as property. This will help give the market more confidence to invest in funds that support private markets.The new rules mean that investors will have to give 90 days' notice to access their funds but will be more certain that they will receive their money.For investors, this means the fund should be cle",
+   "link": "https://www.fca.org.uk/news/press-releases/new-rules-make-long-term-investment-funds-clearer"
+  },
+  {
+   "publisher": "FCA",
+   "title": "Looking at how we interact with whistleblowers",
+   "summary": "Just over a week ago, we received the incredibly sad news that a whistleblower, Simon Andriesz, who we had been in contact with over many years, had died. We’ve shared our condolences, and our thoughts are with his family and loved ones.We’re often in contact with people in challenging circumstances.They may be sharing information about a firm we regulate that they’re concerned about, or in the mi",
+   "link": "https://www.fca.org.uk/news/blogs/looking-how-we-interact-whistleblowers"
+  },
+  {
+   "publisher": "FCA",
+   "title": "Reforming UK capital markets to ensure they work well for our economy",
+   "summary": "Speech by Jon Relleen, director of infrastructure and exchanges, at the Reform of the UK Public and Private Capital Markets Summit 2026. The Economic Secretary to the Treasury has discussed the contribution of UK markets to economic growth.I want to build on that by talking about the FCA’s role in reforming capital market rules.The headline is that we've been very busy over the past few years.We’v",
+   "link": "https://www.fca.org.uk/news/speeches/reforming-uk-capital-markets-ensure-they-work-well-our-economy"
+  },
+  {
+   "publisher": "FCA",
+   "title": "Firms’ confidence, satisfaction and trust in the FCA rise",
+   "summary": "The latest FCA and Practitioner Panel survey shows rising levels of satisfaction, confidence and trust in the FCA among firms, alongside a strong understanding of Consumer Duty expectations. The FCA and Practitioner Panel annual survey of regulated firms provides valuable insights into how firms think we’re performing.The latest survey shows 79% of firms are highly satisfied with their relationshi",
+   "link": "https://www.fca.org.uk/news/news-stories/firms-confidence-satisfaction-and-trust-fca-rise"
+  },
+  {
+   "publisher": "FCA",
+   "title": "FCA secures bankruptcy order against Arthur Temlett",
+   "summary": "We asked the Court to make Arthur Temlett, trading as Abacus Insurance Consultants ('Abacus'), bankrupt. This is known as sequestration in Scotland. The Sheriff granted our application on 27 August 2026. Emma Porter of Aver Chartered Accountants ('Aver') was appointed as trustee. She will now assess Mr Temlett’s financial affairs and seek to distribute any recovered funds to creditors.Arthur Temle",
+   "link": "https://www.fca.org.uk/news/news-stories/fca-secures-bankruptcy-order-against-arthur-temlett"
+  },
+  {
+   "publisher": "FCA",
+   "title": "InterestMe Financial Planning Limited (IMFP) and the appointed representative InterestMe Advisers Limited (IMA) enter administration",
+   "summary": "On 24 September 2026, IMFP and IMA entered administration. Robert Goodhew and Geoff Bouchier of Kroll Advisory Limited were appointed joint administrators for both firms. The joint administrators are responsible for managing the affairs of the firms during the administration process. They are officers of the court and need to comply with all insolvency law.IMFP is authorised by the FCA. IMA is an ",
+   "link": "https://www.fca.org.uk/news/news-stories/imfp-appointed-representative-ima-enter-administration"
+  },
+  {
+   "publisher": "FCA",
+   "title": "Twenty-four CFD firms closing in crackdown on misuse of UK authorisation",
+   "summary": "Twenty-one Contracts for Differences (CFD) firms have closed since 2025, following a FCA crackdown. The FCA was concerned the firms were misusing their authorised status to mislead consumers. Three other firms are currently cancelling their permissions.The FCA has been challenging CFD firms that carry out little UK business but use their authorisation as a badge to make linked overseas companies l",
+   "link": "https://www.fca.org.uk/news/press-releases/twenty-four-cfd-firms-closing-crackdown-misuse-uk-authorisation"
+  },
+  {
+   "publisher": "The Nation Newspaper",
+   "title": "Oyedele, Cardoso woo global investors at IMF/World Bank meetings",
+   "summary": "",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRlhuYTJ4LURycHpsTTV3UVByeUJYV00wU2I1c3FCeTh6VUlRQlRFczcyMzhDbnZETWJOSTNNTFJWeUp0NC05VGNxVFZ4aFZvVklKZnN0WHNFREZ2Nkh5M2htZmpWbE9iLWdjUXZwYzZRN1lUZEFINFdab1JVWFRxVGtsOVVaZ0N3eGRnRzd3T2tIT3ZNdzdmWlV30gGfAUFVX3lxTE9uUjhSS3owSnAxY0Z6WVFkdXRpanNfcWpHLTJkb05LNEs1RDg3WFpvLVRxTURrWWlKUWRoWTZJRndxdWlwSGdnYjZTSXNaQjBkR2RaZnhMZ2IyemJuRlgwSkVWbXBibnMzWGJCbGNrWDNFN0NGd3VNU004Rll5czMxSS1TOUR4NWNmYWNuV1hLMmpOUW4wMlJnQldYM2VBWQ?oc=5"
+  },
+  {
+   "publisher": "Al Jazeera",
+   "title": "Hundreds rally in Kyiv to demand the resignation of Mayor Vitali Klitschko",
+   "summary": "Hundreds of protesters rallied outside the office of Kyiv’s mayor Vitali Klitschko, demanding that he steps down.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/10/17/hundreds-rally-in-kyiv-to-demand-the-resignation-of-mayor-vitali-klitschko?traffic_source=rss"
+  }
+ ],
+ "markets": "S&P 500: Friday close 7,659.44; week change -1.95%; Friday change -1.09%; week high 7,807.24\nDow Jones: Friday close 52,002.41; week change +0.67%; Friday change -0.34%; week high 52,177.69\nNasdaq: Friday close 26,140.03; week change -4.48%; Friday change -2.15%; week high 27,245.90\nRussell 2000: Friday close 2,721.37; week change -3.05%; Friday change -1.66%; week high 2,794.48\nSTOXX 600: Friday close 644.74; week change +2.09%; Friday change +0.72%; week high 644.74\nDAX: Friday close 25,622.61; week change +2.13%; Friday change +0.95%; week high 25,622.61\nFTSE 100: Friday close 10,881.90; week change +3.13%; Friday change +0.38%; week high 10,881.90\nCAC 40: Friday close 7,956.70; week change +1.97%; Friday change +0.28%; week high 7,956.70\nNikkei 225: Friday close 65,324.29; week change -5.37%; Friday change +1.39%; week high 67,777.52\nHang Seng: Friday close 24,186.83; week change -0.10%; Friday change +0.52%; week high 24,345.22\nBrent oil $: Friday close 109.86; week change +4.91%; Friday change +3.72%; week high 109.86\nGold $/oz: Friday close 4,181.10; week change -0.83%; Friday change +0.26%; week high 4,190.60\nBitcoin $: Friday close 81,500.80; week change -2.60%; Friday change -0.78%; week high 83,095.12\nEther $: Friday close 2,419.77; week change -4.53%; Friday change -0.85%; week high 2,496.63\nUS 10-year yield %: Friday close 5.10; week change -2.78%; Friday change +0.18%; week high 5.24"
+}
