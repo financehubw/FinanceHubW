@@ -128,30 +128,6 @@
    "thumb_tag": "DEBT TRAP"
   },
   {
-   "file": "netflix_blockbuster.mp4",
-   "title": "Blockbuster could have bought Netflix for $50 million",
-   "caption": "In 2000, Netflix offered to sell itself to Blockbuster for $50 million.\nBlockbuster said no. Ten years later it filed for bankruptcy.\nToday Netflix is worth about $294 billion.",
-   "tags": [
-    "#netflix",
-    "#business",
-    "#investing",
-    "#money",
-    "#finance",
-    "#history"
-   ],
-   "comment": "Would you have bought Netflix for $50 million in 2000? 👇",
-   "thumb": "Netflix was for sale for *$50M*",
-   "thumb_photo": "dvd video store",
-   "thumb_tag": "BIGGEST MISTAKE",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Marc Randolph, That Will Never Work (2019): the $50M offer",
-    "Blockbuster Chapter 11 filing, September 2010",
-    "Netflix market value: Yahoo Finance, at render time"
-   ]
-  },
-  {
    "file": "buffett_after_65.mp4",
    "title": "Buffett's secret nobody talks about",
    "caption": "According to Morgan Housel's The Psychology of Money, $81.5 billion of Warren Buffett's $84.5 billion fortune came after his 65th birthday.\nHe wasn't just a great investor. He was a great investor for 70 years.",
@@ -975,6 +951,31 @@
    "made": "2026-10-17",
    "sources": [
     "Nike price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "netflix_blockbuster.mp4",
+   "title": "Blockbuster could have bought Netflix for $50 million",
+   "caption": "In 2000, Netflix offered to sell itself to Blockbuster for $50 million.\nBlockbuster said no. Ten years later it filed for bankruptcy.\nToday Netflix is worth about $294 billion.",
+   "tags": [
+    "#netflix",
+    "#business",
+    "#investing",
+    "#money",
+    "#finance",
+    "#history"
+   ],
+   "comment": "Would you have bought Netflix for $50 million in 2000? 👇",
+   "thumb": "Netflix was for sale for *$50M*",
+   "thumb_photo": "dvd video store",
+   "thumb_tag": "BIGGEST MISTAKE",
+   "ai_voice": true,
+   "voice": "free",
+   "made": "2026-10-17",
+   "sources": [
+    "Marc Randolph, That Will Never Work (2019): the $50M offer",
+    "Blockbuster Chapter 11 filing, September 2010",
+    "Netflix market value: Yahoo Finance, at render time"
    ]
   }
  ]
