@@ -31,7 +31,7 @@ SITE_URL = (os.environ.get("SITE_URL") or "https://financehubw-site.vercel.app")
 GRAPH = "https://graph.facebook.com/v21.0"
 W, H = 1080, 1920
 BG, INK, MUTED, CORAL = (20, 19, 17), (240, 236, 228), (150, 144, 135), (250, 91, 60)
-KEEP_DAYS, MAX_AGE_HOURS = 7, 12
+KEEP_DAYS, MAX_AGE_HOURS = 7, 4   # Stories only for news under 4 hours old
 
 
 def font(name: str, size: int) -> ImageFont.FreeTypeFont:
