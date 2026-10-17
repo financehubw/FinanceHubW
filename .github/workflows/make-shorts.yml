@@ -51,7 +51,7 @@ jobs:
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "New Shorts rendered"
           for i in 1 2 3; do
-            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            python3 social/git_save.py && exit 0
             sleep 5
           done
           exit 1

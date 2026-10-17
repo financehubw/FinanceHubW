@@ -35,4 +35,4 @@ jobs:
           git add social/replied.json 2>/dev/null || true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Record comment replies"
-          for i in 1 2 3; do git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0; sleep 5; done
+          for i in 1 2 3; do python3 social/git_save.py && exit 0; sleep 5; done

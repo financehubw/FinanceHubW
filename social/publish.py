@@ -91,6 +91,15 @@ def post_youtube(item: dict, path: Path) -> str:
     creds = Credentials.from_authorized_user_info(json.loads(os.environ["YT_TOKEN_JSON"]))
     yt = build("youtube", "v3", credentials=creds, cache_discovery=False)
     title = item["title"][:90] + " #Shorts"
+    try:   # never upload the same Short twice, even if the log was lost
+        ch = yt.channels().list(part="contentDetails", mine=True).execute()["items"][0]
+        up = ch["contentDetails"]["relatedPlaylists"]["uploads"]
+        for v in yt.playlistItems().list(part="snippet", playlistId=up, maxResults=25).execute().get("items", []):
+            if v["snippet"]["title"].strip() == title.strip():
+                print("  YouTube: already uploaded, skipping")
+                return f"https://youtube.com/shorts/{v['snippet']['resourceId']['videoId']}"
+    except Exception as e:  # noqa: BLE001
+        print(f"  YouTube duplicate check skipped - {e}", file=sys.stderr)
     body = {
         "snippet": {"title": title, "description": caption_for(item, "youtube"),
                     "tags": [t.lstrip("#") for t in item.get("tags", [])], "categoryId": "27"},
@@ -159,6 +168,15 @@ def page_token() -> str:
 
 def post_facebook(item: dict, url: str) -> str:
     page, tok = os.environ["FB_PAGE_ID"], page_token()
+    try:   # never post the same video twice on the Page
+        vids = requests.get(f"{GRAPH}/{page}/videos", timeout=30, params={
+            "fields": "id,title", "limit": 25, "access_token": tok}).json().get("data", [])
+        dup = next((v for v in vids if (v.get("title") or "").strip() == item["title"].strip()), None)
+        if dup:
+            print("  Facebook: already posted, skipping")
+            return dup["id"]
+    except requests.RequestException:
+        pass
     t = thumb_for(item)
     files = {"thumb": (t.name, t.read_bytes(), "image/jpeg")} if t else None
     r = requests.post(f"{GRAPH}/{page}/videos", timeout=180, files=files, data={

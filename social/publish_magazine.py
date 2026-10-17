@@ -109,6 +109,16 @@ def graph_post(path: str, data: dict) -> dict:
 
 def post_carousel(item: dict, numbers: list[int]) -> str:
     ig, tok = os.environ["IG_USER_ID"], os.environ["META_TOKEN"]
+    try:   # never post the same edition twice, even if the log was lost
+        head = item["caption"].split("\n")[0].strip()[:60]
+        recent = requests.get(f"https://graph.facebook.com/v21.0/{ig}/media", timeout=30, params={
+            "fields": "id,caption", "limit": 25, "access_token": tok}).json().get("data", [])
+        dup = next((r for r in recent if head and (r.get("caption") or "").startswith(head)), None)
+        if dup:
+            print("  already on Instagram, skipping")
+            return dup["id"]
+    except Exception:  # noqa: BLE001
+        pass
     children = {}
     for n in numbers:
         children[n] = graph_post(f"{ig}/media", {"image_url": url_for(item["folder"], n),
