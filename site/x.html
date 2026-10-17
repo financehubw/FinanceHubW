@@ -37,6 +37,20 @@
 const KEY = "fhw-x-done";
 function getDone() { try { return new Set(JSON.parse(localStorage.getItem(KEY) || "[]")); } catch (e) { return new Set(); } }
 function setDone(s) { try { localStorage.setItem(KEY, JSON.stringify([...s].slice(-300))); } catch (e) {} }
+// X free accounts: 280 "weighted" characters (emoji and most symbols count as 2).
+function xlen(s) { let n = 0; for (const ch of s) n += ch.codePointAt(0) > 0x10FF ? 2 : 1; return n; }
+function fit(text) {
+  let lines = text.split("\n").filter(l => !/^https?:\/\//.test(l.trim()));   // drop long source links
+  let t = lines.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+  t = t.replace(/\s*\([^)]{20,}\)/g, "");                                      // drop long explainer brackets
+  while (xlen(t) > 275) {
+    const i = lines.findIndex(l => l.startsWith("📌"));
+    const cut = [...t]; cut.splice(cut.length - 2);
+    t = i >= 0 && xlen(t) > 275 ? t.replace(/(📌[^\n]*?)\s*\S+(\n|$)/, "$1…$2") : cut.join("");
+    if (t.includes("……")) t = t.replace("……", "…");
+  }
+  return t;
+}
 function el(tag, cls, text) { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
 
 fetch("tweets.json?" + Date.now()).then(r => r.json()).then(d => {
@@ -57,7 +71,7 @@ fetch("tweets.json?" + Date.now()).then(r => r.json()).then(d => {
     card.appendChild(el("pre", null, p.text));
     const row = el("div", "row");
     const go = el("a", "btn go", "Post on X");
-    go.href = "https://x.com/intent/post?text=" + encodeURIComponent(p.text);
+    go.href = "https://x.com/intent/post?text=" + encodeURIComponent(fit(p.text));
     go.target = "_blank"; go.rel = "noopener";
     go.onclick = () => { done.add(p.id); setDone(done); card.classList.add("done"); };
     const save = el("a", "btn", "Save picture");
