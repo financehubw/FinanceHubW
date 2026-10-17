@@ -287,60 +287,6 @@
    "thumb": "Coffee could cost you *$1 million*",
    "thumb_photo": "latte coffee",
    "thumb_tag": "COMPOUNDING"
-  },
-  {
-   "file": "m2_rule_of_72.mp4",
-   "title": "The Rule of 72 in 15 seconds",
-   "caption": "Divide 72 by your yearly return to see how fast money doubles.\nAt 8%, $10,000 doubles about every 9 years: $20k, $40k, $80k, $160k by year 36.",
-   "tags": [
-    "#ruleof72",
-    "#investing",
-    "#compoundinterest",
-    "#money",
-    "#personalfinance",
-    "#financetips"
-   ],
-   "ai_voice": false,
-   "comment": "Did you know the Rule of 72 before this? 👇",
-   "thumb": "The Rule of *72*",
-   "thumb_photo": "calculator money",
-   "thumb_tag": "MONEY MATH"
-  },
-  {
-   "file": "m3_100_shrinking.mp4",
-   "title": "What 3% inflation does to $100",
-   "caption": "At 3% inflation a year, $100 today buys only about $49 worth of things in 24 years.\nCash that sits still loses value.",
-   "tags": [
-    "#inflation",
-    "#money",
-    "#savings",
-    "#personalfinance",
-    "#economics",
-    "#financetips"
-   ],
-   "ai_voice": false,
-   "comment": "What feels most expensive to you this year? 👇",
-   "thumb": "Your $100 is *shrinking*",
-   "thumb_photo": "hundred dollar bill",
-   "thumb_tag": "INFLATION"
-  },
-  {
-   "file": "m5_1970_dollar.mp4",
-   "title": "What happened to the 1970 dollar?",
-   "caption": "A dollar from 1970 buys only about 12 cents' worth of things today.\nThat's roughly 88% of its buying power gone (US CPI data).",
-   "tags": [
-    "#inflation",
-    "#history",
-    "#money",
-    "#economics",
-    "#usd",
-    "#personalfinance"
-   ],
-   "ai_voice": false,
-   "comment": "Is cash a good place to keep savings long-term? 👇",
-   "thumb": "What killed the *1970 dollar?*",
-   "thumb_photo": "1970s street",
-   "thumb_tag": "HISTORY"
   }
  ]
 }
