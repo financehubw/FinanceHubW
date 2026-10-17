@@ -1,7 +1,7 @@
 name: Daily draft (Gemini, free)
 
 # Mon-Fri 6:10 PM IST: Gemini writes the draft of TODAY's Daily (news from the last 16 hours only).
-# Nothing is posted here. The Claude review task checks facts at 7:17 PM and publishes.
+# Publishes automatically only if every slide passed 3 free fact-checkers and has no India coverage; the post goes out at 8:53 PM IST.
 on:
   schedule:
     - cron: "40 12 * * 1-5"
@@ -36,12 +36,29 @@ jobs:
           mkdir -p docs
           set -o pipefail
           python magazine/daily_free.py 2>&1 | tee docs/daily_draft.log
+      - name: Publish only if every slide passed the free fact-checkers
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          D=$(date -u +%F)
+          F=magazine/daily/$D/edition.json
+          [ -f "$F" ] || { echo "no draft today"; exit 0; }
+          python - "$F" <<'PY' || { echo "not published: a check failed"; exit 0; }
+          import json, re, sys
+          ed = json.load(open(sys.argv[1]))
+          bad = [r for r in ed.get("review", []) if r.get("free_checkers") != "passed"]
+          text = json.dumps({k: v for k, v in ed.items() if k not in ("review", "photos", "market", "story_ids")}, ensure_ascii=False)
+          india = re.search(r"\bIndia|\bRs\b|crore|lakh|Sensex|Nifty|RBI\b", text)
+          if bad or india or ed.get("status") == "published":
+              print("flagged:", bad[:3], "india:", bool(india)); sys.exit(1)
+          PY
+          python magazine/daily_free.py "$D" --publish
       - name: Save the draft
         if: always()
         run: |
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          git add docs/daily_draft.log magazine/daily site/media/daily 2>/dev/null || true
+          git add docs/daily_draft.log magazine/daily site/media/daily site/daily.json social/daily_queue.json 2>/dev/null || true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "The Daily: draft for review"
           for i in 1 2 3; do
