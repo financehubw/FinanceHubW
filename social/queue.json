@@ -287,6 +287,28 @@
    "thumb": "Coffee could cost you *$1 million*",
    "thumb_photo": "latte coffee",
    "thumb_tag": "COMPOUNDING"
+  },
+  {
+   "file": "penny_doubling.mp4",
+   "title": "A penny doubled for 30 days vs $1 million",
+   "caption": "A penny that doubles every day for 30 days:\nDay 10: $5.12\nDay 20: $5,243\nDay 30: $5.37 million.\nThat's compounding. The last days do most of the work.",
+   "tags": [
+    "#compounding",
+    "#money",
+    "#investing",
+    "#finance",
+    "#math",
+    "#wealth"
+   ],
+   "comment": "Be honest: would you have picked the million? 👇",
+   "thumb": "A penny doubled = *$5.37M*",
+   "thumb_photo": "penny coins",
+   "thumb_tag": "COMPOUNDING",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Math: $0.01 × 2^(day − 1)"
+   ]
   }
  ]
 }
