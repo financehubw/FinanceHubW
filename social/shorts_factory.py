@@ -218,10 +218,11 @@ def scene_image(scene: dict, seed: str) -> Image.Image:
 
 def caption_groups(words: list[dict], max_words=3) -> list[dict]:
     groups, cur = [], []
-    for w in words:
+    for k, w in enumerate(words):
         cur.append(w)
-        end_sentence = re.search(r"[.,!?;:]$", w["w"])
-        if len(cur) >= max_words or end_sentence:
+        nxt = words[k + 1] if k + 1 < len(words) else None
+        pause = nxt is not None and nxt["t"] - (w["t"] + w["d"]) > 0.18   # a spoken pause ends the caption
+        if len(cur) >= max_words or pause:
             groups.append(cur); cur = []
     if cur:
         groups.append(cur)
@@ -259,6 +260,9 @@ def render(script_path: Path) -> dict:
         for i, sc in enumerate(spec["scenes"]):
             mp3 = td / f"{i:02d}.mp3"
             words = speak(sc["say"], mp3)
+            wav = td / f"{i:02d}.wav"
+            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(mp3), "-ar", "24000", "-ac", "1", str(wav)], check=True)
+            mp3 = wav
             dur = duration(mp3)
             for w in words:
                 w["t"] += t0
