@@ -379,6 +379,16 @@ def render(script_path: Path) -> dict:
             dur = duration(mp3)
             for w in words:
                 w["t"] += t0
+            animated = (sc.get("race") and not sc["race"].get("hold")) or (sc.get("versus") and not sc["versus"].get("hold"))
+            hold = max(0.0, 6.0 - dur) if animated else 0.0     # let the race/count-up play out
+            if hold:
+                pad = td / f"{i:02d}_pad.wav"
+                subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono",
+                                "-t", f"{hold:.2f}", str(pad)], check=True)
+                padded = td / f"{i:02d}_full.wav"
+                subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(mp3), "-i", str(pad), "-filter_complex",
+                                "[0:a][1:a]concat=n=2:v=0:a=1", str(padded)], check=True)
+                mp3, dur = padded, dur + hold
             timeline.append({"scene": sc, "start": t0, "end": t0 + dur + gap, "groups": caption_groups(words)})
             audio_parts.append(mp3)
             t0 += dur + gap

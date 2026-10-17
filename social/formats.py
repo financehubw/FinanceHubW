@@ -70,14 +70,14 @@ def race(r):
     return sid, {
         "id": sid, "title": f"$1,000 in each since {yr}: who wins?",
         "thumb": f"$1,000 since {yr}: *who wins?*", "thumb_photo": photo, "thumb_tag": "RACE",
-        "caption": f"{title}. $1,000 in each in {yr}.\nWinner: {win[1]}, now about {g(win[0], start)}.\nLast: {last[1]}, about {g(last[0], start)}.\n(Price growth only, no dividends.)",
+        "caption": f"{title.rstrip('?.')}? $1,000 in each in {yr}.\nWinner: {win[1]}, now about {g(win[0], start)}.\nLast: {last[1]}, about {g(last[0], start)}.\n(Price growth only, no dividends.)",
         "comment": "Did you guess the winner? 👇",
         "tags": ["#investing", "#stocks", "#money", "#finance", "#race", "#dataviz"],
         "sources": ["Yahoo Finance price history (split-adjusted), at render time"],
         "scenes": [
             {"say": f"One thousand dollars in each, back in {yr}. Guess the winner.", "photo": photo,
              "quiz": {"q": "Which grew the most?", "a": items[0][1], "b": items[1][1]}},
-            {"say": "Watch the race.", "race": {"start": start, "items": [list(i) for i in items]}},
+            {"say": "Watch the race. Every bar is one thousand dollars, growing year by year.", "race": {"start": start, "items": [list(i) for i in items]}},
             {"say": f"{win[1]} wins, at about {g(win[0], start)}. {last[1]} comes last, at about {g(last[0], start)}.",
              "race": {"start": start, "items": [list(i) for i in items], "hold": True}},
             {"say": "Which one would you have picked?", "photo": "thinking person", "big": "Your pick?", "sub": "tell us in the comments"},
@@ -100,7 +100,7 @@ def versus(p):
         "scenes": [
             {"say": f"{na} or {nb}? One thousand dollars each, in {yr}. Pick one before the reveal.",
              "photo": PHOTO.get(ta, "stock market"), "quiz": {"q": "Which is worth more today?", "a": f"{na}", "b": f"{nb}"}},
-            {"say": "Here's how it played out.", "versus": {"start": start, "a": [ta, na], "b": [tb, nb]}},
+            {"say": "Here's how those two thousand dollars played out, year by year.", "versus": {"start": start, "a": [ta, na], "b": [tb, nb]}},
             {"say": f"{win[0]} wins, at about {g(win[1], start)}, against {g(lose[1], start)}.",
              "versus": {"start": start, "a": [ta, na], "b": [tb, nb], "hold": True}},
             {"say": "Did you pick the winner?", "photo": "trophy", "big": "Your pick?", "sub": "comment A or B"},
