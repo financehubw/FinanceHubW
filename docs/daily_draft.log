@@ -1,15 +1,7 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-35/171 sources returned news, 326 recent items
-  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-  big: story #15 failed in 243s
-  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-  big: story #4 failed in 244s
-  writer Gemini unavailable: ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)
-  big: story #10 failed in 133s
+85/171 sources returned news, 783 recent items
+  big: story #3 failed in 2s
+  big: story #2 failed in 3s
+  big: story #18 failed in 3s
 no story passed the checks for the big slide; nothing published
