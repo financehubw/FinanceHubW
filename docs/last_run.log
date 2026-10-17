@@ -1,3 +1,7 @@
+=== run 2026-10-17T09:15:02Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-17T08:52:54Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stoc
   Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
   Groq Qwen: PASS - All factual claims regarding the market drop, the cause (hot CPI data), and the source attribution are directly supported by the provided sources.
   Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-lightning:free returned an empty reply)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-db8d6cf2ce51
-done: 3 post(s) this run
