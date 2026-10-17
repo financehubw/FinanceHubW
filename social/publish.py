@@ -69,6 +69,8 @@ def caption_for(item: dict, platform: str = "instagram") -> str:
     3-5 niche hashtags. YouTube: searchable first line, subscribe line, and 3 hashtags (YouTube shows
     the first three above the title; more than that adds nothing)."""
     note = AI_NOTE if item.get("ai_voice", True) else ""
+    if item.get("voice") == "elevenlabs":
+        note += " Voice: ElevenLabs."      # credit the free ElevenLabs plan asks for
     tags = item.get("tags", [])
     if platform == "youtube":
         yt_tags = ["#shorts"] + [t for t in tags if t != "#shorts"][:2]

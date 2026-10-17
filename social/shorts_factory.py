@@ -221,7 +221,7 @@ def _eleven(text: str, mp3: Path) -> list[dict]:
     r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{ELEVEN_VOICE}/with-timestamps",
                       headers={"xi-api-key": os.environ["ELEVENLABS_API_KEY"]}, timeout=120,
                       params={"output_format": "mp3_44100_128"},
-                      json={"text": text, "model_id": "eleven_multilingual_v2",
+                      json={"text": text, "model_id": os.environ.get("ELEVEN_MODEL") or "eleven_turbo_v2_5",
                             "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.25,
                                                "use_speaker_boost": True}})
     if r.status_code != 200:
