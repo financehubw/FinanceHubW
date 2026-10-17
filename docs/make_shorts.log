@@ -1,4 +1,24 @@
 rendering penny_doubling
-[aist#0:0/mp3 @ 0x55dc4da05880] Error submitting packet to decoder: Invalid data found when processing input
-    Last message repeated 14 times
   -> penny_doubling.mp4 | A penny doubled for 30 days vs $1 million
+rendering netflix_blockbuster
+  -> netflix_blockbuster.mp4 | Blockbuster could have bought Netflix for $50 million
+rendering ronald_wayne
+  -> ronald_wayne.mp4 | Apple's forgotten co-founder sold 10% for $800
+rendering bitcoin_pizza
+  -> bitcoin_pizza.mp4 | The most expensive pizza ever bought
+rendering buffett_age_11
+  -> buffett_age_11.mp4 | Warren Buffett's first stock taught him this
+rendering amazon_1997
+  -> amazon_1997.mp4 | $1,000 in Amazon in 1997 is now worth this
+rendering nvidia_2016
+  -> nvidia_2016.mp4 | $1,000 in Nvidia in 2016 is now worth this
+rendering zimbabwe_100_trillion
+  -> zimbabwe_100_trillion.mp4 | The 100 trillion dollar banknote
+rendering one_percent_fee
+  -> one_percent_fee.mp4 | A 1% fee costs more than you think
+rendering apple_ipo
+  -> apple_ipo.mp4 | $1,000 in Apple's first trading day is now worth this
+rendering microsoft_ipo
+  -> microsoft_ipo.mp4 | $1,000 in Microsoft's first trading day is now worth this
+rendering tesla_ipo
+  -> tesla_ipo.mp4 | $1,000 in Tesla's first trading day is now worth this
