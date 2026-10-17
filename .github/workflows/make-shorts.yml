@@ -36,6 +36,8 @@ jobs:
       - name: Render
         env:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVEN_VOICE_ID: ${{ vars.ELEVEN_VOICE_ID }}
           PYTHONUNBUFFERED: "1"
         run: |
           mkdir -p docs

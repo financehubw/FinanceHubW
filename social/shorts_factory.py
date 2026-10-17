@@ -18,6 +18,7 @@ Output: site/media/shorts/<id>.mp4 + an entry appended to social/queue.json (wit
 from __future__ import annotations
 
 import asyncio
+import os
 import datetime as dt
 import json
 import re
@@ -211,7 +212,48 @@ async def _speak(text: str, mp3: Path) -> list[dict]:
     return words
 
 
+ELEVEN_VOICE = os.environ.get("ELEVEN_VOICE_ID") or "nPczCjzI2devNBz1zQrb"   # "Brian": deep, calm narrator
+_ELEVEN_OK = [True]
+
+
+def _eleven(text: str, mp3: Path) -> list[dict]:
+    import base64, requests
+    r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{ELEVEN_VOICE}/with-timestamps",
+                      headers={"xi-api-key": os.environ["ELEVENLABS_API_KEY"]}, timeout=120,
+                      params={"output_format": "mp3_44100_128"},
+                      json={"text": text, "model_id": "eleven_multilingual_v2",
+                            "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.25,
+                                               "use_speaker_boost": True}})
+    if r.status_code != 200:
+        raise RuntimeError(f"ElevenLabs {r.status_code}: {r.text[:200]}")
+    j = r.json()
+    mp3.write_bytes(base64.b64decode(j["audio_base64"]))
+    al = j["alignment"]
+    words, cur, start, end = [], "", None, 0.0
+    for ch, a, b in zip(al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]):
+        if ch.isspace():
+            if cur:
+                words.append({"t": start, "d": end - start, "w": cur}); cur = ""
+            continue
+        if not cur:
+            start = a
+        cur += ch; end = b
+    if cur:
+        words.append({"t": start, "d": end - start, "w": cur})
+    for w in words:
+        w["w"] = w["w"].strip(".,!?;:\"")
+    return words
+
+
 def speak(text: str, mp3: Path) -> list[dict]:
+    """ElevenLabs studio voice when ELEVENLABS_API_KEY is set (falls back to the free voice if its
+    monthly credits run out, so a Short is never blocked)."""
+    if os.environ.get("ELEVENLABS_API_KEY") and _ELEVEN_OK[0]:
+        try:
+            return _eleven(text, mp3)
+        except Exception as e:  # noqa: BLE001
+            print(f"  ElevenLabs unavailable ({e}); using the free voice for the rest of this run")
+            _ELEVEN_OK[0] = False
     for attempt in range(3):
         try:
             return asyncio.run(_speak(text, mp3))
@@ -329,6 +371,74 @@ def scene_image(scene: dict, seed: str) -> Image.Image:
     return img
 
 
+def broll_clip(query: str, seed: str, seconds: float, td: Path):
+    """Real stock footage (Pixabay videos, free for commercial use) for a scene: returns a generator of
+    1080x1920 RGB frames, or None if no clip is available."""
+    key = os.environ.get("PIXABAY_API_KEY")
+    if not key or not query:
+        return None
+    import hashlib, requests
+    try:
+        r = requests.get("https://pixabay.com/api/videos/", timeout=20, params={
+            "key": key, "q": query, "safesearch": "true", "per_page": 15, "min_width": 1280}).json()
+        hits = [h for h in r.get("hits", []) if h.get("duration", 0) >= 4]
+        if not hits:
+            return None
+        h = hits[int(hashlib.sha1(seed.encode()).hexdigest(), 16) % len(hits)]
+        v = h["videos"].get("medium") or h["videos"].get("small")
+        src = td / f"b_{hashlib.md5(seed.encode()).hexdigest()[:8]}.mp4"
+        src.write_bytes(requests.get(v["url"], timeout=60).content)
+    except Exception as e:  # noqa: BLE001
+        print(f"  b-roll '{query}': {e}"); return None
+    n = int(seconds * FPS) + 2
+    proc = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-stream_loop", "-1", "-i", str(src), "-t", f"{seconds + 0.2:.2f}",
+                             "-vf", f"fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+                                    "eq=saturation=1.08:contrast=1.05",
+                             "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
+
+    def frames():
+        last = None
+        for _ in range(n):
+            buf = proc.stdout.read(W * H * 3)
+            if len(buf) == W * H * 3:
+                last = Image.frombytes("RGB", (W, H), buf)
+            yield last
+        proc.kill()
+    return frames()
+
+
+def broll_overlay(scene: dict) -> Image.Image:
+    """Text layer for a footage scene: gradient for legibility, brand, and the big number or clipping."""
+    ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    grad = Image.new("L", (1, H))
+    for y in range(H):
+        t = y / H
+        grad.putpixel((0, y), int(255 * (0.35 * max(0, 1 - t / 0.18) + 0.82 * max(0, (t - 0.38) / 0.62) ** 1.1)))
+    ov.paste(Image.new("RGBA", (W, H), (8, 8, 10, 255)), (0, 0), grad.resize((W, H)))
+    d = ImageDraw.Draw(ov)
+    d.text((60, 70), "FINANCEHUBW", font=font(BOLD, 28), fill=(255, 255, 255, 210))
+    y = 1010
+    if scene.get("big"):
+        big = scene["big"]; size = 200
+        while size > 90 and d.textlength(big, font=font(SERIF, size)) > W - 120:
+            size -= 8
+        f = font(SERIF, size)
+        d.text(((W - d.textlength(big, font=f)) / 2, y), big, font=f, fill=(255, 255, 255, 255))
+        y += int(size * 1.08)
+        if scene.get("sub"):
+            sf = font(SEMI, 40)
+            for ln in wrap(d, scene["sub"], sf, W - 200):
+                d.text(((W - d.textlength(ln, font=sf)) / 2, y), ln, font=sf, fill=GOLD + (255,)); y += 52
+    elif scene.get("clip"):
+        c = scene["clip"]
+        d.text((90, y), (c.get("kicker", "") + ("  ·  " + c["year"] if c.get("year") else "")).upper(),
+               font=font(BOLD, 30), fill=GOLD + (255,))
+        y += 56
+        for ln in wrap(d, c["text"], font(SERIF, 76), W - 180):
+            d.text((90, y), ln, font=font(SERIF, 76), fill=(255, 255, 255, 255)); y += 88
+    return ov
+
+
 def caption_groups(words: list[dict], max_words=3) -> list[dict]:
     groups, cur = [], []
     for k, w in enumerate(words):
@@ -405,9 +515,31 @@ def render(script_path: Path) -> dict:
         bed = td / "bed.wav"
         from daily_short import music
         music(total, bed)
+        try:   # soft whoosh on every cut, like an edited video
+            import sound
+            from scipy.io import wavfile
+            sr, bm = wavfile.read(bed)
+            bm = bm.astype("float32") / 32767
+            for s_ in timeline[1:]:
+                wv = sound.whoosh(0.45, 0.35)
+                a = max(0, int((s_["start"] - 0.25) * sr))
+                seg = wv[: max(0, len(bm) - a)]
+                if bm.ndim == 2:
+                    bm[a:a + len(seg), 0] += seg; bm[a:a + len(seg), 1] += seg
+                else:
+                    bm[a:a + len(seg)] += seg
+            wavfile.write(bed, sr, (np.clip(bm, -1, 1) * 32767).astype("int16"))
+        except Exception as e:  # noqa: BLE001
+            print("  sfx skipped:", e)
         # frames
         for s in timeline:
             prepare_dynamic(s["scene"])
+        for i, s in enumerate(timeline):
+            sc = s["scene"]
+            if not (sc.get("race") or sc.get("versus") or sc.get("quiz")) and sc.get("photo"):
+                s["broll"] = broll_clip(sc["photo"], vid + str(i), s["end"] - s["start"], td)
+                if s["broll"] is not None:
+                    s["overlay"] = broll_overlay(sc)
         bases = [scene_image(s["scene"], vid + str(i)) for i, s in enumerate(timeline)]
         vtmp = td / "v.mp4"
         p = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
@@ -431,6 +563,14 @@ def render(script_path: Path) -> dict:
                     frame = PAPER_IMG.copy(); frame.paste(big, ((W - sw) // 2, (H - sh) // 2))
             else:
                 frame = base.copy()
+            if s.get("broll") is not None:
+                fr = next(s["broll"], None)
+                if fr is not None:
+                    sw, sh = int(W * (1.0 + 0.04 * prog)), int(H * (1.0 + 0.04 * prog))   # slow push-in
+                    fr = fr.resize((sw, sh), Image.BILINEAR).crop(((sw - W) // 2, (sh - H) // 2, (sw - W) // 2 + W, (sh - H) // 2 + H))
+                    frame = fr.convert("RGBA"); frame.alpha_composite(s["overlay"]); frame = frame.convert("RGB")
+                    if t - s["start"] < 0.12:   # quick flash-cut between scenes
+                        frame = Image.blend(frame, Image.new("RGB", (W, H), (255, 255, 255)), 0.25 * (1 - (t - s["start"]) / 0.12))
             if s["scene"].get("race"):
                 frame = base.copy(); draw_race(frame, s["scene"]["race"], prog)
             elif s["scene"].get("versus"):
@@ -450,7 +590,8 @@ def render(script_path: Path) -> dict:
                         "-shortest", "-movflags", "+faststart", str(out)], check=True)
     entry = {"file": out.name, "title": spec["title"], "caption": spec["caption"], "tags": spec["tags"],
              "comment": spec["comment"], "thumb": spec["thumb"], "thumb_photo": spec["thumb_photo"],
-             "thumb_tag": spec["thumb_tag"], "ai_voice": True, "made": dt.date.today().isoformat(),
+             "thumb_tag": spec["thumb_tag"], "ai_voice": True,
+             "voice": "elevenlabs" if (os.environ.get("ELEVENLABS_API_KEY") and _ELEVEN_OK[0]) else "free", "made": dt.date.today().isoformat(),
              "sources": spec["sources"]}
     import thumbs
     thumbs.make(entry)
