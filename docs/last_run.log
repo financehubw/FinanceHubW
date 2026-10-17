@@ -1,3 +1,9 @@
+=== run 2026-10-17T00:15:09Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+81/171 sources returned news, 643 recent items
+117 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-16T23:47:03Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1492,9 +1498,3 @@ re-check of earlier post: 1 fail / 3 pass
 📊 GBP/USD: 1.3244 (+0.28%)
 
 📍 UK · 📰 FXStreet Forex & Commodities News · ✅ 3 sources
-https://www.fxstreet.com/news/british-pound-finds-fresh-momentum-as-boe-hawks-set-stage-for-us-cpi-202610131539
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, percentages, and source details are directly supported by the FXStreet article.
-  Groq GPT-OSS 20B: PASS - All market facts are supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the currency pair, percentage change, trading level, and source attribution are directly supported by the provided text.
-published to: website, Instagram Story
