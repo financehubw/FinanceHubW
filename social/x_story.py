@@ -393,7 +393,7 @@ def digest_stories() -> list[dict]:
     now = dt.datetime.utcnow()
     posts = [p for p in load(FEED, {"posts": []})["posts"]
              if "📍" in p["text"] and p["id"] not in used
-             and now - dt.datetime.strptime(p["date"], "%Y-%m-%dT%H:%M:%SZ") < dt.timedelta(hours=14)]
+             and now - dt.datetime.strptime(p["date"], "%Y-%m-%dT%H:%M:%SZ") < dt.timedelta(hours=26)]
     score = lambda p: ("BREAKING" in p["text"]) * 3 + ("✅" in p["text"]) * 2 + ("Official" in p["text"]) + ("📊" in p["text"])
     import re
     seen, uniq = set(), []
@@ -403,7 +403,7 @@ def digest_stories() -> list[dict]:
         if key in seen or any(len(words & s) >= max(3, len(words) * 0.7) for s in seen if isinstance(s, frozenset)):
             continue
         seen.add(key); seen.add(words); uniq.append(p)
-    top = uniq[:8]
+    top = uniq[:10]
     return sorted(top, key=lambda p: p["date"], reverse=True)
 
 
@@ -442,7 +442,8 @@ def digest_caption(m: dict, stories: list[dict]) -> str:
             tags += [x for x in t[:1] if x not in tags]
     tags = (tags + ["#financenews", "#markets", "#economy", "#stockmarket", "#investing"])[:5]
     day = dt.date.fromisoformat(m["key"][:10]).strftime("%-d %b")
-    return (f"🗞️ {m['edition']} briefing, {day}: {len(stories)} finance stories you need to know\n\n"
+    span = (f"everything since last night's edition" if m["edition"] == "Morning" else "today so far")
+    return (f"🗞️ {m['edition']} briefing, {day} ({span}): {len(stories)} finance stories you need to know\n\n"
             + "\n".join(heads) +
             "\n\nWhich one matters most to you? Tell us 👇\n"
             "💾 Save this and send it to someone who follows the markets.\n\n"
