@@ -1,3 +1,66 @@
+=== run 2026-10-17T02:56:25Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+78/171 sources returned news, 555 recent items
+130 new trusted stories, posting up to 1 this run
+---
+🇺🇸 BREAKING: TRUMP WAIVES RUSSIA SANCTIONS
+
+📌 US President Trump suspends several Russia-related sanctions and tariffs under a new law.
+💡 Trade rules can change quickly and affect global energy markets.
+
+📍 US · 📰 Business Standard · ✅ 13 sources
+https://news.google.com/rss/articles/CBMizwFBVV95cUxOUUxrdGQ4LVVkYlVDZkRtN09TdnRxaVN4UXUySXkwM1ZPLXdaZEJ0S2hBbW9BTzZGN3ZBY3FiaXk1WnlGUW5BcjYwM0ZGaXVneVFJSUdtX3lRR2I1Vzg1RUxJeC1vUWNlb3ZhRHBLM2ducFNpNlc4UzlVQ1g0Wm55OVFneUlsZDduSDlERFNtdlBIejFQdm82YWI0SEsyWUwwYm8tOEVGTmVNbUFtYWk3eUxETlRwNzV3MUw0dEVGd1dqalZrWVRaRjI2aEZuWEnSAc8BQVVfeXFMTlFMa3RkOC1VZGJVQ2ZEbTdPU3Z0cWlTeFF1Mkl5MDNWTy13WmRCdEtoQW1vQU82Rjd2QWNxYml5NVp5RlFuQXI2MDNGRml1Z3lRSUlHbV95UUdiNVc4NUVMSXgtb1FjZW92YURwSzNnbnBTaTZXOFM5VUNYNFpueTlRZ3lJbGQ3bkg5RERTbXZQSHoxUHZvNmFiNEhLMllMMGJvLThFRk5lTW1BbWFpN3lMRE5UcDc1dzFMNHRFRndXampWa1lUWkYyNmhGblhJ?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post incorrectly calls Trump the US President and misstates the number of sources, which are not supported by the listed references.
+  -> blocked by fact-check
+---
+🇺🇸 ANTHROPIC OFFERS BLACKSTONE OVER 10% YIELD
+
+📌 Anthropic offers Blackstone a double-digit yield to fund a $9B chip deal.
+📊 Deal: $9B
+📊 Yield: >10%
+#Tech
+
+📍 US · 📰 Startup Fortune · ✅ 4 sources
+https://news.google.com/rss/articles/CBMioAFBVV95cUxORllPc2wxWEVRS1I3bmZjNGJaZUpUMXpEdzlKMWhNLUVXQmJ4bUx4R0NnR3IzUDV2cFlXUWc3OEUyMnppZGZYeS1lbklFUERYQ3hJbXZYXzYxbW9TMDRHc2tMRmZVOGk0XzNVcUpUekFfdEQ1ODMybUZoQXk0b0g0TnpKbDF2MWZybkZ1WjhUNFZZUHRzSGdMbF9YNGRENUZk?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The $9 B deal amount is contradicted by a source citing a $60 B financing, so the claim isn’t fully supported
+  -> blocked by fact-check
+skip (off-topic or nothing new): SEBI Teams win at IOSCO TechSprint 2026 on Investor Education in the Age of Artificial Intelligence (AI)
+skip (off-topic or nothing new): SEBI’s PolicyTwin Prototype Wins First Place at the C:>DIR Global ‘Agentic Regulator’ Hackathon
+skip (off-topic or nothing new): Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough
+---
+🇮🇳 JIO PLANS MASSIVE $3.2B IPO
+
+📌 Mukesh Ambani asks nearly 420,000 workers to invest in the upcoming Jio IPO.
+📊 IPO size: $3.2B
+📊 Employees: 420,000
+#Reliance
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
+https://www.thehindubusinessline.com/markets/jio-platforms-ipo-ambani-taps-massive-reliance-workforce-to-boost-offering/article71593138.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the provided sources.
+  Groq GPT-OSS 20B: FAIL - Source name does not match the actual source
+  -> blocked by fact-check
+skip (off-topic or nothing new): New Q&As available
+skip (off-topic or nothing new): ESMA finalises the review of guidelines on the delay in disclosure of inside information
+---
+🇪🇺 EU ISSUES OVER 950 SANCTIONS
+
+📌 European financial watchdogs handed out more than 950 fines in 2025.
+#Regulation
+
+📍 Europe · 📰 ESMA · 🏛️ Official
+https://www.esma.europa.eu/press-news/esma-news/esmas-third-sanctions-report-highlights-need-greater-convergence-enforcement
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source reports over 950 administrative sanctions and measures, not specifically fines.
+  -> blocked by fact-check
+skip (off-topic or nothing new): LIBOR/EURIBOR-related bans
+skip (off-topic or nothing new): Voluntary Provident Fund: Should you invest beyond EPF? Interest rates, tax rules and the ₹2.5 lakh limit explained
+skip (off-topic or nothing new): Missed a gold loan EMI? Know when your pledged jewellery is at risk — Experts explain recovery process and auction rules
+done: 0 post(s) this run
 === run 2026-10-17T02:18:56Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1435,66 +1498,3 @@ https://www.livemint.com/market/indian-shares-on-track-for-muted-open-as-oil-pri
 📊 Gold: $4,155
 💡 Higher inflation can lead to higher borrowing costs.
 #Gold
-
-📍 US · 📰 Reuters · ✅ 3 sources
-https://news.google.com/rss/articles/CBMimAFBVV95cUxNZkM3NGdUajlORC1ZZjBNcFZtNjYwa2JRaFczS1V4OVRORGhzZG1NUGxaY3ppRjdfQlFvUmREakJQM1RGaDNZZmZFMnJrY2Rtemc2Z1dBY1pPRy1ZbnBJVzNfTG1MMGJ5TXY5VzFpaDd6UENqd1pUOVdlTm1sS241QkFzNm1kdDJXTjl5emhLV200WUI1QVh4RQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about price level, oil‑inflation link, and general inflation effect are directly supported by the cited articles.
-  Groq GPT-OSS 20B: FAIL - The post attributes the gold price decline to Reuters, but Reuters reports the price held firm; the decline is only reported by FXStreet, so the source attribution is incorrect.
-  -> blocked by fact-check
----
-🇺🇸 US STOCK FUTURES MIXED AMID RISING OIL
-
-📌 Stock futures are mixed as oil prices rise and traders wait for inflation data.
-📊 $BAC
-💡 Higher oil prices can raise costs for everyday goods and services.
-#Markets
-
-📍 US · 📰 Stocktwits · ✅ 2 sources
-https://news.google.com/rss/articles/CBMihAJBVV95cUxQZ0w2QjBnZ09paWpGa2d1YUJCTkJOQl80U1M5ck81aWpBai1faHl5Z2dHSjRZdmRST3JfQU4xQjI1SFFUSl9idTR1ZWZpQ1FfaWJobFl6SVFXM3ZBdU9NbWJTU2xsSDNNaDBWNzhWWW9yaUZScmIxbkNNNHFNWGhVa2dJNm9LVF9kRWFyNWJwN0Z5YkQyOEI1Qy1iTmxxUjlrcmR6YjJYQjdjbjJkMlFEeUFyc1N4NjBjS1BONGFvY2tNVEpHQ3RGQzcxOTJtSFQtUXFCM1dEZ3BOUDBhdVpnaWtTSm1tZ210TFZBbmQzRnFFWUxFNGdkelFXZkFDaVlpMS04Ng?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about mixed futures, rising oil, upcoming inflation data, and the source attribution are directly supported by the cited Stocktwits/TradingView article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: FAIL - The draft claims 2 sources, but 4 distinct source entries are provided.
-  -> blocked by fact-check
----
-🇮🇳 GIFT NIFTY POINTS TO WEAK START
-
-📌 GIFT Nifty (an index traded before markets open) drops after a big market rally.
-#Nifty
-
-📍 India · 📰 Moneycontrol.com
-https://news.google.com/rss/articles/CBMigAJBVV95cUxPaVJ3S2FLZUVITUt0ZnRxd2JsLUdDSXl4cnNnWmd3VWNtMWVUM1NsRjNtcU5aZ0xjMmFqSEtwUXFRdnlacU9hdzlhNDYzcjJ5R3Z2dVloakZkTDhoM0xxbVUxdVB2NUhVUWZ0R1hLNV8zZVk1c0QxLVE2U013UHhucEx2MUExaEl4SXNPc3hUam9oSW5oejNiQjBOemZzOWQ0aDJtWmJXejBZdTJiOXNNVmg1OThRR2tRUy1KMFdweTVyY0U1TlZYRFk0NTRMakc3bkJrX1ZXOWNta1ZWeENqd2lPRGxMMmMybjBoXzlIbmo4UUxnaU9KaTZCS19LOU5z0gGGAkFVX3lxTFB1ZDRTYV9tZ3NtT2dnVEpBQjA4aUFhbVBrVWszNk5vR3RoRXM0LVlvRUxSb2pqc2Jwem05MTJuUkkwUjhldFc0OUFvS3lIV2hWS09ncDh6OW5uZ2xnNS00NDQ1TjBQRy15clhxQU5KR2xGMzdWN3RxbjI5NWNoVm5NVVVvcERBY0wtV1Q0Sko2WmFfQkZ4eDIycVVGMWZzdUVLNXlfM2tLRDVFU1lIUFBWY1dPenllQ28zRXhrRlVkRzR5eEtPRFFPMkV4UHJlcHZNdW5QWW1YYnZuVk83ZHNXUWY5eEVQZnpoMTdqRzFFZVczLVZpRHZtZk9mU0puNmFmY05RUFE?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about GIFT Nifty dropping after a large rally and its pre‑market nature are directly supported by the Moneycontrol source.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source
-  Groq Qwen: PASS - The post accurately reflects the source headline regarding GIFT Nifty signaling a weak start after a rally, and the metadata matches.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f40c27af1c1b
-done: 1 post(s) this run
-=== run 2026-10-14T02:54:53Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T02:17:51Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T01:54:11Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T01:07:56Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-14T00:16:10Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T23:49:15Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-13T23:14:50Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
