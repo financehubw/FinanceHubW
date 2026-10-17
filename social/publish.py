@@ -191,21 +191,44 @@ def post_comments(item: dict, results: dict) -> None:
 
 
 def story_teaser(item: dict) -> None:
-    """Share the new Reel's cover to Instagram Stories so followers see it first (Stories are shown
-    before the feed). Never blocks posting."""
+    """Put the new Reel itself in Instagram Stories (the full video plays there), so followers who
+    open Stories first see it. Instagram's API cannot add a tappable link or reshare sticker to a
+    Story, so the video goes in directly; the cover image is the fallback. Never blocks posting."""
+    ig, tok = os.environ.get("IG_USER_ID"), os.environ.get("META_TOKEN")
+    if not (ig and tok):
+        return
+    url = f"{SITE_URL}/media/shorts/{item['file']}"
+    try:
+        c = requests.post(f"{GRAPH}/{ig}/media", timeout=60,
+                          data={"media_type": "STORIES", "video_url": url, "access_token": tok}).json()
+        if "id" not in c:
+            raise RuntimeError(c.get("error", c))
+        for _ in range(40):
+            st = requests.get(f"{GRAPH}/{c['id']}", timeout=30,
+                              params={"fields": "status_code", "access_token": tok}).json()
+            if st.get("status_code") == "FINISHED":
+                break
+            if st.get("status_code") == "ERROR":
+                raise RuntimeError("Instagram could not process the Story video")
+            time.sleep(8)
+        r = requests.post(f"{GRAPH}/{ig}/media_publish", timeout=60,
+                          data={"creation_id": c["id"], "access_token": tok}).json()
+        print("  Instagram Story (Reel video):", r.get("id", r))
+        return
+    except Exception as e:  # noqa: BLE001
+        print(f"  Story video failed ({e}); sharing the cover instead", file=sys.stderr)
     t = thumb_for(item)
     if not t:
         return
     try:
         import x_story
-        url = x_story.image_url(t, f"{SITE_URL}/media/shorts/thumbs/{t.name}")
-        ig, tok = os.environ["IG_USER_ID"], os.environ["META_TOKEN"]
+        img = x_story.image_url(t, f"{SITE_URL}/media/shorts/thumbs/{t.name}")
         c = requests.post(f"{GRAPH}/{ig}/media", timeout=60,
-                          data={"media_type": "STORIES", "image_url": url, "access_token": tok}).json()
+                          data={"media_type": "STORIES", "image_url": img, "access_token": tok}).json()
         time.sleep(5)
         r = requests.post(f"{GRAPH}/{ig}/media_publish", timeout=60,
                           data={"creation_id": c["id"], "access_token": tok}).json()
-        print("  Instagram Story teaser:", r.get("id", r))
+        print("  Instagram Story (cover):", r.get("id", r))
     except Exception as e:  # noqa: BLE001
         print(f"  Story teaser skipped - {e}", file=sys.stderr)
 
