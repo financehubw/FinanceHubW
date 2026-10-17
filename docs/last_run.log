@@ -1,3 +1,97 @@
+=== run 2026-10-17T17:00:51Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+77/171 sources returned news, 623 recent items
+134 new trusted stories, posting up to 3 this run
+skip (off-topic or nothing new): Israeli settlers attack diplomats in West Bank one day after assault on Washington Post journalist
+---
+🇮🇳 SEBI BARS CAPITAL STROKE
+
+📌 Sebi canceled the registration of Capital Stroke Investment Services and barred it for 5 years.
+#SEBI
+
+📍 India · 📰 SEBI · 🏛️ Official
+https://www.sebi.gov.in/enforcement/orders/oct-2026/order-in-the-matter-of-capital-stroke-investment-services-pvt-ltd-_105285.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (cancellation and 5‑year bar) are directly supported by the SEBI order.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the SEBI order and Moneycontrol article.
+  Groq Qwen: PASS - The post accurately reflects the source information regarding SEBI canceling the registration and barring Capital Stroke Investment Services for five years.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-46abad035d81
+---
+🇨🇦 CANADA SEES HIGHER INFLATION OUTLOOK
+
+📌 The central bank expects inflation to rise because oil prices stay high.
+💡 Higher inflation means everyday goods and services cost more.
+#Canada
+
+📍 Canada · 📰 The Globe and Mail · ✅ 2 sources
+https://www.theglobeandmail.com/business/article-bank-of-canada-interest-rate-macklem-inflation-oil-prices-imf/
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the Globe and Mail article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the Bank of Canada's inflation outlook, the cause (oil prices), and the attribution to Macklem are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f8d8d0e87af9
+skip (off-topic or nothing new): Trumps Russian oil tariff waiver offers India relief, but experts warn of renewed US pressure
+---
+🇮🇳 YES BANK Q2 PROFIT RISES
+
+📌 Yes Bank reported higher Q2 profit, but did not include the impact of a court ruling on AT1 bonds (special risky debt).
+📊 Yes Bank
+
+📍 India · 📰 Reuters · ✅ 4 sources
+https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3doZnBSVzNPRFlYSlhkUGJ6eUppYi1JVXlHRThCclJrMVVGRGNYT0NlRTBJQWw2ZE1nNUZsLVVFYk9vTGx4MzBFbFlpMHROOVB4WkdMaGdfZzhVbGgzRGdxUGpuZVc0Z3NfaXF0QmFFd0lxZEJYSlNvaGVVSC1iQ1poaGFTZGlVS2hRVTByQlVuQXI0cGk1WExGSHRjNVBfU3R3VTFpcU12NHZjS0JYMkZCbk4tcm16?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Yes Bank's Q2 profit rise and exclusion of AT1 bond ruling impact are directly supported by the Reuters source.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding Yes Bank's Q2 profit rise and the exclusion of the AT1 bond ruling impact are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: FAIL - (plain-text verdict)
+  -> blocked by fact-check
+---
+🇺🇸 TRUMP WAIVES RUSSIA OIL TARIFFS
+
+📌 Trump blocked tariffs and sanctions on top buyers of Russian oil before a new law started.
+#Oil
+
+📍 US · 📰 News24 · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMk1yRllZX3ZGSFlFa21lUi1wdGw2SWwzMGVTM29hdGxHbktTaTFQcnRqbklFNVBRVXJoLWV4ejktZEJZNlhORUVMdDNVMFNLdXF3Mlhld3cxYmFBNFNLaUotbWJCNmV5a2l0ZGU3VThxellIM3lVQUN3ZDNPNmZFaDQ2MDZrVzYyV05DSVFoQWNxM0FFZDlkZVNlbTF6NURLS1ZaaVpyNWlqMWF4NEVtOXRVS002cFFVWEdvbElpYTR1UTJ4V2NlRjhWU25Nb045Und4Q1Y2akhJZVJTdXc?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post says Trump "blocked" tariffs and sanctions, but sources state he "waived" them, which contradicts the factual claim.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Delhi-bound Emirates flight hit by bird strike, delayed over 14 hours
+skip (off-topic or nothing new): Gold Price Exclusive Update - October 17, 2026
+---
+🇮🇳 BURMA BURMA OPERATOR FILES FOR IPO
+
+📌 Hunger Pangs wants to sell shares to the public for the first time.
+💡 Stock sales let companies raise money from everyday investors.
+#IPO
+
+📍 India · 📰 Moneycontrol.com
+https://news.google.com/rss/articles/CBMiywFBVV95cUxPbzRSYUMwREFJQWRhYVhnRUpLeURZYW9PTW9IV3B1eDYzdWNHckdodDZQY0JmWDlOS3V2U0xjT2gtUF9wcUhRVUdNYXpWcEsxQS13ejZYZ0xfdFdoWlZSRDB2ZVN1aUxXbUJ6Vkl5UURMZ0kyWE84QzFJdmpGWGhkSFVacjMzUWIyU0FQWkNOYURhX21mTVRLMEx4UlB0VS1RTUR1dTlYUDJqamxRZ1FPYVNfZzg0Ul91bUxpVTBiQTFuMnlzaXpUY3kyZ9IBywFBVV95cUxPbzRSYUMwREFJQWRhYVhnRUpLeURZYW9PTW9IV3B1eDYzdWNHckdodDZQY0JmWDlOS3V2U0xjT2gtUF9wcUhRVUdNYXpWcEsxQS13ejZYZ0xfdFdoWlZSRDB2ZVN1aUxXbUJ6Vkl5UURMZ0kyWE84QzFJdmpGWGhkSFVacjMzUWIyU0FQWkNOYURhX21mTVRLMEx4UlB0VS1RTUR1dTlYUDJqamxRZ1FPYVNfZzg0Ul91bUxpVTBiQTFuMnlzaXpUY3kyZw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Moneycontrol.com source.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Moneycontrol source.
+  Groq Qwen: FAIL - The post claims the company 'wants to sell shares to the public for the first time,' which is an unsupported prediction of intent/outcome, whereas the source only states that draft papers were filed w
+  -> blocked by fact-check
+---
+🇨🇦 BANK OF CANADA WARNS ON ENERGY AND INFLATION
+
+📌 The central bank says unstable energy costs could push up overall prices.
+💡 Higher inflation can make everyday goods and living costs more expensive.
+#Canada
+
+📍 Canada · 📰 980 Cjme · ✅ 2 sources
+https://news.google.com/rss/articles/CBMimAFBVV95cUxOODBIRGVPSDlJbzhhbUtaZ2dZUnlLamN1bWFqZjFqU2xtb3dEVnJzMmFUMDFobElqYVRONlFFZ3pCQ2Fub1Fxb3VuOHFIMTFCVVlXNGZmVTVlcTI0cjZhVzI5QzQ1SGNlME54OWZxRzZPWlM0TEpidWNQQm5KT0lMZllma3hkRWVneVpod0wxOVRmREhHM0JUXw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited CJME article.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 2 sources, but the source list contains 3, which is unsupported.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Nifty 50 outlook for the week: Out of the woods
+skip (off-topic or nothing new): ‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?
+done: 2 post(s) this run
 === run 2026-10-17T14:56:01Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1404,97 +1498,3 @@ published to: website, Instagram Story
 https://www.aljazeera.com/economy/2026/10/14/us-inflation-rises-before-midterm-elections-fuelling-rate-hike-fears?traffic_source=rss
   written by Gemini
   Groq GPT-OSS: PASS - All factual statements are directly supported by the Al Jazeera article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Al Jazeera article and the general explanation is accurate.
-  Groq Qwen: PASS - All factual claims regarding US inflation rising before midterms, market uncertainty, and the source attribution are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-640068b3ccf5
-done: 3 post(s) this run
-=== run 2026-10-14T16:11:42Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 5
-105/171 sources returned news, 1193 recent items
-282 new trusted stories, posting up to 3 this run
----
-🇺🇸 US INFLATION RISES 3.7%
-
-📌 US consumer prices grew 3.7% over the year in September, driven by higher gas prices.
-📊 US Inflation: 3.7% YoY
-💡 Higher inflation can lead to higher interest rates.
-#Fed
-
-📍 US · 📰 Economic Times · ✅ 11 sources
-https://economictimes.indiatimes.com/markets/us-stocks/news/gold-drops-over-1-as-hot-us-inflation-data-boosts-fed-hike-bets/articleshow/134944020.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 11 sources" but the provided source list contains fewer than 11 distinct sources
-  -> blocked by fact-check
----
-🇺🇸 US STOCKS FALL AS INFLATION WORSENS
-
-📌 US stocks dropped from record highs as inflation (rising prices) got worse.
-📊 Nasdaq: -1%
-💡 Higher inflation often leads to higher interest rates.
-#StockMarket
-
-📍 US · 📰 Economic Times · ✅ 11 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-war-hormuz-deal-brent-crude-oil-fed-rate-yield-inflation-data-bank-earnings-blackrock-bank-of-america-alphabet-micron-inflation-dataai-chip-stock-price-news-14th-october-2026/liveblog/134942729.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post states Nasdaq fell exactly -1%, but the source only says it fell over 1%.
-  -> blocked by fact-check
----
-🇺🇸 US INFLATION RISES TO 3.7%
-
-📌 US consumer prices rose faster than expected in September, hitting 3.7%.
-📊 CPI: 3.7%
-📊 $BTC: Falls
-💡 Higher rates usually make loans costlier
-#Fed
-
-📍 US · 📰 The Straits Times World News · ✅ 11 sources
-https://www.straitstimes.com/business/us-consumer-prices-accelerate-in-september-on-costlier-petrol-core-cpi-firmer
-  written by Gemini
-  Groq GPT-OSS: PASS - All numeric, date, and directional claims are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 11 sources, but only six are listed, so that factual claim is unsupported.
-  -> blocked by fact-check
----
-🇺🇸 US INFLATION RISES TO 3.7%
-
-📌 US consumer inflation rose to 3.7% in September due to higher gasoline prices.
-📊 US Inflation: 3.7%
-💡 Higher inflation usually reduces the purchasing power of money.
-#Fed
-
-📍 US · 📰 The Times of India · ✅ 3 sources
-https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUm9TTmk5bW1JdWVKNXNGeXdXQlAzOEdYcDAtQ1dEZ0RPWTVuUXNjSVJzN3p0SDVCQlRBdng1WmR6OERBRWtwLWFWQnc2Q1dLYk9GQjh1TW1SUldYT1JrOGF0WTRQNWdMS0c0WUp4Q1E1TlplTElWbkpNaWJGWkdTTE5vdEtvd1YzbzBlQ2I2cFk5bTNoWDZ1NFphRWdncGQ0M1JaZEkxNzlzUHVfbW4wQ3pjR0pNc2dFaVV6THZ3cjE2MV9oZnJRLTFkdEhCZzE1MkNqTVVXQ0YyLUNtUDZFVkNJUFBjMFlZbjJYVUJ1WDRHTUhCdGfSAfsBQVVfeXFMUHVTODJlWG9Ocm1PaV9Vc1BaOUhGM3VBaDVURGp5MkY1N1FHQUVIX1dWMDNWUHd0c3kzRXRVSUVFN0Rub2htdW5COXlDM2REVEZIQzBxYlo5Mk5obU40OEhqRjhmRUYyazRKV2tCV1pWT2VmdkJ5cXM2Vm83Q25mR2Q2YzNEODZSUHBPY0VrVDJTbDFhWnJfQm81TDVETU5xaC1iTU0tSVFrOWRUeV9xQ3JJQTd6dkIwWTllT3I1bnMxV0lXMGZER0xTRGVMRWhLVWVwSFYwX0V5a2dsX204M0lXNGRQTHNfbzdsZllQY3pXZnY0V0hqQ3VfNVk?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly backed by the Times of India and Sunday Guardian articles, and the general explanation is correct.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
-  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-lightning:free returned an empty reply)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-78771a1dff98
----
-🇺🇸 BITCOIN FALLS BELOW $83,000
-
-📌 Bitcoin's price dropped after US inflation (rising prices) data came out.
-📊 $BTC: Below $83K
-💡 Higher inflation can lead to higher interest rates.
-#Crypto
-
-📍 US · 📰 Cointelegraph.com News · ✅ 3 sources
-https://cointelegraph.com/markets/bitcoin-price-dips-yields-surge-as-high-oil-prices-spike-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the listed sources
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: FAIL - The draft claims Bitcoin fell below $83,000, but the primary source (Cointelegraph) explicitly states it fell below $82,000, making the draft's figure inaccurate or unsupported by the specific source 
-  -> blocked by fact-check
----
-🇺🇸 US INFLATION RISES TO 3.7%
-
-📌 US annual inflation increased to 3.7% in September, driven by higher fuel costs.
-📊 US Inflation: 3.7%
-💡 Higher inflation usually reduces the purchasing power of money.
-#Inflation
-
-📍 US · 📰 BBC News · ✅ 6 sources
-https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss
