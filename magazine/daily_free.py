@@ -543,10 +543,12 @@ def write_slot(slot: str, st: dict, writer_skip: list) -> tuple[dict | None, str
         try:
             out = parse_json(reply)
         except Exception:  # noqa: BLE001
+            print(f"  {slot}: {writer} reply was not JSON: {reply[:160]!r}", file=sys.stderr)
             extra = "\nYour last reply was not valid JSON.\n"
             continue
         errs = slot_errors(slot, out, st)
         if errs:
+            print(f"  {slot}: rejected: {'; '.join(errs)[:200]}", file=sys.stderr)
             extra = "\nYour last answer was rejected: " + "; ".join(errs) + ". Last answer: " + json.dumps(out, ensure_ascii=False) + "\n"
             continue
         ok, log = verify.fact_check(slot_check_text(slot, out), st["reports"], skip=writer, limit=10, template=CHECK)  # the writer never checks its own slide

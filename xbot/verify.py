@@ -192,7 +192,7 @@ def _gemini(prompt: str, max_tokens: int = 200) -> str:
         )
         r.raise_for_status()
         parts = r.json()["candidates"][0]["content"]["parts"]
-        return "".join(p.get("text", "") for p in parts)
+        return "".join(p.get("text", "") for p in parts if not p.get("thought"))
     return _try_models("Gemini", _models("GEMINI_MODEL", gemini_models()), call)
 
 
