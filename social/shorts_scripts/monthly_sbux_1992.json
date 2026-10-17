@@ -1,0 +1,49 @@
+{
+ "id": "monthly_sbux_1992",
+ "title": "$100 a month into Starbucks since 1992 is now worth this",
+ "thumb": "$100/month in Starbucks since 1992 = *{dca:SBUX:1992-06-26}*",
+ "thumb_photo": "coffee shop",
+ "thumb_tag": "MONTHLY HABIT",
+ "caption": "$100 every month into Starbucks since 1992.\nToday that would be worth about {dca:SBUX:1992-06-26} (price growth only, no dividends).",
+ "comment": "Could you put away $100 a month? 👇",
+ "tags": [
+  "#investing",
+  "#sip",
+  "#money",
+  "#stocks",
+  "#finance",
+  "#habits"
+ ],
+ "sources": [
+  "Starbucks price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One hundred dollars a month, into Starbucks, starting in 1992.",
+   "photo": "coffee shop",
+   "big": "$100",
+   "sub": "every month since 1992"
+  },
+  {
+   "say": "Back then, Starbucks was a coffee chain.",
+   "photo": "coffee shop",
+   "clip": {
+    "kicker": "Seattle",
+    "year": "1992",
+    "text": "Starbucks: a coffee chain"
+   }
+  },
+  {
+   "say": "Today, those monthly payments would be worth about {dca:SBUX:1992-06-26}.",
+   "photo": "piggy bank coins",
+   "big": "{dca:SBUX:1992-06-26}",
+   "sub": "$100 a month, every month"
+  },
+  {
+   "say": "Small, boring, every month. That's how wealth is built.",
+   "photo": "calendar",
+   "big": "Every month",
+   "sub": "the habit that compounds"
+  }
+ ]
+}

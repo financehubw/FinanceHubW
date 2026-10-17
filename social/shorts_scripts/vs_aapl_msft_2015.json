@@ -1,0 +1,66 @@
+{
+ "id": "vs_aapl_msft_2015",
+ "title": "Apple vs Microsoft: $1,000 in 2015, who wins?",
+ "thumb": "Apple vs Microsoft: *who won?*",
+ "thumb_photo": "smartphone",
+ "thumb_tag": "VS",
+ "caption": "$1,000 in Apple or Microsoft in 2015?\nApple: about {growth:AAPL:2015-01-02}\nMicrosoft: about {growth:MSFT:2015-01-02}\n(Price growth only, no dividends.)",
+ "comment": "Team Apple or team Microsoft? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#versus",
+  "#apple"
+ ],
+ "sources": [
+  "Yahoo Finance price history (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "Apple or Microsoft? One thousand dollars each, in 2015. Pick one before the reveal.",
+   "photo": "smartphone",
+   "quiz": {
+    "q": "Which is worth more today?",
+    "a": "Apple",
+    "b": "Microsoft"
+   }
+  },
+  {
+   "say": "Here's how those two thousand dollars played out, year by year.",
+   "versus": {
+    "start": "2015-01-02",
+    "a": [
+     "AAPL",
+     "Apple"
+    ],
+    "b": [
+     "MSFT",
+     "Microsoft"
+    ]
+   }
+  },
+  {
+   "say": "Apple wins, at about {growth:AAPL:2015-01-02}, against {growth:MSFT:2015-01-02}.",
+   "versus": {
+    "start": "2015-01-02",
+    "a": [
+     "AAPL",
+     "Apple"
+    ],
+    "b": [
+     "MSFT",
+     "Microsoft"
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Did you pick the winner?",
+   "photo": "trophy",
+   "big": "Your pick?",
+   "sub": "comment A or B"
+  }
+ ]
+}

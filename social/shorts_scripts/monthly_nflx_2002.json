@@ -1,0 +1,49 @@
+{
+ "id": "monthly_nflx_2002",
+ "title": "$100 a month into Netflix since 2002 is now worth this",
+ "thumb": "$100/month in Netflix since 2002 = *{dca:NFLX:2002-05-23}*",
+ "thumb_photo": "dvd envelope",
+ "thumb_tag": "MONTHLY HABIT",
+ "caption": "$100 every month into Netflix since 2002.\nToday that would be worth about {dca:NFLX:2002-05-23} (price growth only, no dividends).",
+ "comment": "Could you put away $100 a month? 👇",
+ "tags": [
+  "#investing",
+  "#sip",
+  "#money",
+  "#stocks",
+  "#finance",
+  "#habits"
+ ],
+ "sources": [
+  "Netflix price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One hundred dollars a month, into Netflix, starting in 2002.",
+   "photo": "dvd envelope",
+   "big": "$100",
+   "sub": "every month since 2002"
+  },
+  {
+   "say": "Back then, Netflix was mailing DVDs.",
+   "photo": "dvd envelope",
+   "clip": {
+    "kicker": "Los Gatos",
+    "year": "2002",
+    "text": "Netflix: mailing DVDs"
+   }
+  },
+  {
+   "say": "Today, those monthly payments would be worth about {dca:NFLX:2002-05-23}.",
+   "photo": "piggy bank coins",
+   "big": "{dca:NFLX:2002-05-23}",
+   "sub": "$100 a month, every month"
+  },
+  {
+   "say": "Small, boring, every month. That's how wealth is built.",
+   "photo": "calendar",
+   "big": "Every month",
+   "sub": "the habit that compounds"
+  }
+ ]
+}

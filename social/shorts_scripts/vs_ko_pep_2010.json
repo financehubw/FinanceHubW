@@ -1,0 +1,66 @@
+{
+ "id": "vs_ko_pep_2010",
+ "title": "Coca-Cola vs Pepsi: $1,000 in 2010, who wins?",
+ "thumb": "Coca-Cola vs Pepsi: *who won?*",
+ "thumb_photo": "stock market",
+ "thumb_tag": "VS",
+ "caption": "$1,000 in Coca-Cola or Pepsi in 2010?\nCoca-Cola: about {growth:KO:2010-01-04}\nPepsi: about {growth:PEP:2010-01-04}\n(Price growth only, no dividends.)",
+ "comment": "Team Coca-Cola or team Pepsi? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#versus",
+  "#coca-cola"
+ ],
+ "sources": [
+  "Yahoo Finance price history (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "Coca-Cola or Pepsi? One thousand dollars each, in 2010. Pick one before the reveal.",
+   "photo": "stock market",
+   "quiz": {
+    "q": "Which is worth more today?",
+    "a": "Coca-Cola",
+    "b": "Pepsi"
+   }
+  },
+  {
+   "say": "Here's how those two thousand dollars played out, year by year.",
+   "versus": {
+    "start": "2010-01-04",
+    "a": [
+     "KO",
+     "Coca-Cola"
+    ],
+    "b": [
+     "PEP",
+     "Pepsi"
+    ]
+   }
+  },
+  {
+   "say": "Coca-Cola wins, at about {growth:KO:2010-01-04}, against {growth:PEP:2010-01-04}.",
+   "versus": {
+    "start": "2010-01-04",
+    "a": [
+     "KO",
+     "Coca-Cola"
+    ],
+    "b": [
+     "PEP",
+     "Pepsi"
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Did you pick the winner?",
+   "photo": "trophy",
+   "big": "Your pick?",
+   "sub": "comment A or B"
+  }
+ ]
+}

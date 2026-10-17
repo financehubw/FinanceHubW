@@ -1,0 +1,49 @@
+{
+ "id": "monthly_googl_2004",
+ "title": "$100 a month into Google since 2004 is now worth this",
+ "thumb": "$100/month in Google since 2004 = *{dca:GOOGL:2004-08-19}*",
+ "thumb_photo": "search engine laptop",
+ "thumb_tag": "MONTHLY HABIT",
+ "caption": "$100 every month into Google since 2004.\nToday that would be worth about {dca:GOOGL:2004-08-19} (price growth only, no dividends).",
+ "comment": "Could you put away $100 a month? 👇",
+ "tags": [
+  "#investing",
+  "#sip",
+  "#money",
+  "#stocks",
+  "#finance",
+  "#habits"
+ ],
+ "sources": [
+  "Google price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One hundred dollars a month, into Google, starting in 2004.",
+   "photo": "search engine laptop",
+   "big": "$100",
+   "sub": "every month since 2004"
+  },
+  {
+   "say": "Back then, Google was a search engine with ads.",
+   "photo": "search engine laptop",
+   "clip": {
+    "kicker": "Mountain View",
+    "year": "2004",
+    "text": "Google: a search engine with ads"
+   }
+  },
+  {
+   "say": "Today, those monthly payments would be worth about {dca:GOOGL:2004-08-19}.",
+   "photo": "piggy bank coins",
+   "big": "{dca:GOOGL:2004-08-19}",
+   "sub": "$100 a month, every month"
+  },
+  {
+   "say": "Small, boring, every month. That's how wealth is built.",
+   "photo": "calendar",
+   "big": "Every month",
+   "sub": "the habit that compounds"
+  }
+ ]
+}

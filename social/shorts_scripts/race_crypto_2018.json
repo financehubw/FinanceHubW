@@ -1,0 +1,86 @@
+{
+ "id": "race_crypto_2018",
+ "title": "$1,000 in each since 2018: who wins?",
+ "thumb": "$1,000 since 2018: *who wins?*",
+ "thumb_photo": "cryptocurrency",
+ "thumb_tag": "RACE",
+ "caption": "Crypto race since 2018? $1,000 in each in 2018.\nWinner: BNB, now about {growth:BNB-USD:2018-01-02}.\nLast: XRP, about {growth:XRP-USD:2018-01-02}.\n(Price growth only, no dividends.)",
+ "comment": "Did you guess the winner? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#race",
+  "#dataviz"
+ ],
+ "sources": [
+  "Yahoo Finance price history (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One thousand dollars in each, back in 2018. Guess the winner.",
+   "photo": "cryptocurrency",
+   "quiz": {
+    "q": "Which grew the most?",
+    "a": "Bitcoin",
+    "b": "Ethereum"
+   }
+  },
+  {
+   "say": "Watch the race. Every bar is one thousand dollars, growing year by year.",
+   "race": {
+    "start": "2018-01-02",
+    "items": [
+     [
+      "BTC-USD",
+      "Bitcoin"
+     ],
+     [
+      "ETH-USD",
+      "Ethereum"
+     ],
+     [
+      "BNB-USD",
+      "BNB"
+     ],
+     [
+      "XRP-USD",
+      "XRP"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "BNB wins, at about {growth:BNB-USD:2018-01-02}. XRP comes last, at about {growth:XRP-USD:2018-01-02}.",
+   "race": {
+    "start": "2018-01-02",
+    "items": [
+     [
+      "BTC-USD",
+      "Bitcoin"
+     ],
+     [
+      "ETH-USD",
+      "Ethereum"
+     ],
+     [
+      "BNB-USD",
+      "BNB"
+     ],
+     [
+      "XRP-USD",
+      "XRP"
+     ]
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Which one would you have picked?",
+   "photo": "thinking person",
+   "big": "Your pick?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}
