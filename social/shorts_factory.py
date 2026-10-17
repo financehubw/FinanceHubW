@@ -413,7 +413,7 @@ def broll_overlay(scene: dict) -> Image.Image:
     grad = Image.new("L", (1, H))
     for y in range(H):
         t = y / H
-        grad.putpixel((0, y), int(255 * (0.35 * max(0, 1 - t / 0.18) + 0.82 * max(0, (t - 0.38) / 0.62) ** 1.1)))
+        grad.putpixel((0, y), int(255 * min(0.92, 0.35 * max(0, 1 - t / 0.18) + 0.9 * max(0, (t - 0.30) / 0.55) ** 0.9)))
     ov.paste(Image.new("RGBA", (W, H), (8, 8, 10, 255)), (0, 0), grad.resize((W, H)))
     d = ImageDraw.Draw(ov)
     d.text((60, 70), "FINANCEHUBW", font=font(BOLD, 28), fill=(255, 255, 255, 210))
@@ -423,7 +423,7 @@ def broll_overlay(scene: dict) -> Image.Image:
         while size > 90 and d.textlength(big, font=font(SERIF, size)) > W - 120:
             size -= 8
         f = font(SERIF, size)
-        d.text(((W - d.textlength(big, font=f)) / 2, y), big, font=f, fill=(255, 255, 255, 255))
+        d.text(((W - d.textlength(big, font=f)) / 2, y), big, font=f, fill=(255, 255, 255, 255), stroke_width=4, stroke_fill=(0, 0, 0, 160))
         y += int(size * 1.08)
         if scene.get("sub"):
             sf = font(SEMI, 40)
@@ -435,7 +435,7 @@ def broll_overlay(scene: dict) -> Image.Image:
                font=font(BOLD, 30), fill=GOLD + (255,))
         y += 56
         for ln in wrap(d, c["text"], font(SERIF, 76), W - 180):
-            d.text((90, y), ln, font=font(SERIF, 76), fill=(255, 255, 255, 255)); y += 88
+            d.text((90, y), ln, font=font(SERIF, 76), fill=(255, 255, 255, 255), stroke_width=4, stroke_fill=(0, 0, 0, 160)); y += 88
     return ov
 
 
