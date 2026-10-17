@@ -6,9 +6,9 @@ on:
     # US late-morning Reels/Shorts peak in one slot. Two early triggers (GitHub often starts late);
     # the job waits until 15:00 UTC, and whichever runs second sees today's post and does nothing.
     # The posting time comes from social/best_times.json (learned weekly from the account's reach).
-    # Hourly checks from 11:13 AM to 11:13 PM IST (two slots a day); each run posts only if it is within 25 minutes of the
+    # Checks only around the two slots (10:13 AM-1:13 PM and 7:13-9:13 PM IST); each run posts only if it is within 25 minutes of the
     # chosen time (waiting for the exact minute), otherwise it exits in seconds.
-    - cron: "43 5-17 * * *"
+    - cron: "43 4-7,13-15 * * *"
   workflow_dispatch:
     inputs:
       dry_run:

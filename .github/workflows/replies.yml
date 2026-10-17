@@ -1,9 +1,7 @@
 name: Reply to comments
 
-# Every hour: short, friendly replies to new comments on Instagram and YouTube (free models).
+# Manual run only; replies normally run inside "Post finance update" every 2 hours (saves Actions minutes).
 on:
-  schedule:
-    - cron: "29 * * * *"
   workflow_dispatch:
 
 permissions:

@@ -43,11 +43,19 @@ def load(p: Path, default):
 
 
 def next_item() -> dict | None:
-    done = {p["file"] for p in load(POSTED, {"posted": []})["posted"]}
-    for item in load(QUEUE, {"items": []})["items"]:
-        if item["file"] not in done and (SHORTS / item["file"]).exists():
+    """First unposted Short, but not the same format twice in a row (variety keeps viewers)."""
+    log = load(POSTED, {"posted": []})["posted"]
+    done = {p["file"] for p in log}
+    items = load(QUEUE, {"items": []})["items"]
+    tags = {i["file"]: i.get("thumb_tag", "") for i in items}
+    last = tags.get(log[-1]["file"], "") if log else ""
+    ready = [i for i in items if i["file"] not in done and (SHORTS / i["file"]).exists()]
+    if not ready:
+        return None
+    for item in ready[:6]:
+        if not last or item.get("thumb_tag", "") != last or last not in ("WHAT IF", "MONTHLY HABIT"):
             return item
-    return None
+    return ready[0]
 
 
 def thumb_for(item: dict) -> Path | None:

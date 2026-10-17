@@ -30,6 +30,26 @@ jobs:
           if x is None or x > 24: problems.append(f"X: no post in the last 24 hours (last: {x and round(x)} h ago)")
           s = age("social/posted.json", "posted")
           if s is None or s > 30: problems.append(f"Shorts: none posted in the last 30 hours (last: {s and round(s)} h ago)")
+          try:
+              log = json.load(open("social/posted.json"))["posted"]
+              last = log[-1]
+              missing = [p for p in ("YouTube", "Instagram", "Facebook") if p not in last.get("results", {})]
+              if missing:
+                  problems.append(f"Last Short ({last['file']}) did not reach: {', '.join(missing)}. Errors: {last.get('errors')}")
+              q = json.load(open("social/queue.json"))["items"]
+              done = {p["file"] for p in log}
+              left = sum(1 for i in q if i["file"] not in done)
+              if left < 6:
+                  problems.append(f"Only {left} Shorts left in the queue (run 'Make Shorts')")
+          except Exception as e:
+              problems.append(f"could not read the Shorts log: {e}")
+          try:
+              keys = [e["key"] for e in json.load(open("social/digests_posted.json"))["posted"]]
+              lastday = max(keys)[:10]
+              if (now.date() - dt.date.fromisoformat(lastday)).days > 1:
+                  problems.append(f"Instagram briefings: none since {lastday}")
+          except Exception:
+              pass
           if problems:
               print("\n".join(problems)); print("See docs/last_run.log and the failed runs in the Actions tab.")
               sys.exit(1)
