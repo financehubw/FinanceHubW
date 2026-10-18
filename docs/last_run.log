@@ -1,3 +1,67 @@
+=== run 2026-10-18T03:00:32Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 5
+70/171 sources returned news, 508 recent items
+112 new trusted stories, posting up to 2 this run
+skip (off-topic or nothing new): Form 4 iShares Core S&P Small-Cap ETF For: 17 October
+---
+🇺🇸 TRUMP SEEKS 60 DAYS TO WEIGH RUSSIA SANCTIONS
+
+📌 Trump wants two months to study the impact of Russian sanctions and tariffs.
+#Trump
+
+📍 US · 📰 Business Standard · ✅ 7 sources
+https://news.google.com/rss/articles/CBMizAFBVV95cUxNZEo1a1BwY2lmYmZYbzRmeXBPY1hJRnVvUW5sMXhlOWFGVkpWLW1MSnl5Ymdick00ajlEYU43VnN0OFBteHMtZGtXQlZEdDY4Ymp4RUlHalN4MVJLOWo0T3Vuc1BlUWtTMlIwT1M3dlQ1dDAxaldPcjJPeDI0bzNabGtMN2tsMjFVTGdXeWhYMEZDcVhGVGN2NmZBb09LZ2tNYUdsWnRISjRTbWJoeXYxU0pFNTk3YVJyT3lkaG9uVEZ0VkI1WUhHSE1PNGvSAdIBQVVfeXFMUDFVdlBkbUp3TzBmSHBQaXdSMkRBZGJwSDFQUDJzcXlKM05MTEk2RW9kbUJiNTh5d0pobU9YLVRIbVlKRlpjSDY5ejZDX0F6eFo4Vkl1QWQyRkpzVGZISENhS1kzbEo0UUx6eklabzdLNE9XU3JWNC1ZNGJyU053NTZ4eWh5OWxxekdBSzZCNGRNX1VSYWRkV2UwMzhOUmsweGQxVWRVa21laS0tQi1tMUhMaGs5T2hTeXAtTTVrRXkyWTlkN0REMk5RSVMwX3VYdEp3?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The 📍 tag (US) does not match the source (Business Standard, an Indian outlet) and the post claims 7 sources while only 6 are listed
+  -> blocked by fact-check
+skip (off-topic or nothing new): Iran says two tankers catch fire after hitting mines in Strait of Hormuz
+skip (off-topic or nothing new): India can't shift from Russian oil 'overnight': Rubio explains Trump's 60-day pause on sanctions, tariffs
+---
+🌏 ASIA AI STOCKS TUMBLE ON US TECH SELLOFF
+
+📌 Asia's AI hardware stocks fell 11% last week in their biggest drop since mid-July.
+📊 Goldman Sachs Asia AI basket: -11%
+
+📍 Asia · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/market/ai-trade-reversal-pierces-asia-s-star-picks-and-shovels-stocks-11792284261229.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and contextual claims are directly confirmed by the Mint and Straits Times articles.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: PASS - All factual claims regarding the 11% drop, the specific Goldman Sachs basket, the timeframe (last week), and the comparison to mid-July are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-37d8d8ff65af
+skip (off-topic or nothing new): Australian home prices tumble as tax rules, rate hikes bite
+skip (off-topic or nothing new): Venezuela expects $76 billion oil investment boost amid U.S. cooperation
+---
+🇻🇳 GLOBAL FUEL PRICES RISE
+
+📌 World oil and fuel prices increased during the week.
+📊 Diesel: Below 30,000 VND/liter
+💡 Higher fuel costs usually make daily transport and goods pricier.
+#Oil
+
+📍 Vietnam · 📰 Vietnam.vn · ✅ 2 sources
+https://news.google.com/rss/articles/CBMisAFBVV95cUxQS2J5LTNDWjVuc3lCWTF3UmpXV1hCVnVqSjNOTXpXSlFpM3dzazJ4a1NpM0JoOHN4bHZyZVE5WThUMVVNb3hRNms3WDFtd1RwSDlKeFEtN3J1NkhjaEw5by1LVWZvYU9qYnFjaGdyUTl3bzVmNWRqa0M5elV1X3lZOHdSaUVfYzcybTVLU1kwUzBTT2JJRFBIM05iaVM5eVIza2J6QkNRQkktQXhCVThzWQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 2 sources" but three sources are listed, making the source count claim inaccurate.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Korea's growth momentum to strengthen amid chip boom: finance minister
+---
+🇯🇵 JAPAN TO BAN UNTRACED GOLD EXPORTS
+
+📌 Japan is stopping gold exports that cannot be traced to stop tax evasion.
+#Gold
+
+📍 Japan · 📰 Nikkei Asia
+https://asia.nikkei.com/economy/trade/japan-to-prohibit-untraced-gold-exports-clamping-down-on-tax-evasion
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Japan prohibiting untraced gold exports to curb tax evasion are directly supported by the Nikkei Asia article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Nikkei Asia article.
+  Groq Qwen: PASS - The post accurately reflects the source headline and URL regarding Japan's ban on untraced gold exports to combat tax evasion, with correct location and source attribution.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-9ecb787f1266
+done: 2 post(s) this run
 === run 2026-10-18T01:14:00Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 4
@@ -1434,67 +1498,3 @@ skip (off-topic or nothing new): Container ship hit by projectile sinks in Strai
 📊 $BSP: Up to +45%
 📊 Investment: $330M
 #Stocks
-
-📍 US · 📰 International: Top News And Analysis · ✅ 4 sources
-https://www.cnbc.com/2026/10/14/berkshire-hathaway-investment-bending-spoons.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, company name, investment amount, stock rise figure, and location are directly backed by the cited sources.
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: FAIL - The post claims the stock is up +45%, but the primary sources (International and US Top News) report a 35% surge, and the 45% figure is only from a single source (Benzinga) while other sources cite 35
-  -> blocked by fact-check
----
-🇮🇳 JIO SETS IPO PRICE BAND UP TO RS 1,119
-
-📌 Jio Platforms set its share price band for an IPO (initial public offering [selling shares to the public]) up to Rs 1,119.
-📊 Price: Rs 1,065-1,119
-
-📍 India · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/markets/ipos/fpos/jio-announces-price-band-for-over-rs-30000-crore-ipo-check-key-dates-gmp-and-other-details/articleshow/134945465.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All stated facts (price band range, upper limit, source, and location) are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All factual claims in the post are directly supported by the cited Economic Times sources.
-  Groq Qwen: PASS - All factual claims regarding the price band (Rs 1,065-1,119), entity (Jio Platforms), location (India), and source (Economic Times) are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-ff752e9fcffd
----
-🇺🇸 US INFLATION RISES TO 3.7%
-
-📌 US annual price increases went up to 3.7% in September from 3.4% in August.
-📊 Inflation: 3.7%
-💡 Higher inflation usually means everyday goods and services cost more.
-#Fed
-
-📍 US · 📰 The Guardian · ✅ 2 sources
-https://www.theguardian.com/business/2026/oct/14/inflation-numbers-september
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and contextual claims are directly confirmed by the Guardian and Vietnam.vn articles.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the provided sources.
-  Groq Qwen: PASS - All factual claims regarding the inflation rate (3.7% in September, up from 3.4% in August), the location (US), and the source attribution (The Guardian) are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-fe8ea2158631
-skip (off-topic or nothing new): Hex and PulseChain founder Richard Heart detained in Istanbul: reports
----
-🇮🇳 JIO SETS INDIA'S BIGGEST IPO
-
-📌 Jio Platforms set its IPO (initial public offering, the first sale of company shares to the public) price at ₹1,065 to ₹1,119 per share.
-📊 IPO size: ₹30,213 crore
-#IPO
-
-📍 India · 📰 Mint · ✅ 12 sources
-https://www.livemint.com/market/stock-market-news/jio-platforms-ipo-price-band-fixed-at-rs-1-065-rs-1-119-per-share-minimum-bid-lot-set-at-12-shares-11791992365457.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (price band, IPO size, claim of being India's largest IPO) are directly supported by the cited Mint article.
-  Groq GPT-OSS 20B: FAIL - The post claims 12 sources and that the IPO is definitively India's biggest, neither of which is directly supported by the cited Mint article.
-  -> blocked by fact-check
----
-🇬🇧 FTSE 100 CLOSES HIGHER
-
-📌 The UK stock market closed higher even with high US inflation news.
-📊 FTSE 100: +0.72%
-#FTSE
-
-📍 UK · 📰 24/7 Wall St. · ✅ 4 sources
-https://news.google.com/rss/articles/CBMiywFBVV95cUxOU1dIaWg0SnFSNEI5alBxZ2IxaUhTcklJaWRycUZKMExCMjh5ZXNpcXNvQXppUC1tNWZVcXBTNWItTWVGMlVLSXo5TFlOZHhYWVBlN05IWmxNc3pEUHh5VFpTaVZVTkMzSjhlZ2ZLMWVheHduN0NhWUoxVFNleXlwQU5IQmVKZm9aMmVnRTBsRGxPanZqOHEwNDNLckVBX04wS2VteGRONDYxeHVab1R1cWJFYTJadDVhcU9FSE05d1lxcHRObklOa0FYSQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - One cited source (24/7 Wall St.) reports the FTSE 100 closed lower, contradicting the claim it closed higher
-  -> blocked by fact-check
