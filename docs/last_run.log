@@ -1,3 +1,38 @@
+=== run 2026-10-18T01:14:00Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 4
+63/171 sources returned news, 487 recent items
+75 new trusted stories, posting up to 1 this run
+---
+🇻🇳 SILVER PRICES DROP UNEXPECTEDLY
+
+📌 Silver prices saw an unexpected drop on October 18.
+💡 Lower silver prices reduce costs for buyers and jewelry makers.
+#Silver
+
+📍 Vietnam · 📰 NDTV Profit · ✅ 3 sources
+https://news.google.com/rss/articles/CBMidkFVX3lxTFBURmhkdHpKcVlycG9sNENtUHI3MEJaaV9ZeUxEanhiMV9PYkV6VnJoOHF3UzZQS002SVRSNDE1RU5wRXdibFJsRlpLZ3p4ZDFtQm5ZLXktV2FyN2lOVjdXcGdacWJ0VkNFWnhjRjM3bW1tV3luUVE?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post attributes the claim to NDTV Profit, which reports Indian gold rates, not to the Vietnam.vn source that actually mentions the silver price drop in Vietnam
+  -> blocked by fact-check
+skip (off-topic or nothing new): US wants Israel to 'crack down' on settler violence in West Bank, Rubio says
+---
+🇮🇳 JIO PLATFORMS RS 30,213-CR IPO OPENS ON OCT 21
+
+📌 Jio Platforms will open its Rs 30,213-crore public share sale on October 21.
+📊 IPO size: Rs 30,213 crore
+
+📍 India · 📰 Daily Excelsior · ✅ 2 sources
+https://news.google.com/rss/articles/CBMigwFBVV95cUxNRlIyb29zalFmbk9aN2J0ck1RT3BpR2VoQWFwaEZnYl9XVS1nNU5yOGFoR0ZUR2tBNnlFMi0zbDA1RnVtZmpTUnYwWEE5U2JfM01HemY2ZzVDWTlSREo2N0l6SlA4anljTW1FZC16cnJYaFZLVkkyc3lXTVpuN01yelllWdIBhwFBVV95cUxPWGRURHM3X25PdFg3YXNldlJBMDZjYS1SMHRycndmZGtWWHJWdXJ4S3FyZTNwZTRSNlZtbUpITVRveXljNUpsdXVOc1M4ZVQtUFZYck1oSDVjQ1czLXFVQTFYMk9fb2lYY1E1QjN2eXUtX3lKWVdTMm5pT25welFNb1cza001dGs?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the Daily Excelsior source.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - The factual claims regarding the IPO size (Rs 30,213 crore), opening date (Oct 21), and entity (Jio Platforms) are directly supported by the Daily Excelsior source, and the location and source attribu
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - The claim is directly supported by the Daily Excelsior source.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-3d05cb9eac75
+done: 1 post(s) this run
 === run 2026-10-17T22:54:16Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1463,38 +1498,3 @@ https://news.google.com/rss/articles/CBMiywFBVV95cUxOU1dIaWg0SnFSNEI5alBxZ2IxaUh
   written by Gemini
   Groq GPT-OSS: FAIL - One cited source (24/7 Wall St.) reports the FTSE 100 closed lower, contradicting the claim it closed higher
   -> blocked by fact-check
-skip (off-topic or nothing new): Nasdaq Composite Falls 0.59% to 27,044.49 as Chip Stocks Extend Losses; Dow and S&P 500 Open Lower
----
-🇺🇸 STOCKS FALL AFTER INFLATION RISES
-
-📌 US stock indexes dropped as inflation (rising prices) hit 3.7%.
-📊 Nasdaq 100: -1%
-💡 Higher inflation can keep borrowing costs high for everyone.
-#StockMarket
-
-📍 US · 📰 TradingView · ✅ 3 sources
-https://news.google.com/rss/articles/CBMixAFBVV95cUxOWXpnU2xxSTZ6bVVQRTUxR1VFQi1YaGJpa2JyUWRSWGR6WW5panRtWjRudXJjZk9sZXVGWDJaSFladGd5a3Z4T0pkUC00VVdZc3pmQmtwMkJ5eEJFZm9QdFl2dlpsMDVwR0VHTXVhS1A4ajlMbnNoTGVqZXhFOVc1THpCcTRJVlNuMDViTjR3M2JUc1dZRzctWEV3ZTllOWpkMjRKTzh3djJ0aXpFNF9RX0paWFFnVHd6c1JOaW9ZZWwycHI1?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: PASS - All factual claims regarding the stock market drop, the 3.7% inflation rate, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-24693c20f05f
-done: 3 post(s) this run
-=== run 2026-10-14T17:01:27Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-38/171 sources returned news, 331 recent items
-151 new trusted stories, posting up to 3 this run
-skip (off-topic or nothing new): Ahead of Market: 10 things that will decide stock market action on Thursday
----
-🇮🇳 SILVER FUTURES PLUNGE 4%
-
-📌 Silver prices dropped sharply on the MCX due to rising oil and a stronger dollar.
-📊 Silver: -4%
-#Silver
-
-📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/commodities/silver-futures-plunge-4-on-mcx-ahead-of-us-cpi-rising-oil-adds-pressure/articleshow/134946048.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about a 4% drop on MCX, caused by rising oil and a stronger dollar, are directly supported by the Economic Times article.
