@@ -1,3 +1,74 @@
+=== run 2026-10-18T17:00:43Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+79/171 sources returned news, 596 recent items
+122 new trusted stories, posting up to 2 this run
+---
+🇮🇳 TAX OFFICER CONFUSES YEN FOR RUPEES IN ₹3.41 CR CASE
+
+📌 A tax tribunal dropped a ₹3.41 crore claim after an officer mistook yen for rupees.
+📊 Amount cleared: ₹3.41 crore
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/money/personal-finance/nris-3-41-crore-fcnr-deposits-flagged-as-unexplained-money-after-tax-officer-mistook-yen-for-rupees-itat-gives-relief-11792336769819.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the ₹3.41 crore case, the officer’s yen‑rupee mix‑up, and the ITAT relief are directly supported by the Livemint article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited Mint article.
+  Groq Qwen: PASS - All factual claims regarding the amount, the error (yen vs rupees), the entity (ITAT), and the outcome are directly supported by the sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-850a9c2e7208
+skip (off-topic or nothing new): EU condemns Israeli settler attack on diplomats in occupied West Bank
+---
+🇺🇸 TRUMP ON INTEREST RATES AND FED CHAIR KEVIN WARSH
+
+📌 Trump spoke on rate increases and confidence in Fed Chair Kevin Warsh.
+💡 Fed interest rate decisions influence borrowing costs for loans.
+#Fed
+
+📍 US · 📰 The Straits Times
+https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4aEJwVDg4dnc0bmJEQmF6YjlobUhGc3JyYU9qc3JjUXU3ekJ2RzZoeWVCejIyUnVjdFRiWG5UakhtNzhTM2pKRjhucDNORE0wdUZxUWJUOUptYVdjeFE?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post misidentifies Kevin Warsh as Fed Chair and mismatches the location (US) with the Singapore‑based source.
+  -> blocked by fact-check
+---
+🌍 OIL RALLY LIFTS SAUDI STOCKS AS EGYPT TUMBLES
+
+📌 Rising oil prices boosted Saudi shares, while markets in Egypt and Qatar dropped.
+
+📍 Middle East · 📰 NDTV Profit · ✅ 2 sources
+https://news.google.com/rss/articles/CBMitgFBVV95cUxQMTBzOEh1NVh5UFp4a0hBcVA1cFFoNVFPNUFsaTZGT0pqOVp0SVZVSko3dVJva0YxTnc0UE4xVkl4UExIVklyYmFnRE56VUdndTNTa1J3bWJjbEY3Y3B1Y3poX29GZFB3bUNGZjRLVWlHaVNXUmVMNy11M3UxRzRqYVRIZ0VfOFZxdWtqS2phWjlHT29NdmFNZXV2RkRTS3lVVnYwamYwbHZoLXl1c1Ewd3hjUk1lUdIBtgFBVV95cUxQMTBzOEh1NVh5UFp4a0hBcVA1cFFoNVFPNUFsaTZGT0pqOVp0SVZVSko3dVJva0YxTnc0UE4xVkl4UExIVklyYmFnRE56VUdndTNTa1J3bWJjbEY3Y3B1Y3poX29GZFB3bUNGZjRLVWlHaVNXUmVMNy11M3UxRzRqYVRIZ0VfOFZxdWtqS2phWjlHT29NdmFNZXV2RkRTS3lVVnYwamYwbHZoLXl1c1Ewd3hjUk1lUQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about oil‑price‑driven Saudi gains and Egypt/Qatar market declines are directly supported by the NDTV Profit article.
+  Groq GPT-OSS 20B: FAIL - The claim that there are 2 sources is not supported by the provided source list, which contains only NDTV Profit.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Outrage over attacks on European diplomats and US journalist in West Bank
+---
+🇮🇳 BROKERAGES BACK JIO PLATFORMS IPO
+
+📌 Brokerages see strong growth in Jio Platforms from 5G, broadband, and AI expansion.
+
+📍 India · 📰 The Indian Express · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcnZ2cG03TlBlNDh5YVYwbUhya0t5cm9vRFBOa3M0QlhUWnI0eDdhbkhESUlMbEQxS1dKYVRScmhhWnJRbGRQajY3QzhCQzRON245bUtDVFBGNDZHOVg4T2otRFBjYVVzUUxtRDRYQjlPc2txbHhvd3dEMW9MT0E2dXo1b0l0MTJHTkFJbGY1Nl9tVllHaUtKOTNiaVBZRDJmeVNZOTdtZzZWbzdFd2pOZ2oyaTJadHNCNXZBR2oxNDJjQk5CQ2htVm03VHhMd2lfTjVXaE9pejJKUUVGS2tLV1NCdkxwTUg0WkHSAfABQVVfeXFMUDRlREZMcTNzazZuWklOcGt3Tzg1ekFTZXlPekpCUzM0aG50anJWRnlaU3Fnb0JHTGdWTDZmMENwRkd0RVhXSWpLUldjdGhBZE9WeXBrRC02cF91bEFfelV5ZmpsT3pqc3JFR0RlWk5kLWNUX1lpcVBETW5sRGQxYktUMnZ2MjdIdzFpNm1ZWndKd1JYS0wydmlOYVpFcmhCbUZLa1dDVG9HWVEyZDlWUG1qY2lFUW01SEhzQWdnbXB2V0tmS1BmRVh1SGRLdkUzZnhGRUpnUWc4MVBWY1FzSzFDemVOaldqaENRX2Z4bW1o?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "strong growth" which is not directly stated in the sources (they mention growth potential).
+  -> blocked by fact-check
+---
+🇪🇺 LATVIA PLANS TO ACCEPT CRYPTO FOR TAXES BY 2027
+
+📌 Latvia's parliament plans to let citizens pay taxes using crypto by 2027.
+📊 Target year: 2027
+
+📍 Europe · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News
+https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (Latvia's parliament planning crypto tax payments by 2027, target year, location, and source) are directly supported by the cited CoinDesk article.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - The post accurately reflects the source headline regarding Latvia's plan to allow crypto tax payments by 2027, with matching location and source attribution.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - The draft accurately reflects the headline of the provided CoinDesk source.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-52b53fbba65c
+done: 2 post(s) this run
 === run 2026-10-18T14:56:29Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1427,74 +1498,3 @@ daily cap reached, nothing to do this run
 === run 2026-10-15T16:22:21Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
-101/171 sources returned news, 1118 recent items
-251 new trusted stories, posting up to 3 this run
----
-🇺🇸 DOW JONER RISES WHILE NASDAQ FALLS
-
-📌 The Dow Jones gained 0.43% while the Nasdaq fell over 1% as chip stocks slid.
-📊 Dow Jones: +0.43%
-💡 Stock market changes affect retirement savings and investments.
-#Fed
-
-📍 US · 📰 NDTV Profit · ✅ 4 sources
-https://news.google.com/rss/articles/CBMidEFVX3lxTFBmV0NzT09WNVFHZHJsZlVkRU5LUVkzNGtaWnJSX2lkQXpwM2hXdm1FVVV5UzB0UzJaOF9CTHJJOC0yU0h4YVJYSXE4VzE4Y2U1ZHJjTml0WDl1YjhwV1FYTlh5cVBSQjJzVDFMak1DS29WNU5k?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The Dow/Nasdaq numbers are not supported by the cited NDTV Profit source, which only covers gold prices.
-  -> blocked by fact-check
----
-🌐 CRYPTO LIQUIDATIONS HIT NEARLY $1 BILLION
-
-📌 Traders lost nearly $1 billion as crypto prices swung wildly.
-📊 $BTC
-💡 Higher rates usually make loans costlier
-#Crypto
-
-📍 Global · 📰 Yahoo Finance · ✅ 2 sources
-https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ0ZHT3R3ZXNucUtSbU5PTnZIdm1abGxacy1objY5VG93aHBWaUZZNnBYbGoxUkozNDEyVmFGVVVCQ2NsbkxLV05GbkVYYlF0QWtveFFDME85Z2FoNjU3SDZFNlo5Z1lqd3dqX3BkZVBPZ0NMUHN6Q0VEMjB5UUhGRTFIZVdLVVhBenZHTVd1TGRkQW1ma0I0MGdabDZMZGROX3pKYktNX3dvdw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Yahoo Finance and Decrypt articles.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the $1 billion in liquidations and the source attribution are directly supported by the provided sources, and the general explanation in the 💡 line is accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f186de9c6358
----
-🇷🇺 RUSSIA TO BAN P2P CRYPTO TRADES
-
-📌 Russia will ban direct peer-to-peer crypto trades starting July 1, 2027.
-💡 New rules can restrict how people buy and sell digital assets directly.
-#Crypto
-
-📍 Russia · 📰 Cointelegraph.com News · ✅ 6 sources
-https://cointelegraph.com/news/russia-ban-p2p-crypto-trades-july-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source only states the ban starts in July 2027, not the specific date July 1 2027.
-  -> blocked by fact-check
----
-🇺🇸 NASDAQ HITS ONE-MONTH LOW
-
-📌 US tech stocks drop as artificial intelligence shares sell off and inflation worries grow.
-📊 Nasdaq: -1-month low
-💡 Higher rates usually make loans costlier
-#Nasdaq
-
-📍 US · 📰 Economic Times · ✅ 4 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nasdaq-nears-one-month-low-as-ai-stocks-slide-on-debt-concerns/articleshow/134969761.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - Sources say Nasdaq slid to a near one‑month low, not that it actually hit the one‑month low
-  -> blocked by fact-check
----
-🇺🇸 TECH STOCKS FALL AMID INFLATION WORRIES
-
-📌 Tech stocks dropped as high inflation data raised worries about interest rates.
-📊 Dow: +0.43%
-💡 Higher rates usually make loans costlier.
-#Tech
-
-📍 US · 📰 The Straits Times World News · ✅ 3 sources
-https://www.straitstimes.com/business/companies-markets/tech-stocks-tumble-what-investors-should-watch-as-doubts-grow-over-ai-spending
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (tech stocks falling, inflation‑rate worries, Dow +0.43%) are confirmed by the cited articles, and the general explanation about higher rates is correct.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: FAIL - The post claims tech stocks fell due to inflation worries, but the primary source (The Straits Times) attributes the tech stock tumble to doubts over AI spending, while the source citing inflation (Ya
-  -> blocked by fact-check
