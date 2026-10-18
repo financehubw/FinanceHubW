@@ -1,3 +1,62 @@
+=== run 2026-10-18T09:02:17Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+83/171 sources returned news, 646 recent items
+re-check of earlier post: 0 fail / 4 pass
+143 new trusted stories, posting up to 2 this run
+skip (off-topic or nothing new): Earnings, crude oil, Jio IPO key monitorables for investors next week
+---
+🇮🇳 RECORD FOREIGN OUTFLOWS HIT INDIAN SHARES
+
+📌 Foreign investors pulled over Rs 52,000 crore out of Indian stocks in October.
+📊 FPI outflow: Rs 52,000 crore+
+
+📍 India · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post calls the outflows a "record," which is not stated in the source article.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Q2 earnings, FII flows, global yields, crude prices to drive Indian stock market next week
+skip (off-topic or nothing new): Today’s Gold Rate in India October 18: Gold prices steady in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur (Other Cities)
+skip (off-topic or nothing new): Tencent Holdings Limited (0700.HK) stock price, news, quote and history
+skip (off-topic or nothing new): 84% Stocks In Correction, Yet S&P 500 At Record Highs: What's Behind The 'Bull-Bear' Market?
+skip (off-topic or nothing new): India needs policy credibility and continuity to sustain FDI as strong growth alone is not enough, says KIEP expert
+skip (off-topic or nothing new): BTC, ETH, XRP Recover From a Flash Crash as More Volatility Looms: Weekend Watch
+---
+🇮🇳 RELIANCE JIO PLANS HUGE IPO
+
+📌 Reliance Jio plans a ₹30,188-crore IPO to help pay off company debts.
+📊 IPO size: ₹30,188 crore
+📊 Commitments: ₹2.5 lakh crore
+#Reliance
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/market/ipo/reliance-jio-ipo-lic-leading-mfs-amcs-and-global-investors-eye-issue-say-reports-check-latest-gmp-price-today-11792299184449.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, purpose, location, and source attribution are directly supported by the Mint article.
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: PASS - All factual claims regarding the IPO size, commitments, purpose, and source attribution are directly supported by the provided text.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims in the post (IPO size, commitments, purpose of proceeds) are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-0b4fe4d95fdc
+skip (off-topic or nothing new): US ambassador to Israel condemns settler attack on US journalist, and other Mideast news
+---
+🇺🇸 US DOLLAR FALLS
+
+📌 The US dollar drops as markets expect no more interest rate hikes.
+💡 A weaker currency can make imported goods cost more.
+#Forex
+
+📍 US · 📰 The Business Times
+https://news.google.com/rss/articles/CBMiygFBVV95cUxOemFMZ1BmYVROcm1yM3JEOXFsNDE5QVZISjU1SWhVMWZpNGtnZnl2bFlXbTV4c0lWM0JYLTdZcW5GVWFjaDJEbENqek5rRVhFdHBybEkzemtKcGoxOUpjWkxfLUNjQkxWX0RzN1l4WGtBTUlLOHhGZEgxeUZyTVNJY2dOc3Z1OEMxWC1zWFY3emp2dDE2a0EtZU9jenVuLW5QVVdNaF9ab1NJampJSnJoLUtlS3c1OWs5bWxLTHpEOUp4U2ZnS1ZESTBn?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the Business Times article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - The post accurately reflects the source headline stating the dollar falls as Fed hike bets fade, and the general explanation is correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-74232db64d22
+done: 2 post(s) this run
 === run 2026-10-18T07:14:24Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 5
@@ -1439,62 +1498,3 @@ https://www.euronews.com/2026/10/15/euro-slides-to-fresh-lows-against-us-dollar-
   written by Gemini
   Groq GPT-OSS: PASS - All factual statements about the euro's multi‑month lows and ECB rate hikes are directly supported by the cited Euronews article.
   Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the sources.
-  Groq Qwen: PASS - The post's claims about the euro hitting multi-month lows against the dollar and pound are directly supported by the sources, and the general explanation regarding import costs is accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-20affc10d39e
----
-🇺🇸 INFLATION GAUGE RISES FASTER
-
-📌 A key measure of wholesale prices came in higher than expected.
-💡 Higher inflation can keep borrowing costs high for longer.
-#Fed
-
-📍 US · 📰 CNBC · ✅ 3 sources
-https://news.google.com/rss/articles/CBMiggFBVV95cUxOb01IeGE0M04zdDFRdmFsVms0cWw5Nkx4RG9YTFdtSzNLNVc2TV9vUWZFdDhDQkNWcUJSWG5FT3NPWS1KRVpoZXp2cEhPcTdFYmFJSVVnRFBaa1plWmRJanR3YS1DYUhxNzRaSnhRcVZqYXRlc1dvTVBjM3l5RlRMNlZR0gGHAUFVX3lxTFBHU3JuM3lUd1N6Q29uclNoSTJQY09yUkpTZ0d6elZLX1dLWFNZYUlpclBTTm54cDBDZ3R2V0ZPTUtDcTZLUno4LUNjTF90S0NHZlJzbTRiY3lPVDJic1J1Zlh2NGMtb1V4azVBdmtSM2sxZHhCYmFRNnR3QkNwWjFRTDA0dVE4Yw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the CNBC source.
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: PASS - The post accurately reflects the source headlines indicating that the PPI (wholesale prices) was 'hot' (higher than expected) and that this implies the Fed's work is not done, supporting the general e
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All factual claims in the post, including the rise in wholesale prices (PPI) being higher than expected, the general impact on borrowing costs, and the source attribution to CNBC with three sources, a
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-557751de50d3
-done: 3 post(s) this run
-=== run 2026-10-15T15:31:47Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-15T14:59:49Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-15T14:05:23Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-15T13:12:45Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-15T12:24:39Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-15T11:56:55Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-15T11:25:06Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-15T10:58:57Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-15T10:24:51Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-15T09:58:44Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
