@@ -1,3 +1,7 @@
+=== run 2026-10-19T13:19:27Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-19T11:05:31Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1494,7 +1498,3 @@ daily cap reached, nothing to do this run
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
 89/171 sources returned news, 982 recent items
-220 new trusted stories, posting up to 2 this run
-skip (off-topic or nothing new): Gold, silver prices today, 16 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata
-skip (off-topic or nothing new): Stock recommendations for 16 October from MarketSmith India
----
