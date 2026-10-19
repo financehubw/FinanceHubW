@@ -1,3 +1,117 @@
+=== run 2026-10-19T03:08:36Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+87/171 sources returned news, 785 recent items
+170 new trusted stories, posting up to 3 this run
+---
+🌐 GOLD EDGES HIGHER AS US RATE-HIKE FEARS EASE
+
+📌 Gold prices held steady as traders lowered expectations for a US interest rate hike.
+💡 Gold pays no interest, so it often appeals more when interest rates stay low.
+
+📍 Global · 📰 Mint · ✅ 4 sources
+https://www.livemint.com/market/gold-steady-as-rate-hike-bets-ease-oil-pushes-yields-higher-11792367574043.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source says gold was steady, not edging higher, contradicting the post's claim.
+  -> blocked by fact-check
+---
+🇫🇷 EURO DROPS AS VIOLENT PROTESTS IN FRANCE HIT MARKETS
+
+📌 Unrest in France pushed the euro lower, while the US dollar saw a minor rise.
+💡 A weaker currency can make imported goods more expensive.
+#Euro
+
+📍 France · 📰 Economic Times · ✅ 8 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-firmer-euro-weakens-as-french-protests-turn-violent/articleshow/135037823.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about euro weakening, dollar rise, and the general impact of a weaker currency are directly supported by the cited Economic Times article.
+  Groq GPT-OSS 20B: FAIL - The claim that there are 8 sources is not supported by the provided list.
+  -> blocked by fact-check
+---
+🇮🇳 RUPEE AND BONDS IN FOCUS OVER OIL AND RATE HIKE BETS
+
+📌 Traders are watching oil prices, foreign money flows, and interest rate bets.
+
+📍 India · 📰 Reuters · ✅ 3 sources
+https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVZOMUNTX2d1WHkyZTJ5TVZBNFBVQjAySjAwOXFyS2tIQ0lZbFlPdmhqLU5GcEpQUFZ3N241Q245MzBtUlk2QUZDbHRjSE9HQ3R4NlctbjdWajRZNHg3dV80S2lPMUQ0N2l5NVdVdXJHaVZhVTAzY09QNkNOeDlFc0VEY1EzV2NhaEVZb01pdjh6b2ZWSGY2cFBQTS14TTRJS0J2MGhJZzBucFdqLUE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about traders watching oil, foreign flows, and rate‑hike bets are directly supported by the cited Reuters article
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Reuters article and the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the focus on oil, foreign flows, and rate-hike bets for the rupee and bonds are directly supported by the provided sources, and the location and source attribution are cor
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d6996ae75d49
+---
+🌐 GOLD RISES AS INVESTORS WEIGH FED RATE HIKE ODDS
+
+📌 Gold prices rose slightly as investors tracked U.S. Federal Reserve rate hike signals.
+💡 Higher interest rates usually make loans and mortgages costlier.
+#Gold
+
+📍 Global · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-as-investors-assess-fed-rate-hike-odds/articleshow/135037837.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The 📍 location "Global" is not supported by the Economic Times source, which is an Indian publication
+  -> blocked by fact-check
+---
+🌐 OIL DROPS ON RUSSIAN SUPPLY AS GOLD GAINS ON FED HOPES
+
+📌 Oil fell on Russian supply outlook, while gold rose on Fed rate expectations.
+💡 Lower oil prices can ease fuel costs.
+#Gold
+
+📍 Global · 📰 Moneycontrol.com · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi7gFBVV95cUxQV3pHaTYxMm1ZajM2bF94MVhBRFhTeVozeXJrVWtxWEVtMDRXUVNVS2xWbnhGVU1xaS1VVVZLUGR0eEp2OHJtdEpUYjRLMi1aV0tvRTlfWjNoT2kzUE9VU093XzRBOGd5NmpFbV9JWEFieHNnb1dNQzYyU3pLZm5abzJja0xnRl93UHZpZHR4SnVWeWhkcWxsYTVGV09jdDc0SVoxMER0R1JES2Y1eHNjbFdWMlB1ZFRrcEtoLVB2eU9WS2hBRHRORFNiaE1WQzlMTEJaTnN0NllUdktBSzh4TXRVQXFEZjktbUNwRDJ3?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited source.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 2 sources, but the listed sources include more than two, making that claim unsupported.
+  -> blocked by fact-check
+---
+🌐 BITCOIN HOLDS ABOVE $82,000
+
+📌 Bitcoin stayed above $82,000, while Ethereum dropped during cautious trading.
+📊 $BTC: Above $82,000
+
+📍 Global · 📰 BusinessToday Malaysia · ✅ 2 sources
+https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM0tEdnZyR1phMEE2eDV2dzNTYkZTNUo4QU50YlZmOFhXTS1EcmNlZ281Z1phSWtxb3poMmdkWkgzU2wzSmxsajBYcmRQU3pUTXJMNlF6eHRsOWR3U2J5S3NZTm5iWmZsT29hNkFqZnY5a0VYMHRQUDlEV2pkVDNtUXFwTlN1SlBxY05ES0NtSW9nTS03Wk5BQzVhaGNNVjhVMVEwdGhjWHBRc3dwOHJ6ckh2UFNsdFI4aE5B?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the BusinessToday Malaysia source
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the BusinessToday Malaysia source.
+  Groq Qwen: FAIL - The post claims '2 sources' but lists three source entries (one of which is a duplicate), and the specific claim that 'Ethereum dropped' is only supported by the BusinessToday headline, while the Plua
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS REBOUND AS NIFTY RISES 0.65%
+
+📌 The Nifty 50 rose 0.65% to close at 23,146, led by tech shares and bank earnings.
+📊 Nifty 50: 23,146 (+0.65%)
+
+📍 India · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-vedanta-hdfc-bank-icici-bank-axis-bank-hfcl-ireda-zen-tech-and-oil-india/articleshow/135037012.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All numeric and attribution claims are directly supported by the Economic Times article and listed sources
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the Nifty 50 closing price, percentage rise, and market drivers are directly supported by the Economic Times source, and the location and source attribution are correct.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims in the post are directly supported by the Economic Times source.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-9d448345ce0c
+---
+🇮🇳 INDIAN RUPEE HOLDS NEAR 95 PER DOLLAR
+
+📌 The rupee stayed near 95 per dollar as India's central bank stepped in to support it.
+📊 USD/INR: ~95
+💡 A weaker currency can make imports like crude oil more expensive.
+
+📍 India · 📰 Reuters · ✅ 3 sources
+https://news.google.com/rss/articles/CBMirwFBVV95cUxOa3NLUV9hTjZtMURDMENEaVZFZFBNWFNJVXNoakRPSjZTa1lGU1FQZHlVYU9HQVUyWGg0eDI3Y3lsRXFRZ2lhV0FSMFhPN3pwaHJ0SEVSOENrTUVtY1cxMjRZRWpxTVFwMDlJMURMRVN3dURIbVhQc3hiUTR3Nmh0QXJkUnRKNjJVSFkzTkFPYmRCT0JyZkpzaFF3LUJMZzlDbm5TMXRJUlZ1VUhSbXA4?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the rupee near 95, RBI intervention, and the general effect of a weaker currency are supported by the Reuters source.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the exchange rate, RBI intervention, and source attribution are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - (plain-text verdict)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-c4c564a1292c
+done: 3 post(s) this run
 === run 2026-10-19T01:13:59Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1384,117 +1498,3 @@ daily cap: 12, room left in the last 24h: 2
 178 new trusted stories, posting up to 0 this run
 done: 0 post(s) this run
 === run 2026-10-15T20:57:32Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-95/171 sources returned news, 888 recent items
-190 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-15T20:18:07Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-93/171 sources returned news, 926 recent items
-200 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-15T19:55:19Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-97/171 sources returned news, 965 recent items
-221 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-15T19:06:55Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-96/171 sources returned news, 1007 recent items
-246 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-15T18:21:32Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-98/171 sources returned news, 1049 recent items
-re-check of earlier post: 1 fail / 3 pass
-236 new trusted stories, posting up to 1 this run
----
-🇮🇳 SENSEX JUMPS 1,534 POINTS
-
-📌 Indian stock indexes went up because bank, tech, and Reliance shares rallied.
-📊 Sensex: +1,534 pts
-💡 Higher stock prices can boost retirement and investment account values.
-
-📍 India · 📰 TradingView · ✅ 2 sources
-https://news.google.com/rss/articles/CBMitwFBVV95cUxOcERXTDdYY1RLeEZNMU5UenlaVUU2VmRLNXJodUxzZ1FOSU9sdFQ3NTJ6ZUtLM1hKTDNSTFZmSmNSMExRTGdqeTV4ZnVfOUZxTWVmNGNfSVN3aXVidEQ5OXdZczQ2QzRQM3lKYVJOSkRBV0ZGWF9YSUdRWVdCMl9PbkhHd0pvU0QtYlpxa19UZTdhUURoRGhuOU5KMWt4QjE5bHhfNzMzblowYWVseHBsRy1ISFltcTg?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post lists only TradingView as the source but cites two sources, including MillenniumPost, causing a source mismatch
-  -> blocked by fact-check
----
-🇮🇳 INDIA MIGHT HIKE FUEL PRICES
-
-📌 India could raise fuel prices in November ahead of state elections.
-💡 Higher fuel costs can push up prices of daily goods.
-#Inflation
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/economy/india-may-hike-fuel-prices-in-november-pushing-inflation-above-rbi-target-oxford-economist-11792086552088.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about a possible November fuel price hike before elections are confirmed by the Mint article, and the general explanation is accurate.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint article.
-  Groq Qwen: PASS - All factual claims regarding the potential fuel price hike in November, the timing relative to state elections, and the source attribution are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-5e68d2970cc3
-done: 1 post(s) this run
-=== run 2026-10-15T17:56:36Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-101/171 sources returned news, 1038 recent items
-233 new trusted stories, posting up to 3 this run
----
-🇮🇳 SEBI REVISES CLOSING AUCTION AND DERIVATIVES RULES
-
-📌 New closing auction timings and derivatives settlement rules start in December 2026.
-#SEBI
-
-📍 India · 📰 SEBI · 🏛️ Official
-https://www.sebi.gov.in/legal/circulars/oct-2026/review-of-certain-aspects-of-the-closing-auction-session-market-timings-and-settlement-methodology-for-derivatives-contracts_105293.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about SEBI's revised closing auction timings and derivatives settlement rules starting December 2026 are directly supported by the cited SEBI circular and news sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the SEBI circular and related news sources.
-  Groq Qwen: PASS - All factual claims regarding the revision of closing auction and derivatives rules starting in December 2026 are directly supported by the provided sources, and the location and source attribution are
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-06f86e023f7e
-skip (off-topic or nothing new): What Akash Ambani said on Jio tariff hikes ahead of record IPO launch
-skip (off-topic or nothing new): Sebi writes to IRDAI to include investors' insurance policy details in consolidated account statement
----
-🇮🇳 INDIAN STOCKS SURGE
-
-📌 Sensex and Nifty jumped over 1.5% as money moved away from global tech markets.
-📊 Sensex: +1,534 pts
-📊 Nifty: +1.66%
-#Nifty
-
-📍 India · 📰 NewsBytes · ✅ 4 sources
-https://news.google.com/rss/articles/CBMingFBVV95cUxPUUVZWUltMUpWQ2Q0bWU4YjVrQlZubFBmR3c3d2xiN2hWblRVb09zTVA5YjlJRnF1VXVfWndmWmtsQ3RZX0xEYkNUbVR5SEZnMExQTVp6RmpEZll5OUpHcXBzY1VJODgzazBkVHpMNmoxLTYxR1lwN1JYSWFpVmpxcUdWZFYtay1teUFuLXV1ZlFwWHpyeFVWWTRmWG02UQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, percentages, and context are directly supported by the cited sources
-  Groq GPT-OSS 20B: FAIL - The post claims it has 4 sources, but the list contains 5.
-  -> blocked by fact-check
----
-🇺🇸 S&P 500 FACES HARDER ROAD TO 8,000
-
-📌 The S&P 500 index faces hurdles reaching 8,000 as bond yields rise and tech doubts grow.
-📊 S&P 500: 8,000 (target)
-
-📍 US · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/sp-500s-road-to-8000-grows-tougher-as-yields-rise-ai-doubts-mount-all-eyes-on-quarterly-earnings/articleshow/134972502.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about the S&P 500 facing hurdles to 8,000, rising bond yields, and tech doubts are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
-  Groq Qwen: PASS - All factual claims regarding the S&P 500 target, rising yields, and tech/AI doubts are directly supported by the source text, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-313ac1354244
----
-🌐 GOLD PRICES BOUNCE BACK
-
-📌 Gold prices went up after the US dollar and bond yields dropped.
-📊 Gold: US$4,149/oz (+1.1%)
-
-📍 Global · 📰 The Straits Times World News · ✅ 2 sources
-https://www.straitstimes.com/business/gold-rebounds-on-weaker-dollar-yield-drop
