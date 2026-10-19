@@ -1,0 +1,49 @@
+{
+ "id": "monthly_dis_1990",
+ "title": "$100 a month into Disney since 1990 is now worth this",
+ "thumb": "$100/month in Disney since 1990 = *{dca:DIS:1990-01-02}*",
+ "thumb_photo": "theme park castle",
+ "thumb_tag": "MONTHLY HABIT",
+ "caption": "$100 every month into Disney since 1990.\nToday that would be worth about {dca:DIS:1990-01-02} (price growth only, no dividends).",
+ "comment": "Could you put away $100 a month? 👇",
+ "tags": [
+  "#investing",
+  "#sip",
+  "#money",
+  "#stocks",
+  "#finance",
+  "#habits"
+ ],
+ "sources": [
+  "Disney price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One hundred dollars a month, into Disney, starting in 1990.",
+   "photo": "theme park castle",
+   "big": "$100",
+   "sub": "every month since 1990"
+  },
+  {
+   "say": "Back then, Disney was cartoons and theme parks.",
+   "photo": "theme park castle",
+   "clip": {
+    "kicker": "Burbank",
+    "year": "1990",
+    "text": "Disney: cartoons and theme parks"
+   }
+  },
+  {
+   "say": "Today, those monthly payments would be worth about {dca:DIS:1990-01-02}.",
+   "photo": "piggy bank coins",
+   "big": "{dca:DIS:1990-01-02}",
+   "sub": "$100 a month, every month"
+  },
+  {
+   "say": "Small, boring, every month. That's how wealth is built.",
+   "photo": "calendar",
+   "big": "Every month",
+   "sub": "the habit that compounds"
+  }
+ ]
+}

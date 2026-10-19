@@ -1,0 +1,66 @@
+{
+ "id": "vs_mcd_sbux_2010",
+ "title": "McDonald's vs Starbucks: $1,000 in 2010, who wins?",
+ "thumb": "McDonald's vs Starbucks: *who won?*",
+ "thumb_photo": "stock market",
+ "thumb_tag": "VS",
+ "caption": "$1,000 in McDonald's or Starbucks in 2010?\nStarbucks: about {growth:SBUX:2010-01-04}\nMcDonald's: about {growth:MCD:2010-01-04}\n(Price growth only, no dividends.)",
+ "comment": "Team McDonald's or team Starbucks? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#versus",
+  "#mcdonalds"
+ ],
+ "sources": [
+  "Yahoo Finance price history (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "McDonald's or Starbucks? One thousand dollars each, in 2010. Pick one before the reveal.",
+   "photo": "stock market",
+   "quiz": {
+    "q": "Which is worth more today?",
+    "a": "McDonald's",
+    "b": "Starbucks"
+   }
+  },
+  {
+   "say": "Here's how those two thousand dollars played out, year by year.",
+   "versus": {
+    "start": "2010-01-04",
+    "a": [
+     "MCD",
+     "McDonald's"
+    ],
+    "b": [
+     "SBUX",
+     "Starbucks"
+    ]
+   }
+  },
+  {
+   "say": "Starbucks wins, at about {growth:SBUX:2010-01-04}, against {growth:MCD:2010-01-04}.",
+   "versus": {
+    "start": "2010-01-04",
+    "a": [
+     "MCD",
+     "McDonald's"
+    ],
+    "b": [
+     "SBUX",
+     "Starbucks"
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Did you pick the winner?",
+   "photo": "trophy",
+   "big": "Your pick?",
+   "sub": "comment A or B"
+  }
+ ]
+}

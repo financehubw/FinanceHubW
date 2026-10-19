@@ -1,0 +1,66 @@
+{
+ "id": "vs_hd_low_2010",
+ "title": "Home Depot vs Lowe's: $1,000 in 2010, who wins?",
+ "thumb": "Home Depot vs Lowe's: *who won?*",
+ "thumb_photo": "stock market",
+ "thumb_tag": "VS",
+ "caption": "$1,000 in Home Depot or Lowe's in 2010?\nHome Depot: about {growth:HD:2010-01-04}\nLowe's: about {growth:LOW:2010-01-04}\n(Price growth only, no dividends.)",
+ "comment": "Team Home Depot or team Lowe's? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#versus",
+  "#homedepot"
+ ],
+ "sources": [
+  "Yahoo Finance price history (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "Home Depot or Lowe's? One thousand dollars each, in 2010. Pick one before the reveal.",
+   "photo": "stock market",
+   "quiz": {
+    "q": "Which is worth more today?",
+    "a": "Home Depot",
+    "b": "Lowe's"
+   }
+  },
+  {
+   "say": "Here's how those two thousand dollars played out, year by year.",
+   "versus": {
+    "start": "2010-01-04",
+    "a": [
+     "HD",
+     "Home Depot"
+    ],
+    "b": [
+     "LOW",
+     "Lowe's"
+    ]
+   }
+  },
+  {
+   "say": "Home Depot wins, at about {growth:HD:2010-01-04}, against {growth:LOW:2010-01-04}.",
+   "versus": {
+    "start": "2010-01-04",
+    "a": [
+     "HD",
+     "Home Depot"
+    ],
+    "b": [
+     "LOW",
+     "Lowe's"
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Did you pick the winner?",
+   "photo": "trophy",
+   "big": "Your pick?",
+   "sub": "comment A or B"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "vs_tsla_tm_2015",
+ "title": "Tesla vs Toyota: $1,000 in 2015, who wins?",
+ "thumb": "Tesla vs Toyota: *who won?*",
+ "thumb_photo": "electric car",
+ "thumb_tag": "VS",
+ "caption": "$1,000 in Tesla or Toyota in 2015?\nTesla: about {growth:TSLA:2015-01-02}\nToyota: about {growth:TM:2015-01-02}\n(Price growth only, no dividends.)",
+ "comment": "Team Tesla or team Toyota? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#versus",
+  "#tesla"
+ ],
+ "sources": [
+  "Yahoo Finance price history (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "Tesla or Toyota? One thousand dollars each, in 2015. Pick one before the reveal.",
+   "photo": "electric car",
+   "quiz": {
+    "q": "Which is worth more today?",
+    "a": "Tesla",
+    "b": "Toyota"
+   }
+  },
+  {
+   "say": "Here's how those two thousand dollars played out, year by year.",
+   "versus": {
+    "start": "2015-01-02",
+    "a": [
+     "TSLA",
+     "Tesla"
+    ],
+    "b": [
+     "TM",
+     "Toyota"
+    ]
+   }
+  },
+  {
+   "say": "Tesla wins, at about {growth:TSLA:2015-01-02}, against {growth:TM:2015-01-02}.",
+   "versus": {
+    "start": "2015-01-02",
+    "a": [
+     "TSLA",
+     "Tesla"
+    ],
+    "b": [
+     "TM",
+     "Toyota"
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Did you pick the winner?",
+   "photo": "trophy",
+   "big": "Your pick?",
+   "sub": "comment A or B"
+  }
+ ]
+}

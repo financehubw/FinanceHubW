@@ -1253,6 +1253,282 @@
    "sources": [
     "McDonald's price history, Yahoo Finance (split-adjusted), at render time"
    ]
+  },
+  {
+   "file": "monthly_amd_2016.mp4",
+   "title": "$100 a month into AMD since 2016 is now worth this",
+   "caption": "$100 every month into AMD since 2016.\nToday that would be worth about $317,296 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in AMD since 2016 = *$317,296*",
+   "thumb_photo": "computer processor",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "AMD price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_dis_1990.mp4",
+   "title": "$100 a month into Disney since 1990 is now worth this",
+   "caption": "$100 every month into Disney since 1990.\nToday that would be worth about $167,294 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Disney since 1990 = *$167,294*",
+   "thumb_photo": "theme park castle",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Disney price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_mcd_1990.mp4",
+   "title": "$100 a month into McDonald's since 1990 is now worth this",
+   "caption": "$100 every month into McDonald's since 1990.\nToday that would be worth about $326,114 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in McDonald's since 1990 = *$326,114*",
+   "thumb_photo": "burger fries",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "McDonald's price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_googl_meta_2013.mp4",
+   "title": "Google vs Meta: $1,000 in 2013, who wins?",
+   "caption": "$1,000 in Google or Meta in 2013?\nMeta: about $25,333\nGoogle: about $18,818\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#google"
+   ],
+   "comment": "Team Google or team Meta? 👇",
+   "thumb": "Google vs Meta: *who won?*",
+   "thumb_photo": "search engine laptop",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_hd_low_2010.mp4",
+   "title": "Home Depot vs Lowe's: $1,000 in 2010, who wins?",
+   "caption": "$1,000 in Home Depot or Lowe's in 2010?\nHome Depot: about $10,800\nLowe's: about $8,522\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#homedepot"
+   ],
+   "comment": "Team Home Depot or team Lowe's? 👇",
+   "thumb": "Home Depot vs Lowe's: *who won?*",
+   "thumb_photo": "stock market",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_mcd_sbux_2010.mp4",
+   "title": "McDonald's vs Starbucks: $1,000 in 2010, who wins?",
+   "caption": "$1,000 in McDonald's or Starbucks in 2010?\nStarbucks: about $8,462\nMcDonald's: about $3,870\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#mcdonalds"
+   ],
+   "comment": "Team McDonald's or team Starbucks? 👇",
+   "thumb": "McDonald's vs Starbucks: *who won?*",
+   "thumb_photo": "stock market",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_nflx_dis_2015.mp4",
+   "title": "Netflix vs Disney: $1,000 in 2015, who wins?",
+   "caption": "$1,000 in Netflix or Disney in 2015?\nNetflix: about $14,149\nDisney: about $1,180\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#netflix"
+   ],
+   "comment": "Team Netflix or team Disney? 👇",
+   "thumb": "Netflix vs Disney: *who won?*",
+   "thumb_photo": "stock market",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_nvda_amd_2016.mp4",
+   "title": "Nvidia vs AMD: $1,000 in 2016, who wins?",
+   "caption": "$1,000 in Nvidia or AMD in 2016?\nNvidia: about $264,603\nAMD: about $190,884\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#nvidia"
+   ],
+   "comment": "Team Nvidia or team AMD? 👇",
+   "thumb": "Nvidia vs AMD: *who won?*",
+   "thumb_photo": "computer chip",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_tsla_tm_2015.mp4",
+   "title": "Tesla vs Toyota: $1,000 in 2015, who wins?",
+   "caption": "$1,000 in Tesla or Toyota in 2015?\nTesla: about $24,262\nToyota: about $1,549\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#tesla"
+   ],
+   "comment": "Team Tesla or team Toyota? 👇",
+   "thumb": "Tesla vs Toyota: *who won?*",
+   "thumb_photo": "electric car",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_adbe_2000.mp4",
+   "title": "$1,000 in Adobe in 2000 is now worth this",
+   "caption": "In 2000, Adobe was making Photoshop.\n$1,000 in it then would be worth about $14,960 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Adobe in 2000? 👇",
+   "thumb": "$1,000 in Adobe 2000 = *$14,960*",
+   "thumb_photo": "graphic design",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Adobe price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_ko_1990.mp4",
+   "title": "$1,000 in Coca-Cola in 1990 is now worth this",
+   "caption": "In 1990, Coca-Cola was selling soda.\n$1,000 in it then would be worth about $19,262 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Coca-Cola in 1990? 👇",
+   "thumb": "$1,000 in Coca-Cola 1990 = *$19,262*",
+   "thumb_photo": "soda bottles",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Coca-Cola price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_nvda_2010.mp4",
+   "title": "$1,000 in Nvidia in 2010 is now worth this",
+   "caption": "In 2010, Nvidia was making gaming chips.\n$1,000 in it then would be worth about $463,234 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Nvidia in 2010? 👇",
+   "thumb": "$1,000 in Nvidia 2010 = *$463,234*",
+   "thumb_photo": "gaming pc",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Nvidia price history, Yahoo Finance (split-adjusted), at render time"
+   ]
   }
  ]
 }

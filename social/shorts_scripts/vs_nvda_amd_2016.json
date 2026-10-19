@@ -1,0 +1,66 @@
+{
+ "id": "vs_nvda_amd_2016",
+ "title": "Nvidia vs AMD: $1,000 in 2016, who wins?",
+ "thumb": "Nvidia vs AMD: *who won?*",
+ "thumb_photo": "computer chip",
+ "thumb_tag": "VS",
+ "caption": "$1,000 in Nvidia or AMD in 2016?\nNvidia: about {growth:NVDA:2016-01-04}\nAMD: about {growth:AMD:2016-01-04}\n(Price growth only, no dividends.)",
+ "comment": "Team Nvidia or team AMD? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#versus",
+  "#nvidia"
+ ],
+ "sources": [
+  "Yahoo Finance price history (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "Nvidia or AMD? One thousand dollars each, in 2016. Pick one before the reveal.",
+   "photo": "computer chip",
+   "quiz": {
+    "q": "Which is worth more today?",
+    "a": "Nvidia",
+    "b": "AMD"
+   }
+  },
+  {
+   "say": "Here's how those two thousand dollars played out, year by year.",
+   "versus": {
+    "start": "2016-01-04",
+    "a": [
+     "NVDA",
+     "Nvidia"
+    ],
+    "b": [
+     "AMD",
+     "AMD"
+    ]
+   }
+  },
+  {
+   "say": "Nvidia wins, at about {growth:NVDA:2016-01-04}, against {growth:AMD:2016-01-04}.",
+   "versus": {
+    "start": "2016-01-04",
+    "a": [
+     "NVDA",
+     "Nvidia"
+    ],
+    "b": [
+     "AMD",
+     "AMD"
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Did you pick the winner?",
+   "photo": "trophy",
+   "big": "Your pick?",
+   "sub": "comment A or B"
+  }
+ ]
+}
