@@ -148,6 +148,18 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "bitcoin_pizza.mp4",
+   "title": "The most expensive pizza ever bought",
+   "date": "2026-10-19T05:31:39Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/2oHoMvAixbE",
+    "Instagram": "18136081498635464",
+    "Facebook": "1123260186948687"
+   },
+   "failed": [],
+   "errors": {}
   }
  ]
 }
