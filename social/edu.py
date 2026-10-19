@@ -178,10 +178,14 @@ def main():
     log = xs.load(LOG, {"posted": []})
     done = {e["key"] for e in log["posted"]}
     today = dt.date.today().isoformat()
-    if any(e.get("date") == today for e in log["posted"]):
+    prev = next((e for e in log["posted"] if e.get("date") == today), None)
+    if prev and prev.get("ig"):
         print("edu: already posted today"); return
-    todo = [t for t in TOPICS if t[0] not in done] or TOPICS          # cycle again after all topics
-    key, title, photo_q = todo[0]
+    if prev:                                    # Instagram failed earlier today: retry the same topic, Instagram only
+        key, title, photo_q = next(t for t in TOPICS if t[0] == prev["key"])
+    else:
+        todo = [t for t in TOPICS if t[0] not in done] or TOPICS      # cycle again after all topics
+        key, title, photo_q = todo[0]
     c = write_content(title)
     folder = OUT / f"{key}-{int(time.time())}"
     folder.mkdir(parents=True, exist_ok=True)
@@ -211,12 +215,23 @@ def main():
         kids.append(k["id"])
     cc = requests.post(f"{xs.GRAPH}/{ig}/media", timeout=60, data={
         "media_type": "CAROUSEL", "children": ",".join(kids), "caption": cap, "access_token": tok}).json()
-    time.sleep(10)
+    if "id" not in cc:
+        raise SystemExit(f"edu: carousel not created: {cc}")
+    for _ in range(30):                       # wait until Instagram has processed every slide
+        st = requests.get(f"{xs.GRAPH}/{cc['id']}", timeout=30,
+                          params={"fields": "status_code", "access_token": tok}).json()
+        if st.get("status_code") in ("FINISHED", None):
+            break
+        if st.get("status_code") == "ERROR":
+            raise SystemExit(f"edu: Instagram error {st}")
+        time.sleep(5)
     r = requests.post(f"{xs.GRAPH}/{ig}/media_publish", timeout=60,
                       data={"creation_id": cc["id"], "access_token": tok}).json()
     print("edu Instagram:", r)
-    fb = None
+    fb = prev.get("fb") if prev else None
     try:   # same carousel on the Facebook Page as a multi-photo post
+        if fb:
+            raise RuntimeError("already on Facebook")
         from publish import page_token
         page, ptok = os.environ["FB_PAGE_ID"], page_token()
         ids = []
@@ -231,6 +246,8 @@ def main():
         print("edu Facebook:", fb)
     except Exception as e:  # noqa: BLE001
         print("edu Facebook skipped:", e)
+    if prev:
+        log["posted"].remove(prev)
     log["posted"].append({"key": key, "date": today, "ig": r.get("id"), "fb": fb, "t": time.time()})
     LOG.write_text(json.dumps(log, indent=1), encoding="utf-8")
 
