@@ -1,34 +1,18 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-87/171 sources returned news, 776 recent items
-  writer Gemini unavailable: KeyError: 'parts'
-  big: rejected: big_stat must be 1-7 characters (it is 0); big_stat_l1 must be 1-26 characters (it is 0); big_stat_l2 must be 1-28 characters (it is 0); big_stat must be a meaningful figure with a unit, like $100+, 5
-  big: rejected: these numbers are not in the source: 0
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: story #20 failed in 334s
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big #25 draft 3: Groq GPT-OSS: PASS - All claims about the arrest, location, number of addresses searched, cash amount, cold wallets, firearms, and ammunition are supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the arrest location, individual, and specific seized items are directly supported by the provided sources.
-  big: story #25 ok in 84s
-  pol: rejected: pol_stat must be 1-7 characters (it is 0); pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: these numbers are not in the source: 0
-  pol: rejected: pol_stat must be 1-7 characters (it is 0); pol_stat_l1 must be 1-26 characters (it is 0); pol_stat_l2 must be 1-30 characters (it is 0); pol_stat must be a meaningful figure with a unit, like $100+, 5
-  pol: story #9 failed in 79s
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol #26 draft 2: Groq GPT-OSS: PASS - All factual claims about higher bank deposit rates slowing USDT/USDC growth and the $1 target value are supported by the cited BIS paper articles. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources' claim that a BIS paper found higher bank deposit rates could slow the growth of USDT and USDC stablecoins.
-  pol: story #26 ok in 41s
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz #21 draft 3: Groq GPT-OSS: PASS - The slide's figures for founders ($3.3 bn) and CEO (nearly $1 bn) sold since the IPO are directly supported by the two cited articles. | Groq GPT-OSS 20B: PASS - All numerical and factual claims match the cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources, which state that CoreWeave founders sold $3.3 billion and the CEO sold nearly $1 billion in stock since the IPO.
-  biz: story #21 ok in 187s
-  up #28 draft 1: Groq GPT-OSS: PASS - All claims about the EU's T+1 settlement date and ESMA's call to firms are directly supported by the ESMA source. | Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source. | Groq Qwen: PASS - The slide accurately reflects the source text regarding the T+1 settlement date (11 October 2027), the identity of ESMA, and its call for firms to prepare.
-  up: story #28 ok in 12s
-  r1 #7 draft 1: Groq GPT-OSS: PASS - The slide's claim that UK crypto firms can now apply for FCA authorisation and be fully regulated is directly supported by the FCA source. | Groq GPT-OSS 20B: PASS - The slide’s claim that UK crypto firms can now apply for FCA authorisation and will be fully regulated is directly supported by the FCA source. | Groq Qwen: PASS - The slide accurately reflects the source's statement that crypto firms in the UK can now apply for FCA authorisation to be fully regulated.
-  r1: story #7 ok in 33s
-  r2 #23 draft 1: Groq GPT-OSS: PASS - The source confirms GCash's parent priced its Philippine IPO at a record $966 million, matching the slide's claim. | Groq GPT-OSS 20B: PASS - The source confirms GCash's parent priced its Philippine IPO at a record $966 million. | Groq Qwen: PASS - The slide accurately reflects the source headline regarding the company, event, and amount.
-  r2: story #23 ok in 138s
-  r3 #5 draft 1: Groq GPT-OSS: FAIL - One source says Bitcoin fell below $81,000 while the other says it held above $81,000, so the price claim is not consistently supported
-  r3: rejected: region text must be 1-100 characters
-  r3 #5 draft 3: Groq GPT-OSS: FAIL - Sources report $409.2 million in spot ETF outflows but do not specify that the outflows were limited to the Americas.
-  r3: story #5 ok in 185s
-Draft ready for review: magazine/daily/2026-10-16/edition.json (not published)
+109/171 sources returned news, 1394 recent items
+  big #16 draft 1: Groq GPT-OSS: PASS - All factual statements about Q3 2024 growth of 4.5%, export surge, tech demand offsetting weak domestic spending, and beating estimates are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and factual statements are corroborated by the cited sources. | Groq Qwen: PASS - All factual claims regarding the 4.5% growth rate, the role of exports and tech goods, and the offsetting of weak domestic spending are directly supported by the provided sources.
+  big: story #16 ok in 14s
+  pol #28 draft 1: Groq GPT-OSS: PASS - All factual statements about the price levels, the dip, and the US‑Russia presidential deal are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the price dip, the specific prices of Brent and WTI, and the cause (US-Russia deal raising supply hopes) are directly supported by the sources.
+  pol: story #28 ok in 23s
+  biz #29 draft 1: Groq GPT-OSS: PASS - All factual statements about the 5% share pledge, public benefit fund purpose, shareholder approval, and $48bn valuation are supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the 5% stake, $48bn valuation, May timing, shareholder approval requirement, and purpose of the fund are supported by the sources.
+  biz: story #29 ok in 33s
+  up #8 draft 1: Groq GPT-OSS: PASS - All claims about gold edging higher, lower oil prices, inflation concerns, and the Fed meeting are supported by the cited sources | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - The slide accurately reflects the headline and key details from the Emirates 24|7 source regarding gold rising due to lower oil prices and inflation concerns ahead of a Fed meeting.
+  up: story #8 ok in 10s
+  r1 #1 draft 1: Groq GPT-OSS: PASS - All numeric and factual statements are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the inflation rate, month, and gas price increase are directly supported by the provided sources.
+  r1: story #1 ok in 10s
+  r2 #27 draft 1: Groq GPT-OSS: PASS - The source confirms that crypto firms in the UK can now apply for FCA authorisation. | Groq GPT-OSS 20B: PASS - The slide’s claim that UK crypto firms can now apply for FCA authorisation is directly supported by the FCA source. | Groq Qwen: PASS - The slide accurately reflects the source text stating that crypto firms in the UK can now apply for authorisation from the FCA.
+  r2: story #27 ok in 13s
+  r3 #33 draft 1: Groq GPT-OSS: PASS - All claims about Indonesia's benchmark index falling to a six‑year low are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - The slide's claim that Indonesia's benchmark stock index fell to its lowest level in six years is directly supported by the source text.
+  r3: story #33 ok in 54s
+Draft ready for review: magazine/daily/2026-10-19/edition.json (not published)

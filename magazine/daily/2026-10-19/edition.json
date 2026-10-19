@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "THE AMERICAS",
+   "text": "Canada's annual inflation rate rose to 3.1% in September as gas prices rose 28%."
+  },
+  {
+   "name": "EUROPE",
+   "text": "Crypto firms in the UK can now apply for authorisation from the FCA."
+  },
+  {
+   "name": "ASIA",
+   "text": "Indonesia's benchmark stock index fell to its lowest level in six years."
+  }
+ ],
+ "story_ids": [
+  16,
+  28,
+  29,
+  8,
+  1,
+  27,
+  33
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 16,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 28,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 29,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 8,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 1,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 27,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 33,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "China's export boom",
+ "cover_dek": "Selling goods abroad helped boost growth despite weak spending at home.",
+ "big_headline": "China's economic growth quickened to 4.5% in the third quarter as exports surged.",
+ "big_body": "Foreign demand for tech goods offset sluggish spending at home. That helped growth beat estimates.",
+ "big_stat": "4.5%",
+ "big_stat_l1": "China's economic growth",
+ "big_stat_l2": "in the third quarter",
+ "pol_headline": "Oil prices slip",
+ "pol_body": "Oil prices dipped as a deal between the US and Russian presidents raised hopes of more diesel supply. West Texas Intermediate traded at $100.29 per barrel.",
+ "pol_stat": "$107.84",
+ "pol_stat_l1": "the price of Brent crude",
+ "pol_stat_l2": "oil per barrel",
+ "biz_headline": "Anthropic pledges 5% of shares",
+ "biz_body": "Anthropic plans to commit 5% of its shares to a public fund to address AI job impacts. Shareholders must still approve it.",
+ "biz_stats": [
+  {
+   "value": "5%",
+   "name": "Pledged stake",
+   "note": "to a benefit fund"
+  },
+  {
+   "value": "$48bn",
+   "name": "Pledge value",
+   "note": "in May valuation"
+  }
+ ],
+ "up_headline": "Gold rises as oil prices fall",
+ "up_body": "Gold edged higher as lower oil prices eased concerns over inflation, or general price increases, ahead of a Fed meeting.",
+ "cover_photo": "shanghai",
+ "big_photo": "factory",
+ "pol_photo": "whitehouse",
+ "biz_photo": "servers",
+ "up_photo": "fed",
+ "sources_used": [
+  "",
+  "BBC News",
+  "CTV News",
+  "Emirates 24|7",
+  "FCA",
+  "FXStreet",
+  "International: Top News And Analysis",
+  "Nikkei Asia"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−1.1%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) last closed at 7,659."
+   },
+   {
+    "chg": "+0.1%",
+    "color": "#0B6B3A",
+    "text": "<strong>Gold</strong> rose to about $4,184 an ounce."
+   },
+   {
+    "chg": "+0.6%",
+    "color": "#0B6B3A",
+    "text": "<strong>Bitcoin</strong> trades at about $82,545."
+   }
+  ]
+ },
+ "status": "published"
+}
