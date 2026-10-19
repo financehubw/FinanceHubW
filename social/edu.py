@@ -248,7 +248,7 @@ def main():
         print("edu Facebook skipped:", e)
     if prev:
         log["posted"].remove(prev)
-    log["posted"].append({"key": key, "date": today, "ig": r.get("id"), "fb": fb, "t": time.time()})
+    log["posted"].append({"key": key, "date": today, "ig": r.get("id"), "ig_error": None if r.get("id") else str(r)[:300], "fb": fb, "t": time.time()})
     LOG.write_text(json.dumps(log, indent=1), encoding="utf-8")
 
 
