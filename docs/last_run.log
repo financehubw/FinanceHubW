@@ -1,3 +1,43 @@
+=== run 2026-10-19T11:05:31Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+--- special
+🔔 Closing bell: what mattered today
+
+1️⃣ 🌐 GOLD EDGES HIGHER AS OIL PRICES SOFTEN
+2️⃣ 🇯🇵 JAPAN'S NIKKEI FALLS 2% AS TECH STOCKS SLUMP
+3️⃣ 🇮🇳 INDIAN RUPEE GAINS AS RBI STEPS IN
+
+Confirmed by multiple sources, explained for everyone. @FinanceHubW
+published to: website, Instagram Story
+103/171 sources returned news, 1194 recent items
+276 new trusted stories, posting up to 1 this run
+---
+🇮🇳 SENSEX SINKS NEARLY 900 POINTS, NIFTY DROPS BELOW 22,900
+
+📌 The Sensex fell nearly 900 points and the Nifty slipped below 22,900 as banks dragged.
+📊 Nifty: below 22,900
+
+📍 India · 📰 Cnbc Tv18 · ✅ 8 sources
+https://news.google.com/rss/articles/CBMiygFBVV95cUxPdnBvd191R0ZIaHJOZFhILUxxRC1kMTQ2ZWJmQkZCOVR2SXNQMVlTR0ZZNVl3aXBkRzBnZkRVZ3FMSUVOMWhoLXQwTVJfcFpRcnlMa2llVW8yV1ZtdHVCS0pmblRBc1hvTk84eHlFY0FRUkNaSUppSUhWVENWWlpJTVBDME11T0tqZThWWkYzRHgyaE0tZHYwOS1EWS1VVTVmQmVlaUdaWW1zRGUxTkprbmZucko5all3Mlo5bGFNaDhLRTdJeGhCanJB0gHPAUFVX3lxTE9hZzBFdkRVd1NEVXM3d1hNNXQzb2RUY25qdzRITVFfNS1WT2NHa3ZCWjMwdEVOZEhzTFZJeGU1a3IwSzVoVDY3Z1VoRzZocm9lLTBqcVlKa3gxQWFCYzJfdjZ6ZGZyQk9Rc3gwbHB3bTE5UWRaNnhjdzFFWkQ2bmlyTGlmcTZHTlVqOWVZSEZmT0VfZ0JVNlZ0b0NxelRiYURXQXZwLW9pYmFIVi1IMXZrUW9YaE1Semc4SXBLYnp0WEdUYUw5TTZNZTNBWkIzVQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six source entries are provided
+  -> blocked by fact-check
+---
+🇪🇺 EURO FALLS AMID FRENCH UNREST AND HIGH ENERGY COSTS
+
+📌 The euro dropped due to political unrest in France and high energy prices.
+📊 Sterling vs Euro: 17-month high
+
+📍 Europe · 📰 Economic Times · ✅ 6 sources
+https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-euro-falls-as-french-political-unrest-high-energy-prices-weigh-on-sentiment/articleshow/135044480.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (euro falling, cause, 17‑month sterling high) are directly supported by the cited sources
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources
+  Groq Qwen: PASS - All factual claims regarding the euro's decline, the causes (French unrest, energy prices), and the sterling's 17-month high are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-7ec88179866a
+done: 2 post(s) this run
 === run 2026-10-19T09:18:17Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1458,43 +1498,3 @@ daily cap: 12, room left in the last 24h: 2
 skip (off-topic or nothing new): Gold, silver prices today, 16 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata
 skip (off-topic or nothing new): Stock recommendations for 16 October from MarketSmith India
 ---
-🇮🇳 INDIAN STOCKS EYE HIGHER OPEN
-
-📌 Indian shares are set to open higher following lower bond yields and relief from SEBI.
-📊 GIFT Nifty: 23,082
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 5 sources
-https://www.thehindubusinessline.com/markets/shares-on-track-for-higher-open-on-lower-treasury-yields-sebi-relief/article71590983.ece
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post includes a predictive claim ('Indian shares are set to open higher') which is disallowed even though the source mentions it.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Bandhan AMC’s Suyash Choudhary on RBI rate hikes, bond yields, and debt strategy
-skip (off-topic or nothing new): BOE’s Bailey Sees Little Evidence of Second-Round Inflation
----
-🇮🇩 INDONESIA STOCKS PLUNGE 11%
-
-📌 Jakarta shares drop after a major index provider plans to remove the country.
-📊 Jakarta index: -11%
-#Indonesia
-
-📍 Indonesia · 📰 The Straits Times World News · ✅ 7 sources
-https://www.straitstimes.com/business/msci-weighs-downgrading-indonesia-to-standalone-market-status
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims (11% plunge, MSCI removal plan, Jakarta index drop) are directly supported by the cited Reuters and other sources
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
-  Groq Qwen: FAIL - The draft claims the index dropped 11%, but the provided sources report conflicting figures (8%, 10%, or 30% YTD), and the specific 11% figure is not supported by the text of the sources listed in the
-  -> blocked by fact-check
-skip (off-topic or nothing new): Platinum Price Today 16 October 2026 – Latest Platinum Rate per Gram & Kg
----
-🇮🇳 RUPEE TO RISE AS TRADERS CUT BETS
-
-📌 Traders are stopping bets that the Indian rupee will fall in value.
-💡 A stronger currency can make imported goods cheaper.
-#Rupee
-
-📍 India · 📰 Reuters · ✅ 4 sources
-https://news.google.com/rss/articles/CBMivAFBVV95cUxQMW81dXg4bzRwcUlpOVlIbTdkRTFJa0dLNENNWFczbmRVOHdwbkd6WTdPNkhCeUNZZVFwTzBic3c2Sk9lWS1JM09YdkRZVDNMT3pYNVFmQWdnRHNETTllakhXd1hzV1pwaDBKREtjLXZva045UnhrNVZTTHY5dzNubVM3NEdoSDEwLWw1XzI2NTh2dkR2c0JNT3M5eUNvTjIzNmZqOENXZXRHUFJsT3BNaFc0NjltMjNnRS0zXw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about traders cutting bearish bets, expected rupee rise, and the general effect of a stronger currency are supported by the Reuters source
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the rupee rising due to traders cutting bearish bets, and the general explanation of currency strength is correct.
