@@ -1,3 +1,76 @@
+=== run 2026-10-19T07:29:49Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+96/171 sources returned news, 1215 recent items
+re-check of earlier post: 2 fail / 2 pass
+239 new trusted stories, posting up to 2 this run
+---
+🌐 OIL FALLS ON TRUMP RUSSIAN SANCTIONS WAIVER
+
+📌 Oil prices dropped after Trump waived Russian sanctions, while Asian stocks were mixed.
+💡 Lower crude prices can lead to cheaper fuel for everyday drivers.
+#Oil
+
+📍 Global · 📰 KVUE · ✅ 7 sources
+https://news.google.com/rss/articles/CBMioAJBVV95cUxNSjJleGNwT1FLRkltS3dKYThTcXVqUEY3b2hyQnRzRE4xcE52dUZtQ25DWS1fQVFqV1FMUndHRDFxRERPcWZFODc2TnhVVWFQYzZsLW5wc2RfeThPZk5YbjdsUjNtOWFibEl5eUllZGZFMVpYRGhqVFRFZ2t3NE9jemUtaUlOUVVDRkVCMjl4RzREODU4UGcwTV80SHMtYU5lcTRLTDVHVDU4ME9aQTJTdWZ6WmlfTFB5c2IyU2pVQk1TYWR6YTJmUDhMeF96RmMtRjBidTliMDIyTjBERVdHaFVla2FyeFJ0cUNtZG5hRFlNRkdVdFNjZGV5bTNLYXBaVE5ZR19iLXhhMmJIalFwdDJpUkVReUpscDZSV2xtNk0?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited source.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 7 sources, but only six are listed, so that factual claim is unsupported.
+  -> blocked by fact-check
+---
+🇯🇵 JAPAN'S NIKKEI FALLS 2% AS TECH STOCKS SLUMP
+
+📌 Japan's Nikkei index dropped 2% led by a slide in technology shares.
+📊 Nikkei 225: -2%
+
+📍 Japan · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-falls-2-as-tech-selloff-rising-oil-prices-fuel-inflation-fears/articleshow/135040186.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the 2% Nikkei drop, tech-led slump, location, and source are supported by the cited articles
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the Nikkei's 2% drop, the cause (tech selloff), location, and source attribution are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - (plain-text verdict)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-03fda35ce9a2
+---
+🇮🇳 US VERY CLOSE TO TRADE DEAL WITH INDIA, SAYS RUBIO
+
+📌 The US is very close to finalising a trade deal with India, says Marco Rubio.
+
+📍 India · 📰 Economic Times · ✅ 8 sources
+https://economictimes.indiatimes.com/news/economy/foreign-trade/us-very-close-to-finalising-trade-deal-with-india-says-marco-rubio/articleshow/135040499.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but the provided evidence does not verify that number of sources.
+  -> blocked by fact-check
+---
+🌐 OIL PRICES SLIP AS US EASES SANCTIONS ON RUSSIA
+
+📌 Oil fell from 5-month highs after the US waived sanctions on Russian energy buyers.
+📊 Brent crude: $107.84/barrel
+
+📍 Global · 📰 Yahoo Finance · ✅ 9 sources
+https://news.google.com/rss/articles/CBMikwFBVV95cUxQYTNFNmRXMmo4Zi1Md1o4NFJzb3d6X1JpcUgtVEo4N3F2QW9Nd25UTkhKYzljbExueGZ5Qkp2aWtUVUV1bGF4dWR5MGZDZHdWN3pyd250SnFtLUpjbHdBSXIyVGNlMFE2TzFlOVlWMkxiMnE2eHJ2eC1HbjV5cjRLdV9tQmcyMHVTVjJaY1ZkTXBNRWM?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (price, trend, sanction waiver, source) are directly supported by the cited sources
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: FAIL - The source states the US waived sanctions on Russian energy buyers, but the draft claims the US eased sanctions on Russia, which is an inaccurate attribution of the entity affected.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN BANK STOCKS FALL AS NIFTY BANK DROPS 1%
+
+📌 Private bank shares slid, with Axis and HDFC Bank falling up to 5% on Monday.
+📊 Nifty Bank: -1%
+
+📍 India · 📰 Mint · ✅ 4 sources
+https://www.livemint.com/market/stock-market-news/why-are-banking-stocks-falling-nifty-bank-down-1-axis-hdfc-bank-shares-crash-up-to-5-what-should-investors-do-11792385860971.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the 1% Nifty Bank drop and Axis/HDFC falling up to 5% are directly supported by the Mint article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
+  Groq Qwen: PASS - All factual claims regarding the stock movements, specific banks, index performance, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-446b97a69b96
+done: 2 post(s) this run
 === run 2026-10-19T05:10:22Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1425,76 +1498,3 @@ daily cap reached, nothing to do this run
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
 daily cap reached, nothing to do this run
-=== run 2026-10-16T01:57:35Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
---- special
-🌐 GLOBAL MARKETS OVERNIGHT
-
-🟢 S&P 500: 7,744 (+0.33%)
-🟢 Nasdaq: 26,713 (+0.08%)
-🟢 Dow: 52,178 (+1.08%)
-🟢 FTSE 100: 10,840 (+1.08%)
-🟢 Nikkei: 65,390 (+1.50%)
-🔴 Brent oil: $105.78 (-0.26%)
-
-🟢 up · 🔴 down · vs previous close
-#Markets #StockMarket
-published to: website, Instagram Story
-94/171 sources returned news, 825 recent items
-re-check of earlier post: 1 fail / 3 pass
-151 new trusted stories, posting up to 0 this run
-done: 1 post(s) this run
-=== run 2026-10-16T01:05:15Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-93/171 sources returned news, 802 recent items
-139 new trusted stories, posting up to 1 this run
----
-🇺🇸 OIL HITS ONE-MONTH HIGH
-
-📌 U.S. crude oil prices jumped to a one-month high due to lower supplies.
-📊 U.S. crude: One-month high
-#Oil
-
-📍 US · 📰 富途牛牛 · ✅ 4 sources
-https://news.google.com/rss/articles/CBMirAFBVV95cUxQa0h3VWtYblVucFdvSTR6bFhuY0dPTjI4MlpNaDB4RUI3V2dkVXVHVG03YkJPVEV0S0QxTEo4ajU4b2hZQWpLSWdMNXdnVko4c01NTGt2OFJxUGdJTE55VHd1VU1qTGxyTUlxZHdkNDc0VWdqWWRHN0tOUkNBLXNlZVhlRDQtUzhtYm5YZDZNUmFZZl9jRjFSTFZuUWllRlVVa1JLdVdyaXZDYlZD?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: FAIL - The claim that prices jumped 'due to lower supplies' is unsupported and contradicted by sources which attribute the jump to a 'big inventory draw' (which implies higher supplies) and 'potential shadow
-  -> blocked by fact-check
----
-🇮🇳 RUPEE SEEN HEADED TO 100 PER DOLLAR
-
-📌 Analysts forecast India's currency will weaken toward 100 per dollar.
-📊 Rupee: 95 per dollar
-
-📍 India · 📰 International: Top News And Analysis · ✅ 2 sources
-https://www.cnbc.com/2026/10/16/india-rupee-rbi-dollar-iran-war.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the rupee level and analyst forecast are directly supported by the cited sources
-  Groq GPT-OSS 20B: FAIL - Source name does not match the actual CNBC article cited.
-  -> blocked by fact-check
----
-🌐 MSCI RULES PUT CRYPTO FIRMS AT RISK
-
-📌 New index rules may kick out firms holding big crypto reserves like Strategy.
-💡 Index changes can shift where large institutional investment funds flow.
-#Crypto
-
-📍 Global · 📰 The Block · ✅ 3 sources
-https://www.theblock.co/news/business/2026-10-15-msci-rules-could-exclude-strategy-mstr-from-indexes-418729
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding MSCI's new rules, the specific companies at risk (Strategy, Metaplanet, SharpLink/Upexi), and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-3cf8bb27aa79
-done: 1 post(s) this run
-=== run 2026-10-16T00:14:00Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-93/171 sources returned news, 798 recent items
-143 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
