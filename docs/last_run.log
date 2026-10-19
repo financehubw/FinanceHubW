@@ -1,3 +1,40 @@
+=== run 2026-10-19T05:10:22Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+88/171 sources returned news, 914 recent items
+re-check of earlier post: 4 fail / 0 pass
+191 new trusted stories, posting up to 2 this run
+---
+🌐 GOLD EDGES HIGHER AS OIL PRICES SOFTEN
+
+📌 Spot gold rose 0.3% to $4,175.60 per ounce as oil prices eased.
+📊 Spot gold: $4,175.60 (+0.3%)
+💡 Gold is often viewed as a safe store of value during uncertain times.
+
+📍 Global · 📰 Reuters · ✅ 7 sources
+https://news.google.com/rss/articles/CBMioAFBVV95cUxOcHBoaXFtRmhELVpxR3BOYzNDX3IzS1Y1UHZaZUlWRnBiY0Y3WWxwa19vSlVRUENyTGtpZVJFSEFSLW9hVWhEaktYRTVhVWpObTFOYThBVXNRX19VY0phaUJjSkdSMjFZQ19FUFZGMm44UnNpZkZGSnNCeUc2SFZ4c1ZZUU9lV2tiUk1odm44Wmc2WGVjSG5pYUU3QnE2NGYx?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about spot gold price, percentage change, and softer oil are supported by the Reuters source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Reuters source.
+  Groq Qwen: PASS - All factual claims regarding the price, percentage change, and market drivers are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6438ce99ba31
+---
+🇮🇳 INDIAN RUPEE GAINS AS RBI STEPS IN
+
+📌 The rupee gained against the US dollar as India's central bank stepped in to support it.
+💡 A stronger currency can help make imported goods like oil cheaper.
+#Rupee
+
+📍 India · 📰 Moneycontrol.com · ✅ 5 sources
+https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTUVtdzFEcmxENW9qa2R2WDN6NjVuOGVRbWhObW9VU0NMemFGRDIxTTJPanpEQjZvd19rY3VFdUpyZ2xISXF1Tkk0U2NvQ3EtZnlrcjFxeU9PVlFDRXNYOUp6c3poelNNNGVEQzdoWU9iZU8ybXMtdzZpdHZTbU96TzNwbE5IdUtWWndOYzZmQ3VjOEFicWhCVG10Ym45c3FMcWRTTldudGxEMTc4NUo5eXNRMmo2X2oyU3g3MmVQLVRQTXRvaU83Xy13ZGxjaUJ1OXpKbGRZNk9NT1h4STZVdHl2YTU0QdIB5gFBVV95cUxPTUVtdzFEcmxENW9qa2R2WDN6NjVuOGVRbWhObW9VU0NMemFGRDIxTTJPanpEQjZvd19rY3VFdUpyZ2xISXF1Tkk0U2NvQ3EtZnlrcjFxeU9PVlFDRXNYOUp6c3poelNNNGVEQzdoWU9iZU8ybXMtdzZpdHZTbU96TzNwbE5IdUtWWndOYzZmQ3VjOEFicWhCVG10Ym45c3FMcWRTTldudGxEMTc4NUo5eXNRMmo2X2oyU3g3MmVQLVRQTXRvaU83Xy13ZGxjaUJ1OXpKbGRZNk9NT1h4STZVdHl2YTU0QQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about rupee gaining and RBI intervention are supported, and the general explanation about stronger currency lowering import costs is correct.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
+  Groq Qwen: PASS - The post's claims that the rupee gained against the dollar due to RBI intervention are directly supported by the source headlines, and the general explanation regarding import costs is accurate.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-082c1ee4903d
+done: 2 post(s) this run
 === run 2026-10-19T03:08:36Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1461,40 +1498,3 @@ daily cap: 12, room left in the last 24h: 2
 93/171 sources returned news, 798 recent items
 143 new trusted stories, posting up to 0 this run
 done: 0 post(s) this run
-=== run 2026-10-15T23:48:43Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-89/171 sources returned news, 739 recent items
-144 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-15T23:13:00Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-87/171 sources returned news, 761 recent items
-148 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-15T22:52:12Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-88/171 sources returned news, 753 recent items
-148 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-15T22:17:58Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-91/171 sources returned news, 823 recent items
-168 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-15T21:55:57Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-92/171 sources returned news, 853 recent items
-173 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-15T21:22:38Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-94/171 sources returned news, 870 recent items
-178 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-15T20:57:32Z
