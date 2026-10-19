@@ -1,3 +1,118 @@
+=== run 2026-10-19T17:06:00Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+103/171 sources returned news, 1051 recent items
+249 new trusted stories, posting up to 2 this run
+skip (off-topic or nothing new): SpaceX Analysis: Is SPCX Headed Higher? - SpaceX (NASDAQ:SPCX)
+---
+🇺🇸 S&P 500 RISES 0.75%
+
+📌 The stock index climbed to 7,721 at midday.
+📊 S&P 500: 7,721 (+0.75%)
+#StockMarket
+
+📍 US · 📰 24/7 Wall St. · ✅ 2 sources
+https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTlJzekRmWXItRnNhTkN0b3FkSTFJRU9YRkhYTzZJRlJaUnVmTl8zY1hQbHVSZUQ3cGE4YXF4MzVjbjJ3clZhUjlLd0pSaGhNSGdQSzQ3Smg4am5uYzJIQ3FhSG1pZVVFUmJRZ0tvUFozekttMFRaTXRLM2doSk9GUTVXaHRSdHFvSnpzQ2EtMU5zOXdXZXU2amo1Nk8xd0hEV1FoMTAwR2cxbnp2VG1WbEtPOUwzUHRUS096UzhqZUtyVDVVcC1veg?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (rise 0.75%, level 7,721, US location, 24/7 Wall St. source) are directly supported by the cited article.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 2 sources, but the list contains many more, so the source count claim is unsupported.
+  -> blocked by fact-check
+---
+🇨🇦 CANADA INFLATION RISES TO 3.1%
+
+📌 Canada's annual price rise hit 3.1% in September, pushed up by higher fuel costs.
+📊 Inflation: 3.1%
+
+📍 Canada · 📰 Oilprice.com · ✅ 3 sources
+https://oilprice.com/Latest-Energy-News/World-News/Canadas-Inflation-Rises-to-31-as-Fuel-Oil-Prices-Jump-58.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements (3.1% inflation, September, fuel cost driver, Canada location, Oilprice.com source) are directly supported by the cited article.
+  Groq GPT-OSS 20B: FAIL - The claim of "✅ 3 sources" is not supported by the provided sources.
+  -> blocked by fact-check
+---
+🇺🇸 NASDAQ RISES OVER 1%
+
+📌 US stocks climbed as tech shares linked to artificial intelligence recovered.
+📊 Nasdaq: +1%
+💡 Higher stock prices generally boost retirement accounts and investments.
+#Tech
+
+📍 US · 📰 Economic Times · ✅ 5 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-ai-stocks-rebound-ahead-of-major-earnings/articleshow/135050156.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post states Nasdaq +1%, but the source only reports the Nasdaq rose over 1%, not exactly 1%
+  -> blocked by fact-check
+---
+🇨🇦 CANADA INFLATION HEATS UP
+
+📌 Canada's inflation rose, raising fears of higher interest rates (the cost of borrowing money).
+💡 Higher rates usually make loans costlier
+#Inflation
+
+📍 Canada · 📰 Investing.com UK · ✅ 3 sources
+https://news.google.com/rss/articles/CBMivgFBVV95cUxQcnRhVVVrM0poVFRjaHdXSkFrRjBHZU9scjRpbVEzWU5yWDNickhYWUxjMUVUSkNrU0ZMZDJYZ2xBclVNQ09XNUVoQ01GdktlN3NmTkIzQVFDWEx0Tm92eDVKbzNQeVBIQjZoYzNOcnFjNWxGN1R5Q05SQUpDZnpaUFJTSnBTVExyT0Q1ekpTZ1RqMHRoWGd2c1cyUmRWc1BwLS12cWpMN2hEbHhnOXUweS1aWkY1ZjlBalZ4X0xn?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - The article confirms rising Canadian inflation and concerns about higher rates, and the general explanation about rates is correct.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Investing.com UK article and the general explanation is accurate.
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding hotter inflation in Canada reviving rate concerns, and the general explanation of interest rates is correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-412ee7911d3a
+skip (off-topic or nothing new): BOC Surveys Show Higher Inflation Expectations, Passthrough
+---
+🇺🇸 HYPERLIQUID URGES SEC TO CLARIFY CRYPTO RULES
+
+📌 A crypto policy group asked regulators to clear up rules for free token gifts and buybacks.
+#Crypto
+
+📍 US · 📰 Crypto Briefing · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oOER0enZfNjFUMlk3TGZYU2FISFZDMUlQeE90dFliNjdLTzQ1Q1hna2p0MUVMS2tGa2JmblpFdldxNGxrcVFNUHZSZkVYcG0zckdBT2duUnRMbTM5SXF1TFlBZkU1RFZQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about Hyperliquid urging the SEC, the focus on airdrops and buybacks, and US location are directly supported by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The claim that the post cites 3 sources is incorrect; the article lists more than three sources.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Dynex Capital, Inc. Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026
+---
+🇺🇸 MUSK PROMISES SPACEX SHARE TO EVERY US CHILD
+
+📌 Elon Musk says he will give one SpaceX share to every child in America next year.
+📊 Total value: $10.7bn
+#SpaceX
+
+📍 US · 📰 Business · ✅ 8 sources
+https://www.euronews.com/2026/10/19/musk-pledges-spacex-shares-to-every-us-child-in-potential-107bn-giveaway
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims are directly supported by the cited Euronews and other sources.
+  Groq GPT-OSS 20B: FAIL - The claim that there are 8 sources is unsupported; only six sources are listed.
+  -> blocked by fact-check
+---
+🇮🇳 SENSEX FALLS 876 POINTS
+
+📌 The Indian stock market dropped sharply as bank and IT shares were sold off.
+📊 Sensex: -876 pts
+💡 Lower stock prices can reduce the value of retirement and investment funds.
+
+📍 India · 📰 News Mobile · ✅ 2 sources
+https://news.google.com/rss/articles/CBMisAFBVV95cUxOUzl5Q3hnY0Z3d0VFMkpMejhUWmJCeFVxUFZWQmszSExWX2toVkZFMS1qcE13VWhIaG9wc19Ob0N1cWxZQUxETm4yY1VZV1VWemlyVXdzUmtsVjZUQnlCNDBSbjQ2ZklialRUQkZ5LXhsMWktaUdzeV9TM2RnZlZyaEUxR05ueHFqbXZHbkFKWnNCNmo0c3hkbnRiYWNQVk9icnQ3WGhVbDk1YXBvYnlIUA?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (‑876 points, bank and IT sell‑off, location, source) are directly supported by the cited articles.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 2 sources, but three sources are listed.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Gold Rate Today In Ghaziabad, Check Live 22 And 24 Carat Gold Price
+---
+🇮🇳 SENSEX AND NIFTY OPEN FLAT
+
+📌 Indian stock markets opened with little change following mixed global signals.
+#Nifty
+
+📍 India · 📰 Social News XYZ · ✅ 2 sources
+https://news.google.com/rss/articles/CBMijwFBVV95cUxQN2c4Qk44MWk5U19sdEt5SUdsdEZ4cFFNN3lIUFVXLTlSZTJIb3VwV1VwT2I4dVBFQm51Nnc0NEJab21zQ1VmV0xqc3paMmtoWHVzRlRmT2pMT3VJUHFOdndjTzdxMEJBSXhfZ0FnUWhpaUJvUWhmazlFUGs5bnM0SzV6QnJZNllqcy1kbVlpUdIBjwFBVV95cUxQN2c4Qk44MWk5U19sdEt5SUdsdEZ4cFFNN3lIUFVXLTlSZTJIb3VwV1VwT2I4dVBFQm51Nnc0NEJab21zQ1VmV0xqc3paMmtoWHVzRlRmT2pMT3VJUHFOdndjTzdxMEJBSXhfZ0FnUWhpaUJvUWhmazlFUGs5bnM0SzV6QnJZNllqcy1kbVlpUQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the flat opening of Sensex and Nifty amid mixed global cues, with matching location and source attribution.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-61642ac57410
+done: 2 post(s) this run
 === run 2026-10-19T15:12:17Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1383,118 +1498,3 @@ https://cryptonews.com/news/polymarket-bitcoin-rate-hike-odds-vs-cme/
 🇯🇵 JAPAN CENTRAL BANK SAYS NO MORE INFLATION
 
 📌 The head of Japan's central bank said higher inflation is unacceptable.
-💡 Higher interest rates (the cost of borrowing money) will likely continue.
-#Japan
-
-📍 Japan · 📰 Nikkei Asia · ✅ 2 sources
-https://asia.nikkei.com/economy/bank-of-japan/boj-s-ueda-says-inflation-can-t-be-allowed-to-rise-further
-  written by Gemini
-  Groq GPT-OSS: FAIL - The 💡 line predicts continued higher rates, which is a specific outcome not allowed.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Nasdaq and S&P Index: AI Selling Deepens as Dow Holds Up on Rotation
----
-🇮🇳 SENSEX GAINS 414 POINTS
-
-📌 Indian stock markets rose, led by technology company shares.
-📊 Sensex: +414 pts
-📊 Nifty: Above 23,100
-#Nifty
-
-📍 India · 📰 INDIA New England News · ✅ 2 sources
-https://news.google.com/rss/articles/CBMirAFBVV95cUxNWm9iaHFnTHJfRGhBQVZpdU5ycGRGb0tOb1ZiRUR2dEJIR0tUYU9MTmpaRHBhZnB4MTMtQkVLNGZLWEhfMjBHcUJwaDB0bTAxemlOcGFIWDM0TlNKeG5acjVvVGtUVk1HSzVDdFNUQmNWeDJfMlhNR0F3Nk1MVm9GeGFNOWxMWUZMWWw2ZWpIcTVORzd3NDR5Z0J0OWhxMFpqTVVfQmctcFF6MDBT?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and descriptive claims are directly confirmed by the cited source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
-  Groq Qwen: PASS - All factual claims regarding the Sensex gain, Nifty level, and IT stock leadership are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-86302466e899
----
-🇺🇸 GAS PRICES SURGE 9.1%
-
-📌 Gas prices jumped 9.1% in one month, pushing annual inflation up to 3.7%.
-📊 Inflation: 3.7%
-📊 Gas: +9.1%
-💡 Higher rates usually make loans costlier.
-#Fed
-
-📍 US · 📰 Yahoo Finance · ✅ 2 sources
-https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2V4eGVSSmYzR2k2T3NydjVsSTRGREVESWdCMnM3dFFkbXBzN3dXZXFfRWJoaXhwd1FrX00xSVNEaVFObVlpOTFablRqcnA2Z1YtSzgtbUpPY3ZQQXhzZ3hqUmV2cm12am1oQmtrYVlMam5qdFVvUDY3Zlk1bThuWW9oQ08xMlNTdmRYUFNR?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and factual statements are directly confirmed by the Yahoo Finance and MoneyWise sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding gas price increase (9.1%), inflation rate (3.7%), and location (US) are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f4ff2f14308d
-done: 3 post(s) this run
-=== run 2026-10-16T15:57:53Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T15:23:32Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T14:58:32Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T14:02:33Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T13:11:08Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T12:22:49Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T11:56:23Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T11:22:39Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T10:57:40Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T10:02:21Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T09:29:35Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T09:00:21Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T08:00:57Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T07:11:52Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T06:20:47Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T05:55:38Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T05:24:40Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T04:58:49Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
