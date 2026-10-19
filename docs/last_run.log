@@ -1,3 +1,7 @@
+=== run 2026-10-19T21:01:09Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-19T19:12:04Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://cointelegraph.com/news/deutsche-bank-crypto-custody-expansion-asia-2027?
 📍 US · 📰 News · ✅ 2 sources
 https://cryptonews.com/news/polymarket-bitcoin-rate-hike-odds-vs-cme/
   written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about Bitcoin dropping below $82,000 and the link to interest‑rate expectations are confirmed by the Cryptonews article, and the general interest‑rate explanation is correct.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: FAIL - The post claims traders looked at interest rate chances generally, but the source specifies they weighed 'December risk' while the odds discussed were for an 'October Fed hike', creating a discrepancy
-  -> blocked by fact-check
