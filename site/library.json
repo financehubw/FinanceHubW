@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "type": "daily",
+   "date": "2026-10-19",
+   "label": "Mon 19 Oct 2026",
+   "title": "China's export boom",
+   "summary": "Selling goods abroad helped boost growth despite weak spending at home.",
+   "base": "media/daily/2026-10-19/",
+   "first": 1,
+   "slides": 7
+  },
+  {
    "type": "briefing",
    "date": "2026-10-18",
    "label": "Sun 18 Oct 2026",
