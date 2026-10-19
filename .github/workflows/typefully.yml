@@ -1,0 +1,37 @@
+name: X via Typefully
+
+# Every 3rd day 7:43 AM IST: the top story goes to X (Typefully free plan: 10 posts a month).
+on:
+  schedule:
+    - cron: "13 2 1,4,7,10,13,16,19,22,25,28 * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview only"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - run: python social/typefully_post.py
+        env:
+          TYPEFULLY_API_KEY: ${{ secrets.TYPEFULLY_API_KEY }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+      - run: |
+          git config user.name "FinanceHubW"
+          git config user.email "bot@financehubw.invalid"
+          git add social/typefully_posted.json 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Record X post"
+          python3 social/git_save.py
