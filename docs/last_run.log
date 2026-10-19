@@ -1,3 +1,46 @@
+=== run 2026-10-19T09:18:17Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+102/171 sources returned news, 1229 recent items
+238 new trusted stories, posting up to 1 this run
+---
+🌐 GOLD RISES WITH FUTURES TOPPING $4,200
+
+📌 Gold futures topped $4,200 an ounce as bets on US interest rate hikes eased.
+📊 Spot gold: $4,184.55 (+0.5%)
+
+📍 Global · 📰 Moneyweb · ✅ 4 sources
+https://www.moneyweb.co.za/mineweb/gold-edges-higher-as-traders-ease-rate-hike-bets-on-warsh-speech/
+  written by Gemini
+  Groq GPT-OSS: FAIL - The 📍 tag says “Global” but the source Moneyweb is a South African outlet, so the place does not match the source.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCK MARKETS DROP SHARPLY TODAY
+
+📌 Indian stock markets fell today, with $NIFTY dropping below 23,000.
+💡 A market fall usually reduces the value of stock investments.
+#Nifty
+
+📍 India · 📰 NDTV Profit · ✅ 8 sources
+https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTFM5R1hmT2Z2RkotRklzTXVoTHRCTmFmSEQwS1U4dlA2SzQ5YXZrQmhTN2ZQVU0wUGU4THJDd0lKNmpRdU5na09uclloQXhEQ3pNbmotYXcxZXNPSlJQLU1qeFlnb3NPMWVlUHI2Z2NaSHBCaXhIc3RvWndQTU9veFVwSWVCa2RYVTlod0U0YllMcHE5bU1RdXoxQ01mcHpuY1N5Z1k4OXlUUF8tNzl2N2dhV25VZ0dva2lKOUJ4a1BxMjN5TGRSUGxkMFhIemhsaVE2R9IB3AFBVV95cUxOY0pnQy1RZEE3LWwzMmVzVXlMQU9zX1dKeFVudGp6NlNCMlpIM0ZFa2RCekpqWjdjWDVMdFMxOHFId3UzWjgtUW1pb1QtZTRfbzR3NjEtU2Rnb2wyWnRtQWdBaXRLQlNQV0cxeklvdk1WRE04ZWdmMzF4R0NRYWctQ2cweUVOMEpXT084d1l6c0J3RGlwQlRFLTdRLXpoMHpacnIxbHBiYXB2NXZsTUhNUVFSM1ZGU2dhaFduXzNQaEhtRHJIODZ0LWJsREtaNGhaTjFwdFdldXRuaGkw?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six source entries are provided
+  -> blocked by fact-check
+---
+🇺🇸 INVESTORS PULL $549M FROM BITCOIN AND ETHER FUNDS
+
+📌 Investors pulled $549 million from Bitcoin and Ether funds in one week.
+📊 $BTC & $ETH weekly outflows: $549M
+
+📍 US · 📰 Cointelegraph.com News · ✅ 4 sources
+https://cointelegraph.com/markets/bitcoin-ether-etfs-549-million-weekly-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  written by Gemini
+  Groq GPT-OSS: PASS - All numeric, location, and source claims are directly backed by the four cited articles.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - The post accurately reflects the $549M combined outflow figure and the US context supported by the Cointelegraph and KuCoin sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-cccb49fddd08
+done: 1 post(s) this run
 === run 2026-10-19T07:29:49Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1455,46 +1498,3 @@ https://news.google.com/rss/articles/CBMivAFBVV95cUxQMW81dXg4bzRwcUlpOVlIbTdkRTF
   Groq GPT-OSS: PASS - All claims about traders cutting bearish bets, expected rupee rise, and the general effect of a stronger currency are supported by the Reuters source
   Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
   Groq Qwen: PASS - The post accurately reflects the source headlines regarding the rupee rising due to traders cutting bearish bets, and the general explanation of currency strength is correct.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unavailable (RuntimeError: liquid/lfm-2.5-2.6b:free returned an empty reply)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-9e579ffc1197
----
-🇮🇳 INDIAN BONDS FACE NEW DEBT SALE
-
-📌 A fresh debt sale is set to hit Indian bonds as worries about rate hikes continue.
-📊 Yield: 7.39%
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
-https://www.thehindubusinessline.com/markets/fresh-debt-sale-set-to-rattle-indian-bonds-as-rate-hike-jitters-persist/article71591026.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements, including the fresh debt sale, yield figure, and source attribution, are directly supported by the cited article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims, including the specific yield figure of 7.39% (derived from the source's 7.3921%), the context of the debt sale and rate hike jitters, and the source attribution, are directly suppo
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-d8fbe11b3772
-done: 2 post(s) this run
-=== run 2026-10-16T03:58:58Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
---- special
-📊 Tweets give you the headline. YouTube gives you the why.
-
-Subscribe to FinanceHubW for daily market explainers 👇
-https://www.youtube.com/@FinanceHubW
-published to: website, Instagram Story
-84/171 sources returned news, 936 recent items
-211 new trusted stories, posting up to 0 this run
-done: 1 post(s) this run
-=== run 2026-10-16T03:20:57Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T02:57:08Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T02:21:08Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
