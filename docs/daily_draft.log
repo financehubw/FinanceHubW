@@ -1,18 +1,18 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-109/171 sources returned news, 1394 recent items
-  big #16 draft 1: Groq GPT-OSS: PASS - All factual statements about Q3 2024 growth of 4.5%, export surge, tech demand offsetting weak domestic spending, and beating estimates are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and factual statements are corroborated by the cited sources. | Groq Qwen: PASS - All factual claims regarding the 4.5% growth rate, the role of exports and tech goods, and the offsetting of weak domestic spending are directly supported by the provided sources.
-  big: story #16 ok in 14s
-  pol #28 draft 1: Groq GPT-OSS: PASS - All factual statements about the price levels, the dip, and the US‑Russia presidential deal are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the price dip, the specific prices of Brent and WTI, and the cause (US-Russia deal raising supply hopes) are directly supported by the sources.
-  pol: story #28 ok in 23s
-  biz #29 draft 1: Groq GPT-OSS: PASS - All factual statements about the 5% share pledge, public benefit fund purpose, shareholder approval, and $48bn valuation are supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the 5% stake, $48bn valuation, May timing, shareholder approval requirement, and purpose of the fund are supported by the sources.
-  biz: story #29 ok in 33s
-  up #8 draft 1: Groq GPT-OSS: PASS - All claims about gold edging higher, lower oil prices, inflation concerns, and the Fed meeting are supported by the cited sources | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - The slide accurately reflects the headline and key details from the Emirates 24|7 source regarding gold rising due to lower oil prices and inflation concerns ahead of a Fed meeting.
-  up: story #8 ok in 10s
-  r1 #1 draft 1: Groq GPT-OSS: PASS - All numeric and factual statements are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the inflation rate, month, and gas price increase are directly supported by the provided sources.
-  r1: story #1 ok in 10s
-  r2 #27 draft 1: Groq GPT-OSS: PASS - The source confirms that crypto firms in the UK can now apply for FCA authorisation. | Groq GPT-OSS 20B: PASS - The slide’s claim that UK crypto firms can now apply for FCA authorisation is directly supported by the FCA source. | Groq Qwen: PASS - The slide accurately reflects the source text stating that crypto firms in the UK can now apply for authorisation from the FCA.
-  r2: story #27 ok in 13s
-  r3 #33 draft 1: Groq GPT-OSS: PASS - All claims about Indonesia's benchmark index falling to a six‑year low are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - The slide's claim that Indonesia's benchmark stock index fell to its lowest level in six years is directly supported by the source text.
-  r3: story #33 ok in 54s
-Draft ready for review: magazine/daily/2026-10-19/edition.json (not published)
+108/171 sources returned news, 1292 recent items
+  big #3 draft 1: Groq GPT-OSS: PASS - All factual statements about Middle East tension, five‑month high, price movements, and $110.10 price are directly confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding price movements, specific values, timestamps, and market context are directly supported by the provided sources.
+  big: story #3 ok in 3s
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: rejected: these numbers are not in the source: 50
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: story #21 failed in 6s
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: story #1 failed in 15s
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: story #5 failed in 7s
+no story passed the checks for the pol slide; nothing published
