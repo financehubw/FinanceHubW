@@ -1,3 +1,76 @@
+=== run 2026-10-20T05:10:25Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+90/171 sources returned news, 854 recent items
+179 new trusted stories, posting up to 3 this run
+---
+🇮🇳 JIO PLATFORMS TO RAISE UP TO $3.2B IN RECORD IPO
+
+📌 Jio plans to raise up to $3.2 billion in India's largest ever rupee share sale.
+📊 Target raise: Up to $3.2 billion
+
+📍 India · 📰 International: Top News And Analysis · ✅ 5 sources
+https://www.cnbc.com/2026/10/20/jio-ipo-gic-blackrock-.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the $3.2 billion target and record rupee‑share sale are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding the $3.2 billion raise amount, the record status in rupee terms, the location, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-74ebd626faae
+---
+🌐 GOLD MOVES SLIGHTLY AS INVESTORS WAIT FOR FED RATE NEWS
+
+📌 Gold prices moved slightly as investors wait for the US Fed rate decision next week.
+
+📍 Global · 📰 Economic Times · ✅ 7 sources
+https://economictimes.indiatimes.com/markets/commodities/news/gold-slips-as-investors-weigh-fed-rate-outlook/articleshow/135059635.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim of "✅ 7 sources" is not supported by the listed sources.
+  -> blocked by fact-check
+---
+🌐 OIL PRICES FALL AS US WAIVES SOME RUSSIAN SANCTIONS
+
+📌 Oil prices fell after the US waived some sanctions on Russian energy.
+💡 Lower oil prices usually lead to cheaper fuel and energy costs.
+#Oil
+
+📍 Global · 📰 Economic Times · ✅ 7 sources
+https://economictimes.indiatimes.com/markets/commodities/news/oil-eases-as-markets-assess-potential-waiver-on-russian-energy-middle-east-supply-risks/articleshow/135059323.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims “✅ 7 sources” but only six distinct sources are listed.
+  -> blocked by fact-check
+---
+🇯🇵 JAPAN 20-YEAR BOND SALE SEES RECORD DEMAND
+
+📌 Japan's 20-year bond auction drew a record 5.84 times demand as yields rose.
+📊 Demand Ratio: 5.84x
+
+📍 Japan · 📰 The Straits Times World News · ✅ 4 sources
+https://www.straitstimes.com/business/japans-20-year-bond-auction-sees-strongest-demand-on-record
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (record 5.84× demand, yields rose, Japan location, source) are directly supported by the cited articles.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims, including the record demand ratio of 5.84x, the context of rising yields, and the source attribution, are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - The listed sources support the record 5.84-times demand, higher yields, Japan location, and source attribution.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-8cd362abdc30
+---
+🇮🇳 US AND INDIA NEAR TRADE DEAL
+
+📌 US official Marco Rubio visits India as both nations near a trade deal.
+💡 Trade deals usually reduce taxes on goods traded between countries.
+#India
+
+📍 India · 📰 Reuters · ✅ 7 sources
+https://news.google.com/rss/articles/CBMirwFBVV95cUxQSzVIbWZvOEliSS16aVNWeUNsMlVlcG9wSDVMUkJsdjVrSzM0TUxueEQ5YThPUGtqMFNJbGM3MkROXzVoNzhaNnhCSmpRZEZBX0Zka0Fuci1YbGxVcEpmY3FzbFU2ck0zYVRSZVJYdnJpUkpVaWRRMGd4Z3J3cnhnbFJuWGI1YmRsOHlvSlE3SDJjcnZ5MWtyOFhKRmhFVVEzOFRnLVFIQUZ1YnBFamVN?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Rubio's visit, the near‑term trade deal, location, source, and the general effect of trade deals are supported by the Reuters article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: PASS - All factual claims regarding Marco Rubio's visit, the proximity of a trade deal, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6698a8d44e7b
+done: 3 post(s) this run
 === run 2026-10-20T03:03:37Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1425,76 +1498,3 @@ done: 1 post(s) this run
 === run 2026-10-16T18:18:05Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
-99/171 sources returned news, 962 recent items
-219 new trusted stories, posting up to 1 this run
----
-🇬🇧 FTSE 100 SEES BEST WEEK IN SIX MONTHS
-
-📌 UK stocks had their strongest week in half a year, led by defensive stocks (stable companies holding value in bad times).
-
-📍 UK · 📰 Reuters · ✅ 5 sources
-https://news.google.com/rss/articles/CBMivAFBVV95cUxNM2RvT3plREs0LTdZXzZOZkhINjFCWWZ0NmR0X2tNdzRwelBvekVIdnFVY3ZIVVRYYmhNOC1PYmFPczIwaGxnRTJXRDI2SWtkT2EyX0Z2d1BaZl8wM1R1MHF1bzRwRmNIdGZmSkRIQzAtTmFROGw0Y3hVbFVSd1d0M0pFTzRtenFwZk5yQmdJLW1qWThmNEx2Ui00UzN1WGY3VjhUSWNtWERkT3FYM00tam1fTVBJdUNha3Q3NQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about the FTSE 100's strongest week in six months and defensive‑stock rally are directly confirmed by the Reuters source
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Reuters article and other listed sources.
-  Groq Qwen: PASS - All factual claims regarding the FTSE 100's performance, the timeframe, the leading sector, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-31d6e9a395ab
-done: 1 post(s) this run
-=== run 2026-10-16T17:54:36Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T17:21:01Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T16:58:02Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-16T16:26:52Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-99/171 sources returned news, 1061 recent items
-240 new trusted stories, posting up to 3 this run
----
-🇺🇸 FED RATE DECISION UNCERTAIN
-
-📌 Investors expect the Fed (US central bank) to hold rates steady in October.
-💡 Interest rates affect the cost of borrowing money for everyone.
-#Fed
-
-📍 US · 📰 Bloomberg.com · ✅ 4 sources
-https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZms1aGNrLWRUb1BHWjJSSS1lOHdqODlJSlB0eDFHd1FDdjZyNEdBejdTZkc1ODhrcTZJUGhidWVpNE05Rm5wLThoT2ktb1BIcFhEWVhGLTV2V2R1S2FjZVNfZEFkNC1PXy1ibkt5YnU5ZkY1ODg1a0w3b0ZPQm9ROEt3ZlhSc25TcmthLUhiMXpObGNUMXlIcTVqMUZTdVNMQ19iUzM2NFk?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about investor expectations and the general effect of interest rates are supported by the listed sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Bloomberg source and are factual.
-  Groq Qwen: PASS - The post accurately reflects the sources' consensus that investors expect the Fed to hold rates in October, and the general explanation of interest rates is correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-2081c38fc938
-skip (off-topic or nothing new): Gold Rate Today In Amritsar, Check Live 22 And 24 Carat Gold Price
----
-🇺🇸 BITCOIN HOLDS ABOVE $82,000
-
-📌 Bitcoin stayed near $82K after the US central bank gave no sign of raising rates.
-📊 $BTC: $82,000
-💡 Lower rate-hike fears usually calm global financial markets.
-
-📍 US · 📰 Cointelegraph.com News · ✅ 4 sources
-https://cointelegraph.com/markets/bitcoin-price-steadies-82k-fed-warsh-avoids-rate-hike-hints?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source only says Bitcoin was around $82K or above $80K, not that it held above $82,000
-  -> blocked by fact-check
-skip (off-topic or nothing new): Warsh: Inflation Still Weighs on Economy as Fed Eyes Oct. 28 Rate Decision - News and Statistics
----
-🇩🇪 DEUTSCHE BANK TO LAUNCH CRYPTO CUSTODY
-
-📌 Germany's biggest bank is launching storage services for Bitcoin and Ethereum.
-📊 $BTC
-
-📍 Germany · 📰 Cointelegraph.com News · ✅ 3 sources
-https://cointelegraph.com/news/deutsche-bank-crypto-custody-expansion-asia-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources
-  Groq GPT-OSS 20B: FAIL - Number of sources claim does not match actual sources

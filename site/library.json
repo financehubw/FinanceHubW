@@ -1,6 +1,15 @@
 {
  "items": [
   {
+   "type": "briefing",
+   "date": "2026-10-19",
+   "label": "Mon 19 Oct 2026",
+   "title": "Daily briefing · 8 stories",
+   "base": "media/digests/2026-10-19-daily-1792465417/",
+   "first": 0,
+   "slides": 10
+  },
+  {
    "type": "daily",
    "date": "2026-10-19",
    "label": "Mon 19 Oct 2026",
