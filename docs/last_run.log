@@ -1,3 +1,47 @@
+=== run 2026-10-20T13:25:04Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+106/171 sources returned news, 1095 recent items
+254 new trusted stories, posting up to 1 this run
+---
+🇺🇸 NASDAQ FUTURES SLIDE 150 POINTS BEFORE US OPEN
+
+📌 Nasdaq futures fell 150 points, and General Motors slid after reporting earnings.
+📊 Nasdaq futures: -150 points
+
+📍 US · 📰 US Top News and Analysis · ✅ 3 sources
+https://www.cnbc.com/investingclub/2026/10/20/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (150‑point Nasdaq futures drop and GM slide) are directly supported by the cited sources
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: FAIL - The specific figure of '150 points' is not supported by the provided source text, which only states Nasdaq futures are 'under pressure' without specifying the magnitude.
+  -> blocked by fact-check
+---
+🇮🇳 US-INDIA TRADE DEAL IS VERY CLOSE, SAYS RUBIO
+
+📌 US and India are near a trade deal after talks in Mumbai between Rubio and Jaishankar.
+
+📍 India · 📰 Economic Times · ✅ 9 sources
+https://economictimes.indiatimes.com/news/economy/foreign-trade/marco-rubio-lands-in-mumbai-as-new-delhi-washington-push-to-close-trade-deal/articleshow/135066599.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post incorrectly calls Marco Rubio the US Secretary of State, which is not supported by the source.
+  -> blocked by fact-check
+---
+🌍 OIL PRICES RISE ON MIDDLE EAST TENSIONS
+
+📌 US crude oil crosses $105 per barrel while Brent crude hits a five-month high.
+📊 US crude: >$105
+💡 Higher oil prices usually make fuel and transport costlier.
+
+📍 Middle East · 📰 CNBC Africa · ✅ 5 sources
+https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWFsQzF6S2VSMkcyQ29HbFl2aFg5di1HMnhVUHZwUXZKSlRURUd1dFp1QU1wazFxclJqbjRtRTNjZVdXQWZTR3Q4c2hnSHY0Y3BBS3d5amF0MExWOHJjQTExZ1hRSWk2QlJmUEw3N1VpMUZHQzdkWW5OUkpjYVR1OThTRnlZcWh6NzdxTi1UdGlYSGVIVjJTOQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding oil prices, specific levels, and the cause (Middle East tensions) are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-61447f007039
+done: 1 post(s) this run
 === run 2026-10-20T11:02:59Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
@@ -1454,47 +1498,3 @@ https://news.google.com/rss/articles/CBMivwFBVV95cUxPNUp1eWxDVEJVdnVFcVk0TEgwMmF
   Groq Qwen: PASS - All factual claims regarding the price ($110), timeframe (first time since May), cause (supply worries), and source attribution are directly supported by the provided sources.
 published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-8260f60358ac
-done: 1 post(s) this run
-=== run 2026-10-17T01:54:38Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
---- special
-🌐 GLOBAL MARKETS OVERNIGHT
-
-🔴 S&P 500: 7,659 (-1.09%)
-🔴 Nasdaq: 26,140 (-2.15%)
-🔴 Dow: 52,002 (-0.34%)
-🟢 FTSE 100: 10,882 (+0.38%)
-🟢 Nikkei: 65,324 (+1.39%)
-🟢 Brent oil: $109.69 (+3.56%)
-
-🟢 up · 🔴 down · vs previous close
-#Markets #StockMarket
-published to: website, Instagram Story
-79/171 sources returned news, 568 recent items
-105 new trusted stories, posting up to 0 this run
-done: 1 post(s) this run
-=== run 2026-10-17T01:10:19Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-76/171 sources returned news, 599 recent items
-110 new trusted stories, posting up to 1 this run
----
-🇺🇸 WALL STREET STOCKS FALL ON AI AND OIL WORRIES
-
-📌 US stock markets dropped as worries grew over artificial intelligence and high oil prices.
-📊 S&P 500: 7,659.44 (-1.09%)
-
-📍 US · 📰 The Straits Times World News · ✅ 4 sources
-https://www.straitstimes.com/business/companies-markets/us-stocks-close-sharply-lower-worries-about-ai-trade-and-high-oil-prices-weigh
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (stock decline, percentage, cause, location, source) are directly supported by the cited article.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the market movement, specific index values, and reasons for the decline are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unreadable reply:  {"ver
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-33144350cbc3
-done: 1 post(s) this run
-=== run 2026-10-17T00:15:09Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
