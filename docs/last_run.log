@@ -1,3 +1,24 @@
+=== run 2026-10-20T15:11:08Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+106/171 sources returned news, 1013 recent items
+235 new trusted stories, posting up to 1 this run
+---
+🇨🇭 SWITZERLAND APPROVES FIRST BITCOIN ETF
+
+📌 Switzerland approved its first bitcoin ETF ($BTC) for everyday investors.
+📊 $BTC
+💡 Cryptocurrency funds let people invest without holding coins directly.
+
+📍 Switzerland · 📰 The Block · ✅ 10 sources
+https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the cited The Block article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding the approval of Switzerland's first retail Bitcoin ETF by FINMA are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-5903bb0f9936
+done: 1 post(s) this run
 === run 2026-10-20T13:25:04Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1477,24 +1498,3 @@ skip (off-topic or nothing new): LIBOR/EURIBOR-related bans
 skip (off-topic or nothing new): Voluntary Provident Fund: Should you invest beyond EPF? Interest rates, tax rules and the ₹2.5 lakh limit explained
 skip (off-topic or nothing new): Missed a gold loan EMI? Know when your pledged jewellery is at risk — Experts explain recovery process and auction rules
 done: 0 post(s) this run
-=== run 2026-10-17T02:18:56Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-79/171 sources returned news, 568 recent items
-124 new trusted stories, posting up to 1 this run
----
-🌐 OIL HITS $110 A BARREL
-
-📌 Oil prices crossed $110 for the first time since May due to supply worries.
-📊 Brent crude: $110
-💡 Higher oil prices usually make fuel and transport costlier.
-#Oil
-
-📍 Global · 📰 The Business Times · ✅ 7 sources
-https://news.google.com/rss/articles/CBMivwFBVV95cUxPNUp1eWxDVEJVdnVFcVk0TEgwMmFxUFVBdERDRVU2SDQ4MVZVWmhSVV9NM2xEbVpVVTh3RVl4WlB6MTRJMjRxY050d2JQZ21DRDNqdi1pR3psUklQQXRSd1lvVDFOeWpFYV8tcGF1eGo4Z2VBS0ZBTG1EOTNMenJlV09yRGY1S2NVaVo1ajlna29BdW9aVTFKUUJnSWRGYjNMcFluNVFrSkl1eUNxUzdSSUl3YUFfZG1wZ3pGWFA5aw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about price, timing, cause, and location are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: PASS - All factual claims regarding the price ($110), timeframe (first time since May), cause (supply worries), and source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-8260f60358ac
