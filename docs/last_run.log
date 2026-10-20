@@ -1,3 +1,7 @@
+=== run 2026-10-20T03:03:37Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-20T01:14:22Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://cointelegraph.com/news/deutsche-bank-crypto-custody-expansion-asia-2027?
   written by Gemini
   Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources
   Groq GPT-OSS 20B: FAIL - Number of sources claim does not match actual sources
-  -> blocked by fact-check
----
-🇺🇸 BITCOIN FALLS BELOW $82,000
-
