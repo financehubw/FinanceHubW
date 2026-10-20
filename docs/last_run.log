@@ -1,3 +1,40 @@
+=== run 2026-10-20T17:19:24Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+99/171 sources returned news, 970 recent items
+216 new trusted stories, posting up to 2 this run
+---
+🇺🇸 US STOCKS RISE AS HEALTHCARE SHARES HIT RECORD HIGH
+
+📌 Wall Street rose as healthcare shares hit records and oil prices dropped.
+💡 Lower oil prices can help reduce daily fuel and transport costs.
+#WallStreet
+
+📍 US · 📰 Economic Times · ✅ 6 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-lower-as-ai-stocks-decline-oil-prices-rise/articleshow/135071224.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about US stocks rising, healthcare shares hitting record highs, and oil prices falling are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: PASS - All factual claims regarding the rise in US stocks, record highs in healthcare shares, and falling oil prices are directly supported by the provided sources, and the location and source attribution ar
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-4459119e6c00
+skip (off-topic or nothing new): BlackRock Files for Bitcoin ETF With Downside Buffer and Capped Upside
+---
+🇺🇸 US STOCKS RISE ON STRONG PROFITS
+
+📌 US stock markets went up as companies reported good profits and oil prices dropped.
+💡 Higher stock values can boost retirement savings and mutual funds.
+#Stocks
+
+📍 US · 📰 AP News · ✅ 10 sources
+https://news.google.com/rss/articles/CBMinAFBVV95cUxQTUxwUkw1R0I4c0hwa0lfVGdUQ3ZoMlVlZzZBa1RBTU9hMEZtSTFQY3d3NzVYRlFiN1hubTFWX3JXVnZBbnUxSmFsM05CZ1lyVVVOamlWOXlxUzdaMTcxdFBzY3gzZVdmNjZaTXNPNWtBeTNvMTVETWtwcGxaaE5CQWFUOS0tM1NpS2FkT1pocUlYWGZkX2wyd0d3OTg?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about US stocks rising, strong profits, and oil price drop are supported by the cited AP News source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the AP News source and the explanation is a widely accepted general effect of rising stock values.
+  Groq Qwen: PASS - All factual claims regarding US stock performance, profit reports, and oil price movements are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-b19041a9e74f
+done: 2 post(s) this run
 === run 2026-10-20T15:11:08Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
@@ -1461,40 +1498,3 @@ https://news.google.com/rss/articles/CBMizwFBVV95cUxOUUxrdGQ4LVVkYlVDZkRtN09TdnR
 
 📍 US · 📰 Startup Fortune · ✅ 4 sources
 https://news.google.com/rss/articles/CBMioAFBVV95cUxORllPc2wxWEVRS1I3bmZjNGJaZUpUMXpEdzlKMWhNLUVXQmJ4bUx4R0NnR3IzUDV2cFlXUWc3OEUyMnppZGZYeS1lbklFUERYQ3hJbXZYXzYxbW9TMDRHc2tMRmZVOGk0XzNVcUpUekFfdEQ1ODMybUZoQXk0b0g0TnpKbDF2MWZybkZ1WjhUNFZZUHRzSGdMbF9YNGRENUZk?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The $9 B deal amount is contradicted by a source citing a $60 B financing, so the claim isn’t fully supported
-  -> blocked by fact-check
-skip (off-topic or nothing new): SEBI Teams win at IOSCO TechSprint 2026 on Investor Education in the Age of Artificial Intelligence (AI)
-skip (off-topic or nothing new): SEBI’s PolicyTwin Prototype Wins First Place at the C:>DIR Global ‘Agentic Regulator’ Hackathon
-skip (off-topic or nothing new): Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough
----
-🇮🇳 JIO PLANS MASSIVE $3.2B IPO
-
-📌 Mukesh Ambani asks nearly 420,000 workers to invest in the upcoming Jio IPO.
-📊 IPO size: $3.2B
-📊 Employees: 420,000
-#Reliance
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
-https://www.thehindubusinessline.com/markets/jio-platforms-ipo-ambani-taps-massive-reliance-workforce-to-boost-offering/article71593138.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the provided sources.
-  Groq GPT-OSS 20B: FAIL - Source name does not match the actual source
-  -> blocked by fact-check
-skip (off-topic or nothing new): New Q&As available
-skip (off-topic or nothing new): ESMA finalises the review of guidelines on the delay in disclosure of inside information
----
-🇪🇺 EU ISSUES OVER 950 SANCTIONS
-
-📌 European financial watchdogs handed out more than 950 fines in 2025.
-#Regulation
-
-📍 Europe · 📰 ESMA · 🏛️ Official
-https://www.esma.europa.eu/press-news/esma-news/esmas-third-sanctions-report-highlights-need-greater-convergence-enforcement
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source reports over 950 administrative sanctions and measures, not specifically fines.
-  -> blocked by fact-check
-skip (off-topic or nothing new): LIBOR/EURIBOR-related bans
-skip (off-topic or nothing new): Voluntary Provident Fund: Should you invest beyond EPF? Interest rates, tax rules and the ₹2.5 lakh limit explained
-skip (off-topic or nothing new): Missed a gold loan EMI? Know when your pledged jewellery is at risk — Experts explain recovery process and auction rules
-done: 0 post(s) this run
