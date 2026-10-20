@@ -1,3 +1,39 @@
+=== run 2026-10-20T09:13:19Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+102/171 sources returned news, 1147 recent items
+re-check of earlier post: 3 fail / 1 pass
+233 new trusted stories, posting up to 2 this run
+---
+🇺🇸 BLACKROCK FILES FOR NEW BITCOIN ETF TO LIMIT LOSSES
+
+📌 BlackRock filed for a new $BTC fund that uses options to cap losses at 10%.
+📊 $BTC ETF loss floor: 10%
+
+📍 US · 📰 Yahoo Finance · ✅ 6 sources
+https://news.google.com/rss/articles/CBMioAFBVV95cUxNZFFacFp1MzRNTGJGUnpHdGVjMDdRTVBQTkNRY3IzblVTQTlRckJ3R3NRTGlzSkVtTjFzZHRsbTNXWkVxNlVlY0VabGpadjJGYzNPVkVacmdkaExGSlZsR0VFQmwza1dZR3NwN3VXc1lFSGxDUl90SjgzVWlRRXhnMS15TmpGN1F3Vkh4akNjQktmd0l1X3lYVllHYl9NSHdG?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about BlackRock filing a Bitcoin ETF with a 10% loss floor are directly supported by the Yahoo Finance source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding BlackRock's filing for a Bitcoin ETF with a 10% loss floor using options are directly supported by the provided sources, and the location and source attribution are correc
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-4938447c4472
+---
+🇮🇳 EAAA INDIA ALTERNATIVES PLANS RS 1,200-CR IPO
+
+📌 EAAA India Alternatives will open its IPO (initial public offering, the first sale of stock to the public) on October 26.
+📊 IPO size: Rs 1,200 crore
+#IPO
+
+📍 India · 📰 Economic Times · ✅ 6 sources
+https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-to-float-rs-1200-cr-ipo-on-oct-26/articleshow/135064394.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (IPO date, size, location, source) are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by sources.
+  Groq Qwen: PASS - All factual claims regarding the company name, IPO size (Rs 1,200 crore), opening date (October 26), location (India), and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-8d5cd180ce1a
+done: 2 post(s) this run
 === run 2026-10-20T07:23:05Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1462,39 +1498,3 @@ models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, Open
 daily cap: 12, room left in the last 24h: 2
 78/171 sources returned news, 655 recent items
 144 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-16T22:53:36Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-80/171 sources returned news, 630 recent items
-143 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-16T22:18:32Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-79/171 sources returned news, 673 recent items
-151 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-16T21:54:41Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-83/171 sources returned news, 691 recent items
-160 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-16T21:18:25Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-85/171 sources returned news, 745 recent items
-165 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-16T20:55:51Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-87/171 sources returned news, 719 recent items
-168 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-16T20:14:12Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-91/171 sources returned news, 804 recent items
-189 new trusted stories, posting up to 0 this run
