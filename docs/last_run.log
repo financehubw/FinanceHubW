@@ -1,3 +1,7 @@
+=== run 2026-10-20T21:02:01Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-20T19:11:42Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://news.google.com/rss/articles/CBMizwFBVV95cUxOUUxrdGQ4LVVkYlVDZkRtN09TdnR
   -> blocked by fact-check
 ---
 🇺🇸 ANTHROPIC OFFERS BLACKSTONE OVER 10% YIELD
-
-📌 Anthropic offers Blackstone a double-digit yield to fund a $9B chip deal.
-📊 Deal: $9B
-📊 Yield: >10%
