@@ -1,18 +1,16 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-108/171 sources returned news, 1292 recent items
-  big #3 draft 1: Groq GPT-OSS: PASS - All factual statements about Middle East tension, five‑month high, price movements, and $110.10 price are directly confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding price movements, specific values, timestamps, and market context are directly supported by the provided sources.
-  big: story #3 ok in 3s
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: these numbers are not in the source: 50
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: story #21 failed in 6s
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: story #1 failed in 15s
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: story #5 failed in 7s
-no story passed the checks for the pol slide; nothing published
+104/171 sources returned news, 1399 recent items
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: rejected: big_stat_l2 must be 1-28 characters (it is 29); these numbers are not in the source: 50
+  big: story #9 failed in 75s
+  big: rejected: big_stat_l2 must be 1-28 characters (it is 29); big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); these numbers are not in the source: 100
+  big: story #10 failed in 47s
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: rejected: these numbers are not in the source: 100
+  big: rejected: big_headline must be 1-90 characters (it is 93); big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: story #7 failed in 36s
+no story passed the checks for the big slide; nothing published
