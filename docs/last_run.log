@@ -1,3 +1,7 @@
+=== run 2026-10-21T21:03:28Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-21T19:13:53Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1494,7 +1498,3 @@ skip (off-topic or nothing new): India can't shift from Russian oil 'overnight':
 
 📍 Asia · 📰 Mint · ✅ 2 sources
 https://www.livemint.com/market/ai-trade-reversal-pierces-asia-s-star-picks-and-shovels-stocks-11792284261229.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and contextual claims are directly confirmed by the Mint and Straits Times articles.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: PASS - All factual claims regarding the 11% drop, the specific Goldman Sachs basket, the timeframe (last week), and the comparison to mid-July are directly supported by the provided sources.
