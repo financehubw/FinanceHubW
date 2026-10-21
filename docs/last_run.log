@@ -1,3 +1,76 @@
+=== run 2026-10-21T07:28:51Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 4
+102/171 sources returned news, 1193 recent items
+231 new trusted stories, posting up to 3 this run
+---
+🇮🇳 INDIAN MARKETS RALLY AS NIFTY CROSSES 23,000
+
+📌 Indian stock markets rose about 1% today, pushing the Nifty index past 23,000.
+📊 $NIFTY: Above 23,000 (+1%)
+
+📍 India · 📰 Economic Times · ✅ 6 sources
+https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-rising-today-sensex-jumps-700-points-nifty-above-23000-3-key-factors-behind-d-street-rebound/articleshow/135081731.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (1% rise, Nifty >23,000, location, source) are directly supported by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 6 sources, but only five unique relevant sources are listed, making the source count claim unsupported.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN RUPEE HITS SIX-WEEK HIGH AGAINST US DOLLAR
+
+📌 The rupee gained 29 paise to 94.62 per US dollar on IPO inflows and RBI support.
+📊 USD/INR: 94.62 (+29 paise)
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 8 sources
+https://www.thehindubusinessline.com/markets/forex/rupee-may-rise-on-jio-platforms-ipo-inflows-rbi-support-oil-prices-pose-risk/article71606139.ece
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source name (📰) listed does not match the actual source (The Hindu Business Line) cited in the link
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN BOND YIELDS HIT HIGHEST SINCE MARCH
+
+📌 Indian bond yields (govt borrowing costs) rose to 7.43% on rising oil prices.
+📊 Benchmark Yield: 7.43%
+
+📍 India · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/bonds/indian-bonds-sell-off-on-oil-shock-ahead-of-rbi-policy-minutes/articleshow/135082397.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All yield figures, highest‑since‑March claim, and oil‑price link are directly supported by the cited sources
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the yield level (7.43%), the cause (rising oil prices), the trend (highest since March), and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-8b4b57885b90
+---
+🇬🇧 UK INFLATION RISES TO 3.5% IN SEPTEMBER
+
+📌 UK inflation jumped to 3.5% in September as fuel prices increased.
+📊 UK Inflation: 3.5%
+
+📍 UK · 📰 Yahoo Finance Australia · ✅ 5 sources
+https://news.google.com/rss/articles/CBMif0FVX3lxTE9tRV95ZUkzN3ptcXJ4c19fSGdxVk16SGtpRExNX09KaHRCWW5BMGR1MGJvaFZ1SjVINnczLU5xeUgtTFRsLXkwbHEzai1kcmV4Y2swcUUzeGRQY2JESVNnSHZRQ2Noam1ucnlMd3QxTm1xelRKR1poNjJwMjRWN3c?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about 3.5% September UK inflation and fuel price impact are directly supported by the listed sources
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the inflation rate (3.5%), the time period (September), the cause (fuel prices), and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-a28c4935d429
+---
+🇬🇧 UK INFLATION JUMPS TO 3.5%
+
+📌 UK inflation (price rises) jumped to 3.5% in September, driven by fuel costs.
+📊 UK Inflation: 3.5%
+💡 Higher inflation usually leads to higher interest rates on loans.
+#Inflation
+
+📍 UK · 📰 CNBC · ✅ 6 sources
+https://news.google.com/rss/articles/CBMid0FVX3lxTE9BMFE1c0o5clpFOWdSQzVWX1VBSDVFcmpXSmptNDRoVGdNUEVkYWdRZW54T1VLOWJ3aU1IeHlGMURjdHE4VzZ3YWdHdzUwekFiWlV2ODk1NVJqX1RfYzVjV3VQQXBWVFhRaUVJNnhfUGxMSFUxUWZn0gF8QVVfeXFMUGd4V2l3bVF1Z09FdlBiMG5lbUNMTWJvWjg2UHdWMjhPUEhPNjNVUGtVc3ZtNFlDVGtCOUFzRjNKWW5iUWV6X1BpLVBLNVcxazRFcTV5OWgyQ1BBVUFBaG1CdFFTdjZpRGU1ZzdvbUx3d09GZjBjNEpGcXQtQw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the listed sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the inflation rate (3.5%), timing (September), driver (fuel costs), and location (UK) are directly supported by the provided sources, and the source attribution matches.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-cd39bd1ac7b2
+done: 3 post(s) this run
 === run 2026-10-21T05:04:48Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1425,76 +1498,3 @@ published to: website, Instagram Story
 📍 US · 📰 The New York Times · ✅ 15 sources
 https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5
   written by Gemini
-  Groq GPT-OSS: FAIL - No evidence that President Trump signed an order waiving Russia sanctions; claim is unsupported and factually incorrect.
-  -> blocked by fact-check
----
-🇮🇳 NIFTY IT SOARS 11.7% IN RECORD WEEKLY RALLY
-
-📌 Indian tech stocks had their biggest weekly jump since 2008 after strong earnings.
-📊 Nifty IT: +11.7%
-💡 Strong tech company earnings often boost local stock market values.
-
-📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/stocks/news/its-time-to-celebrate-when-chips-are-down-nifty-it-soars-11-7-to-log-biggest-weekly-rally-since-2008/articleshow/135007166.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (11.7% rise, biggest weekly rally since 2008, earnings-driven boost) are confirmed by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the 11.7% rally, the 'biggest weekly rally since 2008' timeframe, the attribution to strong earnings, and the source details are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-94a9b22b8fd5
-done: 2 post(s) this run
-=== run 2026-10-17T04:18:04Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
-79/171 sources returned news, 600 recent items
-125 new trusted stories, posting up to 1 this run
----
-🇮🇳 TRUMP WAIVES RUSSIA OIL SANCTIONS
-
-📌 Trump paused a planned 100 percent tariff (tax on imports) on Russian oil ahead of a visit by Marco Rubio.
-📊 Tariff: 100% (on hold)
-
-📍 India · 📰 The Statesman · ✅ 2 sources
-https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQnpWMEpzbW5zWVNIbFVnR1lrbm9vSEpLUzZxV0RvLUVTSlB6OHk3VEJnRjNvOFJCdG1RdVlfYVBUUnV2eEVlYXdfRks5R3hMbVMwQmYwdUM2VmplUHptYTNfc0c1M1RFanRtdER2NFF4V0lMQkdRQ0xOU19ncmlUdFBWRVZhVHlobmpNUmxCUEZUX2lvZTBBUkNDT0MyTlduUmNqWGdMWmxPb0Y3NFZWdXgxbFFGN2FkeGhKVzZScktHbVNQU0RjeWZLYlZVM00weF9EZHFoblVud9IB3wFBVV95cUxOZVJoMTRGRDNpVDJIMnlMeHVCRXYwdkllRGFPMVlWMDZ2VVNYWG40WTJMTjNjbko2clM2UnBSX2t5dTNJek1hRGl3QTZwbENpenR1S1dHajNEc29odjgyODhPMVhPZXhfTE1iUlNtR09XSEJBQzVtSktlYmVVX2VLazlZTWhSZkp0eDVBLVd4azRPOEppdTJJbjlfR0FCR19ESmhsVkp0dlljODNvRmN3Ti1uMEFSbWV1M0lha1MyZmNSakVCdjNHalRFbW03VHVQZy0tN1FvSTVLWWlURVo4?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that Trump "waives Russia oil sanctions" is not supported; sources only mention pausing a 100% tariff, not waiving sanctions.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Polymarket Prices a 14% Chance of October Fed Hike as Bitcoin Closes at $81,524
----
-🇮🇳 JIO PLANS $3.2 BILLION IPO
-
-📌 Jio Platforms plans to raise $3.2 billion in an initial public offering (selling shares to the public) starting Oct. 21.
-📊 IPO size: $3.2B
-📊 Opens: Oct. 21
-#Reliance
-
-📍 India · 📰 Bloomberg.com · ✅ 5 sources
-https://news.google.com/rss/articles/CBMisAFBVV95cUxNdnc4bVVzMmZ6dG4zLXcybG56cl9TUE9jT2tLSEt6cmdUdVhnM01feGxmT2tROXBRdExtbUNxbW1RMjRNWVNtNkEycU5pMVdEc1M0eTRORnJQa3FQZzJNMHBuQk14OHBNZWJBXzNvSi1oM1Znd1l6VThodmtWRkV5SHh3Sm96bnpJaWN0S3Qxck1lNVJDa3h5S1NwU0ZzTllzNWZCODFocHIxd3VCTlNraA?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numeric, date, and entity claims are directly supported by the Bloomberg source
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Bloomberg source.
-  Groq Qwen: PASS - All factual claims regarding the IPO size ($3.2 billion), entity (Jio Platforms), opening date (Oct. 21), and source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-fd72a6037841
-done: 1 post(s) this run
-=== run 2026-10-17T03:56:02Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T03:18:20Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
---- special
-📰 Your 30-second morning catch-up
-
-1️⃣ 🌐 OIL HITS $110 A BARREL
-2️⃣ 🇺🇸 WALL STREET STOCKS FALL ON AI AND OIL WORRIES
-3️⃣ 🇬🇧 FTSE 100 SEES BEST WEEK IN SIX MONTHS
-
-No hype, no tips. Just the facts, simply. @FinanceHubW
-published to: website, Instagram Story
-82/171 sources returned news, 572 recent items
-108 new trusted stories, posting up to 0 this run
-done: 1 post(s) this run
-=== run 2026-10-17T02:56:25Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
