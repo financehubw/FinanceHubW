@@ -177,6 +177,12 @@ def post_news_short(item: dict) -> str:
 
 
 def main() -> None:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import ig_gate
+    if os.environ.get("IG_USER_ID") and os.environ.get("META_TOKEN") and not os.environ.get("DRY_RUN"):
+        m = ig_gate.wait_needed(os.environ["IG_USER_ID"], os.environ["META_TOKEN"])
+        if m > 0:
+            print(f"Instagram had a feed post under 2h ago; this waits {m:.0f} min (next run)"); return
     items = pending()
     if not items:
         print("nothing to post: every queued edition is already posted, stale, or missing its slides")

@@ -199,6 +199,9 @@ def main():
     ig, tok = os.environ.get("IG_USER_ID"), os.environ.get("META_TOKEN")
     if os.environ.get("DRY_RUN") or not (ig and tok):
         print("edu drawn:", folder); return
+    import ig_gate
+    if ig_gate.wait_needed(ig, tok) > 0:
+        print("edu: Instagram had a feed post under 2h ago, trying again at the next run"); return
     recent = requests.get(f"{xs.GRAPH}/{ig}/media", timeout=30, params={
         "fields": "id,caption", "limit": 15, "access_token": tok}).json().get("data", [])
     if any((r.get("caption") or "").startswith(c["hook"]) for r in recent):

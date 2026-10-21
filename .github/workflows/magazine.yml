@@ -7,7 +7,7 @@ on:
       - "social/magazine_queue.json"
       - "social/daily_queue.json"
   schedule:
-    - cron: "23 15 * * *"  # every day 8:53 PM IST: retries an edition that did not go out
+    - cron: "23 15,16,17 * * *"  # every day 8:53 PM IST: retries an edition that did not go out
   workflow_dispatch:
     inputs:
       dry_run:

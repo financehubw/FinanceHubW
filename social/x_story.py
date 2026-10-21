@@ -485,6 +485,9 @@ def feed() -> None:
         dup = next((r for r in recent if (r.get("caption") or "").startswith(head)), None)
     except Exception:  # noqa: BLE001
         dup = None
+    import ig_gate
+    if not dup and ig_gate.wait_needed(ig, tok) > 0:
+        print("briefing: Instagram had a feed post under 2h ago, trying again next run"); return
     if dup:
         print("briefing already on Instagram:", head)
         log["posted"].append({"key": m["key"], "ids": m["ids"], "ig": dup["id"], "t": time.time()})

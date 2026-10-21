@@ -303,6 +303,11 @@ def main() -> None:
     backfill()
     if os.environ.get("BACKFILL_ONLY"):
         return
+    import ig_gate
+    if os.environ.get("IG_USER_ID") and os.environ.get("META_TOKEN") and not os.environ.get("DRY_RUN"):
+        m = ig_gate.wait_needed(os.environ["IG_USER_ID"], os.environ["META_TOKEN"])
+        if m > 0:
+            print(f"Instagram had a feed post under 2h ago; this waits {m:.0f} min (next run)"); return
     item = next_item()
     if not item:
         print("queue empty: add a video to site/media/shorts/ and an entry to social/queue.json")
