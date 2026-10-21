@@ -1,3 +1,84 @@
+=== run 2026-10-21T11:11:28Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 4
+--- special
+🔔 Closing bell: what mattered today
+
+1️⃣ 🇮🇳 INDIAN BOND YIELDS HIT HIGHEST SINCE MARCH
+2️⃣ 🇬🇧 UK INFLATION RISES TO 3.5% IN SEPTEMBER
+3️⃣ 🇬🇧 UK INFLATION JUMPS TO 3.5%
+
+Follow @FinanceHubW to understand money, every day
+published to: website, Instagram Story
+103/171 sources returned news, 1218 recent items
+re-check of earlier post: 5 fail / 0 pass
+297 new trusted stories, posting up to 3 this run
+---
+🇮🇳 JIO IPO INFLOWS BOOST INDIAN RUPEE
+
+📌 Foreign money for Jio's IPO (first stock sale) lifted the rupee to 94.46 per dollar.
+📊 USD/INR: 94.46
+💡 A stronger currency usually makes imported goods cheaper.
+
+📍 India · 📰 Economic Times · ✅ 5 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/jio-platforms-ipo-linked-inflows-boost-rupee-elevated-oil-prices-spur-caution/articleshow/135089592.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that it is Jio's "first stock sale" is not directly supported by the provided sources.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS FALL AS CRUDE OIL CROSSES $110
+
+📌 Sensex dropped 143 points and Nifty slipped 0.34% as crude oil stayed above $110.
+📊 Sensex: -143 points
+
+📍 India · 📰 ANI News · ✅ 4 sources
+https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSnNWQ1FtYi1lV1BQQUZaeEFobTJlbXB4dU1XUVBhMnJtN0hCWnNRWi1NUHhqc3RWQXVwcmcxQlVTeFVyNDNzXzFwYkRfdEQyVEhMNFlHc2c0U3AtWm15b2tlN25hS3ZQbVR0cS1wWENDOGRhR3RfcVNFNV9wTTAwQlRFemVNZDFKaUlpTjhmbThrT3Y4bVVmMmlfb29JVmNoMUpfU3V1VGNiblhtZm14UFQyRVc3U0pjbnljVzdTN19zTWt5SjBvUzdhNTI2ZXRHY0dweg?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about Sensex, Nifty, and crude oil price are directly supported by the cited ANI News and other sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited ANI News source.
+  Groq Qwen: PASS - All factual claims regarding the Sensex drop (143 points), Nifty slip (0.34%), and crude oil price (> $110) are directly supported by the provided sources, and the location and source attribution are 
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-898650400b59
+---
+🇺🇸 US FUTURES RISE AS TESLA AND SPACEX EXPLORE MERGER
+
+📌 US stock futures edged higher as Tesla and SpaceX explore a merger.
+💡 A merger brings two separate companies together into one.
+#Tesla
+
+📍 US · 📰 Business Insider · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNlAyblFGLUlJSVhLQkFHWGk4QzRlMWloQUw1SXRrNUpjY0VFaGhqZXM2S3FRNWJjZHlqVHY2RHZoOTdKNkttcTJtZmIwZ2lVYXAzR3B5WHRzaVM2Y21HY2pfajN4Ym1WWkszR29Va2lkc1pFTnlJd3RZQUtvZExVNVdLd1hOOEx4VHNnaEtYN1l6SDVBNlJiQ0RtRUlRX3RTam9BN18yUWY?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post cites Business Insider as the source, but the claim that US futures rose is only supported by Yahoo Finance and Barchart, not by Business Insider
+  -> blocked by fact-check
+---
+🇮🇳 INDIA'S SENSEX FALLS 143 POINTS, NIFTY UNDER 22,850
+
+📌 The Sensex fell 143 points and the Nifty closed below 22,850.
+📊 Sensex: -143 points
+
+📍 India · 📰 Zee Business · ✅ 4 sources
+https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ2k3VVN0b2U5dnBaRE5WcDI0c21iN0lWa1ZXUVYtU0RjekJILXV0N0xOMmR4ZDE4T29ETVdralYxRnVJbGRyNHJScmYyMncxckkyeXZiYkM0Q3hsM2MyZldxbTh3cXoydWZhcjNVQXBjcDdCVmZFSlQyeVUzMFhHTm9aQnJjMGFyWlNaRV93WU5HajBoeHZ1U19ZeEFHUlhYY0x4Y1U0U2NWVHhSajI2dzNDYWg5cGNKYWxxTXB3WE5ra3lYNExqTWlDY1YxX3E5?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (Sensex down 143 points, Nifty below 22,850, location India, source Zee Business) are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Zee Business article and other sources.
+  Groq Qwen: PASS - All factual claims regarding the Sensex drop of 143 points and Nifty closing below 22,850 are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-229d191de022
+---
+🇮🇳 IMF: INDIA SHOULD LET RUPEE FLOAT
+
+📌 The IMF told India to let its currency value float freely to absorb shocks from oil prices.
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
+https://www.thehindubusinessline.com/economy/imf-advises-india-to-let-rupee-move-as-first-defence-amid-oil-shock/article71607130.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the cited IMF advice articles.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the IMF's advice to India to let the rupee float to absorb oil shocks are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-8eefa235e3af
+done: 4 post(s) this run
 === run 2026-10-21T09:17:58Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1417,84 +1498,3 @@ models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, Open
 daily cap: 12, room left in the last 24h: 3
 77/171 sources returned news, 623 recent items
 134 new trusted stories, posting up to 3 this run
-skip (off-topic or nothing new): Israeli settlers attack diplomats in West Bank one day after assault on Washington Post journalist
----
-🇮🇳 SEBI BARS CAPITAL STROKE
-
-📌 Sebi canceled the registration of Capital Stroke Investment Services and barred it for 5 years.
-#SEBI
-
-📍 India · 📰 SEBI · 🏛️ Official
-https://www.sebi.gov.in/enforcement/orders/oct-2026/order-in-the-matter-of-capital-stroke-investment-services-pvt-ltd-_105285.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (cancellation and 5‑year bar) are directly supported by the SEBI order.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the SEBI order and Moneycontrol article.
-  Groq Qwen: PASS - The post accurately reflects the source information regarding SEBI canceling the registration and barring Capital Stroke Investment Services for five years.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-46abad035d81
----
-🇨🇦 CANADA SEES HIGHER INFLATION OUTLOOK
-
-📌 The central bank expects inflation to rise because oil prices stay high.
-💡 Higher inflation means everyday goods and services cost more.
-#Canada
-
-📍 Canada · 📰 The Globe and Mail · ✅ 2 sources
-https://www.theglobeandmail.com/business/article-bank-of-canada-interest-rate-macklem-inflation-oil-prices-imf/
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the Globe and Mail article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the Bank of Canada's inflation outlook, the cause (oil prices), and the attribution to Macklem are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f8d8d0e87af9
-skip (off-topic or nothing new): Trumps Russian oil tariff waiver offers India relief, but experts warn of renewed US pressure
----
-🇮🇳 YES BANK Q2 PROFIT RISES
-
-📌 Yes Bank reported higher Q2 profit, but did not include the impact of a court ruling on AT1 bonds (special risky debt).
-📊 Yes Bank
-
-📍 India · 📰 Reuters · ✅ 4 sources
-https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV3doZnBSVzNPRFlYSlhkUGJ6eUppYi1JVXlHRThCclJrMVVGRGNYT0NlRTBJQWw2ZE1nNUZsLVVFYk9vTGx4MzBFbFlpMHROOVB4WkdMaGdfZzhVbGgzRGdxUGpuZVc0Z3NfaXF0QmFFd0lxZEJYSlNvaGVVSC1iQ1poaGFTZGlVS2hRVTByQlVuQXI0cGk1WExGSHRjNVBfU3R3VTFpcU12NHZjS0JYMkZCbk4tcm16?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about Yes Bank's Q2 profit rise and exclusion of AT1 bond ruling impact are directly supported by the Reuters source.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding Yes Bank's Q2 profit rise and the exclusion of the AT1 bond ruling impact are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: FAIL - (plain-text verdict)
-  -> blocked by fact-check
----
-🇺🇸 TRUMP WAIVES RUSSIA OIL TARIFFS
-
-📌 Trump blocked tariffs and sanctions on top buyers of Russian oil before a new law started.
-#Oil
-
-📍 US · 📰 News24 · ✅ 2 sources
-https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMk1yRllZX3ZGSFlFa21lUi1wdGw2SWwzMGVTM29hdGxHbktTaTFQcnRqbklFNVBRVXJoLWV4ejktZEJZNlhORUVMdDNVMFNLdXF3Mlhld3cxYmFBNFNLaUotbWJCNmV5a2l0ZGU3VThxellIM3lVQUN3ZDNPNmZFaDQ2MDZrVzYyV05DSVFoQWNxM0FFZDlkZVNlbTF6NURLS1ZaaVpyNWlqMWF4NEVtOXRVS002cFFVWEdvbElpYTR1UTJ4V2NlRjhWU25Nb045Und4Q1Y2akhJZVJTdXc?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post says Trump "blocked" tariffs and sanctions, but sources state he "waived" them, which contradicts the factual claim.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Delhi-bound Emirates flight hit by bird strike, delayed over 14 hours
-skip (off-topic or nothing new): Gold Price Exclusive Update - October 17, 2026
----
-🇮🇳 BURMA BURMA OPERATOR FILES FOR IPO
-
-📌 Hunger Pangs wants to sell shares to the public for the first time.
-💡 Stock sales let companies raise money from everyday investors.
-#IPO
-
-📍 India · 📰 Moneycontrol.com
-https://news.google.com/rss/articles/CBMiywFBVV95cUxPbzRSYUMwREFJQWRhYVhnRUpLeURZYW9PTW9IV3B1eDYzdWNHckdodDZQY0JmWDlOS3V2U0xjT2gtUF9wcUhRVUdNYXpWcEsxQS13ejZYZ0xfdFdoWlZSRDB2ZVN1aUxXbUJ6Vkl5UURMZ0kyWE84QzFJdmpGWGhkSFVacjMzUWIyU0FQWkNOYURhX21mTVRLMEx4UlB0VS1RTUR1dTlYUDJqamxRZ1FPYVNfZzg0Ul91bUxpVTBiQTFuMnlzaXpUY3kyZ9IBywFBVV95cUxPbzRSYUMwREFJQWRhYVhnRUpLeURZYW9PTW9IV3B1eDYzdWNHckdodDZQY0JmWDlOS3V2U0xjT2gtUF9wcUhRVUdNYXpWcEsxQS13ejZYZ0xfdFdoWlZSRDB2ZVN1aUxXbUJ6Vkl5UURMZ0kyWE84QzFJdmpGWGhkSFVacjMzUWIyU0FQWkNOYURhX21mTVRLMEx4UlB0VS1RTUR1dTlYUDJqamxRZ1FPYVNfZzg0Ul91bUxpVTBiQTFuMnlzaXpUY3kyZw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Moneycontrol.com source.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Moneycontrol source.
-  Groq Qwen: FAIL - The post claims the company 'wants to sell shares to the public for the first time,' which is an unsupported prediction of intent/outcome, whereas the source only states that draft papers were filed w
-  -> blocked by fact-check
----
-🇨🇦 BANK OF CANADA WARNS ON ENERGY AND INFLATION
-
-📌 The central bank says unstable energy costs could push up overall prices.
-💡 Higher inflation can make everyday goods and living costs more expensive.
-#Canada
-
-📍 Canada · 📰 980 Cjme · ✅ 2 sources
