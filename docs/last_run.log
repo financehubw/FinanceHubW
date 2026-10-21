@@ -1,3 +1,25 @@
+=== run 2026-10-21T17:08:03Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+101/171 sources returned news, 1047 recent items
+234 new trusted stories, posting up to 1 this run
+---
+🇺🇸 US STOCKS RISE ON AI DEMAND AND SPACEX RALLY
+
+📌 US stock markets went up led by gains in SpaceX and demand for artificial intelligence.
+📊 Dow: 52,495 (+200 pts)
+📊 S&P 500: 7,712 (+0.5%)
+#StockMarket
+
+📍 US · 📰 TradingNEWS · ✅ 2 sources
+https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ1BnMVRqM3FRRXJtR2FPUjVScmRhWkVvTDlfekJIc1Q3MS13TGdTd29ZT0dMeTRIOV9PUTVxX3NubjlZOWVfNjAwbWdsV3dvTDEtcnlCX0lOVVZNMzdScW1pczRxVzVRbjNmcFRRZkZnQWEtWEp1OWJVRWR5N1pNcDU2N1MySnhQVFZETHhrbGptc2ZiYzdDcmhGYm0xT18yMlF2cHR5Z1YtSWtUcVplZUVYXy15a1N4WExva3VPQQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and attributions to AI demand and SpaceX rally are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: PASS - All factual claims regarding stock indices, percentage changes, and market drivers are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-ba79414177cd
+done: 1 post(s) this run
 === run 2026-10-21T15:09:55Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
@@ -1476,25 +1498,3 @@ daily cap: 12, room left in the last 24h: 4
 
 📍 Vietnam · 📰 NDTV Profit · ✅ 3 sources
 https://news.google.com/rss/articles/CBMidkFVX3lxTFBURmhkdHpKcVlycG9sNENtUHI3MEJaaV9ZeUxEanhiMV9PYkV6VnJoOHF3UzZQS002SVRSNDE1RU5wRXdibFJsRlpLZ3p4ZDFtQm5ZLXktV2FyN2lOVjdXcGdacWJ0VkNFWnhjRjM3bW1tV3luUVE?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post attributes the claim to NDTV Profit, which reports Indian gold rates, not to the Vietnam.vn source that actually mentions the silver price drop in Vietnam
-  -> blocked by fact-check
-skip (off-topic or nothing new): US wants Israel to 'crack down' on settler violence in West Bank, Rubio says
----
-🇮🇳 JIO PLATFORMS RS 30,213-CR IPO OPENS ON OCT 21
-
-📌 Jio Platforms will open its Rs 30,213-crore public share sale on October 21.
-📊 IPO size: Rs 30,213 crore
-
-📍 India · 📰 Daily Excelsior · ✅ 2 sources
-https://news.google.com/rss/articles/CBMigwFBVV95cUxNRlIyb29zalFmbk9aN2J0ck1RT3BpR2VoQWFwaEZnYl9XVS1nNU5yOGFoR0ZUR2tBNnlFMi0zbDA1RnVtZmpTUnYwWEE5U2JfM01HemY2ZzVDWTlSREo2N0l6SlA4anljTW1FZC16cnJYaFZLVkkyc3lXTVpuN01yelllWdIBhwFBVV95cUxPWGRURHM3X25PdFg3YXNldlJBMDZjYS1SMHRycndmZGtWWHJWdXJ4S3FyZTNwZTRSNlZtbUpITVRveXljNUpsdXVOc1M4ZVQtUFZYck1oSDVjQ1czLXFVQTFYMk9fb2lYY1E1QjN2eXUtX3lKWVdTMm5pT25welFNb1cza001dGs?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the Daily Excelsior source.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - The factual claims regarding the IPO size (Rs 30,213 crore), opening date (Oct 21), and entity (Jio Platforms) are directly supported by the Daily Excelsior source, and the location and source attribu
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - The claim is directly supported by the Daily Excelsior source.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-3d05cb9eac75
-done: 1 post(s) this run
-=== run 2026-10-17T22:54:16Z
