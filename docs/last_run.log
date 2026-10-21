@@ -1,3 +1,46 @@
+=== run 2026-10-21T15:09:55Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+102/171 sources returned news, 1148 recent items
+257 new trusted stories, posting up to 1 this run
+---
+🌐 GOLD PRICES RISE AS OIL FALLS
+
+📌 Gold prices rose as oil prices fell and markets watched US interest rate cues.
+💡 Gold is often seen as a safe store of value during times of market shifts.
+
+📍 Global · 📰 Investing.com South Africa · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiywFBVV95cUxOeXNoNXV2LXFfYXVCOVBucEZtRjJmSUw4UUY2N2hKZ2tXSlo5QmdLSnYybjUwalhNNFl0dXlQSV9mV3dvS21lMWVXSExkY09nR0pHd2l0Xzcwa0VFOHRubWVobGYwZTlrN3FwQUg2T29ZUnVYcUhtRUw0ajNzWVBUY1BJRW1WamhhcWVPWmJzLWpFX0EtWnFBNXdTdnhsMkc1TFdrVTFMQ1VQeDlRUWNXX0szU1lsVG9mLWRGdlpMSFpFejktazFKSVQ4MA?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - Source name listed (Investing.com South Africa) does not match all cited sources
+  -> blocked by fact-check
+---
+🇮🇳 INDIA RBI RAISES KEY INTEREST RATE TO 5.5%
+
+📌 India's central bank raised its main interest rate by 0.25% to 5.5%.
+📊 Repo rate: 5.5%
+💡 Higher rates usually make loans costlier for everyday borrowers.
+
+📍 India · 📰 Economic Times · ✅ 7 sources
+https://economictimes.indiatimes.com/news/economy/policy/extent-of-rate-hike-cycle-to-depend-on-growth-inflation-outlook-rbi-governor/articleshow/135092338.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 7 sources" but the provided source list does not confirm seven distinct sources.
+  -> blocked by fact-check
+---
+🇮🇳 INDIA CENTRAL BANK RAISES KEY INTEREST RATE BY 0.25%
+
+📌 India's central bank raised its main rate by 0.25% due to rising inflation.
+📊 Repo rate hike: +0.25%
+
+📍 India · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/news/economy/policy/inflation-remains-top-of-mind-mpc-minutes-show/articleshow/135094903.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about the 0.25% repo rate hike and its inflation-driven reason are directly supported by the Economic Times source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding the 0.25% rate hike, the reason (inflation), and the source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6cc35c8836b3
+done: 1 post(s) this run
 === run 2026-10-21T13:19:16Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1455,46 +1498,3 @@ published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-3d05cb9eac75
 done: 1 post(s) this run
 === run 2026-10-17T22:54:16Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-66/171 sources returned news, 450 recent items
-85 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-17T20:57:55Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-70/171 sources returned news, 565 recent items
-102 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-17T19:02:33Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-79/171 sources returned news, 631 recent items
-129 new trusted stories, posting up to 1 this run
-skip (off-topic or nothing new): US Stock Market Prediction: Dow Jones Futures Fall, S&P 500 Futures Slide & Nasdaq Futures Point Lower Ahead of Wall Street Opening; Check Monday Market Outlook, Key Things to Watch
-skip (off-topic or nothing new): Gold prices fall for the week as US inflation fuels rate hike concerns
-skip (off-topic or nothing new): Trump's Russian oil tariff waiver offers India relief, but experts warn of renewed US pressure
-skip (off-topic or nothing new): Masked settlers attack European diplomats in occupied West Bank
-skip (off-topic or nothing new): Pump.fun Adds Hyperliquid-Powered Perpetual Futures With Up to 40x Leverage
-skip (off-topic or nothing new): CoreWeave’s Founders Have Sold $3.3 Billion of Stock Since Its IPO
----
-🇺🇸 BIG TECH EARNINGS IN FOCUS ON WALL STREET
-
-📌 Meta, Tesla, and Netflix are set to report their latest quarterly results.
-💡 Company results show how businesses and consumer spending are doing.
-#Earnings
-
-📍 US · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/stock-market-news/wall-street-week-ahead-earnings-expectations-all-eyes-on-meta-tesla-netflix-and-spacex-this-survey-also-in-focus-11792254700438.html
-  written by Gemini
-  Groq GPT-OSS: PASS - The Mint article confirms Meta, Tesla, and Netflix are slated to report earnings, matching all factual statements.
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: FAIL - The post claims the source is 'Mint' and lists '2 sources', but the provided sources are from 'mint - markets' and 'IndiaIPO' (which is not Mint), and there are three source entries listed.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Turkey confirms Hex founder Richard Heart’s arrest, says police seized $7.15 million and six cold wallets
-skip (off-topic or nothing new): India and West Indies draw T20 cricket series 2-2 after no result in rain-hit decider
-skip (off-topic or nothing new): BIS Warns Higher Bank Deposit Rates Could Cut Stablecoin Growth by 20%
-skip (off-topic or nothing new): GCash parent prices Philippine IPO at record $966m
-skip (off-topic or nothing new): Nigeria remains Africa’s third-largest economy at $386.7 billion in latest rankings, but weak naira and 63% poverty rate weigh on the former economic giant
-done: 0 post(s) this run
-=== run 2026-10-17T17:00:51Z
