@@ -204,6 +204,16 @@ def main():
         print("edu: Instagram had a feed post under 2h ago, trying again at the next run"); return
     recent = requests.get(f"{xs.GRAPH}/{ig}/media", timeout=30, params={
         "fields": "id,caption", "limit": 15, "access_token": tok}).json().get("data", [])
+    import datetime as _d
+    today_posts = [x for x in requests.get(f"{xs.GRAPH}/{ig}/media", timeout=30, params={
+        "fields": "id,caption,timestamp,media_type", "limit": 10, "access_token": tok}).json().get("data", [])
+        if x.get("media_type") == "CAROUSEL_ALBUM" and x.get("timestamp", "").startswith(today)
+        and "Follow @financehubw to learn" in (x.get("caption") or "")]
+    if today_posts:          # Instagram sometimes reports an error after it has already published
+        print("edu: today's carousel is already on Instagram")
+        if prev:
+            prev["ig"] = today_posts[0]["id"]; LOG.write_text(json.dumps(log, indent=1), encoding="utf-8")
+        return
     if any((r.get("caption") or "").startswith(c["hook"]) for r in recent):
         print("edu: already on Instagram"); return
     urls = [xs.fb_host(f) for f in files]                    # hosted on the Page CDN: no waiting for the site
