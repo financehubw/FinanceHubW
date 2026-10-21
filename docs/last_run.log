@@ -1,3 +1,7 @@
+=== run 2026-10-21T13:19:16Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-21T11:11:28Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 4
@@ -1494,7 +1498,3 @@ skip (off-topic or nothing new): GCash parent prices Philippine IPO at record $9
 skip (off-topic or nothing new): Nigeria remains Africa’s third-largest economy at $386.7 billion in latest rankings, but weak naira and 63% poverty rate weigh on the former economic giant
 done: 0 post(s) this run
 === run 2026-10-17T17:00:51Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-77/171 sources returned news, 623 recent items
-134 new trusted stories, posting up to 3 this run
