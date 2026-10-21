@@ -1,3 +1,129 @@
+=== run 2026-10-21T09:17:58Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+103/171 sources returned news, 1289 recent items
+re-check of earlier post: 3 fail / 2 pass
+274 new trusted stories, posting up to 2 this run
+---
+🇮🇳 INDIA BOND YIELDS HIT 3-YEAR HIGH AT 7.44%
+
+📌 India's 10-year bond yield (interest on debt) hit 7.44% as oil reached $110.
+📊 10-Year Yield: 7.44%
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
+https://www.thehindubusinessline.com/markets/g-sec-yields-hits-over-3-year-high-of-744-as-oil-back-to-110-a-barrel/article71606338.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the 7.44% yield, 3‑year high, and $110 oil price are directly confirmed by the cited article.
+  Groq GPT-OSS 20B: FAIL - Source name and count do not match the provided source(s).
+  -> blocked by fact-check
+---
+🇬🇧 UK INFLATION JUMPS TO 3.5% IN SEPTEMBER
+
+📌 UK inflation (price increases) rose to 3.5% in September on higher fuel costs.
+📊 UK Inflation: 3.5%
+
+📍 UK · 📰 Business · ✅ 7 sources
+https://www.euronews.com/2026/10/21/uk-inflation-jumps-more-than-expected-fuelling-rate-hike-expectations
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims 7 sources but only 6 sources are listed.
+  -> blocked by fact-check
+---
+🌏 ASIAN STOCKS RISE AFTER US GAINS
+
+📌 Asian markets climbed as strong company profits pushed up US stocks.
+📊 Kospi: +3%
+#Markets
+
+📍 Asia · 📰 The Washington Post · ✅ 12 sources
+https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRWxpZWpnSm1TOV9mZDk2MGlXblhQS2dSWnVLNDVSU2s0TFJOcDVlMzM1ckxTVk5adGtaQnQzSWFrNkF3VXA4N1gzcVdzbTc0TTNLblBZUzFYMkpmcllYMllyZ0doNzdJUnpTZ1E3dGRTa3dGVVJHT3UwbGZfSlhROWxnZlowQ1RxOTVPWG13cm1yb3ctWkx3VWVNektOWHpmcWpXd21WaHVpM1BKWVJqdDlQX2NjZDVLSlNNd3FhcnFYaUhpVU95LW5hUVBOcVJx?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims, including the 3% Kospi rise and the link to US gains from strong earnings, are directly supported by the cited Washington Post and Globe and Mail sources.
+  Groq GPT-OSS 20B: FAIL - The post claims Asian markets climbed, but the source reports the markets were mixed.
+  -> blocked by fact-check
+---
+🇳🇿 NZ DOLLAR HOLDS STEADY AMID INFLATION PRESSURE
+
+📌 The New Zealand dollar stays flat as oil costs push up inflation and rate hike bets.
+💡 Higher rates usually make loans costlier.
+#NZD
+
+📍 New Zealand · 📰 FXStreet · ✅ 2 sources
+https://news.google.com/rss/articles/CBMivgFBVV95cUxNZmxRdGlIZjRnNktxOVJBZjFqalRkM2pXT1hMMHNtMmdKeTZTRkFzaHQzYl9ORC1sQXdialQtM3BtZ05uU1RyeGk5UnM4dUdua3JZUFYtenNaT3BRY213Q1ptOE1keGFiUC16cTFidG5HeVRpekw4VHRtNGZ6NDJHdVZWOTR5RGhNUDFyeXllZVZNWE1Ia1VSWGN6TWJGdU5kRmpjaE82Z182MmZiVEVFdy1ma214OXlRYWNDeEpn?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the FXStreet article and the general explanation is correct.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the FXStreet article and the general explanation is accurate.
+  Groq Qwen: PASS - All factual claims regarding the NZD's steady performance, inflation pressure from oil, and rate hike bets are directly supported by the source headlines, and the location and source attribution are c
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-00a6ceaeef70
+---
+🇮🇳 BREAKING: JIO IPO FULLY SUBSCRIBED IN HOURS
+
+📌 Ambani's $3.2B Jio share sale sold out within hours of opening.
+📊 Size: $3.2B
+📊 Shares: 197.5M
+💡 High demand for a share sale shows strong investor interest.
+#IPO
+
+📍 India · 📰 Mint · ✅ 7 sources
+https://www.livemint.com/market/ipo/jio-has-record-ipo-fully-subscribed-within-hours-11792562581882.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, figures, and statements are directly supported by the cited Mint article and other sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: FAIL - The source states the IPO was 'oversubscribed' (bids exceeded shares), whereas the draft claims it was 'fully subscribed' and 'sold out', which is a factual contradiction regarding the status of the s
+  -> blocked by fact-check
+---
+🌍 OIL PRICES RISE ABOVE $110
+
+📌 Oil prices jumped past $110 a barrel due to supply fears in the Middle East.
+📊 Brent crude: $110.30 (+1%)
+
+📍 Middle East · 📰 Oilprice.com · ✅ 14 sources
+https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-110-as-Middle-East-Supply-Fears-Persist.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim of "✅ 14 sources" is not supported by the listed sources
+  -> blocked by fact-check
+---
+🌐 BITCOIN RISES WHILE OTHER COINS MIXED
+
+📌 Bitcoin prices went up while Ethereum and other coins showed mixed results.
+📊 $BTC
+#Crypto
+
+📍 Global · 📰 TradingPedia · ✅ 2 sources
+https://news.google.com/rss/articles/CBMilgFBVV95cUxQWEJJenVKRHljYTVsQk9Oc013d09QelV4Qks0OXhBRmgyNmR0MC1SM081WWFtRUhkcTExbXlTa1BLTURmZTRQamdEbzl2VTMtYUtDMTlJNV9EUlRRc0NqMEVqR3JLRTNnVGhtUzBLV1lLeFUtZzZzbmRTT0JlUEhMYUJvemZoNnhpSzMyS1o1MnZxanc1d3c?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about Bitcoin rising and other coins mixed are directly supported by the cited TradingPedia and Coin Gabbar articles.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: FAIL - The post claims Ethereum showed 'mixed results' and 'stabilize' (implied by context of mixed), but the source explicitly states Ethereum 'Bleed' (fell), which contradicts the claim of mixed/stable per
+  -> blocked by fact-check
+---
+🇮🇩 INDONESIA HOLDS MAIN INTEREST RATE
+
+📌 Indonesia kept its main interest rate at 5.75 percent and raised the deposit facility rate.
+📊 BI rate: 5.75%
+📊 Deposit rate: 5.00%
+#Indonesia
+
+📍 Indonesia · 📰 Newsquawk · ✅ 8 sources
+https://news.google.com/rss/articles/CBMimwFBVV95cUxOelh6MzMzNVp3cDRzTXBJWVJuTzBFamdsTm95UUJfb0dyTjU5Sm9KeW56VVgtWndUVjZSV0ozM1Bzd1ZhWFhYQmxuLXlDaUhhMV9velJKVE9seG1xa1RPNjhFSkRvMkNOSk5zMFJ3RlBoeXNNWHl5MTBhLXFUZ0h5UEdab0d4cmZOVjRtVFI2M29BdHVxNkRraExkcw?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim of "✅ 8 sources" is not supported by the listed six sources
+  -> blocked by fact-check
+skip (off-topic or nothing new): Stock Market Crash: Key factors behind the steep Sensex, Nifty sell-off on Wednesday
+---
+🇮🇳 SENSEX AND NIFTY FALL SHARPLY
+
+📌 Indian stock markets drop 1.8 percent from their highest point of the day.
+📊 Sensex: -1,400 pts
+
+📍 India · 📰 NDTV Profit · ✅ 3 sources
+https://news.google.com/rss/articles/CBMizwFBVV95cUxOeFhtMkVzRk4wakdsalQ5dHlUYW0tbjhrbTQ3ZEtGOTNmVnpuVHNIcEM3T0NobTZNWDQxZGFNOXp1N3JXWWtWUUlleC1iY0dLOFRqSjRhS3NKM3JEMHlrS0V5Si1lM3Q5Y2pCa245NHZFN3kxdkgzemVmWTBoQXdydVdac3NQd3VrNTlYOXNzMWVZckJXY0VNa1lfdUxyYm0zWXlxUDFjcnljRWJmVnhpWEJRb2JNYzlXOEpPQlp3My12SUJDejE5X09zblRUb1nSAdcBQVVfeXFMTU94cW1tTTBSOHVmdm9TNkhUeW1iQ1M3a3BzTXJnM0ljdlg0NklZeElKR0lBVnVOaW5Eb3IxRm9NZ2poTEZwZ080aVJ4VFZVejhMbUVIQUhadXNqSllhYTV0Y2pCNmE3YU1reXBSSlBFZWV1ZlltdVBhYVdib2F4ZFg0NERZaDJFSy1zR3ZYckRkNkRPcXVZeThkUDZMaEZzdWN3UUJxX3NaenJROWRnQ2lUQ3N5NW9DeWZkUVVtVnhadllGYVRyMkRDdXF0RmhFQjQyTzlPNGc?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim of a 1,400‑point Sensex drop is not supported by the cited NDTV Profit source, which reports a 1,200‑point fall.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Market's Early Rally Fizzles Out As Banking, Financial Stocks Weigh On Benchmarks
+skip (off-topic or nothing new): U.S. stock futures rise as SpaceX surges on upbeat earnings
+done: 1 post(s) this run
 === run 2026-10-21T07:28:51Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 4
@@ -1372,129 +1498,3 @@ https://news.google.com/rss/articles/CBMiywFBVV95cUxPbzRSYUMwREFJQWRhYVhnRUpLeUR
 #Canada
 
 📍 Canada · 📰 980 Cjme · ✅ 2 sources
-https://news.google.com/rss/articles/CBMimAFBVV95cUxOODBIRGVPSDlJbzhhbUtaZ2dZUnlLamN1bWFqZjFqU2xtb3dEVnJzMmFUMDFobElqYVRONlFFZ3pCQ2Fub1Fxb3VuOHFIMTFCVVlXNGZmVTVlcTI0cjZhVzI5QzQ1SGNlME54OWZxRzZPWlM0TEpidWNQQm5KT0lMZllma3hkRWVneVpod0wxOVRmREhHM0JUXw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited CJME article.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 2 sources, but the source list contains 3, which is unsupported.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Nifty 50 outlook for the week: Out of the woods
-skip (off-topic or nothing new): ‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?
-done: 2 post(s) this run
-=== run 2026-10-17T14:56:01Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T13:05:32Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T10:42:16Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T10:14:29Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T09:52:02Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T09:15:02Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T08:52:54Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T08:14:46Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T07:53:09Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T07:05:54Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T06:16:45Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T05:52:14Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T05:16:32Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-17T04:55:09Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-79/171 sources returned news, 594 recent items
-123 new trusted stories, posting up to 2 this run
----
-🇮🇳 TRUMP WAIVES RUSSIA OIL SANCTIONS
-
-📌 The US waived a proposed 100% tariff (tax on imports) on buyers of Russian oil, giving relief to India.
-📊 Tariff: 100% (waived)
-
-📍 India · 📰 Oneindia · ✅ 6 sources
-https://news.google.com/rss/articles/CBMi4wFBVV95cUxONFZERjF1cFhOTC1QdlV5SXo4ZXlNLTBBekxoUkNPNXkxN0s1LVJhSDJOSjc5WmR0LVg2Vm04S2NLV1hhQVVoTnBnQnY3ZFlKMkNWeXItQTBFeUp2YWdVQmFNcWduakdfclB1dy1KM0E1V3FIek03Rm5SbnN6UlNfWU1PVTVYNjJuSE5YLWRYelVwZFc4cklfc1A2YWRSM014ekhrTzVIX0JXanpxd3A0NDhwRk04NHVWaEtwSGdQQlE2OHZNRnktSHM1Z1ljM0dSekdBZjNrSWtDRWxlZm5lTWc0VQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - No credible source confirms Trump waived a 100% tariff on Russian oil; the claim is unsupported and likely false.
-  -> blocked by fact-check
----
-🌐 GLOBAL STOCKS SLIP AS DOLLAR HEADS FOR WEEKLY LOSS
-
-📌 Global stocks dropped and the US dollar weakened amid rate hike and AI concerns.
-💡 Lower currency value changes import costs and travel expenses.
-#Markets
-
-📍 Global · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-stocks-slip-as-dollar-heads-for-weekly-loss/articleshow/135007060.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims are directly supported by the Economic Times article and the explanation is generally correct.
-  Groq GPT-OSS 20B: FAIL - Unsupported claim about a rate hike
-  -> blocked by fact-check
----
-🌐 GOLD HEADED FOR WEEKLY LOSS
-
-📌 Gold prices are set to drop this week as traders watch US interest rate clues.
-📊 Spot gold: -0.1%
-💡 Higher rates can make gold less attractive compared to savings that pay interest.
-#Gold
-
-📍 Global · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-a-weekly-drop-as-traders-assess-fed-signals/articleshow/135007093.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The 📍 location 'Global' does not match the source (Economic Times, an Indian publication).
-  -> blocked by fact-check
----
-🇯🇵 IMF SAYS JAPAN MAY NEED FASTER RATE HIKES
-
-📌 The IMF says Japan's central bank may need to raise borrowing costs faster if prices rise more than expected.
-💡 Higher rates usually make loans costlier.
-#Japan
-
-📍 Japan · 📰 Reuters · ✅ 3 sources
-https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdWdXNFVpZFpPVGFROEVHcjFiWGdDU1BQdDlMaTJOLWllcnNNazRiSEx4M0RjZUthU09iQzQ1YTNxckczM0dWYVR0LTJwSFpEU1pzV0EzM0x5X3AzaDJVLTM2VmU1cVZnLUQ1Y1FITGE0aXNZa0N0R2ppMGt3TWUybG15QUZlY2dteFFUemdEbU51M0pIMC05MDQ0X253QXp4bEFOZjJfcW1JaUVkb05KbE1PczdQUTNlcVZR?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the Reuters IMF report
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Reuters source and the explanation is accurate.
-  Groq Qwen: PASS - The post accurately reflects the source headlines stating the IMF says the BOJ may need to tighten faster if inflation beats forecast, and the general explanation is correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-c914da62a47a
----
-🇺🇸 TRUMP WAIVES RUSSIA SANCTIONS
-
-📌 US President Trump signed an order to waive new sanctions and tariffs on Russia.
-#Russia
-
-📍 US · 📰 The New York Times · ✅ 15 sources
-https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5
-  written by Gemini
