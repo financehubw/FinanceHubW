@@ -1,3 +1,50 @@
+=== run 2026-10-21T19:13:53Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+95/171 sources returned news, 938 recent items
+199 new trusted stories, posting up to 2 this run
+---
+🇪🇺 CARDANO WARNS EU ON CRYPTO RULES
+
+📌 The Cardano Foundation asked the EU not to apply crypto laws to DeFi (decentralized finance systems) and staking.
+#Crypto
+
+📍 Europe · 📰 Cointelegraph.com News · ✅ 5 sources
+https://cointelegraph.com/news/cardano-foundation-urges-eu-against-expanding-mica-rules-to-defi-and-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - The post accurately reflects the sources' reporting that the Cardano Foundation urged the EU against expanding MiCA rules to DeFi and staking, with correct attribution and location.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d4837433bd33
+---
+🇨🇦 CANADIAN DOLLAR HITS FOUR-WEEK HIGH
+
+📌 The Canadian dollar stayed near a four-week high against the US dollar.
+💡 Stronger currency makes imported goods cheaper for local buyers.
+#Forex
+
+📍 Canada · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/market/canadian-dollar-holds-near-four-week-high-as-investors-stick-to-rate-hike-bets-11792608162613.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source says the dollar is near a four‑week high, not that it hit a four‑week high
+  -> blocked by fact-check
+---
+🇮🇳 IMF URGES FLEXIBLE RUPEE RATE
+
+📌 The IMF asked India to let the rupee float freely instead of heavy market defense.
+💡 Flexible exchange rates help absorb sudden economic shocks.
+#Rupee
+
+📍 India · 📰 Business Standard
+https://news.google.com/rss/articles/CBMiygFBVV95cUxOZllRQk9lRlNOaUVWUXpJTFVXSWpzemR0MmFwUU80RnNTM1EyQk53WXlIN01XLWljdXlibUhpdVJ0Q2VVOGJlRFA2RDhFNjVKaXFOZ3hUdzJBUlNmeTc4QmxrazhkNThkZkFPbFhBcUZkbURkVl94c0dYdUk0c2NHZk9qM1pzeGZyRTNFZno2SEl3TFduQ1RfUW1NREE1YnEzbDVrWEdtMndINi1OdFdZU0V1d3FqTzZQaHA1QlRkU1VaSmlOTnhkMTRn0gHPAUFVX3lxTE02NTRyczVweWRjX1J6OXNMWGxndVRTMVU1d3lYMWVfRk5NalFjQXpacEJFeTZZYXRrbmxtRGtlUkoyYkM4bEpPRV9qOEs4dDN2dG1YUFNaVUc5eVJhOEpoX3NkcWFlVklTQ3Mxb1hXZlZFRTZTakNoQzNXN2FHbGF0bTNZRnBFVlZnLTVwWndRQWs4SXV2eEtmNW5iem44cTFoNXlhNHU4MmR4S1VhNVVKMFFOc1F3Yl9NeUJwM2lzWkdPY2o4Q25xTHpDV0dUYw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the Business Standard article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - The post accurately reflects the source headline regarding the IMF urging exchange rate flexibility in India, and the general explanation provided is correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d0a941fda4ed
+done: 2 post(s) this run
 === run 2026-10-21T17:08:03Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
@@ -1451,50 +1498,3 @@ https://www.livemint.com/market/ai-trade-reversal-pierces-asia-s-star-picks-and-
   Groq GPT-OSS: PASS - All numerical and contextual claims are directly confirmed by the Mint and Straits Times articles.
   Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
   Groq Qwen: PASS - All factual claims regarding the 11% drop, the specific Goldman Sachs basket, the timeframe (last week), and the comparison to mid-July are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-37d8d8ff65af
-skip (off-topic or nothing new): Australian home prices tumble as tax rules, rate hikes bite
-skip (off-topic or nothing new): Venezuela expects $76 billion oil investment boost amid U.S. cooperation
----
-🇻🇳 GLOBAL FUEL PRICES RISE
-
-📌 World oil and fuel prices increased during the week.
-📊 Diesel: Below 30,000 VND/liter
-💡 Higher fuel costs usually make daily transport and goods pricier.
-#Oil
-
-📍 Vietnam · 📰 Vietnam.vn · ✅ 2 sources
-https://news.google.com/rss/articles/CBMisAFBVV95cUxQS2J5LTNDWjVuc3lCWTF3UmpXV1hCVnVqSjNOTXpXSlFpM3dzazJ4a1NpM0JoOHN4bHZyZVE5WThUMVVNb3hRNms3WDFtd1RwSDlKeFEtN3J1NkhjaEw5by1LVWZvYU9qYnFjaGdyUTl3bzVmNWRqa0M5elV1X3lZOHdSaUVfYzcybTVLU1kwUzBTT2JJRFBIM05iaVM5eVIza2J6QkNRQkktQXhCVThzWQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 2 sources" but three sources are listed, making the source count claim inaccurate.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Korea's growth momentum to strengthen amid chip boom: finance minister
----
-🇯🇵 JAPAN TO BAN UNTRACED GOLD EXPORTS
-
-📌 Japan is stopping gold exports that cannot be traced to stop tax evasion.
-#Gold
-
-📍 Japan · 📰 Nikkei Asia
-https://asia.nikkei.com/economy/trade/japan-to-prohibit-untraced-gold-exports-clamping-down-on-tax-evasion
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about Japan prohibiting untraced gold exports to curb tax evasion are directly supported by the Nikkei Asia article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Nikkei Asia article.
-  Groq Qwen: PASS - The post accurately reflects the source headline and URL regarding Japan's ban on untraced gold exports to combat tax evasion, with correct location and source attribution.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-9ecb787f1266
-done: 2 post(s) this run
-=== run 2026-10-18T01:14:00Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 4
-63/171 sources returned news, 487 recent items
-75 new trusted stories, posting up to 1 this run
----
-🇻🇳 SILVER PRICES DROP UNEXPECTEDLY
-
-📌 Silver prices saw an unexpected drop on October 18.
-💡 Lower silver prices reduce costs for buyers and jewelry makers.
-#Silver
-
-📍 Vietnam · 📰 NDTV Profit · ✅ 3 sources
-https://news.google.com/rss/articles/CBMidkFVX3lxTFBURmhkdHpKcVlycG9sNENtUHI3MEJaaV9ZeUxEanhiMV9PYkV6VnJoOHF3UzZQS002SVRSNDE1RU5wRXdibFJsRlpLZ3p4ZDFtQm5ZLXktV2FyN2lOVjdXcGdacWJ0VkNFWnhjRjM3bW1tV3luUVE?oc=5
