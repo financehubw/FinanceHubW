@@ -1,3 +1,45 @@
+=== run 2026-10-22T11:06:19Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+--- special
+🌆 Day in 30 seconds: the stories that moved money
+
+1️⃣ 🇮🇳 RBI MINUTES SIGNAL MORE INTEREST RATE HIKES
+2️⃣ 🌐 GOLD FALLS BELOW $4,100 AS US RATE HIKE FEARS GROW
+3️⃣ 🇫🇷 FRENCH BOND YIELDS HIT 24-YEAR HIGH
+
+No hype, no tips. Just the facts, simply. @FinanceHubW
+published to: website, Instagram Story
+107/171 sources returned news, 1227 recent items
+296 new trusted stories, posting up to 1 this run
+---
+🇮🇳 INDIA STOCKS FALL ON HIGHER OIL PRICES
+
+📌 Indian stock markets dropped because crude oil prices went up.
+📊 Sensex: -450 pts
+💡 Higher oil prices can raise everyday costs like fuel and transport.
+#Nifty
+
+📍 India · 📰 Moneycontrol.com · ✅ 10 sources
+https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRzVaOTNoRlFEVldUMWpzckdZN2FXSTJLM1lKczdkUm5xMTZhTnQwcUlEbkRpaVd6RU1TZGhwVmFaLVNmcWItZHZJX1BpLW1HTFpaLVZqdE1FbjQyZklDNVF0MDBudi02d21uckwzNkVfZ1A0dVJ2QkhnZlFTMFl4ODBldnIwSHhWSVl3QlNnd3lqR0xNTUpQbzVRc2lsdnBaMHJhT2xBb2dtYlFEY3dZWHZhY0NwSHdBcU5MVzlBd1RHLTl0RFZLdVhaYVNhdHVGNUVNZkRfcXBzOG9Rc01mZVNGVzJIVkFBeDJucnJwdlVGVzVkSFdz0gH8AUFVX3lxTFBhTnRRZ19nMjJ2ZTRnaENHY25FNjFRSnZxZFhiczFFRWlSNUEzV182Q25sMTU3M0NyVFhUOXF0QXJBSVVSSGoxM3lJNm1ZVUc0clJhRzFWQ0hnWTJ4aGRDTkVEREc4UUduRldFaW80Z0RWRmpMaTRaTmo2YzZBNDhDaE5RWVEteEM5eXhpMjdsUXVPUWkwZmZmZW1CRTl5UUFtRnRLUG00Ui1BSmNRbmVsRUNaajhMcEYxUHVWX3pLOUl5eFJ4RmwwLVh5ZWFnZ1FKREVFWTVTSVpKX3V0UFlkV2swbzJLWVZRVEpxY2lsQ0JwWVhrYktXSFd2eA?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The exact Sensex decline is contradictory – some sources report a 460‑point drop, not the 450 points claimed.
+  -> blocked by fact-check
+---
+🇮🇳 RUPEE FALLS AFTER EIGHT DAYS
+
+📌 The Indian rupee dropped 0.4 percent to 94.8175 per dollar as oil prices climbed.
+📊 Rupee: 94.8175/$ (-0.4%)
+
+📍 India · 📰 Economic Times · ✅ 5 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-snaps-eight-day-rally-as-oil-climbs-to-highest-since-may/articleshow/135115702.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and context are directly confirmed by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the rupee's movement, closing rate, percentage change, and the cause (oil prices) are directly supported by the sources, and the location and source attribution are correc
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-2e4db02ffcb8
+done: 2 post(s) this run
 === run 2026-10-22T09:14:24Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1456,45 +1498,3 @@ https://www.cnbc.com/2026/10/18/hedge-funds-bond-market-turmoil.html
 🇻🇳 VIETNAM SIGNS TRADE PACT WITH EUROPE
 
 📌 Vietnam signed a free-trade agreement with European countries like Norway and Switzerland.
-
-📍 Vietnam · 📰 The Business Times · ✅ 5 sources
-https://news.google.com/rss/articles/CBMiygFBVV95cUxOeTA3dUpFOHRucF9ER1JxcVBmUHN3aUJxR2VlZEZFa0FfMzVXSXlRT2wxLWw1SDQweG1vQ3R0Uzhxd0hYZHI5b3NPUzdNLWRnNTBKSWdBR2wxcDhvVXF6MU9rT1RjdDI2ZnpHLTBPV1Axa3JxMHRaX21qd2cyZExCSXZCN1daRGlIY0s4MGdQYmlxbDJvVmVlTFUzb0lzMHZRcG1QaGpxMTNvYzJuYXdXczZmejA1ckFyM1djR19fcXByUjV0M1hVQXpR?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Business Times source
-  Groq GPT-OSS 20B: FAIL - The post claims there are 5 sources, but six are listed, so the source count is unsupported.
-  -> blocked by fact-check
----
-🌐 OIL HITS $110 A BARREL
-
-📌 Oil prices hit $110 a barrel for the first time since May.
-📊 Oil: $110 a barrel
-💡 Higher oil prices usually make everyday transport and goods costlier.
-#Oil
-
-📍 Global · 📰 The Peninsula Qatar · ✅ 2 sources
-https://news.google.com/rss/articles/CBMinwFBVV95cUxOSDRGTFdHLUNFbThjcDJwN1JqWk1KV2R3dmtVY3JDbnk1cjVtQU9wRkdKS1k0Nl9xMDZSN1dSWHRGLUVyaDdocnB3dTFZNzk4dFRnUW8xTG5ZbVc1MkY1OUY5MTVCRWp4TldnSG13Ulo1SjB3b1BJcmstUm9JOHB3ZFNQQnExd1MxNGhXVGotWnlKV2k4dC12U21lMVJNbFk?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The 📍 location says Global but the source is The Peninsula Qatar, causing a mismatch
-  -> blocked by fact-check
-skip (off-topic or nothing new): Rubio says Trump to take up to 60 days to weigh Russia sanctions
-skip (off-topic or nothing new): Heat pumps and insulation would cut UK living costs more than new oilfields, study suggests
-skip (off-topic or nothing new): Ledger crypto wallets compromised in hardware attack linked to $90M theft
----
-🇸🇦 SAUDI HELICOPTER CRASH KILLS TWO
-
-📌 A helicopter crash in Najran killed two crew members.
-#Saudi
-
-📍 Saudi Arabia · 📰 All News · ✅ 2 sources
-https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about the Saudi helicopter crash in Najran killing two crew members are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the listed sources.
-  Groq Qwen: PASS - The factual claims regarding the location (Najran), event (helicopter crash), and casualties (two crew members) are directly supported by the provided sources, and the metadata matches.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-7ada5c39b06e
-done: 3 post(s) this run
-=== run 2026-10-18T05:03:02Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
-73/171 sources returned news, 545 recent items
