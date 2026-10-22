@@ -1,3 +1,118 @@
+=== run 2026-10-22T13:29:45Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+101/171 sources returned news, 1181 recent items
+276 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US STOCKS FALL AS OIL PRICES CLIMB
+
+📌 US stock futures dropped while oil prices rose as investors weighed big tech earnings.
+💡 Rising oil prices can lead to higher fuel and transportation costs.
+#Stocks
+
+📍 US · 📰 Yahoo Finance · ✅ 8 sources
+https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN25FM2VQb2hlbTFoTl9SQmp3QzhBdnhER0NValF0Wm9Fdml5M2taT2NGQldFeFE5ZXRLbDBVZU5yOE9WdDdxRFVQZ3Q3LVNxbkRyUC01OWJ3eHREZ3RnZE1YR2dsQm9taFpsT3NlWkl3WTBNaGppRi1ZRmdxaUdEX2d2VWhPR19IZUN0TTdfVzBFNm8yZ0wzVFRDZUgzbnpTd0ZhVy1zcmZjRGlYZ2NmdGJFNTFydDFzLUZNYVBXNXFDUQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims “✅ 8 sources” but the listed sources total fewer than eight.
+  -> blocked by fact-check
+---
+🇺🇸 NASDAQ FUTURES TUMBLE OVER 500 POINTS
+
+📌 Nasdaq futures dropped over 500 points and Dow futures fell 200 points before the open.
+📊 Nasdaq futures: down over 500 pts
+
+📍 US · 📰 Invezz · ✅ 4 sources
+https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVGY0SGpnSmxTOUdMV213Ulh4dlVSaUNqSFhZMjN3ZjR6U3kyd3ROcE1vQ0otT1prOWNINVBlWkF0VDBaaEozVThXMlBGQjYxd3prdnM1dmhySFJRYUkzMWMxNEhvN0lCOUNrSUpmR29wUG1aZWFTdFhQRk53S3BXelNrXzd4SU90UWdMc0NoX1hZcjRlSGFyM1dvYVFjU0JCbWp2RXUyc20tM1NCOFRhMlBJN3RCNmdQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and directional claims about Nasdaq and Dow futures are directly confirmed by the Invezz source.
+  Groq GPT-OSS 20B: PASS - All numerical and directional claims are directly supported by the cited sources.
+  Groq Qwen: FAIL - The source title states Nasdaq futures crashed over 500 points, but the post claims Dow futures fell 200 points, which is not supported by the provided source titles (one mentions Dow slipping 200 poi
+  -> blocked by fact-check
+---
+🇮🇳 🔄 UPDATE: INDIAN BOND YIELDS TOP 7.45% AS OIL SURGES
+
+📌 India's benchmark bond yield topped 7.45% as oil prices rose to $112.50 a barrel.
+📊 Benchmark bond yield: >7.45%
+
+📍 India · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/bonds/indian-bonds-tumble-on-oil-surge-rbi-rate-hike-fears/articleshow/135118875.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the yield exceeding 7.45% and oil at $112.50 are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the bond yield exceeding 7.45%, oil prices reaching $112.50, and the source attribution are directly supported by the provided text.
+---
+🇺🇸 SOFI LAUNCHES TOKENIZED BANK DEPOSIT FOR CRYPTO
+
+📌 SoFi launched tokenized deposits (digital bank money) with $250,000 FDIC insurance.
+📊 $SOFI: FDIC insured up to $250,000
+
+📍 US · 📰 The Block · ✅ 4 sources
+https://www.theblock.co/news/business/2026-10-22-sofi-fdic-insured-tokenized-deposit-421916
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post incorrectly labels the token as $SOFI, which is not supported by the sources (they refer to the SOFIE token).
+  -> blocked by fact-check
+---
+🇯🇵 JAPAN CORPORATE LOAN DEMAND RISES AHEAD OF BOJ MEETING
+
+📌 Japanese companies are borrowing more money despite interest rates at 1.25%.
+📊 BOJ interest rate: 1.25%
+
+📍 Japan · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-japanese-banks-see-rising-corporate-loan-demand-ahead-of-boj-meeting/articleshow/135117826.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about rising loan demand and the 1.25% BOJ rate are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the rise in corporate loan demand, the 1.25% interest rate, and the source attribution are directly supported by the provided text.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-super-vl:free returned an empty reply)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-249859758371
+---
+🌐 CRYPTO GAINS WIPED OUT AS OIL STAYS OVER $111
+
+📌 Crypto prices lost recent gains as crude oil stayed above $111 a barrel.
+📊 Oil: Over $111 a barrel
+
+📍 Global · 📰 Yahoo Finance · ✅ 2 sources
+https://news.google.com/rss/articles/CBMinwJBVV95cUxOYVJERHlwcFZYdnRNUzlnQmg4dmh5RVF3cDB3d29tNy1zMzBQdHBKOUxIc3ZYdzFha2Z2NnVEWV9JUUVqSURyOXZNUHZFaHJHUS1jeV93Y3JJa01PRXB0TmZmalhvbEZJOEc5eHdBOGVQVllPLWxSTkxhZ2VpdGptQm1QR09FNnk1VXRFUDZEU0wzNV9sNWJ2Z2M4c1RYVFdNbXoya2tpRjBDR1Q0ZGMzcUVqZmxVNFNWZGZxUERmbmZ2d1dKdVVZbjFVbGs5WWJQUEJhRUxiMDlYbjRRNHhxT0tvMndjRVdCdjZDLUVldlNxRnNqVU9RZkw0V0NCMzk1dXpZalFUY1R3TGpZUnZ1cTFOLTJnZTNudUtldmtFaw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about crypto losing gains and oil staying above $111 are directly supported by the Yahoo Finance source.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Yahoo Finance source.
+  Groq Qwen: PASS - The factual claims regarding crypto gains being wiped out and oil prices staying over $111 are directly supported by the provided Yahoo Finance source titles, and the location and source attribution a
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-5c4411107fde
+skip (off-topic or nothing new): Earnings call transcript: Metso posts strong q3 2026 orders, stock slips
+skip (off-topic or nothing new): Earnings call transcript: Rajratan Global Wire falls 10.5% after q2 2026 results
+---
+🇪🇺 COINBASE FINED €3.25M IN IRELAND
+
+📌 Ireland's central bank fined Coinbase for mixing customer money with other funds.
+📊 Fine: €3.25 million
+📊 $COIN
+#Crypto
+
+📍 Europe · 📰 Bitcoin Magazine · ✅ 4 sources
+https://bitcoinmagazine.com/news/central-bank-of-ireland-fines-coinbase
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the €3.25 million fine, the Irish central bank, and the reason for the fine are directly supported by the cited Bitcoin Magazine source.
+  Groq GPT-OSS 20B: FAIL - The claim that there are 4 sources is incorrect; the post lists five distinct sources.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Nifty 50 Outlook: Crude Above $100, US Midterms, Sensex Risk
+---
+🇹🇷 TURKEY CUTS INTEREST RATE TO 36%
+
+📌 Turkey lowered its main interest rate (the cost of borrowing money) by 100 basis points to 36%.
+📊 Rate: 36% (-1%)
+
+📍 Turkey · 📰 Investing.com Nigeria · ✅ 4 sources
+https://news.google.com/rss/articles/CBMiwwFBVV95cUxQejJXTUtNZTRoQ0lwNEQtd0pGRFVaaHIwbTVGdHZMNTNYSGJwX25BcmJJd21sYS1EallEVE1JTUIyamVkcWE1eHpMWnBxZzNmekkwZk4wVlFsSXR1RHoyTGhMZXl2bGN6RExtUm44dmRZdFpiYTJ0TXJuaUplVHRKcmttU0FZWWRlT0hrTEpTUzBBdDc3SUQ5T0pLQUJNX2FJQ1hMam1OaTROU2hKcGM1NGhrWmJQQWdVaHdaS3FfNVVoUms?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the 100‑bp cut to a 36% rate are confirmed by the cited sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the interest rate cut magnitude, new rate, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-879fddae281c
+done: 3 post(s) this run
 === run 2026-10-22T11:06:19Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1383,118 +1498,3 @@ https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-
   -> blocked by fact-check
 skip (off-topic or nothing new): Q2 earnings, FII flows, global yields, crude prices to drive Indian stock market next week
 skip (off-topic or nothing new): Today’s Gold Rate in India October 18: Gold prices steady in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur (Other Cities)
-skip (off-topic or nothing new): Tencent Holdings Limited (0700.HK) stock price, news, quote and history
-skip (off-topic or nothing new): 84% Stocks In Correction, Yet S&P 500 At Record Highs: What's Behind The 'Bull-Bear' Market?
-skip (off-topic or nothing new): India needs policy credibility and continuity to sustain FDI as strong growth alone is not enough, says KIEP expert
-skip (off-topic or nothing new): BTC, ETH, XRP Recover From a Flash Crash as More Volatility Looms: Weekend Watch
----
-🇮🇳 RELIANCE JIO PLANS HUGE IPO
-
-📌 Reliance Jio plans a ₹30,188-crore IPO to help pay off company debts.
-📊 IPO size: ₹30,188 crore
-📊 Commitments: ₹2.5 lakh crore
-#Reliance
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/ipo/reliance-jio-ipo-lic-leading-mfs-amcs-and-global-investors-eye-issue-say-reports-check-latest-gmp-price-today-11792299184449.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, purpose, location, and source attribution are directly supported by the Mint article.
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: PASS - All factual claims regarding the IPO size, commitments, purpose, and source attribution are directly supported by the provided text.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All factual claims in the post (IPO size, commitments, purpose of proceeds) are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-0b4fe4d95fdc
-skip (off-topic or nothing new): US ambassador to Israel condemns settler attack on US journalist, and other Mideast news
----
-🇺🇸 US DOLLAR FALLS
-
-📌 The US dollar drops as markets expect no more interest rate hikes.
-💡 A weaker currency can make imported goods cost more.
-#Forex
-
-📍 US · 📰 The Business Times
-https://news.google.com/rss/articles/CBMiygFBVV95cUxOemFMZ1BmYVROcm1yM3JEOXFsNDE5QVZISjU1SWhVMWZpNGtnZnl2bFlXbTV4c0lWM0JYLTdZcW5GVWFjaDJEbENqek5rRVhFdHBybEkzemtKcGoxOUpjWkxfLUNjQkxWX0RzN1l4WGtBTUlLOHhGZEgxeUZyTVNJY2dOc3Z1OEMxWC1zWFY3emp2dDE2a0EtZU9jenVuLW5QVVdNaF9ab1NJampJSnJoLUtlS3c1OWs5bWxLTHpEOUp4U2ZnS1ZESTBn?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the Business Times article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - The post accurately reflects the source headline stating the dollar falls as Fed hike bets fade, and the general explanation is correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-74232db64d22
-done: 2 post(s) this run
-=== run 2026-10-18T07:14:24Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 5
-83/171 sources returned news, 632 recent items
-136 new trusted stories, posting up to 3 this run
----
-🇮🇳 GOLD PRICES RISE IN INDIA
-
-📌 MCX gold prices rose as cities across India updated their local rates.
-📊 MCX Gold: +₹1.48 lakh
-💡 Buying gold jewelry and coins becomes more expensive for shoppers.
-#Gold
-
-📍 India · 📰 INDToday · ✅ 3 sources
-https://news.google.com/rss/articles/CBMidkFVX3lxTE9pTHFGTENCc1JmcEVqbEdKXzA5YlctVVlLamZCZ2xiT3ZCSU5fTk90dDh1QU5pOFcwQ3lCMEZSZXlaM09aai1ZRExoay1ZeDcyUjhPNnQ3ZnlCQkNkZ1RmNDNIeEFqeGlsdGdQT3ZrcHk1TkdRLUE?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The MCX price rise claim is sourced to INDToday, but the rise (+₹1.48 lakh) is reported by The Sunday Guardian, not INDToday.
-  -> blocked by fact-check
----
-🇮🇳 FOREIGN INVESTORS PULL ₹52,100 CR FROM INDIAN STOCKS
-
-📌 Foreign investors pulled ₹52,100 crore from Indian shares so far in October.
-📊 October FPI outflows: ₹52,100 crore
-
-📍 India · 📰 Economic Times · ✅ 4 sources
-https://economictimes.indiatimes.com/markets/stocks/news/fpis-pull-out-rs-52100-cr-from-equities-in-oct-so-far-amid-global-headwinds/articleshow/135024995.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about the ₹52,100 cr outflow in October are directly supported by the Economic Times source.
-  Groq GPT-OSS 20B: FAIL - The claim that the post cites 4 sources is unsupported; the listed sources total more than four.
-  -> blocked by fact-check
----
-🇮🇳 TOP 9 INDIAN FIRMS ADD ₹3.65 LAKH CRORE IN A WEEK
-
-📌 Nine of India's top 10 firms added ₹3.65 lakh crore in total market value last week.
-📊 Top 9 firms gained: ₹3.65 lakh crore
-
-📍 India · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/markets/stocks/news/mcap-of-nine-of-top-10-most-valued-firms-surges-by-rs-3-65-lakh-cr-tcs-shines/articleshow/135024970.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about nine top‑10 Indian firms adding ₹3.65 lakh crore in a week are directly confirmed by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
-  Groq Qwen: PASS - All factual claims regarding the number of firms, the total market value increase (₹3.65 lakh crore), the timeframe, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-bfc4580dae6e
----
-🌐 BITCOIN STRUGGLES ABOVE $80,000
-
-📌 Bitcoin is struggling to stay above $80,000 as large holders move funds.
-📊 $BTC: Above $80,000
-
-📍 Global · 📰 Yahoo Finance Singapore · ✅ 4 sources
-https://news.google.com/rss/articles/CBMiigFBVV95cUxPVnl4bVpvQ2Z2SHNaeS1rVi10YjVEMFlNNS1iSmJCUnJkTmVQWmQ0aG9QUG9vS3BKMU51SmZEMDZ5YTJtWnA1eW5VcEw2cWoxa1UzRHVSa2lRb1dXOEEtN3VxdE5mQU1UR0c1WlJKN1l5SDNGTkZjVE1Yb1RRSWtfRm5GaFlIbzBZcmc?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about Bitcoin's struggle above $80,000 and whale transfers are directly confirmed by the cited Yahoo Finance Singapore article.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding Bitcoin's price level and whale activity are directly supported by the source headlines, and the location and source attribution match the provided data.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All claims in the draft are directly supported by the four identical Yahoo Finance/All News/Investing.com headlines.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-0c49377c0014
----
-🇬🇧 BANK OF ENGLAND WARNS OF BOND MARKET SHOCK RISK
-
-📌 The Bank of England warned hedge fund activities raise the risk of a bond market shock.
-#BankOfEngland
-
-📍 UK · 📰 International: Top News And Analysis · ✅ 4 sources
-https://www.cnbc.com/2026/10/18/hedge-funds-bond-market-turmoil.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about the Bank of England warning on hedge fund risk are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 4 sources but lists 5, which is unsupported.
-  -> blocked by fact-check
----
-🇻🇳 VIETNAM SIGNS TRADE PACT WITH EUROPE
-
-📌 Vietnam signed a free-trade agreement with European countries like Norway and Switzerland.
