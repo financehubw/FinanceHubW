@@ -1,3 +1,7 @@
+=== run 2026-10-22T15:08:51Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-22T13:29:45Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1494,7 +1498,3 @@ skip (off-topic or nothing new): Earnings, crude oil, Jio IPO key monitorables f
 📍 India · 📰 Economic Times
 https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms
   written by Gemini
-  Groq GPT-OSS: FAIL - The post calls the outflows a "record," which is not stated in the source article.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Q2 earnings, FII flows, global yields, crude prices to drive Indian stock market next week
-skip (off-topic or nothing new): Today’s Gold Rate in India October 18: Gold prices steady in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur (Other Cities)

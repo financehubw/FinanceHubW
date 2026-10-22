@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "type": "daily",
+   "date": "2026-10-22",
+   "label": "Thu 22 Oct 2026",
+   "title": "US market drops",
+   "summary": "Stock futures fell before Wall Street opened for trading.",
+   "base": "media/daily/2026-10-22/",
+   "first": 1,
+   "slides": 7
+  },
+  {
    "type": "briefing",
    "date": "2026-10-21",
    "label": "Wed 21 Oct 2026",
