@@ -1,3 +1,70 @@
+=== run 2026-10-22T09:14:24Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+103/171 sources returned news, 1251 recent items
+278 new trusted stories, posting up to 3 this run
+---
+🌐 GOLD FALLS BELOW $4,100 AS US RATE HIKE FEARS GROW
+
+📌 Gold dropped below $4,100 and silver fell 3.6% as oil prices stoked inflation fears.
+📊 Gold: below $4,100/oz
+
+📍 Global · 📰 Profit by Pakistan Today · ✅ 4 sources
+https://news.google.com/rss/articles/CBMizAFBVV95cUxNQVllclFZWTNXR2lGVzRxd2VyUzB4dTY1anJRU0EzaWZGXzdfZ2hfeEhwd2xMcWVJXzdDalYyeDZzd2t4QjlwWHFxLWdDUjNMZjFOcTBDbkh1RFE5d2lkcHRXNi1NUHU0M0dFQ2R0M3U0bVRYQ0NuZVZCS2dTeG9sN2pvOWZfTGhqc3ozVmtjR1A2akM4Y2pma1ByZUJlODZ5emdsR3RORmEwMXhTd3VRNTVieTc2eVBhRUkzeTN4NGhoazN2T1cwVllwbmc?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and context are directly supported by the listed sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources
+  Groq Qwen: PASS - All factual claims regarding gold price, silver drop, and the cause (oil prices/inflation/rate hike fears) are directly supported by the provided sources, and the location and source attribution are c
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-5c4a7d5efd6f
+---
+🇮🇳 RBI MINUTES SIGNAL MORE INTEREST RATE HIKES
+
+📌 RBI meeting notes signal more rate hikes ahead after raising repo rate to 5.50%.
+📊 Repo rate: 5.50%
+
+📍 India · 📰 Economic Times · ✅ 5 sources
+https://economictimes.indiatimes.com/markets/bonds/indian-bonds-steady-after-rbi-minutes-signal-more-rate-hikes/articleshow/135109590.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (repo rate 5.50% and minutes indicating further hikes) are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
+  Groq Qwen: PASS - All factual claims regarding the repo rate (5.50%), the signal for further hikes, the location (India), and the source (Economic Times) are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6256af5d62d0
+---
+🇮🇳 RBI WEIGHS INFLATION RISKS AMID RISING COSTS
+
+📌 RBI weighs inflation risks as YES Bank predicts a 50 bps interest rate hike.
+📊 Predicted RBI rate hike: 50 bps
+
+📍 India · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/news/economy/indicators/indias-interest-rate-gap-with-g7-in-focus-as-rbi-weighs-inflation-risks-report/articleshow/135113382.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about RBI inflation concerns and YES Bank's 50 bps hike prediction are directly confirmed by the Economic Times article.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the RBI's focus on inflation, the 50 bps rate hike prediction by YES Bank, and the source attribution are directly supported by the provided text.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: FAIL - The source forecasts a cumulative 50-basis-point RBI rate hike, not a single 50 bps hike, and only one distinct Economic Times article is provided.
+  -> blocked by fact-check
+---
+🇫🇷 FRENCH BOND YIELDS HIT 24-YEAR HIGH
+
+📌 France's 10-year bond yield (interest rate) rose to 5.09%.
+📊 French 10Y yield: 5.09%
+💡 Higher rates usually make borrowing more costly for governments.
+#Europe
+
+📍 France · 📰 The Guardian · ✅ 2 sources
+https://www.theguardian.com/business/live/2026/oct/22/barclays-profits-jump-looming-bank-tax-french-bond-yields-hit-fresh-24-year-high-latest-live-updates
+  written by Gemini
+  Groq GPT-OSS: PASS - All figures and statements are directly confirmed by the Guardian source
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: PASS - All factual claims regarding the 5.09% yield, the 24-year high, and the source attribution are directly supported by the provided text.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - The 24-year high and 5.09% French 10-year yield are directly reported, and the borrowing-cost explanation is generally correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-3bb7005f9486
+done: 3 post(s) this run
 === run 2026-10-22T07:22:22Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1431,70 +1498,3 @@ done: 3 post(s) this run
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
 73/171 sources returned news, 545 recent items
-115 new trusted stories, posting up to 2 this run
-skip (off-topic or nothing new): Gold Rate Today In Bankura, Check Live 22 And 24 Carat Gold Price
----
-🇫🇷 FRANCE VOTES TO TAX CRYPTO STABLECOIN TRADES
-
-📌 France's lower house voted to tax gains when crypto is swapped for stablecoins.
-💡 Swapping one crypto for another may trigger a tax bill.
-#Crypto
-
-📍 France · 📰 bloomingbit · ✅ 2 sources
-https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GYUYwODlITmt1OEFRWWZCMm1jdTgtUm44X3RucUwzS3RpU1M4cWNTbzVtQjN1OE51OVlCQUxHRmhYVEtNTFBiUEtjQy1MWUx6dVVTbg?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - Unsupported claim about swapping one crypto for another
-  -> blocked by fact-check
----
-🇮🇳 AXIS BANK Q2 PROFIT RISES 38% ON LOAN GROWTH
-
-📌 Axis Bank reported a 38% jump in quarterly profit due to higher loan demand.
-📊 Q2 Net Profit: +38%
-
-📍 India · 📰 Mint · ✅ 4 sources
-https://www.livemint.com/market/stock-market-news/icici-bank-vs-hdfc-bank-vs-axis-bank-which-stock-to-buy-sell-or-hold-after-q2-results-11792290916045.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All figures and statements are directly confirmed by the cited Mint and Economic Times articles
-  Groq GPT-OSS 20B: FAIL - The post claims there are 4 sources, but the provided list contains 5 sources.
-  -> blocked by fact-check
----
-🇮🇳 INDIAN STOCKS GAIN FOR SECOND DAY
-
-📌 Sensex and Nifty rose for the second day in a row, led by IT, auto, metal, and bank shares.
-📊 Nifty support: 22,750-22,800
-#Nifty
-
-📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/stocks/news/can-nifty-sensex-rally-further-or-will-bears-reign-in-5-factors-to-decide-market-action-next-week/articleshow/135023916.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the second‑day rise, sector leaders, and Nifty support level are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the market movement, leading sectors, support levels, and source attribution are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-5ccdeb0feb1c
-skip (off-topic or nothing new): Rubio wants ‘crackdown’ on settler violence after US journalist attack
----
-🇪🇺 ECB MAY RAISE RATES BY MID-2027
-
-📌 The European Central Bank might hike rates (the rate banks borrow at) by 50 bps (0.5 percent).
-📊 Rate hike: 50 bps
-💡 Higher rates usually make loans costlier.
-#ECB
-
-📍 Europe · 📰 Times of Oman · ✅ 2 sources
-https://news.google.com/rss/articles/CBMiuwFBVV95cUxONGp5aDdVeFNjWG5qQ2Y4TlBOMExObmlWYjBHZ2ZfWldZZ1NTbmZDTGx2ZmlqY1o1S05pQ3Z0UE56YXNpbFk0em1JTmU0SGJfRnF4VjRFN1ZwZmhfaWFjQWZodWhXTmtWM3pncGRjZHN3R3lJcHQ1U1RKZ1Zmam1xeHF5eGExMGtyR1BMYk9rbHBxUmIyQkFKb2N4bUFGb3ZkMHloMnV0YWk3Z0RtWHI1bEw2Q3hKVGotYl9j?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the Times of Oman article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Times of Oman source and the explanation is accurate.
-  Groq Qwen: PASS - The post accurately reflects the headline claim from the Times of Oman source regarding the potential 50 bps rate hike by mid-2027, and the general explanation in the 💡 line is factually correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-849e01554039
-done: 2 post(s) this run
-=== run 2026-10-18T03:00:32Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 5
-70/171 sources returned news, 508 recent items
-112 new trusted stories, posting up to 2 this run
-skip (off-topic or nothing new): Form 4 iShares Core S&P Small-Cap ETF For: 17 October
----
