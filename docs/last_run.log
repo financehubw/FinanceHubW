@@ -1,3 +1,9 @@
+=== run 2026-10-22T19:12:21Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+96/171 sources returned news, 940 recent items
+225 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-22T17:07:45Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
@@ -1492,9 +1498,3 @@ https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcnZ2cG03TlBlNDh5YVYwbUhya0t
 
 📌 Latvia's parliament plans to let citizens pay taxes using crypto by 2027.
 📊 Target year: 2027
-
-📍 Europe · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News
-https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-2027-as-parliament-overhauls-crypto-taxation
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (Latvia's parliament planning crypto tax payments by 2027, target year, location, and source) are directly supported by the cited CoinDesk article.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
