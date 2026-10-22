@@ -1,3 +1,7 @@
+=== run 2026-10-22T01:12:49Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-21T22:59:58Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://news.google.com/rss/articles/CBMizAFBVV95cUxNZEo1a1BwY2lmYmZYbzRmeXBPY1h
   -> blocked by fact-check
 skip (off-topic or nothing new): Iran says two tankers catch fire after hitting mines in Strait of Hormuz
 skip (off-topic or nothing new): India can't shift from Russian oil 'overnight': Rubio explains Trump's 60-day pause on sanctions, tariffs
----
-🌏 ASIA AI STOCKS TUMBLE ON US TECH SELLOFF
-
-📌 Asia's AI hardware stocks fell 11% last week in their biggest drop since mid-July.
