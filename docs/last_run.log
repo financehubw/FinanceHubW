@@ -1,3 +1,7 @@
+=== run 2026-10-22T03:05:05Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-22T01:12:49Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ skip (off-topic or nothing new): Form 4 iShares Core S&P Small-Cap ETF For: 17 O
 📍 US · 📰 Business Standard · ✅ 7 sources
 https://news.google.com/rss/articles/CBMizAFBVV95cUxNZEo1a1BwY2lmYmZYbzRmeXBPY1hJRnVvUW5sMXhlOWFGVkpWLW1MSnl5Ymdick00ajlEYU43VnN0OFBteHMtZGtXQlZEdDY4Ymp4RUlHalN4MVJLOWo0T3Vuc1BlUWtTMlIwT1M3dlQ1dDAxaldPcjJPeDI0bzNabGtMN2tsMjFVTGdXeWhYMEZDcVhGVGN2NmZBb09LZ2tNYUdsWnRISjRTbWJoeXYxU0pFNTk3YVJyT3lkaG9uVEZ0VkI1WUhHSE1PNGvSAdIBQVVfeXFMUDFVdlBkbUp3TzBmSHBQaXdSMkRBZGJwSDFQUDJzcXlKM05MTEk2RW9kbUJiNTh5d0pobU9YLVRIbVlKRlpjSDY5ejZDX0F6eFo4Vkl1QWQyRkpzVGZISENhS1kzbEo0UUx6eklabzdLNE9XU3JWNC1ZNGJyU053NTZ4eWh5OWxxekdBSzZCNGRNX1VSYWRkV2UwMzhOUmsweGQxVWRVa21laS0tQi1tMUhMaGs5T2hTeXAtTTVrRXkyWTlkN0REMk5RSVMwX3VYdEp3?oc=5
   written by Gemini
-  Groq GPT-OSS: FAIL - The 📍 tag (US) does not match the source (Business Standard, an Indian outlet) and the post claims 7 sources while only 6 are listed
-  -> blocked by fact-check
-skip (off-topic or nothing new): Iran says two tankers catch fire after hitting mines in Strait of Hormuz
-skip (off-topic or nothing new): India can't shift from Russian oil 'overnight': Rubio explains Trump's 60-day pause on sanctions, tariffs
