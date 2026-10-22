@@ -1,3 +1,34 @@
+=== run 2026-10-22T21:05:42Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+93/171 sources returned news, 810 recent items
+209 new trusted stories, posting up to 1 this run
+---
+🇺🇸 US TECH STOCKS TUMBLE ON AI CONCERNS
+
+📌 The Nasdaq slid 2.5% and the S&P 500 fell 1% as worries grew over massive AI spending.
+📊 Nasdaq: -2.5%
+
+📍 US · 📰 Economic Times · ✅ 7 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-slumps-2-5-sp-1-as-revived-ai-doubts-ignite-tech-selloff/articleshow/135127224.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 7 sources" but only six sources are listed, making the source count unsupported.
+  -> blocked by fact-check
+---
+🇺🇸 CRYPTO GROUP ASKS U.S. CONGRESS FOR TAX RULES
+
+📌 The Blockchain Association is pushing lawmakers to fix unclear crypto tax rules.
+💡 Clear tax rules help people and businesses know what to pay on digital coins.
+
+📍 US · 📰 The Block · ✅ 5 sources
+https://www.theblock.co/news/regulation/2026-10-22-blockchain-association-pushes-crypto-tax-clarity-broader-bill-stalls-423475
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the listed sources
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the Blockchain Association's request to the U.S. Congress for tax clarity are supported by the sources, and the metadata matches.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-725d203a46e9
+done: 1 post(s) this run
 === run 2026-10-22T19:12:21Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
@@ -1467,34 +1498,3 @@ skip (off-topic or nothing new): EU condemns Israeli settler attack on diplomats
 #Fed
 
 📍 US · 📰 The Straits Times
-https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4aEJwVDg4dnc0bmJEQmF6YjlobUhGc3JyYU9qc3JjUXU3ekJ2RzZoeWVCejIyUnVjdFRiWG5UakhtNzhTM2pKRjhucDNORE0wdUZxUWJUOUptYVdjeFE?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post misidentifies Kevin Warsh as Fed Chair and mismatches the location (US) with the Singapore‑based source.
-  -> blocked by fact-check
----
-🌍 OIL RALLY LIFTS SAUDI STOCKS AS EGYPT TUMBLES
-
-📌 Rising oil prices boosted Saudi shares, while markets in Egypt and Qatar dropped.
-
-📍 Middle East · 📰 NDTV Profit · ✅ 2 sources
-https://news.google.com/rss/articles/CBMitgFBVV95cUxQMTBzOEh1NVh5UFp4a0hBcVA1cFFoNVFPNUFsaTZGT0pqOVp0SVZVSko3dVJva0YxTnc0UE4xVkl4UExIVklyYmFnRE56VUdndTNTa1J3bWJjbEY3Y3B1Y3poX29GZFB3bUNGZjRLVWlHaVNXUmVMNy11M3UxRzRqYVRIZ0VfOFZxdWtqS2phWjlHT29NdmFNZXV2RkRTS3lVVnYwamYwbHZoLXl1c1Ewd3hjUk1lUdIBtgFBVV95cUxQMTBzOEh1NVh5UFp4a0hBcVA1cFFoNVFPNUFsaTZGT0pqOVp0SVZVSko3dVJva0YxTnc0UE4xVkl4UExIVklyYmFnRE56VUdndTNTa1J3bWJjbEY3Y3B1Y3poX29GZFB3bUNGZjRLVWlHaVNXUmVMNy11M3UxRzRqYVRIZ0VfOFZxdWtqS2phWjlHT29NdmFNZXV2RkRTS3lVVnYwamYwbHZoLXl1c1Ewd3hjUk1lUQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about oil‑price‑driven Saudi gains and Egypt/Qatar market declines are directly supported by the NDTV Profit article.
-  Groq GPT-OSS 20B: FAIL - The claim that there are 2 sources is not supported by the provided source list, which contains only NDTV Profit.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Outrage over attacks on European diplomats and US journalist in West Bank
----
-🇮🇳 BROKERAGES BACK JIO PLATFORMS IPO
-
-📌 Brokerages see strong growth in Jio Platforms from 5G, broadband, and AI expansion.
-
-📍 India · 📰 The Indian Express · ✅ 2 sources
-https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcnZ2cG03TlBlNDh5YVYwbUhya0t5cm9vRFBOa3M0QlhUWnI0eDdhbkhESUlMbEQxS1dKYVRScmhhWnJRbGRQajY3QzhCQzRON245bUtDVFBGNDZHOVg4T2otRFBjYVVzUUxtRDRYQjlPc2txbHhvd3dEMW9MT0E2dXo1b0l0MTJHTkFJbGY1Nl9tVllHaUtKOTNiaVBZRDJmeVNZOTdtZzZWbzdFd2pOZ2oyaTJadHNCNXZBR2oxNDJjQk5CQ2htVm03VHhMd2lfTjVXaE9pejJKUUVGS2tLV1NCdkxwTUg0WkHSAfABQVVfeXFMUDRlREZMcTNzazZuWklOcGt3Tzg1ekFTZXlPekpCUzM0aG50anJWRnlaU3Fnb0JHTGdWTDZmMENwRkd0RVhXSWpLUldjdGhBZE9WeXBrRC02cF91bEFfelV5ZmpsT3pqc3JFR0RlWk5kLWNUX1lpcVBETW5sRGQxYktUMnZ2MjdIdzFpNm1ZWndKd1JYS0wydmlOYVpFcmhCbUZLa1dDVG9HWVEyZDlWUG1qY2lFUW01SEhzQWdnbXB2V0tmS1BmRVh1SGRLdkUzZnhGRUpnUWc4MVBWY1FzSzFDemVOaldqaENRX2Z4bW1o?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "strong growth" which is not directly stated in the sources (they mention growth potential).
-  -> blocked by fact-check
----
-🇪🇺 LATVIA PLANS TO ACCEPT CRYPTO FOR TAXES BY 2027
-
-📌 Latvia's parliament plans to let citizens pay taxes using crypto by 2027.
-📊 Target year: 2027
