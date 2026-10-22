@@ -220,6 +220,18 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "amazon_1997.mp4",
+   "title": "$1,000 in Amazon in 1997 is now worth this",
+   "date": "2026-10-22T05:32:17Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/T-slk2ixlrI",
+    "Instagram": "18087867554296074",
+    "Facebook": "1754124218976466"
+   },
+   "failed": [],
+   "errors": {}
   }
  ]
 }
