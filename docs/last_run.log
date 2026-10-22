@@ -1,3 +1,37 @@
+=== run 2026-10-22T17:07:45Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+100/171 sources returned news, 1071 recent items
+248 new trusted stories, posting up to 1 this run
+---
+🇺🇸 🔄 UPDATE: US STOCKS SLIP AS S&P 500 FALLS 1.25%
+
+📌 The S&P 500 fell 1.25% and the Dow lost 200 points, reversing earlier market gains.
+📊 S&P 500: -1.25%
+
+📍 US · 📰 FOREX.com · ✅ 2 sources
+https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUWdWTkMtQzE3dk9HNk4xaV90Y29SeE92azJWRDk4V2FPMUt4N0I1UjBaeHNDUmwwb1I1Q1pHQmx6MkJaUXRENFVfdEU0cHZQUlhTaGJXWDVpLVpIY0U0V1pyRVEyN0NySFZKeTNya1VDbGpwMjlxalkySUdXRHlyN1FJOEhlanZsOFhHcWZKOXVzYnk2X2NqOTJELW1OVDBIX2JaeU9DNG91dktEUk1DdmZ0QldRNjU0clRZ0gG7AUFVX3lxTFBRZ1ZOQy1DMTd2T0c2TjFpX3Rjb1J4T3ZrMlZEOThXYU8xS3g3QjVSMFp4c0NSbDBvUjVDWkdCbHoyQlpRdEQ0VV90RTRwdlBSWFNoYldYNWktWkhjRTRXWnJFUTI3Q3JIVkp5M3JrVUNsanAyOXFqWTJJR1dEeXI3UUk4SGVqdmw4WEdxZko5dXNieTZfY2o5MkQtbU5UMEhfYlp5T0M0b3V2S0RSTUN2ZnRCV1E2NTRyVFk?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (S&P 500 down 1.25%, Dow down 200 points, US location) are directly supported by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The post lists only one source (FOREX.com) but claims two sources and omits The Sunday Guardian, violating source consistency.
+  -> blocked by fact-check
+---
+🌐 BITCOIN FALLS TOWARDS $81,000 AS OIL TOPS $110
+
+📌 Bitcoin dropped toward $81,000 as oil prices rose above $110.
+📊 $BTC: $81,000
+💡 Higher interest rates usually make borrowing costlier.
+#Bitcoin
+
+📍 Global · 📰 Bitcoin Magazine · ✅ 2 sources
+https://bitcoinmagazine.com/markets/bitcoin-slides-towards-81000
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about Bitcoin price, oil level, source attribution, and the general interest‑rate effect are directly supported by the cited article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited Bitcoin Magazine article.
+  Groq Qwen: PASS - All factual claims regarding Bitcoin's price movement towards $81,000 and oil prices topping $110 are directly supported by the source headlines, and the source attribution matches.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-821da6c4ed92
+done: 1 post(s) this run
 === run 2026-10-22T15:08:51Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1464,37 +1498,3 @@ https://www.coindesk.com/policy/2026/10/18/latvia-eyes-crypto-tax-payments-in-20
   written by Gemini
   Groq GPT-OSS: PASS - All factual claims (Latvia's parliament planning crypto tax payments by 2027, target year, location, and source) are directly supported by the cited CoinDesk article.
   Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - The post accurately reflects the source headline regarding Latvia's plan to allow crypto tax payments by 2027, with matching location and source attribution.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - The draft accurately reflects the headline of the provided CoinDesk source.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-52b53fbba65c
-done: 2 post(s) this run
-=== run 2026-10-18T14:56:29Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-18T13:05:33Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-18T10:56:16Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-18T09:02:17Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-83/171 sources returned news, 646 recent items
-re-check of earlier post: 0 fail / 4 pass
-143 new trusted stories, posting up to 2 this run
-skip (off-topic or nothing new): Earnings, crude oil, Jio IPO key monitorables for investors next week
----
-🇮🇳 RECORD FOREIGN OUTFLOWS HIT INDIAN SHARES
-
-📌 Foreign investors pulled over Rs 52,000 crore out of Indian stocks in October.
-📊 FPI outflow: Rs 52,000 crore+
-
-📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms
-  written by Gemini
