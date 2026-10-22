@@ -1,0 +1,132 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "MIDDLE EAST",
+   "text": "Turkey cut its key interest rate by 100 basis points to 36%, its first cut in 9 months."
+  },
+  {
+   "name": "ASIA",
+   "text": "The IMF forecasts a 1.3% contraction in Pakistan, followed by 6.6% growth in 2027."
+  },
+  {
+   "name": "THE AMERICAS",
+   "text": "SoFi launched a tokenized deposit, which is a digital balance, offering a 4.4% annual interest rate."
+  }
+ ],
+ "story_ids": [
+  1,
+  5,
+  22,
+  36,
+  28,
+  19,
+  6
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 1,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 5,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 22,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 36,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 28,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 19,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 13,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 6,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "US market drops",
+ "cover_dek": "Stock futures fell before Wall Street opened for trading.",
+ "big_headline": "Nasdaq futures crashed over 500 points before the market opened.",
+ "big_body": "Dow futures slipped 200 points while the S&P 500 fell 0.09% and Nasdaq edged lower 1.06% as oil prices topped $111.",
+ "big_stat": "$111",
+ "big_stat_l1": "Oil prices, meaning",
+ "big_stat_l2": "a barrel, topped this",
+ "pol_headline": "Coinbase fined in Ireland",
+ "pol_body": "The Central Bank of Ireland fined Coinbase €3.25 million. The regulator cited failures in safeguarding customer funds and the mixing of money with other entities.",
+ "pol_stat": "€3.25m",
+ "pol_stat_l1": "fine issued by the",
+ "pol_stat_l2": "Central Bank of Ireland",
+ "biz_headline": "Barclays cuts staff for AI",
+ "biz_body": "The bank is removing roles to save money by using artificial intelligence, which is computer software that mimics human tasks.",
+ "biz_stats": [
+  {
+   "value": "5,000",
+   "name": "Job cuts",
+   "note": "total staff lost"
+  },
+  {
+   "value": "5%",
+   "name": "Workforce",
+   "note": "of global staff"
+  }
+ ],
+ "up_headline": "Bank of Japan to keep rate at 1.25%",
+ "up_body": "The Bank of Japan will hold its rate at 1.25% at its meeting next week, Nikkei Asia reported.",
+ "cover_photo": "tanker",
+ "big_photo": "pumpjack",
+ "pol_photo": "fed",
+ "biz_photo": "factory",
+ "up_photo": "boe",
+ "sources_used": [
+  "BBC News",
+  "Benzinga",
+  "Bitcoin Magazine",
+  "Bitcoin News",
+  "City AM",
+  "Decrypt",
+  "Economic Times",
+  "Finextra Research"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−0.8%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,694."
+   },
+   {
+    "chg": "−1.4%",
+    "color": "#B4280E",
+    "text": "<strong>Gold</strong> fell to about $4,092 an ounce."
+   },
+   {
+    "chg": "−2.7%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $81,755."
+   }
+  ]
+ },
+ "status": "published"
+}
