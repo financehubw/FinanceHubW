@@ -531,7 +531,19 @@ def feed() -> None:
         log["posted"] = (log["posted"] + [{"key": m["key"], "ids": m["ids"], "ig": r["id"], "t": time.time()}])[-120:]
         DIGEST_LOG.write_text(json.dumps(log, indent=1), encoding="utf-8")
     except Exception as e:  # noqa: BLE001
-        print(f"briefing failed: {e}", file=sys.stderr)
+        time.sleep(20)
+        try:
+            rows = requests.get(f"{GRAPH}/{ig}/media", timeout=30, params={
+                "fields": "id,caption", "limit": 3, "access_token": tok}).json().get("data", [])
+            live = next((r for r in rows if (r.get("caption") or "").startswith(head)), None)
+        except Exception:  # noqa: BLE001
+            live = None
+        if live:
+            print("briefing: Instagram reported an error but the post is live", live["id"])
+            log["posted"].append({"key": m["key"], "ids": m["ids"], "ig": live["id"], "t": time.time()})
+            DIGEST_LOG.write_text(json.dumps(log, indent=1), encoding="utf-8")
+        else:
+            print(f"briefing failed: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":

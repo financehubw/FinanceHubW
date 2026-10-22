@@ -152,6 +152,12 @@ def post_instagram(item: dict, url: str) -> str:
     r = requests.post(f"{GRAPH}/{ig}/media_publish", timeout=60,
                       data={"creation_id": cid, "access_token": tok}).json()
     if "id" not in r:
+        time.sleep(20)       # Instagram sometimes reports an error after it has published: check first
+        rows = requests.get(f"{GRAPH}/{ig}/media", timeout=30, params={
+            "fields": "id,caption", "limit": 3, "access_token": tok}).json().get("data", [])
+        live = next((x for x in rows if (x.get("caption") or "").startswith(item["title"])), None)
+        if live:
+            return live["id"]
         raise RuntimeError(f"publish failed: {r.get('error', r)}")
     return r["id"]
 

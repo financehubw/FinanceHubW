@@ -107,6 +107,24 @@ def graph_post(path: str, data: dict) -> dict:
     return r
 
 
+def landed(item: dict) -> str | None:
+    """Id of a post with this edition's caption published in the last 2 hours, if any."""
+    try:
+        time.sleep(20)
+        ig, tok = os.environ["IG_USER_ID"], os.environ["META_TOKEN"]
+        head = item["caption"].split("\n")[0].strip()[:60]
+        rows = requests.get(f"https://graph.facebook.com/v21.0/{ig}/media", timeout=30, params={
+            "fields": "id,caption,timestamp", "limit": 5, "access_token": tok}).json().get("data", [])
+        now = time.time()
+        for r in rows:
+            t = time.mktime(time.strptime(r["timestamp"][:19], "%Y-%m-%dT%H:%M:%S")) - time.timezone
+            if (r.get("caption") or "").startswith(head) and now - t < 7200:
+                return r["id"]
+    except Exception:  # noqa: BLE001
+        pass
+    return None
+
+
 def post_carousel(item: dict, numbers: list[int]) -> str:
     ig, tok = os.environ["IG_USER_ID"], os.environ["META_TOKEN"]
     try:   # never post the same edition twice, even if the log was lost
@@ -205,9 +223,12 @@ def main() -> None:
         try:
             media_id = post_carousel(item, numbers)
         except Exception as e:  # noqa: BLE001  one edition failing must not stop the next
-            failed += 1
-            print(f"  {item['key']}: FAILED - {e}", file=sys.stderr)
-            continue
+            media_id = landed(item)      # Instagram sometimes reports an error after it has published
+            if not media_id:
+                failed += 1
+                print(f"  {item['key']}: FAILED - {e}", file=sys.stderr)
+                continue
+            print(f"  Instagram reported an error but the post is live ({media_id})")
         print(f"  Instagram: posted {media_id}")
         entry = {"key": item["key"], "title": item["title"],
                  "date": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "instagram": media_id}
