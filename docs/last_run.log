@@ -1,3 +1,95 @@
+=== run 2026-10-25T11:03:04Z
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+--- special
+📈 INDIA MARKETS AT CLOSE
+
+🔴 Sensex: 73,124 (-0.17%)
+🔴 Nifty 50: 22,600 (-0.39%)
+🔴 Bank Nifty: 54,287 (-1.16%)
+🟢 USD/INR: ₹94.94 (+0.24%)
+🔴 Gold: $4,008 (-1.29%)
+🔴 Bitcoin: $80,159 (-0.78%)
+
+🟢 up · 🔴 down · vs previous close
+#Markets #StockMarket
+published to: website, Instagram Story
+81/171 sources returned news, 626 recent items
+163 new trusted stories, posting up to 2 this run
+---
+🇺🇸 AUDI TO BUILD FIRST US FACTORY IN GEORGIA
+
+📌 Audi will build its first car factory in the US in Georgia.
+💡 New factories usually create local jobs.
+#Audi
+
+📍 US · 📰 Financial Times · ✅ 8 sources
+https://news.google.com/rss/articles/CBMihAFBVV95cUxQckNBUENjd0pZam1SUXRhNzJWSTUzak1UaTZLcF9LOXFtMG4yNWd6bzlwajZqNkMtZ3RjbFRIQ2Y5a0VWMThLV2Z3WXlaSGtheTdIWnRuSVlKQmp1YVIxYmpPNlZnX3BCeDg3UWZCVFg5RklfSUI0dk1tcUFwbnVISFd3UG4?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about Audi's first US factory in Georgia and the general job‑creation effect are directly supported by the Financial Times source.
+  Groq GPT-OSS 20B: FAIL - The post claims 8 sources but only lists 6, which is unsupported.
+  -> blocked by fact-check
+---
+🇮🇳 TOP 10 INDIAN FIRMS LOSE RS 1.55 LAKH CRORE
+
+📌 Eight of India's top 10 companies lost ₹1.55 lakh crore in market value.
+📊 Sensex: -1,605.44 pts
+
+📍 India · 📰 Economic Times · ✅ 6 sources
+https://economictimes.indiatimes.com/markets/stocks/news/mcap-of-8-of-top-10-firms-erodes-by-rs-1-55-lakh-cr-hdfc-bank-bajaj-fin-biggest-laggards/articleshow/135186713.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (8 firms losing ₹1.55 lakh cr, Sensex drop of 1,605.44 points, location and source) are directly confirmed by the cited articles.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the market value loss, Sensex drop, and source attribution are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims in the post are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-44feff3825b8
+---
+🇮🇳 INDIAN STOCKS LOSE RS 21 LAKH CRORE IN A WEEK
+
+📌 Indian stock markets fell over 2% this week, erasing ₹21 lakh crore.
+📊 Sensex: -2.15%
+
+📍 India · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/market/stock-market-news/bank-nifty-tumbles-nearly-3-slips-below-55k-more-selling-pressure-ahead-for-banking-stocks-check-key-levels-to-watch-11792920838777.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source says ‘nearly ₹21 lakh crore’, not exactly ₹21 lakh crore, so the claim is exaggerated.
+  -> blocked by fact-check
+---
+🇮🇳 FUND MANAGERS DIVIDED ON GILT FUNDS
+
+📌 Fund managers hold mixed views on gilt funds (government bond funds).
+💡 Higher yields can boost returns, but inflation and rate hikes pose risks.
+#Bonds
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/money/personal-finance/why-fund-managers-are-mixed-on-gilt-funds-11792902637701.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about mixed fund manager views and yield/inflation risks are directly supported by the Livemint article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
+  Groq Qwen: PASS - All factual claims regarding the mixed views of fund managers on gilt funds, the specific risks (inflation, crude prices, rate hikes), and the opportunity (locking in higher yields) are directly suppo
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-e947e610202b
+done: 3 post(s) this run
 === run 2026-10-25T09:03:58Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1406,95 +1498,3 @@ https://news.google.com/rss/articles/CBMikwFBVV95cUxQYTNFNmRXMmo4Zi1Md1o4NFJzb3d
   Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
   Groq Qwen: FAIL - The source states the US waived sanctions on Russian energy buyers, but the draft claims the US eased sanctions on Russia, which is an inaccurate attribution of the entity affected.
   -> blocked by fact-check
----
-🇮🇳 INDIAN BANK STOCKS FALL AS NIFTY BANK DROPS 1%
-
-📌 Private bank shares slid, with Axis and HDFC Bank falling up to 5% on Monday.
-📊 Nifty Bank: -1%
-
-📍 India · 📰 Mint · ✅ 4 sources
-https://www.livemint.com/market/stock-market-news/why-are-banking-stocks-falling-nifty-bank-down-1-axis-hdfc-bank-shares-crash-up-to-5-what-should-investors-do-11792385860971.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the 1% Nifty Bank drop and Axis/HDFC falling up to 5% are directly supported by the Mint article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
-  Groq Qwen: PASS - All factual claims regarding the stock movements, specific banks, index performance, and source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-446b97a69b96
-done: 2 post(s) this run
-=== run 2026-10-19T05:10:22Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-88/171 sources returned news, 914 recent items
-re-check of earlier post: 4 fail / 0 pass
-191 new trusted stories, posting up to 2 this run
----
-🌐 GOLD EDGES HIGHER AS OIL PRICES SOFTEN
-
-📌 Spot gold rose 0.3% to $4,175.60 per ounce as oil prices eased.
-📊 Spot gold: $4,175.60 (+0.3%)
-💡 Gold is often viewed as a safe store of value during uncertain times.
-
-📍 Global · 📰 Reuters · ✅ 7 sources
-https://news.google.com/rss/articles/CBMioAFBVV95cUxOcHBoaXFtRmhELVpxR3BOYzNDX3IzS1Y1UHZaZUlWRnBiY0Y3WWxwa19vSlVRUENyTGtpZVJFSEFSLW9hVWhEaktYRTVhVWpObTFOYThBVXNRX19VY0phaUJjSkdSMjFZQ19FUFZGMm44UnNpZkZGSnNCeUc2SFZ4c1ZZUU9lV2tiUk1odm44Wmc2WGVjSG5pYUU3QnE2NGYx?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about spot gold price, percentage change, and softer oil are supported by the Reuters source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Reuters source.
-  Groq Qwen: PASS - All factual claims regarding the price, percentage change, and market drivers are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-6438ce99ba31
----
-🇮🇳 INDIAN RUPEE GAINS AS RBI STEPS IN
-
-📌 The rupee gained against the US dollar as India's central bank stepped in to support it.
-💡 A stronger currency can help make imported goods like oil cheaper.
-#Rupee
-
-📍 India · 📰 Moneycontrol.com · ✅ 5 sources
-https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTUVtdzFEcmxENW9qa2R2WDN6NjVuOGVRbWhObW9VU0NMemFGRDIxTTJPanpEQjZvd19rY3VFdUpyZ2xISXF1Tkk0U2NvQ3EtZnlrcjFxeU9PVlFDRXNYOUp6c3poelNNNGVEQzdoWU9iZU8ybXMtdzZpdHZTbU96TzNwbE5IdUtWWndOYzZmQ3VjOEFicWhCVG10Ym45c3FMcWRTTldudGxEMTc4NUo5eXNRMmo2X2oyU3g3MmVQLVRQTXRvaU83Xy13ZGxjaUJ1OXpKbGRZNk9NT1h4STZVdHl2YTU0QdIB5gFBVV95cUxPTUVtdzFEcmxENW9qa2R2WDN6NjVuOGVRbWhObW9VU0NMemFGRDIxTTJPanpEQjZvd19rY3VFdUpyZ2xISXF1Tkk0U2NvQ3EtZnlrcjFxeU9PVlFDRXNYOUp6c3poelNNNGVEQzdoWU9iZU8ybXMtdzZpdHZTbU96TzNwbE5IdUtWWndOYzZmQ3VjOEFicWhCVG10Ym45c3FMcWRTTldudGxEMTc4NUo5eXNRMmo2X2oyU3g3MmVQLVRQTXRvaU83Xy13ZGxjaUJ1OXpKbGRZNk9NT1h4STZVdHl2YTU0QQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about rupee gaining and RBI intervention are supported, and the general explanation about stronger currency lowering import costs is correct.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
-  Groq Qwen: PASS - The post's claims that the rupee gained against the dollar due to RBI intervention are directly supported by the source headlines, and the general explanation regarding import costs is accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-082c1ee4903d
-done: 2 post(s) this run
-=== run 2026-10-19T03:08:36Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-87/171 sources returned news, 785 recent items
-170 new trusted stories, posting up to 3 this run
----
-🌐 GOLD EDGES HIGHER AS US RATE-HIKE FEARS EASE
-
-📌 Gold prices held steady as traders lowered expectations for a US interest rate hike.
-💡 Gold pays no interest, so it often appeals more when interest rates stay low.
-
-📍 Global · 📰 Mint · ✅ 4 sources
-https://www.livemint.com/market/gold-steady-as-rate-hike-bets-ease-oil-pushes-yields-higher-11792367574043.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source says gold was steady, not edging higher, contradicting the post's claim.
-  -> blocked by fact-check
----
-🇫🇷 EURO DROPS AS VIOLENT PROTESTS IN FRANCE HIT MARKETS
-
-📌 Unrest in France pushed the euro lower, while the US dollar saw a minor rise.
-💡 A weaker currency can make imported goods more expensive.
-#Euro
-
-📍 France · 📰 Economic Times · ✅ 8 sources
-https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-firmer-euro-weakens-as-french-protests-turn-violent/articleshow/135037823.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about euro weakening, dollar rise, and the general impact of a weaker currency are directly supported by the cited Economic Times article.
-  Groq GPT-OSS 20B: FAIL - The claim that there are 8 sources is not supported by the provided list.
-  -> blocked by fact-check
----
-🇮🇳 RUPEE AND BONDS IN FOCUS OVER OIL AND RATE HIKE BETS
-
-📌 Traders are watching oil prices, foreign money flows, and interest rate bets.
-
-📍 India · 📰 Reuters · ✅ 3 sources
-https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVZOMUNTX2d1WHkyZTJ5TVZBNFBVQjAySjAwOXFyS2tIQ0lZbFlPdmhqLU5GcEpQUFZ3N241Q245MzBtUlk2QUZDbHRjSE9HQ3R4NlctbjdWajRZNHg3dV80S2lPMUQ0N2l5NVdVdXJHaVZhVTAzY09QNkNOeDlFc0VEY1EzV2NhaEVZb01pdjh6b2ZWSGY2cFBQTS14TTRJS0J2MGhJZzBucFdqLUE?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about traders watching oil, foreign flows, and rate‑hike bets are directly supported by the cited Reuters article
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Reuters article and the listed sources.
-  Groq Qwen: PASS - All factual claims regarding the focus on oil, foreign flows, and rate-hike bets for the rupee and bonds are directly supported by the provided sources, and the location and source attribution are cor
