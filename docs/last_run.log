@@ -1,3 +1,60 @@
+=== run 2026-10-25T14:59:07Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+--- special
+🇮🇳🌍 Nifty, Sensex, Wall Street, crypto and RBI/Fed policy, explained simply.
+
+New videos on FinanceHubW 👇
+https://www.youtube.com/@FinanceHubW
+published to: website, Instagram Story
+75/171 sources returned news, 534 recent items
+134 new trusted stories, posting up to 1 this run
+skip (off-topic or nothing new): Nifty Outlook for October 26: 22,200 key support as crude oil tops $117; Fed policy, earnings in focus
+skip (off-topic or nothing new): Earnings flood, Fed meeting will test rickety AI market rally
+---
+🇺🇸 OIL SURGE PUTS FED POLICY IN FOCUS
+
+📌 Rising oil prices test gold and silver as markets await the Fed decision (the US central bank).
+#Gold
+
+📍 US · 📰 Cnbc Tv18 · ✅ 2 sources
+https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ3ZLQm9jSHZZZDhCYURBSjlGQ012R3VRRVFJWHdDbjR5aWRjSkJ5dGZwempHUGhtUDI5VExfSnFFRkw3Y0x6c09HS1hnWTF5QTRaX0RwbW1YZ1NNWFpvSTd6R3p6NzFhS3dHNzIzQ2M0NWtVQk16NWZlM0wyVkdOZzlsR3VkSDh5Tjg5a1UtRVgxVzFoaWZHeFI1NnpiRV9hTFV4T3h5b2VXWVdoODlHT1ZKd2VENXVFOUQ3bXRlM2dVRUE5amdTbFZ30gHPAUFVX3lxTE9YclVtdGlDVGxRendBakZfSk52UTlSQjNyVjdPZjdLWE1pYllwbmJzQm9saDUyVjZ3ZW1FRklOWC1YQXhiVWt3OWVXZndVdHJ6bVA5Y2xtTkxOb3duZEFkakF0UWhSZlZDTUozN1JoRE02T3BSMHBBejhpbUl6cFFDMHBYSzNJeS0wZ2c4UGd5RzRZQlJHRmZrZjl5T19PaUZKV01ULXRkMWJUeXFkUG1nRm0yVDdyVWoxOEozZ2wyVlJEZlFkNHNhdmdtcGpTMA?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about oil prices testing gold and silver and the Fed decision are directly supported by the cited CNBC TV18 article.
+  Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources.
+  Groq Qwen: FAIL - The post claims there are 2 sources, but the provided source list contains 5 entries (1 CNBC TV18 and 4 Business Standard).
+  -> blocked by fact-check
+skip (off-topic or nothing new): Stock market prediction for Monday Oct 26: Sensex, Nifty levels, top stocks to watch - Will bulls dance again?
+skip (off-topic or nothing new): More than a third of S&P 500 companies are about to report earnings as market confidence cracks
+skip (off-topic or nothing new): SEBI Order for Compliance Notice of Attachment Demat Account and Mutual Fund Folio(S) for Recovery Certificate No.7137 of 2023 against Karan Subhashchandra Ravde in the matter of India Infraspace Limited
+skip (off-topic or nothing new): Watch Out: Entering a Critical Fed Week—Here Are the Numerous Economic Developments and Altcoin Events Coming Up This Week—Day-by-Day, Hour-by-Hour Schedule
+---
+🇮🇳 JIO PLATFORMS IPO SHARES ALLOTTED TODAY
+
+📌 The share allotment for the heavily oversubscribed Jio Platforms IPO begins today.
+📊 Subscription: 22x
+📊 $RELIANCE: ₹13,428 per lot
+#IPO
+
+📍 India · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/market/ipo/reliances-jio-platforms-ipo-allotment-on-wed-oct-26-what-happens-to-your-money-if-you-get-none-one-or-many-lots-11792937452744.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source says the IPO was subscribed "more than 22 times", not exactly "22x" as claimed.
+  -> blocked by fact-check
+---
+🇮🇱 NETANYAHU FLOATS CRYPTO TO AVOID SANCTIONS
+
+📌 Israel's Prime Minister suggested using blockchain tech to skirt international sanctions.
+
+📍 Israel · 📰 Cointelegraph.com News · ✅ 2 sources
+https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the Cointelegraph and Hokanews articles.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding Netanyahu's suggestion to use blockchain to skirt sanctions are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-8033c6f18eff
+done: 2 post(s) this run
 === run 2026-10-25T13:13:34Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 4
@@ -1441,60 +1498,3 @@ https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-euro-f
   Groq Qwen: PASS - All factual claims regarding the euro's decline, the causes (French unrest, energy prices), and the sterling's 17-month high are directly supported by the provided sources.
 published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-7ec88179866a
-done: 2 post(s) this run
-=== run 2026-10-19T09:18:17Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-102/171 sources returned news, 1229 recent items
-238 new trusted stories, posting up to 1 this run
----
-🌐 GOLD RISES WITH FUTURES TOPPING $4,200
-
-📌 Gold futures topped $4,200 an ounce as bets on US interest rate hikes eased.
-📊 Spot gold: $4,184.55 (+0.5%)
-
-📍 Global · 📰 Moneyweb · ✅ 4 sources
-https://www.moneyweb.co.za/mineweb/gold-edges-higher-as-traders-ease-rate-hike-bets-on-warsh-speech/
-  written by Gemini
-  Groq GPT-OSS: FAIL - The 📍 tag says “Global” but the source Moneyweb is a South African outlet, so the place does not match the source.
-  -> blocked by fact-check
----
-🇮🇳 INDIAN STOCK MARKETS DROP SHARPLY TODAY
-
-📌 Indian stock markets fell today, with $NIFTY dropping below 23,000.
-💡 A market fall usually reduces the value of stock investments.
-#Nifty
-
-📍 India · 📰 NDTV Profit · ✅ 8 sources
-https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTFM5R1hmT2Z2RkotRklzTXVoTHRCTmFmSEQwS1U4dlA2SzQ5YXZrQmhTN2ZQVU0wUGU4THJDd0lKNmpRdU5na09uclloQXhEQ3pNbmotYXcxZXNPSlJQLU1qeFlnb3NPMWVlUHI2Z2NaSHBCaXhIc3RvWndQTU9veFVwSWVCa2RYVTlod0U0YllMcHE5bU1RdXoxQ01mcHpuY1N5Z1k4OXlUUF8tNzl2N2dhV25VZ0dva2lKOUJ4a1BxMjN5TGRSUGxkMFhIemhsaVE2R9IB3AFBVV95cUxOY0pnQy1RZEE3LWwzMmVzVXlMQU9zX1dKeFVudGp6NlNCMlpIM0ZFa2RCekpqWjdjWDVMdFMxOHFId3UzWjgtUW1pb1QtZTRfbzR3NjEtU2Rnb2wyWnRtQWdBaXRLQlNQV0cxeklvdk1WRE04ZWdmMzF4R0NRYWctQ2cweUVOMEpXT084d1l6c0J3RGlwQlRFLTdRLXpoMHpacnIxbHBiYXB2NXZsTUhNUVFSM1ZGU2dhaFduXzNQaEhtRHJIODZ0LWJsREtaNGhaTjFwdFdldXRuaGkw?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six source entries are provided
-  -> blocked by fact-check
----
-🇺🇸 INVESTORS PULL $549M FROM BITCOIN AND ETHER FUNDS
-
-📌 Investors pulled $549 million from Bitcoin and Ether funds in one week.
-📊 $BTC & $ETH weekly outflows: $549M
-
-📍 US · 📰 Cointelegraph.com News · ✅ 4 sources
-https://cointelegraph.com/markets/bitcoin-ether-etfs-549-million-weekly-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  written by Gemini
-  Groq GPT-OSS: PASS - All numeric, location, and source claims are directly backed by the four cited articles.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - The post accurately reflects the $549M combined outflow figure and the US context supported by the Cointelegraph and KuCoin sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-cccb49fddd08
-done: 1 post(s) this run
-=== run 2026-10-19T07:29:49Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-96/171 sources returned news, 1215 recent items
-re-check of earlier post: 2 fail / 2 pass
-239 new trusted stories, posting up to 2 this run
----
-🌐 OIL FALLS ON TRUMP RUSSIAN SANCTIONS WAIVER
-
-📌 Oil prices dropped after Trump waived Russian sanctions, while Asian stocks were mixed.
-💡 Lower crude prices can lead to cheaper fuel for everyday drivers.
-#Oil
-
