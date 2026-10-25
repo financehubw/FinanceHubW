@@ -1,18 +1,18 @@
 {
  "times": {
-  "short": "14:00",
-  "briefing_morning": "01:30",
-  "briefing_evening": "11:30",
-  "short_midday": "05:30"
+  "short": "15:00",
+  "briefing_morning": "02:30",
+  "briefing_evening": "12:30",
+  "short_midday": "06:30"
  },
  "notes": {
   "status": "ok",
-  "short": "testing 14:00 UTC this week (3 posts so far)",
-  "briefing_morning": "testing 01:30 UTC this week (1 posts so far)",
-  "briefing_evening": "testing 11:30 UTC this week (0 posts so far)",
-  "media_seen": 9,
+  "short": "testing 15:00 UTC this week (8 posts so far)",
+  "briefing_morning": "testing 02:30 UTC this week (5 posts so far)",
+  "briefing_evening": "testing 12:30 UTC this week (0 posts so far)",
+  "media_seen": 28,
   "media_error": "{'error': {'message': 'Cannot call API for app 962003666958759 on behalf of user 122105669487498583', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A9-vsaeF2eLOIyuekFlGwJw'}}",
-  "short_midday": "testing 05:30 UTC this week (5 posts so far)"
+  "short_midday": "testing 06:30 UTC this week (9 posts so far)"
  },
- "updated": "2026-10-18T06:35Z"
+ "updated": "2026-10-25T08:03Z"
 }
