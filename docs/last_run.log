@@ -1,3 +1,48 @@
+=== run 2026-10-25T13:13:34Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 4
+--- special
+🧾 OUR WEEK, IN THE OPEN
+
+🔎 Stories scanned: 20,671
+✅ Confirmed by 2+ sources or official: 4,513
+🛑 Blocked by our fact-check: 49
+📢 Posted: 48
+⚠️ Corrections issued: 0
+
+We'd rather be right than first. Every correction is public.
+published to: website, Instagram Story
+79/171 sources returned news, 577 recent items
+re-check of earlier post: 4 fail / 1 pass
+133 new trusted stories, posting up to 1 this run
+---
+🇮🇱 NETANYAHU FACES REBUKE OVER CRYPTO SANCTIONS PLAN
+
+📌 Netanyahu faces backlash over a plan to use crypto to bypass economic sanctions.
+#Crypto
+
+📍 Israel · 📰 The Straits Times · ✅ 8 sources
+https://news.google.com/rss/articles/CBMivwFBVV95cUxOd2JjZlR3NVdUcUhhOUowengxdjdrdUVOZlFiV0t5MUg0czJfVm5zM0tEbkJFdDNYbGVNNC0tVzRVMldvZnNUQmk1bk5KTWNiTy0ycDRESXlmNXFDNXo2NTV5OUFpNE1BRExneHdfUHhRWFUyWng5TjlmRHdyRVR0TzNJSHdBOTB3VERLYW13TDl2Wl9EOE5HUHdjNlV0eHkyLWxXWHdUVnlRUnJYclowRUpTckRrLTNCVng4M3o2Zw?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six sources are listed, making the source count unsupported.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Fed policy, Q2 earnings, crude oil prices among key market triggers next week
+---
+🌐 BITCOIN STAYS BELOW $85,000 AS OIL PRICES RISE
+
+📌 Bitcoin remains stuck below $85,000 as oil prices continue to rise.
+📊 $BTC: Below $85,000
+#Crypto
+
+📍 Global · 📰 Yahoo Finance · ✅ 3 sources
+https://news.google.com/rss/articles/CBMinwFBVV95cUxQWW9XeVF6VTEyTXNVdEV1LTllYTd4Z1hfMnVNNHYxX3JxSHJsQ1Z0VkVnbHE5VzFtN2hRNlctWHhHSlVyQTJLUENNamNLTS1Rb2xSOWVFOFQzWUViRzNDVVh0N3hRZC1XRUZRc0o0WlEwalRQQk1kUFZvelB3TEFQNVBfd1pTdlczT3Q1XzduSUxScUVERURXekpTd0Zfb0E?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about Bitcoin staying below $85,000 and oil prices rising are directly supported by the cited Yahoo Finance article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Yahoo Finance article.
+  Groq Qwen: PASS - The factual claims regarding Bitcoin's price level and oil price trends are directly supported by the source headlines, and the location and source attribution are accurate.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-12f78d2d4ad9
+done: 2 post(s) this run
 === run 2026-10-25T11:03:04Z
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
@@ -1453,48 +1498,3 @@ re-check of earlier post: 2 fail / 2 pass
 💡 Lower crude prices can lead to cheaper fuel for everyday drivers.
 #Oil
 
-📍 Global · 📰 KVUE · ✅ 7 sources
-https://news.google.com/rss/articles/CBMioAJBVV95cUxNSjJleGNwT1FLRkltS3dKYThTcXVqUEY3b2hyQnRzRE4xcE52dUZtQ25DWS1fQVFqV1FMUndHRDFxRERPcWZFODc2TnhVVWFQYzZsLW5wc2RfeThPZk5YbjdsUjNtOWFibEl5eUllZGZFMVpYRGhqVFRFZ2t3NE9jemUtaUlOUVVDRkVCMjl4RzREODU4UGcwTV80SHMtYU5lcTRLTDVHVDU4ME9aQTJTdWZ6WmlfTFB5c2IyU2pVQk1TYWR6YTJmUDhMeF96RmMtRjBidTliMDIyTjBERVdHaFVla2FyeFJ0cUNtZG5hRFlNRkdVdFNjZGV5bTNLYXBaVE5ZR19iLXhhMmJIalFwdDJpUkVReUpscDZSV2xtNk0?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited source.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 7 sources, but only six are listed, so that factual claim is unsupported.
-  -> blocked by fact-check
----
-🇯🇵 JAPAN'S NIKKEI FALLS 2% AS TECH STOCKS SLUMP
-
-📌 Japan's Nikkei index dropped 2% led by a slide in technology shares.
-📊 Nikkei 225: -2%
-
-📍 Japan · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-falls-2-as-tech-selloff-rising-oil-prices-fuel-inflation-fears/articleshow/135040186.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the 2% Nikkei drop, tech-led slump, location, and source are supported by the cited articles
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the Nikkei's 2% drop, the cause (tech selloff), location, and source attribution are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - (plain-text verdict)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-03fda35ce9a2
----
-🇮🇳 US VERY CLOSE TO TRADE DEAL WITH INDIA, SAYS RUBIO
-
-📌 The US is very close to finalising a trade deal with India, says Marco Rubio.
-
-📍 India · 📰 Economic Times · ✅ 8 sources
-https://economictimes.indiatimes.com/news/economy/foreign-trade/us-very-close-to-finalising-trade-deal-with-india-says-marco-rubio/articleshow/135040499.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but the provided evidence does not verify that number of sources.
-  -> blocked by fact-check
----
-🌐 OIL PRICES SLIP AS US EASES SANCTIONS ON RUSSIA
-
-📌 Oil fell from 5-month highs after the US waived sanctions on Russian energy buyers.
-📊 Brent crude: $107.84/barrel
-
-📍 Global · 📰 Yahoo Finance · ✅ 9 sources
-https://news.google.com/rss/articles/CBMikwFBVV95cUxQYTNFNmRXMmo4Zi1Md1o4NFJzb3d6X1JpcUgtVEo4N3F2QW9Nd25UTkhKYzljbExueGZ5Qkp2aWtUVUV1bGF4dWR5MGZDZHdWN3pyd250SnFtLUpjbHdBSXIyVGNlMFE2TzFlOVlWMkxiMnE2eHJ2eC1HbjV5cjRLdV9tQmcyMHVTVjJaY1ZkTXBNRWM?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (price, trend, sanction waiver, source) are directly supported by the cited sources
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: FAIL - The source states the US waived sanctions on Russian energy buyers, but the draft claims the US eased sanctions on Russia, which is an inaccurate attribution of the entity affected.
-  -> blocked by fact-check
