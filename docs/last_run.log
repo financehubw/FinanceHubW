@@ -1,3 +1,51 @@
+=== run 2026-10-25T09:03:58Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+69/171 sources returned news, 523 recent items
+re-check of earlier post: 0 fail / 5 pass
+143 new trusted stories, posting up to 2 this run
+---
+🇫🇷 FRENCH BOND YIELDS HIT 24-YEAR HIGH AMID UNREST
+
+📌 Unrest in France pushed bond yields (government borrowing rates) to a 24-year high.
+📊 French bond yields: 24-year high
+
+📍 France · 📰 International: Top News And Analysis · ✅ 2 sources
+https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about French bond yields reaching a 24‑year high due to unrest are directly confirmed by the cited article.
+  Groq GPT-OSS 20B: FAIL - Source name does not match the actual CNBC source
+  -> blocked by fact-check
+---
+🌐 MARKETS FOCUS ON US FED DECISION AND EARNINGS THIS WEEK
+
+📌 Investors are watching company results, Fed interest rate news, and oil prices.
+💡 Central bank rate decisions usually affect borrowing costs for households.
+
+📍 Global · 📰 NDTV Profit
+https://news.google.com/rss/articles/CBMitwFBVV95cUxQeURubTZrNGdCc3dlR3lhZ3V4RUU0cW9HMnlNNk81Z0NZQ2ZNRVJuX0tHM3Q3aTZKQ2hMNVd6TTF6aVZQMVZsQXZSV0JSaDdDSTE2aHcySno4WnNncnBiR2pSMVZySDlKZkpvTE9KOVN0emhUYVI4V1hZRHIyX1ZZZ2lFSks1N2N1eVFUVXozWC1kalc1WDUxZ3FGYUpnVVlZa0hJVGxOMnpldEV4Wm1YOTVUZ05fTFXSAb8BQVVfeXFMTm9TaTdYYkdHVlE2eGRKY3JhbjhucklEWUVCaDZPcFJBeVlrQ0dJc2c5NGZ1d0hyYU04M1J0Z1hGY2lWaHFsZERyNmlBblFkWEFlWkM0c2VRU2dEbXY2X3N0TVJiT1IxZzRTM1ZFSWVkdlRnR2pIU2RicmFTM0RVSVNuTlZsQ1UwOWFZNWZSYVZnNzRsR0Vaa2hMRVFkSHEtdHhVRFduTzR5LV9fNXc1bEJQOUVHOTlORTZCdlMwZE0?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the NDTV Profit article and contain no unsupported specifics.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the NDTV Profit article.
+  Groq Qwen: PASS - All factual claims regarding the focus on earnings, Fed policy, and oil prices are directly supported by the source title, and the general explanation in the 💡 line is accurate.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6e17eef491a1
+---
+🇮🇳 SEBI ISSUES RECOVERY ORDER AGAINST ARROW ASIA BROKING
+
+📌 India's market regulator issued a payment order against Arrow Asia Stock Broking.
+💡 Regulatory orders help enforce market rules and protect investors.
+#SEBI
+
+📍 India · 📰 SEBI · 🏛️ Official
+https://www.sebi.gov.in/enforcement/recovery-proceedings/oct-2026/sebi-order-for-compliance-general-remittance-order-dated-22-10-2026-in-recovery-certificate-no-3883-of-2021-issued-against-arrow-asia-stock-broking-limited-in-the-matter-of-kausambi-vanijya-ltd-_105384.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the SEBI order source
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the entity, action, and source are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-3df693ef479a
+done: 2 post(s) this run
 === run 2026-10-25T08:02:35Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 12
@@ -1450,51 +1498,3 @@ https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVZOMUNTX2d1WHkyZTJ5TVZBNFB
   Groq GPT-OSS: PASS - All statements about traders watching oil, foreign flows, and rate‑hike bets are directly supported by the cited Reuters article
   Groq GPT-OSS 20B: PASS - All claims are directly supported by the Reuters article and the listed sources.
   Groq Qwen: PASS - All factual claims regarding the focus on oil, foreign flows, and rate-hike bets for the rupee and bonds are directly supported by the provided sources, and the location and source attribution are cor
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-d6996ae75d49
----
-🌐 GOLD RISES AS INVESTORS WEIGH FED RATE HIKE ODDS
-
-📌 Gold prices rose slightly as investors tracked U.S. Federal Reserve rate hike signals.
-💡 Higher interest rates usually make loans and mortgages costlier.
-#Gold
-
-📍 Global · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-as-investors-assess-fed-rate-hike-odds/articleshow/135037837.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The 📍 location "Global" is not supported by the Economic Times source, which is an Indian publication
-  -> blocked by fact-check
----
-🌐 OIL DROPS ON RUSSIAN SUPPLY AS GOLD GAINS ON FED HOPES
-
-📌 Oil fell on Russian supply outlook, while gold rose on Fed rate expectations.
-💡 Lower oil prices can ease fuel costs.
-#Gold
-
-📍 Global · 📰 Moneycontrol.com · ✅ 2 sources
-https://news.google.com/rss/articles/CBMi7gFBVV95cUxQV3pHaTYxMm1ZajM2bF94MVhBRFhTeVozeXJrVWtxWEVtMDRXUVNVS2xWbnhGVU1xaS1VVVZLUGR0eEp2OHJtdEpUYjRLMi1aV0tvRTlfWjNoT2kzUE9VU093XzRBOGd5NmpFbV9JWEFieHNnb1dNQzYyU3pLZm5abzJja0xnRl93UHZpZHR4SnVWeWhkcWxsYTVGV09jdDc0SVoxMER0R1JES2Y1eHNjbFdWMlB1ZFRrcEtoLVB2eU9WS2hBRHRORFNiaE1WQzlMTEJaTnN0NllUdktBSzh4TXRVQXFEZjktbUNwRDJ3?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited source.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 2 sources, but the listed sources include more than two, making that claim unsupported.
-  -> blocked by fact-check
----
-🌐 BITCOIN HOLDS ABOVE $82,000
-
-📌 Bitcoin stayed above $82,000, while Ethereum dropped during cautious trading.
-📊 $BTC: Above $82,000
-
-📍 Global · 📰 BusinessToday Malaysia · ✅ 2 sources
-https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM0tEdnZyR1phMEE2eDV2dzNTYkZTNUo4QU50YlZmOFhXTS1EcmNlZ281Z1phSWtxb3poMmdkWkgzU2wzSmxsajBYcmRQU3pUTXJMNlF6eHRsOWR3U2J5S3NZTm5iWmZsT29hNkFqZnY5a0VYMHRQUDlEV2pkVDNtUXFwTlN1SlBxY05ES0NtSW9nTS03Wk5BQzVhaGNNVjhVMVEwdGhjWHBRc3dwOHJ6ckh2UFNsdFI4aE5B?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the BusinessToday Malaysia source
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the BusinessToday Malaysia source.
-  Groq Qwen: FAIL - The post claims '2 sources' but lists three source entries (one of which is a duplicate), and the specific claim that 'Ethereum dropped' is only supported by the BusinessToday headline, while the Plua
-  -> blocked by fact-check
----
-🇮🇳 INDIAN STOCKS REBOUND AS NIFTY RISES 0.65%
-
-📌 The Nifty 50 rose 0.65% to close at 23,146, led by tech shares and bank earnings.
-📊 Nifty 50: 23,146 (+0.65%)
-
-📍 India · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-vedanta-hdfc-bank-icici-bank-axis-bank-hfcl-ireda-zen-tech-and-oil-india/articleshow/135037012.cms
