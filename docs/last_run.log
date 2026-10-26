@@ -1,3 +1,89 @@
+=== run 2026-10-26T09:22:59Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 5
+98/171 sources returned news, 1149 recent items
+265 new trusted stories, posting up to 3 this run
+---
+🌐 GOLD PRICES RISE AS OIL COSTS FALL
+
+📌 Gold rose Rs 700 per 10g as oil prices fell before the US Fed decision.
+📊 Gold: +Rs 700/10g
+💡 Lower oil prices usually help reduce inflation (the rise in prices).
+
+📍 Global · 📰 Economic Times · ✅ 6 sources
+https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-rise-rs-700/10-gram-silver-gains-rs-1500/kg-ahead-of-us-fed-meet-key-levels-to-track-today/articleshow/135204122.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The location tag 📍 Global does not match the source, which reports Indian market prices
+  -> blocked by fact-check
+---
+🌏 ASIAN STOCKS DROP AHEAD OF CENTRAL BANK MEETINGS
+
+📌 Asian stocks fell as investors wait for key central bank interest rate decisions.
+
+📍 Asia · 📰 Economic Times · ✅ 8 sources
+https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-bond-yields-edge-higher-ahead-of-key-central-bank-meetings/articleshow/135204344.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim of "✅ 8 sources" is not supported by the listed sources.
+  -> blocked by fact-check
+---
+🌐 FED, ECB AND BOJ TO DECIDE ON INTEREST RATES THIS WEEK
+
+📌 The US, Europe, and Japan central banks announce rate decisions this week.
+
+📍 Global · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 2 sources
+https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Fed, ECB, and BOJ rate decisions this week are directly supported by the CoinDesk article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the CoinDesk source.
+  Groq Qwen: FAIL - The draft claims there are 2 sources, but only one unique source (CoinDesk) is provided in the list.
+  -> blocked by fact-check
+---
+🇮🇳 GOLD PRICES FALL AHEAD OF DHANTERAS AND DIWALI
+
+📌 Gold prices are under pressure from a strong US dollar and high bond yields.
+💡 A stronger US dollar usually puts pressure on global gold prices.
+#Gold
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/market/commodities/why-is-gold-price-under-pressure-ahead-of-dhanteras-diwali-what-should-interested-buyers-do-expertss-views-target-11793002314682.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about gold price falling, pressure from a strong US dollar and high bond yields, and the timing before Dhanteras/Diwali are directly supported by the Livemint article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Mint source.
+  Groq Qwen: PASS - All factual claims regarding the pressure on gold prices due to the strong US dollar and high bond yields are directly supported by the source text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-aea1812cec1a
+---
+🇮🇳 INDIAN BONDS GAIN AS OIL PRICES DROP
+
+📌 Indian government bond prices rose after global oil prices fell.
+💡 Lower oil prices can help reduce inflation for oil-importing nations.
+#Bonds
+
+📍 India · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/markets/bonds/oil-us-treasuries-prop-up-indian-bonds/articleshow/135203917.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about Indian bond price rise and oil price drop are directly supported by the Economic Times article, and the general inflation explanation is accurate.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - The post accurately reflects the source's report that Indian government bond prices rose following a decline in oil prices, and the general explanation regarding inflation is correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-48c0de5be0c5
+---
+🇪🇺 ECB EXPECTED TO HOLD INTEREST RATES AT 2.5%
+
+📌 The European Central Bank is expected to keep its benchmark rate at 2.5%.
+📊 ECB Rate: 2.5%
+💡 Higher interest rates usually make loans and mortgages more expensive.
+#ECB
+
+📍 Europe · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/ecb-meeting-five-key-questions-on-rates-inflation-and-lagardes-exit/articleshow/135206869.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the expected rate hold at 2.5%, the location, and the source are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-308690092564
+done: 3 post(s) this run
 === run 2026-10-26T07:28:41Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1412,89 +1498,3 @@ https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stoc
   written by Gemini
   Groq GPT-OSS: FAIL - The post states Nasdaq +1%, but the source only reports the Nasdaq rose over 1%, not exactly 1%
   -> blocked by fact-check
----
-🇨🇦 CANADA INFLATION HEATS UP
-
-📌 Canada's inflation rose, raising fears of higher interest rates (the cost of borrowing money).
-💡 Higher rates usually make loans costlier
-#Inflation
-
-📍 Canada · 📰 Investing.com UK · ✅ 3 sources
-https://news.google.com/rss/articles/CBMivgFBVV95cUxQcnRhVVVrM0poVFRjaHdXSkFrRjBHZU9scjRpbVEzWU5yWDNickhYWUxjMUVUSkNrU0ZMZDJYZ2xBclVNQ09XNUVoQ01GdktlN3NmTkIzQVFDWEx0Tm92eDVKbzNQeVBIQjZoYzNOcnFjNWxGN1R5Q05SQUpDZnpaUFJTSnBTVExyT0Q1ekpTZ1RqMHRoWGd2c1cyUmRWc1BwLS12cWpMN2hEbHhnOXUweS1aWkY1ZjlBalZ4X0xn?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - The article confirms rising Canadian inflation and concerns about higher rates, and the general explanation about rates is correct.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Investing.com UK article and the general explanation is accurate.
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding hotter inflation in Canada reviving rate concerns, and the general explanation of interest rates is correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-412ee7911d3a
-skip (off-topic or nothing new): BOC Surveys Show Higher Inflation Expectations, Passthrough
----
-🇺🇸 HYPERLIQUID URGES SEC TO CLARIFY CRYPTO RULES
-
-📌 A crypto policy group asked regulators to clear up rules for free token gifts and buybacks.
-#Crypto
-
-📍 US · 📰 Crypto Briefing · ✅ 3 sources
-https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oOER0enZfNjFUMlk3TGZYU2FISFZDMUlQeE90dFliNjdLTzQ1Q1hna2p0MUVMS2tGa2JmblpFdldxNGxrcVFNUHZSZkVYcG0zckdBT2duUnRMbTM5SXF1TFlBZkU1RFZQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about Hyperliquid urging the SEC, the focus on airdrops and buybacks, and US location are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The claim that the post cites 3 sources is incorrect; the article lists more than three sources.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Dynex Capital, Inc. Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026
----
-🇺🇸 MUSK PROMISES SPACEX SHARE TO EVERY US CHILD
-
-📌 Elon Musk says he will give one SpaceX share to every child in America next year.
-📊 Total value: $10.7bn
-#SpaceX
-
-📍 US · 📰 Business · ✅ 8 sources
-https://www.euronews.com/2026/10/19/musk-pledges-spacex-shares-to-every-us-child-in-potential-107bn-giveaway
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims are directly supported by the cited Euronews and other sources.
-  Groq GPT-OSS 20B: FAIL - The claim that there are 8 sources is unsupported; only six sources are listed.
-  -> blocked by fact-check
----
-🇮🇳 SENSEX FALLS 876 POINTS
-
-📌 The Indian stock market dropped sharply as bank and IT shares were sold off.
-📊 Sensex: -876 pts
-💡 Lower stock prices can reduce the value of retirement and investment funds.
-
-📍 India · 📰 News Mobile · ✅ 2 sources
-https://news.google.com/rss/articles/CBMisAFBVV95cUxOUzl5Q3hnY0Z3d0VFMkpMejhUWmJCeFVxUFZWQmszSExWX2toVkZFMS1qcE13VWhIaG9wc19Ob0N1cWxZQUxETm4yY1VZV1VWemlyVXdzUmtsVjZUQnlCNDBSbjQ2ZklialRUQkZ5LXhsMWktaUdzeV9TM2RnZlZyaEUxR05ueHFqbXZHbkFKWnNCNmo0c3hkbnRiYWNQVk9icnQ3WGhVbDk1YXBvYnlIUA?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (‑876 points, bank and IT sell‑off, location, source) are directly supported by the cited articles.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 2 sources, but three sources are listed.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Gold Rate Today In Ghaziabad, Check Live 22 And 24 Carat Gold Price
----
-🇮🇳 SENSEX AND NIFTY OPEN FLAT
-
-📌 Indian stock markets opened with little change following mixed global signals.
-#Nifty
-
-📍 India · 📰 Social News XYZ · ✅ 2 sources
-https://news.google.com/rss/articles/CBMijwFBVV95cUxQN2c4Qk44MWk5U19sdEt5SUdsdEZ4cFFNN3lIUFVXLTlSZTJIb3VwV1VwT2I4dVBFQm51Nnc0NEJab21zQ1VmV0xqc3paMmtoWHVzRlRmT2pMT3VJUHFOdndjTzdxMEJBSXhfZ0FnUWhpaUJvUWhmazlFUGs5bnM0SzV6QnJZNllqcy1kbVlpUdIBjwFBVV95cUxQN2c4Qk44MWk5U19sdEt5SUdsdEZ4cFFNN3lIUFVXLTlSZTJIb3VwV1VwT2I4dVBFQm51Nnc0NEJab21zQ1VmV0xqc3paMmtoWHVzRlRmT2pMT3VJUHFOdndjTzdxMEJBSXhfZ0FnUWhpaUJvUWhmazlFUGs5bnM0SzV6QnJZNllqcy1kbVlpUQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the flat opening of Sensex and Nifty amid mixed global cues, with matching location and source attribution.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-61642ac57410
-done: 2 post(s) this run
-=== run 2026-10-19T15:12:17Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-19T13:19:27Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-19T11:05:31Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
---- special
-🔔 Closing bell: what mattered today
-
-1️⃣ 🌐 GOLD EDGES HIGHER AS OIL PRICES SOFTEN
