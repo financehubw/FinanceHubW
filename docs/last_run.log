@@ -1,3 +1,104 @@
+=== run 2026-10-26T15:13:40Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 5
+101/171 sources returned news, 1149 recent items
+248 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US STOCKS RISE AS OIL PRICES FALL
+
+📌 US stocks opened higher today, with the Dow Jones gaining 105 points.
+📊 Dow Jones: +105 points
+💡 Falling oil prices can help lower daily costs for drivers and businesses.
+
+📍 US · 📰 NDTV Profit · ✅ 2 sources
+https://news.google.com/rss/articles/CBMizAFBVV95cUxQUzBMa0lRT0FxYmE2SXJfc3BXVkRyNHYzZi03VnNETXc2a19TZnlxeWhKNjBFeDctY3NhbnJCWHhOb0dpRXVCaHEwLVBYMWFrbVJzeGJHR0xTLVpxQXptNVdmRW9wbHE5RHVQekRtMFFnakx2T1ZGSGFGOXM5alNvdkJNNlZSWkJpcEtvZXViNVpoSGNHZXctTHRwRkdCc2R1VUFNSGw2NFBDcTM1ZnRzUWh1NzRQQlppb0FSeDRiWV9Qd25TeVY1ZFdKRGM?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the Dow Jones gain and oil price impact are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: PASS - All factual claims regarding the Dow Jones gain of 105 points, the rise in US stocks, and the context of falling oil prices are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-0a034c57d477
+---
+🇺🇸 🔄 UPDATE: OIL PRICES FALL AS GOLD AND SILVER RISE
+
+📌 Oil prices fell while gold and silver rose before the US Fed meeting.
+💡 Lower oil prices can help reduce inflation (rising living costs).
+#Oil
+
+📍 US · 📰 Yahoo Finance · ✅ 2 sources
+https://news.google.com/rss/articles/CBMimAFBVV95cUxQa3lteVFNck1JeVQyM1RLaVB1cVFlN0UzR3lFVFJ0YnNkWklLWEFRRTVELUpmNWtKWVpWM3dWRE9FV19xSWl0Y0FfTlV5MXEtZWV3dDl5ZnRiNzI5MUd1Q1I4LUpoV0l3SjJfcDR2MC0ydFFxQWFRMjYwQWppSDJTSktCb0trTjFscUtyV1ZIcTRENU1fb2tGXw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Yahoo Finance and Pluang sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the movement of oil, gold, and silver prices ahead of the Fed meeting are directly supported by the provided sources, and the location and source attribution are correct.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims regarding price directions, the timing relative to the Fed meeting, and the sources are directly supported by the provided text.
+skip (off-topic or nothing new): US Stock Futures Point Higher as Crude Oil Retreats and Investors Await Fed Meeting: Dow Jones, S&P, Nasdaq, Wall Street
+---
+🇺🇸 US STOCKS OPEN HIGHER
+
+📌 US stock markets opened higher as investors wait for major company earnings and a Fed rate decision.
+
+📍 US · 📰 The Washington Post · ✅ 16 sources
+https://news.google.com/rss/articles/CBMizAFBVV95cUxQUGdRNzhjMDhlRU9iOGJjaU52Z2dOb0JDY0xDZ1ZRRlN0YklPajRka0FWY0d6cDJFMGdKazZZMG9xc2p2ZU9xUk1pRlFyVThoemRCSTdna0RQaVVKMHRBeU9CQ216bnlFTE9CRlllUlBJMWw5dGpYeHBWQ3ZDeGhUckdzVmE3RjJZV1BNdWpLcU42dFFvSDFGMUQ0RVI0RGVaOERRNUEyT0tzeXREd2pDekNrTVhtaWc0ZUJKY1g5cVZNTkJrMHVHeVdqdmE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about US stocks opening higher and investors awaiting earnings and Fed decision are directly supported by the cited Washington Post source
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Washington Post article.
+  Groq Qwen: PASS - All factual claims regarding the market direction, reasons (earnings and Fed decision), location, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-2d0a7258bcad
+---
+🇺🇸 BITCOIN FALLS BELOW $80,000
+
+📌 Bitcoin price dropped under $80,000 as investors wait for a US central bank decision.
+📊 $BTC: Below $80,000
+
+📍 US · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 4 sources
+https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited articles
+  Groq GPT-OSS 20B: FAIL - The claim that Bitcoin fell below $80,000 is contradicted by the CoinDesk source, and the post lists four sources while only three actually support the claim.
+  -> blocked by fact-check
+---
+🇺🇸 BREAKING: ANTHROPIC FILES FOR US IPO
+
+📌 AI firm Anthropic filed for a US IPO after making $16.29B in H1 2026 revenue.
+📊 H1 2026 Revenue: $16.29B
+
+📍 US · 📰 The Straits Times World News · ✅ 8 sources
+https://www.straitstimes.com/business/anthropic-opens-books-on-ais-explosive-growth-and-staggering-costs
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (IPO filing, US location, $16.29B H1 2026 revenue) are directly supported by the cited Straits Times article and other listed sources.
+  Groq GPT-OSS 20B: FAIL - Unsupported claim about number of sources
+  -> blocked by fact-check
+---
+🇺🇸 BREAKING: AI GIANT ANTHROPIC FILES FOR IPO
+
+📌 AI firm Anthropic filed for an IPO (first stock sale), showing an $80.7B loss.
+📊 Anthropic 1H Loss: $80.7B
+
+📍 US · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 8 sources
+https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink
+  written by Gemini
+  Groq GPT-OSS: FAIL - The $80.7 billion loss figure is not explicitly supported by the cited sources, which mention an $80 billion loss.
+  -> blocked by fact-check
+---
+🇺🇸 ANTHROPIC FILES FOR US IPO
+
+📌 AI firm Anthropic filed for an IPO to list on Nasdaq under the ticker symbol ANT.
+📊 Revenue: $1.2B+
+📊 $ANT
+#IPO
+
+📍 US · 📰 Decrypt · ✅ 8 sources
+https://decrypt.co/381818/anthropic-makes-ipo-filing-public-plans-nasdaq-listing-under-ant
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are backed by the cited Decrypt article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the company, exchange, ticker, and revenue figure are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-a0c9134be618
+done: 3 post(s) this run
 === run 2026-10-26T11:17:25Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 5
@@ -1397,104 +1498,3 @@ daily cap: 12, room left in the last 24h: 2
 #Gold
 
 📍 Global · 📰 All News · ✅ 3 sources
-https://www.investing.com/news/commodities-news/gold-dips-as-oil-prices-fuel-inflation-fears-fed-outlook-in-focus-4958694
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about gold dipping, oil‑price‑driven inflation worries, and the general link between inflation and higher rates are supported by the cited sources.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding gold prices falling due to oil-driven inflation concerns are supported by the sources, and the general explanation in the 💡 line is accurate.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - The claims match the cited headlines, and the inflation and interest-rate note is a valid general explanation.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-9166110bcdaf
----
-🇯🇵 BANK OF JAPAN MAY HOLD RATES AT 1.25%
-
-📌 Japan's central bank may keep rates at 1.25% while raising its inflation forecast.
-📊 BOJ Rate: 1.25%
-
-📍 Japan · 📰 Economic Times · ✅ 7 sources
-https://economictimes.indiatimes.com/markets/us-stocks/news/bank-of-japan-may-raise-inflation-forecast-stand-pat-on-rates-sources-say/articleshow/135063146.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about BOJ holding rates at 1.25% and raising inflation forecast are directly supported by the Economic Times source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
-  Groq Qwen: PASS - All factual claims regarding the BOJ's potential rate hold at 1.25% and inflation forecast upgrade are directly supported by the sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-e38b7f99e3c2
-done: 2 post(s) this run
-=== run 2026-10-20T05:10:25Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-90/171 sources returned news, 854 recent items
-179 new trusted stories, posting up to 3 this run
----
-🇮🇳 JIO PLATFORMS TO RAISE UP TO $3.2B IN RECORD IPO
-
-📌 Jio plans to raise up to $3.2 billion in India's largest ever rupee share sale.
-📊 Target raise: Up to $3.2 billion
-
-📍 India · 📰 International: Top News And Analysis · ✅ 5 sources
-https://www.cnbc.com/2026/10/20/jio-ipo-gic-blackrock-.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the $3.2 billion target and record rupee‑share sale are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
-  Groq Qwen: PASS - All factual claims regarding the $3.2 billion raise amount, the record status in rupee terms, the location, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-74ebd626faae
----
-🌐 GOLD MOVES SLIGHTLY AS INVESTORS WAIT FOR FED RATE NEWS
-
-📌 Gold prices moved slightly as investors wait for the US Fed rate decision next week.
-
-📍 Global · 📰 Economic Times · ✅ 7 sources
-https://economictimes.indiatimes.com/markets/commodities/news/gold-slips-as-investors-weigh-fed-rate-outlook/articleshow/135059635.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim of "✅ 7 sources" is not supported by the listed sources.
-  -> blocked by fact-check
----
-🌐 OIL PRICES FALL AS US WAIVES SOME RUSSIAN SANCTIONS
-
-📌 Oil prices fell after the US waived some sanctions on Russian energy.
-💡 Lower oil prices usually lead to cheaper fuel and energy costs.
-#Oil
-
-📍 Global · 📰 Economic Times · ✅ 7 sources
-https://economictimes.indiatimes.com/markets/commodities/news/oil-eases-as-markets-assess-potential-waiver-on-russian-energy-middle-east-supply-risks/articleshow/135059323.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims “✅ 7 sources” but only six distinct sources are listed.
-  -> blocked by fact-check
----
-🇯🇵 JAPAN 20-YEAR BOND SALE SEES RECORD DEMAND
-
-📌 Japan's 20-year bond auction drew a record 5.84 times demand as yields rose.
-📊 Demand Ratio: 5.84x
-
-📍 Japan · 📰 The Straits Times World News · ✅ 4 sources
-https://www.straitstimes.com/business/japans-20-year-bond-auction-sees-strongest-demand-on-record
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (record 5.84× demand, yields rose, Japan location, source) are directly supported by the cited articles.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims, including the record demand ratio of 5.84x, the context of rising yields, and the source attribution, are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - The listed sources support the record 5.84-times demand, higher yields, Japan location, and source attribution.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-8cd362abdc30
----
-🇮🇳 US AND INDIA NEAR TRADE DEAL
-
-📌 US official Marco Rubio visits India as both nations near a trade deal.
-💡 Trade deals usually reduce taxes on goods traded between countries.
-#India
-
-📍 India · 📰 Reuters · ✅ 7 sources
-https://news.google.com/rss/articles/CBMirwFBVV95cUxQSzVIbWZvOEliSS16aVNWeUNsMlVlcG9wSDVMUkJsdjVrSzM0TUxueEQ5YThPUGtqMFNJbGM3MkROXzVoNzhaNnhCSmpRZEZBX0Zka0Fuci1YbGxVcEpmY3FzbFU2ck0zYVRSZVJYdnJpUkpVaWRRMGd4Z3J3cnhnbFJuWGI1YmRsOHlvSlE3SDJjcnZ5MWtyOFhKRmhFVVEzOFRnLVFIQUZ1YnBFamVN?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about Rubio's visit, the near‑term trade deal, location, source, and the general effect of trade deals are supported by the Reuters article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: PASS - All factual claims regarding Marco Rubio's visit, the proximity of a trade deal, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-6698a8d44e7b
-done: 3 post(s) this run
-=== run 2026-10-20T03:03:37Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
