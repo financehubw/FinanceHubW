@@ -1,0 +1,66 @@
+{
+ "id": "vs_cost_tgt_2010",
+ "title": "Costco vs Target: $1,000 in 2010, who wins?",
+ "thumb": "Costco vs Target: *who won?*",
+ "thumb_photo": "stock market",
+ "thumb_tag": "VS",
+ "caption": "$1,000 in Costco or Target in 2010?\nCostco: about {growth:COST:2010-01-04}\nTarget: about {growth:TGT:2010-01-04}\n(Price growth only, no dividends.)",
+ "comment": "Team Costco or team Target? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#finance",
+  "#versus",
+  "#costco"
+ ],
+ "sources": [
+  "Yahoo Finance price history (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "Costco or Target? One thousand dollars each, in 2010. Pick one before the reveal.",
+   "photo": "stock market",
+   "quiz": {
+    "q": "Which is worth more today?",
+    "a": "Costco",
+    "b": "Target"
+   }
+  },
+  {
+   "say": "Here's how those two thousand dollars played out, year by year.",
+   "versus": {
+    "start": "2010-01-04",
+    "a": [
+     "COST",
+     "Costco"
+    ],
+    "b": [
+     "TGT",
+     "Target"
+    ]
+   }
+  },
+  {
+   "say": "Costco wins, at about {growth:COST:2010-01-04}, against {growth:TGT:2010-01-04}.",
+   "versus": {
+    "start": "2010-01-04",
+    "a": [
+     "COST",
+     "Costco"
+    ],
+    "b": [
+     "TGT",
+     "Target"
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Did you pick the winner?",
+   "photo": "trophy",
+   "big": "Your pick?",
+   "sub": "comment A or B"
+  }
+ ]
+}

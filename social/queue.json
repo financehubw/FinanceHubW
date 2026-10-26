@@ -1529,6 +1529,190 @@
    "sources": [
     "Nvidia price history, Yahoo Finance (split-adjusted), at render time"
    ]
+  },
+  {
+   "file": "monthly_aapl_2007.mp4",
+   "title": "$100 a month into Apple since 2007 is now worth this",
+   "caption": "$100 every month into Apple since 2007.\nToday that would be worth about $496,238 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Apple since 2007 = *$496,238*",
+   "thumb_photo": "smartphone",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-26",
+   "sources": [
+    "Apple price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_amzn_2008.mp4",
+   "title": "$100 a month into Amazon since 2008 is now worth this",
+   "caption": "$100 every month into Amazon since 2008.\nToday that would be worth about $351,966 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Amazon since 2008 = *$351,966*",
+   "thumb_photo": "cardboard boxes",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-26",
+   "sources": [
+    "Amazon price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_ma_2006.mp4",
+   "title": "$100 a month into Mastercard since 2006 is now worth this",
+   "caption": "$100 every month into Mastercard since 2006.\nToday that would be worth about $363,030 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Mastercard since 2006 = *$363,030*",
+   "thumb_photo": "card payment terminal",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-26",
+   "sources": [
+    "Mastercard price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_cost_tgt_2010.mp4",
+   "title": "Costco vs Target: $1,000 in 2010, who wins?",
+   "caption": "$1,000 in Costco or Target in 2010?\nCostco: about $16,888\nTarget: about $3,146\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#costco"
+   ],
+   "comment": "Team Costco or team Target? 👇",
+   "thumb": "Costco vs Target: *who won?*",
+   "thumb_photo": "stock market",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-26",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_nke_lulu_2012.mp4",
+   "title": "Nike vs Lululemon: $1,000 in 2012, who wins?",
+   "caption": "$1,000 in Nike or Lululemon in 2012?\nLululemon: about $2,105\nNike: about $1,541\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#nike"
+   ],
+   "comment": "Team Nike or team Lululemon? 👇",
+   "thumb": "Nike vs Lululemon: *who won?*",
+   "thumb_photo": "stock market",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-26",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_msft_2014.mp4",
+   "title": "$1,000 in Microsoft in 2014 is now worth this",
+   "caption": "In 2014, Microsoft was getting a new CEO.\n$1,000 in it then would be worth about $14,429 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Microsoft in 2014? 👇",
+   "thumb": "$1,000 in Microsoft 2014 = *$14,429*",
+   "thumb_photo": "office laptop",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-26",
+   "sources": [
+    "Microsoft price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_tsla_2013.mp4",
+   "title": "$1,000 in Tesla in 2013 is now worth this",
+   "caption": "In 2013, Tesla was a small electric car maker.\n$1,000 in it then would be worth about $157,899 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Tesla in 2013? 👇",
+   "thumb": "$1,000 in Tesla 2013 = *$157,899*",
+   "thumb_photo": "electric car charging",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-26",
+   "sources": [
+    "Tesla price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_v_2008.mp4",
+   "title": "$1,000 in Visa in 2008 is now worth this",
+   "caption": "In 2008, Visa was listing in a crisis.\n$1,000 in it then would be worth about $28,879 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Visa in 2008? 👇",
+   "thumb": "$1,000 in Visa 2008 = *$28,879*",
+   "thumb_photo": "credit card payment",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-26",
+   "sources": [
+    "Visa price history, Yahoo Finance (split-adjusted), at render time"
+   ]
   }
  ]
 }

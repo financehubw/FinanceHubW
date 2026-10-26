@@ -1,0 +1,49 @@
+{
+ "id": "whatif_v_2008",
+ "title": "$1,000 in Visa in 2008 is now worth this",
+ "thumb": "$1,000 in Visa 2008 = *{growth:V:2008-03-19}*",
+ "thumb_photo": "credit card payment",
+ "thumb_tag": "WHAT IF",
+ "caption": "In 2008, Visa was listing in a crisis.\n$1,000 in it then would be worth about {growth:V:2008-03-19} today (price growth only, no dividends).",
+ "comment": "What would you have done with Visa in 2008? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#whatif",
+  "#finance",
+  "#compounding"
+ ],
+ "sources": [
+  "Visa price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "In 2008, Visa was listing in a crisis.",
+   "photo": "credit card payment",
+   "clip": {
+    "kicker": "San Francisco",
+    "year": "2008",
+    "text": "Visa: listing in a crisis"
+   }
+  },
+  {
+   "say": "Say you put in one thousand dollars.",
+   "photo": "dollar bills",
+   "big": "$1,000",
+   "sub": "2008"
+  },
+  {
+   "say": "Today, it would be worth about {growth:V:2008-03-19}.",
+   "photo": "stock market chart",
+   "big": "{growth:V:2008-03-19}",
+   "sub": "price growth since 2008"
+  },
+  {
+   "say": "Time in the market does the heavy lifting.",
+   "photo": "hourglass",
+   "big": "Time",
+   "sub": "the real ingredient"
+  }
+ ]
+}

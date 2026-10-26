@@ -1,0 +1,49 @@
+{
+ "id": "monthly_aapl_2007",
+ "title": "$100 a month into Apple since 2007 is now worth this",
+ "thumb": "$100/month in Apple since 2007 = *{dca:AAPL:2007-01-03}*",
+ "thumb_photo": "smartphone",
+ "thumb_tag": "MONTHLY HABIT",
+ "caption": "$100 every month into Apple since 2007.\nToday that would be worth about {dca:AAPL:2007-01-03} (price growth only, no dividends).",
+ "comment": "Could you put away $100 a month? 👇",
+ "tags": [
+  "#investing",
+  "#sip",
+  "#money",
+  "#stocks",
+  "#finance",
+  "#habits"
+ ],
+ "sources": [
+  "Apple price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One hundred dollars a month, into Apple, starting in 2007.",
+   "photo": "smartphone",
+   "big": "$100",
+   "sub": "every month since 2007"
+  },
+  {
+   "say": "Back then, Apple was about to launch the iPhone.",
+   "photo": "smartphone",
+   "clip": {
+    "kicker": "Cupertino",
+    "year": "2007",
+    "text": "Apple: about to launch the iPhone"
+   }
+  },
+  {
+   "say": "Today, those monthly payments would be worth about {dca:AAPL:2007-01-03}.",
+   "photo": "piggy bank coins",
+   "big": "{dca:AAPL:2007-01-03}",
+   "sub": "$100 a month, every month"
+  },
+  {
+   "say": "Small, boring, every month. That's how wealth is built.",
+   "photo": "calendar",
+   "big": "Every month",
+   "sub": "the habit that compounds"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "whatif_msft_2014",
+ "title": "$1,000 in Microsoft in 2014 is now worth this",
+ "thumb": "$1,000 in Microsoft 2014 = *{growth:MSFT:2014-02-04}*",
+ "thumb_photo": "office laptop",
+ "thumb_tag": "WHAT IF",
+ "caption": "In 2014, Microsoft was getting a new CEO.\n$1,000 in it then would be worth about {growth:MSFT:2014-02-04} today (price growth only, no dividends).",
+ "comment": "What would you have done with Microsoft in 2014? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#whatif",
+  "#finance",
+  "#compounding"
+ ],
+ "sources": [
+  "Microsoft price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "In 2014, Microsoft was getting a new CEO.",
+   "photo": "office laptop",
+   "clip": {
+    "kicker": "Redmond",
+    "year": "2014",
+    "text": "Microsoft: getting a new CEO"
+   }
+  },
+  {
+   "say": "Say you put in one thousand dollars.",
+   "photo": "dollar bills",
+   "big": "$1,000",
+   "sub": "2014"
+  },
+  {
+   "say": "Today, it would be worth about {growth:MSFT:2014-02-04}.",
+   "photo": "stock market chart",
+   "big": "{growth:MSFT:2014-02-04}",
+   "sub": "price growth since 2014"
+  },
+  {
+   "say": "Time in the market does the heavy lifting.",
+   "photo": "hourglass",
+   "big": "Time",
+   "sub": "the real ingredient"
+  }
+ ]
+}

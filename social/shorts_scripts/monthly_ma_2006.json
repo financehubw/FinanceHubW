@@ -1,0 +1,49 @@
+{
+ "id": "monthly_ma_2006",
+ "title": "$100 a month into Mastercard since 2006 is now worth this",
+ "thumb": "$100/month in Mastercard since 2006 = *{dca:MA:2006-05-25}*",
+ "thumb_photo": "card payment terminal",
+ "thumb_tag": "MONTHLY HABIT",
+ "caption": "$100 every month into Mastercard since 2006.\nToday that would be worth about {dca:MA:2006-05-25} (price growth only, no dividends).",
+ "comment": "Could you put away $100 a month? 👇",
+ "tags": [
+  "#investing",
+  "#sip",
+  "#money",
+  "#stocks",
+  "#finance",
+  "#habits"
+ ],
+ "sources": [
+  "Mastercard price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One hundred dollars a month, into Mastercard, starting in 2006.",
+   "photo": "card payment terminal",
+   "big": "$100",
+   "sub": "every month since 2006"
+  },
+  {
+   "say": "Back then, Mastercard was a card network.",
+   "photo": "card payment terminal",
+   "clip": {
+    "kicker": "New York",
+    "year": "2006",
+    "text": "Mastercard: a card network"
+   }
+  },
+  {
+   "say": "Today, those monthly payments would be worth about {dca:MA:2006-05-25}.",
+   "photo": "piggy bank coins",
+   "big": "{dca:MA:2006-05-25}",
+   "sub": "$100 a month, every month"
+  },
+  {
+   "say": "Small, boring, every month. That's how wealth is built.",
+   "photo": "calendar",
+   "big": "Every month",
+   "sub": "the habit that compounds"
+  }
+ ]
+}
