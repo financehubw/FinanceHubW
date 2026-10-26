@@ -1,3 +1,63 @@
+=== run 2026-10-26T11:17:25Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 5
+--- special
+🌆 MARKET WRAP | Today's top stories
+
+1️⃣ 🇮🇳 GOLD PRICES FALL AHEAD OF DHANTERAS AND DIWALI
+2️⃣ 🇮🇳 INDIAN BONDS GAIN AS OIL PRICES DROP
+3️⃣ 🇪🇺 ECB EXPECTED TO HOLD INTEREST RATES AT 2.5%
+
+Verified finance news, explained simply. Follow @FinanceHubW
+published to: website, Instagram Story
+101/171 sources returned news, 1182 recent items
+295 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US STOCK FUTURES RISE AHEAD OF FED DECISION
+
+📌 US stock futures are higher as traders wait for the central bank rate decision.
+📊 Dow futures: Up
+💡 Interest rate decisions affect borrowing costs for everyone.
+
+📍 US · 📰 www.tmgm.com · ✅ 4 sources
+https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUFBHTWtXWWRKNGRoZWJzSTB3SE5DTmR1S0p4SU9zTHU1X05wNHlBM2dHd3VVd3JzYkdKbXRrQ21ITjJOMnNPVWVRNUIwNGhXc3JhV0pEU2s2QjREaFdsdGpLV1NiR214ZXpYUi1mYXBQcVltVzUtSnRZWEUwdmJrUnhJcWdxRVFTVU53dGpyb1REa3hqTl9nMVF0TExxak1haVk3VjZPZk5jUzctZGwta1hZVHJXdFZncXp3SUREVllpS1BVcjQ2bG50THdlMkFWYlFZZ3V3?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly backed by the listed sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding the rise in US stock futures and the context of the Fed decision are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-8f837082e74d
+---
+🌐 ELON MUSK WARNS HUNDREDS OF AI FIRMS FACE COLLAPSE
+
+📌 Elon Musk says over 200 AI cloud computing firms face failure amid heavy debts.
+#AI
+
+📍 Global · 📰 The Guardian · ✅ 4 sources
+https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about Elon Musk warning over 200 AI cloud firms of collapse and debt are directly supported by the Guardian source
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding Elon Musk's warning about over 200 AI cloud firms facing failure due to debt are supported by the sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-1115fcddb437
+skip (off-topic or nothing new): Sterling drops against euro and dollar ahead of UK budget
+---
+🇨🇦 BANK OF CANADA EXPECTED TO HIKE RATES
+
+📌 Economists expect the Bank of Canada to raise interest rates this week due to energy inflation.
+💡 Higher rates usually make loans costlier.
+#Canada
+
+📍 Canada · 📰 Reuters · ✅ 7 sources
+https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUXpOXzVmSjQ1YVpWOEdvN2ZtR2xyVmFDTTJxZzhqekRPVGRaVzl3QUV4bFFQYjZUckk0MExrRGZYbUNPd3czSV9yQVNORlFJc19rMm03T3BoNHhVNkRtTnRQckdpM0Q4MUFscWlzU1gtYVhrSUY0SjY1UlMxby00YXROUlJleDc4cXdBS2xFTkJvSHQwTGpwVkN5aVpqZ1dVM081dk9qM3dGSy05Z2kxaGU0TlctSXVMQUpBaGlVckQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the expected rate hike, timing, and cause are directly supported, and the general explanation about higher rates is accurate.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the Bank of Canada's expected rate hike due to energy inflation are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-e66257aa4227
+done: 4 post(s) this run
 === run 2026-10-26T09:22:59Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 5
@@ -1438,63 +1498,3 @@ done: 3 post(s) this run
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
 daily cap reached, nothing to do this run
-=== run 2026-10-20T01:14:22Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-19T22:59:23Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-19T21:01:09Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-19T19:12:04Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-19T17:06:00Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-103/171 sources returned news, 1051 recent items
-249 new trusted stories, posting up to 2 this run
-skip (off-topic or nothing new): SpaceX Analysis: Is SPCX Headed Higher? - SpaceX (NASDAQ:SPCX)
----
-🇺🇸 S&P 500 RISES 0.75%
-
-📌 The stock index climbed to 7,721 at midday.
-📊 S&P 500: 7,721 (+0.75%)
-#StockMarket
-
-📍 US · 📰 24/7 Wall St. · ✅ 2 sources
-https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTlJzekRmWXItRnNhTkN0b3FkSTFJRU9YRkhYTzZJRlJaUnVmTl8zY1hQbHVSZUQ3cGE4YXF4MzVjbjJ3clZhUjlLd0pSaGhNSGdQSzQ3Smg4am5uYzJIQ3FhSG1pZVVFUmJRZ0tvUFozekttMFRaTXRLM2doSk9GUTVXaHRSdHFvSnpzQ2EtMU5zOXdXZXU2amo1Nk8xd0hEV1FoMTAwR2cxbnp2VG1WbEtPOUwzUHRUS096UzhqZUtyVDVVcC1veg?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (rise 0.75%, level 7,721, US location, 24/7 Wall St. source) are directly supported by the cited article.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 2 sources, but the list contains many more, so the source count claim is unsupported.
-  -> blocked by fact-check
----
-🇨🇦 CANADA INFLATION RISES TO 3.1%
-
-📌 Canada's annual price rise hit 3.1% in September, pushed up by higher fuel costs.
-📊 Inflation: 3.1%
-
-📍 Canada · 📰 Oilprice.com · ✅ 3 sources
-https://oilprice.com/Latest-Energy-News/World-News/Canadas-Inflation-Rises-to-31-as-Fuel-Oil-Prices-Jump-58.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements (3.1% inflation, September, fuel cost driver, Canada location, Oilprice.com source) are directly supported by the cited article.
-  Groq GPT-OSS 20B: FAIL - The claim of "✅ 3 sources" is not supported by the provided sources.
-  -> blocked by fact-check
----
-🇺🇸 NASDAQ RISES OVER 1%
-
-📌 US stocks climbed as tech shares linked to artificial intelligence recovered.
-📊 Nasdaq: +1%
-💡 Higher stock prices generally boost retirement accounts and investments.
-#Tech
-
-📍 US · 📰 Economic Times · ✅ 5 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-ai-stocks-rebound-ahead-of-major-earnings/articleshow/135050156.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post states Nasdaq +1%, but the source only reports the Nasdaq rose over 1%, not exactly 1%
-  -> blocked by fact-check
