@@ -1,3 +1,23 @@
+=== run 2026-10-26T17:18:05Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+101/171 sources returned news, 1080 recent items
+252 new trusted stories, posting up to 1 this run
+---
+🇰🇷 SOUTH KOREA MAY DELAY CRYPTO TAX TO 2029
+
+📌 South Korea is considering a fourth delay on its 22% crypto tax, pushing it to 2029.
+📊 Crypto tax rate: 22%
+
+📍 South Korea · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 4 sources
+https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about South Korea's 22% crypto tax delay to 2029 are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the fourth delay, the 22% tax rate, the new 2029 timeline, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f3c1e37eeded
+done: 1 post(s) this run
 === run 2026-10-26T15:13:40Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 5
@@ -1478,23 +1498,3 @@ published to: website, Instagram Story
 
 📍 India · 📰 Economic Times · ✅ 6 sources
 https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-to-float-rs-1200-cr-ipo-on-oct-26/articleshow/135064394.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (IPO date, size, location, source) are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by sources.
-  Groq Qwen: PASS - All factual claims regarding the company name, IPO size (Rs 1,200 crore), opening date (October 26), location (India), and source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-8d5cd180ce1a
-done: 2 post(s) this run
-=== run 2026-10-20T07:23:05Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-105/171 sources returned news, 1103 recent items
-242 new trusted stories, posting up to 2 this run
----
-🌐 GOLD PRICES DIP AS OIL FUELS INFLATION CONCERNS
-
-📌 Gold prices fell as rising oil costs stoked worries about higher inflation.
-💡 Higher inflation often leads central banks to keep interest rates elevated.
-#Gold
-
-📍 Global · 📰 All News · ✅ 3 sources
