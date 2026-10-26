@@ -1,3 +1,49 @@
+=== run 2026-10-26T19:25:06Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+94/171 sources returned news, 956 recent items
+re-check of earlier post: 5 fail / 0 pass
+253 new trusted stories, posting up to 1 this run
+---
+🇺🇸 🔄 UPDATE: US STOCKS RISE AS NASDAQ CLIMBS 1.3%
+
+📌 US stocks gained as S&P 500 rose 0.9% and Nasdaq climbed 1.3% while oil prices fell.
+📊 S&P 500: +0.9%
+
+📍 US · 📰 The Sunday Guardian · ✅ 3 sources
+https://news.google.com/rss/articles/CBMikAJBVV95cUxQQTlvWUE5N0R5MHhBRWVzMkFVUkFIWHpsQzJvT1BPaEY0S1pzQXRQcV9KZFVVLUw1NkNiX0R4NjZKZWtwbTBwbF9zd1lCZWJ0bFllc0p2Y1F2dS1nOTJ3NlMwX2pIbTA2MUNCQXdKbkhVVGJack9UcjBaZDhyR2lWQTZ6b19XVVdZbUpmSTBRaFRmdFM2RFNlRVJaRmpiNzNQemhBT2thaUViS24ySHlfMXplUmhHYmR0NmFWOHNZQmJBMEFfZzdOazNCQThaeFptUTdCN2RfVzZmcDg1WDJsVDF4eWdneDA4aXdqYjRsckxuMjktNmRoNnlLNkxPMVFLVDZ6N3dFdFRZNG9tbm5ySdIBlgJBVV95cUxQQmVmanhTYk1SaF8wUFRpdWdDNGh4WFJuZGo2RHdfSkd0d2ZTQ2FCVDYtN0xHSGVnSTg3ZVNSc25qT3ZIQTI0TUFrdlI5M1BkV3h0ZnplU1pPakoxbU5pUWp5czZyQ2JwSXN5RXU0WEl3XzlybmlIZ1JRWEl1MV9yYjJIZ1pnaDJqVVNtcXphamNSSGF0by1UeWlFUTgzblItT215RGh2dWJoazNwMkdnR0xtWmI4UktRMlJqd2xZZ3BVdkMzQnhBNHFTVV9sTGhhRll6bFQybDF2T3FMT3l4TnpIalBmWk1GX0FNZWlmMkhGczFWSE5WcFVmZlZUbVJGLW53UHhseDVoZlZFZkl5MGh3aWU0UQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All percentages, stock movements, and oil price decline are directly supported by the cited Sunday Guardian article.
+  Groq GPT-OSS 20B: FAIL - The claim that the post cites 3 sources is unsupported; the list actually contains 5 sources.
+  -> blocked by fact-check
+---
+🇺🇸 FED EXPECTED TO HOLD INTEREST RATES STEADY
+
+📌 The US Fed is expected to hold interest rates steady this week.
+💡 Steady interest rates usually keep loan and mortgage costs unchanged.
+#Fed
+
+📍 US · 📰 Forbes · ✅ 4 sources
+https://news.google.com/rss/articles/CBMinAFBVV95cUxQTjBfRl9BdjJ4TE9UMk9BY1NmYWp3MFVuNWkwYnIweWpuRldsZU8zQk9rWFBTRUhpVXQyYW9WZWFXd0EzVWZ2VnZwdUljYmFuQmE1QmstWXpmcUZOaDVlZ1pJbnB6anFMUEZIdnU2S1loUGtnV2Z3R2ktbkgtek5VNThFUnFVUHhpbGF5NEEyd1dIR0p6X0tGc0tuYUY?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that the Fed will hold rates steady this week is not supported by the cited Forbes source, which discusses 2027 expectations, causing a source mismatch.
+  -> blocked by fact-check
+---
+🇺🇸 STRATEGY PAUSES BITCOIN BUYS
+
+📌 Strategy stopped buying bitcoin for a week and spent $205 million to buy back its own preferred stock.
+📊 $MSTR: $205M stock buyback
+#Crypto
+
+📍 US · 📰 Bitcoin Magazine · ✅ 3 sources
+https://bitcoinmagazine.com/news/strategy-mstr-pauses-bitcoin-buying-205
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the pause in bitcoin buying and the $205 M preferred‑stock buyback are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the pause in bitcoin buying, the $205 million stock buyback, the location, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f1e984d8da48
+done: 1 post(s) this run
 === run 2026-10-26T17:18:05Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 2
@@ -1452,49 +1498,3 @@ https://news.google.com/rss/articles/CBMimAFBVV95cUxOZWFsQzF6S2VSMkcyQ29HbFl2aFg
   Groq GPT-OSS 20B: PASS - All claims are supported by the listed sources.
   Groq Qwen: PASS - All factual claims regarding oil prices, specific levels, and the cause (Middle East tensions) are directly supported by the provided sources, and the location and source attribution are correct.
 published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-61447f007039
-done: 1 post(s) this run
-=== run 2026-10-20T11:02:59Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
---- special
-🌆 MARKET WRAP | Today's top stories
-
-1️⃣ 🇯🇵 BANK OF JAPAN MAY HOLD RATES AT 1.25%
-2️⃣ 🌐 GOLD PRICES DIP AS OIL FUELS INFLATION CONCERNS
-3️⃣ 🇺🇸 BLACKROCK FILES FOR NEW BITCOIN ETF TO LIMIT LOSSES
-
-Verified finance news, explained simply. Follow @FinanceHubW
-published to: website, Instagram Story
-105/171 sources returned news, 1097 recent items
-238 new trusted stories, posting up to 0 this run
-done: 1 post(s) this run
-=== run 2026-10-20T09:13:19Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-102/171 sources returned news, 1147 recent items
-re-check of earlier post: 3 fail / 1 pass
-233 new trusted stories, posting up to 2 this run
----
-🇺🇸 BLACKROCK FILES FOR NEW BITCOIN ETF TO LIMIT LOSSES
-
-📌 BlackRock filed for a new $BTC fund that uses options to cap losses at 10%.
-📊 $BTC ETF loss floor: 10%
-
-📍 US · 📰 Yahoo Finance · ✅ 6 sources
-https://news.google.com/rss/articles/CBMioAFBVV95cUxNZFFacFp1MzRNTGJGUnpHdGVjMDdRTVBQTkNRY3IzblVTQTlRckJ3R3NRTGlzSkVtTjFzZHRsbTNXWkVxNlVlY0VabGpadjJGYzNPVkVacmdkaExGSlZsR0VFQmwza1dZR3NwN3VXc1lFSGxDUl90SjgzVWlRRXhnMS15TmpGN1F3Vkh4akNjQktmd0l1X3lYVllHYl9NSHdG?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about BlackRock filing a Bitcoin ETF with a 10% loss floor are directly supported by the Yahoo Finance source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding BlackRock's filing for a Bitcoin ETF with a 10% loss floor using options are directly supported by the provided sources, and the location and source attribution are correc
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-4938447c4472
----
-🇮🇳 EAAA INDIA ALTERNATIVES PLANS RS 1,200-CR IPO
-
-📌 EAAA India Alternatives will open its IPO (initial public offering, the first sale of stock to the public) on October 26.
-📊 IPO size: Rs 1,200 crore
-#IPO
-
-📍 India · 📰 Economic Times · ✅ 6 sources
-https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-to-float-rs-1200-cr-ipo-on-oct-26/articleshow/135064394.cms
