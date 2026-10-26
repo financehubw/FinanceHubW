@@ -1,6 +1,6 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-107/171 sources returned news, 1394 recent items
+105/171 sources returned news, 1372 recent items
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
@@ -10,26 +10,22 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-  big: rejected: big_headline must be 1-90 characters (it is 92); big_body must be 1-150 characters (it is 159); big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or 
-  big: rejected: big_headline must be 1-90 characters (it is 92); big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: rejected: big_headline must be 1-90 characters (it is 92); big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: story #7 failed in 64s
-  big #1 draft 1: Groq GPT-OSS: PASS - All numerical and descriptive claims are directly supported by the cited articles | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - All specific numerical claims regarding stock futures movements (Nasdaq >500 pts, Dow 200 pts, S&P 0.09%, Nasdaq 1.06%) and oil prices ($111) are directly supported by the provided source titles and s
-  big: story #1 ok in 22s
-  pol: rejected: pol_body must be 1-170 characters (it is 179)
-  pol #5 draft 2: Groq GPT-OSS: PASS - All factual statements about the €3.25 million fine by the Central Bank of Ireland and the cited safeguarding failures are confirmed by the sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources regarding the €3.25 million fine by the Central Bank of Ireland for safeguarding failures and mixing of funds.
-  pol: story #5 ok in 56s
-  biz #22 draft 1: Groq GPT-OSS: PASS - All numbers, percentages, and AI rationale are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the number of job cuts (5,000), the percentage of workforce reduction (5%), and the reason (AI efficiency/cost savings) are directly supported by the provided sources.
-  biz: story #22 ok in 8s
-  up #36 draft 1: Groq GPT-OSS: PASS - All claims about the BOJ holding the rate at 1.25% at its upcoming meeting are directly supported by the cited Nikkei Asia source. | Groq GPT-OSS 20B: PASS - The slide’s claim matches the source headline and content. | Groq Qwen: PASS - The slide accurately reflects the source's claim that the Bank of Japan will hold its rate at 1.25% at its meeting next week.
-  up: story #36 ok in 56s
-  r1 #28 draft 1: Groq GPT-OSS: PASS - All stated facts about the rate cut and its magnitude and timing are confirmed by the sources | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - All factual claims regarding the 100 basis point cut, the new rate of 36%, and the 9-month gap are directly supported by the provided sources.
-  r1: story #28 ok in 75s
-  r2 #19 draft 1: Groq GPT-OSS: PASS - All numeric forecasts are directly supported by the cited Express Tribune article | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - The slide's claims regarding the 1.3% contraction and 6.6% growth in 2027 for Pakistan are directly supported by the Express Tribune source.
-  r2: story #19 ok in 52s
-  r3 #13 draft 1: Groq GPT-OSS: PASS - All claims match the source title stating the yen is set for its biggest rally in a month as investors seek safe havens. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide text accurately reflects the headlines provided in the sources, which state the yen is set for its biggest rally in a month as investors seek safe havens.
-  r3: story #13 ok in 12s
-  r3 #6 draft 1: Groq GPT-OSS: PASS - All claims about SoFi's tokenized deposit, its nature as a digital cash token, and the 4.4% annual interest rate are supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: FAIL - The slide describes the tokenized deposit as a 'digital cash token,' which is unsupported by the sources that identify it as a tokenized deposit (SOFIE) convertible to a stablecoin (SoFiUSD), and the 
-  r3 #6 draft 2: Groq GPT-OSS: PASS - All claims about SoFi's tokenized deposit and its 4.4% interest rate are supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - The slide's claim of a 4.4% annual interest rate is supported by The Block and Decrypt sources, which cite 4.4% APY, while the Economic Times source citing 4.2% is an outlier or refers to a different 
-  r3: story #6 ok in 111s
-Draft ready for review: magazine/daily/2026-10-22/edition.json (not published)
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big #30 draft 2: Groq GPT-OSS: PASS - All factual statements are directly supported by the provided source excerpts. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the $95 billion equity raise, the purpose (AI/chips/data centres), and the specific $5 billion interest from Nvidia, AMD, and Broadcom are supported by the provided source
+  big: story #30 ok in 100s
+  pol: rejected: this repeats the big story ($95bn, expand, meta, plans); it must be a different story
+  pol #13 draft 2: Groq GPT-OSS: PASS - All claims about UK gilt yields dropping ~0.03% are directly supported by the source excerpt. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the Guardian source. | Groq Qwen: PASS - The slide accurately reflects the source's claim that UK government borrowing costs (yields on 10 and 30-year gilts) fell by around 0.03 of a percentage point this morning.
+  pol: story #13 ok in 87s
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: story #12 failed in 188s
+  biz: rejected: biz_headline must be 1-34 characters (it is 35); biz_stats note must be 1-18 characters; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value
+  biz: rejected: biz_stats note must be 1-18 characters; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4b
+  biz: rejected: biz_stats value must be 1-7 characters; this repeats the big story (artificial, intelligence, selling, stock); it must be a different story
+  biz: story #6 failed in 59s
+  biz: rejected: biz_body must be 1-130 characters (it is 136); biz_stats needs exactly two figures
+  biz: rejected: these numbers are not in the source: 0
+  biz: rejected: biz_stats needs exactly two figures
+  biz: story #40 failed in 61s
+no story passed the checks for the biz slide; nothing published
