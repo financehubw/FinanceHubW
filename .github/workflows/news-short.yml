@@ -1,0 +1,44 @@
+name: Same-day news Short
+
+# Mon-Fri 5:35 PM IST: the day's strongest fact-checked story becomes a voiced Short, first in line for the 7:30 PM slot.
+on:
+  schedule:
+    - cron: "5 12 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: make-shorts
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: pip install -q requests pillow numpy scipy yfinance edge-tts
+      - name: Make today's news Short
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVEN_VOICE_ID: ${{ vars.ELEVEN_VOICE_ID }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          mkdir -p docs
+          python social/news_short.py 2>&1 | tee docs/news_short.log
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "FinanceHubW"
+          git config user.email "bot@financehubw.invalid"
+          git add docs/news_short.log social/queue.json social/shorts_scripts site/media/shorts 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Today's news Short"
+          python3 social/git_save.py

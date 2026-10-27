@@ -119,7 +119,7 @@ def main(n: int) -> None:
     have = {p.stem for p in OUT.glob("*.json")}
     made = 0
     for i, t in enumerate(BANK):
-        for fn in ((lump, dca) if i % 2 == 0 else (dca, lump)):
+        for fn in ((lump, dca) if i % 4 == 0 else (lump,)):        # monthly-habit format: weakest views, ~1 in 4
             sid, spec = fn(t)
             if sid in have or made >= n:
                 continue
