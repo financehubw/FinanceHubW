@@ -1,3 +1,87 @@
+=== run 2026-10-27T11:18:33Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+106/171 sources returned news, 1155 recent items
+317 new trusted stories, posting up to 3 this run
+---
+🇮🇳 DEUTSCHE BANK SEES RBI RATE RISING TO 6.25% BY 2027
+
+📌 Deutsche Bank expects RBI to raise repo rate (the rate banks borrow at) to 6.25%.
+📊 Repo rate: 6.25%
+
+📍 India · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/news/economy/policy/rbi-may-raise-repo-rate-to-6-25-by-2027-amid-inflation-risks-deutsche-bank/articleshow/135229287.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims the repo rate is 6.25% (implying current), which the source only forecasts for 2027, not a present fact.
+  -> blocked by fact-check
+---
+🌐 ANTHROPIC IPO FILING MOVES STOCKS
+
+📌 US futures edged lower while Asian markets rose following news of an Anthropic IPO filing.
+#Stocks
+
+📍 Global · 📰 Yahoo Finance · ✅ 6 sources
+https://news.google.com/rss/articles/CBMilwFBVV95cUxPLUNNcVpOZUlrU21YOGhjTGs3VkJDdDFQTU13aE12U3lpY3p1b0dTajB3X3pSdDlqcXJ1c2J1T2ExaHJkVkRLS0xFek05czA0bnJES0lUbGprbWU1ZXI5M3RtbGpkeGVPeDNyMWxMWnZKbW9SXzhZaHpRZUNueHMyNkVnblcwNWIydk5VS0Vva0F4d3lWRmxN?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about US futures edging lower and Asian markets rising after the Anthropic IPO filing are directly supported by the Yahoo Finance articles.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding US futures edging lower and Asian markets rising following the Anthropic IPO filing news.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims in the post are directly supported by the Yahoo Finance sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f6968f0ad105
+---
+🇮🇳 RAJAN WARNS INDIA AGAINST DEFENDING FALLING RUPEE
+
+📌 Ex-RBI chief Rajan warned India not to exhaust reserves after using half of $140B.
+📊 Special forex pool: >$140 billion
+
+📍 India · 📰 Economic Times · ✅ 8 sources
+https://economictimes.indiatimes.com/news/economy/policy/resist-temptation-to-defend-at-any-cost-raghuram-rajan-cautions-india-against-excessive-use-of-forex-reserves/articleshow/135228668.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but the provided source list does not confirm exactly eight sources
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS END FLAT AFTER MIXED DAY
+
+📌 Indian share markets ended flat today, with the Sensex closing at 73,599.
+📊 Sensex: 73,599
+💡 A flat market means stock prices saw very little change overall.
+
+📍 India · 📰 Fortune India · ✅ 5 sources
+https://news.google.com/rss/articles/CBMipgFBVV95cUxNM3hGaVpJZlFtTVRTRktjY2JJbm1IRGNub2t5RGF6RjZpSkE1Vnh5ck1JNlpIc1JFMmhwVkJVWkR1ZXRUcXZxX1RFYmtsNkRyaFl4c25HdkJBTEJ4ZzQ2OWZaRk9DTDBZY1FudjQzRUpOTEhUazBuSEl0anE0ajBzT19hS1kwcWd5eWFRV0gzdmJid2hGY2FtOFN0ZW00ci14aTVxQTNn0gGzAUFVX3lxTE1lalJJTGtYZDlNU3JHQzFtUGdrdUdkOFlRTTVMY0hub0JkQzB2UFplTGRYX1ZXanhTR203bnRBUy1rc1BFM3FYMmRHN09iYWFWajBZZUsxVzJncmdlOUxtRW51NEpwUFFIWkx5cGtpYll6dGMxSW52SFJvYlpST2dUSXZpSUdXdVdZeEdGSmxyb0VsRTBYNC1nQnh6blNPSUx1VG9rVTVjT2prT0ZmeUNvM18w?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (Sensex at 73,599 and flat market meaning) are directly supported by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The post claims it cites 5 sources, but the list actually contains 6 (including a duplicate), which is a factual inconsistency.
+  -> blocked by fact-check
+---
+🌐 GOLD PRICES EASE AS US DOLLAR STRENGTHENS
+
+📌 Gold prices fell as the US dollar gained strength before the Fed rate decision.
+📊 Gold: near $4,000
+
+📍 Global · 📰 Mint · ✅ 4 sources
+https://www.livemint.com/market/gold-eases-on-firmer-dollar-ahead-of-fed-decision-11793087285993.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about gold easing, dollar strength, and price near $4,000 are directly supported by the Mint source.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Mint source.
+  Groq Qwen: PASS - All factual claims regarding gold prices near $4,000, the strengthening US dollar, and the context of the Fed decision are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-c710e433cac7
+---
+🇮🇳 INDIAN STOCKS END FLAT AMID HIGH OIL PRICES
+
+📌 Indian markets closed flat due to high crude oil prices and selling in bank stocks.
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
+https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-27-october-2026/article71626702.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about flat Indian market, high oil prices, and bank stock selling are directly supported by the cited sources
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - The post accurately reflects the source headlines and content regarding the market closing largely unchanged due to high oil prices and bank stock selling, with matching location and source attributio
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-9434bc47b15e
+done: 3 post(s) this run
 === run 2026-10-27T09:14:55Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1414,87 +1498,3 @@ daily cap reached, nothing to do this run
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
 daily cap reached, nothing to do this run
-=== run 2026-10-20T22:59:29Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-20T21:02:01Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-20T19:11:42Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-20T17:19:24Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-99/171 sources returned news, 970 recent items
-216 new trusted stories, posting up to 2 this run
----
-🇺🇸 US STOCKS RISE AS HEALTHCARE SHARES HIT RECORD HIGH
-
-📌 Wall Street rose as healthcare shares hit records and oil prices dropped.
-💡 Lower oil prices can help reduce daily fuel and transport costs.
-#WallStreet
-
-📍 US · 📰 Economic Times · ✅ 6 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-open-lower-as-ai-stocks-decline-oil-prices-rise/articleshow/135071224.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about US stocks rising, healthcare shares hitting record highs, and oil prices falling are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: PASS - All factual claims regarding the rise in US stocks, record highs in healthcare shares, and falling oil prices are directly supported by the provided sources, and the location and source attribution ar
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-4459119e6c00
-skip (off-topic or nothing new): BlackRock Files for Bitcoin ETF With Downside Buffer and Capped Upside
----
-🇺🇸 US STOCKS RISE ON STRONG PROFITS
-
-📌 US stock markets went up as companies reported good profits and oil prices dropped.
-💡 Higher stock values can boost retirement savings and mutual funds.
-#Stocks
-
-📍 US · 📰 AP News · ✅ 10 sources
-https://news.google.com/rss/articles/CBMinAFBVV95cUxQTUxwUkw1R0I4c0hwa0lfVGdUQ3ZoMlVlZzZBa1RBTU9hMEZtSTFQY3d3NzVYRlFiN1hubTFWX3JXVnZBbnUxSmFsM05CZ1lyVVVOamlWOXlxUzdaMTcxdFBzY3gzZVdmNjZaTXNPNWtBeTNvMTVETWtwcGxaaE5CQWFUOS0tM1NpS2FkT1pocUlYWGZkX2wyd0d3OTg?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about US stocks rising, strong profits, and oil price drop are supported by the cited AP News source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the AP News source and the explanation is a widely accepted general effect of rising stock values.
-  Groq Qwen: PASS - All factual claims regarding US stock performance, profit reports, and oil price movements are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-b19041a9e74f
-done: 2 post(s) this run
-=== run 2026-10-20T15:11:08Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
-106/171 sources returned news, 1013 recent items
-235 new trusted stories, posting up to 1 this run
----
-🇨🇭 SWITZERLAND APPROVES FIRST BITCOIN ETF
-
-📌 Switzerland approved its first bitcoin ETF ($BTC) for everyday investors.
-📊 $BTC
-💡 Cryptocurrency funds let people invest without holding coins directly.
-
-📍 Switzerland · 📰 The Block · ✅ 10 sources
-https://www.theblock.co/news/regulation/2026-10-20-swiss-regulator-finma-approves-countrys-first-spot-bitcoin-etf-for-retail-investors-421127
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the cited The Block article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
-  Groq Qwen: PASS - All factual claims regarding the approval of Switzerland's first retail Bitcoin ETF by FINMA are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-5903bb0f9936
-done: 1 post(s) this run
-=== run 2026-10-20T13:25:04Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-106/171 sources returned news, 1095 recent items
-254 new trusted stories, posting up to 1 this run
----
-🇺🇸 NASDAQ FUTURES SLIDE 150 POINTS BEFORE US OPEN
-
-📌 Nasdaq futures fell 150 points, and General Motors slid after reporting earnings.
-📊 Nasdaq futures: -150 points
-
-📍 US · 📰 US Top News and Analysis · ✅ 3 sources
-https://www.cnbc.com/investingclub/2026/10/20/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html
-  written by Gemini
