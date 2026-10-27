@@ -1,9 +1,9 @@
 {
  "channel": {
-  "viewCount": "936",
-  "subscriberCount": "2",
+  "viewCount": "2486",
+  "subscriberCount": "5",
   "hiddenSubscriberCount": false,
-  "videoCount": "7"
+  "videoCount": "22"
  },
  "videos": [
   {
@@ -29,7 +29,7 @@
    "posted": "2026-10-12T14:03:41Z",
    "title": "Your bank pays you 0.5% and charges you 20% #Shorts",
    "duration": "PT18S",
-   "views": 76,
+   "views": 78,
    "likes": 0,
    "comments": 0
   },
@@ -38,7 +38,7 @@
    "posted": "2026-10-13T14:00:28Z",
    "title": "When bread cost 200 billion marks #Shorts",
    "duration": "PT23S",
-   "views": 20,
+   "views": 22,
    "likes": 0,
    "comments": 0
   },
@@ -56,7 +56,7 @@
    "posted": "2026-10-15T14:15:18Z",
    "title": "The worst deal in history? #Shorts",
    "duration": "PT24S",
-   "views": 264,
+   "views": 271,
    "likes": 5,
    "comments": 0
   },
@@ -68,6 +68,141 @@
    "views": 32,
    "likes": 0,
    "comments": 0
+  },
+  {
+   "file": "netflix_blockbuster.mp4",
+   "posted": "2026-10-17T14:03:40Z",
+   "title": "Blockbuster could have bought Netflix for $50 million #Shorts",
+   "duration": "PT20S",
+   "views": 1,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "file": "buffett_after_65.mp4",
+   "posted": "2026-10-18T14:04:13Z",
+   "title": "Buffett's secret nobody talks about #Shorts",
+   "duration": "PT31S",
+   "views": 1040,
+   "likes": 5,
+   "comments": 3
+  },
+  {
+   "file": "bitcoin_pizza.mp4",
+   "posted": "2026-10-19T05:31:39Z",
+   "title": "The most expensive pizza ever bought #Shorts",
+   "duration": "PT18S",
+   "views": 26,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "file": "ronald_wayne.mp4",
+   "posted": "2026-10-19T14:21:45Z",
+   "title": "Apple's forgotten co-founder sold 10% for $800 #Shorts",
+   "duration": "PT19S",
+   "views": 2,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "file": "hundred_a_month.mp4",
+   "posted": "2026-10-20T05:32:23Z",
+   "title": "$100 a month could become $228,000 #Shorts",
+   "duration": "PT20S",
+   "views": 264,
+   "likes": 2,
+   "comments": 1
+  },
+  {
+   "file": "nvidia_2016.mp4",
+   "posted": "2026-10-20T14:16:54Z",
+   "title": "$1,000 in Nvidia in 2016 is now worth this #Shorts",
+   "duration": "PT17S",
+   "views": 25,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "file": "penny_doubling.mp4",
+   "posted": "2026-10-21T05:31:43Z",
+   "title": "A penny doubled for 30 days vs $1 million #Shorts",
+   "duration": "PT18S",
+   "views": 30,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "file": "dollar_41_cents.mp4",
+   "posted": "2026-10-21T14:18:15Z",
+   "title": "Why your dollar will be worth 41 cents #Shorts",
+   "duration": "PT19S",
+   "views": 46,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "file": "amazon_1997.mp4",
+   "posted": "2026-10-22T05:32:17Z",
+   "title": "$1,000 in Amazon in 1997 is now worth this #Shorts",
+   "duration": "PT15S",
+   "views": 13,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "file": "zimbabwe_100_trillion.mp4",
+   "posted": "2026-10-22T14:17:20Z",
+   "title": "The 100 trillion dollar banknote #Shorts",
+   "duration": "PT17S",
+   "views": 19,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "file": "ten_percent_salary.mp4",
+   "posted": "2026-10-25T15:05:09Z",
+   "title": "Save 10% and retire with $860,000 #Shorts",
+   "duration": "PT21S",
+   "views": 18,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "file": "microsoft_ipo.mp4",
+   "posted": "2026-10-26T06:31:38Z",
+   "title": "$1,000 in Microsoft's first trading day is now worth this #Shorts",
+   "duration": "PT14S",
+   "views": 18,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "file": "buffett_age_11.mp4",
+   "posted": "2026-10-26T15:22:27Z",
+   "title": "Warren Buffett's first stock taught him this #Shorts",
+   "duration": "PT16S",
+   "views": 12,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "file": "apple_ipo.mp4",
+   "posted": "2026-10-27T06:32:11Z",
+   "title": "$1,000 in Apple's first trading day is now worth this #Shorts",
+   "duration": "PT14S",
+   "views": 177,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "file": "one_percent_fee.mp4",
+   "posted": "2026-10-27T15:28:13Z",
+   "title": "A 1% fee costs more than you think #Shorts",
+   "duration": "PT16S",
+   "views": 4,
+   "likes": 0,
+   "comments": 1
   }
  ]
 }
