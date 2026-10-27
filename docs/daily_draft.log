@@ -1,6 +1,6 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-105/171 sources returned news, 1372 recent items
+105/171 sources returned news, 1357 recent items
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
@@ -10,22 +10,24 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big #30 draft 2: Groq GPT-OSS: PASS - All factual statements are directly supported by the provided source excerpts. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the $95 billion equity raise, the purpose (AI/chips/data centres), and the specific $5 billion interest from Nvidia, AMD, and Broadcom are supported by the provided source
-  big: story #30 ok in 100s
-  pol: rejected: this repeats the big story ($95bn, expand, meta, plans); it must be a different story
-  pol #13 draft 2: Groq GPT-OSS: PASS - All claims about UK gilt yields dropping ~0.03% are directly supported by the source excerpt. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the Guardian source. | Groq Qwen: PASS - The slide accurately reflects the source's claim that UK government borrowing costs (yields on 10 and 30-year gilts) fell by around 0.03 of a percentage point this morning.
-  pol: story #13 ok in 87s
+  big #16 draft 1: Groq GPT-OSS: PASS - All numeric and factual statements are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the 3.4% year-on-year growth, the tripling of growth due to the AI chip boom, and the beating of forecasts are supported by the provided sources.
+  big: story #16 ok in 14s
+  pol #7 draft 1: Groq GPT-OSS: PASS - All statements (futures edging higher pre‑bell, traders digesting earnings and Fed meeting, and Dow futures up 129 points) are directly confirmed by the Yahoo Finance and Quartz sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the direction of US equity futures, the 129-point increase in Dow futures, and the context of earnings and the Fed meeting are supported by the provided sources.
+  pol: story #7 ok in 17s
+  biz: rejected: biz_stats note must be 1-18 characters; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
   biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: story #12 failed in 188s
-  biz: rejected: biz_headline must be 1-34 characters (it is 35); biz_stats note must be 1-18 characters; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: story #13 failed in 193s
   biz: rejected: biz_stats note must be 1-18 characters; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4b
-  biz: rejected: biz_stats value must be 1-7 characters; this repeats the big story (artificial, intelligence, selling, stock); it must be a different story
-  biz: story #6 failed in 59s
-  biz: rejected: biz_body must be 1-130 characters (it is 136); biz_stats needs exactly two figures
-  biz: rejected: these numbers are not in the source: 0
-  biz: rejected: biz_stats needs exactly two figures
-  biz: story #40 failed in 61s
-no story passed the checks for the biz slide; nothing published
+  biz #18 draft 2: Groq GPT-OSS: FAIL - The slide cites specific $10 bn and $5 bn figures for the national trust bank and RLUSD reserves, which are not substantiated by the listed sources.
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: story #18 ok in 42s
+  up #9 draft 1: Groq GPT-OSS: PASS - All claims are directly supported by the provided source titles | Groq GPT-OSS 20B: PASS - All claims are supported by the provided sources. | Groq Qwen: PASS - The slide's claims about Wall Street projections for October and December are directly supported by the source text.
+  up: story #9 ok in 6s
+  r1 #8 draft 1: Groq GPT-OSS: PASS - The slide's claims about Zhang Yiming's US$99.7 billion fortune and a 43% rise are directly stated in the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and factual claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide's claims regarding Zhang Yiming's identity, fortune amount (US$99.7 billion), and percentage increase (43 per cent) are directly supported by the provided sources.
+  r1: story #8 ok in 17s
+  r2 #32 draft 1: Groq GPT-OSS: PASS - Both the 32% profit increase and the $2.7 billion payout are stated in the cited articles. | Groq GPT-OSS 20B: PASS - The slide’s claims about HSBC’s 32% profit increase and $2.7 billion paid to shareholders are directly supported by the cited sources. | Groq Qwen: PASS - The slide's claims regarding HSBC's 32% profit rise and $2.7 billion payout to shareholders are directly supported by both source headlines.
+  r2: story #32 ok in 2s
+  r3 #39 draft 1: Groq GPT-OSS: PASS - All claims about OPEC+ keeping December production targets unchanged amid Iran conflict are supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - The slide's claim that OPEC+ is set to keep December production targets unchanged amid Iran conflict disruptions is directly supported by all three provided sources.
+  r3: story #39 ok in 3s
+Draft ready for review: magazine/daily/2026-10-27/edition.json (not published)

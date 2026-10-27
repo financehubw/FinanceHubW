@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "ASIA",
+   "text": "ByteDance founder Zhang Yiming reached a US$99.7 billion fortune, rising 43 per cent."
+  },
+  {
+   "name": "EUROPE",
+   "text": "HSBC's profits rose 32%. The lender handed $2.7 billion to shareholders."
+  },
+  {
+   "name": "MIDDLE EAST",
+   "text": "OPEC+ is set to keep December oil production targets unchanged amid Iran conflict disruptions."
+  }
+ ],
+ "story_ids": [
+  16,
+  7,
+  18,
+  9,
+  8,
+  32,
+  39
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 16,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 7,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 18,
+   "free_checkers": "Groq GPT-OSS: FAIL - The slide cites specific $10 bn and $5 bn figures for the national trust bank and RLUSD reserves, which are not substantiated by the listed sources."
+  },
+  {
+   "slot": "up",
+   "story": 9,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 8,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 32,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 39,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "South Korea chip boom",
+ "cover_dek": "Strong chip demand helped South Korea grow faster than expected.",
+ "big_headline": "South Korea's economy grew 3.4 percent year-on-year in the third quarter.",
+ "big_body": "An AI chip boom tripled economic growth in the third quarter. Strong semiconductor demand helped output beat previous forecasts.",
+ "big_stat": "3.4%",
+ "big_stat_l1": "Year-on-year economic",
+ "big_stat_l2": "growth in South Korea",
+ "pol_headline": "US equity futures edge higher",
+ "pol_body": "US equity futures edged higher before the bell. Traders are digesting corporate earnings and the policy meeting of the Federal Reserve central bank.",
+ "pol_stat": "129 pts",
+ "pol_stat_l1": "increase in Dow futures",
+ "pol_stat_l2": "as traders weigh earnings",
+ "biz_headline": "Ripple wins U.S. bank approval",
+ "biz_body": "It secured a final license to launch a national trust bank, allowing it to manage reserves backing its RLUSD stablecoin.",
+ "biz_stats": [
+  {
+   "value": "$10bn",
+   "name": "National bank",
+   "note": "gets OCC approval"
+  },
+  {
+   "value": "$5bn",
+   "name": "RLUSD stablecoin",
+   "note": "federal oversight"
+  }
+ ],
+ "up_headline": "Fed expected to hold rates",
+ "up_body": "Wall Street projects the central bank, which sets borrowing costs, will leave rates unchanged in October and hike in December.",
+ "cover_photo": "chips",
+ "big_photo": "servers",
+ "pol_photo": "fed",
+ "biz_photo": "refinery",
+ "up_photo": "dollars",
+ "sources_used": [
+  "",
+  "Al Jazeera",
+  "Business",
+  "CoinDesk: Bitcoin, Ethereum, Crypto News",
+  "Cointelegraph.com News",
+  "Companies",
+  "Euronews.com",
+  "Firstpost"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "+0.3%",
+    "color": "#0B6B3A",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,702."
+   },
+   {
+    "chg": "+0.0%",
+    "color": "#0B6B3A",
+    "text": "<strong>Gold</strong> rose to about $4,039 an ounce."
+   },
+   {
+    "chg": "−0.1%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $79,928."
+   }
+  ]
+ },
+ "status": "draft"
+}
