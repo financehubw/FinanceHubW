@@ -1,3 +1,95 @@
+=== run 2026-10-27T17:27:43Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+97/171 sources returned news, 980 recent items
+re-check of earlier post: 1 fail / 3 pass
+267 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US STOCKS RISE AS OIL PRICES DROP AHEAD OF FED DECISION
+
+📌 US stocks moved higher as oil prices fell ahead of the Federal Reserve rate meeting.
+
+📍 US · 📰 Economic Times · ✅ 8 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-oil-pulls-back-ahead-of-fed-decision/articleshow/135236366.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim of "✅ 8 sources" is not directly supported by the listed sources
+  -> blocked by fact-check
+---
+🇺🇸 US MORTGAGE RATES HIT 7.38% AHEAD OF FED DECISION
+
+📌 US mortgage rates reached 7.38% while markets wait for the Fed decision.
+📊 Mortgage rate: 7.38%
+💡 Higher rates make home loans more expensive for buyers.
+
+📍 US · 📰 TradingView · ✅ 3 sources
+https://news.google.com/rss/articles/CBMipgFBVV95cUxPMXZaNEthSWZfQjJwbzNRcEJxclpWUmlZdWo5OUhIenpwU3A3NURqcGpWOGM2UHJNVkFuOXNEUXB4N0JPZkJsb2Q2WWdWUnlneURHWEdYTTM3SFVNY2dXLUNQWGtkTWFKME1JUlVkanh3V3RhLVhXdnhKRkJLOHNuQ056aGtaS2xWZjZ1NFFmamhSNGwzX2JIa1hGWm8xbHRaRExkU2lR?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - Mortgage rate claim is sourced to HousingWire, but the post attributes it to TradingView
+  -> blocked by fact-check
+---
+🇬🇧 UK SHARES FALL AHEAD OF AUTUMN BUDGET
+
+📌 UK stocks fell, led by HSBC and Reckitt, before the new budget announcement.
+💡 Budget news often creates market uncertainty as tax rules might change.
+#FTSE
+
+📍 UK · 📰 Yahoo Finance UK · ✅ 6 sources
+https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS24xUVJVVWM1NXdDbl9VX2wzeG80anhNU3l0eE1fLUN6WUg3VTFXS0otTlJZTlNLenVSLUtzWXF3NWlyaENsQXA4SzlxTkN4blFvcDdyMHdKbEhlY3NNczMwVnFqUWdPVk1BakkxQ0JQYkl1ZFZOaUNNNG5xUnBYS29vWDRfOThs?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Yahoo Finance UK sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the fall in UK shares, the specific stocks leading the decline (HSBC, Reckitt), the context (Autumn Budget), and the source attribution are directly supported by the provi
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-1a79ff3bbb03
+skip (off-topic or nothing new): HSBC (HSBC) Q3 2026 Earnings Call Transcript
+---
+🇮🇳 GOLD BOND RETURNS HIT 209%
+
+📌 RBI sets gold bond redemption price at ₹14,159 per gram.
+📊 ₹1 lakh investment: ₹3.09 lakh
+📊 Redemption price: ₹14,159
+#Gold
+
+📍 India · 📰 Mint
+https://www.livemint.com/money/personal-finance/sovereign-gold-bond-1-lakh-grows-to-3-09-lakh-as-rbi-fixes-sgb-redemption-price-at-14-159-check-returns-11793121032923.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the Mint article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source.
+  Groq Qwen: PASS - All factual claims including the redemption price, investment growth, return percentage, and source attribution are directly supported by the provided source text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-a3ac83439e7b
+---
+🇺🇸 GOLD HOVERS NEAR $4,000 AHEAD OF FED MEETING
+
+📌 Gold prices stay near $4,000 as the US dollar rises before the Federal Reserve decision.
+📊 Gold: $4,000
+
+📍 US · 📰 marketscreener.com · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTjJIQUMzdDZ1RXpGYWpxTzlMLVNPLTRGYkV3RTdjN1dJdjJTSnQ5M2hMUm9oVEhwMUZDZENkWjBvTnJCbzViTVhBLW9aTWxmSFV4bDBlY1FVQzREVE5PZTdobVptNTZpZlY4WC1TU1FYU1p5amZCRFhYUmlKVXlaZVNjc0ZLYm92SG9Rd0JUd0Q5Yzl5RmktbS1aeVpGcWdydExZVkhJNk8?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about gold near $4,000, US dollar rise, and timing before the Fed decision are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
+  Groq Qwen: FAIL - The source name 'marketscreener.com' is listed in the post, but the specific claim that gold is 'near $4,000' is supported by tmgm.com and Geo News, while the marketscreener.com source only mentions g
+  -> blocked by fact-check
+skip (off-topic or nothing new): Bitcoin Faces Liquidity Risk at $78K Ahead of a Key Fed Rate Decision
+skip (off-topic or nothing new): Ahead of Market: 10 things that will decide stock market action on Wednesday
+---
+🇮🇳 SENSEX AND NIFTY END FLAT
+
+📌 Indian stock markets closed flat as gains in pharma and real estate offset losses.
+📊 Sensex: Flat
+💡 Market indexes measure the overall value of a group of stocks.
+#Nifty
+
+📍 India · 📰 Social News XYZ · ✅ 3 sources
+https://news.google.com/rss/articles/CBMilAFBVV95cUxNM1VIcjBlc1lXS3NDSGdlbUNYUHctNGN2X0hfS2hIeFJCRmN1WjVoa1dhdWxxYXJUUk1RdTJ3R0VkSzZpZUZSSWM5NzFiVjBNQ0RMNVpjSXRMelVMaERhVzlKUVVSbzJ1MnpIanZ2RDcyOTNLai1XcjgzYjB5aDdyVE1BVWRrY0lwTTZJaFhwTW1iUHdG0gGUAUFVX3lxTE0zVUhyMGVzWVdLc0NIZ2VtQ1hQdy00Y3ZfSF9LaEh4UkJGY3VaNWhrV2F1bHFhclRSTVF1MndHRWRLNmllRlJJYzk3MWJWME1DREw1WmNJdEx6VUxoRGFXOUpRVVJvMnUyekhqdnZENzI5M0tqLVdyODNiMHloN3JUTUFVZGtjSXBNNkloWHBNbWJQd0Y?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the listed sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by at least one source and the explanation is general and correct.
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the flat closing of Sensex and Nifty, with the specific sector mentions (pharma, real estate) supported by two of the three provided sources
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-a2d071575288
+done: 3 post(s) this run
 === run 2026-10-27T15:25:42Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 4
@@ -1406,95 +1498,3 @@ daily cap: 12, room left in the last 24h: 4
 🔔 Closing bell: what mattered today
 
 1️⃣ 🇮🇳 INDIAN BOND YIELDS HIT HIGHEST SINCE MARCH
-2️⃣ 🇬🇧 UK INFLATION RISES TO 3.5% IN SEPTEMBER
-3️⃣ 🇬🇧 UK INFLATION JUMPS TO 3.5%
-
-Follow @FinanceHubW to understand money, every day
-published to: website, Instagram Story
-103/171 sources returned news, 1218 recent items
-re-check of earlier post: 5 fail / 0 pass
-297 new trusted stories, posting up to 3 this run
----
-🇮🇳 JIO IPO INFLOWS BOOST INDIAN RUPEE
-
-📌 Foreign money for Jio's IPO (first stock sale) lifted the rupee to 94.46 per dollar.
-📊 USD/INR: 94.46
-💡 A stronger currency usually makes imported goods cheaper.
-
-📍 India · 📰 Economic Times · ✅ 5 sources
-https://economictimes.indiatimes.com/markets/forex/forex-news/jio-platforms-ipo-linked-inflows-boost-rupee-elevated-oil-prices-spur-caution/articleshow/135089592.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that it is Jio's "first stock sale" is not directly supported by the provided sources.
-  -> blocked by fact-check
----
-🇮🇳 INDIAN STOCKS FALL AS CRUDE OIL CROSSES $110
-
-📌 Sensex dropped 143 points and Nifty slipped 0.34% as crude oil stayed above $110.
-📊 Sensex: -143 points
-
-📍 India · 📰 ANI News · ✅ 4 sources
-https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSnNWQ1FtYi1lV1BQQUZaeEFobTJlbXB4dU1XUVBhMnJtN0hCWnNRWi1NUHhqc3RWQXVwcmcxQlVTeFVyNDNzXzFwYkRfdEQyVEhMNFlHc2c0U3AtWm15b2tlN25hS3ZQbVR0cS1wWENDOGRhR3RfcVNFNV9wTTAwQlRFemVNZDFKaUlpTjhmbThrT3Y4bVVmMmlfb29JVmNoMUpfU3V1VGNiblhtZm14UFQyRVc3U0pjbnljVzdTN19zTWt5SjBvUzdhNTI2ZXRHY0dweg?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about Sensex, Nifty, and crude oil price are directly supported by the cited ANI News and other sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited ANI News source.
-  Groq Qwen: PASS - All factual claims regarding the Sensex drop (143 points), Nifty slip (0.34%), and crude oil price (> $110) are directly supported by the provided sources, and the location and source attribution are 
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-898650400b59
----
-🇺🇸 US FUTURES RISE AS TESLA AND SPACEX EXPLORE MERGER
-
-📌 US stock futures edged higher as Tesla and SpaceX explore a merger.
-💡 A merger brings two separate companies together into one.
-#Tesla
-
-📍 US · 📰 Business Insider · ✅ 3 sources
-https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNlAyblFGLUlJSVhLQkFHWGk4QzRlMWloQUw1SXRrNUpjY0VFaGhqZXM2S3FRNWJjZHlqVHY2RHZoOTdKNkttcTJtZmIwZ2lVYXAzR3B5WHRzaVM2Y21HY2pfajN4Ym1WWkszR29Va2lkc1pFTnlJd3RZQUtvZExVNVdLd1hOOEx4VHNnaEtYN1l6SDVBNlJiQ0RtRUlRX3RTam9BN18yUWY?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post cites Business Insider as the source, but the claim that US futures rose is only supported by Yahoo Finance and Barchart, not by Business Insider
-  -> blocked by fact-check
----
-🇮🇳 INDIA'S SENSEX FALLS 143 POINTS, NIFTY UNDER 22,850
-
-📌 The Sensex fell 143 points and the Nifty closed below 22,850.
-📊 Sensex: -143 points
-
-📍 India · 📰 Zee Business · ✅ 4 sources
-https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ2k3VVN0b2U5dnBaRE5WcDI0c21iN0lWa1ZXUVYtU0RjekJILXV0N0xOMmR4ZDE4T29ETVdralYxRnVJbGRyNHJScmYyMncxckkyeXZiYkM0Q3hsM2MyZldxbTh3cXoydWZhcjNVQXBjcDdCVmZFSlQyeVUzMFhHTm9aQnJjMGFyWlNaRV93WU5HajBoeHZ1U19ZeEFHUlhYY0x4Y1U0U2NWVHhSajI2dzNDYWg5cGNKYWxxTXB3WE5ra3lYNExqTWlDY1YxX3E5?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (Sensex down 143 points, Nifty below 22,850, location India, source Zee Business) are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Zee Business article and other sources.
-  Groq Qwen: PASS - All factual claims regarding the Sensex drop of 143 points and Nifty closing below 22,850 are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-229d191de022
----
-🇮🇳 IMF: INDIA SHOULD LET RUPEE FLOAT
-
-📌 The IMF told India to let its currency value float freely to absorb shocks from oil prices.
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
-https://www.thehindubusinessline.com/economy/imf-advises-india-to-let-rupee-move-as-first-defence-amid-oil-shock/article71607130.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the cited IMF advice articles.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the IMF's advice to India to let the rupee float to absorb oil shocks are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-8eefa235e3af
-done: 4 post(s) this run
-=== run 2026-10-21T09:17:58Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-103/171 sources returned news, 1289 recent items
-re-check of earlier post: 3 fail / 2 pass
-274 new trusted stories, posting up to 2 this run
----
-🇮🇳 INDIA BOND YIELDS HIT 3-YEAR HIGH AT 7.44%
-
-📌 India's 10-year bond yield (interest on debt) hit 7.44% as oil reached $110.
-📊 10-Year Yield: 7.44%
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
-https://www.thehindubusinessline.com/markets/g-sec-yields-hits-over-3-year-high-of-744-as-oil-back-to-110-a-barrel/article71606338.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the 7.44% yield, 3‑year high, and $110 oil price are directly confirmed by the cited article.
-  Groq GPT-OSS 20B: FAIL - Source name and count do not match the provided source(s).
-  -> blocked by fact-check
