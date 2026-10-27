@@ -1,3 +1,9 @@
+=== run 2026-10-27T21:09:22Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+91/171 sources returned news, 856 recent items
+246 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-27T19:21:04Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1492,9 +1498,3 @@ published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-6cc35c8836b3
 done: 1 post(s) this run
 === run 2026-10-21T13:19:16Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-21T11:11:28Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 4
