@@ -511,28 +511,6 @@
    "thumb_tag": "GROWTH"
   },
   {
-   "file": "whatif_googl_2004.mp4",
-   "title": "$1,000 in Google in 2004 is now worth this",
-   "caption": "In 2004, Google was a search engine with ads.\n$1,000 in it then would be worth about $135,639 today (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#whatif",
-    "#finance",
-    "#compounding"
-   ],
-   "comment": "What would you have done with Google in 2004? 👇",
-   "thumb": "$1,000 in Google 2004 = *$135,639*",
-   "thumb_photo": "search engine laptop",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Google price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
    "file": "race_big_tech_2015.mp4",
    "title": "$1,000 in each since 2015: who wins?",
    "caption": "Big Tech race since 2015? $1,000 in each in 2015.\nWinner: Nvidia, now about $425,494.\nLast: Microsoft, about $11,314.\n(Price growth only, no dividends.)",
@@ -673,28 +651,6 @@
    "thumb": "The dollar lost *85%*",
    "thumb_photo": "vintage dollar",
    "thumb_tag": "INFLATION"
-  },
-  {
-   "file": "whatif_nflx_2002.mp4",
-   "title": "$1,000 in Netflix in 2002 is now worth this",
-   "caption": "In 2002, Netflix was mailing DVDs.\n$1,000 in it then would be worth about $589,504 today (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#whatif",
-    "#finance",
-    "#compounding"
-   ],
-   "comment": "What would you have done with Netflix in 2002? 👇",
-   "thumb": "$1,000 in Netflix 2002 = *$589,504*",
-   "thumb_photo": "dvd envelope",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Netflix price history, Yahoo Finance (split-adjusted), at render time"
-   ]
   },
   {
    "file": "race_btc_sp_gold_cash.mp4",
@@ -1712,6 +1668,52 @@
    "made": "2026-10-26",
    "sources": [
     "Mastercard price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_googl_2004.mp4",
+   "title": "$1,000 in Google in 2004 is now worth this",
+   "caption": "In 2004, Google was a search engine with ads.\n$1,000 in it then would be worth about $128,777 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Google in 2004? 👇",
+   "thumb": "$1,000 in Google 2004 = *$128,777*",
+   "thumb_photo": "search engine laptop",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-27",
+   "sources": [
+    "Google price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_nflx_2002.mp4",
+   "title": "$1,000 in Netflix in 2002 is now worth this",
+   "caption": "In 2002, Netflix was mailing DVDs.\n$1,000 in it then would be worth about $523,785 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Netflix in 2002? 👇",
+   "thumb": "$1,000 in Netflix 2002 = *$523,785*",
+   "thumb_photo": "dvd envelope",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-27",
+   "sources": [
+    "Netflix price history, Yahoo Finance (split-adjusted), at render time"
    ]
   }
  ]
