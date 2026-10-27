@@ -1,0 +1,66 @@
+{
+ "id": "ratner_joke",
+ "title": "One joke wiped out £500 million",
+ "thumb": "One joke cost *£500 million*",
+ "thumb_photo": "jewelry shop",
+ "thumb_tag": "BIG MISTAKE",
+ "caption": "In 1991, jewellery boss Gerald Ratner gave a speech to business leaders.\nHe joked that some of his own products were total crap.\nCustomers stopped coming. About five hundred million pounds was wiped off the company's value.\nRatner lost his job. The company even changed its name.",
+ "comment": "What's the worst business mistake you've seen? 👇",
+ "tags": [
+  "#money",
+  "#finance",
+  "#history",
+  "#investing",
+  "#truestory",
+  "#business"
+ ],
+ "sources": [
+  "BBC News: 'Gerald Ratner: the speech that cost £500m'"
+ ],
+ "scenes": [
+  {
+   "say": "Can one joke destroy a company?",
+   "chat": "Can one joke destroy a company?"
+  },
+  {
+   "say": "In 1991, jewellery boss Gerald Ratner gave a speech to business leaders.",
+   "photo": "jewelry shop",
+   "clip": {
+    "kicker": "London",
+    "year": "1991",
+    "text": "Gerald Ratner's speech"
+   }
+  },
+  {
+   "say": "He joked that some of his own products were total crap.",
+   "photo": "microphone",
+   "big": "The joke",
+   "sub": "about his own products"
+  },
+  {
+   "say": "Customers stopped coming. About five hundred million pounds was wiped off the company's value.",
+   "photo": "empty shop",
+   "big": "£500M",
+   "sub": "wiped off the company"
+  },
+  {
+   "say": "Ratner lost his job. The company even changed its name.",
+   "photo": "closed sign",
+   "big": "Gone",
+   "sub": "job and company name"
+  },
+  {
+   "say": "The lesson. Never insult. your own customers.",
+   "slide": [
+    "Never insult",
+    "*your own customers*"
+   ]
+  },
+  {
+   "say": "What's the worst business mistake you've seen?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "id": "janitor_millionaire",
+ "title": "A janitor quietly left $8 million",
+ "thumb": "A janitor left *$8 MILLION*",
+ "thumb_photo": "janitor",
+ "thumb_tag": "SECRET MILLIONAIRE",
+ "caption": "Ronald Read worked at a gas station and as a janitor in Vermont.\nHe lived simply and bought shares of solid companies, then held them for decades.\nWhen he died in 2014, his estate was worth about eight million dollars.\nHe left about six million to his local library and hospital.",
+ "comment": "Could you live this simply? 👇",
+ "tags": [
+  "#money",
+  "#finance",
+  "#history",
+  "#investing",
+  "#truestory",
+  "#business"
+ ],
+ "sources": [
+  "The Wall Street Journal and Brattleboro Reformer reports on Ronald Read's estate (2015)"
+ ],
+ "scenes": [
+  {
+   "say": "How did a janitor die with eight million dollars?",
+   "chat": "How did a janitor die with eight million dollars?"
+  },
+  {
+   "say": "Ronald Read worked at a gas station and as a janitor in Vermont.",
+   "photo": "gas station",
+   "clip": {
+    "kicker": "Brattleboro, Vermont",
+    "year": "2014",
+    "text": "Ronald Read, janitor"
+   }
+  },
+  {
+   "say": "He lived simply and bought shares of solid companies, then held them for decades.",
+   "photo": "stock certificate",
+   "big": "Decades",
+   "sub": "buying and holding"
+  },
+  {
+   "say": "When he died in 2014, his estate was worth about eight million dollars.",
+   "photo": "money",
+   "big": "$8M",
+   "sub": "his estate"
+  },
+  {
+   "say": "He left about six million to his local library and hospital.",
+   "photo": "library",
+   "big": "$6M",
+   "sub": "given to his town"
+  },
+  {
+   "say": "The lesson. Spend less. Invest steadily. Wait.",
+   "slide": [
+    "Spend less",
+    "Invest steadily",
+    "*Wait*"
+   ]
+  },
+  {
+   "say": "Could you live this simply?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

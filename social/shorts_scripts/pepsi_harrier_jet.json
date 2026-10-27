@@ -1,0 +1,66 @@
+{
+ "id": "pepsi_harrier_jet",
+ "title": "He tried to buy a fighter jet with Pepsi points",
+ "thumb": "A fighter jet for *Pepsi points*",
+ "thumb_photo": "fighter jet",
+ "thumb_tag": "TRUE STORY",
+ "caption": "In 1996, a Pepsi ad showed a Harrier jet for seven million Pepsi points.\nPepsi let you buy extra points for ten cents each.\nA student, John Leonard, raised about seven hundred thousand dollars and sent a cheque.\nPepsi refused. A court ruled the ad was a joke, not an offer.",
+ "comment": "Would you have tried it? 👇",
+ "tags": [
+  "#money",
+  "#finance",
+  "#history",
+  "#investing",
+  "#truestory",
+  "#business"
+ ],
+ "sources": [
+  "Leonard v. PepsiCo, Inc., 88 F. Supp. 2d 116 (S.D.N.Y. 1999)"
+ ],
+ "scenes": [
+  {
+   "say": "Can you buy a fighter jet with Pepsi points?",
+   "chat": "Can you buy a fighter jet with Pepsi points?"
+  },
+  {
+   "say": "In 1996, a Pepsi ad showed a Harrier jet for seven million Pepsi points.",
+   "photo": "fighter jet",
+   "clip": {
+    "kicker": "United States",
+    "year": "1996",
+    "text": "Harrier jet: 7,000,000 points"
+   }
+  },
+  {
+   "say": "Pepsi let you buy extra points for ten cents each.",
+   "photo": "soda cans",
+   "big": "10¢",
+   "sub": "per extra point"
+  },
+  {
+   "say": "A student, John Leonard, raised about seven hundred thousand dollars and sent a cheque.",
+   "photo": "cheque",
+   "big": "$700,008",
+   "sub": "sent to Pepsi"
+  },
+  {
+   "say": "Pepsi refused. A court ruled the ad was a joke, not an offer.",
+   "photo": "courtroom",
+   "big": "Lost",
+   "sub": "the court called it a joke"
+  },
+  {
+   "say": "The lesson. Read the fine print. Ads are not contracts.",
+   "slide": [
+    "Read the fine print",
+    "*Ads are not contracts*"
+   ]
+  },
+  {
+   "say": "Would you have tried it?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

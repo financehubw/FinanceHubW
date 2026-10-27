@@ -1,0 +1,66 @@
+{
+ "id": "ltcm_nobel_fund",
+ "title": "Nobel prize winners ran a fund that nearly broke Wall Street",
+ "thumb": "Nobel winners *lost $4.6 billion*",
+ "thumb_photo": "wall street",
+ "thumb_tag": "TRUE STORY",
+ "caption": "Long-Term Capital Management had two Nobel prize winning economists.\nIt borrowed heavily to make tiny bets look huge.\nWhen Russia defaulted in 1998, the bets went wrong. It lost about four point six billion dollars in months.\nBanks put in three point six billion dollars, in a rescue organised by the Federal Reserve, to stop the damage spreading.",
+ "comment": "Would you trust a genius with your money? 👇",
+ "tags": [
+  "#money",
+  "#finance",
+  "#history",
+  "#investing",
+  "#truestory",
+  "#business"
+ ],
+ "sources": [
+  "Federal Reserve History: 'Near Failure of Long-Term Capital Management'"
+ ],
+ "scenes": [
+  {
+   "say": "What happens when Nobel prize winners run a hedge fund?",
+   "chat": "What happens when Nobel prize winners run a hedge fund?"
+  },
+  {
+   "say": "Long-Term Capital Management had two Nobel prize winning economists.",
+   "photo": "wall street",
+   "clip": {
+    "kicker": "Greenwich, Connecticut",
+    "year": "1998",
+    "text": "Long-Term Capital Management"
+   }
+  },
+  {
+   "say": "It borrowed heavily to make tiny bets look huge.",
+   "photo": "calculator",
+   "big": "Leverage",
+   "sub": "borrowed money on top of borrowed money"
+  },
+  {
+   "say": "When Russia defaulted in 1998, the bets went wrong. It lost about four point six billion dollars in months.",
+   "photo": "stock market crash",
+   "big": "$4.6B",
+   "sub": "lost in about four months"
+  },
+  {
+   "say": "Banks put in three point six billion dollars, in a rescue organised by the Federal Reserve, to stop the damage spreading.",
+   "photo": "federal reserve",
+   "big": "$3.6B",
+   "sub": "rescue by Wall Street banks"
+  },
+  {
+   "say": "The lesson. Borrowed money. multiplies mistakes.",
+   "slide": [
+    "Borrowed money",
+    "*multiplies mistakes*"
+   ]
+  },
+  {
+   "say": "Would you trust a genius with your money?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "newton_south_sea",
+ "title": "Isaac Newton lost a fortune in a stock bubble",
+ "thumb": "Newton *lost it all*",
+ "thumb_photo": "isaac newton",
+ "thumb_tag": "GENIUS vs MARKET",
+ "caption": "In 1720, everyone in London wanted shares of the South Sea Company.\nIsaac Newton bought in, sold for a profit, then watched the price keep climbing.\nThen the bubble burst. Newton reportedly lost around twenty thousand pounds.\nHe is said to have written: I can calculate the motions of the heavenly bodies, but not the madness of people.",
+ "comment": "Have you ever bought because everyone else was? 👇",
+ "tags": [
+  "#money",
+  "#finance",
+  "#history",
+  "#investing",
+  "#truestory",
+  "#business"
+ ],
+ "sources": [
+  "Andrew Odlyzko, 'Newton's financial misadventures in the South Sea Bubble' (Royal Society, 2019)"
+ ],
+ "scenes": [
+  {
+   "say": "How did one of history's greatest geniuses lose a fortune in stocks?",
+   "chat": "How did one of history's greatest geniuses lose a fortune in stocks?"
+  },
+  {
+   "say": "In 1720, everyone in London wanted shares of the South Sea Company.",
+   "photo": "old london",
+   "clip": {
+    "kicker": "London",
+    "year": "1720",
+    "text": "The South Sea Bubble"
+   }
+  },
+  {
+   "say": "Isaac Newton bought in, sold for a profit, then watched the price keep climbing.",
+   "photo": "rising graph",
+   "big": "FOMO",
+   "sub": "he bought back in, near the top"
+  },
+  {
+   "say": "Then the bubble burst. Newton reportedly lost around twenty thousand pounds.",
+   "photo": "stock market crash",
+   "big": "£20,000",
+   "sub": "reportedly lost, a fortune then"
+  },
+  {
+   "say": "He is said to have written: I can calculate the motions of the heavenly bodies, but not the madness of people.",
+   "photo": "telescope",
+   "big": "Madness",
+   "sub": "of people"
+  },
+  {
+   "say": "The lesson. Being smart. doesn't beat greed.",
+   "slide": [
+    "Being smart",
+    "*doesn't beat greed*"
+   ]
+  },
+  {
+   "say": "Have you ever bought because everyone else was?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

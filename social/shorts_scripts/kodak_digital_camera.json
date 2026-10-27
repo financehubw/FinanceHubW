@@ -1,0 +1,67 @@
+{
+ "id": "kodak_digital_camera",
+ "title": "Kodak invented the digital camera, then went bankrupt",
+ "thumb": "Kodak invented the *digital camera*",
+ "thumb_photo": "old camera",
+ "thumb_tag": "BIG MISTAKE",
+ "caption": "In 1975, a Kodak engineer named Steve Sasson built the first digital camera.\nKodak made most of its money selling film. Digital threatened all of it.\nSo it moved slowly. Rivals didn't.\nIn 2012, Kodak filed for bankruptcy.",
+ "comment": "Can you name a company making the same mistake today? 👇",
+ "tags": [
+  "#money",
+  "#finance",
+  "#history",
+  "#investing",
+  "#truestory",
+  "#business"
+ ],
+ "sources": [
+  "Kodak bankruptcy filing, January 2012 (Reuters, BBC)",
+  "Steve Sasson / Kodak digital camera history (Kodak, IEEE)"
+ ],
+ "scenes": [
+  {
+   "say": "Why did the company that invented the digital camera go bankrupt?",
+   "chat": "Why did the company that invented the digital camera go bankrupt?"
+  },
+  {
+   "say": "In 1975, a Kodak engineer named Steve Sasson built the first digital camera.",
+   "photo": "vintage camera",
+   "clip": {
+    "kicker": "Rochester, New York",
+    "year": "1975",
+    "text": "The first digital camera"
+   }
+  },
+  {
+   "say": "Kodak made most of its money selling film. Digital threatened all of it.",
+   "photo": "photo film",
+   "big": "Film",
+   "sub": "Kodak's cash machine"
+  },
+  {
+   "say": "So it moved slowly. Rivals didn't.",
+   "photo": "smartphone camera",
+   "big": "Too slow",
+   "sub": "while rivals raced ahead"
+  },
+  {
+   "say": "In 2012, Kodak filed for bankruptcy.",
+   "photo": "empty office",
+   "big": "2012",
+   "sub": "Kodak files for bankruptcy"
+  },
+  {
+   "say": "The lesson. Protecting the old business. can kill the company.",
+   "slide": [
+    "Protecting the old business",
+    "*can kill the company*"
+   ]
+  },
+  {
+   "say": "Can you name a company making the same mistake today?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

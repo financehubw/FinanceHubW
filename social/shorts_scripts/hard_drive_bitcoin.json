@@ -1,0 +1,67 @@
+{
+ "id": "hard_drive_bitcoin",
+ "title": "He threw away a hard drive with 8,000 bitcoin",
+ "thumb": "8,000 bitcoin *in the trash*",
+ "thumb_photo": "hard drive",
+ "thumb_tag": "TRUE STORY",
+ "caption": "In 2013, James Howells, in Wales, threw out an old hard drive.\nHe says it held about eight thousand bitcoin he mined years earlier.\nIt went to a landfill. The city council has refused to let him dig it up.\nAt today's prices those coins would be worth about {price:BTC-USD*8000}.",
+ "comment": "Would you keep digging? 👇",
+ "tags": [
+  "#money",
+  "#finance",
+  "#history",
+  "#investing",
+  "#truestory",
+  "#business"
+ ],
+ "sources": [
+  "BBC News reports on James Howells and Newport City Council (2013–2025)",
+  "Bitcoin price: Yahoo Finance, at render time"
+ ],
+ "scenes": [
+  {
+   "say": "What if you threw away a fortune by accident?",
+   "chat": "What if you threw away a fortune by accident?"
+  },
+  {
+   "say": "In 2013, James Howells, in Wales, threw out an old hard drive.",
+   "photo": "hard drive",
+   "clip": {
+    "kicker": "Newport, Wales",
+    "year": "2013",
+    "text": "An old hard drive"
+   }
+  },
+  {
+   "say": "He says it held about eight thousand bitcoin he mined years earlier.",
+   "photo": "bitcoin",
+   "big": "8,000",
+   "sub": "bitcoin, he says"
+  },
+  {
+   "say": "It went to a landfill. The city council has refused to let him dig it up.",
+   "photo": "landfill",
+   "big": "Landfill",
+   "sub": "the council said no"
+  },
+  {
+   "say": "At today's prices those coins would be worth about {price:BTC-USD*8000}.",
+   "photo": "bitcoin chart",
+   "big": "{price:BTC-USD*8000}",
+   "sub": "at today's price"
+  },
+  {
+   "say": "The lesson. Back up. what matters.",
+   "slide": [
+    "Back up",
+    "*what matters*"
+   ]
+  },
+  {
+   "say": "Would you keep digging?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "id": "lehman_collapse",
+ "title": "A 158-year-old bank collapsed in one weekend",
+ "thumb": "158 years, *gone in a weekend*",
+ "thumb_photo": "wall street",
+ "thumb_tag": "2008 CRASH",
+ "caption": "Lehman Brothers was founded in 1850 and became a Wall Street giant.\nIt borrowed heavily and bet on mortgages. When house prices fell, the losses piled up.\nOn the fifteenth of September, 2008, it filed for bankruptcy, with about six hundred billion dollars in assets.\nMarkets around the world crashed in the weeks after.",
+ "comment": "Where were you in 2008? 👇",
+ "tags": [
+  "#money",
+  "#finance",
+  "#history",
+  "#investing",
+  "#truestory",
+  "#business"
+ ],
+ "sources": [
+  "U.S. Bankruptcy Court SDNY filing, 15 September 2008",
+  "Federal Reserve History: 'The Great Recession and Its Aftermath'"
+ ],
+ "scenes": [
+  {
+   "say": "How does a one hundred and fifty-eight year old bank disappear overnight?",
+   "chat": "How does a one hundred and fifty-eight year old bank disappear overnight?"
+  },
+  {
+   "say": "Lehman Brothers was founded in 1850 and became a Wall Street giant.",
+   "photo": "wall street",
+   "clip": {
+    "kicker": "New York",
+    "year": "2008",
+    "text": "Lehman Brothers"
+   }
+  },
+  {
+   "say": "It borrowed heavily and bet on mortgages. When house prices fell, the losses piled up.",
+   "photo": "house for sale",
+   "big": "Mortgages",
+   "sub": "the bet that failed"
+  },
+  {
+   "say": "On the fifteenth of September, 2008, it filed for bankruptcy, with about six hundred billion dollars in assets.",
+   "photo": "stock market crash",
+   "big": "$639B",
+   "sub": "in assets, the biggest bankruptcy ever"
+  },
+  {
+   "say": "Markets around the world crashed in the weeks after.",
+   "photo": "red chart",
+   "big": "Crash",
+   "sub": "worldwide"
+  },
+  {
+   "say": "The lesson. Too big to fail. isn't a guarantee.",
+   "slide": [
+    "Too big to fail",
+    "*isn't a guarantee*"
+   ]
+  },
+  {
+   "say": "Where were you in 2008?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

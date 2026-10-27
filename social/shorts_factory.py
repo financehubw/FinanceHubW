@@ -260,6 +260,79 @@ def draw_growth(img: Image.Image, spec: dict, prog: float) -> None:
     img.paste(stage)
 
 
+def _glass(stage: Image.Image, box, radius=36):
+    """Frosted-glass panel with a soft glowing edge."""
+    x0, y0, x1, y1 = [int(v) for v in box]
+    region = stage.crop((x0, y0, x1, y1)).filter(ImageFilter.GaussianBlur(14))
+    tint = Image.new("RGB", region.size, (34, 44, 62))
+    region = Image.blend(region, tint, 0.55)
+    mask = Image.new("L", region.size, 0)
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, x1 - x0, y1 - y0), radius, fill=255)
+    stage.paste(region, (x0, y0), mask)
+    glow = Image.new("RGB", stage.size, (0, 0, 0))
+    ImageDraw.Draw(glow).rounded_rectangle(box, radius, outline=NEON, width=6)
+    glow = glow.filter(ImageFilter.GaussianBlur(10))
+    out = np.clip(np.asarray(stage, dtype=np.int16) + np.asarray(glow, dtype=np.int16) // 2, 0, 255).astype("uint8")
+    stage.paste(Image.fromarray(out))
+    ImageDraw.Draw(stage).rounded_rectangle(box, radius, outline=(120, 240, 180), width=2)
+
+
+def _dark_stage() -> Image.Image:
+    stage = Image.new("RGB", (W, H), DEEP)
+    blob = Image.new("RGB", (W, H), (0, 0, 0))
+    bd = ImageDraw.Draw(blob)
+    bd.ellipse((-300, 200, 700, 1100), fill=(18, 70, 60))
+    bd.ellipse((500, 900, 1400, 1800), fill=(40, 30, 80))
+    blob = blob.filter(ImageFilter.GaussianBlur(160))
+    return Image.fromarray(np.clip(np.asarray(stage, dtype=np.int16) + np.asarray(blob, dtype=np.int16), 0, 255).astype("uint8"))
+
+
+def draw_chat(img: Image.Image, text: str, prog: float) -> None:
+    """Hook: a glowing chat window types the question, letter by letter, with a blinking cursor."""
+    stage = _dark_stage()
+    d = ImageDraw.Draw(stage)
+    nl = len(wrap(d, text, font(BOLD, 64), W - 260)) or 1
+    hgt = 220 + nl * 84
+    box = (70, H / 2 - hgt / 2 - 80, W - 70, H / 2 + hgt / 2 - 80)
+    _glass(stage, box)
+    d = ImageDraw.Draw(stage)
+    ty = box[1] + 50
+    for k, c in enumerate(((255, 95, 86), (255, 189, 46), (39, 201, 63))):
+        d.ellipse((120 + 45 * k, ty - 15, 150 + 45 * k, ty + 15), fill=c)
+    d.text((W / 2, ty), "FinanceHubW", font=font(SEMI, 30), fill=(150, 170, 190), anchor="mm")
+    n = int(len(text) * min(1.0, prog / 0.7))
+    shown = text[:n]
+    f = font(BOLD, 64)
+    lines = wrap(d, shown, f, box[2] - box[0] - 120) or [""]
+    y = box[1] + 130
+    for ln in lines[:6]:
+        d.text((box[0] + 60, y), ln, font=f, fill=(240, 246, 250)); y += 84
+    if int(prog * 12) % 2 == 0 or n < len(text):
+        cx = box[0] + 60 + d.textlength(lines[-1], font=f) + 8
+        d.rectangle((cx, y - 80, cx + 8, y - 12), fill=NEON)
+    img.paste(stage)
+
+
+def draw_slide(img: Image.Image, lines: list, prog: float) -> None:
+    """Key lines slide up one after another on a dark stage; the newest is bright, older ones dim."""
+    stage = _dark_stage()
+    d = ImageDraw.Draw(stage)
+    n = len(lines)
+    f = font(BOLD, 66)
+    y0 = H / 2 - n * 70
+    for i, ln in enumerate(lines):
+        start = i / max(n, 1) * 0.8
+        t = ease((prog - start) / 0.18)
+        if t <= 0:
+            continue
+        y = y0 + i * 140 + (1 - t) * 90
+        col = (255, 255, 255) if i == min(n - 1, int(prog / 0.8 * n)) else (130, 150, 170)
+        hi = ln.startswith("*") and ln.endswith("*")
+        txt = ln.strip("*")
+        d.text((W / 2, y), txt, font=f, fill=NEON if hi else col, anchor="mm")
+    img.paste(stage)
+
+
 # ------------------------------------------------------------------ voice
 async def _speak(text: str, mp3: Path) -> list[dict]:
     import edge_tts
@@ -363,7 +436,7 @@ def scene_image(scene: dict, seed: str) -> Image.Image:
     img = PAPER_IMG.copy()
     d = ImageDraw.Draw(img)
     d.text((60, 70), "FINANCEHUBW", font=font(BOLD, 26), fill=(150, 140, 126))
-    if scene.get("race") or scene.get("versus") or scene.get("growth"):
+    if scene.get("race") or scene.get("versus") or scene.get("growth") or scene.get("chat") or scene.get("slide"):
         return img
     # photo card
     ph = photos.photo(scene.get("photo", ""), seed + scene.get("photo", ""), query=scene.get("photo"))
@@ -552,6 +625,8 @@ def render(script_path: Path) -> dict:
             for w in words:
                 w["t"] += t0
             animated = any(sc.get(k) and not sc[k].get("hold") for k in ("race", "versus", "growth"))
+            if sc.get("chat") or sc.get("slide"):
+                animated = False                          # these follow the voice length
             hold = max(0.0, 6.0 - dur) if animated else 0.0     # let the race/count-up play out
             if hold:
                 pad = td / f"{i:02d}_pad.wav"
@@ -598,7 +673,7 @@ def render(script_path: Path) -> dict:
             prepare_dynamic(s["scene"])
         for i, s in enumerate(timeline):
             sc = s["scene"]
-            if not (sc.get("race") or sc.get("versus") or sc.get("growth") or sc.get("quiz")) and sc.get("photo"):
+            if not (sc.get("race") or sc.get("versus") or sc.get("growth") or sc.get("chat") or sc.get("slide") or sc.get("quiz")) and sc.get("photo"):
                 s["broll"] = broll_clip(sc["photo"], vid + str(i), s["end"] - s["start"], td)
                 if s["broll"] is not None:
                     s["overlay"] = broll_overlay(sc)
@@ -639,6 +714,10 @@ def render(script_path: Path) -> dict:
                 frame = base.copy(); draw_versus(frame, s["scene"]["versus"], prog)
             elif s["scene"].get("growth"):
                 frame = base.copy(); draw_growth(frame, s["scene"]["growth"], prog)
+            elif s["scene"].get("chat"):
+                frame = base.copy(); draw_chat(frame, s["scene"]["chat"], prog)
+            elif s["scene"].get("slide"):
+                frame = base.copy(); draw_slide(frame, s["scene"]["slide"], prog)
             grp = next((g for g in s["groups"] if g[0]["t"] - 0.05 <= t <= g[-1]["t"] + g[-1]["d"] + 0.25), None)
             if grp:
                 draw_caption(frame, grp, t)

@@ -1,0 +1,66 @@
+{
+ "id": "pets_com_crash",
+ "title": "This company went from IPO to closed in 268 days",
+ "thumb": "IPO to dead in *268 DAYS*",
+ "thumb_photo": "dot com",
+ "thumb_tag": "DOT-COM CRASH",
+ "caption": "Pets dot com sold pet food online and had a famous sock puppet mascot.\nIt went public in February 2000, at the peak of the dot-com boom.\nIt sold heavy bags of food below cost and paid for shipping.\nTwo hundred and sixty-eight days after the IPO, it shut down.",
+ "comment": "Which company today reminds you of this? 👇",
+ "tags": [
+  "#money",
+  "#finance",
+  "#history",
+  "#investing",
+  "#truestory",
+  "#business"
+ ],
+ "sources": [
+  "CNET / Wall Street Journal reports on Pets.com (2000)"
+ ],
+ "scenes": [
+  {
+   "say": "Can a company with a famous mascot collapse in under a year?",
+   "chat": "Can a company with a famous mascot collapse in under a year?"
+  },
+  {
+   "say": "Pets dot com sold pet food online and had a famous sock puppet mascot.",
+   "photo": "puppy",
+   "clip": {
+    "kicker": "San Francisco",
+    "year": "2000",
+    "text": "Pets.com goes public"
+   }
+  },
+  {
+   "say": "It went public in February 2000, at the peak of the dot-com boom.",
+   "photo": "stock exchange",
+   "big": "Feb 2000",
+   "sub": "the IPO"
+  },
+  {
+   "say": "It sold heavy bags of food below cost and paid for shipping.",
+   "photo": "dog food",
+   "big": "Losing",
+   "sub": "money on every order"
+  },
+  {
+   "say": "Two hundred and sixty-eight days after the IPO, it shut down.",
+   "photo": "closed sign",
+   "big": "268 days",
+   "sub": "from IPO to closing"
+  },
+  {
+   "say": "The lesson. Hype is not. a business model.",
+   "slide": [
+    "Hype is not",
+    "*a business model*"
+   ]
+  },
+  {
+   "say": "Which company today reminds you of this?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}
