@@ -1673,7 +1673,7 @@
   {
    "file": "whatif_googl_2004.mp4",
    "title": "$1,000 in Google in 2004 is now worth this",
-   "caption": "In 2004, Google was a search engine with ads.\n$1,000 in it then would be worth about $128,777 today (price growth only, no dividends).",
+   "caption": "In 2004, Google was a search engine with ads.\n$1,000 in it then would be worth about $135,639 today (price growth only, no dividends).",
    "tags": [
     "#investing",
     "#stocks",
@@ -1683,12 +1683,11 @@
     "#compounding"
    ],
    "comment": "What would you have done with Google in 2004? 👇",
-   "thumb": "$1,000 in Google 2004 = *$128,777*",
+   "thumb": "$1,000 in Google 2004 = *$135,639*",
    "thumb_photo": "search engine laptop",
    "thumb_tag": "WHAT IF",
    "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-27",
+   "made": "2026-10-17",
    "sources": [
     "Google price history, Yahoo Finance (split-adjusted), at render time"
    ]
@@ -1696,7 +1695,7 @@
   {
    "file": "whatif_nflx_2002.mp4",
    "title": "$1,000 in Netflix in 2002 is now worth this",
-   "caption": "In 2002, Netflix was mailing DVDs.\n$1,000 in it then would be worth about $523,785 today (price growth only, no dividends).",
+   "caption": "In 2002, Netflix was mailing DVDs.\n$1,000 in it then would be worth about $589,504 today (price growth only, no dividends).",
    "tags": [
     "#investing",
     "#stocks",
@@ -1706,14 +1705,246 @@
     "#compounding"
    ],
    "comment": "What would you have done with Netflix in 2002? 👇",
-   "thumb": "$1,000 in Netflix 2002 = *$523,785*",
+   "thumb": "$1,000 in Netflix 2002 = *$589,504*",
    "thumb_photo": "dvd envelope",
    "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Netflix price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "kodak_digital_camera.mp4",
+   "title": "Kodak invented the digital camera, then went bankrupt",
+   "caption": "In 1975, a Kodak engineer named Steve Sasson built the first digital camera.\nKodak made most of its money selling film. Digital threatened all of it.\nSo it moved slowly. Rivals didn't.\nIn 2012, Kodak filed for bankruptcy.",
+   "tags": [
+    "#money",
+    "#finance",
+    "#history",
+    "#investing",
+    "#truestory",
+    "#business"
+   ],
+   "comment": "Can you name a company making the same mistake today? 👇",
+   "thumb": "Kodak invented the *digital camera*",
+   "thumb_photo": "old camera",
+   "thumb_tag": "BIG MISTAKE",
    "ai_voice": true,
    "voice": "elevenlabs",
    "made": "2026-10-27",
    "sources": [
-    "Netflix price history, Yahoo Finance (split-adjusted), at render time"
+    "Kodak bankruptcy filing, January 2012 (Reuters, BBC)",
+    "Steve Sasson / Kodak digital camera history (Kodak, IEEE)"
+   ]
+  },
+  {
+   "file": "pepsi_harrier_jet.mp4",
+   "title": "He tried to buy a fighter jet with Pepsi points",
+   "caption": "In 1996, a Pepsi ad showed a Harrier jet for seven million Pepsi points.\nPepsi let you buy extra points for ten cents each.\nA student, John Leonard, raised about seven hundred thousand dollars and sent a cheque.\nPepsi refused. A court ruled the ad was a joke, not an offer.",
+   "tags": [
+    "#money",
+    "#finance",
+    "#history",
+    "#investing",
+    "#truestory",
+    "#business"
+   ],
+   "comment": "Would you have tried it? 👇",
+   "thumb": "A fighter jet for *Pepsi points*",
+   "thumb_photo": "fighter jet",
+   "thumb_tag": "TRUE STORY",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-27",
+   "sources": [
+    "Leonard v. PepsiCo, Inc., 88 F. Supp. 2d 116 (S.D.N.Y. 1999)"
+   ]
+  },
+  {
+   "file": "newton_south_sea.mp4",
+   "title": "Isaac Newton lost a fortune in a stock bubble",
+   "caption": "In 1720, everyone in London wanted shares of the South Sea Company.\nIsaac Newton bought in, sold for a profit, then watched the price keep climbing.\nThen the bubble burst. Newton reportedly lost around twenty thousand pounds.\nHe is said to have written: I can calculate the motions of the heavenly bodies, but not the madness of people.",
+   "tags": [
+    "#money",
+    "#finance",
+    "#history",
+    "#investing",
+    "#truestory",
+    "#business"
+   ],
+   "comment": "Have you ever bought because everyone else was? 👇",
+   "thumb": "Newton *lost it all*",
+   "thumb_photo": "isaac newton",
+   "thumb_tag": "GENIUS vs MARKET",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-27",
+   "sources": [
+    "Andrew Odlyzko, 'Newton's financial misadventures in the South Sea Bubble' (Royal Society, 2019)"
+   ]
+  },
+  {
+   "file": "ltcm_nobel_fund.mp4",
+   "title": "Nobel prize winners ran a fund that nearly broke Wall Street",
+   "caption": "Long-Term Capital Management had two Nobel prize winning economists.\nIt borrowed heavily to make tiny bets look huge.\nWhen Russia defaulted in 1998, the bets went wrong. It lost about four point six billion dollars in months.\nBanks put in three point six billion dollars, in a rescue organised by the Federal Reserve, to stop the damage spreading.",
+   "tags": [
+    "#money",
+    "#finance",
+    "#history",
+    "#investing",
+    "#truestory",
+    "#business"
+   ],
+   "comment": "Would you trust a genius with your money? 👇",
+   "thumb": "Nobel winners *lost $4.6 billion*",
+   "thumb_photo": "wall street",
+   "thumb_tag": "TRUE STORY",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-27",
+   "sources": [
+    "Federal Reserve History: 'Near Failure of Long-Term Capital Management'"
+   ]
+  },
+  {
+   "file": "ratner_joke.mp4",
+   "title": "One joke wiped out £500 million",
+   "caption": "In 1991, jewellery boss Gerald Ratner gave a speech to business leaders.\nHe joked that some of his own products were total crap.\nCustomers stopped coming. About five hundred million pounds was wiped off the company's value.\nRatner lost his job. The company even changed its name.",
+   "tags": [
+    "#money",
+    "#finance",
+    "#history",
+    "#investing",
+    "#truestory",
+    "#business"
+   ],
+   "comment": "What's the worst business mistake you've seen? 👇",
+   "thumb": "One joke cost *£500 million*",
+   "thumb_photo": "jewelry shop",
+   "thumb_tag": "BIG MISTAKE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-27",
+   "sources": [
+    "BBC News: 'Gerald Ratner: the speech that cost £500m'"
+   ]
+  },
+  {
+   "file": "hard_drive_bitcoin.mp4",
+   "title": "He threw away a hard drive with 8,000 bitcoin",
+   "caption": "In 2013, James Howells, in Wales, threw out an old hard drive.\nHe says it held about eight thousand bitcoin he mined years earlier.\nIt went to a landfill. The city council has refused to let him dig it up.\nAt today's prices those coins would be worth about $646 million.",
+   "tags": [
+    "#money",
+    "#finance",
+    "#history",
+    "#investing",
+    "#truestory",
+    "#business"
+   ],
+   "comment": "Would you keep digging? 👇",
+   "thumb": "8,000 bitcoin *in the trash*",
+   "thumb_photo": "hard drive",
+   "thumb_tag": "TRUE STORY",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-27",
+   "sources": [
+    "BBC News reports on James Howells and Newport City Council (2013–2025)",
+    "Bitcoin price: Yahoo Finance, at render time"
+   ]
+  },
+  {
+   "file": "janitor_millionaire.mp4",
+   "title": "A janitor quietly left $8 million",
+   "caption": "Ronald Read worked at a gas station and as a janitor in Vermont.\nHe lived simply and bought shares of solid companies, then held them for decades.\nWhen he died in 2014, his estate was worth about eight million dollars.\nHe left about six million to his local library and hospital.",
+   "tags": [
+    "#money",
+    "#finance",
+    "#history",
+    "#investing",
+    "#truestory",
+    "#business"
+   ],
+   "comment": "Could you live this simply? 👇",
+   "thumb": "A janitor left *$8 MILLION*",
+   "thumb_photo": "janitor",
+   "thumb_tag": "SECRET MILLIONAIRE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-27",
+   "sources": [
+    "The Wall Street Journal and Brattleboro Reformer reports on Ronald Read's estate (2015)"
+   ]
+  },
+  {
+   "file": "secretary_millionaire.mp4",
+   "title": "A secretary secretly built $9 million",
+   "caption": "Sylvia Bloom worked as a legal secretary in New York for sixty-seven years.\nWhen her bosses bought stocks, she quietly bought the same ones, in smaller amounts.\nShe died in 2016 with more than nine million dollars.\nShe left over six million to a charity that helps poor students go to college.",
+   "tags": [
+    "#money",
+    "#finance",
+    "#history",
+    "#investing",
+    "#truestory",
+    "#business"
+   ],
+   "comment": "What would you do with $9 million? 👇",
+   "thumb": "A secretary built *$9 MILLION*",
+   "thumb_photo": "office desk",
+   "thumb_tag": "SECRET MILLIONAIRE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-27",
+   "sources": [
+    "The New York Times, 'A Secretary Amassed $9 Million. Then She Gave It Away.' (2018)"
+   ]
+  },
+  {
+   "file": "pets_com_crash.mp4",
+   "title": "This company went from IPO to closed in 268 days",
+   "caption": "Pets dot com sold pet food online and had a famous sock puppet mascot.\nIt went public in February 2000, at the peak of the dot-com boom.\nIt sold heavy bags of food below cost and paid for shipping.\nTwo hundred and sixty-eight days after the IPO, it shut down.",
+   "tags": [
+    "#money",
+    "#finance",
+    "#history",
+    "#investing",
+    "#truestory",
+    "#business"
+   ],
+   "comment": "Which company today reminds you of this? 👇",
+   "thumb": "IPO to dead in *268 DAYS*",
+   "thumb_photo": "dot com",
+   "thumb_tag": "DOT-COM CRASH",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-27",
+   "sources": [
+    "CNET / Wall Street Journal reports on Pets.com (2000)"
+   ]
+  },
+  {
+   "file": "lehman_collapse.mp4",
+   "title": "A 158-year-old bank collapsed in one weekend",
+   "caption": "Lehman Brothers was founded in 1850 and became a Wall Street giant.\nIt borrowed heavily and bet on mortgages. When house prices fell, the losses piled up.\nOn the fifteenth of September, 2008, it filed for bankruptcy, with about six hundred billion dollars in assets.\nMarkets around the world crashed in the weeks after.",
+   "tags": [
+    "#money",
+    "#finance",
+    "#history",
+    "#investing",
+    "#truestory",
+    "#business"
+   ],
+   "comment": "Where were you in 2008? 👇",
+   "thumb": "158 years, *gone in a weekend*",
+   "thumb_photo": "wall street",
+   "thumb_tag": "2008 CRASH",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-27",
+   "sources": [
+    "U.S. Bankruptcy Court SDNY filing, 15 September 2008",
+    "Federal Reserve History: 'The Great Recession and Its Aftermath'"
    ]
   }
  ]
