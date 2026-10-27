@@ -1,3 +1,55 @@
+=== run 2026-10-27T15:25:42Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 4
+99/171 sources returned news, 1104 recent items
+re-check of earlier post: 2 fail / 2 pass
+279 new trusted stories, posting up to 2 this run
+---
+🇺🇸 FED EXPECTED TO KEEP INTEREST RATES ON HOLD
+
+📌 The US Fed is expected to hold interest rates steady with inflation at 3.7%.
+📊 US Inflation: 3.7%
+💡 Steady rates usually keep loan costs from rising.
+#Fed
+
+📍 US · 📰 Business · ✅ 2 sources
+https://www.euronews.com/2026/10/27/what-to-expect-from-the-fed-as-warsh-weighs-hot-inflation-oil-and-us-midterms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the Fed holding rates and 3.7% inflation are directly supported, and the general explanation is accurate.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the sources and the explanation is accurate.
+  Groq Qwen: PASS - All factual claims regarding the Fed's expected rate hold, the 3.7% inflation figure, and the source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-46b3d24ec5b8
+---
+🇺🇸 US FED PREPARES FOR UPCOMING INTEREST RATE DECISION
+
+📌 The US Federal Reserve is getting ready to make its next interest rate decision.
+💡 Central bank rate decisions usually affect borrowing costs on loans.
+
+📍 US · 📰 Euronews.com · ✅ 5 sources
+https://news.google.com/rss/articles/CBMiswFBVV95cUxPUFQ1MnctOG1CNDhGdTRQRkhJNHFzVEJqb25IeWNuc0lqaDdhTW5jYWhMdVBEcnZxVGQ2bXBWQ2VDTVp0LU9mNUFlNVdoa3BFUzhKeGd1aFJBbmJSVEhDZlhxeGVSTHFVaDBVT1FncjBZd3ZhdGduclBDWTdacmVVMGxBRVhBNWFkN0RYTEdlaFJ0R2oyS3hFT1pPTVdmVTZQd0tZRUVYQ0drSjZMQmNkZUlSQQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are supported by the cited Euronews article and general knowledge
+  Groq GPT-OSS 20B: FAIL - The post claims 5 sources but lists 6, which is unsupported.
+  -> blocked by fact-check
+skip (off-topic or nothing new): UPS Stock in Focus After UPS Q3 2026 Earnings Report
+skip (off-topic or nothing new): U.S. Stock Futures Point Higher as AI Developments and Earnings Support Market Recovery: Dow Jones, S&P, Nasdaq, Wall Street
+---
+🇺🇸 FED EXPECTED TO HOLD RATES STEADY
+
+📌 Markets expect no change in benchmark interest rates after September's increase.
+💡 Interest rates affect the cost of borrowing money for loans and mortgages.
+#Fed
+
+📍 US · 📰 CNBC Africa · ✅ 4 sources
+https://news.google.com/rss/articles/CBMipgFBVV95cUxOOER5T0JaZ3dqRDVxUVFERmNhMmdndkU3ZEV2c0ZmczZLMDNCX3d3OGlhLW5hY3dNc3VjTHpmcDFVUnRNY0xqc3NHLVNVYWZUaldwcjNIQk9BUkZFa2VRRVAxbnZrMDNzZFBmb3J1Z0Jxc3prR19mc0FRZjBWaklSeUJkZDlxc1R0NFg4VjVGRVItMy1MN1ExYVRtb3BOME9VTmxMLVVn?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited CNBC Africa source.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding market expectations, the September rate increase, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-723099fadf98
+done: 2 post(s) this run
 === run 2026-10-27T13:35:55Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 4
@@ -1446,55 +1498,3 @@ https://www.thehindubusinessline.com/markets/g-sec-yields-hits-over-3-year-high-
   Groq GPT-OSS: PASS - All factual statements about the 7.44% yield, 3‑year high, and $110 oil price are directly confirmed by the cited article.
   Groq GPT-OSS 20B: FAIL - Source name and count do not match the provided source(s).
   -> blocked by fact-check
----
-🇬🇧 UK INFLATION JUMPS TO 3.5% IN SEPTEMBER
-
-📌 UK inflation (price increases) rose to 3.5% in September on higher fuel costs.
-📊 UK Inflation: 3.5%
-
-📍 UK · 📰 Business · ✅ 7 sources
-https://www.euronews.com/2026/10/21/uk-inflation-jumps-more-than-expected-fuelling-rate-hike-expectations
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims 7 sources but only 6 sources are listed.
-  -> blocked by fact-check
----
-🌏 ASIAN STOCKS RISE AFTER US GAINS
-
-📌 Asian markets climbed as strong company profits pushed up US stocks.
-📊 Kospi: +3%
-#Markets
-
-📍 Asia · 📰 The Washington Post · ✅ 12 sources
-https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRWxpZWpnSm1TOV9mZDk2MGlXblhQS2dSWnVLNDVSU2s0TFJOcDVlMzM1ckxTVk5adGtaQnQzSWFrNkF3VXA4N1gzcVdzbTc0TTNLblBZUzFYMkpmcllYMllyZ0doNzdJUnpTZ1E3dGRTa3dGVVJHT3UwbGZfSlhROWxnZlowQ1RxOTVPWG13cm1yb3ctWkx3VWVNektOWHpmcWpXd21WaHVpM1BKWVJqdDlQX2NjZDVLSlNNd3FhcnFYaUhpVU95LW5hUVBOcVJx?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims, including the 3% Kospi rise and the link to US gains from strong earnings, are directly supported by the cited Washington Post and Globe and Mail sources.
-  Groq GPT-OSS 20B: FAIL - The post claims Asian markets climbed, but the source reports the markets were mixed.
-  -> blocked by fact-check
----
-🇳🇿 NZ DOLLAR HOLDS STEADY AMID INFLATION PRESSURE
-
-📌 The New Zealand dollar stays flat as oil costs push up inflation and rate hike bets.
-💡 Higher rates usually make loans costlier.
-#NZD
-
-📍 New Zealand · 📰 FXStreet · ✅ 2 sources
-https://news.google.com/rss/articles/CBMivgFBVV95cUxNZmxRdGlIZjRnNktxOVJBZjFqalRkM2pXT1hMMHNtMmdKeTZTRkFzaHQzYl9ORC1sQXdialQtM3BtZ05uU1RyeGk5UnM4dUdua3JZUFYtenNaT3BRY213Q1ptOE1keGFiUC16cTFidG5HeVRpekw4VHRtNGZ6NDJHdVZWOTR5RGhNUDFyeXllZVZNWE1Ia1VSWGN6TWJGdU5kRmpjaE82Z182MmZiVEVFdy1ma214OXlRYWNDeEpn?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the FXStreet article and the general explanation is correct.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the FXStreet article and the general explanation is accurate.
-  Groq Qwen: PASS - All factual claims regarding the NZD's steady performance, inflation pressure from oil, and rate hike bets are directly supported by the source headlines, and the location and source attribution are c
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-00a6ceaeef70
----
-🇮🇳 BREAKING: JIO IPO FULLY SUBSCRIBED IN HOURS
-
-📌 Ambani's $3.2B Jio share sale sold out within hours of opening.
-📊 Size: $3.2B
-📊 Shares: 197.5M
-💡 High demand for a share sale shows strong investor interest.
-#IPO
-
-📍 India · 📰 Mint · ✅ 7 sources
-https://www.livemint.com/market/ipo/jio-has-record-ipo-fully-subscribed-within-hours-11792562581882.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, figures, and statements are directly supported by the cited Mint article and other sources.
