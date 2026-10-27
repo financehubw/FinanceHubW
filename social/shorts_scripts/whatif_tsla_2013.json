@@ -34,10 +34,12 @@
    "sub": "2013"
   },
   {
-   "say": "Today, it would be worth about {growth:TSLA:2013-01-02}.",
-   "photo": "stock market chart",
-   "big": "{growth:TSLA:2013-01-02}",
-   "sub": "price growth since 2013"
+   "say": "Watch what it turns into. Today, it would be worth about {growth:TSLA:2013-01-02}.",
+   "growth": {
+    "tick": "TSLA",
+    "name": "Tesla",
+    "start": "2013-01-02"
+   }
   },
   {
    "say": "Time in the market does the heavy lifting.",

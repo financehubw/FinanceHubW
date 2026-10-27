@@ -34,10 +34,12 @@
    "sub": "2000"
   },
   {
-   "say": "Today, it would be worth about {growth:ADBE:2000-01-03}.",
-   "photo": "stock market chart",
-   "big": "{growth:ADBE:2000-01-03}",
-   "sub": "price growth since 2000"
+   "say": "Watch what it turns into. Today, it would be worth about {growth:ADBE:2000-01-03}.",
+   "growth": {
+    "tick": "ADBE",
+    "name": "Adobe",
+    "start": "2000-01-03"
+   }
   },
   {
    "say": "Time in the market does the heavy lifting.",

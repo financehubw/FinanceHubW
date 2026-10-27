@@ -34,10 +34,12 @@
    "sub": "2002"
   },
   {
-   "say": "Today, it would be worth about {growth:NFLX:2002-05-23}.",
-   "photo": "stock market chart",
-   "big": "{growth:NFLX:2002-05-23}",
-   "sub": "price growth since 2002"
+   "say": "Watch what it turns into. Today, it would be worth about {growth:NFLX:2002-05-23}.",
+   "growth": {
+    "tick": "NFLX",
+    "name": "Netflix",
+    "start": "2002-05-23"
+   }
   },
   {
    "say": "Time in the market does the heavy lifting.",

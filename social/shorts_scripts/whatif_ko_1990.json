@@ -34,10 +34,12 @@
    "sub": "1990"
   },
   {
-   "say": "Today, it would be worth about {growth:KO:1990-01-02}.",
-   "photo": "stock market chart",
-   "big": "{growth:KO:1990-01-02}",
-   "sub": "price growth since 1990"
+   "say": "Watch what it turns into. Today, it would be worth about {growth:KO:1990-01-02}.",
+   "growth": {
+    "tick": "KO",
+    "name": "Coca-Cola",
+    "start": "1990-01-02"
+   }
   },
   {
    "say": "Time in the market does the heavy lifting.",

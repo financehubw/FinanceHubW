@@ -34,10 +34,12 @@
    "sub": "2004"
   },
   {
-   "say": "Today, it would be worth about {growth:GOOGL:2004-08-19}.",
-   "photo": "stock market chart",
-   "big": "{growth:GOOGL:2004-08-19}",
-   "sub": "price growth since 2004"
+   "say": "Watch what it turns into. Today, it would be worth about {growth:GOOGL:2004-08-19}.",
+   "growth": {
+    "tick": "GOOGL",
+    "name": "Google",
+    "start": "2004-08-19"
+   }
   },
   {
    "say": "Time in the market does the heavy lifting.",

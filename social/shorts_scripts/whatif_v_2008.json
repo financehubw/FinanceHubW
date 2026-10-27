@@ -34,10 +34,12 @@
    "sub": "2008"
   },
   {
-   "say": "Today, it would be worth about {growth:V:2008-03-19}.",
-   "photo": "stock market chart",
-   "big": "{growth:V:2008-03-19}",
-   "sub": "price growth since 2008"
+   "say": "Watch what it turns into. Today, it would be worth about {growth:V:2008-03-19}.",
+   "growth": {
+    "tick": "V",
+    "name": "Visa",
+    "start": "2008-03-19"
+   }
   },
   {
    "say": "Time in the market does the heavy lifting.",

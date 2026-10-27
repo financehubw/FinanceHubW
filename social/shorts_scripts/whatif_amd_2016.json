@@ -34,10 +34,12 @@
    "sub": "2016"
   },
   {
-   "say": "Today, it would be worth about {growth:AMD:2016-01-04}.",
-   "photo": "stock market chart",
-   "big": "{growth:AMD:2016-01-04}",
-   "sub": "price growth since 2016"
+   "say": "Watch what it turns into. Today, it would be worth about {growth:AMD:2016-01-04}.",
+   "growth": {
+    "tick": "AMD",
+    "name": "AMD",
+    "start": "2016-01-04"
+   }
   },
   {
    "say": "Time in the market does the heavy lifting.",

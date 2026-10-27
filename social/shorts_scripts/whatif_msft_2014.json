@@ -34,10 +34,12 @@
    "sub": "2014"
   },
   {
-   "say": "Today, it would be worth about {growth:MSFT:2014-02-04}.",
-   "photo": "stock market chart",
-   "big": "{growth:MSFT:2014-02-04}",
-   "sub": "price growth since 2014"
+   "say": "Watch what it turns into. Today, it would be worth about {growth:MSFT:2014-02-04}.",
+   "growth": {
+    "tick": "MSFT",
+    "name": "Microsoft",
+    "start": "2014-02-04"
+   }
   },
   {
    "say": "Time in the market does the heavy lifting.",

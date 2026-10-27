@@ -34,10 +34,12 @@
    "sub": "2010"
   },
   {
-   "say": "Today, it would be worth about {growth:NVDA:2010-01-04}.",
-   "photo": "stock market chart",
-   "big": "{growth:NVDA:2010-01-04}",
-   "sub": "price growth since 2010"
+   "say": "Watch what it turns into. Today, it would be worth about {growth:NVDA:2010-01-04}.",
+   "growth": {
+    "tick": "NVDA",
+    "name": "Nvidia",
+    "start": "2010-01-04"
+   }
   },
   {
    "say": "Time in the market does the heavy lifting.",

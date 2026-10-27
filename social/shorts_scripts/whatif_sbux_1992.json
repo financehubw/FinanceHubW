@@ -34,10 +34,12 @@
    "sub": "1992"
   },
   {
-   "say": "Today, it would be worth about {growth:SBUX:1992-06-26}.",
-   "photo": "stock market chart",
-   "big": "{growth:SBUX:1992-06-26}",
-   "sub": "price growth since 1992"
+   "say": "Watch what it turns into. Today, it would be worth about {growth:SBUX:1992-06-26}.",
+   "growth": {
+    "tick": "SBUX",
+    "name": "Starbucks",
+    "start": "1992-06-26"
+   }
   },
   {
    "say": "Time in the market does the heavy lifting.",

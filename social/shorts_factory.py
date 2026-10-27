@@ -123,6 +123,9 @@ def series(tick: str, start: str) -> list[tuple[dt.date, float]]:
 
 
 def prepare_dynamic(scene: dict) -> None:
+    if "growth" in scene:
+        g = scene["growth"]
+        g["_data"] = series(g["tick"], g["start"])
     for key in ("race", "versus"):
         if key in scene:
             spec = scene[key]
@@ -196,6 +199,65 @@ def draw_versus(img: Image.Image, spec: dict, prog: float) -> None:
         d.text((cx, 850), txt, font=vf, fill=INK, anchor="mm")
         if win:
             d.text((cx, 1120), "WINNER", font=font(BOLD, 48), fill=INK, anchor="mm")
+
+
+NEON, DEEP = (60, 230, 140), (8, 12, 22)
+
+
+def draw_growth(img: Image.Image, spec: dict, prog: float) -> None:
+    """3D-style growth chart: dark stage, perspective grid floor, glowing line drawing itself,
+    a live count-up number riding the line head. One ticker, $1,000 start."""
+    prog = 1.0 if spec.get("hold") else prog
+    frac = ease(prog / 0.85)
+    pts = spec["_data"]
+    stage = Image.new("RGB", (W, H), DEEP)
+    d = ImageDraw.Draw(stage)
+    # perspective floor grid (vanishing point above the chart): reads as 3D depth
+    vx, vy = W / 2, 1180                         # horizon just under the chart's baseline
+    for i in range(-16, 17):
+        d.line([(vx + i * 30, vy + 220), (vx + i * 260, H + 40)], fill=(26, 52, 74), width=2)
+    for k in range(0, 12):
+        y = vy + 220 + (H + 40 - vy - 220) * (k / 11) ** 2.0
+        d.line([(0, y), (W, y)], fill=(26, 52, 74), width=2)
+    d = ImageDraw.Draw(stage)
+    # chart box
+    x0, x1, y0, y1 = 90, W - 90, 520, 1360
+    vals = [v for _, v in pts]
+    top = max(vals) * 1.08
+    n = max(2, int(frac * (len(pts) - 1)) + 1)
+    xy = [(x0 + (x1 - x0) * i / (len(pts) - 1), y1 - (y1 - y0) * (pts[i][1] / top)) for i in range(n)]
+    v_now, when = value_at(pts, frac)
+    hx = x0 + (x1 - x0) * frac
+    hy = y1 - (y1 - y0) * (v_now / top)
+    xy.append((hx, hy))
+    # glow: thick blurred line under a crisp one
+    glow = Image.new("RGB", (W, H), (0, 0, 0))
+    gd = ImageDraw.Draw(glow)
+    gd.line(xy, fill=NEON, width=26, joint="curve")
+    gd.ellipse((hx - 34, hy - 34, hx + 34, hy + 34), fill=NEON)
+    glow = glow.filter(ImageFilter.GaussianBlur(22))
+    stage = Image.fromarray(np.clip(np.asarray(stage, dtype=np.int16) + np.asarray(glow, dtype=np.int16), 0, 255).astype("uint8"))
+    d = ImageDraw.Draw(stage)
+    fill_poly = xy + [(hx, y1), (x0, y1)]
+    shade = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(shade).polygon(fill_poly, fill=(60, 230, 140, 46))
+    stage.paste(shade, (0, 0), shade)
+    d.line(xy, fill=(200, 255, 225), width=8, joint="curve")
+    d.ellipse((hx - 14, hy - 14, hx + 14, hy + 14), fill=(255, 255, 255))
+    # header + count-up
+    d.text((W / 2, 170), spec.get("name", ""), font=font(BOLD, 56), fill=(170, 190, 210), anchor="mm")
+    d.text((W / 2, 250), f"$1,000 in {spec['start'][:4]}, now {when.year}", font=font(SEMI, 40),
+           fill=(120, 140, 160), anchor="mm")
+    big = money(v_now)
+    bf = font(SERIF, 150)
+    while d.textlength(big, font=bf) > W - 120 and bf.size > 70:
+        bf = font(SERIF, bf.size - 8)
+    d.text((W / 2, 400), big, font=bf, fill=(255, 255, 255), anchor="mm")
+    if prog > 0.9:
+        mult = v_now / 1000
+        d.text((W / 2, 1520), f"{mult:,.0f}x your money" if mult >= 2 else f"{(mult - 1) * 100:+.0f}%",
+               font=font(BOLD, 64), fill=NEON, anchor="mm")
+    img.paste(stage)
 
 
 # ------------------------------------------------------------------ voice
@@ -301,7 +363,7 @@ def scene_image(scene: dict, seed: str) -> Image.Image:
     img = PAPER_IMG.copy()
     d = ImageDraw.Draw(img)
     d.text((60, 70), "FINANCEHUBW", font=font(BOLD, 26), fill=(150, 140, 126))
-    if scene.get("race") or scene.get("versus"):
+    if scene.get("race") or scene.get("versus") or scene.get("growth"):
         return img
     # photo card
     ph = photos.photo(scene.get("photo", ""), seed + scene.get("photo", ""), query=scene.get("photo"))
@@ -489,7 +551,7 @@ def render(script_path: Path) -> dict:
             dur = duration(mp3)
             for w in words:
                 w["t"] += t0
-            animated = (sc.get("race") and not sc["race"].get("hold")) or (sc.get("versus") and not sc["versus"].get("hold"))
+            animated = any(sc.get(k) and not sc[k].get("hold") for k in ("race", "versus", "growth"))
             hold = max(0.0, 6.0 - dur) if animated else 0.0     # let the race/count-up play out
             if hold:
                 pad = td / f"{i:02d}_pad.wav"
@@ -536,7 +598,7 @@ def render(script_path: Path) -> dict:
             prepare_dynamic(s["scene"])
         for i, s in enumerate(timeline):
             sc = s["scene"]
-            if not (sc.get("race") or sc.get("versus") or sc.get("quiz")) and sc.get("photo"):
+            if not (sc.get("race") or sc.get("versus") or sc.get("growth") or sc.get("quiz")) and sc.get("photo"):
                 s["broll"] = broll_clip(sc["photo"], vid + str(i), s["end"] - s["start"], td)
                 if s["broll"] is not None:
                     s["overlay"] = broll_overlay(sc)
@@ -575,6 +637,8 @@ def render(script_path: Path) -> dict:
                 frame = base.copy(); draw_race(frame, s["scene"]["race"], prog)
             elif s["scene"].get("versus"):
                 frame = base.copy(); draw_versus(frame, s["scene"]["versus"], prog)
+            elif s["scene"].get("growth"):
+                frame = base.copy(); draw_growth(frame, s["scene"]["growth"], prog)
             grp = next((g for g in s["groups"] if g[0]["t"] - 0.05 <= t <= g[-1]["t"] + g[-1]["d"] + 0.25), None)
             if grp:
                 draw_caption(frame, grp, t)

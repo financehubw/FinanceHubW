@@ -424,6 +424,31 @@
    ]
   },
   {
+   "file": "netflix_blockbuster.mp4",
+   "title": "Blockbuster could have bought Netflix for $50 million",
+   "caption": "In 2000, Netflix offered to sell itself to Blockbuster for $50 million.\nBlockbuster said no. Ten years later it filed for bankruptcy.\nToday Netflix is worth about $294 billion.",
+   "tags": [
+    "#netflix",
+    "#business",
+    "#investing",
+    "#money",
+    "#finance",
+    "#history"
+   ],
+   "comment": "Would you have bought Netflix for $50 million in 2000? 👇",
+   "thumb": "Netflix was for sale for *$50M*",
+   "thumb_photo": "dvd video store",
+   "thumb_tag": "BIGGEST MISTAKE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Marc Randolph, That Will Never Work (2019): the $50M offer",
+    "Blockbuster Chapter 11 filing, September 2010",
+    "Netflix market value: Yahoo Finance, at render time"
+   ]
+  },
+  {
    "file": "tesla_ipo.mp4",
    "title": "$1,000 in Tesla's first trading day is now worth this",
    "caption": "Tesla started trading in 2010.\n$1,000 at the first day's closing price would be worth about $222,721 today (share price only, no dividends).",
@@ -443,382 +468,6 @@
    "made": "2026-10-17",
    "sources": [
     "Tesla share price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "doubling_17x.mp4",
-   "title": "How your money could grow 17x",
-   "caption": "At an assumed 10% a year, money doubles about every 7 years.\nIn 30 years, that's roughly 17 times what you started with.\nNo lottery. Just math. (Returns are not guaranteed.)",
-   "tags": [
-    "#compoundinterest",
-    "#ruleof72",
-    "#personalfinance",
-    "#money",
-    "#investing",
-    "#financetips"
-   ],
-   "ai_voice": true,
-   "comment": "How many years would you let your money grow? 👇",
-   "thumb": "Grow your money *17x*",
-   "thumb_photo": "stack of coins",
-   "thumb_tag": "GROWTH"
-  },
-  {
-   "file": "one_thousand_fifty_years.mp4",
-   "title": "What $1,000 becomes in 50 years",
-   "caption": "Put $1,000 away and don't touch it.\nAt an assumed 10% a year for 50 years, it could grow to about $117,000.\nPatience is the real superpower.",
-   "tags": [
-    "#compoundinterest",
-    "#longterminvesting",
-    "#personalfinance",
-    "#money",
-    "#investing",
-    "#financetips"
-   ],
-   "ai_voice": true,
-   "comment": "What would you do with $1,000 today? 👇",
-   "thumb": "$1,000 for *50 years*",
-   "thumb_photo": "gold coins stack",
-   "thumb_tag": "COMPOUNDING"
-  },
-  {
-   "file": "rule_of_72_global.mp4",
-   "title": "The one-second trick that tells you when your money doubles",
-   "caption": "Divide 72 by your yearly return.\nSavings at 2%: about 36 years. Bonds at 6%: about 12 years. Stocks at an assumed 10%: about 7 years.\nSame money, totally different futures.",
-   "tags": [
-    "#ruleof72",
-    "#investing",
-    "#personalfinance",
-    "#money",
-    "#investing",
-    "#financetips"
-   ],
-   "ai_voice": true,
-   "comment": "Try it: what rate does your money earn, and when does it double? 👇",
-   "thumb": "When does your money *double?*",
-   "thumb_photo": "stock market chart",
-   "thumb_tag": "MONEY MATH"
-  },
-  {
-   "file": "dollar_1970.mp4",
-   "title": "The dollar lost 85% since 1970",
-   "caption": "What cost $1 in 1970 cost about $6.67 in 2020, based on the US consumer price index.\nThat's about 85% of the dollar's buying power gone.\nNobody stole it. Inflation took it, a few cents at a time.",
-   "tags": [
-    "#inflation",
-    "#history",
-    "#personalfinance",
-    "#money",
-    "#investing",
-    "#financetips"
-   ],
-   "ai_voice": true,
-   "comment": "What did something cost when you were a kid vs now? 👇",
-   "thumb": "The dollar lost *85%*",
-   "thumb_photo": "vintage dollar",
-   "thumb_tag": "INFLATION"
-  },
-  {
-   "file": "coffee_million.mp4",
-   "title": "Your coffee could cost you nearly $1 million",
-   "caption": "$5 a day is about $152 a month.\nInvested at an assumed 10% a year for 40 years, that's roughly $969,000.\nDon't quit coffee. Just know what your habits really cost.",
-   "tags": [
-    "#savingmoney",
-    "#compoundinterest",
-    "#personalfinance",
-    "#money",
-    "#investing",
-    "#financetips"
-   ],
-   "ai_voice": true,
-   "comment": "Is this worth giving up your daily coffee for? ☕👇",
-   "thumb": "Coffee could cost you *$1 million*",
-   "thumb_photo": "latte coffee",
-   "thumb_tag": "COMPOUNDING"
-  },
-  {
-   "file": "monthly_cost_2000.mp4",
-   "title": "$100 a month into Costco since 2000 is now worth this",
-   "caption": "$100 every month into Costco since 2000.\nToday that would be worth about $386,172 (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Costco since 2000 = *$386,172*",
-   "thumb_photo": "warehouse store",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Costco price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "monthly_meta_2012.mp4",
-   "title": "$100 a month into Facebook since 2012 is now worth this",
-   "caption": "$100 every month into Facebook since 2012.\nToday that would be worth about $114,524 (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Facebook since 2012 = *$114,524*",
-   "thumb_photo": "social media phone",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Facebook price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "monthly_nke_1990.mp4",
-   "title": "$100 a month into Nike since 1990 is now worth this",
-   "caption": "$100 every month into Nike since 1990.\nToday that would be worth about $257,403 (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Nike since 1990 = *$257,403*",
-   "thumb_photo": "running shoes",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Nike price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "top5_companies_2026_10.mp4",
-   "title": "The 5 most valuable companies in the world (October 2026)",
-   "caption": "The 5 most valuable companies in the world right now, by market value:\n#1 Nvidia: about $5.2 trillion\n#2 Apple: about $5 trillion\n#3 Alphabet (Google): about $4.2 trillion\n#4 Microsoft: about $3.9 trillion\n#5 Amazon: about $2.7 trillion",
-   "tags": [
-    "#stocks",
-    "#business",
-    "#investing",
-    "#money",
-    "#top5",
-    "#companies"
-   ],
-   "comment": "Who will be #1 a year from now? 👇",
-   "thumb": "World's *TOP 5* companies",
-   "thumb_photo": "city skyline night",
-   "thumb_tag": "COUNTDOWN",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Market values: Yahoo Finance, at render time"
-   ]
-  },
-  {
-   "file": "whatif_googl_2004.mp4",
-   "title": "$1,000 in Google in 2004 is now worth this",
-   "caption": "In 2004, Google was a search engine with ads.\n$1,000 in it then would be worth about $135,639 today (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#whatif",
-    "#finance",
-    "#compounding"
-   ],
-   "comment": "What would you have done with Google in 2004? 👇",
-   "thumb": "$1,000 in Google 2004 = *$135,639*",
-   "thumb_photo": "search engine laptop",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Google price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "whatif_nflx_2002.mp4",
-   "title": "$1,000 in Netflix in 2002 is now worth this",
-   "caption": "In 2002, Netflix was mailing DVDs.\n$1,000 in it then would be worth about $589,504 today (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#whatif",
-    "#finance",
-    "#compounding"
-   ],
-   "comment": "What would you have done with Netflix in 2002? 👇",
-   "thumb": "$1,000 in Netflix 2002 = *$589,504*",
-   "thumb_photo": "dvd envelope",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Netflix price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "whatif_sbux_1992.mp4",
-   "title": "$1,000 in Starbucks in 1992 is now worth this",
-   "caption": "In 1992, Starbucks was a coffee chain.\n$1,000 in it then would be worth about $290,292 today (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#whatif",
-    "#finance",
-    "#compounding"
-   ],
-   "comment": "What would you have done with Starbucks in 1992? 👇",
-   "thumb": "$1,000 in Starbucks 1992 = *$290,292*",
-   "thumb_photo": "coffee shop",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Starbucks price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "monthly_googl_2004.mp4",
-   "title": "$100 a month into Google since 2004 is now worth this",
-   "caption": "$100 every month into Google since 2004.\nToday that would be worth about $452,514 (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Google since 2004 = *$452,514*",
-   "thumb_photo": "search engine laptop",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Google price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "monthly_nflx_2002.mp4",
-   "title": "$100 a month into Netflix since 2002 is now worth this",
-   "caption": "$100 every month into Netflix since 2002.\nToday that would be worth about $3 million (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Netflix since 2002 = *$3 million*",
-   "thumb_photo": "dvd envelope",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Netflix price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "monthly_sbux_1992.mp4",
-   "title": "$100 a month into Starbucks since 1992 is now worth this",
-   "caption": "$100 every month into Starbucks since 1992.\nToday that would be worth about $1 million (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Starbucks since 1992 = *$1 million*",
-   "thumb_photo": "coffee shop",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Starbucks price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "race_big_tech_2015.mp4",
-   "title": "$1,000 in each since 2015: who wins?",
-   "caption": "Big Tech race since 2015? $1,000 in each in 2015.\nWinner: Nvidia, now about $425,494.\nLast: Microsoft, about $11,314.\n(Price growth only, no dividends.)",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#finance",
-    "#race",
-    "#dataviz"
-   ],
-   "comment": "Did you guess the winner? 👇",
-   "thumb": "$1,000 since 2015: *who wins?*",
-   "thumb_photo": "technology",
-   "thumb_tag": "RACE",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Yahoo Finance price history (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "race_btc_sp_gold_cash.mp4",
-   "title": "$1,000 in each since 2015: who wins?",
-   "caption": "Bitcoin, stocks, gold or cash? $1,000 in each in 2015.\nWinner: Bitcoin, now about $258,608.\nLast: Cash, about $1,000.\n(Price growth only, no dividends.)",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#finance",
-    "#race",
-    "#dataviz"
-   ],
-   "comment": "Did you guess the winner? 👇",
-   "thumb": "$1,000 since 2015: *who wins?*",
-   "thumb_photo": "bitcoin gold",
-   "thumb_tag": "RACE",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Yahoo Finance price history (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "race_crypto_2018.mp4",
-   "title": "$1,000 in each since 2018: who wins?",
-   "caption": "Crypto race since 2018? $1,000 in each in 2018.\nWinner: BNB, now about $81,467.\nLast: XRP, about $527.\n(Price growth only, no dividends.)",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#finance",
-    "#race",
-    "#dataviz"
-   ],
-   "comment": "Did you guess the winner? 👇",
-   "thumb": "$1,000 since 2018: *who wins?*",
-   "thumb_photo": "cryptocurrency",
-   "thumb_tag": "RACE",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Yahoo Finance price history (split-adjusted), at render time"
    ]
   },
   {
@@ -844,6 +493,148 @@
    ]
   },
   {
+   "file": "doubling_17x.mp4",
+   "title": "How your money could grow 17x",
+   "caption": "At an assumed 10% a year, money doubles about every 7 years.\nIn 30 years, that's roughly 17 times what you started with.\nNo lottery. Just math. (Returns are not guaranteed.)",
+   "tags": [
+    "#compoundinterest",
+    "#ruleof72",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "How many years would you let your money grow? 👇",
+   "thumb": "Grow your money *17x*",
+   "thumb_photo": "stack of coins",
+   "thumb_tag": "GROWTH"
+  },
+  {
+   "file": "whatif_googl_2004.mp4",
+   "title": "$1,000 in Google in 2004 is now worth this",
+   "caption": "In 2004, Google was a search engine with ads.\n$1,000 in it then would be worth about $135,639 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Google in 2004? 👇",
+   "thumb": "$1,000 in Google 2004 = *$135,639*",
+   "thumb_photo": "search engine laptop",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Google price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "race_big_tech_2015.mp4",
+   "title": "$1,000 in each since 2015: who wins?",
+   "caption": "Big Tech race since 2015? $1,000 in each in 2015.\nWinner: Nvidia, now about $425,494.\nLast: Microsoft, about $11,314.\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#race",
+    "#dataviz"
+   ],
+   "comment": "Did you guess the winner? 👇",
+   "thumb": "$1,000 since 2015: *who wins?*",
+   "thumb_photo": "technology",
+   "thumb_tag": "RACE",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "one_thousand_fifty_years.mp4",
+   "title": "What $1,000 becomes in 50 years",
+   "caption": "Put $1,000 away and don't touch it.\nAt an assumed 10% a year for 50 years, it could grow to about $117,000.\nPatience is the real superpower.",
+   "tags": [
+    "#compoundinterest",
+    "#longterminvesting",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "What would you do with $1,000 today? 👇",
+   "thumb": "$1,000 for *50 years*",
+   "thumb_photo": "gold coins stack",
+   "thumb_tag": "COMPOUNDING"
+  },
+  {
+   "file": "top5_companies_2026_10.mp4",
+   "title": "The 5 most valuable companies in the world (October 2026)",
+   "caption": "The 5 most valuable companies in the world right now, by market value:\n#1 Nvidia: about $5.2 trillion\n#2 Apple: about $5 trillion\n#3 Alphabet (Google): about $4.2 trillion\n#4 Microsoft: about $3.9 trillion\n#5 Amazon: about $2.7 trillion",
+   "tags": [
+    "#stocks",
+    "#business",
+    "#investing",
+    "#money",
+    "#top5",
+    "#companies"
+   ],
+   "comment": "Who will be #1 a year from now? 👇",
+   "thumb": "World's *TOP 5* companies",
+   "thumb_photo": "city skyline night",
+   "thumb_tag": "COUNTDOWN",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Market values: Yahoo Finance, at render time"
+   ]
+  },
+  {
+   "file": "monthly_cost_2000.mp4",
+   "title": "$100 a month into Costco since 2000 is now worth this",
+   "caption": "$100 every month into Costco since 2000.\nToday that would be worth about $386,172 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Costco since 2000 = *$386,172*",
+   "thumb_photo": "warehouse store",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Costco price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "rule_of_72_global.mp4",
+   "title": "The one-second trick that tells you when your money doubles",
+   "caption": "Divide 72 by your yearly return.\nSavings at 2%: about 36 years. Bonds at 6%: about 12 years. Stocks at an assumed 10%: about 7 years.\nSame money, totally different futures.",
+   "tags": [
+    "#ruleof72",
+    "#investing",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "Try it: what rate does your money earn, and when does it double? 👇",
+   "thumb": "When does your money *double?*",
+   "thumb_photo": "stock market chart",
+   "thumb_tag": "MONEY MATH"
+  },
+  {
    "file": "vs_ko_pep_2010.mp4",
    "title": "Coca-Cola vs Pepsi: $1,000 in 2010, who wins?",
    "caption": "$1,000 in Coca-Cola or Pepsi in 2010?\nCoca-Cola: about $3,292\nPepsi: about $2,147\n(Price growth only, no dividends.)",
@@ -866,6 +657,108 @@
    ]
   },
   {
+   "file": "dollar_1970.mp4",
+   "title": "The dollar lost 85% since 1970",
+   "caption": "What cost $1 in 1970 cost about $6.67 in 2020, based on the US consumer price index.\nThat's about 85% of the dollar's buying power gone.\nNobody stole it. Inflation took it, a few cents at a time.",
+   "tags": [
+    "#inflation",
+    "#history",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "What did something cost when you were a kid vs now? 👇",
+   "thumb": "The dollar lost *85%*",
+   "thumb_photo": "vintage dollar",
+   "thumb_tag": "INFLATION"
+  },
+  {
+   "file": "whatif_nflx_2002.mp4",
+   "title": "$1,000 in Netflix in 2002 is now worth this",
+   "caption": "In 2002, Netflix was mailing DVDs.\n$1,000 in it then would be worth about $589,504 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Netflix in 2002? 👇",
+   "thumb": "$1,000 in Netflix 2002 = *$589,504*",
+   "thumb_photo": "dvd envelope",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Netflix price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "race_btc_sp_gold_cash.mp4",
+   "title": "$1,000 in each since 2015: who wins?",
+   "caption": "Bitcoin, stocks, gold or cash? $1,000 in each in 2015.\nWinner: Bitcoin, now about $258,608.\nLast: Cash, about $1,000.\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#race",
+    "#dataviz"
+   ],
+   "comment": "Did you guess the winner? 👇",
+   "thumb": "$1,000 since 2015: *who wins?*",
+   "thumb_photo": "bitcoin gold",
+   "thumb_tag": "RACE",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "coffee_million.mp4",
+   "title": "Your coffee could cost you nearly $1 million",
+   "caption": "$5 a day is about $152 a month.\nInvested at an assumed 10% a year for 40 years, that's roughly $969,000.\nDon't quit coffee. Just know what your habits really cost.",
+   "tags": [
+    "#savingmoney",
+    "#compoundinterest",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#financetips"
+   ],
+   "ai_voice": true,
+   "comment": "Is this worth giving up your daily coffee for? ☕👇",
+   "thumb": "Coffee could cost you *$1 million*",
+   "thumb_photo": "latte coffee",
+   "thumb_tag": "COMPOUNDING"
+  },
+  {
+   "file": "monthly_meta_2012.mp4",
+   "title": "$100 a month into Facebook since 2012 is now worth this",
+   "caption": "$100 every month into Facebook since 2012.\nToday that would be worth about $114,524 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Facebook since 2012 = *$114,524*",
+   "thumb_photo": "social media phone",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Facebook price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
    "file": "vs_v_ma_2010.mp4",
    "title": "Visa vs Mastercard: $1,000 in 2010, who wins?",
    "caption": "$1,000 in Visa or Mastercard in 2010?\nMastercard: about $24,039\nVisa: about $18,271\n(Price growth only, no dividends.)",
@@ -882,6 +775,95 @@
    "thumb_photo": "credit card",
    "thumb_tag": "VS",
    "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_sbux_1992.mp4",
+   "title": "$1,000 in Starbucks in 1992 is now worth this",
+   "caption": "In 1992, Starbucks was a coffee chain.\n$1,000 in it then would be worth about $290,292 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Starbucks in 1992? 👇",
+   "thumb": "$1,000 in Starbucks 1992 = *$290,292*",
+   "thumb_photo": "coffee shop",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Starbucks price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "race_crypto_2018.mp4",
+   "title": "$1,000 in each since 2018: who wins?",
+   "caption": "Crypto race since 2018? $1,000 in each in 2018.\nWinner: BNB, now about $81,467.\nLast: XRP, about $527.\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#race",
+    "#dataviz"
+   ],
+   "comment": "Did you guess the winner? 👇",
+   "thumb": "$1,000 since 2018: *who wins?*",
+   "thumb_photo": "cryptocurrency",
+   "thumb_tag": "RACE",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_nke_1990.mp4",
+   "title": "$100 a month into Nike since 1990 is now worth this",
+   "caption": "$100 every month into Nike since 1990.\nToday that would be worth about $257,403 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Nike since 1990 = *$257,403*",
+   "thumb_photo": "running shoes",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Nike price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_amzn_wmt_2010.mp4",
+   "title": "Amazon vs Walmart: $1,000 in 2010, who wins?",
+   "caption": "$1,000 in Amazon or Walmart in 2010?\nAmazon: about $37,341\nWalmart: about $6,573\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#amazon"
+   ],
+   "comment": "Team Amazon or team Walmart? 👇",
+   "thumb": "Amazon vs Walmart: *who won?*",
+   "thumb_photo": "cardboard boxes",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
    "made": "2026-10-17",
    "sources": [
     "Yahoo Finance price history (split-adjusted), at render time"
@@ -910,144 +892,6 @@
    ]
   },
   {
-   "file": "whatif_meta_2012.mp4",
-   "title": "$1,000 in Facebook in 2012 is now worth this",
-   "caption": "In 2012, Facebook was a social network.\n$1,000 in it then would be worth about $18,554 today (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#whatif",
-    "#finance",
-    "#compounding"
-   ],
-   "comment": "What would you have done with Facebook in 2012? 👇",
-   "thumb": "$1,000 in Facebook 2012 = *$18,554*",
-   "thumb_photo": "social media phone",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Facebook price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "whatif_nke_1990.mp4",
-   "title": "$1,000 in Nike in 1990 is now worth this",
-   "caption": "In 1990, Nike was a shoe company.\n$1,000 in it then would be worth about $42,246 today (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#whatif",
-    "#finance",
-    "#compounding"
-   ],
-   "comment": "What would you have done with Nike in 1990? 👇",
-   "thumb": "$1,000 in Nike 1990 = *$42,246*",
-   "thumb_photo": "running shoes",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "made": "2026-10-17",
-   "sources": [
-    "Nike price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "netflix_blockbuster.mp4",
-   "title": "Blockbuster could have bought Netflix for $50 million",
-   "caption": "In 2000, Netflix offered to sell itself to Blockbuster for $50 million.\nBlockbuster said no. Ten years later it filed for bankruptcy.\nToday Netflix is worth about $294 billion.",
-   "tags": [
-    "#netflix",
-    "#business",
-    "#investing",
-    "#money",
-    "#finance",
-    "#history"
-   ],
-   "comment": "Would you have bought Netflix for $50 million in 2000? 👇",
-   "thumb": "Netflix was for sale for *$50M*",
-   "thumb_photo": "dvd video store",
-   "thumb_tag": "BIGGEST MISTAKE",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-17",
-   "sources": [
-    "Marc Randolph, That Will Never Work (2019): the $50M offer",
-    "Blockbuster Chapter 11 filing, September 2010",
-    "Netflix market value: Yahoo Finance, at render time"
-   ]
-  },
-  {
-   "file": "monthly_adbe_2000.mp4",
-   "title": "$100 a month into Adobe since 2000 is now worth this",
-   "caption": "$100 every month into Adobe since 2000.\nToday that would be worth about $180,862 (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Adobe since 2000 = *$180,862*",
-   "thumb_photo": "graphic design",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-17",
-   "sources": [
-    "Adobe price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "monthly_ko_1990.mp4",
-   "title": "$100 a month into Coca-Cola since 1990 is now worth this",
-   "caption": "$100 every month into Coca-Cola since 1990.\nToday that would be worth about $180,634 (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Coca-Cola since 1990 = *$180,634*",
-   "thumb_photo": "soda bottles",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-17",
-   "sources": [
-    "Coca-Cola price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "monthly_nvda_2010.mp4",
-   "title": "$100 a month into Nvidia since 2010 is now worth this",
-   "caption": "$100 every month into Nvidia since 2010.\nToday that would be worth about $4.4 million (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Nvidia since 2010 = *$4.4 million*",
-   "thumb_photo": "gaming pc",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-17",
-   "sources": [
-    "Nvidia price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
    "file": "race_brands_2010.mp4",
    "title": "$1,000 in each since 2010: who wins?",
    "caption": "Famous brands race since 2010? $1,000 in each in 2010.\nWinner: Starbucks, now about $8,462.\nLast: Nike, about $2,273.\n(Price growth only, no dividends.)",
@@ -1071,72 +915,25 @@
    ]
   },
   {
-   "file": "race_chips_2016.mp4",
-   "title": "$1,000 in each since 2016: who wins?",
-   "caption": "Chip makers since 2016? $1,000 in each in 2016.\nWinner: Nvidia, now about $264,603.\nLast: Intel, about $2,643.\n(Price growth only, no dividends.)",
+   "file": "monthly_googl_2004.mp4",
+   "title": "$100 a month into Google since 2004 is now worth this",
+   "caption": "$100 every month into Google since 2004.\nToday that would be worth about $452,514 (price growth only, no dividends).",
    "tags": [
     "#investing",
-    "#stocks",
+    "#sip",
     "#money",
+    "#stocks",
     "#finance",
-    "#race",
-    "#dataviz"
+    "#habits"
    ],
-   "comment": "Did you guess the winner? 👇",
-   "thumb": "$1,000 since 2016: *who wins?*",
-   "thumb_photo": "computer chip",
-   "thumb_tag": "RACE",
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Google since 2004 = *$452,514*",
+   "thumb_photo": "search engine laptop",
+   "thumb_tag": "MONTHLY HABIT",
    "ai_voice": true,
-   "voice": "elevenlabs",
    "made": "2026-10-17",
    "sources": [
-    "Yahoo Finance price history (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "race_safe_havens_2008.mp4",
-   "title": "$1,000 in each since 2008: who wins?",
-   "caption": "Since the 2008 crash? $1,000 in each in 2008.\nWinner: S&P 500, now about $5,266.\nLast: US bonds, about $848.\n(Price growth only, no dividends.)",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#finance",
-    "#race",
-    "#dataviz"
-   ],
-   "comment": "Did you guess the winner? 👇",
-   "thumb": "$1,000 since 2008: *who wins?*",
-   "thumb_photo": "gold bars",
-   "thumb_tag": "RACE",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-17",
-   "sources": [
-    "Yahoo Finance price history (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "vs_amzn_wmt_2010.mp4",
-   "title": "Amazon vs Walmart: $1,000 in 2010, who wins?",
-   "caption": "$1,000 in Amazon or Walmart in 2010?\nAmazon: about $37,341\nWalmart: about $6,573\n(Price growth only, no dividends.)",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#finance",
-    "#versus",
-    "#amazon"
-   ],
-   "comment": "Team Amazon or team Walmart? 👇",
-   "thumb": "Amazon vs Walmart: *who won?*",
-   "thumb_photo": "cardboard boxes",
-   "thumb_tag": "VS",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-17",
-   "sources": [
-    "Yahoo Finance price history (split-adjusted), at render time"
+    "Google price history, Yahoo Finance (split-adjusted), at render time"
    ]
   },
   {
@@ -1163,6 +960,73 @@
    ]
   },
   {
+   "file": "whatif_meta_2012.mp4",
+   "title": "$1,000 in Facebook in 2012 is now worth this",
+   "caption": "In 2012, Facebook was a social network.\n$1,000 in it then would be worth about $18,554 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Facebook in 2012? 👇",
+   "thumb": "$1,000 in Facebook 2012 = *$18,554*",
+   "thumb_photo": "social media phone",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Facebook price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "race_chips_2016.mp4",
+   "title": "$1,000 in each since 2016: who wins?",
+   "caption": "Chip makers since 2016? $1,000 in each in 2016.\nWinner: Nvidia, now about $264,603.\nLast: Intel, about $2,643.\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#race",
+    "#dataviz"
+   ],
+   "comment": "Did you guess the winner? 👇",
+   "thumb": "$1,000 since 2016: *who wins?*",
+   "thumb_photo": "computer chip",
+   "thumb_tag": "RACE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_nflx_2002.mp4",
+   "title": "$100 a month into Netflix since 2002 is now worth this",
+   "caption": "$100 every month into Netflix since 2002.\nToday that would be worth about $3 million (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Netflix since 2002 = *$3 million*",
+   "thumb_photo": "dvd envelope",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Netflix price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
    "file": "vs_gld_spy_2000.mp4",
    "title": "Gold vs the S&P 500: $1,000 in 2000, who wins?",
    "caption": "$1,000 in Gold or the S&P 500 in 2000?\nGold: about $8,608\nthe S&P 500: about $5,248\n(Price growth only, no dividends.)",
@@ -1181,6 +1045,96 @@
    "ai_voice": true,
    "voice": "elevenlabs",
    "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_nke_1990.mp4",
+   "title": "$1,000 in Nike in 1990 is now worth this",
+   "caption": "In 1990, Nike was a shoe company.\n$1,000 in it then would be worth about $42,246 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Nike in 1990? 👇",
+   "thumb": "$1,000 in Nike 1990 = *$42,246*",
+   "thumb_photo": "running shoes",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Nike price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "race_safe_havens_2008.mp4",
+   "title": "$1,000 in each since 2008: who wins?",
+   "caption": "Since the 2008 crash? $1,000 in each in 2008.\nWinner: S&P 500, now about $5,266.\nLast: US bonds, about $848.\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#race",
+    "#dataviz"
+   ],
+   "comment": "Did you guess the winner? 👇",
+   "thumb": "$1,000 since 2008: *who wins?*",
+   "thumb_photo": "gold bars",
+   "thumb_tag": "RACE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_sbux_1992.mp4",
+   "title": "$100 a month into Starbucks since 1992 is now worth this",
+   "caption": "$100 every month into Starbucks since 1992.\nToday that would be worth about $1 million (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Starbucks since 1992 = *$1 million*",
+   "thumb_photo": "coffee shop",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "made": "2026-10-17",
+   "sources": [
+    "Starbucks price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_googl_meta_2013.mp4",
+   "title": "Google vs Meta: $1,000 in 2013, who wins?",
+   "caption": "$1,000 in Google or Meta in 2013?\nMeta: about $25,333\nGoogle: about $18,818\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#google"
+   ],
+   "comment": "Team Google or team Meta? 👇",
+   "thumb": "Google vs Meta: *who won?*",
+   "thumb_photo": "search engine laptop",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
    "sources": [
     "Yahoo Finance price history (split-adjusted), at render time"
    ]
@@ -1209,141 +1163,26 @@
    ]
   },
   {
-   "file": "whatif_dis_1990.mp4",
-   "title": "$1,000 in Disney in 1990 is now worth this",
-   "caption": "In 1990, Disney was cartoons and theme parks.\n$1,000 in it then would be worth about $11,647 today (price growth only, no dividends).",
+   "file": "monthly_adbe_2000.mp4",
+   "title": "$100 a month into Adobe since 2000 is now worth this",
+   "caption": "$100 every month into Adobe since 2000.\nToday that would be worth about $180,862 (price growth only, no dividends).",
    "tags": [
     "#investing",
-    "#stocks",
+    "#sip",
     "#money",
-    "#whatif",
+    "#stocks",
     "#finance",
-    "#compounding"
+    "#habits"
    ],
-   "comment": "What would you have done with Disney in 1990? 👇",
-   "thumb": "$1,000 in Disney 1990 = *$11,647*",
-   "thumb_photo": "theme park castle",
-   "thumb_tag": "WHAT IF",
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Adobe since 2000 = *$180,862*",
+   "thumb_photo": "graphic design",
+   "thumb_tag": "MONTHLY HABIT",
    "ai_voice": true,
    "voice": "elevenlabs",
    "made": "2026-10-17",
    "sources": [
-    "Disney price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "whatif_mcd_1990.mp4",
-   "title": "$1,000 in McDonald's in 1990 is now worth this",
-   "caption": "In 1990, McDonald's was selling burgers.\n$1,000 in it then would be worth about $27,868 today (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#whatif",
-    "#finance",
-    "#compounding"
-   ],
-   "comment": "What would you have done with McDonald's in 1990? 👇",
-   "thumb": "$1,000 in McDonald's 1990 = *$27,868*",
-   "thumb_photo": "burger fries",
-   "thumb_tag": "WHAT IF",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-17",
-   "sources": [
-    "McDonald's price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "monthly_amd_2016.mp4",
-   "title": "$100 a month into AMD since 2016 is now worth this",
-   "caption": "$100 every month into AMD since 2016.\nToday that would be worth about $317,296 (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in AMD since 2016 = *$317,296*",
-   "thumb_photo": "computer processor",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-19",
-   "sources": [
-    "AMD price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "monthly_dis_1990.mp4",
-   "title": "$100 a month into Disney since 1990 is now worth this",
-   "caption": "$100 every month into Disney since 1990.\nToday that would be worth about $167,294 (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Disney since 1990 = *$167,294*",
-   "thumb_photo": "theme park castle",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-19",
-   "sources": [
-    "Disney price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "monthly_mcd_1990.mp4",
-   "title": "$100 a month into McDonald's since 1990 is now worth this",
-   "caption": "$100 every month into McDonald's since 1990.\nToday that would be worth about $326,114 (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in McDonald's since 1990 = *$326,114*",
-   "thumb_photo": "burger fries",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-19",
-   "sources": [
-    "McDonald's price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "vs_googl_meta_2013.mp4",
-   "title": "Google vs Meta: $1,000 in 2013, who wins?",
-   "caption": "$1,000 in Google or Meta in 2013?\nMeta: about $25,333\nGoogle: about $18,818\n(Price growth only, no dividends.)",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#finance",
-    "#versus",
-    "#google"
-   ],
-   "comment": "Team Google or team Meta? 👇",
-   "thumb": "Google vs Meta: *who won?*",
-   "thumb_photo": "search engine laptop",
-   "thumb_tag": "VS",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-19",
-   "sources": [
-    "Yahoo Finance price history (split-adjusted), at render time"
+    "Adobe price history, Yahoo Finance (split-adjusted), at render time"
    ]
   },
   {
@@ -1370,6 +1209,52 @@
    ]
   },
   {
+   "file": "whatif_dis_1990.mp4",
+   "title": "$1,000 in Disney in 1990 is now worth this",
+   "caption": "In 1990, Disney was cartoons and theme parks.\n$1,000 in it then would be worth about $11,647 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Disney in 1990? 👇",
+   "thumb": "$1,000 in Disney 1990 = *$11,647*",
+   "thumb_photo": "theme park castle",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Disney price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_ko_1990.mp4",
+   "title": "$100 a month into Coca-Cola since 1990 is now worth this",
+   "caption": "$100 every month into Coca-Cola since 1990.\nToday that would be worth about $180,634 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Coca-Cola since 1990 = *$180,634*",
+   "thumb_photo": "soda bottles",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Coca-Cola price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
    "file": "vs_mcd_sbux_2010.mp4",
    "title": "McDonald's vs Starbucks: $1,000 in 2010, who wins?",
    "caption": "$1,000 in McDonald's or Starbucks in 2010?\nStarbucks: about $8,462\nMcDonald's: about $3,870\n(Price growth only, no dividends.)",
@@ -1393,6 +1278,52 @@
    ]
   },
   {
+   "file": "whatif_mcd_1990.mp4",
+   "title": "$1,000 in McDonald's in 1990 is now worth this",
+   "caption": "In 1990, McDonald's was selling burgers.\n$1,000 in it then would be worth about $27,868 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with McDonald's in 1990? 👇",
+   "thumb": "$1,000 in McDonald's 1990 = *$27,868*",
+   "thumb_photo": "burger fries",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "McDonald's price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_nvda_2010.mp4",
+   "title": "$100 a month into Nvidia since 2010 is now worth this",
+   "caption": "$100 every month into Nvidia since 2010.\nToday that would be worth about $4.4 million (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Nvidia since 2010 = *$4.4 million*",
+   "thumb_photo": "gaming pc",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-17",
+   "sources": [
+    "Nvidia price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
    "file": "vs_nflx_dis_2015.mp4",
    "title": "Netflix vs Disney: $1,000 in 2015, who wins?",
    "caption": "$1,000 in Netflix or Disney in 2015?\nNetflix: about $14,149\nDisney: about $1,180\n(Price growth only, no dividends.)",
@@ -1407,52 +1338,6 @@
    "comment": "Team Netflix or team Disney? 👇",
    "thumb": "Netflix vs Disney: *who won?*",
    "thumb_photo": "stock market",
-   "thumb_tag": "VS",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-19",
-   "sources": [
-    "Yahoo Finance price history (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "vs_nvda_amd_2016.mp4",
-   "title": "Nvidia vs AMD: $1,000 in 2016, who wins?",
-   "caption": "$1,000 in Nvidia or AMD in 2016?\nNvidia: about $264,603\nAMD: about $190,884\n(Price growth only, no dividends.)",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#finance",
-    "#versus",
-    "#nvidia"
-   ],
-   "comment": "Team Nvidia or team AMD? 👇",
-   "thumb": "Nvidia vs AMD: *who won?*",
-   "thumb_photo": "computer chip",
-   "thumb_tag": "VS",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-19",
-   "sources": [
-    "Yahoo Finance price history (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "vs_tsla_tm_2015.mp4",
-   "title": "Tesla vs Toyota: $1,000 in 2015, who wins?",
-   "caption": "$1,000 in Tesla or Toyota in 2015?\nTesla: about $24,262\nToyota: about $1,549\n(Price growth only, no dividends.)",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#finance",
-    "#versus",
-    "#tesla"
-   ],
-   "comment": "Team Tesla or team Toyota? 👇",
-   "thumb": "Tesla vs Toyota: *who won?*",
-   "thumb_photo": "electric car",
    "thumb_tag": "VS",
    "ai_voice": true,
    "voice": "elevenlabs",
@@ -1485,6 +1370,52 @@
    ]
   },
   {
+   "file": "monthly_amd_2016.mp4",
+   "title": "$100 a month into AMD since 2016 is now worth this",
+   "caption": "$100 every month into AMD since 2016.\nToday that would be worth about $317,296 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in AMD since 2016 = *$317,296*",
+   "thumb_photo": "computer processor",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "AMD price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_nvda_amd_2016.mp4",
+   "title": "Nvidia vs AMD: $1,000 in 2016, who wins?",
+   "caption": "$1,000 in Nvidia or AMD in 2016?\nNvidia: about $264,603\nAMD: about $190,884\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#nvidia"
+   ],
+   "comment": "Team Nvidia or team AMD? 👇",
+   "thumb": "Nvidia vs AMD: *who won?*",
+   "thumb_photo": "computer chip",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
    "file": "whatif_ko_1990.mp4",
    "title": "$1,000 in Coca-Cola in 1990 is now worth this",
    "caption": "In 1990, Coca-Cola was selling soda.\n$1,000 in it then would be worth about $19,262 today (price growth only, no dividends).",
@@ -1505,6 +1436,52 @@
    "made": "2026-10-19",
    "sources": [
     "Coca-Cola price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_dis_1990.mp4",
+   "title": "$100 a month into Disney since 1990 is now worth this",
+   "caption": "$100 every month into Disney since 1990.\nToday that would be worth about $167,294 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Disney since 1990 = *$167,294*",
+   "thumb_photo": "theme park castle",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Disney price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_tsla_tm_2015.mp4",
+   "title": "Tesla vs Toyota: $1,000 in 2015, who wins?",
+   "caption": "$1,000 in Tesla or Toyota in 2015?\nTesla: about $24,262\nToyota: about $1,549\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#tesla"
+   ],
+   "comment": "Team Tesla or team Toyota? 👇",
+   "thumb": "Tesla vs Toyota: *who won?*",
+   "thumb_photo": "electric car",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-19",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
    ]
   },
   {
@@ -1531,9 +1508,9 @@
    ]
   },
   {
-   "file": "monthly_aapl_2007.mp4",
-   "title": "$100 a month into Apple since 2007 is now worth this",
-   "caption": "$100 every month into Apple since 2007.\nToday that would be worth about $496,238 (price growth only, no dividends).",
+   "file": "monthly_mcd_1990.mp4",
+   "title": "$100 a month into McDonald's since 1990 is now worth this",
+   "caption": "$100 every month into McDonald's since 1990.\nToday that would be worth about $326,114 (price growth only, no dividends).",
    "tags": [
     "#investing",
     "#sip",
@@ -1543,60 +1520,14 @@
     "#habits"
    ],
    "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Apple since 2007 = *$496,238*",
-   "thumb_photo": "smartphone",
+   "thumb": "$100/month in McDonald's since 1990 = *$326,114*",
+   "thumb_photo": "burger fries",
    "thumb_tag": "MONTHLY HABIT",
    "ai_voice": true,
    "voice": "elevenlabs",
-   "made": "2026-10-26",
+   "made": "2026-10-19",
    "sources": [
-    "Apple price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "monthly_amzn_2008.mp4",
-   "title": "$100 a month into Amazon since 2008 is now worth this",
-   "caption": "$100 every month into Amazon since 2008.\nToday that would be worth about $351,966 (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Amazon since 2008 = *$351,966*",
-   "thumb_photo": "cardboard boxes",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-26",
-   "sources": [
-    "Amazon price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "monthly_ma_2006.mp4",
-   "title": "$100 a month into Mastercard since 2006 is now worth this",
-   "caption": "$100 every month into Mastercard since 2006.\nToday that would be worth about $363,030 (price growth only, no dividends).",
-   "tags": [
-    "#investing",
-    "#sip",
-    "#money",
-    "#stocks",
-    "#finance",
-    "#habits"
-   ],
-   "comment": "Could you put away $100 a month? 👇",
-   "thumb": "$100/month in Mastercard since 2006 = *$363,030*",
-   "thumb_photo": "card payment terminal",
-   "thumb_tag": "MONTHLY HABIT",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-26",
-   "sources": [
-    "Mastercard price history, Yahoo Finance (split-adjusted), at render time"
+    "McDonald's price history, Yahoo Finance (split-adjusted), at render time"
    ]
   },
   {
@@ -1613,29 +1544,6 @@
    ],
    "comment": "Team Costco or team Target? 👇",
    "thumb": "Costco vs Target: *who won?*",
-   "thumb_photo": "stock market",
-   "thumb_tag": "VS",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-26",
-   "sources": [
-    "Yahoo Finance price history (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "vs_nke_lulu_2012.mp4",
-   "title": "Nike vs Lululemon: $1,000 in 2012, who wins?",
-   "caption": "$1,000 in Nike or Lululemon in 2012?\nLululemon: about $2,105\nNike: about $1,541\n(Price growth only, no dividends.)",
-   "tags": [
-    "#investing",
-    "#stocks",
-    "#money",
-    "#finance",
-    "#versus",
-    "#nike"
-   ],
-   "comment": "Team Nike or team Lululemon? 👇",
-   "thumb": "Nike vs Lululemon: *who won?*",
    "thumb_photo": "stock market",
    "thumb_tag": "VS",
    "ai_voice": true,
@@ -1669,6 +1577,52 @@
    ]
   },
   {
+   "file": "monthly_aapl_2007.mp4",
+   "title": "$100 a month into Apple since 2007 is now worth this",
+   "caption": "$100 every month into Apple since 2007.\nToday that would be worth about $496,238 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Apple since 2007 = *$496,238*",
+   "thumb_photo": "smartphone",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-26",
+   "sources": [
+    "Apple price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "vs_nke_lulu_2012.mp4",
+   "title": "Nike vs Lululemon: $1,000 in 2012, who wins?",
+   "caption": "$1,000 in Nike or Lululemon in 2012?\nLululemon: about $2,105\nNike: about $1,541\n(Price growth only, no dividends.)",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#finance",
+    "#versus",
+    "#nike"
+   ],
+   "comment": "Team Nike or team Lululemon? 👇",
+   "thumb": "Nike vs Lululemon: *who won?*",
+   "thumb_photo": "stock market",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-26",
+   "sources": [
+    "Yahoo Finance price history (split-adjusted), at render time"
+   ]
+  },
+  {
    "file": "whatif_tsla_2013.mp4",
    "title": "$1,000 in Tesla in 2013 is now worth this",
    "caption": "In 2013, Tesla was a small electric car maker.\n$1,000 in it then would be worth about $157,899 today (price growth only, no dividends).",
@@ -1692,6 +1646,29 @@
    ]
   },
   {
+   "file": "monthly_amzn_2008.mp4",
+   "title": "$100 a month into Amazon since 2008 is now worth this",
+   "caption": "$100 every month into Amazon since 2008.\nToday that would be worth about $351,966 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Amazon since 2008 = *$351,966*",
+   "thumb_photo": "cardboard boxes",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-26",
+   "sources": [
+    "Amazon price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
    "file": "whatif_v_2008.mp4",
    "title": "$1,000 in Visa in 2008 is now worth this",
    "caption": "In 2008, Visa was listing in a crisis.\n$1,000 in it then would be worth about $28,879 today (price growth only, no dividends).",
@@ -1712,6 +1689,29 @@
    "made": "2026-10-26",
    "sources": [
     "Visa price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "monthly_ma_2006.mp4",
+   "title": "$100 a month into Mastercard since 2006 is now worth this",
+   "caption": "$100 every month into Mastercard since 2006.\nToday that would be worth about $363,030 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Mastercard since 2006 = *$363,030*",
+   "thumb_photo": "card payment terminal",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-26",
+   "sources": [
+    "Mastercard price history, Yahoo Finance (split-adjusted), at render time"
    ]
   }
  ]

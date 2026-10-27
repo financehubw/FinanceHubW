@@ -89,7 +89,8 @@ def lump(t):
         "scenes": [
             {"say": f"In {yr}, {name} was {then}.", "photo": photo, "clip": {"kicker": place, "year": yr, "text": f"{name}: {then}"}},
             {"say": "Say you put in one thousand dollars.", "photo": "dollar bills", "big": "$1,000", "sub": yr},
-            {"say": f"Today, it would be worth about {g}.", "photo": "stock market chart", "big": g, "sub": f"price growth since {yr}"},
+            {"say": f"Watch what it turns into. Today, it would be worth about {g}.",
+             "growth": {"tick": tick, "name": name, "start": start}},
             {"say": "Time in the market does the heavy lifting.", "photo": "hourglass", "big": "Time", "sub": "the real ingredient"},
         ]}
 
