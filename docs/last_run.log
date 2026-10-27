@@ -1,3 +1,144 @@
+=== run 2026-10-27T13:35:55Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 4
+106/171 sources returned news, 1173 recent items
+re-check of earlier post: 2 fail / 2 pass
+319 new trusted stories, posting up to 3 this run
+---
+🇮🇳 INDIA FUEL EXPORT REVENUE HITS $27.2 BILLION
+
+📌 India earned $27.2 billion from fuel exports in six months, up 50%.
+📊 Fuel exports: $27.2B (+50%)
+
+📍 India · 📰 Oilprice.com · ✅ 4 sources
+https://oilprice.com/Latest-Energy-News/World-News/Diesel-Drives-Indias-Fuel-Export-Windfall-as-Earnings-Reach-126-Billion.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers and percentage are directly confirmed by the Oilprice.com article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Oilprice.com article.
+  Groq Qwen: FAIL - The source states the 50% surge was in rupee terms, while the draft claims the $27.2 billion figure was 'up 50%', which is unsupported and contradicted by the distinction between currency values in th
+  -> blocked by fact-check
+---
+🇮🇳 DEUTSCHE BANK SEES RBI RATE RISING TO 6.25%
+
+📌 Deutsche Bank expects RBI to hike repo rate (key lending rate) to 6.25% by H1 2027.
+📊 Repo rate forecast: 6.25%
+
+📍 India · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/economy/rbi-may-hike-repo-rate-to-6-25-by-h1-2027-warns-deutsche-bank-as-inflation-risks-persist-11793098248493.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim of "3 sources" is not directly supported by the provided source list
+  -> blocked by fact-check
+---
+🌐 BITCOIN TRADES NEAR $79,000 AMID FED UNCERTAINTY
+
+📌 Bitcoin fell near $79,000 as selling pressure and US Fed uncertainty hit markets.
+📊 $BTC: ~$79,000
+#Bitcoin
+
+📍 Global · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-trades-near-79000-as-fed-rate-uncertainty-selling-pressure-weigh-on-crypto-markets/articleshow/135232578.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about Bitcoin near $79,000, Fed uncertainty, and selling pressure are directly confirmed by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the price, market drivers, and source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-9304154cf27e
+---
+🇬🇧 UK 5-YEAR BORROWING COST HITS HIGHEST SINCE 2008
+
+📌 Britain sold £4.5 billion of 5-year debt at a 5.036% rate.
+📊 UK 5-Yr Yield: 5.036%
+💡 Higher yields (rates) mean the government pays more to borrow money.
+
+📍 UK · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/markets/bonds/uk-bonds-britain-issues-costliest-5-year-debt-since-2008-before-budget/articleshow/135232907.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the Economic Times source.
+  Groq GPT-OSS 20B: FAIL - The claim that only 2 sources were used is unsupported, as three sources are listed.
+  -> blocked by fact-check
+---
+🌐 BITCOIN DROPS BELOW $80,000 AS FED MEETS
+
+📌 Bitcoin fell below $80,000 as central bank leaders start their policy meeting.
+📊 $BTC: Below $80,000
+
+📍 Global · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 3 sources
+https://www.coindesk.com/markets/2026/10/27/bitcoin-drops-below-usd80-000-as-crypto-ignores-asian-tech-rally-fed-meeting-begins
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about Bitcoin falling below $80,000 and the Fed meeting are directly supported by the CoinDesk article.
+  Groq GPT-OSS 20B: FAIL - The claim of "✅ 3 sources" is not supported by the listed sources.
+  -> blocked by fact-check
+---
+🇺🇸 GM MOVES TO NASDAQ AFTER 115 YEARS ON NYSE
+
+📌 General Motors is moving its stock listing to Nasdaq after 115 years on the NYSE.
+📊 $GM on NYSE: 115 years
+#Nasdaq
+
+📍 US · 📰 Tribune · ✅ 8 sources
+https://news.google.com/rss/articles/CBMi-gFBVV95cUxNUmQtaXpmRFV4ZDdkb19NNS03eUhxRVZUcnNzbHRVdjFLWWYxRjdjd0N6dEtNUHdqdkVlb1c2bVRuYmdweWowNkt4SGR6WUVFVkUxd0xieXpVV2pLQmtVVUtVTWxMUVZPalR6UV8zVk5VTl80ekRiZjRUcHQ1Qk1KS1NuUFk5eGUwcW9lNy1VMjBsbWFMdHlvNUhfelBIUjhVT2t2SnJsTkltM3l3QUljVFdQYnpjbEdabUpyN1BjaTloQUZkQ0xuZUFZbFV6cGhaOHhJdElHZWo4M1lwWEhiMW43d2gwMHM5U2dER3lxYk1nR0hocFpLcXVB?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (GM moving to Nasdaq after 115 years on NYSE) are directly supported by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The claim that General Motors is moving its listing to Nasdaq after 115 years on the NYSE is not supported by reliable evidence; GM remains listed on the NYSE.
+  -> blocked by fact-check
+---
+🇺🇸 US FUTURES POINT TO HIGHER OPEN
+
+📌 US stock futures pointed higher ahead of the central bank's rate meeting.
+💡 Central bank interest rate decisions affect borrowing costs for loans.
+#Fed
+
+📍 US · 📰 NDTV Profit · ✅ 2 sources
+https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0k2NDB5VVRWVzhDMEROOWpnMTIxeHJoLWdzMDg3MHE0NGhxbHVWaGhLWDRINmgtb0c2b0xzRGtjTXktNTBFeHBvQUdxR19XUHFhcVFrUHdtYnRmeE9EeS0zUmFTZ1RrQlJnaThFWndFX09mXzczYXEtMGNHckNHNkJNQk9zcTVTMWVPNm1kQmQ3dDBodjY2c2F5U3R5LVFsVFFQRVRlWTlsZTBwcklySTkxNGJZSVpHSUZHZjJiVnFvNTd0VUpYblNiajdJd9IB1gFBVV95cUxQeDlhOTl6ZjdyZGZubmZHZUVuSFQ2RzJwTkVJUnc0dGlGcDctUDkwVE9kQkgzNmg1ZTlLQWxfS0dEUUwwOWhDbkd5YmtSdk84ZmR4UGtCSkdLSUhJM1NkMGt4VElueVp1UVhFXzJkOE5pTFY3VkZOZVE3LXA2U3V4NzZvNU9hMWtETGhZSW9VbXVqd3p5UHpxRndjV0pqcVQ4WXZ6cU9aYnotclluNU00dm5rdHpLaEtqNWZNSDdUNk1neGJKT2I0SDdjbjNhb1AxYjlDSnlB?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims are directly supported by the cited NDTV Profit and Upstox articles.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding US futures pointing higher ahead of the Fed meeting are supported by the sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-43b9139e6689
+---
+🇺🇸 US FUTURES RISE AS FED BEGINS POLICY MEETING
+
+📌 US and Canadian stock futures rose as central banks prepare for policy meetings.
+💡 Central bank decisions often affect borrowing costs and loan interest rates.
+
+📍 US · 📰 Yahoo Finance · ✅ 3 sources
+https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUhLSFh6VWFRSGE1TEZ0djZJbWJjS0N0c2hoV3dUU0hEY1k4LUJPRFhDUVRPV08wMnJLUHc2akdwMnZYUUdURGVlUDlhYk0xVnA2bGx1N2lwRmlEanFMd3hsazNwR2VkeVBmYXQ2QmJWU2JVNGt1VHJGTk1xTm5MYzRiM2tROG1EVW5NekdpYjZ3Ym94TFpDVVN3?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim about Canadian futures rising is sourced to TradingView, but the post lists only Yahoo Finance as the source, causing a source mismatch.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS CLOSE NEARLY FLAT
+
+📌 The Nifty 50 slipped 0.02% and the Sensex fell 8 points on Tuesday.
+📊 Nifty 50: -0.02%
+💡 Flat markets mean overall stock prices changed very little.
+#Nifty
+
+📍 India · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-bharti-airtel-tata-consumer-asian-paints-coal-india-top-gainers-and-losers-on-nifty-and-sensex-on-tuesday/articleshow/135234189.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and descriptive claims are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 2 sources, but three sources are listed.
+  -> blocked by fact-check
+---
+🇺🇸 US STOCK FUTURES RISE AS OIL PRICES DROP
+
+📌 US stocks were set to open higher as oil prices fell before the Fed decision.
+💡 Lower oil prices can help reduce inflation.
+#Fed
+
+📍 US · 📰 Yahoo Finance · ✅ 4 sources
+https://news.google.com/rss/articles/CBMilgFBVV95cUxOVWlmNzdaV1NSRVcwVDNNUnlTVXRmVGJFTHl1SVZBRE5BakVDbFZJNDEzUERodHJFT3J0aXlLc0pvZWxuU0NNcVYwa2dnUXQ3OHVBWVY1MmJ2WmxRaEdJSmt1dWdpMENPWGl3NHp5aU9rRko5NVFEVXN0XzZWVXN2bjNMNXdUVTZkbWhKemJtWWJPaTdaN3c?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about futures rising, oil falling, and higher opening are confirmed by the cited sources, and the general note on inflation is accurate.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding US stock futures rising and oil prices falling ahead of the Fed decision are directly supported by the provided sources, and the location and source attribution are correc
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims match the sources, the US location and Yahoo Finance attribution are correct, and the 💡 line is a general explanation rather than a specific prediction.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-36bb321093ff
+done: 3 post(s) this run
 === run 2026-10-27T11:18:33Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1357,144 +1498,3 @@ published to: website, Instagram Story
 https://www.livemint.com/market/ipo/jio-has-record-ipo-fully-subscribed-within-hours-11792562581882.html
   written by Gemini
   Groq GPT-OSS: PASS - All numbers, figures, and statements are directly supported by the cited Mint article and other sources.
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: FAIL - The source states the IPO was 'oversubscribed' (bids exceeded shares), whereas the draft claims it was 'fully subscribed' and 'sold out', which is a factual contradiction regarding the status of the s
-  -> blocked by fact-check
----
-🌍 OIL PRICES RISE ABOVE $110
-
-📌 Oil prices jumped past $110 a barrel due to supply fears in the Middle East.
-📊 Brent crude: $110.30 (+1%)
-
-📍 Middle East · 📰 Oilprice.com · ✅ 14 sources
-https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-Above-110-as-Middle-East-Supply-Fears-Persist.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim of "✅ 14 sources" is not supported by the listed sources
-  -> blocked by fact-check
----
-🌐 BITCOIN RISES WHILE OTHER COINS MIXED
-
-📌 Bitcoin prices went up while Ethereum and other coins showed mixed results.
-📊 $BTC
-#Crypto
-
-📍 Global · 📰 TradingPedia · ✅ 2 sources
-https://news.google.com/rss/articles/CBMilgFBVV95cUxQWEJJenVKRHljYTVsQk9Oc013d09QelV4Qks0OXhBRmgyNmR0MC1SM081WWFtRUhkcTExbXlTa1BLTURmZTRQamdEbzl2VTMtYUtDMTlJNV9EUlRRc0NqMEVqR3JLRTNnVGhtUzBLV1lLeFUtZzZzbmRTT0JlUEhMYUJvemZoNnhpSzMyS1o1MnZxanc1d3c?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about Bitcoin rising and other coins mixed are directly supported by the cited TradingPedia and Coin Gabbar articles.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: FAIL - The post claims Ethereum showed 'mixed results' and 'stabilize' (implied by context of mixed), but the source explicitly states Ethereum 'Bleed' (fell), which contradicts the claim of mixed/stable per
-  -> blocked by fact-check
----
-🇮🇩 INDONESIA HOLDS MAIN INTEREST RATE
-
-📌 Indonesia kept its main interest rate at 5.75 percent and raised the deposit facility rate.
-📊 BI rate: 5.75%
-📊 Deposit rate: 5.00%
-#Indonesia
-
-📍 Indonesia · 📰 Newsquawk · ✅ 8 sources
-https://news.google.com/rss/articles/CBMimwFBVV95cUxOelh6MzMzNVp3cDRzTXBJWVJuTzBFamdsTm95UUJfb0dyTjU5Sm9KeW56VVgtWndUVjZSV0ozM1Bzd1ZhWFhYQmxuLXlDaUhhMV9velJKVE9seG1xa1RPNjhFSkRvMkNOSk5zMFJ3RlBoeXNNWHl5MTBhLXFUZ0h5UEdab0d4cmZOVjRtVFI2M29BdHVxNkRraExkcw?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim of "✅ 8 sources" is not supported by the listed six sources
-  -> blocked by fact-check
-skip (off-topic or nothing new): Stock Market Crash: Key factors behind the steep Sensex, Nifty sell-off on Wednesday
----
-🇮🇳 SENSEX AND NIFTY FALL SHARPLY
-
-📌 Indian stock markets drop 1.8 percent from their highest point of the day.
-📊 Sensex: -1,400 pts
-
-📍 India · 📰 NDTV Profit · ✅ 3 sources
-https://news.google.com/rss/articles/CBMizwFBVV95cUxOeFhtMkVzRk4wakdsalQ5dHlUYW0tbjhrbTQ3ZEtGOTNmVnpuVHNIcEM3T0NobTZNWDQxZGFNOXp1N3JXWWtWUUlleC1iY0dLOFRqSjRhS3NKM3JEMHlrS0V5Si1lM3Q5Y2pCa245NHZFN3kxdkgzemVmWTBoQXdydVdac3NQd3VrNTlYOXNzMWVZckJXY0VNa1lfdUxyYm0zWXlxUDFjcnljRWJmVnhpWEJRb2JNYzlXOEpPQlp3My12SUJDejE5X09zblRUb1nSAdcBQVVfeXFMTU94cW1tTTBSOHVmdm9TNkhUeW1iQ1M3a3BzTXJnM0ljdlg0NklZeElKR0lBVnVOaW5Eb3IxRm9NZ2poTEZwZ080aVJ4VFZVejhMbUVIQUhadXNqSllhYTV0Y2pCNmE3YU1reXBSSlBFZWV1ZlltdVBhYVdib2F4ZFg0NERZaDJFSy1zR3ZYckRkNkRPcXVZeThkUDZMaEZzdWN3UUJxX3NaenJROWRnQ2lUQ3N5NW9DeWZkUVVtVnhadllGYVRyMkRDdXF0RmhFQjQyTzlPNGc?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim of a 1,400‑point Sensex drop is not supported by the cited NDTV Profit source, which reports a 1,200‑point fall.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Market's Early Rally Fizzles Out As Banking, Financial Stocks Weigh On Benchmarks
-skip (off-topic or nothing new): U.S. stock futures rise as SpaceX surges on upbeat earnings
-done: 1 post(s) this run
-=== run 2026-10-21T07:28:51Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 4
-102/171 sources returned news, 1193 recent items
-231 new trusted stories, posting up to 3 this run
----
-🇮🇳 INDIAN MARKETS RALLY AS NIFTY CROSSES 23,000
-
-📌 Indian stock markets rose about 1% today, pushing the Nifty index past 23,000.
-📊 $NIFTY: Above 23,000 (+1%)
-
-📍 India · 📰 Economic Times · ✅ 6 sources
-https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-rising-today-sensex-jumps-700-points-nifty-above-23000-3-key-factors-behind-d-street-rebound/articleshow/135081731.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (1% rise, Nifty >23,000, location, source) are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 6 sources, but only five unique relevant sources are listed, making the source count claim unsupported.
-  -> blocked by fact-check
----
-🇮🇳 INDIAN RUPEE HITS SIX-WEEK HIGH AGAINST US DOLLAR
-
-📌 The rupee gained 29 paise to 94.62 per US dollar on IPO inflows and RBI support.
-📊 USD/INR: 94.62 (+29 paise)
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 8 sources
-https://www.thehindubusinessline.com/markets/forex/rupee-may-rise-on-jio-platforms-ipo-inflows-rbi-support-oil-prices-pose-risk/article71606139.ece
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source name (📰) listed does not match the actual source (The Hindu Business Line) cited in the link
-  -> blocked by fact-check
----
-🇮🇳 INDIAN BOND YIELDS HIT HIGHEST SINCE MARCH
-
-📌 Indian bond yields (govt borrowing costs) rose to 7.43% on rising oil prices.
-📊 Benchmark Yield: 7.43%
-
-📍 India · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/markets/bonds/indian-bonds-sell-off-on-oil-shock-ahead-of-rbi-policy-minutes/articleshow/135082397.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All yield figures, highest‑since‑March claim, and oil‑price link are directly supported by the cited sources
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the yield level (7.43%), the cause (rising oil prices), the trend (highest since March), and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-8b4b57885b90
----
-🇬🇧 UK INFLATION RISES TO 3.5% IN SEPTEMBER
-
-📌 UK inflation jumped to 3.5% in September as fuel prices increased.
-📊 UK Inflation: 3.5%
-
-📍 UK · 📰 Yahoo Finance Australia · ✅ 5 sources
-https://news.google.com/rss/articles/CBMif0FVX3lxTE9tRV95ZUkzN3ptcXJ4c19fSGdxVk16SGtpRExNX09KaHRCWW5BMGR1MGJvaFZ1SjVINnczLU5xeUgtTFRsLXkwbHEzai1kcmV4Y2swcUUzeGRQY2JESVNnSHZRQ2Noam1ucnlMd3QxTm1xelRKR1poNjJwMjRWN3c?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about 3.5% September UK inflation and fuel price impact are directly supported by the listed sources
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the inflation rate (3.5%), the time period (September), the cause (fuel prices), and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-a28c4935d429
----
-🇬🇧 UK INFLATION JUMPS TO 3.5%
-
-📌 UK inflation (price rises) jumped to 3.5% in September, driven by fuel costs.
-📊 UK Inflation: 3.5%
-💡 Higher inflation usually leads to higher interest rates on loans.
-#Inflation
-
-📍 UK · 📰 CNBC · ✅ 6 sources
-https://news.google.com/rss/articles/CBMid0FVX3lxTE9BMFE1c0o5clpFOWdSQzVWX1VBSDVFcmpXSmptNDRoVGdNUEVkYWdRZW54T1VLOWJ3aU1IeHlGMURjdHE4VzZ3YWdHdzUwekFiWlV2ODk1NVJqX1RfYzVjV3VQQXBWVFhRaUVJNnhfUGxMSFUxUWZn0gF8QVVfeXFMUGd4V2l3bVF1Z09FdlBiMG5lbUNMTWJvWjg2UHdWMjhPUEhPNjNVUGtVc3ZtNFlDVGtCOUFzRjNKWW5iUWV6X1BpLVBLNVcxazRFcTV5OWgyQ1BBVUFBaG1CdFFTdjZpRGU1ZzdvbUx3d09GZjBjNEpGcXQtQw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the listed sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the inflation rate (3.5%), timing (September), driver (fuel costs), and location (UK) are directly supported by the provided sources, and the source attribution matches.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-cd39bd1ac7b2
-done: 3 post(s) this run
-=== run 2026-10-21T05:04:48Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-21T03:03:47Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-21T01:15:07Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
