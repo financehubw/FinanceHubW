@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "EUROPE",
+   "text": "London banks face a 6% tax surcharge starting in January to fund a £100 energy payment."
+  },
+  {
+   "name": "MIDDLE EAST",
+   "text": "The shekel fell about 2% against the U.S. dollar."
+  },
+  {
+   "name": "ASIA-PACIFIC",
+   "text": "The country's dollar fell."
+  }
+ ],
+ "story_ids": [
+  4,
+  19,
+  16,
+  25,
+  22,
+  12,
+  27
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 4,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 19,
+   "free_checkers": "Groq GPT-OSS: FAIL - The sources do not support John Healey being the chancellor or a £5 bn total spending figure."
+  },
+  {
+   "slot": "biz",
+   "story": 16,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 25,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 22,
+   "free_checkers": "Groq GPT-OSS: FAIL - Sources conflict on the surcharge rate (Guardian reports a 3% rise, not 6%)"
+  },
+  {
+   "slot": "r2",
+   "story": 12,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 27,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "The US interest rate",
+ "cover_dek": "The central bank meets for its final decision before the midterm elections.",
+ "big_headline": "The US Federal Reserve is expected to leave interest rates unchanged on Wednesday.",
+ "big_body": "This meeting is the last rate-setting decision before the midterm elections. Rates sit at one of the highest pre-election levels in over 20 years.",
+ "big_stat": "2%",
+ "big_stat_l1": "Inflation has hovered",
+ "big_stat_l2": "above this target rate",
+ "pol_headline": "Budget 2026 plans",
+ "pol_body": "John Healey is announcing his financial update as the chancellor sets out the government's tax and spending plans in his first Budget.",
+ "pol_stat": "£5bn",
+ "pol_stat_l1": "the government",
+ "pol_stat_l2": "spending plans total",
+ "biz_headline": "Jio soars after its market entry",
+ "biz_body": "Jio Platforms shares ended their first trading session with gains. The company had a large initial public offering.",
+ "biz_stats": [
+  {
+   "value": "+27%",
+   "name": "Jio Platforms",
+   "note": "listing gains"
+  },
+  {
+   "value": "$3.2bn",
+   "name": "Jio Platforms",
+   "note": "record IPO size"
+  }
+ ],
+ "up_headline": "Wednesday: Oil prices climb",
+ "up_body": "Brent oil futures traded at $115.70 per barrel, up 1.62%, after attacks on Saudi Arabia reignited supply fears.",
+ "cover_photo": "pumpjack",
+ "big_photo": "fed",
+ "pol_photo": "boe",
+ "biz_photo": "rocket",
+ "up_photo": "tradingfloor",
+ "sources_used": [
+  "BBC News",
+  "Bol News",
+  "City AM",
+  "Economic Times",
+  "Fana News",
+  "Finimize",
+  "Gulf Business",
+  "International: Top News And Analysis"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "+0.2%",
+    "color": "#0B6B3A",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,737."
+   },
+   {
+    "chg": "−0.3%",
+    "color": "#B4280E",
+    "text": "<strong>Gold</strong> fell to about $4,064 an ounce."
+   },
+   {
+    "chg": "−0.1%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $80,696."
+   }
+  ]
+ },
+ "status": "draft"
+}
