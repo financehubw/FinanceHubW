@@ -1,3 +1,10 @@
+=== run 2026-10-28T21:17:01Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+94/171 sources returned news, 867 recent items
+re-check of earlier post: 4 fail / 0 pass
+239 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-28T19:31:26Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1491,10 +1498,3 @@ daily cap: 12, room left in the last 24h: 3
 209 new trusted stories, posting up to 1 this run
 ---
 🇺🇸 US TECH STOCKS TUMBLE ON AI CONCERNS
-
-📌 The Nasdaq slid 2.5% and the S&P 500 fell 1% as worries grew over massive AI spending.
-📊 Nasdaq: -2.5%
-
-📍 US · 📰 Economic Times · ✅ 7 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-slumps-2-5-sp-1-as-revived-ai-doubts-ignite-tech-selloff/articleshow/135127224.cms
-  written by Gemini
