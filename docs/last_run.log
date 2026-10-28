@@ -1,3 +1,7 @@
+=== run 2026-10-28T11:14:41Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-28T09:20:27Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://www.livemint.com/market/canadian-dollar-holds-near-four-week-high-as-inv
 https://news.google.com/rss/articles/CBMiygFBVV95cUxOZllRQk9lRlNOaUVWUXpJTFVXSWpzemR0MmFwUU80RnNTM1EyQk53WXlIN01XLWljdXlibUhpdVJ0Q2VVOGJlRFA2RDhFNjVKaXFOZ3hUdzJBUlNmeTc4QmxrazhkNThkZkFPbFhBcUZkbURkVl94c0dYdUk0c2NHZk9qM1pzeGZyRTNFZno2SEl3TFduQ1RfUW1NREE1YnEzbDVrWEdtMndINi1OdFdZU0V1d3FqTzZQaHA1QlRkU1VaSmlOTnhkMTRn0gHPAUFVX3lxTE02NTRyczVweWRjX1J6OXNMWGxndVRTMVU1d3lYMWVfRk5NalFjQXpacEJFeTZZYXRrbmxtRGtlUkoyYkM4bEpPRV9qOEs4dDN2dG1YUFNaVUc5eVJhOEpoX3NkcWFlVklTQ3Mxb1hXZlZFRTZTakNoQzNXN2FHbGF0bTNZRnBFVlZnLTVwWndRQWs4SXV2eEtmNW5iem44cTFoNXlhNHU4MmR4S1VhNVVKMFFOc1F3Yl9NeUJwM2lzWkdPY2o4Q25xTHpDV0dUYw?oc=5
   written by Gemini
   Groq GPT-OSS: PASS - All statements are directly supported by the Business Standard article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - The post accurately reflects the source headline regarding the IMF urging exchange rate flexibility in India, and the general explanation provided is correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-d0a941fda4ed
