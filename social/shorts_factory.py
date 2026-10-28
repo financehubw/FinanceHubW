@@ -680,8 +680,8 @@ def render(script_path: Path) -> dict:
         bases = [scene_image(s["scene"], vid + str(i)) for i, s in enumerate(timeline)]
         vtmp = td / "v.mp4"
         p = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
-                              "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium",
-                              "-crf", "20", "-pix_fmt", "yuv420p", str(vtmp)], stdin=subprocess.PIPE)
+                              "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "slow",
+                              "-crf", "22", "-pix_fmt", "yuv420p", str(vtmp)], stdin=subprocess.PIPE)
         n = int(total * FPS)
         for k in range(n):
             t = k / FPS
