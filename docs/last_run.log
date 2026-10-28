@@ -1,3 +1,108 @@
+=== run 2026-10-28T19:31:26Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+97/171 sources returned news, 1028 recent items
+re-check of earlier post: 5 fail / 0 pass
+264 new trusted stories, posting up to 3 this run
+---
+🇺🇸 🔄 UPDATE: BREAKING: US FED HOLDS INTEREST RATES STEADY
+
+📌 The U.S. central bank kept interest rates unchanged due to high inflation.
+
+📍 US · 📰 Economic Times · ✅ 13 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/fed-rate-us-federal-reserve-holds-interest-rates-steady-as-stubborn-inflation-puts-future-rate-hikes-in-focus/articleshow/135275622.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "13 sources" but only six sources are listed, which is unsupported.
+  -> blocked by fact-check
+skip (off-topic or nothing new): How can US Fed FOMC meeting outcome impact Indian stock market? Sensex, Nifty to rise? Experts decode
+---
+🌐 GLOBAL STOCKS HOLD GAINS AFTER FED DECISION
+
+📌 World stock markets kept their price gains and oil prices jumped after a U.S. central bank decision.
+
+📍 Global · 📰 JournalArta · ✅ 6 sources
+https://news.google.com/rss/articles/CBMieEFVX3lxTE12MlVpR01lQUQ5M1ZKY29tMktyRWhfRmxGcUlRWTJlaDNlRmMxbUIxakxCS19MUlZBTE04ejF5bjFFUVUtS1RDTFpoX29VLVphOGRLN19jbmRaZWw3VENhUk9UcTZuUFVCOWVUc091aTZkSlVodDJvZA?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about global stocks holding gains and oil prices jumping after the Fed decision are directly supported by the cited source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
+  Groq Qwen: PASS - The factual claims regarding global stocks holding gains and oil prices jumping after the Fed decision are directly supported by multiple sources, and the location and source attribution match the pro
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-caebe537f3d2
+---
+🇺🇸 FED HOLDS INTEREST RATES STEADY
+
+📌 US central bank keeps its key interest rate unchanged, while two officials wanted a hike.
+📊 $BTC: Steady
+💡 Keeping rates steady usually keeps borrowing costs from rising further.
+
+📍 US · 📰 Mint · ✅ 5 sources
+https://www.livemint.com/market/wall-street-mostly-rises-as-fed-holds-key-rate-steady-deferring-next-likely-hike-to-december-11793213973901.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the sources.
+  Groq Qwen: PASS - All factual claims regarding the Fed's decision, the 10-2 vote, the specific officials favoring a hike, and the steady Bitcoin price are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-14f676bb3217
+---
+🇺🇸 FED HOLDS RATES AND PLANS FEWER MEETINGS
+
+📌 The US central bank kept interest rates steady and plans to reduce its policy meetings.
+💡 Interest rates affect the cost of borrowing money for homes and cars.
+#Fed
+
+📍 US · 📰 CNBC · ✅ 3 sources
+https://news.google.com/rss/articles/CBMinAFBVV95cUxPbEVyM1lDY2RtTmtlRktDOHBrVzR3bGtFajBVSWZLc0xnNUFrbGRwYjR2allBWllLQlZtWlZZeVB2RnlOTGFCX3dINGF4d3d4OVZEWVRYUG1DNXJ2bG5oZFpRS0ZlTm9WQ1kxX1Ribm5KOURXUURBS1JfTUFERVZrS2tsWWlkQmNQUUVWZXJFZ29VZV9nQzJ1dVN5TEXSAaIBQVVfeXFMUHk1Nl9IWTFPaWtFSmJIUXVLVFlFa0NGR3J3WmE3VHhfMVpTZW80MEhDaTQtRmVjRWFSZWFxM2ZXUjRBSWtRV0JSZkRTeDhpUkFFRnlWSk80T0N0UFMwMmVfeUszVjJrOUkxNGhRTDMwbHJXcDN5cG1LajcwNTlxemNubkRFZTk3Q1dmLVhVdE5aSHI2X1kzMUp0dW5qQjJPQnN3?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources
+  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
+  Groq Qwen: FAIL - The draft attributes the plan to reduce meetings to the central bank generally, while the source explicitly attributes this statement to Chairman Warsh, and the draft omits the specific context that t
+  -> blocked by fact-check
+---
+🌐 GOLD HOVERS NEAR $4,000
+
+📌 Gold prices trade near $4,000 as oil stays above $100 and traders watch the US central bank.
+📊 Gold: $4,000
+💡 Higher oil prices often push up the general cost of living.
+#Gold
+
+📍 Global · 📰 Bloomberg.com · ✅ 2 sources
+https://news.google.com/rss/articles/CBMirwFBVV95cUxOWUt1anRfa2s0VVI2NXlTQlJWaE5weVJJNlhlRWxZMzA4LTVRelVZU3ZRRzBYMXgxdEI1UjVBRE9GbmJROXdIS08tbE9OQ24tVFhDZjRvTEFPLWRNUHV1RzdhWEVpSWhXbGp5UUw3SVhJTk9UYmNLS0lvSXdVbjBETjFCY2pycF9HaDlSY2I0b2FHdlVKc0RIcEpVUUw2ZlhEbExwa3FrY20tcDY5dlNF?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All price, oil, and Fed references are confirmed by the Bloomberg and FXStreet articles, and the general cost‑of‑living note is accurate.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources
+  Groq Qwen: FAIL - The post claims gold 'hovers' or 'trades near' $4,000, but the sources explicitly state gold 'slips toward' $4,000, indicating a downward movement rather than stability.
+  -> blocked by fact-check
+---
+🇪🇺 EUROPEAN STOCKS HOLD STEADY
+
+📌 Europe's main stock index stayed flat due to company earnings and oil prices.
+📊 STOXX 600
+#Europe
+
+📍 Europe · 📰 Reuters · ✅ 5 sources
+https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcXE1bGx1U0l2OThtWFF4WlFvUVJVWkoydE5FWkpXeHRpVVkyRUJfNHBIbDdzQm9BLWV6UjhiX0NPNFkxSGpNMTNhcHprSWZPX1duOW44emJjVTVYMGNDMkE0dVJReHBieVZtenBSMjZISHFZb2hZMmt3ekJiMXlmTTV2cjVtbVpoZXhfVVVXeWpDcnVlUU95d21SYjNKSGE4eUZqZU03MUc3dEYyYXU3MEJwaGJZOTdR?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the STOXX 600 being flat/subdued due to earnings and oil prices are directly supported by the Reuters source.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: FAIL - The post claims the index 'stayed flat' and 'held steady,' which contradicts the source headline stating it was 'subdued' and weighed down by earnings and oil prices, implying a negative or weak perfo
+  -> blocked by fact-check
+skip (off-topic or nothing new): US Fed meeting outcome news: FOMC decides no rate hike - Details
+---
+🇪🇺 EUROPE BANKS REPORT RECORD RETAIL FUNDING DROP
+
+📌 Euro-area banks report record deterioration in retail-funding access.
+💡 Harder funding usually makes loans costlier for everyday people.
+#Crypto
+
+📍 Europe · 📰 CryptoSlate · ✅ 2 sources
+https://cryptoslate.com/euro-area-banks-report-record-deterioration-in-retail-funding-access/
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited CryptoSlate source.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited CryptoSlate article and the general explanation is accurate.
+  Groq Qwen: PASS - The factual claims regarding the record deterioration in retail funding access for Euro-area banks are directly supported by the provided sources, and the general explanation in the 💡 line is accurate
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d58c289d1c91
+done: 3 post(s) this run
 === run 2026-10-28T17:30:11Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1393,108 +1498,3 @@ daily cap: 12, room left in the last 24h: 3
 📍 US · 📰 Economic Times · ✅ 7 sources
 https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-nasdaq-slumps-2-5-sp-1-as-revived-ai-doubts-ignite-tech-selloff/articleshow/135127224.cms
   written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 7 sources" but only six sources are listed, making the source count unsupported.
-  -> blocked by fact-check
----
-🇺🇸 CRYPTO GROUP ASKS U.S. CONGRESS FOR TAX RULES
-
-📌 The Blockchain Association is pushing lawmakers to fix unclear crypto tax rules.
-💡 Clear tax rules help people and businesses know what to pay on digital coins.
-
-📍 US · 📰 The Block · ✅ 5 sources
-https://www.theblock.co/news/regulation/2026-10-22-blockchain-association-pushes-crypto-tax-clarity-broader-bill-stalls-423475
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the listed sources
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the Blockchain Association's request to the U.S. Congress for tax clarity are supported by the sources, and the metadata matches.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-725d203a46e9
-done: 1 post(s) this run
-=== run 2026-10-22T19:12:21Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
-96/171 sources returned news, 940 recent items
-225 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-22T17:07:45Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
-100/171 sources returned news, 1071 recent items
-248 new trusted stories, posting up to 1 this run
----
-🇺🇸 🔄 UPDATE: US STOCKS SLIP AS S&P 500 FALLS 1.25%
-
-📌 The S&P 500 fell 1.25% and the Dow lost 200 points, reversing earlier market gains.
-📊 S&P 500: -1.25%
-
-📍 US · 📰 FOREX.com · ✅ 2 sources
-https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUWdWTkMtQzE3dk9HNk4xaV90Y29SeE92azJWRDk4V2FPMUt4N0I1UjBaeHNDUmwwb1I1Q1pHQmx6MkJaUXRENFVfdEU0cHZQUlhTaGJXWDVpLVpIY0U0V1pyRVEyN0NySFZKeTNya1VDbGpwMjlxalkySUdXRHlyN1FJOEhlanZsOFhHcWZKOXVzYnk2X2NqOTJELW1OVDBIX2JaeU9DNG91dktEUk1DdmZ0QldRNjU0clRZ0gG7AUFVX3lxTFBRZ1ZOQy1DMTd2T0c2TjFpX3Rjb1J4T3ZrMlZEOThXYU8xS3g3QjVSMFp4c0NSbDBvUjVDWkdCbHoyQlpRdEQ0VV90RTRwdlBSWFNoYldYNWktWkhjRTRXWnJFUTI3Q3JIVkp5M3JrVUNsanAyOXFqWTJJR1dEeXI3UUk4SGVqdmw4WEdxZko5dXNieTZfY2o5MkQtbU5UMEhfYlp5T0M0b3V2S0RSTUN2ZnRCV1E2NTRyVFk?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (S&P 500 down 1.25%, Dow down 200 points, US location) are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The post lists only one source (FOREX.com) but claims two sources and omits The Sunday Guardian, violating source consistency.
-  -> blocked by fact-check
----
-🌐 BITCOIN FALLS TOWARDS $81,000 AS OIL TOPS $110
-
-📌 Bitcoin dropped toward $81,000 as oil prices rose above $110.
-📊 $BTC: $81,000
-💡 Higher interest rates usually make borrowing costlier.
-#Bitcoin
-
-📍 Global · 📰 Bitcoin Magazine · ✅ 2 sources
-https://bitcoinmagazine.com/markets/bitcoin-slides-towards-81000
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about Bitcoin price, oil level, source attribution, and the general interest‑rate effect are directly supported by the cited article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited Bitcoin Magazine article.
-  Groq Qwen: PASS - All factual claims regarding Bitcoin's price movement towards $81,000 and oil prices topping $110 are directly supported by the source headlines, and the source attribution matches.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-821da6c4ed92
-done: 1 post(s) this run
-=== run 2026-10-22T15:08:51Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-22T13:29:45Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-101/171 sources returned news, 1181 recent items
-276 new trusted stories, posting up to 3 this run
----
-🇺🇸 US STOCKS FALL AS OIL PRICES CLIMB
-
-📌 US stock futures dropped while oil prices rose as investors weighed big tech earnings.
-💡 Rising oil prices can lead to higher fuel and transportation costs.
-#Stocks
-
-📍 US · 📰 Yahoo Finance · ✅ 8 sources
-https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN25FM2VQb2hlbTFoTl9SQmp3QzhBdnhER0NValF0Wm9Fdml5M2taT2NGQldFeFE5ZXRLbDBVZU5yOE9WdDdxRFVQZ3Q3LVNxbkRyUC01OWJ3eHREZ3RnZE1YR2dsQm9taFpsT3NlWkl3WTBNaGppRi1ZRmdxaUdEX2d2VWhPR19IZUN0TTdfVzBFNm8yZ0wzVFRDZUgzbnpTd0ZhVy1zcmZjRGlYZ2NmdGJFNTFydDFzLUZNYVBXNXFDUQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims “✅ 8 sources” but the listed sources total fewer than eight.
-  -> blocked by fact-check
----
-🇺🇸 NASDAQ FUTURES TUMBLE OVER 500 POINTS
-
-📌 Nasdaq futures dropped over 500 points and Dow futures fell 200 points before the open.
-📊 Nasdaq futures: down over 500 pts
-
-📍 US · 📰 Invezz · ✅ 4 sources
-https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVGY0SGpnSmxTOUdMV213Ulh4dlVSaUNqSFhZMjN3ZjR6U3kyd3ROcE1vQ0otT1prOWNINVBlWkF0VDBaaEozVThXMlBGQjYxd3prdnM1dmhySFJRYUkzMWMxNEhvN0lCOUNrSUpmR29wUG1aZWFTdFhQRk53S3BXelNrXzd4SU90UWdMc0NoX1hZcjRlSGFyM1dvYVFjU0JCbWp2RXUyc20tM1NCOFRhMlBJN3RCNmdQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and directional claims about Nasdaq and Dow futures are directly confirmed by the Invezz source.
-  Groq GPT-OSS 20B: PASS - All numerical and directional claims are directly supported by the cited sources.
-  Groq Qwen: FAIL - The source title states Nasdaq futures crashed over 500 points, but the post claims Dow futures fell 200 points, which is not supported by the provided source titles (one mentions Dow slipping 200 poi
-  -> blocked by fact-check
----
-🇮🇳 🔄 UPDATE: INDIAN BOND YIELDS TOP 7.45% AS OIL SURGES
-
-📌 India's benchmark bond yield topped 7.45% as oil prices rose to $112.50 a barrel.
-📊 Benchmark bond yield: >7.45%
-
-📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/bonds/indian-bonds-tumble-on-oil-surge-rbi-rate-hike-fears/articleshow/135118875.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the yield exceeding 7.45% and oil at $112.50 are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the bond yield exceeding 7.45%, oil prices reaching $112.50, and the source attribution are directly supported by the provided text.
----
-🇺🇸 SOFI LAUNCHES TOKENIZED BANK DEPOSIT FOR CRYPTO
