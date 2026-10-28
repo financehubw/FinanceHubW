@@ -1,3 +1,7 @@
+=== run 2026-10-28T09:20:27Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-28T07:35:34Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ https://news.google.com/rss/articles/CBMiygFBVV95cUxOZllRQk9lRlNOaUVWUXpJTFVXSWp
   Groq Qwen: PASS - The post accurately reflects the source headline regarding the IMF urging exchange rate flexibility in India, and the general explanation provided is correct.
 published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-d0a941fda4ed
-done: 2 post(s) this run
-=== run 2026-10-21T17:08:03Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
