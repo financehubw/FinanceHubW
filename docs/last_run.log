@@ -1,3 +1,46 @@
+=== run 2026-10-28T15:24:21Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+100/171 sources returned news, 1061 recent items
+292 new trusted stories, posting up to 1 this run
+---
+🇺🇸 STOCKS RISE AHEAD OF US FED RATE DECISION
+
+📌 Stocks rose as investors wait for big tech earnings and the Fed (US central bank) update.
+
+📍 US · 📰 Yahoo Finance Singapore · ✅ 8 sources
+https://news.google.com/rss/articles/CBMif0FVX3lxTE9CS3FHQU14MGZMOS1FQkh3QzNjU1plVFJxay1QQXRwLTAxbHUzNzI3Yk43dnNXWW51SmQyYkxFZnQ1ZTVFTVNKM1pLVm9VTkkyUnpzYlVvRjYtX0RTd2hPdC1qcEJRQzlNSDNHbXItQ1NOeFB5ejRXLXJmS29ZYlk?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six sources are listed.
+  -> blocked by fact-check
+---
+🇺🇸 S&P 500 STAYS FLAT AHEAD OF FED DECISION
+
+📌 The S&P 500 remained flat as investors await the Fed rate decision and tech earnings.
+📊 $SPX: Flat
+
+📍 US · 📰 FOREX.com · ✅ 2 sources
+https://news.google.com/rss/articles/CBMivAFBVV95cUxPcGFfdE1fMmxmQVRnajNiYjdZU0E2bTVfV0RueGFTZDIzQlY0MmgwUktCXzJIVE9hZGItRnZMdVFTby15bkhrQUotTmhlREJSY0x1WExUQVZnb0RFejZMdU8wNFB6QWNBN3gxNks3U1FIVnozWmNBNzd6UU00QW13TE9fa080QnpmczZIdmN1QW9fWS01ZnB1dXJLam90N3JRMkVTUWJUa2ZOWDBSTlZZLU1jLXN5VE82ZllBZNIByAFBVV95cUxQMnNIeDFfUlBndmkyMXZ3c0ViWXVYVk96cnJLTUQzQWtGLU9HVlprYTJMTXNzcGlqUnpzVlJiZWU1WG9hTjNXWVVHSFpMUlpxQllxS0VoX0lSbmVHYUhVak5LY0VrbG1KVzlyQzZETnVrMjVadzF1U0NDSVNPVGVjaEEzV0w1ZFNqQVFWaUo0Wk5iYmpLNmxUaS1VVjU3T2JvX2lwWmVBenZKTWNOT0xCMTIyc1ZGdnFIQXVxUTZCT3VoLWx2VTFoNQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about the S&P 500 being flat ahead of the Fed decision and tech earnings are directly supported by the cited FOREX.com and Edge Singapore articles.
+  Groq GPT-OSS 20B: FAIL - Edge Singapore source indicates the S&P 500 churned, not flat, contradicting the claim.
+  -> blocked by fact-check
+---
+🇬🇧 UK KEEPS INCOME TAX THRESHOLDS FROZEN
+
+📌 The UK kept income tax limits frozen instead of raising them with inflation.
+💡 People pay higher taxes over time as their wages rise.
+#UK
+
+📍 UK · 📰 The Guardian
+https://www.theguardian.com/money/ng-interactive/2026/oct/28/budget-income-tax-thresholds-frozen-take-home-pay
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about frozen thresholds, lack of inflation adjustment, and resulting higher tax burden are directly supported by the Guardian article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the freezing of UK income tax thresholds and the resulting impact on take-home pay are directly supported by the source text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-8ec5cf064636
+done: 1 post(s) this run
 === run 2026-10-28T13:40:22Z
 🇺🇸 US FUTURES RISE AHEAD OF FED RATE DECISION
 
@@ -1455,46 +1498,3 @@ skip (off-topic or nothing new): Earnings call transcript: Rajratan Global Wire 
 📍 Europe · 📰 Bitcoin Magazine · ✅ 4 sources
 https://bitcoinmagazine.com/news/central-bank-of-ireland-fines-coinbase
   written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the €3.25 million fine, the Irish central bank, and the reason for the fine are directly supported by the cited Bitcoin Magazine source.
-  Groq GPT-OSS 20B: FAIL - The claim that there are 4 sources is incorrect; the post lists five distinct sources.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Nifty 50 Outlook: Crude Above $100, US Midterms, Sensex Risk
----
-🇹🇷 TURKEY CUTS INTEREST RATE TO 36%
-
-📌 Turkey lowered its main interest rate (the cost of borrowing money) by 100 basis points to 36%.
-📊 Rate: 36% (-1%)
-
-📍 Turkey · 📰 Investing.com Nigeria · ✅ 4 sources
-https://news.google.com/rss/articles/CBMiwwFBVV95cUxQejJXTUtNZTRoQ0lwNEQtd0pGRFVaaHIwbTVGdHZMNTNYSGJwX25BcmJJd21sYS1EallEVE1JTUIyamVkcWE1eHpMWnBxZzNmekkwZk4wVlFsSXR1RHoyTGhMZXl2bGN6RExtUm44dmRZdFpiYTJ0TXJuaUplVHRKcmttU0FZWWRlT0hrTEpTUzBBdDc3SUQ5T0pLQUJNX2FJQ1hMam1OaTROU2hKcGM1NGhrWmJQQWdVaHdaS3FfNVVoUms?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the 100‑bp cut to a 36% rate are confirmed by the cited sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
-  Groq Qwen: PASS - All factual claims regarding the interest rate cut magnitude, new rate, and source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-879fddae281c
-done: 3 post(s) this run
-=== run 2026-10-22T11:06:19Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
---- special
-🌆 Day in 30 seconds: the stories that moved money
-
-1️⃣ 🇮🇳 RBI MINUTES SIGNAL MORE INTEREST RATE HIKES
-2️⃣ 🌐 GOLD FALLS BELOW $4,100 AS US RATE HIKE FEARS GROW
-3️⃣ 🇫🇷 FRENCH BOND YIELDS HIT 24-YEAR HIGH
-
-No hype, no tips. Just the facts, simply. @FinanceHubW
-published to: website, Instagram Story
-107/171 sources returned news, 1227 recent items
-296 new trusted stories, posting up to 1 this run
----
-🇮🇳 INDIA STOCKS FALL ON HIGHER OIL PRICES
-
-📌 Indian stock markets dropped because crude oil prices went up.
-📊 Sensex: -450 pts
-💡 Higher oil prices can raise everyday costs like fuel and transport.
-#Nifty
-
-📍 India · 📰 Moneycontrol.com · ✅ 10 sources
-https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRzVaOTNoRlFEVldUMWpzckdZN2FXSTJLM1lKczdkUm5xMTZhTnQwcUlEbkRpaVd6RU1TZGhwVmFaLVNmcWItZHZJX1BpLW1HTFpaLVZqdE1FbjQyZklDNVF0MDBudi02d21uckwzNkVfZ1A0dVJ2QkhnZlFTMFl4ODBldnIwSHhWSVl3QlNnd3lqR0xNTUpQbzVRc2lsdnBaMHJhT2xBb2dtYlFEY3dZWHZhY0NwSHdBcU5MVzlBd1RHLTl0RFZLdVhaYVNhdHVGNUVNZkRfcXBzOG9Rc01mZVNGVzJIVkFBeDJucnJwdlVGVzVkSFdz0gH8AUFVX3lxTFBhTnRRZ19nMjJ2ZTRnaENHY25FNjFRSnZxZFhiczFFRWlSNUEzV182Q25sMTU3M0NyVFhUOXF0QXJBSVVSSGoxM3lJNm1ZVUc0clJhRzFWQ0hnWTJ4aGRDTkVEREc4UUduRldFaW80Z0RWRmpMaTRaTmo2YzZBNDhDaE5RWVEteEM5eXhpMjdsUXVPUWkwZmZmZW1CRTl5UUFtRnRLUG00Ui1BSmNRbmVsRUNaajhMcEYxUHVWX3pLOUl5eFJ4RmwwLVh5ZWFnZ1FKREVFWTVTSVpKX3V0UFlkV2swbzJLWVZRVEpxY2lsQ0JwWVhrYktXSFd2eA?oc=5
