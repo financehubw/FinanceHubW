@@ -45,6 +45,7 @@ def main() -> None:
     media = requests.get(f"{GRAPH}/{ig}/media", timeout=30, params={
         "fields": "id,media_type,timestamp,caption", "limit": 100, "access_token": tok}).json().get("data", [])
     cur["notes"]["media_seen"] = len(media)
+    cur["notes"].pop("media_error", None)
     if not media:
         cur["notes"]["media_error"] = str(requests.get(f"{GRAPH}/{ig}/media", timeout=30, params={
             "fields": "id", "limit": 5, "access_token": tok}).json())[:200]

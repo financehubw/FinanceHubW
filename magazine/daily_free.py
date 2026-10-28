@@ -630,10 +630,17 @@ def main() -> None:
         sys.exit("could not plan the edition today; nothing published")
     backups = [b for b in plan.get("backups", []) if b in by_id]
     used, ed, writers, regions = set(), {"regions": [None, None, None], "story_ids": []}, set(), set()
+    FIG = re.compile(r"[+-]?[$€£¥]\d[\d,.]*\s?(?:bn|billion|m|million|tn|trillion)?|\d[\d,.]*\s?(?:%|bn|billion|million|trillion)")
+    def figures(i):            # how many unit figures (13.3%, $4bn...) a story has: the business slide needs two
+        return len(set(FIG.findall(story_text(by_id[i])))) if i in by_id else 0
     for slot in ("big", "pol", "biz", "up", "r1", "r2", "r3"):
         tried = 0
-        for sid in [plan[slot]] + backups:
-            if tried >= 3:
+        order = [plan[slot]] + backups
+        if slot == "biz":      # try the planned story first, then the stories richest in figures
+            extra = sorted((i for i in by_id if i not in order), key=figures, reverse=True)[:6]
+            order = [plan[slot]] + sorted(backups + extra, key=figures, reverse=True)
+        for sid in order:
+            if tried >= (5 if slot == "biz" else 3):
                 break
             if sid in used:
                 continue

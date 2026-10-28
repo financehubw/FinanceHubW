@@ -163,9 +163,11 @@ jobs:
         if: always()
         run: |
           python social/build_archive.py || true
+          if [ "${{ github.event_name }}" = "schedule" ]; then python social/prune_media.py || true; fi
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
           git add social/posted.json site/archive.json
+          git add -A site/media/shorts 2>/dev/null || true
           if [ -f docs/fb_check.json ]; then git add docs/fb_check.json; fi
           if [ -f docs/ig_delete.txt ]; then git add docs/ig_delete.txt; fi
           if [ -f docs/photo_check.txt ]; then git add docs/photo_check.txt; fi

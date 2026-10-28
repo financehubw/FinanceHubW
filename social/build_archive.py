@@ -36,7 +36,9 @@ def main() -> None:
         r = s.get("results", {})
         items.append({"date": s["date"][:10], "type": "short", "title": s["title"], "text": "",
                       "link": r.get("YouTube") or r.get("Instagram") or "https://youtube.com/@FinanceHubW",
-                      "video": f"media/shorts/{s['file']}"})
+                      **({"thumb": f"media/shorts/thumbs/{s['file'][:-4]}.jpg"}
+                         if (SITE / "media" / "shorts" / "thumbs" / f"{s['file'][:-4]}.jpg").exists()
+                         else {"video": f"media/shorts/{s['file']}"})})
     tweets = {t["id"]: t for t in load(SITE / "tweets.json", {"posts": []})["posts"]}
     for sid in load(ROOT / "social" / "stories_posted.json", {"posted": []})["posted"]:
         t = tweets.get(sid)
