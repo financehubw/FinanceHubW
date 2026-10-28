@@ -1,3 +1,154 @@
+=== run 2026-10-28T13:40:22Z
+🇺🇸 US FUTURES RISE AHEAD OF FED RATE DECISION
+
+📌 US stock futures rose slightly ahead of the central bank rate decision.
+💡 Central bank rate decisions can affect borrowing costs for everyday consumers.
+#Fed
+
+📍 US · 📰 Yahoo Finance · ✅ 7 sources
+https://news.google.com/rss/articles/CBMimAFBVV95cUxPRkpoWS00a1NVd3ZJUHhtTk5XVlI0X1VZRFloamc1SXA5a00wRzRlaGRiQS1hQlJ3TC15U2w3WS15OHJMVmpLMG1iS0N1OU82X3IteXNrZkwtUjY2MTNMZ2M3SGZsb0UyNU94R08zX0hhZC03SXNtS1BjNTFGczNRYTJqZEpyekdlREtwbm0xSTM0VVZYaW9fYg?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - Sources report mixed equity futures, not a clear slight rise as claimed
+  -> blocked by fact-check
+---
+🇺🇸 GOLD SLIPS AHEAD OF US FED RATE DECISION
+
+📌 Gold prices fell as investors wait for the US Fed rate decision.
+💡 Higher interest rates usually make borrowing more expensive.
+#Gold
+
+📍 US · 📰 Mint · ✅ 4 sources
+https://www.livemint.com/market/stock-market-news/us-fed-rate-decision-today-what-investors-should-watch-in-gold-silver-prices-and-market-outlook-11793183747846.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about gold falling, the Fed decision timing, and the general interest‑rate effect are directly supported by the sources.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 4 sources, but the provided list contains 5.
+  -> blocked by fact-check
+---
+🇺🇸 🔄 UPDATE: US STOCKS RISE AS CHIP STOCKS RALLY
+
+📌 US stocks rose as a rally in chip makers lifted tech shares before the Fed decision.
+
+📍 US · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/fed-meeting-live-updates-dow-jones-nasdaq-sp-500-us-stock-market-today-kevin-warsh-fomc-meet-rate-cut-news-28th-oct/liveblog/135265171.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about US stocks rising, chip rally, and timing before the Fed decision are directly confirmed by the three cited sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the rise in US stocks, the rally in chip stocks, and the context of the upcoming Fed decision are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All claims are directly supported by the three sources.
+---
+🇮🇳 INDIAN STOCKS FALL AS SENSEX DROPS 353 POINTS
+
+📌 India's Sensex fell 353 points due to drops in IT shares and rising crude oil prices.
+📊 Sensex: -353 points
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 6 sources
+https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-28-october-2026/article71631075.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All numeric and causal claims about the 353‑point Sensex drop and its IT‑stock and oil‑price drivers are directly supported by the cited source.
+  Groq GPT-OSS 20B: FAIL - Source name does not match the actual source (The Hindu BusinessLine).
+  -> blocked by fact-check
+---
+🇺🇸 US FED EXPECTED TO HOLD INTEREST RATES STEADY
+
+📌 The US central bank is expected to keep rates steady as inflation stays above 3%.
+📊 US inflation: Above 3%
+
+📍 US · 📰 The Guardian · ✅ 9 sources
+https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the Fed holding rates steady and inflation staying above 3% are directly supported by the Guardian source.
+  Groq GPT-OSS 20B: FAIL - Unsupported claim about number of sources
+  -> blocked by fact-check
+---
+🇺🇸 TECH STOCKS RALLY AS FED EXPECTED TO HOLD RATES
+
+📌 Tech stocks rose as investors expect the Fed to keep interest rates unchanged.
+💡 Unchanged rates usually keep borrowing costs for loans stable.
+#Fed
+
+📍 US · 📰 Bulletin · ✅ 9 sources
+https://news.google.com/rss/articles/CBMihwJBVV95cUxNUVppMVotVVpmUF9OejNHdEVYZ3M3V0RGQUZQVHJvSDhMWk9IaTZDUlNEVVNNeEFmbjN3Sk5JQ3Vvd2tSZkxpZm5zNmJHTS11WTZ0TzQwekV1bGM2V283UWdMVi1CMDdvUzlzeUJQZm43RGJWeHR6eTRVQWFTRHNfVFByYm9zbWtyYm5TajF1blBPcXpCRFU1QTVFOVBrdl9nRTd3RHd1SjhEYjVoRktSN2dfWTlKSHpfZm1tNWhGS1o2MENDWFJWZjgtUVhYbkpxMTVqOXJVWWdXWDRBaFUzX2cyalRUd3NUaHFvdFhCZHpWa0VDNjMwQ0JIUFhNbXFyWjV4SEJCTQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about tech stocks rallying and Fed holding rates are directly supported by the cited sources, and the explanatory note is accurate.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source and the explanation is a general, widely accepted fact.
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the tech sector rally and Fed expectations, and the general explanation in the 💡 line is correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-2a8e6fcc596c
+---
+🇮🇳 INDIA BONDS END FLAT AS HIGH OIL PRICES RAISE WORRIES
+
+📌 India 2036 bond yield (interest paid on loans) stayed flat at 6.94%.
+📊 2036 Bond Yield: 6.94%
+
+📍 India · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/bonds/india-bonds-end-flat-as-oil-woes-come-up-against-short-covering/articleshow/135265739.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post incorrectly defines the bond yield as "interest paid on loans", which is not supported by the source.
+  -> blocked by fact-check
+---
+🌐 BITCOIN CLIMBS BACK ABOVE $81,000
+
+📌 Bitcoin climbed back above $81,000 as major crypto tokens rose.
+📊 $BTC: Above $81,000
+📊 Pepe: +9%
+#Crypto
+
+📍 Global · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 3 sources
+https://www.coindesk.com/markets/2026/10/28/bitcoin-rebounds-above-usd81-000-as-asian-chip-rally-spills-into-crypto-pepe-jumps-9
+  written by Gemini
+  Groq GPT-OSS: PASS - All price, percentage, and token rise claims are directly supported by the CoinDesk source
+  Groq GPT-OSS 20B: FAIL - Number of sources claim unsupported
+  -> blocked by fact-check
+---
+🇺🇸 US STOCK FUTURES MIXED AHEAD OF FED DECISION
+
+📌 US stock futures pointed to a mixed open before the central bank decision.
+💡 Central bank interest rate decisions can change borrowing costs on loans.
+#Fed
+
+📍 US · 📰 Reuters · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that US stock futures pointed to a mixed open is not supported by the Reuters source, which reports a higher open.
+  -> blocked by fact-check
+---
+🇨🇦 BANK OF CANADA EXPECTED TO RAISE INTEREST RATES
+
+📌 The central bank is expected to hike its key rate by 0.25% as inflation rises.
+📊 Expected rate hike: 0.25%
+
+📍 Canada · 📰 The Globe and Mail · ✅ 5 sources
+https://www.theglobeandmail.com/business/article-bank-of-canada-interest-rate-decision-oct-28-live-updates/
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (0.25% expected hike, inflation rise, Canada location, Globe and Mail source) are directly supported by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The post claims 5 sources but lists 6, and the causal link “as inflation rises” is not explicitly stated in the cited article.
+  -> blocked by fact-check
+---
+🇨🇦 CANADIAN STOCKS RISE AHEAD OF BOC AND FED DECISIONS
+
+📌 Canadian stocks and dollar rose as investors wait for key central bank rate decisions.
+
+📍 Canada · 📰 Yahoo Finance · ✅ 3 sources
+https://news.google.com/rss/articles/CBMinAFBVV95cUxQVG1pa1pSNWY5akZBVkl5TFJ3ZGF6X1AwME92cEFWQnZ5QVlOb1F2MWVVTmk4OUZZcGk2ZHdoNkNWcE9sSG9wNG9IN01EZnphZFNNOUlJcVdfOTZTSHUta3duLTJkX0xNMlktWHVqakthN090cUI1REpyZ3JNYzBTLW45bEhjS1BrWXlZdXhVcEM5aUhSZHk0YWdPcDY?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 3 sources" but lists four distinct sources, creating a factual mismatch.
+  -> blocked by fact-check
+---
+🇮🇳 RELIANCE OVERTAKES TATA AS INDIA'S MOST VALUABLE GROUP
+
+📌 Reliance market value passed ₹30 trillion after Jio shares jumped 21%.
+📊 $RELIANCE group value: >₹30 trillion
+📊 Tata Group value: ₹25 trillion
+#IPO
+
+📍 India · 📰 Mint · ✅ 4 sources
+https://www.livemint.com/market/stock-market-news/reliance-vs-tata-group-market-cap-jio-platforms-share-price-11793181248458.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and factual statements are directly supported by the Mint article and related sources.
+  Groq GPT-OSS 20B: FAIL - The post incorrectly states there are 4 sources, but five sources are listed.
+  -> blocked by fact-check
+done: 1 post(s) this run
 === run 2026-10-28T11:14:41Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1347,154 +1498,3 @@ published to: website, Instagram Story
 
 📍 India · 📰 Moneycontrol.com · ✅ 10 sources
 https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRzVaOTNoRlFEVldUMWpzckdZN2FXSTJLM1lKczdkUm5xMTZhTnQwcUlEbkRpaVd6RU1TZGhwVmFaLVNmcWItZHZJX1BpLW1HTFpaLVZqdE1FbjQyZklDNVF0MDBudi02d21uckwzNkVfZ1A0dVJ2QkhnZlFTMFl4ODBldnIwSHhWSVl3QlNnd3lqR0xNTUpQbzVRc2lsdnBaMHJhT2xBb2dtYlFEY3dZWHZhY0NwSHdBcU5MVzlBd1RHLTl0RFZLdVhaYVNhdHVGNUVNZkRfcXBzOG9Rc01mZVNGVzJIVkFBeDJucnJwdlVGVzVkSFdz0gH8AUFVX3lxTFBhTnRRZ19nMjJ2ZTRnaENHY25FNjFRSnZxZFhiczFFRWlSNUEzV182Q25sMTU3M0NyVFhUOXF0QXJBSVVSSGoxM3lJNm1ZVUc0clJhRzFWQ0hnWTJ4aGRDTkVEREc4UUduRldFaW80Z0RWRmpMaTRaTmo2YzZBNDhDaE5RWVEteEM5eXhpMjdsUXVPUWkwZmZmZW1CRTl5UUFtRnRLUG00Ui1BSmNRbmVsRUNaajhMcEYxUHVWX3pLOUl5eFJ4RmwwLVh5ZWFnZ1FKREVFWTVTSVpKX3V0UFlkV2swbzJLWVZRVEpxY2lsQ0JwWVhrYktXSFd2eA?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The exact Sensex decline is contradictory – some sources report a 460‑point drop, not the 450 points claimed.
-  -> blocked by fact-check
----
-🇮🇳 RUPEE FALLS AFTER EIGHT DAYS
-
-📌 The Indian rupee dropped 0.4 percent to 94.8175 per dollar as oil prices climbed.
-📊 Rupee: 94.8175/$ (-0.4%)
-
-📍 India · 📰 Economic Times · ✅ 5 sources
-https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-snaps-eight-day-rally-as-oil-climbs-to-highest-since-may/articleshow/135115702.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, percentages, and context are directly confirmed by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the rupee's movement, closing rate, percentage change, and the cause (oil prices) are directly supported by the sources, and the location and source attribution are correc
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-2e4db02ffcb8
-done: 2 post(s) this run
-=== run 2026-10-22T09:14:24Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-103/171 sources returned news, 1251 recent items
-278 new trusted stories, posting up to 3 this run
----
-🌐 GOLD FALLS BELOW $4,100 AS US RATE HIKE FEARS GROW
-
-📌 Gold dropped below $4,100 and silver fell 3.6% as oil prices stoked inflation fears.
-📊 Gold: below $4,100/oz
-
-📍 Global · 📰 Profit by Pakistan Today · ✅ 4 sources
-https://news.google.com/rss/articles/CBMizAFBVV95cUxNQVllclFZWTNXR2lGVzRxd2VyUzB4dTY1anJRU0EzaWZGXzdfZ2hfeEhwd2xMcWVJXzdDalYyeDZzd2t4QjlwWHFxLWdDUjNMZjFOcTBDbkh1RFE5d2lkcHRXNi1NUHU0M0dFQ2R0M3U0bVRYQ0NuZVZCS2dTeG9sN2pvOWZfTGhqc3ozVmtjR1A2akM4Y2pma1ByZUJlODZ5emdsR3RORmEwMXhTd3VRNTVieTc2eVBhRUkzeTN4NGhoazN2T1cwVllwbmc?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, percentages, and context are directly supported by the listed sources.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources
-  Groq Qwen: PASS - All factual claims regarding gold price, silver drop, and the cause (oil prices/inflation/rate hike fears) are directly supported by the provided sources, and the location and source attribution are c
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-5c4a7d5efd6f
----
-🇮🇳 RBI MINUTES SIGNAL MORE INTEREST RATE HIKES
-
-📌 RBI meeting notes signal more rate hikes ahead after raising repo rate to 5.50%.
-📊 Repo rate: 5.50%
-
-📍 India · 📰 Economic Times · ✅ 5 sources
-https://economictimes.indiatimes.com/markets/bonds/indian-bonds-steady-after-rbi-minutes-signal-more-rate-hikes/articleshow/135109590.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (repo rate 5.50% and minutes indicating further hikes) are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
-  Groq Qwen: PASS - All factual claims regarding the repo rate (5.50%), the signal for further hikes, the location (India), and the source (Economic Times) are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-6256af5d62d0
----
-🇮🇳 RBI WEIGHS INFLATION RISKS AMID RISING COSTS
-
-📌 RBI weighs inflation risks as YES Bank predicts a 50 bps interest rate hike.
-📊 Predicted RBI rate hike: 50 bps
-
-📍 India · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/news/economy/indicators/indias-interest-rate-gap-with-g7-in-focus-as-rbi-weighs-inflation-risks-report/articleshow/135113382.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about RBI inflation concerns and YES Bank's 50 bps hike prediction are directly confirmed by the Economic Times article.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the RBI's focus on inflation, the 50 bps rate hike prediction by YES Bank, and the source attribution are directly supported by the provided text.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: FAIL - The source forecasts a cumulative 50-basis-point RBI rate hike, not a single 50 bps hike, and only one distinct Economic Times article is provided.
-  -> blocked by fact-check
----
-🇫🇷 FRENCH BOND YIELDS HIT 24-YEAR HIGH
-
-📌 France's 10-year bond yield (interest rate) rose to 5.09%.
-📊 French 10Y yield: 5.09%
-💡 Higher rates usually make borrowing more costly for governments.
-#Europe
-
-📍 France · 📰 The Guardian · ✅ 2 sources
-https://www.theguardian.com/business/live/2026/oct/22/barclays-profits-jump-looming-bank-tax-french-bond-yields-hit-fresh-24-year-high-latest-live-updates
-  written by Gemini
-  Groq GPT-OSS: PASS - All figures and statements are directly confirmed by the Guardian source
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: PASS - All factual claims regarding the 5.09% yield, the 24-year high, and the source attribution are directly supported by the provided text.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - The 24-year high and 5.09% French 10-year yield are directly reported, and the borrowing-cost explanation is generally correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-3bb7005f9486
-done: 3 post(s) this run
-=== run 2026-10-22T07:22:22Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-22T05:07:14Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-22T03:05:05Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-22T01:12:49Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-21T22:59:58Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-21T21:03:28Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-21T19:13:53Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-95/171 sources returned news, 938 recent items
-199 new trusted stories, posting up to 2 this run
----
-🇪🇺 CARDANO WARNS EU ON CRYPTO RULES
-
-📌 The Cardano Foundation asked the EU not to apply crypto laws to DeFi (decentralized finance systems) and staking.
-#Crypto
-
-📍 Europe · 📰 Cointelegraph.com News · ✅ 5 sources
-https://cointelegraph.com/news/cardano-foundation-urges-eu-against-expanding-mica-rules-to-defi-and-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - The post accurately reflects the sources' reporting that the Cardano Foundation urged the EU against expanding MiCA rules to DeFi and staking, with correct attribution and location.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-d4837433bd33
----
-🇨🇦 CANADIAN DOLLAR HITS FOUR-WEEK HIGH
-
-📌 The Canadian dollar stayed near a four-week high against the US dollar.
-💡 Stronger currency makes imported goods cheaper for local buyers.
-#Forex
-
-📍 Canada · 📰 Mint · ✅ 3 sources
-https://www.livemint.com/market/canadian-dollar-holds-near-four-week-high-as-investors-stick-to-rate-hike-bets-11792608162613.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source says the dollar is near a four‑week high, not that it hit a four‑week high
-  -> blocked by fact-check
----
-🇮🇳 IMF URGES FLEXIBLE RUPEE RATE
-
-📌 The IMF asked India to let the rupee float freely instead of heavy market defense.
-💡 Flexible exchange rates help absorb sudden economic shocks.
-#Rupee
-
-📍 India · 📰 Business Standard
-https://news.google.com/rss/articles/CBMiygFBVV95cUxOZllRQk9lRlNOaUVWUXpJTFVXSWpzemR0MmFwUU80RnNTM1EyQk53WXlIN01XLWljdXlibUhpdVJ0Q2VVOGJlRFA2RDhFNjVKaXFOZ3hUdzJBUlNmeTc4QmxrazhkNThkZkFPbFhBcUZkbURkVl94c0dYdUk0c2NHZk9qM1pzeGZyRTNFZno2SEl3TFduQ1RfUW1NREE1YnEzbDVrWEdtMndINi1OdFdZU0V1d3FqTzZQaHA1QlRkU1VaSmlOTnhkMTRn0gHPAUFVX3lxTE02NTRyczVweWRjX1J6OXNMWGxndVRTMVU1d3lYMWVfRk5NalFjQXpacEJFeTZZYXRrbmxtRGtlUkoyYkM4bEpPRV9qOEs4dDN2dG1YUFNaVUc5eVJhOEpoX3NkcWFlVklTQ3Mxb1hXZlZFRTZTakNoQzNXN2FHbGF0bTNZRnBFVlZnLTVwWndRQWs4SXV2eEtmNW5iem44cTFoNXlhNHU4MmR4S1VhNVVKMFFOc1F3Yl9NeUJwM2lzWkdPY2o4Q25xTHpDV0dUYw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the Business Standard article.
