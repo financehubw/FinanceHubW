@@ -1,3 +1,35 @@
+=== run 2026-10-28T23:12:39Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+88/171 sources returned news, 787 recent items
+186 new trusted stories, posting up to 1 this run
+---
+🇺🇸 US STOCKS RISE AS FED HOLDS RATES STEADY
+
+📌 US shares closed higher after the Federal Reserve kept interest rates steady.
+📊 Dow Jones: 52,475.10 (+0.19%)
+
+📍 US · 📰 Economic Times · ✅ 12 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-higher-as-fed-holds-rates-earnings-in-focus/articleshow/135279631.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 12 sources" but only six sources are provided, so the source count is unsupported.
+  -> blocked by fact-check
+---
+🇺🇸 US FED KEEPS INTEREST RATES UNCHANGED
+
+📌 The US central bank kept its key interest rate unchanged.
+💡 Steady interest rates keep borrowing costs on loans at current levels.
+#Fed
+
+📍 US · 📰 Crypto Economy · ✅ 2 sources
+https://news.google.com/rss/articles/CBMiqwFBVV95cUxNam11TnFyUXRjMFpjV1NiWVpRVDRldjQ5eXZFeHEwcG5KZ1FyU2p4NnktWmpVUENuS08xaV90ZU9tR3Q3SV9hZ1lfbnNuYjRiUXFUOE1ULVVHNzl4c3RPb2gtTWVVNDRoUGFJOWthcmRHMTFHTjZnOTZaRGdNN1dGSW5ySnhuRGQ0SnNzMXFja3NBa1B2S1dDQkZHNzNPaHozT09NUEU4M1JrVFU?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited sources
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources and the explanation is a general, widely accepted principle.
+  Groq Qwen: PASS - The claim that the US Fed kept interest rates unchanged is directly supported by the source title 'Fed Leaves Rates Untouched', and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-ca784623ab30
+done: 1 post(s) this run
 === run 2026-10-28T21:17:01Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1466,35 +1498,3 @@ https://www.livemint.com/market/stock-market-news/trump-hints-at-an-iran-attack-
 
 📌 Investors are watching US Fed decisions, company earnings, and crude oil prices.
 💡 Oil prices can affect everyday transportation and goods costs.
-#Fed
-
-📍 Global · 📰 Zee Business · ✅ 2 sources
-https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaGdvZmpwMEdFdmk1bHhvaHhUbTMxQlNOLVZ5Nml2S010VVlmX09KM0VLRWxHSktYQ2dkZUx3cXpYT2J1RVI5YUY4N09FNUphdXZ6clVuNVhIclowZ3BNaXA3Tm80UzZuMjdpa0xZZ09iSi1nbU9PcTlSYXNGR3Mzc0YyVEQzNFc0bFp1UFpmakFVMGxHR3d4N2JoMG13T2pyZGpRLXNUcVF2RlpnT3I0dzZGbGtWN1hjQThLS0VlRmFYWXRjTkJXR1hGSFozV1N5amtaY3p5ekRlV2hHZC1n?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about Fed, earnings, oil driving markets and the general impact of oil are directly supported by the cited articles.
-  Groq GPT-OSS 20B: FAIL - The post cites only Zee Business but claims two sources and attributes the headline to Rediff, so the factual attribution is incorrect.
-  -> blocked by fact-check
----
-🇮🇳 GOLD DROPS 21% FROM RECORD HIGH
-
-📌 MCX gold fell 21.43% from its January record to ₹1,42,024 per 10 grams.
-📊 MCX Gold: ₹1,42,024 per 10g
-💡 Lower prices can make buying gold cheaper for shoppers.
-#Gold
-
-📍 India · 📰 Mint
-https://www.livemint.com/market/stock-market-news/gold-price-crashes-over-rs-38-600-from-record-high-whatll-happen-amid-diwali-2026-fervour-right-time-to-buy-decoded-11792910366849.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and factual claims are directly supported by the Mint article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the percentage drop, price, and source are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-2a1fb7a832e7
-done: 3 post(s) this run
-=== run 2026-10-22T21:05:42Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-93/171 sources returned news, 810 recent items
-209 new trusted stories, posting up to 1 this run
----
-🇺🇸 US TECH STOCKS TUMBLE ON AI CONCERNS
