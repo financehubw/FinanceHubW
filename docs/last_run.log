@@ -1,3 +1,7 @@
+=== run 2026-10-28T07:35:34Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-28T05:15:23Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ done: 2 post(s) this run
 === run 2026-10-21T17:08:03Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
-101/171 sources returned news, 1047 recent items
-234 new trusted stories, posting up to 1 this run
----
-🇺🇸 US STOCKS RISE ON AI DEMAND AND SPACEX RALLY
