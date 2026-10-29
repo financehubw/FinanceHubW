@@ -1,3 +1,7 @@
+=== run 2026-10-29T13:37:27Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-29T11:16:15Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ published to: website, Instagram Story
 done: 3 post(s) this run
 === run 2026-10-25T09:03:58Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-69/171 sources returned news, 523 recent items
-re-check of earlier post: 0 fail / 5 pass
-143 new trusted stories, posting up to 2 this run
