@@ -1,3 +1,23 @@
+=== run 2026-10-29T19:29:57Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+96/171 sources returned news, 974 recent items
+240 new trusted stories, posting up to 1 this run
+---
+🇺🇸 US ECONOMY GROWS 3.4%
+
+📌 The US economy grew 3.4% in the third quarter while inflation picked up in September.
+📊 US GDP: 3.4%
+
+📍 US · 📰 International: Top News And Analysis · ✅ 3 sources
+https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All figures and statements are directly confirmed by the cited article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the 3.4% GDP growth and September inflation acceleration, and the metadata matches the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-ac6075855203
+done: 1 post(s) this run
 === run 2026-10-29T17:30:34Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
@@ -1478,23 +1498,3 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
---- special
-📈 INDIA MARKETS AT CLOSE
-
-🔴 Sensex: 73,124 (-0.17%)
-🔴 Nifty 50: 22,600 (-0.39%)
-🔴 Bank Nifty: 54,287 (-1.16%)
-🟢 USD/INR: ₹94.94 (+0.24%)
-🔴 Gold: $4,008 (-1.29%)
-🔴 Bitcoin: $80,159 (-0.78%)
