@@ -1,3 +1,7 @@
+=== run 2026-10-29T07:37:10Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-29T05:17:12Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ re-check of earlier post: 0 fail / 5 pass
 
 📍 France · 📰 International: Top News And Analysis · ✅ 2 sources
 https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about French bond yields reaching a 24‑year high due to unrest are directly confirmed by the cited article.
-  Groq GPT-OSS 20B: FAIL - Source name does not match the actual CNBC source
-  -> blocked by fact-check
