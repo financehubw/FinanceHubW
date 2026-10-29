@@ -1,3 +1,7 @@
+=== run 2026-10-29T11:16:15Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-29T09:22:50Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1494,7 +1498,3 @@ daily cap: 12, room left in the last 24h: 9
 69/171 sources returned news, 523 recent items
 re-check of earlier post: 0 fail / 5 pass
 143 new trusted stories, posting up to 2 this run
----
-🇫🇷 FRENCH BOND YIELDS HIT 24-YEAR HIGH AMID UNREST
-
-📌 Unrest in France pushed bond yields (government borrowing rates) to a 24-year high.
