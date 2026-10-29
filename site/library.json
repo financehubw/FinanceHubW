@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "type": "daily",
+   "date": "2026-10-29",
+   "label": "Thu 29 Oct 2026",
+   "title": "U.S. economy update",
+   "summary": "New figures show growth and rising inflation in the United States.",
+   "base": "media/daily/2026-10-29/",
+   "first": 1,
+   "slides": 7
+  },
+  {
    "type": "briefing",
    "date": "2026-10-28",
    "label": "Wed 28 Oct 2026",

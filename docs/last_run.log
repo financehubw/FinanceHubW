@@ -1,3 +1,35 @@
+=== run 2026-10-29T15:27:13Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+99/171 sources returned news, 1151 recent items
+307 new trusted stories, posting up to 1 this run
+---
+🇪🇺 ECB HOLDS RATES AT 2.5% AS LAGARDE TO EXIT EARLY
+
+📌 The ECB kept its key rate at 2.5% as chief Christine Lagarde announced an early exit.
+📊 ECB deposit rate: 2.5%
+
+📍 Europe · 📰 Business · ✅ 4 sources
+https://www.euronews.com/2026/10/29/ecb-holds-rates-at-25-as-lagarde-announces-early-exit-with-inflation-near-double-the-targe
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the ECB rate, deposit rate level, and Lagarde's early exit are directly supported by the Euronews source.
+  Groq GPT-OSS 20B: FAIL - Source name in the post (Business) does not match the actual source (Euronews).
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS JUMP OVER 1% AS SENSEX GAINS 905 POINTS
+
+📌 Indian stocks jumped over 1%, with Sensex up 905 points as crude oil prices fell.
+📊 Sensex: +905 pts
+
+📍 India · 📰 Business Standard · ✅ 3 sources
+https://news.google.com/rss/articles/CBMi0AFBVV95cUxQN2x1Nk5sek1aeDluWGNMSnEwREx2SGR5ZjRTd0tzT1NiQ3hoY3htWkJtSW1nYWlrOWRNeS1LVlNMYU5sRVF3eWRzQTVzallfc1JEMVhkSWc3TV9IM21vWG1vTmZRUmVEUmllVVhNdU13YUVVS01LUFNzTHVRRE80bDdaVW5XWXFUTm1oVjZNN2dQaExRMmpMNEdiSzdGMlhuTVBvZ2ZVTTZ1aUdYSTRhek9HbXFMZDNyTEdFSF9GLUZkRGZPOVlTU2JsNTF4WWtw0gHWAUFVX3lxTFB2LU9UckFtY0YwdFAtQ080T2I5a0NJZFowOEJ5bGJsRUR0M1E4WU5jR1d1X2ViencxOWR1dUVlYlVBdS1XRDhBWmpHVUhDNWhxbTdIWkdtdDBLY1hSN2hOclNhcG9HYlRITk81azlSZzFIY0lWZ0RrREg3THYxQWw0ZzIwUnFfUVFpbDQtQ3JESmpTMTZ2U1NFRHk5YjJRekdGWmlUaUhPR0I1UnYxc2dMSmRTdV9yc3hVM1VFc3lXWjZPRTB2UzZzT2kwVE9zMlhkZUQ0NFE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and factual statements ( >1% rise, +905 points, crude price drop, location, source) are directly confirmed by the Business Standard article and corroborating sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Business Standard source.
+  Groq Qwen: PASS - All factual claims regarding the Sensex gain of 905 points, the >1% rise, and the attribution to Business Standard are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-5d8fa3d01bdd
+done: 1 post(s) this run
 === run 2026-10-29T13:37:27Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
@@ -1466,35 +1498,3 @@ https://economictimes.indiatimes.com/markets/stocks/news/mcap-of-8-of-top-10-fir
   Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
   Groq Qwen: PASS - All factual claims regarding the market value loss, Sensex drop, and source attribution are directly supported by the provided sources.
   Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All factual claims in the post are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-44feff3825b8
----
-🇮🇳 INDIAN STOCKS LOSE RS 21 LAKH CRORE IN A WEEK
-
-📌 Indian stock markets fell over 2% this week, erasing ₹21 lakh crore.
-📊 Sensex: -2.15%
-
-📍 India · 📰 Mint · ✅ 3 sources
-https://www.livemint.com/market/stock-market-news/bank-nifty-tumbles-nearly-3-slips-below-55k-more-selling-pressure-ahead-for-banking-stocks-check-key-levels-to-watch-11792920838777.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source says ‘nearly ₹21 lakh crore’, not exactly ₹21 lakh crore, so the claim is exaggerated.
-  -> blocked by fact-check
----
-🇮🇳 FUND MANAGERS DIVIDED ON GILT FUNDS
-
-📌 Fund managers hold mixed views on gilt funds (government bond funds).
-💡 Higher yields can boost returns, but inflation and rate hikes pose risks.
-#Bonds
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/money/personal-finance/why-fund-managers-are-mixed-on-gilt-funds-11792902637701.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about mixed fund manager views and yield/inflation risks are directly supported by the Livemint article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
-  Groq Qwen: PASS - All factual claims regarding the mixed views of fund managers on gilt funds, the specific risks (inflation, crude prices, rate hikes), and the opportunity (locking in higher yields) are directly suppo
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-e947e610202b
-done: 3 post(s) this run
-=== run 2026-10-25T09:03:58Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
