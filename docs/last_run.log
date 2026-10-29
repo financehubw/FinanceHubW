@@ -1,3 +1,35 @@
+=== run 2026-10-29T17:30:34Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+97/171 sources returned news, 1035 recent items
+275 new trusted stories, posting up to 1 this run
+---
+🇨🇳 SINOPEC Q3 PROFIT JUMPS 64% AS OIL PRICES RISE
+
+📌 China's oil giant Sinopec saw third-quarter profit jump 64% to $2 billion.
+📊 Q3 Profit: $2B (+64%)
+
+📍 China · 📰 Oilprice.com · ✅ 3 sources
+https://oilprice.com/Latest-Energy-News/World-News/Sinopec-Third-Quarter-Profit-Jumps-64-as-Oil-Prices-Climb.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, location, and source attribution are directly supported by the Oilprice.com article.
+  Groq GPT-OSS 20B: FAIL - The claim that the post cites 3 sources is not supported by the provided link, which lists only one source.
+  -> blocked by fact-check
+---
+🇺🇸 FED HOLDS RATES BUT TWO OFFICIALS WANT A HIKE
+
+📌 US central bank keeps its key rate steady, but two members wanted an increase.
+#Fed
+
+📍 US · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
+https://www.thehindubusinessline.com/markets/fed-rate-hold-offers-little-comfort-to-indian-markets-as-two-members-seek-a-hike/article71641208.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the Fed holding rates and two members seeking a hike are directly supported by the cited article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited source.
+  Groq Qwen: PASS - The post accurately reflects the source headlines and content regarding the Fed holding rates and two members seeking a hike, with matching location and source attribution.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-17b19f8a48ab
+done: 1 post(s) this run
 === run 2026-10-29T15:27:13Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
@@ -1466,35 +1498,3 @@ daily cap: 12, room left in the last 24h: 7
 🟢 USD/INR: ₹94.94 (+0.24%)
 🔴 Gold: $4,008 (-1.29%)
 🔴 Bitcoin: $80,159 (-0.78%)
-
-🟢 up · 🔴 down · vs previous close
-#Markets #StockMarket
-published to: website, Instagram Story
-81/171 sources returned news, 626 recent items
-163 new trusted stories, posting up to 2 this run
----
-🇺🇸 AUDI TO BUILD FIRST US FACTORY IN GEORGIA
-
-📌 Audi will build its first car factory in the US in Georgia.
-💡 New factories usually create local jobs.
-#Audi
-
-📍 US · 📰 Financial Times · ✅ 8 sources
-https://news.google.com/rss/articles/CBMihAFBVV95cUxQckNBUENjd0pZam1SUXRhNzJWSTUzak1UaTZLcF9LOXFtMG4yNWd6bzlwajZqNkMtZ3RjbFRIQ2Y5a0VWMThLV2Z3WXlaSGtheTdIWnRuSVlKQmp1YVIxYmpPNlZnX3BCeDg3UWZCVFg5RklfSUI0dk1tcUFwbnVISFd3UG4?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about Audi's first US factory in Georgia and the general job‑creation effect are directly supported by the Financial Times source.
-  Groq GPT-OSS 20B: FAIL - The post claims 8 sources but only lists 6, which is unsupported.
-  -> blocked by fact-check
----
-🇮🇳 TOP 10 INDIAN FIRMS LOSE RS 1.55 LAKH CRORE
-
-📌 Eight of India's top 10 companies lost ₹1.55 lakh crore in market value.
-📊 Sensex: -1,605.44 pts
-
-📍 India · 📰 Economic Times · ✅ 6 sources
-https://economictimes.indiatimes.com/markets/stocks/news/mcap-of-8-of-top-10-firms-erodes-by-rs-1-55-lakh-cr-hdfc-bank-bajaj-fin-biggest-laggards/articleshow/135186713.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (8 firms losing ₹1.55 lakh cr, Sensex drop of 1,605.44 points, location and source) are directly confirmed by the cited articles.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the market value loss, Sensex drop, and source attribution are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
