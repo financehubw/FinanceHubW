@@ -1,3 +1,9 @@
 /home/runner/work/FinanceHubW/FinanceHubW/social/news_short.py:27: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   now = dt.datetime.utcnow()
-news short: no strong story today
+news short: Fed keeps interest rates steady at 3.75% to 4% (today's money news)
+rendering news_20261029
+  -> news_20261029.mp4 | Fed keeps interest rates steady at 3.75% to 4% (today's money news)
+[vost#0:0/rawvideo @ 0x558344739f00] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x558344635100] Error muxing a packet
+[out#0/rawvideo @ 0x558344635100] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x558344635100] Error closing file: Broken pipe

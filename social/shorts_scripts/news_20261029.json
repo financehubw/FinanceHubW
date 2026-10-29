@@ -1,0 +1,47 @@
+{
+ "id": "news_20261029",
+ "title": "Fed keeps interest rates steady at 3.75% to 4% (today's money news)",
+ "thumb": "*TODAY:* Fed keeps interest rates steady at 3.75%",
+ "thumb_photo": "bitcoin coin",
+ "thumb_tag": "NEWS",
+ "caption": "The US central bank kept interest rates unchanged in a 10-2 vote.\n$BTC\nHigher rates usually make loans costlier.",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "US,  Cointelegraph.com News,  3 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. Fed keeps interest rates steady at 3.75% to 4%.",
+   "chat": "Fed keeps interest rates steady at 3.75% to 4%."
+  },
+  {
+   "say": "The US central bank kept interest rates unchanged in a 10-2 vote.",
+   "photo": "bitcoin coin",
+   "clip": {
+    "kicker": "US",
+    "year": "29 Oct",
+    "text": "Fed keeps interest rates steady at 3.75% to 4%"
+   }
+  },
+  {
+   "say": "Why it matters. Higher rates usually make loans costlier.",
+   "slide": [
+    "Higher rates usually make loans costlier."
+   ]
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}
