@@ -1,3 +1,59 @@
+=== run 2026-10-29T01:33:27Z
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 2
+--- special
+🌐 GLOBAL MARKETS OVERNIGHT
+
+🟢 S&P 500: 7,744 (+0.28%)
+🟢 Nasdaq: 26,550 (+0.27%)
+🟢 Dow: 52,475 (+0.19%)
+🔴 FTSE 100: 10,686 (-0.75%)
+🟢 Nikkei: 64,667 (+2.21%)
+🔴 Brent oil: $110.85 (-2.66%)
+
+🟢 up · 🔴 down · vs previous close
+#Markets #StockMarket
+published to: website, Instagram Story
+89/171 sources returned news, 841 recent items
+192 new trusted stories, posting up to 1 this run
+---
+🇺🇸 FED KEEPS INTEREST RATES STEADY AT 3.75% TO 4%
+
+📌 The US central bank kept interest rates unchanged in a 10-2 vote.
+📊 $BTC
+💡 Higher rates usually make loans costlier.
+#Fed
+
+📍 US · 📰 Cointelegraph.com News · ✅ 3 sources
+https://cointelegraph.com/markets/bitcoin-faces-fresh-pressure-after-feds-hawkish-rate-hold-analysts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly backed by the cited sources
+  Groq GPT-OSS 20B: PASS - All claims are supported by the provided sources.
+  Groq Qwen: PASS - All factual claims regarding the interest rate range (3.75%-4%), the vote count (10-2), and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-b301981d9d91
+done: 2 post(s) this run
 === run 2026-10-28T23:12:39Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1442,59 +1498,3 @@ published to: website, Instagram Story
 
 📌 India's market regulator issued a payment order against Arrow Asia Stock Broking.
 💡 Regulatory orders help enforce market rules and protect investors.
-#SEBI
-
-📍 India · 📰 SEBI · 🏛️ Official
-https://www.sebi.gov.in/enforcement/recovery-proceedings/oct-2026/sebi-order-for-compliance-general-remittance-order-dated-22-10-2026-in-recovery-certificate-no-3883-of-2021-issued-against-arrow-asia-stock-broking-limited-in-the-matter-of-kausambi-vanijya-ltd-_105384.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the SEBI order source
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the entity, action, and source are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-3df693ef479a
-done: 2 post(s) this run
-=== run 2026-10-25T08:02:35Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 12
---- special
-📚 FINANCE WORD OF THE DAY
-
-🔤 Repo Rate
-💬 The interest rate at which a central bank lends money to banks.
-🧠 When the RBI raises it, loans usually get costlier for everyone.
-
-#LearnFinance #FinanceHubW
-published to: website, Instagram Story
-70/171 sources returned news, 536 recent items
-149 new trusted stories, posting up to 2 this run
----
-🇮🇳 FOREIGN INVESTORS PULL RS 48,056 CR FROM INDIA STOCKS
-
-📌 Foreign investors pulled Rs 48,056 crore from Indian equities in October so far.
-📊 FPI outflows (Oct): Rs 48,056 crore
-
-📍 India · 📰 Economic Times · ✅ 4 sources
-https://economictimes.indiatimes.com/markets/stocks/news/fpis-withdraw-rs-48056-cr-from-equities-in-oct-so-far-amid-elevated-crude-oil-prices/articleshow/135185267.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (amount, timeframe, location, source) are directly confirmed by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
-  Groq Qwen: PASS - All factual claims regarding the amount (Rs 48,056 crore), entity (FPIs/Foreign investors), action (withdrawal/outflow), timeframe (October so far), and source attribution are directly supported by th
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-915d11fa890b
----
-🇺🇸 TRUMP HINTS AT US-IRAN DEAL OR ATTACK
-
-📌 Donald Trump hinted at a potential deal or military attack involving Iran.
-💡 Global political tensions can impact oil and stock markets.
-#US
-
-📍 US · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/stock-market-news/trump-hints-at-an-iran-attack-or-deal-impact-on-india-stock-market-sensex-nifty-gold-decoded-top-10-stocks-to-watch-11792906667676.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The 📍 location (US) does not match the Indian source (Livemint), violating the required source-location consistency.
-  -> blocked by fact-check
----
-🌐 US FED, EARNINGS AND OIL TO DRIVE MARKETS THIS WEEK
-
-📌 Investors are watching US Fed decisions, company earnings, and crude oil prices.
-💡 Oil prices can affect everyday transportation and goods costs.
