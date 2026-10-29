@@ -1,3 +1,7 @@
+=== run 2026-10-29T05:17:12Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 0
+daily cap reached, nothing to do this run
 === run 2026-10-29T03:17:24Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
@@ -1494,7 +1498,3 @@ https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html
   Groq GPT-OSS: PASS - All factual statements about French bond yields reaching a 24‑year high due to unrest are directly confirmed by the cited article.
   Groq GPT-OSS 20B: FAIL - Source name does not match the actual CNBC source
   -> blocked by fact-check
----
-🌐 MARKETS FOCUS ON US FED DECISION AND EARNINGS THIS WEEK
-
-📌 Investors are watching company results, Fed interest rate news, and oil prices.
