@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "ASIA",
+   "text": "BYD posted a net profit of 10 billion yuan, which is 1.5 billion US dollars, up 28%."
+  },
+  {
+   "name": "AFRICA",
+   "text": "South Africa's annual economic production reached R8trn following a statistical rebasing."
+  },
+  {
+   "name": "EUROPE",
+   "text": "The European Central Bank, the central bank for the euro area, kept its interest rates unchanged."
+  }
+ ],
+ "story_ids": [
+  5,
+  1,
+  11,
+  4,
+  29,
+  33,
+  23
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 5,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 1,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 11,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 4,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 29,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 33,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 23,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "U.S. economy update",
+ "cover_dek": "New figures show growth and rising inflation in the United States.",
+ "big_headline": "Third-quarter U.S. gross domestic product increases a better-than-expected 3.4%.",
+ "big_body": "Gross domestic product, the total value of goods and services produced, rose as September inflation, the rate at which prices increase, accelerated.",
+ "big_stat": "3.4%",
+ "big_stat_l1": "Third-quarter U.S. GDP",
+ "big_stat_l2": "growth rate reported",
+ "pol_headline": "Rates stay the same",
+ "pol_body": "The US central bank kept interest rates unchanged. Traders are now pricing in a 78% chance of a rate hike in December.",
+ "pol_stat": "78%",
+ "pol_stat_l1": "chance traders price in",
+ "pol_stat_l2": "for a rate hike in December",
+ "biz_headline": "Federal Reserve holds rate",
+ "biz_body": "It kept its target range at 3.75% to 4% on Oct. 28. Two officials dissented, favoring an immediate quarter-point hike.",
+ "biz_stats": [
+  {
+   "value": "3.75%",
+   "name": "Target range",
+   "note": "low end of rate"
+  },
+  {
+   "value": "4%",
+   "name": "Target range",
+   "note": "high end of rate"
+  }
+ ],
+ "up_headline": "Europe: Central bank chief to leave",
+ "up_body": "Christine Lagarde will step down on 7 February 2027, nine months before the end of her eight-year term at the European Central Bank.",
+ "cover_photo": "dollars",
+ "big_photo": "nyse",
+ "pol_photo": "boe",
+ "biz_photo": "refinery",
+ "up_photo": "ecb",
+ "sources_used": [
+  "All News",
+  "Business",
+  "Cointelegraph.com News",
+  "Companies",
+  "CryptoSlate",
+  "ECB",
+  "Economy",
+  "Equiti Global"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−0.5%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,703."
+   },
+   {
+    "chg": "−0.4%",
+    "color": "#B4280E",
+    "text": "<strong>Gold</strong> fell to about $4,035 an ounce."
+   },
+   {
+    "chg": "−1.7%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $79,890."
+   }
+  ]
+ },
+ "status": "published"
+}
