@@ -1,3 +1,18 @@
+=== run 2026-10-29T03:17:24Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 1
+--- special
+🌅 MORNING BRIEF | 3 things to know today
+
+1️⃣ 🇺🇸 FED KEEPS INTEREST RATES STEADY AT 3.75% TO 4%
+2️⃣ 🇬🇧 UK BUDGET TESTS BOND MARKETS
+3️⃣ 🇺🇸 US STOCKS WAIT FOR FED DECISION AND TECH EARNINGS
+
+Follow @FinanceHubW to understand money, every day
+published to: website, Instagram Story
+90/171 sources returned news, 884 recent items
+224 new trusted stories, posting up to 0 this run
+done: 1 post(s) this run
 === run 2026-10-29T01:33:27Z
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
@@ -1483,18 +1498,3 @@ https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html
 🌐 MARKETS FOCUS ON US FED DECISION AND EARNINGS THIS WEEK
 
 📌 Investors are watching company results, Fed interest rate news, and oil prices.
-💡 Central bank rate decisions usually affect borrowing costs for households.
-
-📍 Global · 📰 NDTV Profit
-https://news.google.com/rss/articles/CBMitwFBVV95cUxQeURubTZrNGdCc3dlR3lhZ3V4RUU0cW9HMnlNNk81Z0NZQ2ZNRVJuX0tHM3Q3aTZKQ2hMNVd6TTF6aVZQMVZsQXZSV0JSaDdDSTE2aHcySno4WnNncnBiR2pSMVZySDlKZkpvTE9KOVN0emhUYVI4V1hZRHIyX1ZZZ2lFSks1N2N1eVFUVXozWC1kalc1WDUxZ3FGYUpnVVlZa0hJVGxOMnpldEV4Wm1YOTVUZ05fTFXSAb8BQVVfeXFMTm9TaTdYYkdHVlE2eGRKY3JhbjhucklEWUVCaDZPcFJBeVlrQ0dJc2c5NGZ1d0hyYU04M1J0Z1hGY2lWaHFsZERyNmlBblFkWEFlWkM0c2VRU2dEbXY2X3N0TVJiT1IxZzRTM1ZFSWVkdlRnR2pIU2RicmFTM0RVSVNuTlZsQ1UwOWFZNWZSYVZnNzRsR0Vaa2hMRVFkSHEtdHhVRFduTzR5LV9fNXc1bEJQOUVHOTlORTZCdlMwZE0?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the NDTV Profit article and contain no unsupported specifics.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the NDTV Profit article.
-  Groq Qwen: PASS - All factual claims regarding the focus on earnings, Fed policy, and oil prices are directly supported by the source title, and the general explanation in the 💡 line is accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-6e17eef491a1
----
-🇮🇳 SEBI ISSUES RECOVERY ORDER AGAINST ARROW ASIA BROKING
-
-📌 India's market regulator issued a payment order against Arrow Asia Stock Broking.
-💡 Regulatory orders help enforce market rules and protect investors.

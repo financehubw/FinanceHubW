@@ -2,6 +2,15 @@
  "items": [
   {
    "type": "briefing",
+   "date": "2026-10-28",
+   "label": "Wed 28 Oct 2026",
+   "title": "Daily briefing · 9 stories",
+   "base": "media/digests/2026-10-28-daily-1793243845/",
+   "first": 0,
+   "slides": 11
+  },
+  {
+   "type": "briefing",
    "date": "2026-10-27",
    "label": "Tue 27 Oct 2026",
    "title": "Daily briefing · 10 stories",
