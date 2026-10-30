@@ -1,0 +1,47 @@
+{
+ "id": "news_20261030",
+ "title": "Tokyo inflation rises to 2.8% in october (today's money news)",
+ "thumb": "*TODAY:* Tokyo inflation rises to 2.8% in october",
+ "thumb_photo": "tokyo skyline",
+ "thumb_tag": "NEWS",
+ "caption": "Tokyo inflation (price growth) rose to 2.8% in October, above expectations.\nTokyo CPI: 2.8% (exp 2.7%)",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "Japan,  investingLive,  2 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. Tokyo inflation rises to 2.8% in october.",
+   "chat": "Tokyo inflation rises to 2.8% in october."
+  },
+  {
+   "say": "Tokyo inflation (price growth) rose to 2.8% in October, above expectations.",
+   "photo": "tokyo skyline",
+   "clip": {
+    "kicker": "Japan",
+    "year": "30 Oct",
+    "text": "Tokyo inflation rises to 2.8% in october"
+   }
+  },
+  {
+   "say": "Tokyo CPI: 2.8% (exp 2.7%).",
+   "photo": "tokyo skyline",
+   "big": "2.8% (exp 2.7%",
+   "sub": "Tokyo CPI"
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}
