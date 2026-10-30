@@ -1,3 +1,127 @@
+=== run 2026-10-30T06:29:41Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+95/171 sources returned news, 1032 recent items
+253 new trusted stories, posting up to 3 this run
+---
+🌐 GOLD DROPS AS US RATE HIKE BETS RISE
+
+📌 Gold fell 0.6% to $3,997.39 an ounce as US inflation data raised rate hike bets.
+📊 Spot gold: $3,997.39/oz (-0.6%)
+
+📍 Global · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 6 sources
+https://www.thehindubusinessline.com/markets/gold/gold-slips-as-higher-oil-us-inflation-data-bolster-fed-hike-bets/article71643522.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and context are directly confirmed by the cited Hindustan Business Line article.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the price drop, specific values, and the cause (US inflation/rate hike bets) are directly supported by the primary source.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-super-vl:free returned an empty reply)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-879953befce9
+---
+🇮🇳 INDIAN RUPEE RISES 7 PAISE AGAINST US DOLLAR
+
+📌 The Indian rupee gained 7 paise to trade at 95.19 against the US dollar.
+📊 USD/INR: 95.19
+💡 A stronger local currency makes buying imported goods cheaper.
+
+📍 India · 📰 Economic Times · ✅ 8 sources
+https://economictimes.indiatimes.com/markets/forex/rupee-rises-7-paise-to-95-19-against-us-dollar-in-early-trade/articleshow/135343759.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six sources are provided, making that factual claim unsupported.
+  -> blocked by fact-check
+---
+🇮🇳 OIL TOPS $116 AS INDIAN STOCKS FALL
+
+📌 Global oil prices crossed $116 a barrel, pushing Indian stock markets lower.
+📊 Oil: >$116 per barrel
+
+📍 India · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/markets/stocks/news/sensex-nifty-turn-lower-broader-markets-crash-as-oil-tops-116/barrel-what-lies-ahead/articleshow/135345897.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about oil price > $116 and Indian market decline are directly supported by the cited Economic Times article and the Apa.az report.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
+  Groq Qwen: PASS - All factual claims regarding oil prices exceeding $116, the decline in Indian stock markets, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-740648b56149
+---
+🇮🇳 INDIAN STOCKS RISE ON IT GAINS
+
+📌 Sensex and Nifty rose today, driven by gains in tech stocks.
+💡 Rising stock markets can increase the value of investments.
+#Nifty
+
+📍 India · 📰 TradingView · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi-gFBVV95cUxNTloxZVd5Tnh3MF8wZTVieklvbU9Gazhfb1V5Q19GcER1Q3dBVlVJR2xhNGpnOHRQZDR6SVlrckZhYUtobEl3MHdZcG1zMXpCQjMySTdhcjBxdUhuVmRmejlHWWJ5bjFwdDVPN2ZtYkRyZGlfY2s4cC1uUUNNU24xLV9FMk5mc08zSXZteXk2MDExcWx1UzZqY2VlWHFrWVM4ZTFfcnB0QWlieGtzVjNMUHBpcXNLbkNJSTBGRzdGX2d0MHFLSURLR1RUUnp3MXRGNG5uNWQ3MDdMNkhFcGJqanc0RnBRX2VWd1gwUGlIekRsMlkxdEJ0eHlB?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are confirmed by the Rediff and TradingView articles, and the general explanation is accurate.
+  Groq GPT-OSS 20B: FAIL - Source attribution does not match the claim; the rise in Sensex and Nifty is reported by Rediff, not TradingView.
+  -> blocked by fact-check
+---
+🇯🇵 JAPAN INFLATION HITS 2% TARGET AFTER 13 YEARS
+
+📌 Japan reached its 2% inflation target after 13 years, but held interest rates steady.
+📊 Inflation target: 2%
+
+📍 Japan · 📰 Business · ✅ 12 sources
+https://www.euronews.com/2026/10/30/bank-of-japan-says-inflation-hit-2-target-after-13-years
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Japan hitting a 2% inflation target after 13 years and holding rates steady are directly supported by the cited Euronews Business article.
+  Groq GPT-OSS 20B: FAIL - The claim of 12 sources is unsupported by the listed references.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS OPEN FLAT NEAR 74,164
+
+📌 Indian stock markets opened nearly flat, with the Sensex up just 0.02% at 74,164.
+📊 Sensex: 74,164 (+0.02%)
+#Sensex
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
+https://www.thehindubusinessline.com/markets/markets-open-flat-amid-tech-sell-off-crude-surge-trent-leads-nifty-gainers/article71643564.ece
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post says the Sensex opened near 74,164, but the source states it opened at 74,199.69
+  -> blocked by fact-check
+---
+🌐 BREAKING: BINANCE SUFFERS $6.3 BILLION HACK
+
+📌 Hackers stole $6.3 billion from Binance, which has now frozen withdrawals.
+📊 Stolen funds: $6.3 billion
+
+📍 Global · 📰 Business · ✅ 6 sources
+https://www.scmp.com/business/cryptocurrency/article/3372664/binance-pledges-cover-losses-after-us6-billion-crypto-hack
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, amounts, and the withdrawal freeze are directly confirmed by the SCMP source.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
+  Groq Qwen: FAIL - The source URL and title explicitly state a US$6 billion hack, while the post claims $6.3 billion, creating a direct contradiction with the provided source metadata.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS RISE AS NIFTY TOUCHES 23,000
+
+📌 Indian stock markets rose today, with the key Nifty 50 index touching 23,000 points.
+📊 Nifty 50: 23,001 (+0.28%)
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
+https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-30th-october-2026/article71640574.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and market direction are directly supported by the cited source.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources but only cites one, which is unsupported.
+  -> blocked by fact-check
+---
+🇪🇺 ECB MAY PAUSE INTEREST RATE HIKES AFTER DECEMBER
+
+📌 European Central Bank may raise rates by 0.25% in December, then pause.
+📊 Expected rate hike: +0.25%
+
+📍 Europe · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-ecb-may-pause-rate-hikes-after-december-amid-growth-risks/articleshow/135346378.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about a 0.25% December hike and subsequent pause are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
+  Groq Qwen: PASS - All factual claims regarding the ECB's expected 0.25% rate hike in December and subsequent pause are directly supported by the source, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6c124a1d12cb
+done: 3 post(s) this run
 === run 2026-10-30T00:16:24Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1374,127 +1498,3 @@ daily cap: 12, room left in the last 24h: 5
 
 📍 Global · 📰 Economic Times · ✅ 6 sources
 https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-rise-rs-700/10-gram-silver-gains-rs-1500/kg-ahead-of-us-fed-meet-key-levels-to-track-today/articleshow/135204122.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The location tag 📍 Global does not match the source, which reports Indian market prices
-  -> blocked by fact-check
----
-🌏 ASIAN STOCKS DROP AHEAD OF CENTRAL BANK MEETINGS
-
-📌 Asian stocks fell as investors wait for key central bank interest rate decisions.
-
-📍 Asia · 📰 Economic Times · ✅ 8 sources
-https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-bond-yields-edge-higher-ahead-of-key-central-bank-meetings/articleshow/135204344.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim of "✅ 8 sources" is not supported by the listed sources.
-  -> blocked by fact-check
----
-🌐 FED, ECB AND BOJ TO DECIDE ON INTEREST RATES THIS WEEK
-
-📌 The US, Europe, and Japan central banks announce rate decisions this week.
-
-📍 Global · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 2 sources
-https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about Fed, ECB, and BOJ rate decisions this week are directly supported by the CoinDesk article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the CoinDesk source.
-  Groq Qwen: FAIL - The draft claims there are 2 sources, but only one unique source (CoinDesk) is provided in the list.
-  -> blocked by fact-check
----
-🇮🇳 GOLD PRICES FALL AHEAD OF DHANTERAS AND DIWALI
-
-📌 Gold prices are under pressure from a strong US dollar and high bond yields.
-💡 A stronger US dollar usually puts pressure on global gold prices.
-#Gold
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/commodities/why-is-gold-price-under-pressure-ahead-of-dhanteras-diwali-what-should-interested-buyers-do-expertss-views-target-11793002314682.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about gold price falling, pressure from a strong US dollar and high bond yields, and the timing before Dhanteras/Diwali are directly supported by the Livemint article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Mint source.
-  Groq Qwen: PASS - All factual claims regarding the pressure on gold prices due to the strong US dollar and high bond yields are directly supported by the source text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-aea1812cec1a
----
-🇮🇳 INDIAN BONDS GAIN AS OIL PRICES DROP
-
-📌 Indian government bond prices rose after global oil prices fell.
-💡 Lower oil prices can help reduce inflation for oil-importing nations.
-#Bonds
-
-📍 India · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/markets/bonds/oil-us-treasuries-prop-up-indian-bonds/articleshow/135203917.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about Indian bond price rise and oil price drop are directly supported by the Economic Times article, and the general inflation explanation is accurate.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - The post accurately reflects the source's report that Indian government bond prices rose following a decline in oil prices, and the general explanation regarding inflation is correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-48c0de5be0c5
----
-🇪🇺 ECB EXPECTED TO HOLD INTEREST RATES AT 2.5%
-
-📌 The European Central Bank is expected to keep its benchmark rate at 2.5%.
-📊 ECB Rate: 2.5%
-💡 Higher interest rates usually make loans and mortgages more expensive.
-#ECB
-
-📍 Europe · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/ecb-meeting-five-key-questions-on-rates-inflation-and-lagardes-exit/articleshow/135206869.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the expected rate hold at 2.5%, the location, and the source are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-308690092564
-done: 3 post(s) this run
-=== run 2026-10-26T07:28:41Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-26T05:10:58Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-26T03:07:56Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-26T01:24:07Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-25T22:55:13Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-25T20:58:22Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-25T19:03:16Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-25T16:59:12Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-25T14:59:07Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
---- special
-🇮🇳🌍 Nifty, Sensex, Wall Street, crypto and RBI/Fed policy, explained simply.
-
-New videos on FinanceHubW 👇
-https://www.youtube.com/@FinanceHubW
-published to: website, Instagram Story
-75/171 sources returned news, 534 recent items
-134 new trusted stories, posting up to 1 this run
-skip (off-topic or nothing new): Nifty Outlook for October 26: 22,200 key support as crude oil tops $117; Fed policy, earnings in focus
-skip (off-topic or nothing new): Earnings flood, Fed meeting will test rickety AI market rally
----
-🇺🇸 OIL SURGE PUTS FED POLICY IN FOCUS
-
-📌 Rising oil prices test gold and silver as markets await the Fed decision (the US central bank).
-#Gold
-
-📍 US · 📰 Cnbc Tv18 · ✅ 2 sources
