@@ -1,3 +1,96 @@
+=== run 2026-10-30T13:31:45Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 5
+102/171 sources returned news, 1171 recent items
+284 new trusted stories, posting up to 3 this run
+---
+🇮🇳 GOLD PRICES DROP SHARPLY IN INDIA
+
+📌 Gold fell below ₹1.42 lakh per 10 grams as silver dropped ₹5,400.
+📊 MCX Gold: Below ₹1.42 lakh
+💡 Lower gold prices can make buying jewelry cheaper for shoppers.
+#Gold
+
+📍 India · 📰 Mint · ✅ 5 sources
+https://www.livemint.com/market/commodities/india-gold-price-october-30-mcx-rate-crashes-below-rs-1-42-lakh-ahead-of-dhanteras-whats-triggering-selloff-11793360090751.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numeric and factual statements are directly backed by the listed sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: FAIL - The source states MCX gold dropped below ₹1.43 lakh, while the post claims it fell below ₹1.42 lakh, which is a specific numerical discrepancy not directly supported by the primary source text provide
+  -> blocked by fact-check
+---
+🇮🇳 RUPEE GAINS 33 PAISE AGAINST US DOLLAR
+
+📌 The Indian rupee rose to close at 94.93 against the US dollar.
+📊 USD/INR: 94.93 (+33 paise)
+💡 A stronger local currency can make imported goods cheaper.
+#Rupee
+
+📍 India · 📰 Economic Times · ✅ 4 sources
+https://economictimes.indiatimes.com/markets/forex/rupee-rises-33-paise-to-close-at-94-93-against-us-dollar/articleshow/135357047.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, currency rate, gain amount, source attribution, and general explanation are directly supported by the cited Economic Times article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - The post's claims regarding the rupee closing at 94.93 with a 33-paise gain are directly supported by the Economic Times and another source, and the general explanation is accurate.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-ef3b3159211c
+skip (off-topic or nothing new): Gold rate, silver price today: Why is gold price down today? When will gold recover from its worst trading
+---
+🇮🇳 NIFTY RECLAIMS 23,000 MARK
+
+📌 Indian shares rose as tech and drug company stocks led the market higher.
+📊 Nifty 50: 23,053 (+0.51%)
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 6 sources
+https://www.thehindubusinessline.com/markets/nifty-reclaims-23000-to-end-october-on-a-positive-note-it-and-pharma-lead-midcaps-bleed/article71644850.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
+  Groq GPT-OSS 20B: FAIL - Source name does not match the actual source article
+  -> blocked by fact-check
+---
+🇮🇳 INDIA BONDS FALL FOR FOURTH MONTH
+
+📌 Indian government bonds fell for the fourth month in a row as oil prices rose.
+💡 Higher bond yields (returns paid to bond holders) usually mean higher borrowing costs.
+#Bonds
+
+📍 India · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/bonds/india-bonds-buckle-for-fourth-straight-month-on-oils-climb/articleshow/135361502.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source.
+  Groq Qwen: FAIL - The post claims bond yields rose (implied by 'bonds fall' and the explanation), but the source explicitly states there was a 'decline in bond yields'.
+  -> blocked by fact-check
+---
+🇯🇵 YEN STEADIES AHEAD OF RATE DECISION
+
+📌 The Japanese yen holds steady as people wait for the central bank's next move.
+#Forex
+
+📍 Japan · 📰 IDNFinancials · ✅ 5 sources
+https://news.google.com/rss/articles/CBMirwFBVV95cUxQVTNDYkZ0RG90ekN1NjJMQUc2ZGNGSENYRWdQSXViYWlHMlU2OUIxWkFtYURmdnhPU09MbHJrbmpUcTJSYUZGQjBxNE5hbjViVlBqeFltZ2JJc2ZwdkRrVVlaT1h4Zi1uMnNjcVNzWVBiSFhwUk5Fa2JJMEYtQ0dQRlRkdWVqeUtmei16ZFhfYXpES3dQLWNZMGxaOTNDbXVsUlptMi1iYzIzSnVJTG1R?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the yen holding steady ahead of the BOJ decision are directly supported by the source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
+  Groq Qwen: PASS - The post accurately reflects the source headline regarding the yen steadying ahead of the BOJ decision, with correct location and source attribution.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-53487032465d
+---
+🇮🇳 STOCKS RISE FOR SECOND DAY
+
+📌 Indian stock markets went up for the second day in a row.
+📊 Sensex: +300 points
+💡 Higher stock values usually mean more confidence in businesses.
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
+https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-30th-october-2026/article71640574.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (second‑day rise, +300 Sensex points, location) are confirmed by the cited articles.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the market direction, duration, and specific Sensex gain are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-5496fc0ae0bd
+done: 3 post(s) this run
 === run 2026-10-30T06:29:41Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1405,96 +1498,3 @@ https://www.straitstimes.com/business/anthropic-opens-books-on-ais-explosive-gro
 📍 US · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 8 sources
 https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink
   written by Gemini
-  Groq GPT-OSS: FAIL - The $80.7 billion loss figure is not explicitly supported by the cited sources, which mention an $80 billion loss.
-  -> blocked by fact-check
----
-🇺🇸 ANTHROPIC FILES FOR US IPO
-
-📌 AI firm Anthropic filed for an IPO to list on Nasdaq under the ticker symbol ANT.
-📊 Revenue: $1.2B+
-📊 $ANT
-#IPO
-
-📍 US · 📰 Decrypt · ✅ 8 sources
-https://decrypt.co/381818/anthropic-makes-ipo-filing-public-plans-nasdaq-listing-under-ant
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are backed by the cited Decrypt article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the company, exchange, ticker, and revenue figure are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-a0c9134be618
-done: 3 post(s) this run
-=== run 2026-10-26T11:17:25Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 5
---- special
-🌆 MARKET WRAP | Today's top stories
-
-1️⃣ 🇮🇳 GOLD PRICES FALL AHEAD OF DHANTERAS AND DIWALI
-2️⃣ 🇮🇳 INDIAN BONDS GAIN AS OIL PRICES DROP
-3️⃣ 🇪🇺 ECB EXPECTED TO HOLD INTEREST RATES AT 2.5%
-
-Verified finance news, explained simply. Follow @FinanceHubW
-published to: website, Instagram Story
-101/171 sources returned news, 1182 recent items
-295 new trusted stories, posting up to 3 this run
----
-🇺🇸 US STOCK FUTURES RISE AHEAD OF FED DECISION
-
-📌 US stock futures are higher as traders wait for the central bank rate decision.
-📊 Dow futures: Up
-💡 Interest rate decisions affect borrowing costs for everyone.
-
-📍 US · 📰 www.tmgm.com · ✅ 4 sources
-https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUFBHTWtXWWRKNGRoZWJzSTB3SE5DTmR1S0p4SU9zTHU1X05wNHlBM2dHd3VVd3JzYkdKbXRrQ21ITjJOMnNPVWVRNUIwNGhXc3JhV0pEU2s2QjREaFdsdGpLV1NiR214ZXpYUi1mYXBQcVltVzUtSnRZWEUwdmJrUnhJcWdxRVFTVU53dGpyb1REa3hqTl9nMVF0TExxak1haVk3VjZPZk5jUzctZGwta1hZVHJXdFZncXp3SUREVllpS1BVcjQ2bG50THdlMkFWYlFZZ3V3?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly backed by the listed sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
-  Groq Qwen: PASS - All factual claims regarding the rise in US stock futures and the context of the Fed decision are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-8f837082e74d
----
-🌐 ELON MUSK WARNS HUNDREDS OF AI FIRMS FACE COLLAPSE
-
-📌 Elon Musk says over 200 AI cloud computing firms face failure amid heavy debts.
-#AI
-
-📍 Global · 📰 The Guardian · ✅ 4 sources
-https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about Elon Musk warning over 200 AI cloud firms of collapse and debt are directly supported by the Guardian source
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding Elon Musk's warning about over 200 AI cloud firms facing failure due to debt are supported by the sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-1115fcddb437
-skip (off-topic or nothing new): Sterling drops against euro and dollar ahead of UK budget
----
-🇨🇦 BANK OF CANADA EXPECTED TO HIKE RATES
-
-📌 Economists expect the Bank of Canada to raise interest rates this week due to energy inflation.
-💡 Higher rates usually make loans costlier.
-#Canada
-
-📍 Canada · 📰 Reuters · ✅ 7 sources
-https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUXpOXzVmSjQ1YVpWOEdvN2ZtR2xyVmFDTTJxZzhqekRPVGRaVzl3QUV4bFFQYjZUckk0MExrRGZYbUNPd3czSV9yQVNORlFJc19rMm03T3BoNHhVNkRtTnRQckdpM0Q4MUFscWlzU1gtYVhrSUY0SjY1UlMxby00YXROUlJleDc4cXdBS2xFTkJvSHQwTGpwVkN5aVpqZ1dVM081dk9qM3dGSy05Z2kxaGU0TlctSXVMQUpBaGlVckQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the expected rate hike, timing, and cause are directly supported, and the general explanation about higher rates is accurate.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
-  Groq Qwen: PASS - All factual claims regarding the Bank of Canada's expected rate hike due to energy inflation are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-e66257aa4227
-done: 4 post(s) this run
-=== run 2026-10-26T09:22:59Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 5
-98/171 sources returned news, 1149 recent items
-265 new trusted stories, posting up to 3 this run
----
-🌐 GOLD PRICES RISE AS OIL COSTS FALL
-
-📌 Gold rose Rs 700 per 10g as oil prices fell before the US Fed decision.
-📊 Gold: +Rs 700/10g
-💡 Lower oil prices usually help reduce inflation (the rise in prices).
-
-📍 Global · 📰 Economic Times · ✅ 6 sources
-https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-rise-rs-700/10-gram-silver-gains-rs-1500/kg-ahead-of-us-fed-meet-key-levels-to-track-today/articleshow/135204122.cms
