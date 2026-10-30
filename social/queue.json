@@ -2085,6 +2085,98 @@
     "S&P Dow Jones Indices (index definition)",
     "S&P 500 ETF (SPY) price history, Yahoo Finance, at render time (price only, no dividends)"
    ]
+  },
+  {
+   "file": "compound_1_snowball.mp4",
+   "title": "Compound interest explained in 20 seconds | Compound Interest #1",
+   "caption": "You earn interest on your money. Next year, you earn interest on that interest too.\nAt ten percent a year, one thousand dollars becomes about two thousand five hundred in ten years.\nIn thirty years, it's about seventeen thousand four hundred. Same thousand dollars. Just more time.",
+   "tags": [
+    "#compoundinterest",
+    "#investing",
+    "#money",
+    "#personalfinance",
+    "#wealth",
+    "#finance"
+   ],
+   "comment": "Part 2: the rule of 72. Follow so you don't miss it 👇",
+   "thumb": "Compound interest = *snowball*",
+   "thumb_photo": "snowball",
+   "thumb_tag": "COMPOUND #1",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-30",
+   "sources": [
+    "Arithmetic: 1000 × 1.1^10 = 2,594; 1000 × 1.1^30 = 17,449 (illustrative rate, not a promised return)"
+   ]
+  },
+  {
+   "file": "compound_2_rule72.mp4",
+   "title": "The rule of 72: how fast your money doubles | Compound Interest #2",
+   "caption": "Divide seventy-two by your yearly return. That's roughly how many years it takes to double.\nAt six percent, about twelve years. At nine percent, about eight. At twelve percent, about six.\nIt works backwards too. Inflation at three percent halves your cash's value in about twenty-four years.",
+   "tags": [
+    "#compoundinterest",
+    "#investing",
+    "#money",
+    "#personalfinance",
+    "#wealth",
+    "#finance"
+   ],
+   "comment": "Part 3: why starting early beats starting big 👇",
+   "thumb": "Your money *doubles* in…",
+   "thumb_photo": "calculator",
+   "thumb_tag": "COMPOUND #2",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-30",
+   "sources": [
+    "Rule of 72 (standard approximation for doubling time)"
+   ]
+  },
+  {
+   "file": "compound_3_start_early.mp4",
+   "title": "Start at 25 or 35? The 10-year gap | Compound Interest #3",
+   "caption": "Two friends invest one hundred dollars a month at eight percent a year until sixty-five.\nThe one who starts at twenty-five ends with about three hundred and fifty thousand dollars.\nThe one who starts at thirty-five ends with about one hundred and fifty thousand.",
+   "tags": [
+    "#compoundinterest",
+    "#investing",
+    "#money",
+    "#personalfinance",
+    "#wealth",
+    "#finance"
+   ],
+   "comment": "How old were you when you started? 👇",
+   "thumb": "10 years late = *half the money*",
+   "thumb_photo": "young people city",
+   "thumb_tag": "COMPOUND #3",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-30",
+   "sources": [
+    "Arithmetic: future value of $100/month at 8%/yr compounded monthly (illustrative rate, not a promised return)"
+   ]
+  },
+  {
+   "file": "realestate_vs_stocks.mp4",
+   "title": "Real estate vs stocks: $10,000 in 2010, who won?",
+   "caption": "Real estate here means a fund that owns lots of US property. Stocks means the S&P 500.\nHere's how they did, year by year.\nPrice growth only. Real estate funds pay big dividends, which this leaves out, so it narrows the gap.",
+   "tags": [
+    "#realestate",
+    "#stocks",
+    "#investing",
+    "#reits",
+    "#money",
+    "#versus"
+   ],
+   "comment": "Team property or team stocks? 👇",
+   "thumb": "Property vs stocks: *who won?*",
+   "thumb_photo": "house for sale",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-30",
+   "sources": [
+    "Vanguard Real Estate ETF (VNQ) and SPDR S&P 500 ETF (SPY) price history, Yahoo Finance, at render time"
+   ]
   }
  ]
 }
