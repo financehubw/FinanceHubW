@@ -52,6 +52,14 @@ def next_item() -> dict | None:
     ready = [i for i in items if i["file"] not in done and (SHORTS / i["file"]).exists()]
     if not ready:
         return None
+    import datetime as _dt
+    today = f"news_{_dt.datetime.utcnow():%Y%m%d}.mp4"
+    news = [i for i in ready if i["file"] == today]
+    if news:                       # today's news Short always goes out at the next slot, while it's fresh
+        return news[0]
+    ready = [i for i in ready if not i["file"].startswith("news_")]   # never post a stale news Short
+    if not ready:
+        return None
     for item in ready[:6]:
         if not last or item.get("thumb_tag", "") != last:
             return item

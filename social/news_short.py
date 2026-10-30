@@ -43,7 +43,7 @@ def script(p: dict) -> dict:
     if raw.isupper():
         ws = raw.split()
         head = " ".join(w if w in KEEP else (w.capitalize() if i == 0 else w.lower()) for i, w in enumerate(ws))
-        head = re.sub(r"\b(fed|nvidia|apple|tesla|china|japan|europe|britain|germany|india|bitcoin|amazon|microsoft|google|meta|trump|powell|warsh)\b",
+        head = re.sub(r"\b(fed|nvidia|apple|tesla|china|japan|tokyo|europe|britain|germany|india|bitcoin|amazon|microsoft|google|meta|trump|powell|warsh|january|february|march|april|may|june|july|august|september|october|november|december|monday|tuesday|wednesday|thursday|friday)\b",
                       lambda m: m.group(1).capitalize(), head)
     else:
         head = raw
