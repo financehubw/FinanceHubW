@@ -1,3 +1,35 @@
+=== run 2026-10-30T19:40:26Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 5
+97/171 sources returned news, 864 recent items
+230 new trusted stories, posting up to 1 this run
+---
+🌐 BREAKING: BINANCE HIT BY RECORD $6.3B CRYPTO HACK
+
+📌 Binance suffered a record $6.3 billion hack, but says losses will be covered.
+📊 Impacted assets: $6.3 billion
+
+📍 Global · 📰 MarketWatch.com · ✅ 10 sources
+https://www.marketwatch.com/story/heres-when-binance-plans-to-reopen-after-whats-believed-to-be-the-largest-ever-6-3-billion-hack-d3cb8154?mod=mw_rss_topstories
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the MarketWatch source.
+  Groq GPT-OSS 20B: FAIL - The claim that the post is supported by 10 sources is unsupported by the provided list.
+  -> blocked by fact-check
+---
+🇺🇸 FED OFFICIAL CALLS FOR TWO MORE RATE HIKES
+
+📌 Fed official Logan says the US needs at least two more interest rate hikes.
+📊 Rate hikes requested: At least 2
+
+📍 US · 📰 FXStreet · ✅ 6 sources
+https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSE5RWlV4ZFlvU1RQOG9JdkN4TTBLbTNCZm03NEp4QngtenVNVzBuQkJKQXlOVXNmZVk2anhpOHVEcHdpSzVWYVluYm5zZ3RyTjVkS2dOY3U5THktVFdxR1FhWk9SWFo2YWJqXy1UY3FLS0luNWxCeU1sMm96NHIwdUNTWWJ5QzNxNFJ1dC1RM1NJekRhV0JtcXBQcGt0d1RFNG00RFdVOWI?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about Logan calling for at least two more rate hikes are directly supported by the cited FXStreet source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding Fed official Logan's call for at least two more rate hikes are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-69186c577df5
+done: 1 post(s) this run
 === run 2026-10-30T13:31:45Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 5
@@ -1466,35 +1498,3 @@ https://news.google.com/rss/articles/CBMizAFBVV95cUxQUGdRNzhjMDhlRU9iOGJjaU52Z2d
 published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-2d0a7258bcad
 ---
-🇺🇸 BITCOIN FALLS BELOW $80,000
-
-📌 Bitcoin price dropped under $80,000 as investors wait for a US central bank decision.
-📊 $BTC: Below $80,000
-
-📍 US · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 4 sources
-https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited articles
-  Groq GPT-OSS 20B: FAIL - The claim that Bitcoin fell below $80,000 is contradicted by the CoinDesk source, and the post lists four sources while only three actually support the claim.
-  -> blocked by fact-check
----
-🇺🇸 BREAKING: ANTHROPIC FILES FOR US IPO
-
-📌 AI firm Anthropic filed for a US IPO after making $16.29B in H1 2026 revenue.
-📊 H1 2026 Revenue: $16.29B
-
-📍 US · 📰 The Straits Times World News · ✅ 8 sources
-https://www.straitstimes.com/business/anthropic-opens-books-on-ais-explosive-growth-and-staggering-costs
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (IPO filing, US location, $16.29B H1 2026 revenue) are directly supported by the cited Straits Times article and other listed sources.
-  Groq GPT-OSS 20B: FAIL - Unsupported claim about number of sources
-  -> blocked by fact-check
----
-🇺🇸 BREAKING: AI GIANT ANTHROPIC FILES FOR IPO
-
-📌 AI firm Anthropic filed for an IPO (first stock sale), showing an $80.7B loss.
-📊 Anthropic 1H Loss: $80.7B
-
-📍 US · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 8 sources
-https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink
-  written by Gemini
