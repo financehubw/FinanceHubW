@@ -1,0 +1,58 @@
+{
+ "id": "mistakes_30s",
+ "title": "3 money mistakes in your 30s that are hard to undo",
+ "thumb": "Your 30s: *don't* do this",
+ "thumb_photo": "family house",
+ "thumb_tag": "MONEY MISTAKES",
+ "caption": "Mistake one. No emergency fund. One surprise bill becomes debt.\nMistake two. Buying the biggest house the bank will lend you, then having nothing left to invest.\nMistake three. No insurance while people depend on you.",
+ "comment": "What would you add to this list? 👇",
+ "tags": [
+  "#moneymistakes",
+  "#personalfinance",
+  "#money",
+  "#investing",
+  "#finance",
+  "#moneytips"
+ ],
+ "sources": [
+  "General personal-finance guidance (emergency fund of 3-6 months of expenses is a widely used rule of thumb)"
+ ],
+ "scenes": [
+  {
+   "say": "Which money mistakes in your thirties are hardest to undo?",
+   "chat": "Which money mistakes in your thirties are hardest to undo?"
+  },
+  {
+   "say": "Mistake one. No emergency fund. One surprise bill becomes debt.",
+   "photo": "savings jar",
+   "big": "3-6 months",
+   "sub": "of costs, a common target"
+  },
+  {
+   "say": "Mistake two. Buying the biggest house the bank will lend you, then having nothing left to invest.",
+   "photo": "house for sale",
+   "big": "House poor",
+   "sub": "all income goes to the home"
+  },
+  {
+   "say": "Mistake three. No insurance while people depend on you.",
+   "photo": "family",
+   "big": "Protect",
+   "sub": "the people who rely on you"
+  },
+  {
+   "say": "The rule. Build a cushion. Buy below your limit. Protect your family.",
+   "slide": [
+    "Build a cushion",
+    "Buy below your limit",
+    "*Protect your family*"
+   ]
+  },
+  {
+   "say": "What would you add to this list?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

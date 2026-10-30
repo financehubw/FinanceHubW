@@ -1,0 +1,66 @@
+{
+ "id": "mistakes_40s",
+ "title": "3 money mistakes in your 40s you can still fix",
+ "thumb": "Your 40s: *fix this now*",
+ "thumb_photo": "office desk",
+ "thumb_tag": "MONEY MISTAKES",
+ "caption": "Mistake one. Thinking it's too late to start. Even twenty years of steady investing can grow a lot.\nFor example, one thousand dollars in the S&P 500 in 2006 is now worth about {growth:SPY:2006-01-03}.\nMistake two. Paying for everyone else's goals before your own retirement.\nMistake three. Not knowing where your money goes each month.",
+ "comment": "How old were you when you started investing? 👇",
+ "tags": [
+  "#moneymistakes",
+  "#personalfinance",
+  "#money",
+  "#investing",
+  "#finance",
+  "#moneytips"
+ ],
+ "sources": [
+  "S&P 500 ETF (SPY) price history, Yahoo Finance, at render time (price only, no dividends)"
+ ],
+ "scenes": [
+  {
+   "say": "Is it too late to fix your money in your forties?",
+   "chat": "Is it too late to fix your money in your forties?"
+  },
+  {
+   "say": "Mistake one. Thinking it's too late to start. Even twenty years of steady investing can grow a lot.",
+   "photo": "calendar",
+   "big": "20 years",
+   "sub": "still a long time to compound"
+  },
+  {
+   "say": "For example, one thousand dollars in the S&P 500 in 2006 is now worth about {growth:SPY:2006-01-03}.",
+   "growth": {
+    "tick": "SPY",
+    "name": "S&P 500",
+    "start": "2006-01-03"
+   }
+  },
+  {
+   "say": "Mistake two. Paying for everyone else's goals before your own retirement.",
+   "photo": "piggy bank",
+   "big": "You first",
+   "sub": "retirement can't be borrowed for"
+  },
+  {
+   "say": "Mistake three. Not knowing where your money goes each month.",
+   "photo": "notebook budget",
+   "big": "Track it",
+   "sub": "you can't fix what you can't see"
+  },
+  {
+   "say": "The rule. Start now. Fund your retirement. Know your numbers.",
+   "slide": [
+    "Start now",
+    "*Fund your retirement*",
+    "Know your numbers"
+   ]
+  },
+  {
+   "say": "How old were you when you started investing?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

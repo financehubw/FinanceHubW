@@ -1,0 +1,66 @@
+{
+ "id": "mistakes_20s",
+ "title": "3 money mistakes in your 20s that cost the most",
+ "thumb": "Your 20s: the *costly* mistakes",
+ "thumb_photo": "young people city",
+ "thumb_tag": "MONEY MISTAKES",
+ "caption": "Mistake one. Waiting to invest. Time is the biggest ingredient, and your twenties have the most of it.\nOne hundred dollars a month in the S&P 500 since 2006 is now worth about {dca:SPY:2006-01-03}.\nMistake two. Paying only the minimum on a credit card. Interest keeps growing on what you still owe.\nMistake three. Every raise turns into new spending, so savings never grow.",
+ "comment": "Which one are you guilty of? 👇",
+ "tags": [
+  "#moneymistakes",
+  "#personalfinance",
+  "#money",
+  "#investing",
+  "#finance",
+  "#moneytips"
+ ],
+ "sources": [
+  "S&P 500 ETF (SPY) price history, Yahoo Finance, at render time (price only, no dividends)"
+ ],
+ "scenes": [
+  {
+   "say": "What are the money mistakes in your twenties that cost the most later?",
+   "chat": "What are the money mistakes in your twenties that cost the most later?"
+  },
+  {
+   "say": "Mistake one. Waiting to invest. Time is the biggest ingredient, and your twenties have the most of it.",
+   "photo": "hourglass",
+   "big": "Time",
+   "sub": "your biggest asset in your 20s"
+  },
+  {
+   "say": "One hundred dollars a month in the S&P 500 since 2006 is now worth about {dca:SPY:2006-01-03}.",
+   "growth": {
+    "tick": "SPY",
+    "name": "S&P 500",
+    "start": "2006-01-03"
+   }
+  },
+  {
+   "say": "Mistake two. Paying only the minimum on a credit card. Interest keeps growing on what you still owe.",
+   "photo": "credit card",
+   "big": "Minimum",
+   "sub": "keeps you paying for years"
+  },
+  {
+   "say": "Mistake three. Every raise turns into new spending, so savings never grow.",
+   "photo": "shopping bags",
+   "big": "Raise",
+   "sub": "spent instead of saved"
+  },
+  {
+   "say": "The rule. Invest early. Pay cards in full. Save part of every raise.",
+   "slide": [
+    "Invest early",
+    "Pay cards in full",
+    "*Save part of every raise*"
+   ]
+  },
+  {
+   "say": "Which one are you guilty of?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

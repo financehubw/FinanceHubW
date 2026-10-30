@@ -1,0 +1,67 @@
+{
+ "id": "sp500_beginners",
+ "title": "How to invest in the S&P 500 (beginner, 30 seconds)",
+ "thumb": "S&P 500 in *30 seconds*",
+ "thumb_photo": "stock market screen",
+ "thumb_tag": "BEGINNERS",
+ "caption": "The S&P 500 is a list of about five hundred of the biggest companies in America.\nYou can't buy the index itself. People buy an index fund or ETF that copies it, in one purchase.\nOne thousand dollars in an S&P 500 fund in 2010 is now worth about {growth:SPY:2010-01-04}.\nLook for low fees, invest regularly, and hold for years.",
+ "comment": "Do you own an S&P 500 fund? 👇",
+ "tags": [
+  "#sp500",
+  "#investingforbeginners",
+  "#indexfunds",
+  "#investing",
+  "#stocks",
+  "#money"
+ ],
+ "sources": [
+  "S&P Dow Jones Indices (index definition)",
+  "S&P 500 ETF (SPY) price history, Yahoo Finance, at render time (price only, no dividends)"
+ ],
+ "scenes": [
+  {
+   "say": "What is the S&P 500, and how do beginners invest in it?",
+   "chat": "What is the S&P 500, and how do beginners invest in it?"
+  },
+  {
+   "say": "The S&P 500 is a list of about five hundred of the biggest companies in America.",
+   "photo": "wall street",
+   "big": "500",
+   "sub": "large US companies in one index"
+  },
+  {
+   "say": "You can't buy the index itself. People buy an index fund or ETF that copies it, in one purchase.",
+   "photo": "stock market",
+   "big": "Index fund",
+   "sub": "one purchase, hundreds of companies"
+  },
+  {
+   "say": "One thousand dollars in an S&P 500 fund in 2010 is now worth about {growth:SPY:2010-01-04}.",
+   "growth": {
+    "tick": "SPY",
+    "name": "S&P 500",
+    "start": "2010-01-04"
+   }
+  },
+  {
+   "say": "Look for low fees, invest regularly, and hold for years.",
+   "photo": "calculator",
+   "big": "Low fees",
+   "sub": "small fees add up over decades"
+  },
+  {
+   "say": "The rule. Low cost fund. Invest regularly. Hold for years.",
+   "slide": [
+    "Low cost fund",
+    "Invest regularly",
+    "*Hold for years*"
+   ]
+  },
+  {
+   "say": "Do you own an S&P 500 fund?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}
