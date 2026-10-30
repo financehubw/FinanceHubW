@@ -1,189 +1,110 @@
-rendering kodak_digital_camera
-  -> kodak_digital_camera.mp4 | Kodak invented the digital camera, then went bankrupt
-rendering pepsi_harrier_jet
-  -> pepsi_harrier_jet.mp4 | He tried to buy a fighter jet with Pepsi points
-rendering newton_south_sea
-  -> newton_south_sea.mp4 | Isaac Newton lost a fortune in a stock bubble
-rendering ltcm_nobel_fund
-  -> ltcm_nobel_fund.mp4 | Nobel prize winners ran a fund that nearly broke Wall Street
-rendering ratner_joke
-  -> ratner_joke.mp4 | One joke wiped out £500 million
-rendering hard_drive_bitcoin
+rendering mistakes_20s
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:514: Pandas4Warning: The inplace keyword in DataFrame.drop is deprecated and will be removed in a future version (PDEP-8).
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.drop(
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:518: Pandas4Warning: The inplace keyword in DataFrame.rename is deprecated and will be removed in a future version (PDEP-8).
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  df.rename(columns={
-  -> hard_drive_bitcoin.mp4 | He threw away a hard drive with 8,000 bitcoin
-rendering janitor_millionaire
-  -> janitor_millionaire.mp4 | A janitor quietly left $8 million
-rendering secretary_millionaire
-  -> secretary_millionaire.mp4 | A secretary secretly built $9 million
-rendering pets_com_crash
-  -> pets_com_crash.mp4 | This company went from IPO to closed in 268 days
-rendering lehman_collapse
-  -> lehman_collapse.mp4 | A 158-year-old bank collapsed in one weekend
-[vost#0:0/rawvideo @ 0x55fd13782d40] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55fd1372b5c0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x561398bf5880] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x561398b8fb40] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55892d6afb00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55892d5ce9c0] Error muxing a packet
-[out#0/rawvideo @ 0x55892d5ce9c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55892d5ce9c0] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x55a7f54c8f00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55a7f54c50c0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x5642012a7900] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x564201221b80] Error muxing a packet
-[vost#0:0/rawvideo @ 0x558c5a48be00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x558c5a48c480] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55dd5bdc4700] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55dd5bcdc440] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55e05ebbb600] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55e05eb68180] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55a82343c580] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55a823358f40] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55facd4c23c0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55facd432f40] Error muxing a packet
-[vost#0:0/rawvideo @ 0x5584c3c10bc0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5584c3c15e00] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55973e0043c0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55973df66a80] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55a9eb0394c0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55a9eb03d1c0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55851671bd80] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5585166c4400] Error muxing a packet
-[out#0/rawvideo @ 0x5585166c4400] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5585166c4400] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x55b5dee85540] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55b5dee1b380] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55f829d68040] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55f829c108c0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55de5de88640] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55de5de84a80] Error muxing a packet
-[vost#0:0/rawvideo @ 0x56056178da40] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x56056178e980] Error muxing a packet
-[vost#0:0/rawvideo @ 0x5624a61dfe00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5624a60f8a80] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55b68de3b040] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55b68dce38c0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x563297db4e40] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x563297d30c00] Error muxing a packet
-[out#0/rawvideo @ 0x56056178e980] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x56056178e980] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x55c2bf352a40] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55c2bf34fb00] Error muxing a packet
-[out#0/rawvideo @ 0x55a823358f40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55a823358f40] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x557712562800] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5577124a6b40] Error muxing a packet
-[out#0/rawvideo @ 0x55973df66a80] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55973df66a80] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x557136e06900] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x557136d6acc0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x555be37e7a40] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x555be3768400] Error muxing a packet
-[out#0/rawvideo @ 0x55b5dee1b380] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55b5dee1b380] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x5593dc765c40] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5593dc5fbbc0] Error muxing a packet
-[out#0/rawvideo @ 0x55f829c108c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55f829c108c0] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x55d39061e500] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55d39054b380] Error muxing a packet
-[vost#0:0/rawvideo @ 0x5580db280dc0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5580db27f280] Error muxing a packet
-[out#0/rawvideo @ 0x555be3768400] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x555be3768400] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x558064b75b80] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x558064b72b80] Error muxing a packet
-[out#0/rawvideo @ 0x5577124a6b40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5577124a6b40] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x55e32dd47700] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55e32dc5f440] Error muxing a packet
-[out#0/rawvideo @ 0x557136d6acc0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x557136d6acc0] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x562d132d6200] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x562d1317ec00] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55625d374d40] [vost#0:0/rawvideo @ 0x55c4e3c6d1c0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55c4e3b02880] Error muxing a packet
-[out#0/rawvideo @ 0x5593dc5fbbc0] Error writing trailer: Broken pipe
-[vost#0:0/rawvideo @ 0x55c7276bef00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5593dc5fbbc0] [out#0/rawvideo @ 0x55c72763b800] Error closing file: Broken pipe
-Error muxing a packet
-[vost#0:0/rawvideo @ 0x55de17b07200] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55de17aa78c0] Error muxing a packet
-[out#0/rawvideo @ 0x55dd5bcdc440] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55dd5bcdc440] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x5609ee6f2bc0] [out#0/rawvideo @ 0x55d39054b380] Error submitting a packet to the muxer: Broken pipe
-Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5609ee673fc0] Error muxing a packet
-[out#0/rawvideo @ 0x55d39054b380] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x5624a60f8a80] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5624a60f8a80] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x55ca94ecf080] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55ca94e77d80] Error muxing a packet
-[out#0/rawvideo @ 0x55ca94e77d80] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55ca94e77d80] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x564c113f2f00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x564c113a7240] Error muxing a packet
-[out#0/rawvideo @ 0x55a7f54c50c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55a7f54c50c0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x564201221b80] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x564201221b80] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x561398b8fb40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x561398b8fb40] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55fd1372b5c0] Error writing trailer: Broken pipe
-[vost#0:0/rawvideo @ 0x564cd9e36a80] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x564cd9da7a40] [out#0/rawvideo @ 0x55fd1372b5c0] Error muxing a packet
-Error closing file: Broken pipe
-[out#0/rawvideo @ 0x564cd9da7a40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x564cd9da7a40] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55e32dc5f440] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55e32dc5f440] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x562d1317ec00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x562d1317ec00] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x558064b72b80] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x558064b72b80] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x559090a66e80] [out#0/rawvideo @ 0x55b68dce38c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55b68dce38c0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55c4e3b02880] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55c4e3b02880] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55de5de84a80] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55de5de84a80] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x558c5a48c480] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x558c5a48c480] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55e05eb68180] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55e05eb68180] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55facd432f40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55facd432f40] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55a9eb03d1c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55a9eb03d1c0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x563297d30c00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55625d2e0e00] Error muxing a packet
-[out#0/rawvideo @ 0x5609ee673fc0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5609ee673fc0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x5584c3c15e00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5584c3c15e00] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55c2bf34fb00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55c2bf34fb00] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55625d2e0e00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55625d2e0e00] Error closing file: Broken pipe
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+  -> mistakes_20s.mp4 | 3 money mistakes in your 20s that cost the most
+rendering mistakes_30s
+  -> mistakes_30s.mp4 | 3 money mistakes in your 30s that are hard to undo
+rendering mistakes_40s
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+  -> mistakes_40s.mp4 | 3 money mistakes in your 40s you can still fix
+rendering sp500_beginners
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+  -> sp500_beginners.mp4 | How to invest in the S&P 500 (beginner, 30 seconds)
+[vost#0:0/rawvideo @ 0x5565fbc4ff00] [vost#0:0/rawvideo @ 0x5559cdea5680] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5559cdea6300] Error muxing a packet
 Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5590909e5880] Error muxing a packet
-[out#0/rawvideo @ 0x5580db27f280] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5580db27f280] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55c72763b800] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55c72763b800] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5565fbb75480] Error muxing a packet
+[vost#0:0/rawvideo @ 0x5590eb127cc0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5590eb111bc0] Error muxing a packet
+[vost#0:0/rawvideo @ 0x558a714d9680] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x558a71428400] Error muxing a packet
+[out#0/rawvideo @ 0x5559cdea6300] [out#0/rawvideo @ 0x5565fbb75480] Error writing trailer: Broken pipe
 Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x563297d30c00] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55de17aa78c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55de17aa78c0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x564c113a7240] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x564c113a7240] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x5590909e5880] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5590909e5880] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5559cdea6300] [out#0/rawvideo @ 0x5565fbb75480] Error closing file: Broken pipe
+Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x55b008ad9500] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55b008a6c040] Error muxing a packet
+[out#0/rawvideo @ 0x55b008a6c040] [vost#0:0/rawvideo @ 0x558241b3ffc0] Error writing trailer: Broken pipe
+Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x558241a65d80] Error muxing a packet
+[out#0/rawvideo @ 0x55b008a6c040] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x55eaef2ef500] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55eaef2e9e00] Error muxing a packet
+[vost#0:0/rawvideo @ 0x55cf47722340] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55cf47721b00] Error muxing a packet
+[out#0/rawvideo @ 0x558a71428400] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x558a71428400] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55cf47721b00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55cf47721b00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x558241a65d80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x558241a65d80] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55eaef2e9e00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55eaef2e9e00] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x564057333680] [out#0/rawvideo @ 0x5590eb111bc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5590eb111bc0] Error closing file: Broken pipe
+Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5640572e1e00] Error muxing a packet
+[vost#0:0/rawvideo @ 0x555ac20d2d80] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x555ac20cf000] Error muxing a packet
+[vost#0:0/rawvideo @ 0x5596dbdc2cc0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5596dbce6340] Error muxing a packet
+[vost#0:0/rawvideo @ 0x560724acac80] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x560724ac6d80] Error muxing a packet
+[out#0/rawvideo @ 0x5640572e1e00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5640572e1e00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x555ac20cf000] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x555ac20cf000] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5596dbce6340] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5596dbce6340] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x560724ac6d80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x560724ac6d80] Error closing file: Broken pipe
