@@ -611,6 +611,29 @@
    ]
   },
   {
+   "file": "paycheck_split.mp4",
+   "title": "How to split every paycheck (the 50/30/20 rule)",
+   "caption": "Fifty percent goes to needs. Rent, food, bills.\nThirty percent goes to wants. Eating out, trips, fun.\nTwenty percent goes to your future. Savings, investing, paying off debt.",
+   "tags": [
+    "#budgeting",
+    "#personalfinance",
+    "#money",
+    "#moneytips",
+    "#financetips",
+    "#saving"
+   ],
+   "comment": "What percentage do you actually save? 👇",
+   "thumb": "Split your paycheck *like this*",
+   "thumb_photo": "calculator",
+   "thumb_tag": "BUDGETING",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-30",
+   "sources": [
+    "50/30/20 budgeting rule (popularised by Elizabeth Warren, All Your Worth, 2005)"
+   ]
+  },
+  {
    "file": "compound_1_snowball.mp4",
    "title": "Compound interest explained in 20 seconds | Compound Interest #1",
    "caption": "You earn interest on your money. Next year, you earn interest on that interest too.\nAt ten percent a year, one thousand dollars becomes about two thousand five hundred in ten years.\nIn thirty years, it's about seventeen thousand four hundred. Same thousand dollars. Just more time.",
@@ -682,6 +705,29 @@
    ]
   },
   {
+   "file": "blow_10k_year.mp4",
+   "title": "How much a day blows $10,000 a year?",
+   "caption": "Just twenty-seven dollars and forty cents a day.\nCoffee, lunch, a ride, a snack. It adds up without you noticing.\nThat's ten thousand dollars a year. In ten years, a hundred thousand.",
+   "tags": [
+    "#moneymath",
+    "#saving",
+    "#money",
+    "#personalfinance",
+    "#budgeting",
+    "#moneytips"
+   ],
+   "comment": "What's your biggest daily spend? 👇",
+   "thumb": "$27 a day = *$10,000*",
+   "thumb_photo": "coffee shop",
+   "thumb_tag": "MONEY MATH",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-30",
+   "sources": [
+    "Arithmetic: $27.40 × 365 = $10,001"
+   ]
+  },
+  {
    "file": "janitor_millionaire.mp4",
    "title": "A janitor quietly left $8 million | Money Stories #7",
    "caption": "Ronald Read worked at a gas station and as a janitor in Vermont.\nHe lived simply and bought shares of solid companies, then held them for decades.\nWhen he died in 2014, his estate was worth about eight million dollars.\nHe left about six million to his local library and hospital.",
@@ -748,6 +794,29 @@
    "made": "2026-10-27",
    "sources": [
     "The New York Times, 'A Secretary Amassed $9 Million. Then She Gave It Away.' (2018)"
+   ]
+  },
+  {
+   "file": "never_enough_money.mp4",
+   "title": "3 reasons you never have enough money",
+   "caption": "Reason one. You save what's left after spending, and nothing is ever left. Save first, on payday.\nReason two. Small subscriptions you forgot about keep charging every month.\nReason three. Interest on debt eats your income before you see it.",
+   "tags": [
+    "#budgeting",
+    "#personalfinance",
+    "#money",
+    "#moneytips",
+    "#financetips",
+    "#saving"
+   ],
+   "comment": "Which one is you? 👇",
+   "thumb": "Why you're *always broke*",
+   "thumb_photo": "empty wallet",
+   "thumb_tag": "MONEY HABITS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-30",
+   "sources": [
+    "General personal-finance guidance"
    ]
   },
   {
@@ -2176,75 +2245,6 @@
    "made": "2026-10-17",
    "sources": [
     "Netflix price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "paycheck_split.mp4",
-   "title": "How to split every paycheck (the 50/30/20 rule)",
-   "caption": "Fifty percent goes to needs. Rent, food, bills.\nThirty percent goes to wants. Eating out, trips, fun.\nTwenty percent goes to your future. Savings, investing, paying off debt.",
-   "tags": [
-    "#budgeting",
-    "#personalfinance",
-    "#money",
-    "#moneytips",
-    "#financetips",
-    "#saving"
-   ],
-   "comment": "What percentage do you actually save? 👇",
-   "thumb": "Split your paycheck *like this*",
-   "thumb_photo": "calculator",
-   "thumb_tag": "BUDGETING",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-30",
-   "sources": [
-    "50/30/20 budgeting rule (popularised by Elizabeth Warren, All Your Worth, 2005)"
-   ]
-  },
-  {
-   "file": "blow_10k_year.mp4",
-   "title": "How much a day blows $10,000 a year?",
-   "caption": "Just twenty-seven dollars and forty cents a day.\nCoffee, lunch, a ride, a snack. It adds up without you noticing.\nThat's ten thousand dollars a year. In ten years, a hundred thousand.",
-   "tags": [
-    "#moneymath",
-    "#saving",
-    "#money",
-    "#personalfinance",
-    "#budgeting",
-    "#moneytips"
-   ],
-   "comment": "What's your biggest daily spend? 👇",
-   "thumb": "$27 a day = *$10,000*",
-   "thumb_photo": "coffee shop",
-   "thumb_tag": "MONEY MATH",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-30",
-   "sources": [
-    "Arithmetic: $27.40 × 365 = $10,001"
-   ]
-  },
-  {
-   "file": "never_enough_money.mp4",
-   "title": "3 reasons you never have enough money",
-   "caption": "Reason one. You save what's left after spending, and nothing is ever left. Save first, on payday.\nReason two. Small subscriptions you forgot about keep charging every month.\nReason three. Interest on debt eats your income before you see it.",
-   "tags": [
-    "#budgeting",
-    "#personalfinance",
-    "#money",
-    "#moneytips",
-    "#financetips",
-    "#saving"
-   ],
-   "comment": "Which one is you? 👇",
-   "thumb": "Why you're *always broke*",
-   "thumb_photo": "empty wallet",
-   "thumb_tag": "MONEY HABITS",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-30",
-   "sources": [
-    "General personal-finance guidance"
    ]
   }
  ]
