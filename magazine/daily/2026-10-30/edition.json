@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "THE AMERICAS",
+   "text": "Alphabet, Google's parent company, fell 12.6 per cent and Amazon shed 7.3 per cent."
+  },
+  {
+   "name": "EUROPE",
+   "text": "The euro zone economy grew 0.4% in the third quarter. French output contracted."
+  },
+  {
+   "name": "ASIA",
+   "text": "Japan will use $7 billion from contingency reserves to cap retail gasoline prices."
+  }
+ ],
+ "story_ids": [
+  3,
+  37,
+  16,
+  29,
+  1,
+  18,
+  33
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 3,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 37,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 16,
+   "free_checkers": "Groq GPT-OSS: FAIL - The slide cites a specific 10% increase for ExxonMobil and BP, which is not confirmed by the provided sources."
+  },
+  {
+   "slot": "up",
+   "story": 29,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 1,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 18,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 33,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "The Binance hack",
+ "cover_dek": "A digital money exchange pledged billions to cover losses from a record hack.",
+ "big_headline": "Binance, a cryptocurrency exchange that trades digital money, allocated $6.34 billion.",
+ "big_body": "A hack drained around US$6.3 billion from its wallet. Binance pledged to cover all losses, and partners froze $3 billion in affected assets.",
+ "big_stat": "$6.34bn",
+ "big_stat_l1": "Binance set aside this",
+ "big_stat_l2": "amount to cover losses",
+ "pol_headline": "Japan hits inflation target",
+ "pol_body": "The Bank of Japan says inflation hit its 2% target after more than 13 years. It kept its policy rate steady at 1.25% and held off hiking interest rates for now.",
+ "pol_stat": "2%",
+ "pol_stat_l1": "the inflation target",
+ "pol_stat_l2": "hit by the Bank of Japan",
+ "biz_headline": "Oil giants beat profit estimates",
+ "biz_body": "ExxonMobil and Chevron beat profit estimates, which are predicted results. BP is paying off debt, which is borrowed money.",
+ "biz_stats": [
+  {
+   "value": "+10%",
+   "name": "ExxonMobil",
+   "note": "beat estimates"
+  },
+  {
+   "value": "+10%",
+   "name": "BP",
+   "note": "paying off debt"
+  }
+ ],
+ "up_headline": "Bank of England expected to hike rates",
+ "up_body": "Analysts predict the Bank of England will vote to raise interest rates from 3.75 per cent to four per cent next week to contain inflation.",
+ "cover_photo": "bitcoin",
+ "big_photo": "servers",
+ "pol_photo": "tokyo",
+ "biz_photo": "refinery",
+ "up_photo": "boe",
+ "sources_used": [
+  "Bloomberg",
+  "Business",
+  "Business Insider",
+  "City AM",
+  "CoinDesk: Bitcoin, Ethereum, Crypto News",
+  "Companies",
+  "Crude Oil Prices Today",
+  "Economy"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−1.2%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,630."
+   },
+   {
+    "chg": "−1.9%",
+    "color": "#B4280E",
+    "text": "<strong>Gold</strong> fell to about $3,954 an ounce."
+   },
+   {
+    "chg": "−0.9%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $77,072."
+   }
+  ]
+ },
+ "status": "draft"
+}
