@@ -1,3 +1,95 @@
+=== run 2026-10-30T00:16:24Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+91/171 sources returned news, 803 recent items
+187 new trusted stories, posting up to 1 this run
+---
+🇯🇵 TOKYO INFLATION TOPS BANK OF JAPAN'S 2% TARGET
+
+📌 Tokyo inflation rose past the central bank's 2% target ahead of its rate decision.
+📊 BOJ inflation target: 2%
+
+📍 Japan · 📰 Bloomberg.com · ✅ 9 sources
+https://news.google.com/rss/articles/CBMisgFBVV95cUxNM2sydmttNTVRUEdIMmhaZmFKMW9TN0tsYmZxZEU5cG9QSUVUQmJGck1nSVJ6UFdBY1k0TUh3Zzlnb3QxeXRxS09JejUyZkZUY3ViOFA3V3BDVGhGTGE4WWY5UUNRWGxrZVRkU05ScWt0TUlIX3djbVlDNUlvQjRNNmNqMUJyTHdyYmNVdU1BQlVSeEpJMXM4TEg5dUlFbmh2MWhMQktnekNfU092T21FeFZR?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim of "✅ 9 sources" is not supported by the listed six sources
+  -> blocked by fact-check
+---
+🇺🇸 WALL STREET DROPS AFTER ALPHABET MISSES REVENUE
+
+📌 US stocks fell after Alphabet missed revenue targets, led by a 1.36% drop in tech.
+📊 Nasdaq: -1.36%
+
+📍 US · 📰 Economic Times · ✅ 5 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-markets-today-us-stocks-end-lower-as-alphabet-revenue-miss-revives-ai-capex-jitters/articleshow/135331051.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post attributes the 1.36% drop specifically to the tech sector, which the sources only state as a Nasdaq Composite decline, not a tech‑sector drop.
+  -> blocked by fact-check
+---
+🌐 BREAKING: BINANCE HIT BY MULTIBILLION-DOLLAR HACK
+
+📌 Suspected hackers stole up to $5.8 billion from Binance, hitting crypto prices.
+📊 $BTC: Below $79,000
+
+📍 Global · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 5 sources
+https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets
+  written by Gemini
+  Groq GPT-OSS: PASS - All numeric amounts, price level, and source attribution are directly supported by the cited articles.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
+  Groq Qwen: FAIL - The post claims the hack amount was 'up to $5.8 billion', but the primary source (CoinDesk) explicitly states the loss was $5.7 billion, creating a factual discrepancy.
+  -> blocked by fact-check
+---
+🌐 GOLD PRICE TESTS THE $4,000 LEVEL
+
+📌 Gold is nearing $4,000 as markets expect interest rate hikes.
+📊 Gold: $4,000
+💡 Higher interest rates usually make borrowing money more expensive.
+#Gold
+
+📍 Global · 📰 富途牛牛 · ✅ 2 sources
+https://news.google.com/rss/articles/CBMitwFBVV95cUxNZkpaamJGQUtCZXo4b2dkRjJ5YWFxUDkxekgtYUl2UXJ5TjJjSHBfdnl3Q052aHZKMTNJQ0FmWkhyUE5UYzQ4UktDbl9OY2dBQU5qUFV0N0hGcnhMLS1KeUhVYXZ4WURYN0d2TVUtTDRqb2pVRUk2blpiUnR5QjgzUGhGQVRlUmtEUlMwdUlLRy1MWWVLVGJXR0R6b0VyOGpwNWE0d0NJVmFuMk0zczNmRWlON2JrZzA?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source says gold is testing the $4,000 level, not that it is exactly $4,000
+  -> blocked by fact-check
+---
+🇮🇳 🔄 UPDATE: US FED RATE PAUSE LIFTS INDIAN STOCKS TO 74,151
+
+📌 The US Fed kept interest rates unchanged, slowing foreign selling in India.
+📊 Sensex: 74,151
+
+📍 India · 📰 The Times of India · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMy1nNFJlTjdyU2M3dmZKRlp2c1E1YWxSYlBYdmJtbjBnNnF1V3Q1S2FKMUJDR2VYb0pVaVVoUExtSDZFbzJENENBbnh2TTFvYTFld1FSY1EyOFhqSl9SMVd3dXMwQW1kUF9vN1pic0hXWXZDdVJPbmJvTlNMTHVPbWdBdENSTUE1Ull3Q0xDZGdoOGRjMHFGbUxKTm15RjA2T2FkS3ZzMW1heHdsNVFrR09LdF9xcU9PeUdaSkw3Y3VQNkx1VW9sRUU0ZkRKRFN4dmZxQWVBWHFwdHZueHfSAeMBQVVfeXFMUGFsMEw4bjZvSE01UHB4UEhEUDdnM0FvbFFyNWNMalJVZjFCaktwQU5CLU1BX0xfNTVTYURwZVZUV2FiTUhTZUg5Z3lUVUt4b0I3LUdGOVhTUy1fZzRqZjBtdmluUmlCODZmSkRfYm5zS1BuRXRHaURVdHQxMDF4YVN5NC1adzkwaG94T2lVWHpUTEZvM0pzSVFUUk5xZS1neVQ4V2cyNWFuYS03OVA2TnMwakhVRkVYS1RfbTVuVkhUZ0JwRi1CM0NOMkZJNXY1SHVVbGEtc3d5RFNJYmY2UGdCUU0?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (Fed pause, slower foreign selling, Sensex at 74,151) are directly supported by the cited Times of India and NewsBytes articles.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the Sensex level, the US Fed rate pause, and the source attribution are directly supported by the provided sources.
+---
+🌐 SILVER PRICES FALL AFTER FED DECISION
+
+📌 Silver prices fell following the latest US central bank rate decision.
+💡 Central bank interest rate decisions often affect precious metal prices.
+#Silver
+
+📍 Global · 📰 Business Today · ✅ 2 sources
+https://news.google.com/rss/articles/CBMic0FVX3lxTE1wbzQ5YkhLRWRoSTlad1VqbkhLMWE4TU1RYlJHYnlyR3hwRFk1aEJhZlJScktyV3k4WVR2SUtrcWhqMTltT196OUpqV216UktnWjFieXM3dm93V09yWmpycHF3b29CMUlLTTJ5TEJlaHRpVGs?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The silver price decline claim is only supported by the Vietnam.vn source, while the listed Business Today source (about gold in Bharuch) does not back any claim and the location "Global" mismatches t
+  -> blocked by fact-check
+---
+🇯🇵 BREAKING: TOKYO INFLATION RISES TO 2.8% IN OCTOBER
+
+📌 Tokyo inflation (price growth) rose to 2.8% in October, above expectations.
+📊 Tokyo CPI: 2.8% (exp 2.7%)
+
+📍 Japan · 📰 investingLive · ✅ 2 sources
+https://news.google.com/rss/articles/CBMidEFVX3lxTE1YX09uTjlQZFRCSUhQYmlwY05qaE1Ydjl5YnlTWlNwXzN0X3dVTnhtbzVPenpmeEVFR1lJVWp1SHhLQzJfVXN6dzUySkJYN05TOHdiZzZxSUxmRTZJd3c2TWJiUnJYUGNfZUxDd1R1czFxUW91?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, expectations, and location are directly supported by the cited investingLive and FXStreet sources
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the inflation rate, expected value, location, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-fcbb26cb2615
+done: 1 post(s) this run
 === run 2026-10-29T19:29:57Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1406,95 +1498,3 @@ skip (off-topic or nothing new): Earnings flood, Fed meeting will test rickety A
 #Gold
 
 📍 US · 📰 Cnbc Tv18 · ✅ 2 sources
-https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ3ZLQm9jSHZZZDhCYURBSjlGQ012R3VRRVFJWHdDbjR5aWRjSkJ5dGZwempHUGhtUDI5VExfSnFFRkw3Y0x6c09HS1hnWTF5QTRaX0RwbW1YZ1NNWFpvSTd6R3p6NzFhS3dHNzIzQ2M0NWtVQk16NWZlM0wyVkdOZzlsR3VkSDh5Tjg5a1UtRVgxVzFoaWZHeFI1NnpiRV9hTFV4T3h5b2VXWVdoODlHT1ZKd2VENXVFOUQ3bXRlM2dVRUE5amdTbFZ30gHPAUFVX3lxTE9YclVtdGlDVGxRendBakZfSk52UTlSQjNyVjdPZjdLWE1pYllwbmJzQm9saDUyVjZ3ZW1FRklOWC1YQXhiVWt3OWVXZndVdHJ6bVA5Y2xtTkxOb3duZEFkakF0UWhSZlZDTUozN1JoRE02T3BSMHBBejhpbUl6cFFDMHBYSzNJeS0wZ2c4UGd5RzRZQlJHRmZrZjl5T19PaUZKV01ULXRkMWJUeXFkUG1nRm0yVDdyVWoxOEozZ2wyVlJEZlFkNHNhdmdtcGpTMA?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about oil prices testing gold and silver and the Fed decision are directly supported by the cited CNBC TV18 article.
-  Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources.
-  Groq Qwen: FAIL - The post claims there are 2 sources, but the provided source list contains 5 entries (1 CNBC TV18 and 4 Business Standard).
-  -> blocked by fact-check
-skip (off-topic or nothing new): Stock market prediction for Monday Oct 26: Sensex, Nifty levels, top stocks to watch - Will bulls dance again?
-skip (off-topic or nothing new): More than a third of S&P 500 companies are about to report earnings as market confidence cracks
-skip (off-topic or nothing new): SEBI Order for Compliance Notice of Attachment Demat Account and Mutual Fund Folio(S) for Recovery Certificate No.7137 of 2023 against Karan Subhashchandra Ravde in the matter of India Infraspace Limited
-skip (off-topic or nothing new): Watch Out: Entering a Critical Fed Week—Here Are the Numerous Economic Developments and Altcoin Events Coming Up This Week—Day-by-Day, Hour-by-Hour Schedule
----
-🇮🇳 JIO PLATFORMS IPO SHARES ALLOTTED TODAY
-
-📌 The share allotment for the heavily oversubscribed Jio Platforms IPO begins today.
-📊 Subscription: 22x
-📊 $RELIANCE: ₹13,428 per lot
-#IPO
-
-📍 India · 📰 Mint · ✅ 3 sources
-https://www.livemint.com/market/ipo/reliances-jio-platforms-ipo-allotment-on-wed-oct-26-what-happens-to-your-money-if-you-get-none-one-or-many-lots-11792937452744.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source says the IPO was subscribed "more than 22 times", not exactly "22x" as claimed.
-  -> blocked by fact-check
----
-🇮🇱 NETANYAHU FLOATS CRYPTO TO AVOID SANCTIONS
-
-📌 Israel's Prime Minister suggested using blockchain tech to skirt international sanctions.
-
-📍 Israel · 📰 Cointelegraph.com News · ✅ 2 sources
-https://cointelegraph.com/news/netanyahu-floats-use-of-blockchain-as-solution-to-potential-financial-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the Cointelegraph and Hokanews articles.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding Netanyahu's suggestion to use blockchain to skirt sanctions are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-8033c6f18eff
-done: 2 post(s) this run
-=== run 2026-10-25T13:13:34Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 4
---- special
-🧾 OUR WEEK, IN THE OPEN
-
-🔎 Stories scanned: 20,671
-✅ Confirmed by 2+ sources or official: 4,513
-🛑 Blocked by our fact-check: 49
-📢 Posted: 48
-⚠️ Corrections issued: 0
-
-We'd rather be right than first. Every correction is public.
-published to: website, Instagram Story
-79/171 sources returned news, 577 recent items
-re-check of earlier post: 4 fail / 1 pass
-133 new trusted stories, posting up to 1 this run
----
-🇮🇱 NETANYAHU FACES REBUKE OVER CRYPTO SANCTIONS PLAN
-
-📌 Netanyahu faces backlash over a plan to use crypto to bypass economic sanctions.
-#Crypto
-
-📍 Israel · 📰 The Straits Times · ✅ 8 sources
-https://news.google.com/rss/articles/CBMivwFBVV95cUxOd2JjZlR3NVdUcUhhOUowengxdjdrdUVOZlFiV0t5MUg0czJfVm5zM0tEbkJFdDNYbGVNNC0tVzRVMldvZnNUQmk1bk5KTWNiTy0ycDRESXlmNXFDNXo2NTV5OUFpNE1BRExneHdfUHhRWFUyWng5TjlmRHdyRVR0TzNJSHdBOTB3VERLYW13TDl2Wl9EOE5HUHdjNlV0eHkyLWxXWHdUVnlRUnJYclowRUpTckRrLTNCVng4M3o2Zw?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six sources are listed, making the source count unsupported.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Fed policy, Q2 earnings, crude oil prices among key market triggers next week
----
-🌐 BITCOIN STAYS BELOW $85,000 AS OIL PRICES RISE
-
-📌 Bitcoin remains stuck below $85,000 as oil prices continue to rise.
-📊 $BTC: Below $85,000
-#Crypto
-
-📍 Global · 📰 Yahoo Finance · ✅ 3 sources
-https://news.google.com/rss/articles/CBMinwFBVV95cUxQWW9XeVF6VTEyTXNVdEV1LTllYTd4Z1hfMnVNNHYxX3JxSHJsQ1Z0VkVnbHE5VzFtN2hRNlctWHhHSlVyQTJLUENNamNLTS1Rb2xSOWVFOFQzWUViRzNDVVh0N3hRZC1XRUZRc0o0WlEwalRQQk1kUFZvelB3TEFQNVBfd1pTdlczT3Q1XzduSUxScUVERURXekpTd0Zfb0E?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about Bitcoin staying below $85,000 and oil prices rising are directly supported by the cited Yahoo Finance article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Yahoo Finance article.
-  Groq Qwen: PASS - The factual claims regarding Bitcoin's price level and oil price trends are directly supported by the source headlines, and the location and source attribution are accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-12f78d2d4ad9
-done: 2 post(s) this run
-=== run 2026-10-25T11:03:04Z
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
