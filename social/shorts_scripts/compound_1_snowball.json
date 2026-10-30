@@ -1,0 +1,57 @@
+{
+ "id": "compound_1_snowball",
+ "title": "Compound interest explained in 20 seconds | Compound Interest #1",
+ "thumb": "Compound interest = *snowball*",
+ "thumb_photo": "snowball",
+ "thumb_tag": "COMPOUND #1",
+ "caption": "You earn interest on your money. Next year, you earn interest on that interest too.\nAt ten percent a year, one thousand dollars becomes about two thousand five hundred in ten years.\nIn thirty years, it's about seventeen thousand four hundred. Same thousand dollars. Just more time.",
+ "comment": "Part 2: the rule of 72. Follow so you don't miss it 👇",
+ "tags": [
+  "#compoundinterest",
+  "#investing",
+  "#money",
+  "#personalfinance",
+  "#wealth",
+  "#finance"
+ ],
+ "sources": [
+  "Arithmetic: 1000 × 1.1^10 = 2,594; 1000 × 1.1^30 = 17,449 (illustrative rate, not a promised return)"
+ ],
+ "scenes": [
+  {
+   "say": "Why do rich people say compound interest is the most powerful force in money?",
+   "chat": "Why do rich people say compound interest is the most powerful force in money?"
+  },
+  {
+   "say": "You earn interest on your money. Next year, you earn interest on that interest too.",
+   "photo": "snowball",
+   "big": "Interest on interest",
+   "sub": "that's compounding"
+  },
+  {
+   "say": "At ten percent a year, one thousand dollars becomes about two thousand five hundred in ten years.",
+   "photo": "coins stack",
+   "big": "$2,594",
+   "sub": "$1,000 at 10% for 10 years"
+  },
+  {
+   "say": "In thirty years, it's about seventeen thousand four hundred. Same thousand dollars. Just more time.",
+   "photo": "hourglass",
+   "big": "$17,449",
+   "sub": "$1,000 at 10% for 30 years"
+  },
+  {
+   "say": "Money earns money. Time does the heavy lifting.",
+   "slide": [
+    "Money earns money",
+    "*Time does the heavy lifting*"
+   ]
+  },
+  {
+   "say": "Part 2: the rule of 72. Follow so you don't miss it",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

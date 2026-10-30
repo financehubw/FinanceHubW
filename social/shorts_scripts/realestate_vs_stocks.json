@@ -1,0 +1,74 @@
+{
+ "id": "realestate_vs_stocks",
+ "title": "Real estate vs stocks: $10,000 in 2010, who won?",
+ "thumb": "Property vs stocks: *who won?*",
+ "thumb_photo": "house for sale",
+ "thumb_tag": "VS",
+ "caption": "Real estate here means a fund that owns lots of US property. Stocks means the S&P 500.\nHere's how they did, year by year.\nPrice growth only. Real estate funds pay big dividends, which this leaves out, so it narrows the gap.",
+ "comment": "Team property or team stocks? 👇",
+ "tags": [
+  "#realestate",
+  "#stocks",
+  "#investing",
+  "#reits",
+  "#money",
+  "#versus"
+ ],
+ "sources": [
+  "Vanguard Real Estate ETF (VNQ) and SPDR S&P 500 ETF (SPY) price history, Yahoo Finance, at render time"
+ ],
+ "scenes": [
+  {
+   "say": "Real estate or stocks? Ten thousand dollars each in 2010. Pick one before the reveal.",
+   "chat": "Real estate or stocks? Ten thousand dollars each in 2010. Pick one before the reveal."
+  },
+  {
+   "say": "Real estate here means a fund that owns lots of US property. Stocks means the S&P 500.",
+   "photo": "apartment building",
+   "big": "REITs vs S&P 500",
+   "sub": "both as funds, price only"
+  },
+  {
+   "say": "Here's how they did, year by year.",
+   "versus": {
+    "start": "2010-01-04",
+    "a": [
+     "VNQ",
+     "US real estate fund"
+    ],
+    "b": [
+     "SPY",
+     "S&P 500"
+    ]
+   }
+  },
+  {
+   "say": "Price growth only. Real estate funds pay big dividends, which this leaves out, so it narrows the gap.",
+   "versus": {
+    "start": "2010-01-04",
+    "a": [
+     "VNQ",
+     "US real estate fund"
+    ],
+    "b": [
+     "SPY",
+     "S&P 500"
+    ],
+    "hold": true
+   }
+  },
+  {
+   "say": "Past results. aren't promises.",
+   "slide": [
+    "Past results",
+    "*aren't promises*"
+   ]
+  },
+  {
+   "say": "Team property or team stocks?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

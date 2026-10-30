@@ -1,0 +1,57 @@
+{
+ "id": "compound_3_start_early",
+ "title": "Start at 25 or 35? The 10-year gap | Compound Interest #3",
+ "thumb": "10 years late = *half the money*",
+ "thumb_photo": "young people city",
+ "thumb_tag": "COMPOUND #3",
+ "caption": "Two friends invest one hundred dollars a month at eight percent a year until sixty-five.\nThe one who starts at twenty-five ends with about three hundred and fifty thousand dollars.\nThe one who starts at thirty-five ends with about one hundred and fifty thousand.",
+ "comment": "How old were you when you started? 👇",
+ "tags": [
+  "#compoundinterest",
+  "#investing",
+  "#money",
+  "#personalfinance",
+  "#wealth",
+  "#finance"
+ ],
+ "sources": [
+  "Arithmetic: future value of $100/month at 8%/yr compounded monthly (illustrative rate, not a promised return)"
+ ],
+ "scenes": [
+  {
+   "say": "What does starting to invest ten years late really cost you?",
+   "chat": "What does starting to invest ten years late really cost you?"
+  },
+  {
+   "say": "Two friends invest one hundred dollars a month at eight percent a year until sixty-five.",
+   "photo": "friends",
+   "big": "$100/month",
+   "sub": "8% a year, until 65"
+  },
+  {
+   "say": "The one who starts at twenty-five ends with about three hundred and fifty thousand dollars.",
+   "photo": "money",
+   "big": "≈$351,000",
+   "sub": "starting at 25"
+  },
+  {
+   "say": "The one who starts at thirty-five ends with about one hundred and fifty thousand.",
+   "photo": "hourglass",
+   "big": "≈$150,000",
+   "sub": "starting at 35"
+  },
+  {
+   "say": "Same money each month. Ten years cost half.",
+   "slide": [
+    "Same money each month",
+    "*Ten years cost half*"
+   ]
+  },
+  {
+   "say": "How old were you when you started?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

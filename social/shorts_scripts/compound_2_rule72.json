@@ -1,0 +1,57 @@
+{
+ "id": "compound_2_rule72",
+ "title": "The rule of 72: how fast your money doubles | Compound Interest #2",
+ "thumb": "Your money *doubles* in…",
+ "thumb_photo": "calculator",
+ "thumb_tag": "COMPOUND #2",
+ "caption": "Divide seventy-two by your yearly return. That's roughly how many years it takes to double.\nAt six percent, about twelve years. At nine percent, about eight. At twelve percent, about six.\nIt works backwards too. Inflation at three percent halves your cash's value in about twenty-four years.",
+ "comment": "Part 3: why starting early beats starting big 👇",
+ "tags": [
+  "#compoundinterest",
+  "#investing",
+  "#money",
+  "#personalfinance",
+  "#wealth",
+  "#finance"
+ ],
+ "sources": [
+  "Rule of 72 (standard approximation for doubling time)"
+ ],
+ "scenes": [
+  {
+   "say": "How long does it take your money to double?",
+   "chat": "How long does it take your money to double?"
+  },
+  {
+   "say": "Divide seventy-two by your yearly return. That's roughly how many years it takes to double.",
+   "photo": "calculator",
+   "big": "72 ÷ rate",
+   "sub": "the rule of 72"
+  },
+  {
+   "say": "At six percent, about twelve years. At nine percent, about eight. At twelve percent, about six.",
+   "photo": "chart growth",
+   "big": "6% → 12 yrs",
+   "sub": "9% → 8 yrs · 12% → 6 yrs"
+  },
+  {
+   "say": "It works backwards too. Inflation at three percent halves your cash's value in about twenty-four years.",
+   "photo": "supermarket prices",
+   "big": "3% inflation",
+   "sub": "halves cash in ~24 years"
+  },
+  {
+   "say": "72 ÷ rate. = years to double.",
+   "slide": [
+    "72 ÷ rate",
+    "*= years to double*"
+   ]
+  },
+  {
+   "say": "Part 3: why starting early beats starting big",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}
