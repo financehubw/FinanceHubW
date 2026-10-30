@@ -542,29 +542,6 @@
    ]
   },
   {
-   "file": "news_20261030.mp4",
-   "title": "Tokyo inflation rises to 2.8% in october (today's money news)",
-   "caption": "Tokyo inflation (price growth) rose to 2.8% in October, above expectations.\nTokyo CPI: 2.8% (exp 2.7%)",
-   "tags": [
-    "#news",
-    "#finance",
-    "#stockmarket",
-    "#money",
-    "#economy",
-    "#breaking"
-   ],
-   "comment": "Good news or bad news for your money? 👇",
-   "thumb": "*TODAY:* Tokyo inflation rises to 2.8% in october",
-   "thumb_photo": "tokyo skyline",
-   "thumb_tag": "NEWS",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-30",
-   "sources": [
-    "Japan,  investingLive,  2 sources"
-   ]
-  },
-  {
    "file": "ltcm_nobel_fund.mp4",
    "title": "Nobel prize winners ran a fund that nearly broke Wall Street | Money Stories #4",
    "caption": "Long-Term Capital Management had two Nobel prize winning economists.\nIt borrowed heavily to make tiny bets look huge.\nWhen Russia defaulted in 1998, the bets went wrong. It lost about four point six billion dollars in months.\nBanks put in three point six billion dollars, in a rescue organised by the Federal Reserve, to stop the damage spreading.",
@@ -631,6 +608,29 @@
    "made": "2026-10-27",
    "sources": [
     "BBC News: 'Gerald Ratner: the speech that cost £500m'"
+   ]
+  },
+  {
+   "file": "compound_1_snowball.mp4",
+   "title": "Compound interest explained in 20 seconds | Compound Interest #1",
+   "caption": "You earn interest on your money. Next year, you earn interest on that interest too.\nAt ten percent a year, one thousand dollars becomes about two thousand five hundred in ten years.\nIn thirty years, it's about seventeen thousand four hundred. Same thousand dollars. Just more time.",
+   "tags": [
+    "#compoundinterest",
+    "#investing",
+    "#money",
+    "#personalfinance",
+    "#wealth",
+    "#finance"
+   ],
+   "comment": "Part 2: the rule of 72. Follow so you don't miss it 👇",
+   "thumb": "Compound interest = *snowball*",
+   "thumb_photo": "snowball",
+   "thumb_tag": "COMPOUND #1",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-30",
+   "sources": [
+    "Arithmetic: 1000 × 1.1^10 = 2,594; 1000 × 1.1^30 = 17,449 (illustrative rate, not a promised return)"
    ]
   },
   {
@@ -705,6 +705,29 @@
    ]
   },
   {
+   "file": "compound_2_rule72.mp4",
+   "title": "The rule of 72: how fast your money doubles | Compound Interest #2",
+   "caption": "Divide seventy-two by your yearly return. That's roughly how many years it takes to double.\nAt six percent, about twelve years. At nine percent, about eight. At twelve percent, about six.\nIt works backwards too. Inflation at three percent halves your cash's value in about twenty-four years.",
+   "tags": [
+    "#compoundinterest",
+    "#investing",
+    "#money",
+    "#personalfinance",
+    "#wealth",
+    "#finance"
+   ],
+   "comment": "Part 3: why starting early beats starting big 👇",
+   "thumb": "Your money *doubles* in…",
+   "thumb_photo": "calculator",
+   "thumb_tag": "COMPOUND #2",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-30",
+   "sources": [
+    "Rule of 72 (standard approximation for doubling time)"
+   ]
+  },
+  {
    "file": "secretary_millionaire.mp4",
    "title": "A secretary secretly built $9 million | Money Stories #8",
    "caption": "Sylvia Bloom worked as a legal secretary in New York for sixty-seven years.\nWhen her bosses bought stocks, she quietly bought the same ones, in smaller amounts.\nShe died in 2016 with more than nine million dollars.\nShe left over six million to a charity that helps poor students go to college.",
@@ -728,26 +751,26 @@
    ]
   },
   {
-   "file": "mistakes_30s.mp4",
-   "title": "3 money mistakes in your 30s that are hard to undo",
-   "caption": "Mistake one. No emergency fund. One surprise bill becomes debt.\nMistake two. Buying the biggest house the bank will lend you, then having nothing left to invest.\nMistake three. No insurance while people depend on you.",
+   "file": "compound_3_start_early.mp4",
+   "title": "Start at 25 or 35? The 10-year gap | Compound Interest #3",
+   "caption": "Two friends invest one hundred dollars a month at eight percent a year until sixty-five.\nThe one who starts at twenty-five ends with about three hundred and fifty thousand dollars.\nThe one who starts at thirty-five ends with about one hundred and fifty thousand.",
    "tags": [
-    "#moneymistakes",
-    "#personalfinance",
-    "#money",
+    "#compoundinterest",
     "#investing",
-    "#finance",
-    "#moneytips"
+    "#money",
+    "#personalfinance",
+    "#wealth",
+    "#finance"
    ],
-   "comment": "What would you add to this list? 👇",
-   "thumb": "Your 30s: *don't* do this",
-   "thumb_photo": "family house",
-   "thumb_tag": "MONEY MISTAKES",
+   "comment": "How old were you when you started? 👇",
+   "thumb": "10 years late = *half the money*",
+   "thumb_photo": "young people city",
+   "thumb_tag": "COMPOUND #3",
    "ai_voice": true,
    "voice": "elevenlabs",
    "made": "2026-10-30",
    "sources": [
-    "General personal-finance guidance (emergency fund of 3-6 months of expenses is a widely used rule of thumb)"
+    "Arithmetic: future value of $100/month at 8%/yr compounded monthly (illustrative rate, not a promised return)"
    ]
   },
   {
@@ -771,6 +794,29 @@
    "made": "2026-10-27",
    "sources": [
     "CNET / Wall Street Journal reports on Pets.com (2000)"
+   ]
+  },
+  {
+   "file": "mistakes_30s.mp4",
+   "title": "3 money mistakes in your 30s that are hard to undo",
+   "caption": "Mistake one. No emergency fund. One surprise bill becomes debt.\nMistake two. Buying the biggest house the bank will lend you, then having nothing left to invest.\nMistake three. No insurance while people depend on you.",
+   "tags": [
+    "#moneymistakes",
+    "#personalfinance",
+    "#money",
+    "#investing",
+    "#finance",
+    "#moneytips"
+   ],
+   "comment": "What would you add to this list? 👇",
+   "thumb": "Your 30s: *don't* do this",
+   "thumb_photo": "family house",
+   "thumb_tag": "MONEY MISTAKES",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-30",
+   "sources": [
+    "General personal-finance guidance (emergency fund of 3-6 months of expenses is a widely used rule of thumb)"
    ]
   },
   {
@@ -798,6 +844,29 @@
    ]
   },
   {
+   "file": "realestate_vs_stocks.mp4",
+   "title": "Real estate vs stocks: $10,000 in 2010, who won?",
+   "caption": "Real estate here means a fund that owns lots of US property. Stocks means the S&P 500.\nHere's how they did, year by year.\nPrice growth only. Real estate funds pay big dividends, which this leaves out, so it narrows the gap.",
+   "tags": [
+    "#realestate",
+    "#stocks",
+    "#investing",
+    "#reits",
+    "#money",
+    "#versus"
+   ],
+   "comment": "Team property or team stocks? 👇",
+   "thumb": "Property vs stocks: *who won?*",
+   "thumb_photo": "house for sale",
+   "thumb_tag": "VS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-30",
+   "sources": [
+    "Vanguard Real Estate ETF (VNQ) and SPDR S&P 500 ETF (SPY) price history, Yahoo Finance, at render time"
+   ]
+  },
+  {
    "file": "mistakes_40s.mp4",
    "title": "3 money mistakes in your 40s you can still fix",
    "caption": "Mistake one. Thinking it's too late to start. Even twenty years of steady investing can grow a lot.\nFor example, one thousand dollars in the S&P 500 in 2006 is now worth about $6,004.\nMistake two. Paying for everyone else's goals before your own retirement.\nMistake three. Not knowing where your money goes each month.",
@@ -818,6 +887,29 @@
    "made": "2026-10-30",
    "sources": [
     "S&P 500 ETF (SPY) price history, Yahoo Finance, at render time (price only, no dividends)"
+   ]
+  },
+  {
+   "file": "news_20261030.mp4",
+   "title": "Tokyo inflation rises to 2.8% in october (today's money news)",
+   "caption": "Tokyo inflation (price growth) rose to 2.8% in October, above expectations.\nTokyo CPI: 2.8% (exp 2.7%)",
+   "tags": [
+    "#news",
+    "#finance",
+    "#stockmarket",
+    "#money",
+    "#economy",
+    "#breaking"
+   ],
+   "comment": "Good news or bad news for your money? 👇",
+   "thumb": "*TODAY:* Tokyo inflation rises to 2.8% in october",
+   "thumb_photo": "tokyo skyline",
+   "thumb_tag": "NEWS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-10-30",
+   "sources": [
+    "Japan,  investingLive,  2 sources"
    ]
   },
   {
@@ -2084,98 +2176,6 @@
    "made": "2026-10-17",
    "sources": [
     "Netflix price history, Yahoo Finance (split-adjusted), at render time"
-   ]
-  },
-  {
-   "file": "compound_1_snowball.mp4",
-   "title": "Compound interest explained in 20 seconds | Compound Interest #1",
-   "caption": "You earn interest on your money. Next year, you earn interest on that interest too.\nAt ten percent a year, one thousand dollars becomes about two thousand five hundred in ten years.\nIn thirty years, it's about seventeen thousand four hundred. Same thousand dollars. Just more time.",
-   "tags": [
-    "#compoundinterest",
-    "#investing",
-    "#money",
-    "#personalfinance",
-    "#wealth",
-    "#finance"
-   ],
-   "comment": "Part 2: the rule of 72. Follow so you don't miss it 👇",
-   "thumb": "Compound interest = *snowball*",
-   "thumb_photo": "snowball",
-   "thumb_tag": "COMPOUND #1",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-30",
-   "sources": [
-    "Arithmetic: 1000 × 1.1^10 = 2,594; 1000 × 1.1^30 = 17,449 (illustrative rate, not a promised return)"
-   ]
-  },
-  {
-   "file": "compound_2_rule72.mp4",
-   "title": "The rule of 72: how fast your money doubles | Compound Interest #2",
-   "caption": "Divide seventy-two by your yearly return. That's roughly how many years it takes to double.\nAt six percent, about twelve years. At nine percent, about eight. At twelve percent, about six.\nIt works backwards too. Inflation at three percent halves your cash's value in about twenty-four years.",
-   "tags": [
-    "#compoundinterest",
-    "#investing",
-    "#money",
-    "#personalfinance",
-    "#wealth",
-    "#finance"
-   ],
-   "comment": "Part 3: why starting early beats starting big 👇",
-   "thumb": "Your money *doubles* in…",
-   "thumb_photo": "calculator",
-   "thumb_tag": "COMPOUND #2",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-30",
-   "sources": [
-    "Rule of 72 (standard approximation for doubling time)"
-   ]
-  },
-  {
-   "file": "compound_3_start_early.mp4",
-   "title": "Start at 25 or 35? The 10-year gap | Compound Interest #3",
-   "caption": "Two friends invest one hundred dollars a month at eight percent a year until sixty-five.\nThe one who starts at twenty-five ends with about three hundred and fifty thousand dollars.\nThe one who starts at thirty-five ends with about one hundred and fifty thousand.",
-   "tags": [
-    "#compoundinterest",
-    "#investing",
-    "#money",
-    "#personalfinance",
-    "#wealth",
-    "#finance"
-   ],
-   "comment": "How old were you when you started? 👇",
-   "thumb": "10 years late = *half the money*",
-   "thumb_photo": "young people city",
-   "thumb_tag": "COMPOUND #3",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-30",
-   "sources": [
-    "Arithmetic: future value of $100/month at 8%/yr compounded monthly (illustrative rate, not a promised return)"
-   ]
-  },
-  {
-   "file": "realestate_vs_stocks.mp4",
-   "title": "Real estate vs stocks: $10,000 in 2010, who won?",
-   "caption": "Real estate here means a fund that owns lots of US property. Stocks means the S&P 500.\nHere's how they did, year by year.\nPrice growth only. Real estate funds pay big dividends, which this leaves out, so it narrows the gap.",
-   "tags": [
-    "#realestate",
-    "#stocks",
-    "#investing",
-    "#reits",
-    "#money",
-    "#versus"
-   ],
-   "comment": "Team property or team stocks? 👇",
-   "thumb": "Property vs stocks: *who won?*",
-   "thumb_photo": "house for sale",
-   "thumb_tag": "VS",
-   "ai_voice": true,
-   "voice": "elevenlabs",
-   "made": "2026-10-30",
-   "sources": [
-    "Vanguard Real Estate ETF (VNQ) and SPDR S&P 500 ETF (SPY) price history, Yahoo Finance, at render time"
    ]
   }
  ]
