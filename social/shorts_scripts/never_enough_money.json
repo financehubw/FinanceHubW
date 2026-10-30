@@ -1,0 +1,58 @@
+{
+ "id": "never_enough_money",
+ "title": "3 reasons you never have enough money",
+ "thumb": "Why you're *always broke*",
+ "thumb_photo": "empty wallet",
+ "thumb_tag": "MONEY HABITS",
+ "caption": "Reason one. You save what's left after spending, and nothing is ever left. Save first, on payday.\nReason two. Small subscriptions you forgot about keep charging every month.\nReason three. Interest on debt eats your income before you see it.",
+ "comment": "Which one is you? 👇",
+ "tags": [
+  "#budgeting",
+  "#personalfinance",
+  "#money",
+  "#moneytips",
+  "#financetips",
+  "#saving"
+ ],
+ "sources": [
+  "General personal-finance guidance"
+ ],
+ "scenes": [
+  {
+   "say": "Why do you never seem to have enough money, even after payday?",
+   "chat": "Why do you never seem to have enough money, even after payday?"
+  },
+  {
+   "say": "Reason one. You save what's left after spending, and nothing is ever left. Save first, on payday.",
+   "photo": "calendar",
+   "big": "Save first",
+   "sub": "on payday, automatically"
+  },
+  {
+   "say": "Reason two. Small subscriptions you forgot about keep charging every month.",
+   "photo": "smartphone",
+   "big": "Subscriptions",
+   "sub": "check your statement"
+  },
+  {
+   "say": "Reason three. Interest on debt eats your income before you see it.",
+   "photo": "credit card",
+   "big": "Interest",
+   "sub": "the hidden monthly bill"
+  },
+  {
+   "say": "Pay yourself first. Cancel what you don't use. Kill high-interest debt.",
+   "slide": [
+    "Pay yourself first",
+    "Cancel what you don't use",
+    "*Kill high-interest debt*"
+   ]
+  },
+  {
+   "say": "Which one is you?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

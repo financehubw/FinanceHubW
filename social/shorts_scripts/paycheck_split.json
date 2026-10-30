@@ -1,0 +1,58 @@
+{
+ "id": "paycheck_split",
+ "title": "How to split every paycheck (the 50/30/20 rule)",
+ "thumb": "Split your paycheck *like this*",
+ "thumb_photo": "calculator",
+ "thumb_tag": "BUDGETING",
+ "caption": "Fifty percent goes to needs. Rent, food, bills.\nThirty percent goes to wants. Eating out, trips, fun.\nTwenty percent goes to your future. Savings, investing, paying off debt.",
+ "comment": "What percentage do you actually save? 👇",
+ "tags": [
+  "#budgeting",
+  "#personalfinance",
+  "#money",
+  "#moneytips",
+  "#financetips",
+  "#saving"
+ ],
+ "sources": [
+  "50/30/20 budgeting rule (popularised by Elizabeth Warren, All Your Worth, 2005)"
+ ],
+ "scenes": [
+  {
+   "say": "How should you split every paycheck?",
+   "chat": "How should you split every paycheck?"
+  },
+  {
+   "say": "Fifty percent goes to needs. Rent, food, bills.",
+   "photo": "apartment",
+   "big": "50%",
+   "sub": "needs"
+  },
+  {
+   "say": "Thirty percent goes to wants. Eating out, trips, fun.",
+   "photo": "restaurant",
+   "big": "30%",
+   "sub": "wants"
+  },
+  {
+   "say": "Twenty percent goes to your future. Savings, investing, paying off debt.",
+   "photo": "piggy bank",
+   "big": "20%",
+   "sub": "savings and debt"
+  },
+  {
+   "say": "50 needs. 30 wants. 20 future you.",
+   "slide": [
+    "50 needs",
+    "30 wants",
+    "*20 future you*"
+   ]
+  },
+  {
+   "say": "What percentage do you actually save?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "id": "blow_10k_year",
+ "title": "How much a day blows $10,000 a year?",
+ "thumb": "$27 a day = *$10,000*",
+ "thumb_photo": "coffee shop",
+ "thumb_tag": "MONEY MATH",
+ "caption": "Just twenty-seven dollars and forty cents a day.\nCoffee, lunch, a ride, a snack. It adds up without you noticing.\nThat's ten thousand dollars a year. In ten years, a hundred thousand.",
+ "comment": "What's your biggest daily spend? 👇",
+ "tags": [
+  "#moneymath",
+  "#saving",
+  "#money",
+  "#personalfinance",
+  "#budgeting",
+  "#moneytips"
+ ],
+ "sources": [
+  "Arithmetic: $27.40 × 365 = $10,001"
+ ],
+ "scenes": [
+  {
+   "say": "How much do you have to spend a day to blow ten thousand dollars a year?",
+   "chat": "How much do you have to spend a day to blow ten thousand dollars a year?"
+  },
+  {
+   "say": "Just twenty-seven dollars and forty cents a day.",
+   "photo": "coffee cup",
+   "big": "$27.40",
+   "sub": "a day"
+  },
+  {
+   "say": "Coffee, lunch, a ride, a snack. It adds up without you noticing.",
+   "photo": "shopping bags",
+   "big": "× 365",
+   "sub": "days a year"
+  },
+  {
+   "say": "That's ten thousand dollars a year. In ten years, a hundred thousand.",
+   "photo": "money",
+   "big": "$100,000",
+   "sub": "in ten years, before any interest"
+  },
+  {
+   "say": "Small daily costs. are big yearly costs.",
+   "slide": [
+    "Small daily costs",
+    "*are big yearly costs*"
+   ]
+  },
+  {
+   "say": "What's your biggest daily spend?",
+   "photo": "thinking person",
+   "big": "Your take?",
+   "sub": "tell us in the comments"
+  }
+ ]
+}
