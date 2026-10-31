@@ -1,3 +1,67 @@
+=== run 2026-10-31T13:03:40Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+78/171 sources returned news, 664 recent items
+179 new trusted stories, posting up to 3 this run
+---
+🇵🇰 GOLD PRICES DROP BY RS10,800 IN PAKISTAN
+
+📌 Gold prices in Pakistan dropped by Rs10,800 per tola.
+📊 Gold drop: Rs10,800 per tola
+💡 Lower gold prices make buying gold less expensive.
+#Gold
+
+📍 Pakistan · 📰 Investify · ✅ 12 sources
+https://news.google.com/rss/articles/CBMirAFBVV95cUxNbUxqZ2NQNkw3VW54OTlJYVQ5ZG9KbHJlNVI3bkRDRmJJYThZSmlrRFhqenVUbC1faVNfQ19OTEZVbm9vMlpNZWp4ekszWGlQWkVJYzJwYkdIZjlQSURjeTVuZk5yMG9kVHZkYi1tXzRmaTBxUGh0eVFDcDIxZEFIY2xQazJwOEhnaGZWOVAyV09wLS1BcmpQcTRZVjYxQ2NmWlo2LTVNdEhMb3hV?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "12 sources" but only seven sources are provided, so the source count is unsupported
+  -> blocked by fact-check
+---
+🇮🇳 SEBI MONITORS TATA SONS GOVERNANCE DEVELOPMENTS
+
+📌 India market regulator SEBI is watching Tata Sons governance closely.
+💡 Strong regulator oversight helps protect everyday investors.
+#SEBI
+
+📍 India · 📰 Moneycontrol.com · ✅ 6 sources
+https://news.google.com/rss/articles/CBMi3AFBVV95cUxOV0FhNFJCSTJFR3ZhY1F1a3F5SXQ3NEFqeWtXRGRWLUNCNVIxdjA2bGNLQk8yRzBkQUVYV0RpNmoyeWdUdVVNaWVIa29Yc2VMM04xZ09TWUFOR3RkQ1RiSWpaNGpWeS0zakNsN3V4eXBLaFUtQ2VRd2oyTTlzQVlHa2Y5emxHdkwtYktvdk9wa1RFaFBTM09HNHFPeWpscE1OU01fZmxocGdPa3l4UTNlcFFhYlFnU1pULXZwaExzZGVSMkdwbU13cncyVUNzd2tmc1JydEtvSzhTNnB00gHcAUFVX3lxTE5XQWE0UkJJMkVHdmFjUXVrcXlJdDc0QWp5a1dEZFYtQ0I1UjF2MDZsY0tCTzJHMGRBRVhXRGk2ajJ5Z1R1VU1pZUhrb1hzZUwzTjFnT1NZQU5HdGRDVGJJalo0alZ5LTNqQ2w3dXh5cEtoVS1DZVF3ajJNOXNBWUdrZjl6bEd2TC1iS292T3BrVEVoUFMzT0c0cU95amxwTU5TTV9mbGhwZ09reXhRM2VwUWFiUWdTWlQtdnBoTHNkZVIyR3BtTXdydzJVQ3N3a2ZzUnJ0S29LOFM2cHQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about SEBI monitoring Tata Sons governance are directly supported by the Moneycontrol sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: PASS - The post accurately reflects the source headlines stating that SEBI is monitoring Tata Sons governance developments, and the general explanation provided is factually sound.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-9509f890f975
+---
+🌐 FBI JOINS HUNT FOR $6.3 BILLION BINANCE HACKERS
+
+📌 The FBI is helping search for hackers who stole $6.3 billion, as Bitcoin holds $77,000.
+📊 $BTC: $77,000+
+
+📍 Global · 📰 All News · ✅ 3 sources
+https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-77000-as-binance-hack-recovery-takes-shape-4989115
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited article.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the FBI's involvement, the $6.3 billion hack amount, and Bitcoin's price above $77,000 are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-super-vl:free returned an empty reply)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-639a2aaa9c07
+---
+🌐 INVESTORS PULL $643M FROM BITCOIN ETFS AFTER HACK
+
+📌 Investors pulled $643 million from Bitcoin ETFs (funds tracking crypto) after a hack.
+📊 $BTC ETF Outflows: $643M
+
+📍 Global · 📰 BeInCrypto · ✅ 2 sources
+https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZVXVxNHNyeV9LVFgyem5FNF9DX2VUZkNKaGwxNzVmalY2SFpZSmZlM2JIbzlCaGE3eVZSSUhib1l5UzNCZC1RQ1NoT1BqeE1vZ3d5eVRDRHRFVG5LM1lRYXVkLXo4ZU1IRnhsUjFqSHQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All figures, event description, and source attribution are directly confirmed by the cited articles.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited BeInCrypto source.
+  Groq Qwen: PASS - The specific outflow amount of $643 million and the attribution to Bitcoin ETFs following a hack are directly supported by the BeInCrypto source title.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-b35e5c8e106a
+done: 3 post(s) this run
 === run 2026-10-31T06:12:21Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 4
@@ -1434,67 +1498,3 @@ daily cap reached, nothing to do this run
 === run 2026-10-26T21:05:30Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-26T19:25:06Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
-94/171 sources returned news, 956 recent items
-re-check of earlier post: 5 fail / 0 pass
-253 new trusted stories, posting up to 1 this run
----
-🇺🇸 🔄 UPDATE: US STOCKS RISE AS NASDAQ CLIMBS 1.3%
-
-📌 US stocks gained as S&P 500 rose 0.9% and Nasdaq climbed 1.3% while oil prices fell.
-📊 S&P 500: +0.9%
-
-📍 US · 📰 The Sunday Guardian · ✅ 3 sources
-https://news.google.com/rss/articles/CBMikAJBVV95cUxQQTlvWUE5N0R5MHhBRWVzMkFVUkFIWHpsQzJvT1BPaEY0S1pzQXRQcV9KZFVVLUw1NkNiX0R4NjZKZWtwbTBwbF9zd1lCZWJ0bFllc0p2Y1F2dS1nOTJ3NlMwX2pIbTA2MUNCQXdKbkhVVGJack9UcjBaZDhyR2lWQTZ6b19XVVdZbUpmSTBRaFRmdFM2RFNlRVJaRmpiNzNQemhBT2thaUViS24ySHlfMXplUmhHYmR0NmFWOHNZQmJBMEFfZzdOazNCQThaeFptUTdCN2RfVzZmcDg1WDJsVDF4eWdneDA4aXdqYjRsckxuMjktNmRoNnlLNkxPMVFLVDZ6N3dFdFRZNG9tbm5ySdIBlgJBVV95cUxQQmVmanhTYk1SaF8wUFRpdWdDNGh4WFJuZGo2RHdfSkd0d2ZTQ2FCVDYtN0xHSGVnSTg3ZVNSc25qT3ZIQTI0TUFrdlI5M1BkV3h0ZnplU1pPakoxbU5pUWp5czZyQ2JwSXN5RXU0WEl3XzlybmlIZ1JRWEl1MV9yYjJIZ1pnaDJqVVNtcXphamNSSGF0by1UeWlFUTgzblItT215RGh2dWJoazNwMkdnR0xtWmI4UktRMlJqd2xZZ3BVdkMzQnhBNHFTVV9sTGhhRll6bFQybDF2T3FMT3l4TnpIalBmWk1GX0FNZWlmMkhGczFWSE5WcFVmZlZUbVJGLW53UHhseDVoZlZFZkl5MGh3aWU0UQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All percentages, stock movements, and oil price decline are directly supported by the cited Sunday Guardian article.
-  Groq GPT-OSS 20B: FAIL - The claim that the post cites 3 sources is unsupported; the list actually contains 5 sources.
-  -> blocked by fact-check
----
-🇺🇸 FED EXPECTED TO HOLD INTEREST RATES STEADY
-
-📌 The US Fed is expected to hold interest rates steady this week.
-💡 Steady interest rates usually keep loan and mortgage costs unchanged.
-#Fed
-
-📍 US · 📰 Forbes · ✅ 4 sources
-https://news.google.com/rss/articles/CBMinAFBVV95cUxQTjBfRl9BdjJ4TE9UMk9BY1NmYWp3MFVuNWkwYnIweWpuRldsZU8zQk9rWFBTRUhpVXQyYW9WZWFXd0EzVWZ2VnZwdUljYmFuQmE1QmstWXpmcUZOaDVlZ1pJbnB6anFMUEZIdnU2S1loUGtnV2Z3R2ktbkgtek5VNThFUnFVUHhpbGF5NEEyd1dIR0p6X0tGc0tuYUY?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that the Fed will hold rates steady this week is not supported by the cited Forbes source, which discusses 2027 expectations, causing a source mismatch.
-  -> blocked by fact-check
----
-🇺🇸 STRATEGY PAUSES BITCOIN BUYS
-
-📌 Strategy stopped buying bitcoin for a week and spent $205 million to buy back its own preferred stock.
-📊 $MSTR: $205M stock buyback
-#Crypto
-
-📍 US · 📰 Bitcoin Magazine · ✅ 3 sources
-https://bitcoinmagazine.com/news/strategy-mstr-pauses-bitcoin-buying-205
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the pause in bitcoin buying and the $205 M preferred‑stock buyback are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the pause in bitcoin buying, the $205 million stock buyback, the location, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f1e984d8da48
-done: 1 post(s) this run
-=== run 2026-10-26T17:18:05Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
-101/171 sources returned news, 1080 recent items
-252 new trusted stories, posting up to 1 this run
----
-🇰🇷 SOUTH KOREA MAY DELAY CRYPTO TAX TO 2029
-
-📌 South Korea is considering a fourth delay on its 22% crypto tax, pushing it to 2029.
-📊 Crypto tax rate: 22%
-
-📍 South Korea · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 4 sources
-https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about South Korea's 22% crypto tax delay to 2029 are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the fourth delay, the 22% tax rate, the new 2029 timeline, and the source attribution are directly supported by the provided sources.
