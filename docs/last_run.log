@@ -1,3 +1,23 @@
+=== run 2026-10-31T00:03:12Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 4
+88/171 sources returned news, 673 recent items
+141 new trusted stories, posting up to 1 this run
+---
+🇺🇸 US TECH STOCKS CRASH ON AI SPENDING FEARS
+
+📌 US tech stocks fell sharply, with the Nasdaq dropping over 2.5% on AI spending fears.
+📊 Nasdaq: down over 2.5%
+
+📍 US · 📰 Economic Times · ✅ 6 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-dow-jones-crashes-500-pts-nasdaq-over-2-5-as-ai-cash-burn-fears-spark-tech-selloff/articleshow/135377269.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about Nasdaq drop >2.5% and tech stock decline are supported by the Economic Times source and the listed sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the Nasdaq drop, AI spending fears, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-279d6469faa8
+done: 1 post(s) this run
 === run 2026-10-30T19:40:26Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 5
@@ -1478,23 +1498,3 @@ published to: website, Instagram Story
 📍 US · 📰 Yahoo Finance · ✅ 2 sources
 https://news.google.com/rss/articles/CBMimAFBVV95cUxQa3lteVFNck1JeVQyM1RLaVB1cVFlN0UzR3lFVFJ0YnNkWklLWEFRRTVELUpmNWtKWVpWM3dWRE9FV19xSWl0Y0FfTlV5MXEtZWV3dDl5ZnRiNzI5MUd1Q1I4LUpoV0l3SjJfcDR2MC0ydFFxQWFRMjYwQWppSDJTSktCb0trTjFscUtyV1ZIcTRENU1fb2tGXw?oc=5
   written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Yahoo Finance and Pluang sources.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the movement of oil, gold, and silver prices ahead of the Fed meeting are directly supported by the provided sources, and the location and source attribution are correct.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All factual claims regarding price directions, the timing relative to the Fed meeting, and the sources are directly supported by the provided text.
-skip (off-topic or nothing new): US Stock Futures Point Higher as Crude Oil Retreats and Investors Await Fed Meeting: Dow Jones, S&P, Nasdaq, Wall Street
----
-🇺🇸 US STOCKS OPEN HIGHER
-
-📌 US stock markets opened higher as investors wait for major company earnings and a Fed rate decision.
-
-📍 US · 📰 The Washington Post · ✅ 16 sources
-https://news.google.com/rss/articles/CBMizAFBVV95cUxQUGdRNzhjMDhlRU9iOGJjaU52Z2dOb0JDY0xDZ1ZRRlN0YklPajRka0FWY0d6cDJFMGdKazZZMG9xc2p2ZU9xUk1pRlFyVThoemRCSTdna0RQaVVKMHRBeU9CQ216bnlFTE9CRlllUlBJMWw5dGpYeHBWQ3ZDeGhUckdzVmE3RjJZV1BNdWpLcU42dFFvSDFGMUQ0RVI0RGVaOERRNUEyT0tzeXREd2pDekNrTVhtaWc0ZUJKY1g5cVZNTkJrMHVHeVdqdmE?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about US stocks opening higher and investors awaiting earnings and Fed decision are directly supported by the cited Washington Post source
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Washington Post article.
-  Groq Qwen: PASS - All factual claims regarding the market direction, reasons (earnings and Fed decision), location, and source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-2d0a7258bcad
----
