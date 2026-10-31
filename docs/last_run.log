@@ -1,3 +1,36 @@
+=== run 2026-10-31T06:12:21Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 4
+78/171 sources returned news, 650 recent items
+177 new trusted stories, posting up to 1 this run
+---
+🇮🇳 RATNADEEP RETAIL GETS SEBI NOD FOR IPO
+
+📌 Ratnadeep Retail got approval to raise up to Rs 400 crore via an initial public offering.
+📊 IPO size: Rs 400 crore
+📊 OFS: 1.49 crore shares
+#IPO
+
+📍 India · 📰 Economic Times · ✅ 4 sources
+https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-ahead-value-fashion-retailer-ratnadeep-retail-gets-sebi-nod-to-raise-funds-through-public-issue/articleshow/135389668.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the Rs 400 crore IPO size, 1.49 crore OFS shares, SEBI approval, and Indian location are directly supported by the Economic Times sources.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 4 sources, but 5 sources are listed.
+  -> blocked by fact-check
+---
+🇮🇳 SEBI EASES RULES FOR FOREIGN INVESTORS
+
+📌 Market regulator SEBI made identity checks (KYC) less frequent for foreign portfolio investors.
+
+📍 India · 📰 SEBI · 🏛️ Official
+https://www.sebi.gov.in/media-and-notifications/press-releases/oct-2026/ease-of-compliance-for-fpis-rationalisation-of-kyc-review-periodicity_105522.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about SEBI easing KYC frequency for FPIs are directly supported by the official SEBI press release.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
+  Groq Qwen: PASS - The post accurately reflects the source headlines and titles regarding SEBI easing KYC rules for FPIs in India, with no unsupported factual claims.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-00b3e4aef375
+done: 1 post(s) this run
 === run 2026-10-31T00:03:12Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 4
@@ -1465,36 +1498,3 @@ https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-it
   Groq GPT-OSS: PASS - All factual statements about South Korea's 22% crypto tax delay to 2029 are directly supported by the cited sources.
   Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
   Groq Qwen: PASS - All factual claims regarding the fourth delay, the 22% tax rate, the new 2029 timeline, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f3c1e37eeded
-done: 1 post(s) this run
-=== run 2026-10-26T15:13:40Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 5
-101/171 sources returned news, 1149 recent items
-248 new trusted stories, posting up to 3 this run
----
-🇺🇸 US STOCKS RISE AS OIL PRICES FALL
-
-📌 US stocks opened higher today, with the Dow Jones gaining 105 points.
-📊 Dow Jones: +105 points
-💡 Falling oil prices can help lower daily costs for drivers and businesses.
-
-📍 US · 📰 NDTV Profit · ✅ 2 sources
-https://news.google.com/rss/articles/CBMizAFBVV95cUxQUzBMa0lRT0FxYmE2SXJfc3BXVkRyNHYzZi03VnNETXc2a19TZnlxeWhKNjBFeDctY3NhbnJCWHhOb0dpRXVCaHEwLVBYMWFrbVJzeGJHR0xTLVpxQXptNVdmRW9wbHE5RHVQekRtMFFnakx2T1ZGSGFGOXM5alNvdkJNNlZSWkJpcEtvZXViNVpoSGNHZXctTHRwRkdCc2R1VUFNSGw2NFBDcTM1ZnRzUWh1NzRQQlppb0FSeDRiWV9Qd25TeVY1ZFdKRGM?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the Dow Jones gain and oil price impact are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: PASS - All factual claims regarding the Dow Jones gain of 105 points, the rise in US stocks, and the context of falling oil prices are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-0a034c57d477
----
-🇺🇸 🔄 UPDATE: OIL PRICES FALL AS GOLD AND SILVER RISE
-
-📌 Oil prices fell while gold and silver rose before the US Fed meeting.
-💡 Lower oil prices can help reduce inflation (rising living costs).
-#Oil
-
-📍 US · 📰 Yahoo Finance · ✅ 2 sources
-https://news.google.com/rss/articles/CBMimAFBVV95cUxQa3lteVFNck1JeVQyM1RLaVB1cVFlN0UzR3lFVFJ0YnNkWklLWEFRRTVELUpmNWtKWVpWM3dWRE9FV19xSWl0Y0FfTlV5MXEtZWV3dDl5ZnRiNzI5MUd1Q1I4LUpoV0l3SjJfcDR2MC0ydFFxQWFRMjYwQWppSDJTSktCb0trTjFscUtyV1ZIcTRENU1fb2tGXw?oc=5
-  written by Gemini
