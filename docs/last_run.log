@@ -1,3 +1,9 @@
+=== run 2026-10-31T23:37:43Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+66/171 sources returned news, 431 recent items
+100 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-10-31T18:44:28Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1492,9 +1498,3 @@ https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-h
 published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-9434bc47b15e
 done: 3 post(s) this run
-=== run 2026-10-27T09:14:55Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-27T07:24:22Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
