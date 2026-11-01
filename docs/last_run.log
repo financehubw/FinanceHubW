@@ -1,3 +1,48 @@
+=== run 2026-11-01T15:29:46Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 10
+77/171 sources returned news, 657 recent items
+178 new trusted stories, posting up to 2 this run
+---
+🌐 OPEC+ KEEPS DECEMBER OIL OUTPUT TARGETS STEADY
+
+📌 OPEC+ kept its oil output targets steady, with no major changes expected until 2027.
+
+📍 Global · 📰 The Straits Times World News · ✅ 8 sources
+https://www.straitstimes.com/business/opec-keeps-december-oil-output-targets-steady-as-iran-war-continues-to-disrupt-flows
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited Straits Times article.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 8 sources, but only six are listed, which is unsupported.
+  -> blocked by fact-check
+---
+🌐 BINANCE RESUMES WITHDRAWALS AFTER $6.3B HACK
+
+📌 Crypto exchange Binance resumed withdrawals after a $6.3 billion hack.
+📊 Stolen funds: $6.3 billion
+
+📍 Global · 📰 International: Top News And Analysis · ✅ 6 sources
+https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about Binance resuming withdrawals after a $6.3 billion hack are directly supported by the listed sources
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the $6.3 billion hack, the resumption of withdrawals, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-dddebc997e0c
+---
+🌐 BINANCE RESUMES WITHDRAWALS AFTER RECORD $6.3B HACK
+
+📌 Binance allowed users to withdraw funds again after a record $6.3 billion hack.
+📊 Stolen funds: $6.3B
+
+📍 Global · 📰 The Guardian · ✅ 5 sources
+https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Guardian article and related sources
+  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the $6.3B hack, resumption of withdrawals, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-46b1e6f038cd
+done: 2 post(s) this run
 === run 2026-11-01T06:46:38Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1453,48 +1498,3 @@ https://news.google.com/rss/articles/CBMilgFBVV95cUxOVWlmNzdaV1NSRVcwVDNNUnlTVXR
   Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
   Groq Qwen: PASS - All factual claims regarding US stock futures rising and oil prices falling ahead of the Fed decision are directly supported by the provided sources, and the location and source attribution are correc
   Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All factual claims match the sources, the US location and Yahoo Finance attribution are correct, and the 💡 line is a general explanation rather than a specific prediction.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-36bb321093ff
-done: 3 post(s) this run
-=== run 2026-10-27T11:18:33Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-106/171 sources returned news, 1155 recent items
-317 new trusted stories, posting up to 3 this run
----
-🇮🇳 DEUTSCHE BANK SEES RBI RATE RISING TO 6.25% BY 2027
-
-📌 Deutsche Bank expects RBI to raise repo rate (the rate banks borrow at) to 6.25%.
-📊 Repo rate: 6.25%
-
-📍 India · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/news/economy/policy/rbi-may-raise-repo-rate-to-6-25-by-2027-amid-inflation-risks-deutsche-bank/articleshow/135229287.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims the repo rate is 6.25% (implying current), which the source only forecasts for 2027, not a present fact.
-  -> blocked by fact-check
----
-🌐 ANTHROPIC IPO FILING MOVES STOCKS
-
-📌 US futures edged lower while Asian markets rose following news of an Anthropic IPO filing.
-#Stocks
-
-📍 Global · 📰 Yahoo Finance · ✅ 6 sources
-https://news.google.com/rss/articles/CBMilwFBVV95cUxPLUNNcVpOZUlrU21YOGhjTGs3VkJDdDFQTU13aE12U3lpY3p1b0dTajB3X3pSdDlqcXJ1c2J1T2ExaHJkVkRLS0xFek05czA0bnJES0lUbGprbWU1ZXI5M3RtbGpkeGVPeDNyMWxMWnZKbW9SXzhZaHpRZUNueHMyNkVnblcwNWIydk5VS0Vva0F4d3lWRmxN?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about US futures edging lower and Asian markets rising after the Anthropic IPO filing are directly supported by the Yahoo Finance articles.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding US futures edging lower and Asian markets rising following the Anthropic IPO filing news.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All factual claims in the post are directly supported by the Yahoo Finance sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f6968f0ad105
----
-🇮🇳 RAJAN WARNS INDIA AGAINST DEFENDING FALLING RUPEE
-
-📌 Ex-RBI chief Rajan warned India not to exhaust reserves after using half of $140B.
-📊 Special forex pool: >$140 billion
-
-📍 India · 📰 Economic Times · ✅ 8 sources
-https://economictimes.indiatimes.com/news/economy/policy/resist-temptation-to-defend-at-any-cost-raghuram-rajan-cautions-india-against-excessive-use-of-forex-reserves/articleshow/135228668.cms
-  written by Gemini
