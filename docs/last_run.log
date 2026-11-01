@@ -1,3 +1,9 @@
+=== run 2026-11-01T20:45:31Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+77/171 sources returned news, 495 recent items
+137 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-01T15:29:46Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 10
@@ -1492,9 +1498,3 @@ https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-bharti-airt
 #Fed
 
 📍 US · 📰 Yahoo Finance · ✅ 4 sources
-https://news.google.com/rss/articles/CBMilgFBVV95cUxOVWlmNzdaV1NSRVcwVDNNUnlTVXRmVGJFTHl1SVZBRE5BakVDbFZJNDEzUERodHJFT3J0aXlLc0pvZWxuU0NNcVYwa2dnUXQ3OHVBWVY1MmJ2WmxRaEdJSmt1dWdpMENPWGl3NHp5aU9rRko5NVFEVXN0XzZWVXN2bjNMNXdUVTZkbWhKemJtWWJPaTdaN3c?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about futures rising, oil falling, and higher opening are confirmed by the cited sources, and the general note on inflation is accurate.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding US stock futures rising and oil prices falling ahead of the Fed decision are directly supported by the provided sources, and the location and source attribution are correc
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
