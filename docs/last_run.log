@@ -1,3 +1,46 @@
+=== run 2026-11-01T06:46:38Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+77/171 sources returned news, 605 recent items
+153 new trusted stories, posting up to 1 this run
+---
+🇦🇺 AUSTRALIA WILL NOT PROMISE SAVINGS IN BUDGET UPDATE
+
+📌 Budget pressures mean the government cannot promise overall savings in December.
+
+📍 Australia · 📰 Latest business news · ✅ 2 sources
+https://www.abc.net.au/news/2026-11-01/katy-gallagher-wont-promise-myefo-net-savings/107333248
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the cited ABC News article.
+  Groq GPT-OSS 20B: FAIL - The claim that there are two sources is unsupported; only one source is cited.
+  -> blocked by fact-check
+---
+🇮🇳 24K GOLD REACHES RS 1.38 LAKH IN INDIA
+
+📌 24K gold reached ₹1.38 lakh while silver traded at ₹1.79 lakh on November 1.
+📊 24K Gold: ₹1.38 Lakhs
+💡 Higher precious metal prices make buying jewelry more expensive.
+
+📍 India · 📰 Mint · ✅ 8 sources
+https://www.livemint.com/money/gold-24k-22k-18k-silver-999-prices-today-1-november-retail-rates-bangalore-hyderabad-delhi-mumbai-kolkata-chennai-cities-11793469769074.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only five source entries are provided, making the source count unsupported.
+  -> blocked by fact-check
+---
+🌐 NORTH KOREAN HACKERS STOLE $6.3B FROM BINANCE
+
+📌 North Korean hackers stole $6.3 billion from crypto exchange Binance in 20 minutes.
+📊 Stolen crypto: $6.3 billion
+
+📍 Global · 📰 Mint · ✅ 21 sources
+https://www.livemint.com/market/cryptocurrency/binance-crypto-theft-heres-how-north-korean-hackers-perfected-the-heist-stole-6-3-billion-in-20-minutes-details-11793500918241.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited Mint article and related sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Mint article.
+  Groq Qwen: PASS - All factual claims regarding the amount ($6.3B), time (20 minutes), perpetrators (North Korean hackers), victim (Binance), and attribution (FBI) are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-a3c3382f7de8
+done: 1 post(s) this run
 === run 2026-10-31T23:37:43Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1455,46 +1498,3 @@ published to: website, Instagram Story
 📍 India · 📰 Economic Times · ✅ 8 sources
 https://economictimes.indiatimes.com/news/economy/policy/resist-temptation-to-defend-at-any-cost-raghuram-rajan-cautions-india-against-excessive-use-of-forex-reserves/articleshow/135228668.cms
   written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but the provided source list does not confirm exactly eight sources
-  -> blocked by fact-check
----
-🇮🇳 INDIAN STOCKS END FLAT AFTER MIXED DAY
-
-📌 Indian share markets ended flat today, with the Sensex closing at 73,599.
-📊 Sensex: 73,599
-💡 A flat market means stock prices saw very little change overall.
-
-📍 India · 📰 Fortune India · ✅ 5 sources
-https://news.google.com/rss/articles/CBMipgFBVV95cUxNM3hGaVpJZlFtTVRTRktjY2JJbm1IRGNub2t5RGF6RjZpSkE1Vnh5ck1JNlpIc1JFMmhwVkJVWkR1ZXRUcXZxX1RFYmtsNkRyaFl4c25HdkJBTEJ4ZzQ2OWZaRk9DTDBZY1FudjQzRUpOTEhUazBuSEl0anE0ajBzT19hS1kwcWd5eWFRV0gzdmJid2hGY2FtOFN0ZW00ci14aTVxQTNn0gGzAUFVX3lxTE1lalJJTGtYZDlNU3JHQzFtUGdrdUdkOFlRTTVMY0hub0JkQzB2UFplTGRYX1ZXanhTR203bnRBUy1rc1BFM3FYMmRHN09iYWFWajBZZUsxVzJncmdlOUxtRW51NEpwUFFIWkx5cGtpYll6dGMxSW52SFJvYlpST2dUSXZpSUdXdVdZeEdGSmxyb0VsRTBYNC1nQnh6blNPSUx1VG9rVTVjT2prT0ZmeUNvM18w?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (Sensex at 73,599 and flat market meaning) are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The post claims it cites 5 sources, but the list actually contains 6 (including a duplicate), which is a factual inconsistency.
-  -> blocked by fact-check
----
-🌐 GOLD PRICES EASE AS US DOLLAR STRENGTHENS
-
-📌 Gold prices fell as the US dollar gained strength before the Fed rate decision.
-📊 Gold: near $4,000
-
-📍 Global · 📰 Mint · ✅ 4 sources
-https://www.livemint.com/market/gold-eases-on-firmer-dollar-ahead-of-fed-decision-11793087285993.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about gold easing, dollar strength, and price near $4,000 are directly supported by the Mint source.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Mint source.
-  Groq Qwen: PASS - All factual claims regarding gold prices near $4,000, the strengthening US dollar, and the context of the Fed decision are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-c710e433cac7
----
-🇮🇳 INDIAN STOCKS END FLAT AMID HIGH OIL PRICES
-
-📌 Indian markets closed flat due to high crude oil prices and selling in bank stocks.
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
-https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-27-october-2026/article71626702.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about flat Indian market, high oil prices, and bank stock selling are directly supported by the cited sources
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - The post accurately reflects the source headlines and content regarding the market closing largely unchanged due to high oil prices and bank stock selling, with matching location and source attributio
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-9434bc47b15e
-done: 3 post(s) this run
