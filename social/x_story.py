@@ -381,7 +381,7 @@ def digest_due() -> tuple[str, dt.datetime] | None:
     done = {e["key"] for e in log["posted"]}
     for name, hh, mm in reversed(_editions()):
         start = now.replace(hour=hh, minute=mm, second=0, microsecond=0)
-        if now >= start and now - start < dt.timedelta(hours=6):
+        if now >= start and now - start < dt.timedelta(hours=18):   # GitHub often starts runs hours late
             key = f"{now - dt.timedelta(days=1):%Y-%m-%d}-daily"     # named after the day it covers
             return None if key in done else (key, now)
     return None
