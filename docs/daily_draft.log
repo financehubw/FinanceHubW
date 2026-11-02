@@ -1,6 +1,6 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-108/171 sources returned news, 1380 recent items
+91/171 sources returned news, 1099 recent items
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
@@ -10,21 +10,26 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
   quotes.sort_index(inplace=True)
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big #3 draft 2: Groq GPT-OSS: PASS - All factual statements about the hack amount, Binance's $6.34 bn allocation, the $6.3 bn loss, and the $3 bn frozen by partners are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the hack amount, the allocated funds, the frozen assets, and Binance's pledge are supported by the provided sources.
-  big: story #3 ok in 35s
-  pol #37 draft 1: Groq GPT-OSS: PASS - All factual statements about the BOJ hitting its 2% inflation target, the 13‑year timeline, and the 1.25% policy rate are confirmed by the provided sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the inflation target, the duration, the policy rate, and the decision to hold rates are supported by the provided sources.
-  pol: story #37 ok in 86s
-  biz: rejected: biz_stats needs exactly two figures
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz #16 draft 3: Groq GPT-OSS: FAIL - The slide cites a specific 10% increase for ExxonMobil and BP, which is not confirmed by the provided sources.
-  biz: story #16 ok in 98s
-  up #29 draft 1: Groq GPT-OSS: PASS - All claims about the expected rate hike, the 3.75% to 4% increase, timing next week, and the aim to contain inflation are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide's claims regarding the expected rate hike from 3.75% to 4% next week to contain inflation are directly supported by the City AM source.
-  up: story #29 ok in 13s
-  r1 #1 draft 1: Groq GPT-OSS: PASS - Both the 12.6% drop for Alphabet and the 7.3% drop for Amazon are directly stated in the cited Business and Companies articles. | Groq GPT-OSS 20B: PASS - All numerical and company claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide's claims that Alphabet fell 12.6 per cent and Amazon shed 7.3 per cent are directly supported by the provided sources.
-  r1: story #1 ok in 10s
-  r2 #18 draft 1: Groq GPT-OSS: PASS - All claims about 0.4% Q3 euro zone growth and French output contraction are directly supported by the sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide's claims that the euro zone economy grew 0.4% in the third quarter and that French output contracted are directly supported by the provided source headlines and text.
-  r2: story #18 ok in 11s
-  r3 #33 draft 1: Groq GPT-OSS: PASS - All claims about Japan using $7 billion from contingency reserves to cap retail gasoline prices are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - The slide’s claim that Japan will use $7 billion from contingency reserves to cap retail gasoline prices is directly supported by the cited Oilprice.com source. | Groq Qwen: PASS - The slide accurately reflects the source's claim that Japan will use $7 billion from contingency reserves to cap retail gasoline prices.
-  r3: story #33 ok in 55s
-Draft ready for review: magazine/daily/2026-10-30/edition.json (not published)
+  big #12 draft 1: Groq GPT-OSS: PASS - All claims about the 8% drop, Qatar talks, Strait of Hormuz hopes, and Trump's threat are supported by the cited sources. | Groq GPT-OSS 20B: PASS - All numerical, factual, and attribution claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the 8% oil price drop, the location of talks (Qatar), the subject (Strait of Hormuz), and the actions of President Trump are supported by the provided sources.
+  big: story #12 ok in 17s
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: rejected: these numbers are not in the source: 0
+  pol: rejected: pol_stat must be 1-7 characters (it is 0); pol_stat_l1 must be 1-26 characters (it is 0); pol_stat_l2 must be 1-30 characters (it is 0); pol_stat must be a meaningful figure with a unit, like $100+, 5
+  pol: story #22 failed in 221s
+  pol #5 draft 1: Groq GPT-OSS: PASS - All revenue and computing commitment figures are directly supported by the cited sources | Groq GPT-OSS 20B: PASS - All numerical and factual claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding revenue figures, year-over-year growth, and computing commitments are directly supported by the provided sources.
+  pol: story #5 ok in 14s
+  biz #11 draft 1: Groq GPT-OSS: PASS - All numerical and factual statements are directly supported by the cited sources | Groq GPT-OSS 20B: PASS - All numerical and factual claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the sales figures, estimates, and drivers of the beat are directly supported by the provided sources.
+  biz: story #11 ok in 19s
+  up #6 draft 1: Groq GPT-OSS: FAIL - The sources do not substantiate that the Nasdaq and S&P 500 fell specifically ahead of the 2026 U.S. midterms; the CTV article covers election results, not market moves.
+  up #6 draft 2: Groq GPT-OSS: PASS - The claim that Nasdaq and S&P 500 fell ahead of the U.S. midterms and earnings is confirmed by the Seeking Alpha article; the CTV source does not contradict it. | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - The slide text accurately reflects the headline and content of the Seeking Alpha source, which confirms the Nasdaq and S&P 500 fell ahead of U.S. midterms and key earnings results.
+  up: story #6 ok in 23s
+  r1 #8 draft 1: Groq GPT-OSS: PASS - All claims about US suspension of duty‑free access for South Africa and the $1.7 bn export impact are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - The claim that the US will suspend duty-free trade access for South Africa, affecting $1.7bn of annual exports, is directly supported by the Al Jazeera source.
+  r1: story #8 ok in 55s
+  r2 #4 draft 1: Groq GPT-OSS: PASS - All claims (exchange name, size, withdrawal freeze, and $40 million hack) are supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: FAIL - The slide claims a $40 million hack, but The Block source reports a $46 million security breach, creating a factual discrepancy regarding the amount.
+  r2 #4 draft 2: Groq GPT-OSS: PASS - All claims about Mercado Bitcoin being Brazil's largest exchange, freezing withdrawals, and the security breach are supported by the sources. | Groq GPT-OSS 20B: PASS - All claims are supported by sources. | Groq Qwen: PASS - The slide's claims that Mercado Bitcoin is Brazil's largest crypto exchange and that it froze withdrawals after a security breach are fully supported by all provided sources.
+  r2: story #4 ok in 121s
+  r3: rejected: region text must be 1-100 characters
+  r3 #10 draft 2: Groq GPT-OSS: FAIL - The slide makes a speculative prediction that an RBA rate hike could trigger a recession, which is not a verifiable factual claim.
+  r3 #10 draft 3: Groq GPT-OSS: PASS - Both sources state that a Reserve Bank of Australia rate hike is expected, supporting the slide's claim. | Groq GPT-OSS 20B: PASS - The slide’s claim that an RBA rate hike is expected is supported by both cited sources. | Groq Qwen: PASS - The claim that an interest rate increase by the Reserve Bank of Australia is expected is directly supported by the source titles indicating an RBA rate hike is expected.
+  r3: story #10 ok in 5s
+Draft ready for review: magazine/daily/2026-11-02/edition.json (not published)

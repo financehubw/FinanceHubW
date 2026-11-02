@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "AFRICA",
+   "text": "The US will suspend duty-free trade access for South Africa, affecting $1.7bn of annual exports."
+  },
+  {
+   "name": "LATIN AMERICA",
+   "text": "Brazil's largest crypto exchange Mercado Bitcoin froze withdrawals after a security breach."
+  },
+  {
+   "name": "ASIA-PACIFIC",
+   "text": "An interest rate increase by the Reserve Bank of Australia is expected."
+  }
+ ],
+ "story_ids": [
+  12,
+  5,
+  11,
+  6,
+  8,
+  4,
+  10
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 12,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 5,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 11,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 6,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 8,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 4,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 10,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "Oil plunges 8%",
+ "cover_dek": "Hopes of peace between the US and Iran eased fears over oil prices.",
+ "big_headline": "Oil fell 8% on Monday morning as talks in Qatar revived peace hopes.",
+ "big_body": "Talks in Qatar revived hopes of reopening the Strait of Hormuz. President Donald Trump kept the threat of fresh strikes alive.",
+ "big_stat": "8%",
+ "big_stat_l1": "Oil prices plunged by",
+ "big_stat_l2": "this much on peace hopes",
+ "pol_headline": "Anthropic revenue surges",
+ "pol_body": "Anthropic reported US$17 billion in third-quarter revenue, up from US$1.4 billion a year earlier. The company's computing commitments are approaching $900bn.",
+ "pol_stat": "$17bn",
+ "pol_stat_l1": "Anthropic's revenue",
+ "pol_stat_l2": "in the third quarter",
+ "biz_headline": "Apple beats Wall Street estimates",
+ "biz_body": "Apple beat expectations on strong iPhone sales. Fourth-quarter sales reached $114.48-billion, above estimated $113.39-billion.",
+ "biz_stats": [
+  {
+   "value": "$114.48",
+   "name": "Quarterly sales",
+   "note": "fourth quarter"
+  },
+  {
+   "value": "$113.39",
+   "name": "Analyst estimate",
+   "note": "expected sales"
+  }
+ ],
+ "up_headline": "Nasdaq and S&P 500 fall behind",
+ "up_body": "The Nasdaq and S&P 500 fall behind ahead of U.S. midterms and key earnings results.",
+ "cover_photo": "tanker",
+ "big_photo": "refinery",
+ "pol_photo": "fed",
+ "biz_photo": "dollars",
+ "up_photo": "whitehouse",
+ "sources_used": [
+  "9Now",
+  "Al Jazeera",
+  "All News",
+  "Bitcoin Magazine",
+  "Business",
+  "CTV News",
+  "City AM",
+  "CoinDesk: Bitcoin, Ethereum, Crypto News"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−0.5%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,541."
+   },
+   {
+    "chg": "+1.5%",
+    "color": "#0B6B3A",
+    "text": "<strong>Gold</strong> rose to about $3,957 an ounce."
+   },
+   {
+    "chg": "−1.9%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $76,760."
+   }
+  ]
+ },
+ "status": "published"
+}
