@@ -1,3 +1,79 @@
+=== run 2026-11-02T09:55:50Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 3
+102/171 sources returned news, 1104 recent items
+re-check of earlier post: 2 fail / 3 pass
+261 new trusted stories, posting up to 2 this run
+---
+🇮🇳 GOLD PRICES FALL OVER ₹42,000 FROM JANUARY PEAK
+
+📌 Gold prices dropped by more than ₹42,000 from their high in January.
+📊 Gold: -₹42,000 from peak
+
+📍 India · 📰 The Federal · ✅ 3 sources
+https://news.google.com/rss/articles/CBMikAFBVV95cUxQMU1WSUxDYnh0NXp0ZnFMbHhIWXByS1llTWRmQ3ZFZXVQbjJLRUxSa09XUWoyaTliNVI5NWxTWGxGcU84ZXNHcG1SMkFOV2ZpdnR5c3hjT2dmLUR0Sl8zTlNNQ2FFVTI0ZVRBR1RmYUhBTGNSYlFjZVBRWmJZejdHa0FMZXZ3ek9oQmRpUHhlTGo?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the ₹42,000 drop and Indian context are directly supported by the cited sources
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: FAIL - The source 'Laodong.vn' reports that silver prices increased and precious metals recovered, which contradicts the post's claim that gold prices fell/crashed.
+  -> blocked by fact-check
+---
+🌐 GOLD FALLS OVER 30% TO ONE-YEAR LOW
+
+📌 Gold prices dropped over 30% from their January high to a one-year low.
+📊 Gold: -30% from January peak
+💡 Lower gold prices can reduce the value of existing gold holdings.
+#Gold
+
+📍 Global · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/commodities/explained-why-gold-investors-should-tone-down-expectations-as-yellow-metal-plunges-to-a-1-year-low/articleshow/135449976.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about the >30% drop to a one-year low are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: FAIL - Location does not match source
+  -> blocked by fact-check
+---
+🇮🇳 RELIANCE LEADS INDIAN STOCK MARKET RALLY
+
+📌 Indian stock markets rose on Monday, led by energy firm $RELIANCE.
+📊 $RELIANCE: Surged 5% or more
+
+📍 India · 📰 Moneycontrol.com · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYWhtRWlBcjZGTjlCMjJzbmNBVzJ4b085RWd3VFBhVnpEVktld0pKNUNZOENFbFIzM1ByV2NodDFqR3E1VklPQmM0UEozSXFPZWk2TjAtWlBuOV9KR3U0U3RBLTRaTjR5V1pwQ1lrdU9IVHF3aHFnMDhLV09hcjNldl9xVG94V3BrRVZCLXNfS0NHS21sT2dPajFvYkxVUVF0aUpNNkhmMktqMDJqbkJoSXUxb1RSenUtcU5DWF9kYVIxS0x3anRkdzdXOHRoVndYYmczZF94OXk0U0RCZzh6YVM0ZTlNVmvSAecBQVVfeXFMT2FobUVpQXI2Rk45QjIyc25jQVcyeG9POUVnd1RQYVZ6RFZLZXdKSjVDWThDRWxSMzNQcldjaHQxakdxNVZJT0JjNFBKM0lxT2VpNk4wLVpQbjlfSkd1NFN0QS00Wk40eVdacENZa3VPSFRxd2hxZzA4S1dPYXIzZXZfcVRveFdwa0VWQi1zX0tDR0ttbE9nT2oxb2JMVVFRdGlKTTZIZjJLajAyam5CaEl1MW9UUnp1LXFOQ1hfZGFSMUtMd2p0ZHc3Vzh0aFZ3WGJnM2RfeDl5NFNEQmc4emFTNGU5TVZr?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the Monday rally, Reliance's >5% surge, and market rise are directly supported by the Moneycontrol sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited Moneycontrol sources.
+  Groq Qwen: PASS - All factual claims regarding the market rally, Reliance's 5% surge, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6049c102b517
+---
+🌐 GOLD RISES 0.9% TO $3,907 PER OUNCE
+
+📌 Spot gold rose 0.9% to $3,907.94 an ounce after touching a one-year low.
+📊 Gold: $3,907.94 (+0.9%)
+
+📍 Global · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
+https://www.thehindubusinessline.com/markets/gold/gold-rises-on-softer-oil-markets-parse-fed-signals/article71655715.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All figures, percentage, price, and one-year low claim are directly supported by the source.
+  Groq GPT-OSS 20B: FAIL - Source name does not match the cited BusinessLine article
+  -> blocked by fact-check
+---
+🇮🇳 GOLD AND SILVER PRICES RISE IN INDIA
+
+📌 Gold rose to ₹1,39,112 and silver to ₹1,81,999 as Nifty passed 23,300.
+📊 MCX Gold: ₹1,39,112
+💡 Precious metals cost more to buy when market prices go up.
+#Gold
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/money/personal-finance/mcx-gold-vs-mcx-silver-rates-today-2-nov-check-how-precious-metals-are-performing-on-monday-amid-sensex-nifty-surge-11793601809697.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All price, Nifty, and explanation claims are directly supported by the Mint source
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
+  Groq Qwen: PASS - All factual claims regarding prices, indices, and source attribution are directly supported by the Mint source.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-a96c603deff3
+done: 2 post(s) this run
 === run 2026-11-02T07:17:41Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1422,79 +1498,3 @@ See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace 
   quotes.sort_index(inplace=True)
 /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
 See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
---- special
-🌐 GLOBAL MARKETS OVERNIGHT
-
-🟢 S&P 500: 7,723 (+0.60%)
-🟢 Nasdaq: 26,478 (+1.18%)
-⚪ Dow: 52,378 (+0.03%)
-🔴 FTSE 100: 10,686 (-0.75%)
-🟢 Nikkei: 64,009 (+1.17%)
-🔴 Brent oil: $110.51 (-4.58%)
-
-🟢 up · 🔴 down · vs previous close
-#Markets #StockMarket
-published to: website, Instagram Story
-89/171 sources returned news, 842 recent items
-186 new trusted stories, posting up to 0 this run
-done: 1 post(s) this run
-=== run 2026-10-27T23:11:29Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
-87/171 sources returned news, 787 recent items
-re-check of earlier post: 5 fail / 0 pass
-182 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-27T21:09:22Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
-91/171 sources returned news, 856 recent items
-246 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-27T19:21:04Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-27T17:27:43Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-97/171 sources returned news, 980 recent items
-re-check of earlier post: 1 fail / 3 pass
-267 new trusted stories, posting up to 3 this run
----
-🇺🇸 US STOCKS RISE AS OIL PRICES DROP AHEAD OF FED DECISION
-
-📌 US stocks moved higher as oil prices fell ahead of the Federal Reserve rate meeting.
-
-📍 US · 📰 Economic Times · ✅ 8 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-sp-500-nasdaq-open-higher-as-oil-pulls-back-ahead-of-fed-decision/articleshow/135236366.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim of "✅ 8 sources" is not directly supported by the listed sources
-  -> blocked by fact-check
----
-🇺🇸 US MORTGAGE RATES HIT 7.38% AHEAD OF FED DECISION
-
-📌 US mortgage rates reached 7.38% while markets wait for the Fed decision.
-📊 Mortgage rate: 7.38%
-💡 Higher rates make home loans more expensive for buyers.
-
-📍 US · 📰 TradingView · ✅ 3 sources
-https://news.google.com/rss/articles/CBMipgFBVV95cUxPMXZaNEthSWZfQjJwbzNRcEJxclpWUmlZdWo5OUhIenpwU3A3NURqcGpWOGM2UHJNVkFuOXNEUXB4N0JPZkJsb2Q2WWdWUnlneURHWEdYTTM3SFVNY2dXLUNQWGtkTWFKME1JUlVkanh3V3RhLVhXdnhKRkJLOHNuQ056aGtaS2xWZjZ1NFFmamhSNGwzX2JIa1hGWm8xbHRaRExkU2lR?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - Mortgage rate claim is sourced to HousingWire, but the post attributes it to TradingView
-  -> blocked by fact-check
----
-🇬🇧 UK SHARES FALL AHEAD OF AUTUMN BUDGET
-
