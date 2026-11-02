@@ -1,0 +1,49 @@
+{
+ "id": "monthly_tsla_2013",
+ "title": "$100 a month into Tesla since 2013 is now worth this",
+ "thumb": "$100/month in Tesla since 2013 = *{dca:TSLA:2013-01-02}*",
+ "thumb_photo": "electric car charging",
+ "thumb_tag": "MONTHLY HABIT",
+ "caption": "$100 every month into Tesla since 2013.\nToday that would be worth about {dca:TSLA:2013-01-02} (price growth only, no dividends).",
+ "comment": "Could you put away $100 a month? 👇",
+ "tags": [
+  "#investing",
+  "#sip",
+  "#money",
+  "#stocks",
+  "#finance",
+  "#habits"
+ ],
+ "sources": [
+  "Tesla price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One hundred dollars a month, into Tesla, starting in 2013.",
+   "photo": "electric car charging",
+   "big": "$100",
+   "sub": "every month since 2013"
+  },
+  {
+   "say": "Back then, Tesla was a small electric car maker.",
+   "photo": "electric car charging",
+   "clip": {
+    "kicker": "Palo Alto",
+    "year": "2013",
+    "text": "Tesla: a small electric car maker"
+   }
+  },
+  {
+   "say": "Today, those monthly payments would be worth about {dca:TSLA:2013-01-02}.",
+   "photo": "piggy bank coins",
+   "big": "{dca:TSLA:2013-01-02}",
+   "sub": "$100 a month, every month"
+  },
+  {
+   "say": "Small, boring, every month. That's how wealth is built.",
+   "photo": "calendar",
+   "big": "Every month",
+   "sub": "the habit that compounds"
+  }
+ ]
+}

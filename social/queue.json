@@ -2246,6 +2246,98 @@
    "sources": [
     "Netflix price history, Yahoo Finance (split-adjusted), at render time"
    ]
+  },
+  {
+   "file": "monthly_tsla_2013.mp4",
+   "title": "$100 a month into Tesla since 2013 is now worth this",
+   "caption": "$100 every month into Tesla since 2013.\nToday that would be worth about $298,625 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Tesla since 2013 = *$298,625*",
+   "thumb_photo": "electric car charging",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-02",
+   "sources": [
+    "Tesla price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "top5_companies_2026_11.mp4",
+   "title": "The 5 most valuable companies in the world (November 2026)",
+   "caption": "The 5 most valuable companies in the world right now, by market value:\n#1 Apple: about $5 trillion\n#2 Nvidia: about $4.9 trillion\n#3 Microsoft: about $3.9 trillion\n#4 Alphabet (Google): about $3.4 trillion\n#5 Amazon: about $2.6 trillion",
+   "tags": [
+    "#stocks",
+    "#business",
+    "#investing",
+    "#money",
+    "#top5",
+    "#companies"
+   ],
+   "comment": "Who will be #1 a year from now? 👇",
+   "thumb": "World's *TOP 5* companies",
+   "thumb_photo": "city skyline night",
+   "thumb_tag": "COUNTDOWN",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-02",
+   "sources": [
+    "Market values: Yahoo Finance, at render time"
+   ]
+  },
+  {
+   "file": "whatif_aapl_2007.mp4",
+   "title": "$1,000 in Apple in 2007 is now worth this",
+   "caption": "In 2007, Apple was about to launch the iPhone.\n$1,000 in it then would be worth about $115,151 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Apple in 2007? 👇",
+   "thumb": "$1,000 in Apple 2007 = *$115,151*",
+   "thumb_photo": "smartphone",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-02",
+   "sources": [
+    "Apple price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_amzn_2008.mp4",
+   "title": "$1,000 in Amazon in 2008 is now worth this",
+   "caption": "In 2008, Amazon was selling online in a recession.\n$1,000 in it then would be worth about $49,943 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Amazon in 2008? 👇",
+   "thumb": "$1,000 in Amazon 2008 = *$49,943*",
+   "thumb_photo": "cardboard boxes",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-02",
+   "sources": [
+    "Amazon price history, Yahoo Finance (split-adjusted), at render time"
+   ]
   }
  ]
 }

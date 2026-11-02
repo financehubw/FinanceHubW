@@ -1,42 +1,156 @@
-rendering paycheck_split
-  -> paycheck_split.mp4 | How to split every paycheck (the 50/30/20 rule)
-rendering blow_10k_year
-  -> blow_10k_year.mp4 | How much a day blows $10,000 a year?
-rendering never_enough_money
-  -> never_enough_money.mp4 | 3 reasons you never have enough money
-[vost#0:0/rawvideo @ 0x55e73e025e00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55e73df40e40] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55d55cad0340] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55d55ca7a2c0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55bb7fba7b00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55bb7fba4cc0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55957aff4f00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55957af19b40] Error muxing a packet
-[out#0/rawvideo @ 0x55957af19b40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55957af19b40] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x558281193480] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5582811921c0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x559696040c80] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x559695f49380] Error muxing a packet
-[out#0/rawvideo @ 0x55bb7fba4cc0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55bb7fba4cc0] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x55b47c424f40] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55b47c3d3ec0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55e6c7ad2e40] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55e6c7acf080] Error muxing a packet
-[out#0/rawvideo @ 0x55e73df40e40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55e73df40e40] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55d55ca7a2c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55d55ca7a2c0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55e6c7acf080] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55e6c7acf080] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x559695f49380] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x559695f49380] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x5637efeff800] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5637efe81940] Error muxing a packet
-[out#0/rawvideo @ 0x5582811921c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5582811921c0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55b47c3d3ec0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55b47c3d3ec0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x5637efe81940] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5637efe81940] Error closing file: Broken pipe
+rendering monthly_tsla_2013
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.sort_index(inplace=True)
+  -> monthly_tsla_2013.mp4 | $100 a month into Tesla since 2013 is now worth this
+rendering top5_companies_2026_11
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+  -> top5_companies_2026_11.mp4 | The 5 most valuable companies in the world (November 2026)
+rendering whatif_aapl_2007
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  dividends.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.sort_index(inplace=True)
+  -> whatif_aapl_2007.mp4 | $1,000 in Apple in 2007 is now worth this
+rendering whatif_amzn_2008
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.set_index("date", inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  splits.sort_index(inplace=True)
+  -> whatif_amzn_2008.mp4 | $1,000 in Amazon in 2008 is now worth this
+[vost#0:0/rawvideo @ 0x558517eb9580] [vost#0:0/rawvideo @ 0x55b40fa09a80] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55b40f97aa40] Error muxing a packet
+Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x558517ddd640] Error muxing a packet
+[vost#0:0/rawvideo @ 0x556aa3042d00] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x556aa2fee840] Error muxing a packet
+[vost#0:0/rawvideo @ 0x55d4a38c8500] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55d4a38b0b40] Error muxing a packet
+[out#0/rawvideo @ 0x558517ddd640] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x558517ddd640] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x564cd6957500] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x564cd6903d00] Error muxing a packet
+[vost#0:0/rawvideo @ 0x56506f6adfc0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x56506f6149c0] Error muxing a packet
+[vost#0:0/rawvideo @ 0x556c787ef000] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x556c7875f380] Error muxing a packet
+[vost#0:0/rawvideo @ 0x55a76dd79600] [out#0/rawvideo @ 0x55b40f97aa40] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55b40f97aa40] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x563a18eb15c0] [out#0/rawvideo @ 0x55d4a38b0b40] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55d4a38b0b40] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x55c77894c080] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55a76dd22940] Error muxing a packet
+Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55c7788cefc0] Error muxing a packet
+[out#0/rawvideo @ 0x564cd6903d00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x564cd6903d00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55a76dd22940] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55a76dd22940] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x556aa2fee840] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x556aa2fee840] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x556c7875f380] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x556c7875f380] Error closing file: Broken pipe
+Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x563a18eb24c0] Error muxing a packet
+[vost#0:0/rawvideo @ 0x5562cbed1780] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5562cbe4a100] Error muxing a packet
+[vost#0:0/rawvideo @ 0x561d199c99c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x561d199ca040] Error muxing a packet
+[out#0/rawvideo @ 0x563a18eb24c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x563a18eb24c0] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x55a80c81a6c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55a80c6cc880] Error muxing a packet
+[out#0/rawvideo @ 0x561d199ca040] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x561d199ca040] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55c7788cefc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55c7788cefc0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x56506f6149c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x56506f6149c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5562cbe4a100] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5562cbe4a100] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55a80c6cc880] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55a80c6cc880] Error closing file: Broken pipe
