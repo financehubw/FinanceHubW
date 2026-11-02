@@ -8,7 +8,7 @@ on:
     # The posting time comes from social/best_times.json (learned weekly from the account's reach).
     # Checks only around the two slots (10:13 AM-1:13 PM and 7:13-9:13 PM IST); each run posts only if it is within 25 minutes of the
     # chosen time (waiting for the exact minute), otherwise it exits in seconds.
-    - cron: "43 4-7,13-15 * * *"
+    - cron: "43 * * * *"   # hourly: GitHub delays and drops scheduled runs, so give it many chances
   workflow_dispatch:
     inputs:
       dry_run:
@@ -128,18 +128,21 @@ jobs:
               times = json.load(open("social/best_times.json"))["times"]
           except Exception:
               times = {}
-          slots = [times.get("short_midday", "06:30"), times.get("short", "15:00")]   # 2 Shorts a day
-          best = None
+          slots = sorted([times.get("short_midday", "06:30"), times.get("short", "15:00")])   # 2 Shorts a day
+          # GitHub often starts scheduled runs hours late, so catch up: post when a slot has
+          # passed today (or is under 25 min away) and today's posts are fewer than slots passed.
+          due, wait = 0, 0
           for t in slots:
               target = now.replace(hour=int(t[:2]), minute=int(t[3:]), second=0, microsecond=0)
-              wait = (target - now).total_seconds()
-              if -50 * 60 <= wait <= 25 * 60:
-                  best = (t, wait)
+              left = (target - now).total_seconds()
+              if left <= 25 * 60:
+                  due += 1
+                  wait = max(wait, left)
+          today = [p for p in log if p["date"][:10] == now.strftime("%Y-%m-%d")]
           last = max((dt.datetime.strptime(p["date"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc) for p in log), default=None)
-          if not best or (last and (now - last).total_seconds() < 3 * 3600):
-              print(f"not a posting slot now ({', '.join(slots)} UTC)"); open("/tmp/skip", "w").write("1"); sys.exit(0)
-          t, wait = best
-          print(f"waiting {max(0, wait):.0f}s until {t} UTC")
+          if len(today) >= due or (last and (now - last).total_seconds() < 3 * 3600):
+              print(f"nothing due now (slots {', '.join(slots)} UTC, {len(today)} posted today)"); open("/tmp/skip", "w").write("1"); sys.exit(0)
+          print(f"posting Short {len(today) + 1} of today")
           if wait > 0: time.sleep(wait)
           PY
       - name: Post next Short
