@@ -1,13 +1,13 @@
 {
  "channel": {
   "viewCount": "3197",
-  "subscriberCount": "5",
+  "subscriberCount": "6",
   "hiddenSubscriberCount": false,
-  "videoCount": "31"
+  "videoCount": "32"
  },
  "analytics": "ok",
  "traffic_sources": {
-  "SHORTS": 2922,
+  "SHORTS": 2951,
   "YT_SEARCH": 117,
   "YT_OTHER_PAGE": 59,
   "YT_CHANNEL": 14,
@@ -317,7 +317,7 @@
    "posted": "2026-10-27T15:28:13Z",
    "title": "A 1% fee costs more than you think #Shorts",
    "duration": "PT16S",
-   "views": 93,
+   "views": 94,
    "likes": 1,
    "comments": 1,
    "avg_view_pct": 71.8,
@@ -387,9 +387,13 @@
    "posted": "2026-11-02T07:08:13Z",
    "title": "Nobel prize winners ran a fund that nearly broke Wall Street | Money Stories #4 #Shorts",
    "duration": "PT31S",
-   "views": 57,
+   "views": 63,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 49.5,
+   "avg_view_sec": 15,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "oBo8QbBT8Tw",
@@ -397,7 +401,7 @@
    "posted": "2026-11-02T17:30:50Z",
    "title": "3 money mistakes in your 20s that cost the most #Shorts",
    "duration": "PT36S",
-   "views": 27,
+   "views": 30,
    "likes": 0,
    "comments": 1
   },
@@ -407,7 +411,7 @@
    "posted": "2026-11-03T07:19:07Z",
    "title": "One joke wiped out \u00a3500 million | Money Stories #5 #Shorts",
    "duration": "PT26S",
-   "views": 112,
+   "views": 138,
    "likes": 0,
    "comments": 1
   },
@@ -417,8 +421,18 @@
    "posted": "2026-11-03T15:15:12Z",
    "title": "How to split every paycheck (the 50/30/20 rule) #Shorts",
    "duration": "PT24S",
-   "views": 0,
+   "views": 37,
    "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "wQ6Ed_6ahj8",
+   "file": "clip_reagan81_36cents.mp4",
+   "posted": "2026-11-03T18:38:45Z",
+   "title": "Reagan shows what inflation did to the dollar (1981) #Shorts",
+   "duration": "PT29S",
+   "views": 1000,
+   "likes": 16,
    "comments": 1
   }
  ]

@@ -1,19 +1,19 @@
 {
  "updated": "2026-11-03",
  "weights": {
-  "micro": 1.2,
+  "data": 0.79,
   "clip": 1.2,
   "news": 1.0,
-  "lesson": 1.33,
+  "micro": 1.2,
   "story": 1.0,
-  "data": 0.79
+  "lesson": 1.33
  },
  "table": {
-  "micro": {
-   "shorts": 0,
-   "median_views": null,
-   "mean_views": null,
-   "median_watch_pct": null
+  "data": {
+   "shorts": 4,
+   "median_views": 22.0,
+   "mean_views": 73.0,
+   "median_watch_pct": 56.95
   },
   "clip": {
    "shorts": 0,
@@ -27,11 +27,11 @@
    "mean_views": 29.0,
    "median_watch_pct": 53.1
   },
-  "lesson": {
-   "shorts": 18,
-   "median_views": 34.0,
-   "mean_views": 141.1,
-   "median_watch_pct": 68.2
+  "micro": {
+   "shorts": 0,
+   "median_views": null,
+   "mean_views": null,
+   "median_watch_pct": null
   },
   "story": {
    "shorts": 3,
@@ -39,11 +39,11 @@
    "mean_views": 86.3,
    "median_watch_pct": 54.4
   },
-  "data": {
-   "shorts": 4,
-   "median_views": 22.0,
-   "mean_views": 73.0,
-   "median_watch_pct": 56.95
+  "lesson": {
+   "shorts": 18,
+   "median_views": 34.0,
+   "mean_views": 141.2,
+   "median_watch_pct": 68.2
   }
  }
 }
