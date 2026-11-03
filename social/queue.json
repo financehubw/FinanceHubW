@@ -2763,6 +2763,81 @@
    "format": "clip",
    "series": "Money History, in Real Footage",
    "ig_trial": true
+  },
+  {
+   "file": "clip_reagan81_36cents.mp4",
+   "title": "Reagan shows what inflation did to the dollar (1981)",
+   "caption": "February 5, 1981: President Reagan holds up a dollar and 36 cents to show how much buying power the dollar lost between 1960 and 1980.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm",
+   "tags": [
+    "#inflation",
+    "#dollar",
+    "#reagan",
+    "#history",
+    "#money"
+   ],
+   "comment": "What did a dollar buy when you were a kid? 👇",
+   "thumb": "The *36-cent* dollar",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_reagan81_inflation.mp4",
+   "title": "Reagan explains inflation in 14 seconds (1981)",
+   "caption": "February 5, 1981, when US inflation was running in double digits (12.4% in 1980).\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm",
+   "tags": [
+    "#inflation",
+    "#economics",
+    "#reagan",
+    "#history",
+    "#money"
+   ],
+   "comment": "Do you feel prices are still rising? 👇",
+   "thumb": "What *inflation* really is",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_reagan81_allowance.mp4",
+   "title": "Reagan's famous \"allowance\" line about government spending (1981)",
+   "caption": "February 5, 1981: President Reagan on cutting taxes to force spending down.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm",
+   "tags": [
+    "#taxes",
+    "#government",
+    "#reagan",
+    "#history",
+    "#money"
+   ],
+   "comment": "Would this work on governments? 👇",
+   "thumb": "Cut the *allowance*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
   }
  ]
 }
