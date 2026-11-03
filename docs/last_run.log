@@ -1,3 +1,126 @@
+=== run 2026-11-03T02:45:41Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+89/171 sources returned news, 887 recent items
+220 new trusted stories, posting up to 2 this run
+---
+🌐 GOLD FALLS BELOW $4,000 ON FED RATE HIKE BETS
+
+📌 Gold prices fell below $4,000 as inflation and oil prices raised Fed rate hike bets.
+📊 Gold: Below $4,000
+
+📍 Global · 📰 FXEmpire · ✅ 2 sources
+https://news.google.com/rss/articles/CBMikAFBVV95cUxQbmczQTNqYlpxMmhIY3h2clhNRzJrYXNucFRGendfUDJaTjNacy0wMDlCNGlTQXNsdlJlZzlRZW9PenoyTDhUSUlPeGhsQTJaRklsV2F5OVlINHB6N0EyS1FxV3g1Nk1Pd2xJS3ZmSFZLR1ZrTVVjcXNOT2hPYkVMbWYzWU9mZzhaWDRyZTg5T3E?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about gold falling below $4,000 and the link to inflation, oil prices, and Fed rate‑hike bets are directly supported by the cited FXEmpire and BW Businessworld articles.
+  Groq GPT-OSS 20B: FAIL - Source name does not match all cited sources
+  -> blocked by fact-check
+---
+🌐 US DOLLAR WEAKENS AS OIL PRICES FALL
+
+📌 The US dollar fell as oil prices dropped. Australia prepares its rate decision.
+💡 Lower oil prices often help reduce everyday fuel and transport costs.
+#Dollar
+
+📍 Global · 📰 Economic Times · ✅ 7 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-under-pressure-as-oil-prices-slump-australia-rate-decision-awaited/articleshow/135478890.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Economic Times article
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the dollar's movement, oil price drop, and Australia's rate decision are supported by the sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-0732e19cf29e
+---
+🇰🇷 KOSPI DROPS 3.5% ON NASDAQ WEAKNESS
+
+📌 South Korea's Kospi index dropped 3.5% following weakness in US tech stocks.
+📊 Kospi: -3.5%
+
+📍 South Korea · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-on-softer-oil-us-midterm-elections-in-focus/articleshow/135478813.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim about the KOSPI drop is sourced from NDTV Profit, not the Economic Times as indicated
+  -> blocked by fact-check
+---
+🌐 🔄 UPDATE: OIL DROPS TO $104 AS US-IRAN TALKS EASE SUPPLY FEARS
+
+📌 Global oil prices fell near $104 per barrel as US-Iran deal hopes grew.
+📊 Brent crude: $104 per barrel (-8%)
+
+📍 Global · 📰 NDTV Profit · ✅ 6 sources
+https://news.google.com/rss/articles/CBMiiAJBVV95cUxQNGt5MFBsTFJQQkdEdlU3Ymt4ZklDV0JWUmc5VkpLSEhDS0FfX05jSGNKYUpGYTB5Y3F2cHlPaEFmalppTkhIcnN3Tk9vWU1WNzNNZFFmTVJLS25LWEVGX0sxLTktb01FLUJ1ZjYzQnBMRXJmSGNla19qVTc5OEc3eWdYekpTQlBrX01GdjEwZFFEWnpuS1NJa3pBdDhDNnZwcDB3bE5QQnFBOTU2ZDhSdEtDOWtGTk03dkFlekZnT3lKSERwVkliLVpzQmgtUWlxd25qSDNPUmJXb3BNOUViaklpUVdUVnZLNjRIYmZkT2t3RnhMYmtNemhLR2htOHR6RTk3RFNfcUzSAZACQVVfeXFMTmEzRkJqTktjS25zbFY5ZzhINE1CUGRXbl9sWG9ZQmFDQWZob1dldUxySG52TVpWdTJWUlI4U0lUSHJmal96LTJpZkRObXk2NDZBcjZNdlpBcWZUZDlLRnpQNXFCSVJ1c2I1bTlzQkctdW8yTDJWczI4WUZWd3FrVHVNTmw3VzZwcXlxeV8yRXMyTGM2ejJWUGhZMFcxbVJlTmVVXzJDUUZ5U2I3b0x5UHlLOTlXOFpiT2hRYTNsTDVfSG5KZ3lXYWtKNkRvajdwMkVzcDJZNEhIUldldzBnNmRudDJtVXNWcUZ3SXN2WHBMYU5VV2ZpTTg4aDJjM0YtVmdmS3FDTkxlcWpFS21VRXU?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The 📍 location says Global, but the source NDTV Profit is an Indian outlet, so the place tag does not match the source
+  -> blocked by fact-check
+---
+🇮🇳 GIFT NIFTY RISES 0.65% SIGNALING A HIGHER OPEN FOR INDIA
+
+📌 Gift Nifty rose nearly 150 points or 0.65% to 23,553.
+📊 GIFT Nifty: 23,553 (+0.65%)
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-3-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-taiwan-cues-11793666426237.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and interpretation are directly supported by the Mint source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
+  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: FAIL - (plain-text verdict)
+  -> blocked by fact-check
+---
+🇮🇳 SENSEX SURGES OVER 1,200 POINTS
+
+📌 Indian stock markets jumped as oil prices dropped and big companies gained.
+📊 Sensex: +1,200 pts
+💡 Stock market gains often boost retirement funds and investor wealth.
+#Nifty
+
+📍 India · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/stocks/news/sensex-surges-over-1200-points-nifty-reclaims-23400-as-ril-leads-rally/articleshow/135478423.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post states Sensex gained exactly +1,200 points, but the source reports it rose by more than 1,200 points.
+  -> blocked by fact-check
+---
+🌐 NORTH KOREA DENIES $6.3B BINANCE HACK
+
+📌 North Korea rejected US claims that it stole $6.3 billion in cryptocurrency from Binance.
+📊 $BTC: $6.3B stolen
+#Crypto
+
+📍 Global · 📰 Mint · ✅ 8 sources
+https://www.livemint.com/market/north-korea-denies-role-in-6-3-billion-binance-crypto-heist-11793662674891.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post specifies the stolen amount as Bitcoin ($BTC), but sources only state $6.3 billion in cryptocurrency, not specifically Bitcoin.
+  -> blocked by fact-check
+---
+🇺🇸 APPLE REPORTS RECORD REVENUE
+
+📌 Apple earned $30.71bn in revenue for its latest quarter.
+📊 $AAPL: $30.71bn
+#Apple
+
+📍 US · 📰 The Guardian · ✅ 9 sources
+https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source reports $30.71 bn revenue but does not describe it as a record, making that claim unsupported
+  -> blocked by fact-check
+---
+🌍 OIL PRICES RISE AFTER REPORT OF US STRIKE ON IRAN
+
+📌 Oil prices jumped after reports said the US struck Iran's Qeshm Island.
+💡 Higher oil prices usually make fuel and transport costlier.
+
+📍 Middle East · 📰 The Straits Times World News · ✅ 8 sources
+https://www.straitstimes.com/business/oil-rises-after-report-of-us-strike-on-irans-qeshm-island
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the oil price rise, the US strike on Qeshm Island, and the source attribution are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-super-vl:free returned an empty reply)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-b4081a02e584
+done: 2 post(s) this run
 === run 2026-11-02T20:29:37Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 3
@@ -1375,126 +1498,3 @@ https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-h
 
 📍 US · 📰 The Guardian · ✅ 9 sources
 https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the Fed holding rates steady and inflation staying above 3% are directly supported by the Guardian source.
-  Groq GPT-OSS 20B: FAIL - Unsupported claim about number of sources
-  -> blocked by fact-check
----
-🇺🇸 TECH STOCKS RALLY AS FED EXPECTED TO HOLD RATES
-
-📌 Tech stocks rose as investors expect the Fed to keep interest rates unchanged.
-💡 Unchanged rates usually keep borrowing costs for loans stable.
-#Fed
-
-📍 US · 📰 Bulletin · ✅ 9 sources
-https://news.google.com/rss/articles/CBMihwJBVV95cUxNUVppMVotVVpmUF9OejNHdEVYZ3M3V0RGQUZQVHJvSDhMWk9IaTZDUlNEVVNNeEFmbjN3Sk5JQ3Vvd2tSZkxpZm5zNmJHTS11WTZ0TzQwekV1bGM2V283UWdMVi1CMDdvUzlzeUJQZm43RGJWeHR6eTRVQWFTRHNfVFByYm9zbWtyYm5TajF1blBPcXpCRFU1QTVFOVBrdl9nRTd3RHd1SjhEYjVoRktSN2dfWTlKSHpfZm1tNWhGS1o2MENDWFJWZjgtUVhYbkpxMTVqOXJVWWdXWDRBaFUzX2cyalRUd3NUaHFvdFhCZHpWa0VDNjMwQ0JIUFhNbXFyWjV4SEJCTQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about tech stocks rallying and Fed holding rates are directly supported by the cited sources, and the explanatory note is accurate.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source and the explanation is a general, widely accepted fact.
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the tech sector rally and Fed expectations, and the general explanation in the 💡 line is correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-2a8e6fcc596c
----
-🇮🇳 INDIA BONDS END FLAT AS HIGH OIL PRICES RAISE WORRIES
-
-📌 India 2036 bond yield (interest paid on loans) stayed flat at 6.94%.
-📊 2036 Bond Yield: 6.94%
-
-📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/bonds/india-bonds-end-flat-as-oil-woes-come-up-against-short-covering/articleshow/135265739.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post incorrectly defines the bond yield as "interest paid on loans", which is not supported by the source.
-  -> blocked by fact-check
----
-🌐 BITCOIN CLIMBS BACK ABOVE $81,000
-
-📌 Bitcoin climbed back above $81,000 as major crypto tokens rose.
-📊 $BTC: Above $81,000
-📊 Pepe: +9%
-#Crypto
-
-📍 Global · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 3 sources
-https://www.coindesk.com/markets/2026/10/28/bitcoin-rebounds-above-usd81-000-as-asian-chip-rally-spills-into-crypto-pepe-jumps-9
-  written by Gemini
-  Groq GPT-OSS: PASS - All price, percentage, and token rise claims are directly supported by the CoinDesk source
-  Groq GPT-OSS 20B: FAIL - Number of sources claim unsupported
-  -> blocked by fact-check
----
-🇺🇸 US STOCK FUTURES MIXED AHEAD OF FED DECISION
-
-📌 US stock futures pointed to a mixed open before the central bank decision.
-💡 Central bank interest rate decisions can change borrowing costs on loans.
-#Fed
-
-📍 US · 📰 Reuters · ✅ 3 sources
-https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that US stock futures pointed to a mixed open is not supported by the Reuters source, which reports a higher open.
-  -> blocked by fact-check
----
-🇨🇦 BANK OF CANADA EXPECTED TO RAISE INTEREST RATES
-
-📌 The central bank is expected to hike its key rate by 0.25% as inflation rises.
-📊 Expected rate hike: 0.25%
-
-📍 Canada · 📰 The Globe and Mail · ✅ 5 sources
-https://www.theglobeandmail.com/business/article-bank-of-canada-interest-rate-decision-oct-28-live-updates/
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (0.25% expected hike, inflation rise, Canada location, Globe and Mail source) are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The post claims 5 sources but lists 6, and the causal link “as inflation rises” is not explicitly stated in the cited article.
-  -> blocked by fact-check
----
-🇨🇦 CANADIAN STOCKS RISE AHEAD OF BOC AND FED DECISIONS
-
-📌 Canadian stocks and dollar rose as investors wait for key central bank rate decisions.
-
-📍 Canada · 📰 Yahoo Finance · ✅ 3 sources
-https://news.google.com/rss/articles/CBMinAFBVV95cUxQVG1pa1pSNWY5akZBVkl5TFJ3ZGF6X1AwME92cEFWQnZ5QVlOb1F2MWVVTmk4OUZZcGk2ZHdoNkNWcE9sSG9wNG9IN01EZnphZFNNOUlJcVdfOTZTSHUta3duLTJkX0xNMlktWHVqakthN090cUI1REpyZ3JNYzBTLW45bEhjS1BrWXlZdXhVcEM5aUhSZHk0YWdPcDY?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 3 sources" but lists four distinct sources, creating a factual mismatch.
-  -> blocked by fact-check
----
-🇮🇳 RELIANCE OVERTAKES TATA AS INDIA'S MOST VALUABLE GROUP
-
-📌 Reliance market value passed ₹30 trillion after Jio shares jumped 21%.
-📊 $RELIANCE group value: >₹30 trillion
-📊 Tata Group value: ₹25 trillion
-#IPO
-
-📍 India · 📰 Mint · ✅ 4 sources
-https://www.livemint.com/market/stock-market-news/reliance-vs-tata-group-market-cap-jio-platforms-share-price-11793181248458.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and factual statements are directly supported by the Mint article and related sources.
-  Groq GPT-OSS 20B: FAIL - The post incorrectly states there are 4 sources, but five sources are listed.
-  -> blocked by fact-check
-done: 1 post(s) this run
-=== run 2026-10-28T11:14:41Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-28T09:20:27Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-28T07:35:34Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-28T05:15:23Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-28T03:16:18Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-28T02:57:53Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-28T01:34:05Z
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
