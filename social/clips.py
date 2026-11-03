@@ -1,7 +1,7 @@
 """Real-footage Shorts: money moments in the speaker's own words, from public-domain footage.
 
-Why: on Kabir's channels, real people on camera beat AI narration (The Global Desk averages about 3x the views
-per Short). Same proven layout here, finance-only, legal sources only, always credited:
+Why: in finance and news Shorts, real people on camera beat AI narration (comparable clip channels get about
+3x the views per Short). Legal sources only, always credited:
   - Universal Newsreel and Prelinger films (public domain) via the Internet Archive
   - presidential speeches on Wikimedia Commons (public domain / CC BY)
   - the Federal Reserve Board's own videos (works of the US government)
