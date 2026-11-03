@@ -122,7 +122,7 @@ def catalog(arch: dict[str, str]) -> None:
         yt = p.get("results", {}).get("YouTube", "")
         st = stats.get(p["file"], {})
         thumb = f"site/media/shorts/thumbs/{p['file'][:-4]}.jpg"
-        cover = f'<img src="{thumb}" width="64" alt="">' if (ROOT / thumb).exists() else ""
+        cover = f'<img src="{thumb}" height="112" alt="">' if (ROOT / thumb).exists() else ""
         if yt and cover:
             cover = f'<a href="{yt}">{cover}</a>'
         series = (yt_extras.series_of(item) or ("", ""))[0]
@@ -131,8 +131,10 @@ def catalog(arch: dict[str, str]) -> None:
                                          f"[Video]({arch[p['file']]})" if p["file"] in arch else ""] if x)
         views = f"{st['views']:,}" if "views" in st else ""
         watch = f"{st['avg_view_pct']:.0f}%" if st.get("avg_view_pct") is not None else ""
+        day = dt.date.fromisoformat(p["date"][:10])
+        when = f"{day:%-d %b}" if day.year == dt.date.today().year else f"{day:%-d %b %Y}"
         rows.append(f"| {cover} | **{title}**<br><sub>{names.get(mix.category(item), '')} · {series}</sub> "
-                    f"| {p['date'][:10]} | {views} | {watch} | {links} |")
+                    f"| {when} | {views} | {watch} | {links} |")
     total_views = sum(v.get("views", 0) for v in stats.values())
     text = f"""# Shorts catalog
 
@@ -142,7 +144,7 @@ APIs and refresh daily. Each video file is kept in the [`shorts` release](../../
 
 _Updated {dt.datetime.utcnow():%d %b %Y, %H:%M} UTC by [`social/archive_shorts.py`](social/archive_shorts.py)._
 
-| | Short | Posted | Views | Watched | Links |
+| Cover | Short | Posted | Views | Watched | Links |
 |---|---|---|--:|--:|---|
 """ + "\n".join(rows) + "\n"
     CATALOG.write_text(text, encoding="utf-8")
