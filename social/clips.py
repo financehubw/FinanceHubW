@@ -94,8 +94,9 @@ def commons_file(title: str) -> dict:
     page = next(iter(r["query"]["pages"].values()))
     ii = page["imageinfo"][0]
     em = ii.get("extmetadata", {})
-    return {"url": ii["url"], "page": ii.get("descriptionurl", ""),
-            "license": re.sub("<[^>]+>", "", em.get("LicenseShortName", {}).get("value", ""))}
+    clean = lambda k: re.sub("<[^>]+>", "", em.get(k, {}).get("value", ""))[:300]
+    return {"url": ii["url"], "page": ii.get("descriptionurl", ""), "license": clean("LicenseShortName"),
+            "date": clean("DateTimeOriginal"), "description": clean("ImageDescription")}
 
 
 def archive_file(ident: str, prefer: str | None = None) -> tuple[str, str]:
@@ -163,6 +164,9 @@ def scout(key: str) -> dict:
     media = media_for(key, info)
     meta = probe(media)
     print(f"scout {key}: {info.get('title')} | {meta}")
+    if info["kind"] == "commons":
+        c = commons_file(info["title"])
+        print(f"  commons: date={c['date']} | license={c['license']} | {c['description']}")
     segs = transcribe(media)
     doc = {"key": key, "info": info, **meta, "segments": segs}
     save(SRC_DIR / f"{key}.json", doc)
