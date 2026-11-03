@@ -1,0 +1,49 @@
+{
+ "id": "clip_reagan81_36cents",
+ "source": "reagan_1981_economy",
+ "start": 155.1,
+ "end": 183.1,
+ "fix_at": [
+  [
+   170.1,
+   "$60",
+   "dollar"
+  ],
+  [
+   173.3,
+   "at",
+   "if"
+  ],
+  [
+   175.7,
+   "and",
+   ""
+  ],
+  [
+   175.8,
+   "our",
+   ""
+  ],
+  [
+   176.0,
+   "rate",
+   ""
+  ]
+ ],
+ "headline": "Reagan shows what inflation did to a *1960 dollar*",
+ "quote": "Thirty-six cents. That's what this 1960 dollar is worth today.",
+ "thumb": "The *36-cent* dollar",
+ "title": "Reagan shows what inflation did to the dollar (1981)",
+ "caption": "February 5, 1981: President Reagan holds up a dollar and 36 cents to show how much buying power the dollar lost between 1960 and 1980.",
+ "context": "Since 1960, prices have risen *{cpi:1960-01}*. That dollar is now worth about *{cpic:1960-01}*.",
+ "comment": "What did a dollar buy when you were a kid? 👇",
+ "tags": [
+  "#inflation",
+  "#dollar",
+  "#reagan",
+  "#history",
+  "#money"
+ ],
+ "tag": "MONEY HISTORY",
+ "series": "Money History, in Real Footage"
+}

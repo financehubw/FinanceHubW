@@ -1,0 +1,23 @@
+{
+ "id": "clip_reagan81_inflation",
+ "source": "reagan_1981_economy",
+ "start": 412.6,
+ "end": 426.2,
+ "headline": "Reagan in 1981: inflation is '*too much money chasing too few goods*'",
+ "quote": "Inflation is not just high prices.",
+ "thumb": "What *inflation* really is",
+ "title": "Reagan explains inflation in 14 seconds (1981)",
+ "caption": "February 5, 1981, when US inflation was running in double digits (12.4% in 1980).",
+ "context": "US inflation over the last 12 months: *{yoy:CPIAUCSL}%*.",
+ "context_secs": 4.0,
+ "comment": "Do you feel prices are still rising? 👇",
+ "tags": [
+  "#inflation",
+  "#economics",
+  "#reagan",
+  "#history",
+  "#money"
+ ],
+ "tag": "MONEY HISTORY",
+ "series": "Money History, in Real Footage"
+}

@@ -331,7 +331,8 @@ def px(ticker: str, date: str | None = None) -> float:
 def resolve(text: str) -> str:
     """Live figures, filled in at render time so 'today' is always true:
       {cpi:1981-02}          prices multiplied since then, e.g. 3.6x (US CPI, FRED CPIAUCSL)
-      {cpi$:1947-06:2.98}    $2.98 then in today's dollars
+      {cpi$:1947-06:2.98}    $2.98 then in today's dollars;  {cpic:1960-01}  a 1960 dollar today, in cents
+      {yoy:CPIAUCSL}         change over the last 12 months (%)
       {fred:DPRIME:1:2}      latest value of a FRED series / 1, 2 decimals
       {px:GC=F} {px$:GC=F}   latest price (with $), {px:^GSPC:1982-10-13} close on that date"""
     def cpi(m):
@@ -339,7 +340,16 @@ def resolve(text: str) -> str:
         last = s[max(s)]
         base = next(v for k, v in sorted(s.items()) if k[:7] >= m.group(2))
         x = last / base
+        if m.group(1) == "cpic":                 # what that old dollar is worth today, in cents
+            return f"{100 / x:.0f} cents"
         return f"${x * float(m.group(3)):,.2f}" if m.group(1) == "cpi$" else f"{x:.1f}x"
+
+    def yoy(m):                                  # change over the last 12 months, in %
+        s = fred(m.group(1))
+        k = sorted(s)
+        last = k[-1]
+        prev = max(d for d in k if d <= f"{int(last[:4]) - 1}{last[4:]}")
+        return f"{(s[last] / s[prev] - 1) * 100:.1f}"
 
     def fr(m):
         s = fred(m.group(1))
@@ -350,7 +360,8 @@ def resolve(text: str) -> str:
         v = px(m.group(2), m.group(3))
         txt = f"{v:,.0f}" if v >= 100 else f"{v:,.2f}"
         return ("$" if m.group(1) == "px$" else "") + txt
-    text = re.sub(r"\{(cpi\$?):(\d{4}-\d{2})(?::([\d.]+))?\}", cpi, text)
+    text = re.sub(r"\{(cpi\$?|cpic):(\d{4}-\d{2})(?::([\d.]+))?\}", cpi, text)
+    text = re.sub(r"\{yoy:([A-Z0-9]+)\}", yoy, text)
     text = re.sub(r"\{fred:([A-Z0-9]+):([\d.e]+):(\d)\}", fr, text)
     return re.sub(r"\{(px\$?):([^:}]+)(?::(\d{4}-\d{2}-\d{2}))?\}", pr, text)
 

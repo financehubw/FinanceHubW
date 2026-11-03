@@ -1,0 +1,23 @@
+{
+ "id": "clip_reagan81_allowance",
+ "source": "reagan_1981_economy",
+ "start": 647.7,
+ "end": 657.9,
+ "headline": "Reagan's *allowance* line on government spending",
+ "quote": "Cure their extravagance by simply reducing their allowance",
+ "thumb": "Cut the *allowance*",
+ "title": "Reagan's famous \"allowance\" line about government spending (1981)",
+ "caption": "February 5, 1981: President Reagan on cutting taxes to force spending down.",
+ "context": "Federal spending: *$678 billion* in 1981, *${fred:FYONET:1e6:2} trillion* last fiscal year.",
+ "context_secs": 4.0,
+ "comment": "Would this work on governments? 👇",
+ "tags": [
+  "#taxes",
+  "#government",
+  "#reagan",
+  "#history",
+  "#money"
+ ],
+ "tag": "MONEY HISTORY",
+ "series": "Money History, in Real Footage"
+}
