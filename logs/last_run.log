@@ -1,3 +1,9 @@
+=== run 2026-11-03T23:37:24Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+98/171 sources returned news, 766 recent items
+196 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-03T18:02:51Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1492,9 +1498,3 @@ skip (off-topic or nothing new): SEBI signs MoU with BoE on cooperation and exch
 
 📍 Global · 📰 Euronext Markets: Real-time Stock Market · ✅ 4 sources
 https://news.google.com/rss/articles/CBMikAFBVV95cUxOYV9pbFdteGZ5NXJ3ZUNuTTNXNTN1eVVucDk1SmtCLTFxNE1qQUhRYVBfVWp3RzVRNFl0aGlfTVlWTmlFYTA2WDNOMDgwOWc2ZlhGaGkzMFVlZjFXVVdxbV8wR3Atc0V3UmU5aXVBUUVTYUtYNGpfRkRuNVYyM1RCWHU5TzVmMjZraHlRdk41SE4?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly backed by the listed sources
-  Groq GPT-OSS 20B: PASS - All claims are supported by the listed sources.
-  Groq Qwen: PASS - All factual claims regarding the dollar and stocks holding steady ahead of the Fed decision are supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-00224da3ae63
