@@ -167,7 +167,8 @@ def post_instagram(item: dict, url: str) -> str:
         # if it performs well (new formats get tested on strangers without cluttering the grid).
         data.pop("share_to_feed")
         data["trial_params"] = json.dumps({"graduation_strategy": "SS_PERFORMANCE"})
-    c = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data=data).json()
+    api = "https://graph.facebook.com/v23.0" if "trial_params" in data else GRAPH   # trial Reels need a newer API
+    c = requests.post(f"{api}/{ig}/media", timeout=60, data=data).json()
     if "id" not in c and "trial_params" in data:      # not available for this account: post a normal Reel
         print(f"  Instagram trial Reel not accepted ({c.get('error', {}).get('message', c)}); posting a normal Reel")
         data.pop("trial_params"); data["share_to_feed"] = "true"; item["ig_trial"] = False
