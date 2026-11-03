@@ -1,3 +1,25 @@
+=== run 2026-11-03T10:00:48Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 10
+35/171 sources returned news, 271 recent items
+143 new trusted stories, posting up to 1 this run
+---
+🇩🇪 GERMAN BOND YIELDS RISE AS OIL PRICES REBOUND
+
+📌 German bond yields (returns on government debt) rose as oil prices climbed.
+📊 10-Yr Bund Yield: Up from 2-month low
+
+📍 Germany · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/us-stocks/news/german-bond-yields-rise-as-oil-climbs-ahead-of-us-midterm-elections/articleshow/135490769.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times source.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the rise in German bond yields, the 10-year Bund yield moving from a two-month low, and the attribution to oil prices and US midterm elections are directly supported by th
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims in the post are directly supported by the provided source.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-511ea4668e67
+done: 1 post(s) this run
 === run 2026-11-03T02:45:41Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1476,25 +1498,3 @@ https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/fed-mee
   Groq GPT-OSS: PASS - All statements about US stocks rising, chip rally, and timing before the Fed decision are directly confirmed by the three cited sources.
   Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
   Groq Qwen: PASS - All factual claims regarding the rise in US stocks, the rally in chip stocks, and the context of the upcoming Fed decision are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All claims are directly supported by the three sources.
----
-🇮🇳 INDIAN STOCKS FALL AS SENSEX DROPS 353 POINTS
-
-📌 India's Sensex fell 353 points due to drops in IT shares and rising crude oil prices.
-📊 Sensex: -353 points
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 6 sources
-https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-28-october-2026/article71631075.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All numeric and causal claims about the 353‑point Sensex drop and its IT‑stock and oil‑price drivers are directly supported by the cited source.
-  Groq GPT-OSS 20B: FAIL - Source name does not match the actual source (The Hindu BusinessLine).
-  -> blocked by fact-check
----
-🇺🇸 US FED EXPECTED TO HOLD INTEREST RATES STEADY
-
-📌 The US central bank is expected to keep rates steady as inflation stays above 3%.
-📊 US inflation: Above 3%
-
-📍 US · 📰 The Guardian · ✅ 9 sources
-https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms
