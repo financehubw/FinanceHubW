@@ -1,3 +1,83 @@
+=== run 2026-11-03T18:02:51Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+100/171 sources returned news, 1020 recent items
+262 new trusted stories, posting up to 2 this run
+---
+🇨🇦 BANK OF CANADA: GOVT SPENDING NOT HURTING INFLATION FIGHT
+
+📌 The central bank chief says government spending is not making inflation worse.
+
+📍 Canada · 📰 Reuters · ✅ 7 sources
+https://news.google.com/rss/articles/CBMivwFBVV95cUxNSHk0SGlxNVlMQ01uTXM0WFRidzIxWmo3LVhpajVZa2N1TXNfanJkZU1qTWQ1X2tkYS1uVUp1TXViVFY4cVY3Ukk5NDdLOS1jTi12MmZ4elVVaFJfcllfQTg3OG8wbUZHdV81aWxGX2pzVHBCWW9uQ1pNT2hUempQWUdpM3BOUmtNSUduQkRCNHhhamZ0YmZmUlpqNzQ3VHZ6TmhQMGhvU3cxSm5KRHRwdWZIaG1wbWVwd25EU2dudw?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - Post claims "✅ 7 sources" but only six sources are listed
+  -> blocked by fact-check
+---
+🇺🇸 DEMOCRATS LEAD POLLS AHEAD OF US MIDTERM ELECTIONS
+
+📌 Public polls put Democrats ahead as the US midterm elections begin.
+💡 Election results often shape government policies, taxes, and spending.
+#Markets
+
+📍 US · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/market/stock-market-news/us-midterm-election-results-2026-date-today-what-trumps-loss-mean-for-gold-sensex-nifty-global-markets-us-bonds-11793715305962.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that Democrats lead as the midterms begin isn’t directly supported and the post lists only Mint as the source despite citing three sources
+  -> blocked by fact-check
+---
+🇺🇸 US STOCKS RISE AS TECH SHARES GAIN
+
+📌 Tech gains pushed US stock indexes higher ahead of midterm election results.
+💡 Rising stock markets often show growing confidence among investors.
+#Stocks
+
+📍 US · 📰 Reuters · ✅ 3 sources
+https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about tech‑driven US index gains ahead of midterms are confirmed by the Reuters source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Reuters article and other sources, and the general explanation is accurate.
+  Groq Qwen: PASS - All factual claims regarding the rise in US stocks driven by tech gains ahead of midterm results are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-e20a10c6bc82
+---
+🌐 BINANCE TRACES $6.3B HACK TO FAKE JOB INTERVIEWS
+
+📌 Binance says hackers stole $6.3 billion using fake job offers to trick staff.
+📊 Stolen funds: $6.3 billion
+#Crypto
+
+📍 Global · 📰 The Block · ✅ 12 sources
+https://www.theblock.co/news/business/2026-11-03-binance-hack-incident-report-north-korea-fake-job-interview-ai-tool-432406
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (amount, method, source attribution) are directly supported by the cited The Block article.
+  Groq GPT-OSS 20B: FAIL - The post claims 12 sources, but only six are listed, which is unsupported.
+  -> blocked by fact-check
+---
+🌐 OIL PRICES FALL FOR A SECOND DAY
+
+📌 Crude oil prices dropped for a second day on hopes of US-Iran diplomatic talks.
+💡 Lower oil prices usually lead to cheaper fuel and energy costs.
+
+📍 Global · 📰 International: Top News And Analysis · ✅ 4 sources
+https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The provided CNBC link reports oil prices climbing, not falling, so the source does not support the claim of a second‑day price drop
+  -> blocked by fact-check
+---
+🇺🇸 US APPROVES STOCK PERPETUAL FUTURES FOR FIRST TIME
+
+📌 US regulators allowed perpetual futures (trading contracts with no end date) on stocks.
+
+📍 US · 📰 The Block · ✅ 9 sources
+https://www.theblock.co/news/regulation/2026-11-03-cftc-approves-individual-stock-perpetual-futures-trading-in-us-for-first-time-432422
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about US regulators approving perpetual futures on individual stocks for the first time are directly supported by the cited The Block article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the CFTC approval of individual stock perpetual futures in the US for the first time are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-993e5edfc1ee
+done: 2 post(s) this run
 === run 2026-11-03T10:00:48Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 10
@@ -1418,83 +1498,3 @@ https://news.google.com/rss/articles/CBMikAFBVV95cUxOYV9pbFdteGZ5NXJ3ZUNuTTNXNTN
   Groq Qwen: PASS - All factual claims regarding the dollar and stocks holding steady ahead of the Fed decision are supported by the provided sources, and the location and source attribution are correct.
 published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-00224da3ae63
-done: 3 post(s) this run
-=== run 2026-10-28T15:24:21Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-100/171 sources returned news, 1061 recent items
-292 new trusted stories, posting up to 1 this run
----
-🇺🇸 STOCKS RISE AHEAD OF US FED RATE DECISION
-
-📌 Stocks rose as investors wait for big tech earnings and the Fed (US central bank) update.
-
-📍 US · 📰 Yahoo Finance Singapore · ✅ 8 sources
-https://news.google.com/rss/articles/CBMif0FVX3lxTE9CS3FHQU14MGZMOS1FQkh3QzNjU1plVFJxay1QQXRwLTAxbHUzNzI3Yk43dnNXWW51SmQyYkxFZnQ1ZTVFTVNKM1pLVm9VTkkyUnpzYlVvRjYtX0RTd2hPdC1qcEJRQzlNSDNHbXItQ1NOeFB5ejRXLXJmS29ZYlk?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six sources are listed.
-  -> blocked by fact-check
----
-🇺🇸 S&P 500 STAYS FLAT AHEAD OF FED DECISION
-
-📌 The S&P 500 remained flat as investors await the Fed rate decision and tech earnings.
-📊 $SPX: Flat
-
-📍 US · 📰 FOREX.com · ✅ 2 sources
-https://news.google.com/rss/articles/CBMivAFBVV95cUxPcGFfdE1fMmxmQVRnajNiYjdZU0E2bTVfV0RueGFTZDIzQlY0MmgwUktCXzJIVE9hZGItRnZMdVFTby15bkhrQUotTmhlREJSY0x1WExUQVZnb0RFejZMdU8wNFB6QWNBN3gxNks3U1FIVnozWmNBNzd6UU00QW13TE9fa080QnpmczZIdmN1QW9fWS01ZnB1dXJLam90N3JRMkVTUWJUa2ZOWDBSTlZZLU1jLXN5VE82ZllBZNIByAFBVV95cUxQMnNIeDFfUlBndmkyMXZ3c0ViWXVYVk96cnJLTUQzQWtGLU9HVlprYTJMTXNzcGlqUnpzVlJiZWU1WG9hTjNXWVVHSFpMUlpxQllxS0VoX0lSbmVHYUhVak5LY0VrbG1KVzlyQzZETnVrMjVadzF1U0NDSVNPVGVjaEEzV0w1ZFNqQVFWaUo0Wk5iYmpLNmxUaS1VVjU3T2JvX2lwWmVBenZKTWNOT0xCMTIyc1ZGdnFIQXVxUTZCT3VoLWx2VTFoNQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about the S&P 500 being flat ahead of the Fed decision and tech earnings are directly supported by the cited FOREX.com and Edge Singapore articles.
-  Groq GPT-OSS 20B: FAIL - Edge Singapore source indicates the S&P 500 churned, not flat, contradicting the claim.
-  -> blocked by fact-check
----
-🇬🇧 UK KEEPS INCOME TAX THRESHOLDS FROZEN
-
-📌 The UK kept income tax limits frozen instead of raising them with inflation.
-💡 People pay higher taxes over time as their wages rise.
-#UK
-
-📍 UK · 📰 The Guardian
-https://www.theguardian.com/money/ng-interactive/2026/oct/28/budget-income-tax-thresholds-frozen-take-home-pay
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about frozen thresholds, lack of inflation adjustment, and resulting higher tax burden are directly supported by the Guardian article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the freezing of UK income tax thresholds and the resulting impact on take-home pay are directly supported by the source text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-8ec5cf064636
-done: 1 post(s) this run
-=== run 2026-10-28T13:40:22Z
-🇺🇸 US FUTURES RISE AHEAD OF FED RATE DECISION
-
-📌 US stock futures rose slightly ahead of the central bank rate decision.
-💡 Central bank rate decisions can affect borrowing costs for everyday consumers.
-#Fed
-
-📍 US · 📰 Yahoo Finance · ✅ 7 sources
-https://news.google.com/rss/articles/CBMimAFBVV95cUxPRkpoWS00a1NVd3ZJUHhtTk5XVlI0X1VZRFloamc1SXA5a00wRzRlaGRiQS1hQlJ3TC15U2w3WS15OHJMVmpLMG1iS0N1OU82X3IteXNrZkwtUjY2MTNMZ2M3SGZsb0UyNU94R08zX0hhZC03SXNtS1BjNTFGczNRYTJqZEpyekdlREtwbm0xSTM0VVZYaW9fYg?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - Sources report mixed equity futures, not a clear slight rise as claimed
-  -> blocked by fact-check
----
-🇺🇸 GOLD SLIPS AHEAD OF US FED RATE DECISION
-
-📌 Gold prices fell as investors wait for the US Fed rate decision.
-💡 Higher interest rates usually make borrowing more expensive.
-#Gold
-
-📍 US · 📰 Mint · ✅ 4 sources
-https://www.livemint.com/market/stock-market-news/us-fed-rate-decision-today-what-investors-should-watch-in-gold-silver-prices-and-market-outlook-11793183747846.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about gold falling, the Fed decision timing, and the general interest‑rate effect are directly supported by the sources.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 4 sources, but the provided list contains 5.
-  -> blocked by fact-check
----
-🇺🇸 🔄 UPDATE: US STOCKS RISE AS CHIP STOCKS RALLY
-
-📌 US stocks rose as a rally in chip makers lifted tech shares before the Fed decision.
-
-📍 US · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/fed-meeting-live-updates-dow-jones-nasdaq-sp-500-us-stock-market-today-kevin-warsh-fomc-meet-rate-cut-news-28th-oct/liveblog/135265171.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about US stocks rising, chip rally, and timing before the Fed decision are directly confirmed by the three cited sources.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the rise in US stocks, the rally in chip stocks, and the context of the upcoming Fed decision are directly supported by the provided sources.
