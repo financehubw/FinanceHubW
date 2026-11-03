@@ -3,7 +3,7 @@
   "viewCount": "3197",
   "subscriberCount": "5",
   "hiddenSubscriberCount": false,
-  "videoCount": "30"
+  "videoCount": "31"
  },
  "analytics": "ok",
  "traffic_sources": {
@@ -408,6 +408,16 @@
    "title": "One joke wiped out \u00a3500 million | Money Stories #5 #Shorts",
    "duration": "PT26S",
    "views": 112,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "B4YeM3XlOwk",
+   "file": "paycheck_split.mp4",
+   "posted": "2026-11-03T15:15:12Z",
+   "title": "How to split every paycheck (the 50/30/20 rule) #Shorts",
+   "duration": "PT24S",
+   "views": 0,
    "likes": 0,
    "comments": 1
   }
