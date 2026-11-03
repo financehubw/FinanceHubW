@@ -639,7 +639,7 @@ def render(script_path: Path) -> dict:
             timeline.append({"scene": sc, "start": t0, "end": t0 + dur + gap, "groups": caption_groups(words)})
             audio_parts.append(mp3)
             t0 += dur + gap
-        total = t0 + 0.6
+        total = t0 + (0.0 if spec.get("loop") else 0.6)     # a loop ends exactly where it starts again
         # voice track with gaps
         lst = td / "list.txt"
         sil = td / "gap.wav"
@@ -651,7 +651,13 @@ def render(script_path: Path) -> dict:
                         "-ar", "48000", "-ac", "1", str(voice)], check=True)
         bed = td / "bed.wav"
         from daily_short import music
-        music(total, bed)
+        if spec.get("loop"):   # no fade-in/out in the music either, so the loop point is seamless
+            long_bed = td / "bed_long.wav"
+            music(total + 3.0, long_bed)
+            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", "1.0", "-t", f"{total:.3f}", "-i", str(long_bed),
+                            str(bed)], check=True)
+        else:
+            music(total, bed)
         try:   # soft whoosh on every cut, like an edited video
             import sound
             from scipy.io import wavfile
@@ -735,7 +741,8 @@ def render(script_path: Path) -> dict:
              "comment": spec["comment"], "thumb": spec["thumb"], "thumb_photo": spec["thumb_photo"],
              "thumb_tag": spec["thumb_tag"], "ai_voice": True,
              "voice": "elevenlabs" if (os.environ.get("ELEVENLABS_API_KEY") and _ELEVEN_OK[0]) else "free", "made": dt.date.today().isoformat(),
-             "sources": spec["sources"]}
+             "sources": spec["sources"],
+             **({"loop": True, "format": "micro", "ig_trial": True} if spec.get("loop") else {})}
     import thumbs
     thumbs.make(entry)
     return entry

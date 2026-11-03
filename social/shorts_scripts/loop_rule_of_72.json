@@ -1,0 +1,46 @@
+{
+ "id": "loop_rule_of_72",
+ "title": "The Rule of 72 in 10 seconds",
+ "thumb": "The *Rule of 72*",
+ "thumb_photo": "calculator",
+ "thumb_tag": "MONEY RULE",
+ "caption": "Divide 72 by your yearly return to see how many years your money takes to double.\nAt 8%: 72 ÷ 8 = 9 years.\nAt 12%: 6 years.",
+ "comment": "What return are you getting right now? 👇",
+ "tags": [
+  "#ruleof72",
+  "#compoundinterest",
+  "#investing",
+  "#money",
+  "#personalfinance"
+ ],
+ "sources": [
+  "Rule of 72: years to double ≈ 72 ÷ annual return (%). 1.08^9 = 1.999"
+ ],
+ "loop": true,
+ "scenes": [
+  {
+   "say": "Divide seventy-two by your yearly return,",
+   "photo": "calculator",
+   "big": "72 ÷ return",
+   "sub": "the Rule of 72"
+  },
+  {
+   "say": "and that's how many years your money takes to double.",
+   "photo": "money growth",
+   "big": "= years to 2x",
+   "sub": "doubling time"
+  },
+  {
+   "say": "At eight percent, it doubles every nine years.",
+   "photo": "coins stack",
+   "big": "8% → 9 years",
+   "sub": "72 ÷ 8 = 9"
+  },
+  {
+   "say": "So, to know when your money doubles,",
+   "photo": "calculator",
+   "big": "72 ÷ return",
+   "sub": "the Rule of 72"
+  }
+ ]
+}

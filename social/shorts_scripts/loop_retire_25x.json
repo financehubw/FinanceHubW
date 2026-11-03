@@ -1,0 +1,46 @@
+{
+ "id": "loop_retire_25x",
+ "title": "How much do you need to retire? The 25x rule",
+ "thumb": "Your number: *spending × 25*",
+ "thumb_photo": "retirement",
+ "thumb_tag": "MONEY RULE",
+ "caption": "The 25x rule comes from the 4% rule: if you can live on 4% of your savings a year, you need 25 times your yearly spending.\nSpend $40,000 a year? You need about $1,000,000.",
+ "comment": "What's your number? 👇",
+ "tags": [
+  "#retirement",
+  "#fire",
+  "#financialindependence",
+  "#money",
+  "#personalfinance"
+ ],
+ "sources": [
+  "The 4% rule (Trinity study, 1998): withdrawing 4% a year means savings of 1 ÷ 0.04 = 25x yearly spending"
+ ],
+ "loop": true,
+ "scenes": [
+  {
+   "say": "Multiply what you spend in a year by twenty-five.",
+   "photo": "calculator",
+   "big": "Spending × 25",
+   "sub": "your retirement number"
+  },
+  {
+   "say": "That's roughly what you need to retire, by the four percent rule.",
+   "photo": "retirement beach",
+   "big": "4% rule",
+   "sub": "live on 4% a year"
+  },
+  {
+   "say": "Spend forty thousand a year? You need about a million.",
+   "photo": "money stack",
+   "big": "$1,000,000",
+   "sub": "for $40,000 a year"
+  },
+  {
+   "say": "Want your number?",
+   "photo": "calculator",
+   "big": "Spending × 25",
+   "sub": "your retirement number"
+  }
+ ]
+}

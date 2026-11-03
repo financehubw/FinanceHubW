@@ -1,0 +1,46 @@
+{
+ "id": "loop_500_a_month",
+ "title": "$500 a month can make you a millionaire",
+ "thumb": "$500 a month = *$1 million*",
+ "thumb_photo": "piggy bank",
+ "thumb_tag": "MONEY RULE",
+ "caption": "$500 a month is $6,000 a year.\nInvested at 8% a year for 35 years, that grows to about $1,033,901.\nStart early and let it compound.",
+ "comment": "How much could you invest each month? 👇",
+ "tags": [
+  "#millionaire",
+  "#compoundinterest",
+  "#investing",
+  "#money",
+  "#personalfinance"
+ ],
+ "sources": [
+  "Math: $6,000 a year at 8% for 35 years, end-of-year deposits: 6,000 × ((1.08^35 − 1) / 0.08) = 1,033,901"
+ ],
+ "loop": true,
+ "scenes": [
+  {
+   "say": "Five hundred dollars a month,",
+   "photo": "piggy bank",
+   "big": "$500 a month",
+   "sub": "$6,000 a year"
+  },
+  {
+   "say": "invested at eight percent for thirty-five years,",
+   "photo": "stock market chart",
+   "big": "8% · 35 years",
+   "sub": "left to grow"
+  },
+  {
+   "say": "grows to over one million dollars.",
+   "photo": "money stack",
+   "big": "$1,033,901",
+   "sub": "from $500 a month"
+  },
+  {
+   "say": "So if you want a million, start with",
+   "photo": "piggy bank",
+   "big": "$500 a month",
+   "sub": "$6,000 a year"
+  }
+ ]
+}

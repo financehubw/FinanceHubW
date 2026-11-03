@@ -1,0 +1,46 @@
+{
+ "id": "loop_7_dollars_a_day",
+ "title": "$7 a day could become $661,889",
+ "thumb": "$7 a day = *$661,889*",
+ "thumb_photo": "coffee cup",
+ "thumb_tag": "MONEY RULE",
+ "caption": "$7 a day is $2,555 a year.\nInvested at 8% a year for 40 years, that grows to about $661,889.\nSmall daily habits, huge totals.",
+ "comment": "What do you spend $7 a day on? 👇",
+ "tags": [
+  "#compoundinterest",
+  "#investing",
+  "#money",
+  "#savingmoney",
+  "#personalfinance"
+ ],
+ "sources": [
+  "Math: $2,555 a year (7 × 365) at 8% for 40 years, end-of-year deposits: 2,555 × ((1.08^40 − 1) / 0.08) = 661,889"
+ ],
+ "loop": true,
+ "scenes": [
+  {
+   "say": "Seven dollars a day,",
+   "photo": "coffee cup",
+   "big": "$7 a day",
+   "sub": "$2,555 a year"
+  },
+  {
+   "say": "invested at eight percent for forty years,",
+   "photo": "stock market chart",
+   "big": "8% · 40 years",
+   "sub": "left to grow"
+  },
+  {
+   "say": "grows to about six hundred and sixty-two thousand dollars.",
+   "photo": "money stack",
+   "big": "$661,889",
+   "sub": "from $7 a day"
+  },
+  {
+   "say": "So think twice before you spend",
+   "photo": "coffee cup",
+   "big": "$7 a day",
+   "sub": "$2,555 a year"
+  }
+ ]
+}

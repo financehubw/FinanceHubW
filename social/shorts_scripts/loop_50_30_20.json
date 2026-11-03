@@ -1,0 +1,46 @@
+{
+ "id": "loop_50_30_20",
+ "title": "The 50/30/20 rule in 10 seconds",
+ "thumb": "Split every paycheck *50/30/20*",
+ "thumb_photo": "paycheck",
+ "thumb_tag": "MONEY RULE",
+ "caption": "50% for needs, 30% for wants, 20% for savings and debt.\nEarn $4,000 a month? $2,000 / $1,200 / $800.",
+ "comment": "Which part is hardest for you? 👇",
+ "tags": [
+  "#budgeting",
+  "#503020",
+  "#money",
+  "#savingmoney",
+  "#personalfinance"
+ ],
+ "sources": [
+  "The 50/30/20 budget (Elizabeth Warren and Amelia Warren Tyagi, All Your Worth, 2005). Math: 4,000 × 0.5 / 0.3 / 0.2"
+ ],
+ "loop": true,
+ "scenes": [
+  {
+   "say": "Fifty percent for needs, thirty for wants, twenty for savings.",
+   "photo": "budget planner",
+   "big": "50 / 30 / 20",
+   "sub": "needs · wants · savings"
+  },
+  {
+   "say": "Earn four thousand a month?",
+   "photo": "paycheck",
+   "big": "$4,000",
+   "sub": "a month"
+  },
+  {
+   "say": "That's two thousand, twelve hundred, and eight hundred.",
+   "photo": "money envelopes",
+   "big": "$2,000 · $1,200 · $800",
+   "sub": "needs · wants · savings"
+  },
+  {
+   "say": "So next payday, split it:",
+   "photo": "budget planner",
+   "big": "50 / 30 / 20",
+   "sub": "needs · wants · savings"
+  }
+ ]
+}
