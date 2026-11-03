@@ -117,8 +117,21 @@ def post_youtube(item: dict, path: Path) -> str:
                    # YouTube's altered/synthetic content disclosure (realistic AI voice)
                    "containsSyntheticMedia": bool(item.get("ai_voice", True))},
     }
+    upload = path
+    try:   # Subscribe card on the last 2 seconds (YouTube copy only)
+        import yt_extras
+        upload = yt_extras.endcard(path, item)
+    except Exception as e:  # noqa: BLE001
+        print(f"  end card skipped - {e}", file=sys.stderr)
     r = yt.videos().insert(part="snippet,status", body=body,
-                           media_body=MediaFileUpload(str(path), resumable=True)).execute()
+                           media_body=MediaFileUpload(str(upload), resumable=True)).execute()
+    try:   # series playlist, so viewers can binge the rest
+        import yt_extras
+        pl = yt_extras.add_to_playlist(yt, r["id"], item)
+        if pl:
+            print(f"  YouTube playlist: {pl}")
+    except Exception as e:  # noqa: BLE001
+        print(f"  playlist skipped - {e}", file=sys.stderr)
     t = thumb_for(item)
     if t:
         try:   # needs a phone-verified channel; skipped quietly if not allowed

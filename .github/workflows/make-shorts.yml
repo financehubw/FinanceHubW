@@ -4,7 +4,7 @@ name: Make Shorts
 # live prices from Yahoo Finance) and adds them to the posting queue. Runs Mondays, or on demand.
 on:
   schedule:
-    - cron: "17 4 * * 1"
+    - cron: "17 4 * * 1,4"   # Mondays and Thursdays: enough new Shorts for 3 a day
   workflow_dispatch:
     inputs:
       only:

@@ -26,7 +26,7 @@ def main() -> None:
         if not f.exists() or p["file"] in waiting:
             continue
         age = (now - dt.datetime.strptime(p["date"], "%Y-%m-%dT%H:%M:%SZ")).days
-        if (age >= 4 and not p.get("failed")) or age >= 10:
+        if (age >= 9 and not p.get("failed")) or age >= 12:   # kept a week+ for the weekly long video
             freed += f.stat().st_size
             f.unlink()
             print("removed", p["file"], f"({age} days after posting)")
