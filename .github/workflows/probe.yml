@@ -1,0 +1,28 @@
+name: Probe footage sources
+
+# Manual research job: checks which free, legal footage sources this runner can reach.
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "Lab script to run (social/lab/...)"
+        default: "social/lab/probe_sources.py"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            social/lab
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: pip install -q requests yt-dlp
+      - run: python "${{ inputs.script }}"
