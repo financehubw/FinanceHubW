@@ -106,5 +106,16 @@
   "speaker": "a 1975 documentary",
   "title": "When the Circuit Breaks: America's Energy Crisis (1975)",
   "tag": "MONEY HISTORY"
+ },
+ "fomc_20261028": {
+  "kind": "brightcove",
+  "id": "6407552581112",
+  "page": "https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm",
+  "title": "FOMC Press Conference, October 28, 2026",
+  "date": "Oct 28, 2026",
+  "credit": "Federal Reserve Board (public domain)",
+  "speaker": "the Fed Chair",
+  "tag": "FED WATCH",
+  "series": "Fed Watch"
  }
 }

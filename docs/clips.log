@@ -1,15 +1,504 @@
-clip: clip_fdr33_action
-  -> clip_fdr33_action.mp4 | FDR's first speech as president, during the 1933 bank panic
-clip: clip_reagan82_markets
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-  -> clip_reagan82_markets.mp4 | Reagan, 1982: "Markets will go up and they will come down"
-clip: clip_reagan81_inflation
-  -> clip_reagan81_inflation.mp4 | Reagan explains inflation in 14 seconds (1981)
+scout fomc_20261028: FOMC Press Conference, October 28, 2026 | {'width': 960, 'height': 540, 'duration': 2056.768333}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[0;93m2026-11-03 12:57:42.279047519 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  [    8.8-    9.8] Good day.
+  [   10.9-   16.6] This morning, the FOMC decided to maintain the target rate for the federal funds rate
+  [   16.6-   21.7] at three and three-quarters to four percent in support of the Federal Reserve's dual mandate.
+  [   22.7-   30.1] Economic activity is expanding at a strong pace, while uncertainty remains owing in part
+  [   30.1-   31.9] to geopolitical developments.
+  [   32.8-   34.2] Domestic spending has been resilient.
+  [   35.1-   39.2] Productivity growth is strong, and capital investment robust.
+  [   40.4-   45.3] Job gains have kept pace with the workforce, and the unemployment rate has changed little,
+  [   45.8-   48.6] but inflation remains elevated.
+  [   49.3-   54.6] The Committee believes that the accumulation of more information will help it determine
+  [   54.6-   61.4] the policy stance appropriate to ensure a timely return of inflation to the 2 percent goal.
+  [   61.4-   67.7] the Committee will deliver price stability. At each policy meeting, my
+  [   67.7-   72.6] colleagues and I assess the economy by looking out the window. It's what we call
+  [   72.6-   78.3] interrogating reality. To gauge what's really going on, it is not a task that
+  [   78.3-   85.0] has grown easier. So what exactly do we observe? Economic growth has
+  [   85.0-   91.2] strengthened. The GDP increase in the first half of this year was revised
+  [   91.2-   98.0] up from an earlier estimate of 1.8 percent up to 2.4 percent and the third
+  [   98.0-  102.5] quarter appears to have brought an even more rapid advance led by healthy
+  [  102.5-  107.6] consumer spending likely running above 3 percent growth and business
+  [  107.6-  114.7] investment likely rising at about a double-digit pace. Capital expenditures
+  [  114.7-  120.9] are at a historically high share of GDP. High-tech investment is leading the
+  [  120.9-  125.8] acceleration. But there's also been a broadening in other categories and these
+  [  125.8-  131.2] trends bear watching. What about the jobless rate? The jobless rate is lower
+  [  131.2-  137.7] than a year ago and payroll growth is noticeably above last year's pace. The
+  [  137.7-  142.8] four-week moving average of unemployment insurance claims continues to run at
+  [  142.8-  148.0] the lowest level in generations. So on the employment side of the Fed's dual
+  [  148.0-  154.4] mandate conditions are quite positive and yet Americans of course are still
+  [  154.4-  158.9] dealing with inflation that has been running above the committee's objective
+  [  158.9-  164.9] for close to six years. It's our responsibility to get inflation down.
+  [  165.3-  170.7] That's the reason the FOMC's discussion over the last couple of days focused
+  [  170.7-  176.4] mainly on the price stability side of our remit. Since our policy action in
+  [  176.4-  182.0] September, we have started to see some changes in financial and credit conditions.
+  [  182.9-  187.5] They have tightened for some businesses and households, much as we would expect.
+  [  188.5-  192.8] Market participants are becoming somewhat more discerning in their capital allocations,
+  [  193.6-  199.6] and while overall financial conditions are tighter, I'm unwilling and unable to call
+  [  199.6-  200.1] them tight.
+  [  200.1-  207.6] But broadly, these developments go in the direction of achieving a longer, more durable
+  [  207.6-  211.0] period of economic growth and price stability.
+  [  212.2-  216.7] Over the last couple of days, the committee had a good discussion of the changes in the
+  [  216.7-  220.6] economic and financial landscape that marked this inter-meeting period.
+  [  221.2-  226.2] We discussed geopolitical developments and fast-moving changes in technology.
+  [  226.2-  233.4] We observed, but we're not surprised, that financial markets showed bouts of volatility
+  [  233.8-  235.4] in shifting correlations.
+  [  236.7-  242.8] So as we widen the frame to survey the broad economic and financial picture, real activity
+  [  242.8-  245.0] is clearly pointing in the right direction.
+  [  245.6-  246.3] That's good news.
+  [  247.1-  248.6] But inflation is too high.
+  [  249.6-  253.2] Energy and related prices have moved higher again in recent weeks.
+  [  253.2-  260.3] And our job is to ensure that relative price changes in some sectors do not broaden out
+  [  260.3-  266.5] across the economy, and that inflation expectations remain as they are anchored.
+  [  267.6-  272.8] While these uncertainties are real, there's no lack of clarity in our purpose at the Fed.
+  [  274.2-  279.8] Since becoming chairman just five months ago, I've been honored to work with FOMC policymakers
+  [  279.8-  283.7] who are unambiguous in their commitment to stable prices.
+  [  284.6-  290.6] We've made clear our readiness to act as circumstances require, and we have shown our willingness
+  [  290.6-  291.3] to act.
+  [  293.5-  299.0] The information we receive over the coming period will help us determine where we want
+  [  299.0-  300.0] policy to be.
+  [  300.8-  305.6] And at every turn, good or bad, our job is to get monetary policy right.
+  [  306.1-  307.5] And that's exactly what we're doing.
+  [  307.5-  313.5] Now, with this objective in mind, we've decided on a change in our FOMC schedule starting
+  [  313.5-  314.1] next fall.
+  [  315.0-  322.7] We believe eight meetings per year is the right number for the FOMC, but in 2027, one meeting
+  [  322.7-  329.0] will focus exclusively on broad monetary policy strategy, with neither a vote on the federal
+  [  329.0-  332.4] funds rate nor a policy statement anticipated.
+  [  332.4-  338.8] The rest will be regular FOMC policy setting meetings, and I expect that in
+  [  338.8-  344.6] 2028 we'll have two meetings dedicated discussions of strategy and six for
+  [  344.6-  349.5] setting policy. Now what's the reasoning behind this change? To me it's quite
+  [  349.5-  354.2] straightforward. Getting policy right involves assessing near-term
+  [  354.2-  361.2] developments at timely, regular, and information-rich intervals, but it's
+  [  361.2-  363.8] Equally important, we reserve time and space
+  [  364.3-  366.4] as an intellectually diverse group
+  [  367.1-  370.3] for strategic deliberations, for thinking anew
+  [  370.3-  374.6] about big questions, looking out over longer time horizons,
+  [  375.2-  378.1] focusing, as I say, on the left side of the decimal point.
+  [  379.0-  381.8] I believe the setting of the meeting schedule and agenda
+  [  382.2-  385.0] is more than some administrative detail.
+  [  385.4-  388.0] It's an institutional choice affecting
+  [  388.0-  390.3] the nature and the quality of our deliberations
+  [  390.3-  393.6] and ultimately, the wisdom of our decisions.
+  [  394.7-  397.3] It's yet another change to get the conduct
+  [  397.3-  399.9] of monetary policy on the right track.
+  [  400.8-  402.6] I appreciate your attention this afternoon.
+  [  403.2-  405.4] Now my time is yours and I welcome your questions.
+  [  409.2-  409.6] Thank you.
+  [  409.8-  411.0] I'm Colby Smith with the New York Times.
+  [  411.7-  413.4] There's been essentially no progress
+  [  413.4-  415.6] toward the 2% inflation target.
+  [  415.8-  417.5] The labor market remains stable,
+  [  417.5-  419.6] as you suggested in your opening statement,
+  [  419.9-  422.5] and most of your colleagues seem to be on board
+  [  422.5-  426.1] with raising rates in December, so why not just raise rates today?
+  [  427.5-  428.8] So it's a good question.
+  [  429.4-  433.4] I will say I read your stories the last day or two, so I must admit I sort of saw that
+  [  433.4-  434.1] question coming.
+  [  436.2-  443.0] What I said in my prepared statement was information coming in the coming period will help us tell
+  [  443.0-  447.6] us where we want to be, but I suspect you want a little more than that, so let me give
+  [  447.6-  448.1] it a shot.
+  [  448.1-  457.0] But ensuring price stability, Colby, quashing inflation is not about some fixed individual
+  [  457.0-  458.1] date on a calendar.
+  [  459.2-  462.9] Same way it's not about some isolated data point.
+  [  463.7-  468.2] If it were about those two things, this job would be easier and we wouldn't be suffering
+  [  468.2-  470.6] from nearly six years of inflation above target.
+  [  471.8-  472.7] So what's this about?
+  [  472.7-  479.0] It's about ensuring we have clear objectives, and it's about a monetary policy strategy,
+  [  479.7-  484.0] which might sound a year-year in others, like a change from the last several years.
+  [  484.9-  485.8] So let me step back.
+  [  486.7-  492.5] In the five months or so that I've been around, we've put in place what I describe as new
+  [  492.5-  493.8] monetary medicine.
+  [  494.7-  497.1] What's been in that package of medicine?
+  [  497.1-  502.9] medicine. First thing we did when we showed up with my colleagues is we doubled down on
+  [  502.9-  510.0] the 2% inflation target. We said, we own it. We're taking responsibility for it. And if
+  [  510.0-  514.6] you think that we're tolerating some inflation target somewhere in the twos, let us disabuse
+  [  514.6-  519.8] you of it. That was the first part of this new monetary medicine. Second part is we took
+  [  519.8-  525.3] responsibility. No anguish of central banking here, no blaming others. It's a third thing
+  [  525.3-  530.4] that we've done. We laid out for you and the world our framework. I did it in
+  [  530.4-  533.8] Jackson Hole. It was part of the discussion the last couple days of the
+  [  533.8-  538.7] framework that many of my colleagues you to as well. This is how we think about how
+  [  538.7-  542.9] monetary policy should work. These are the transmission mechanisms and this is
+  [  542.9-  547.8] how we're going to deliver. Then what we do? We interrogate reality. We do that
+  [  547.8-  552.7] periodically. That's a very useful thing to do. But we don't just talk, we act.
+  [  552.7-  556.1] And so in September, when we last met, we acted.
+  [  556.8-  558.8] We removed a dose of accommodation.
+  [  560.0-  563.0] So what are the signposts about how this new strategy is going?
+  [  564.1-  568.0] Inflation compensation, as measured by swaps prices, many other measures.
+  [  568.2-  570.1] Inflation compensation is going in the right way.
+  [  571.5-  575.4] Inflation expectations, the world is quite unsettled.
+  [  577.1-  581.6] If you'd say absent the Fed, what would have happened to expectations, they might
+  [  581.6-  582.3] to go on the wrong way.
+  [  582.6-  583.5] They've gone the right way too.
+  [  584.1-  586.2] So I feel good about those signposts.
+  [  587.1-  590.9] The period right in front of us is information rich.
+  [  591.7-  594.3] There is a lot that's happening in the world.
+  [  595.0-  597.5] My colleagues and I are keen to take notice of it.
+  [  598.0-  599.3] So in this coming period,
+  [  599.6-  601.7] what do I think we're going to be able to do?
+  [  602.2-  604.7] We're gonna be able to figure out
+  [  604.7-  606.2] what's the appropriate protocol
+  [  606.2-  607.6] as part of this package
+  [  607.6-  609.5] that we started to deliver five months ago
+  [  609.5-  611.5] to deliver price stability.
+  [  612.4-  614.1] I'm encouraged by the progress we've made
+  [  614.1-  615.2] in a short period of time,
+  [  615.7-  618.1] but if the crux of your question is,
+  [  618.2-  619.3] you haven't delivered yet,
+  [  619.5-  620.6] you haven't achieved price stability,
+  [  620.9-  621.8] you're right about that,
+  [  622.1-  623.2] but we're working on it.
+  [  629.3-  630.3] Thank you, Chair Warsh.
+  [  631.7-  632.6] So if I could,
+  [  632.9-  634.2] this statement says that the accumulation
+  [  634.2-  635.9] of more information will help the committee
+  [  635.9-  638.0] determine the policy stance appropriate
+  [  638.0-  641.8] to ensure a timely return of inflation to the 2% goal.
+  [  642.8-  644.1] Does that mean that the current level
+  [  644.1-  646.3] the Fed funds rate might already be the right one?
+  [  649.5-  653.7] Well, we've got to determine the appropriate protocol.
+  [  655.9-  662.5] If you were listening next to me in that room the last couple of days, the overwhelming consensus,
+  [  662.8-  668.9] the overwhelming judgment, is that what we've done in this monastery medicine, starting
+  [  668.9-  671.9] to work some, but there's no firm conclusions.
+  [  671.9-  677.7] If we had a firm conclusion about the conduct of monetary policy, we'd announce it to much
+  [  677.7-  678.8] fanfare today.
+  [  679.5-  685.3] What we decided to do was to cold these questions, take stock of where we are, evaluate what
+  [  685.3-  690.1] we're seeing out the window, ask ourselves whether the period right in front of us is
+  [  690.1-  693.7] likely to provide more clarity on the appropriate protocol.
+  [  694.1-  697.6] My judgment, the judgment of my overwhelming number of colleagues is that it would.
+  [  697.6-  712.1] Mr. Chairman, before-thanks for taking our questions-before the meeting, several members
+  [  712.1-  715.8] of the board and the committee went out and told us that we were going to take more time
+  [  715.8-  721.2] and that had a profound effect on the outlook for the funds rate. Were you involved in under-in
+  [  722.0-  726.5] discussing that message with them? And if you don't mind, I'm sorry, but a protocol
+  [  726.5-  731.0] question, what will be the disclosure-public disclosure on the meetings where you're
+  [  731.0-  733.1] not going to have a statement? So two questions, I'm sorry.
+  [  733.1-  733.8] There are two questions.
+  [  734.4-  736.2] Do you not hear the one question rule?
+  [  736.7-  739.0] I did, but I thought there was a protocol thing I could do.
+  [  739.9-  742.2] That was like a parliamentary procedure question
+  [  742.2-  742.9] you were asking.
+  [  743.1-  743.7] That didn't count.
+  [  745.0-  747.1] I hesitate to indulge the second question.
+  [  747.3-  751.0] I fear what it would do, but let me see if I can do it
+  [  751.0-  753.4] and not have the slippery slope among us.
+  [  754.1-  755.7] Your first question was about my colleagues.
+  [  757.3-  759.4] I've got 18 quite independent colleagues.
+  [  759.6-  761.8] If you were inside that room the last couple of days,
+  [  761.8-  764.1] you would come to believe that to be true.
+  [  765.4-  770.3] One way to test the independence of my colleagues is, I don't know if you've heard, Steve, but
+  [  770.3-  776.8] I don't submit a dot, I don't plan on submitting a dot, but the 18 of them do, to suggest somehow
+  [  776.8-  782.9] that I am some kind of all-knowing person sending messages out.
+  [  783.6-  786.5] That's not the committee of the FOMC that I know.
+  [  787.6-  790.1] These are serious, sober, responsible people.
+  [  790.1-  791.6] We had a serious sober discussion.
+  [  792.7-  793.4] So that's the answer to that.
+  [  793.5-  797.6] On the parliamentary question, which doesn't count as a question, I'll just say this.
+  [  798.7-  803.7] We've made a decision that at that strategy meeting in 27 and the two strategy meetings
+  [  803.7-  809.0] in 28, I do not anticipate making any policy decision, putting out a policy statement.
+  [  809.7-  811.3] But what might we come out with?
+  [  811.8-  812.8] It's not obvious yet.
+  [  813.0-  814.5] There's more news to come on that.
+  [  814.5-  819.8] The decision on the new format for the meetings is relatively new.
+  [  820.8-  824.6] It was a robust discussion over a couple of meetings of how to handle that.
+  [  824.9-  829.0] As we get details of that, which are still now, not until next fall, we'll be prepared
+  [  829.0-  829.7] to share them with you.
+  [  833.9-  834.6] Hi, Nicole.
+  [  834.7-  835.4] Good kind of with Barron's.
+  [  835.4-  836.4] Thanks for taking my question.
+  [  837.1-  841.1] In September, you mentioned that the Fed has a role in sustaining the economic progress
+  [  841.1-  844.6] happening in America right now and in the rising opportunities that come with it.
+  [  844.6-  849.3] I'm wondering if you can expand on whether you see this as a mandate and how you intend
+  [  849.3-  850.5] to fulfill that mandate.
+  [  851.3-  853.0] So the mandate was given to us by Congress.
+  [  853.3-  859.5] The mandate was deliver stable prices and deliver full employment all in the context
+  [  859.5-  861.5] of financial stability.
+  [  861.7-  865.3] Now they gave us some other homework to do on supervision and regulation payments, but
+  [  865.3-  868.0] I presume you're talking about monetary policy.
+  [  868.7-  874.6] So what's the best thing we can do in this environment looking at our window to deliver
+  [  874.6-  880.3] on that remit. Ensure stable prices. I mentioned, I think, at a prior press conference, if you
+  [  880.3-  885.9] were trying to do the most harmed, the least well off among us, you would let the last six
+  [  885.9-  891.3] years of inflation above the Fed's target, usually well above the Fed's target, you'd
+  [  891.3-  895.4] let that continue. So that's the most important thing we can do as we look out the window,
+  [  895.5-  899.9] and that's what we plan to do. You probably heard me say this. We will deliver price stability.
+  [  900.5-  902.6] No ifs, ands, or buts, and that continues to be the case.
+  [  908.2-  912.5] Alan or Mila were some before wanted to ask you about the working groups when we can expect
+  [  912.5-  917.6] the reports to come up and if there is anything you can preview for us, whether it's on AI
+  [  917.6-  919.2] or data or balance sheets.
+  [  922.2-  926.2] These five task forces are hard at work.
+  [  926.8-  932.4] I have scarcely seen anything that would constitute a final report, but I have done some periodic
+  [  932.4-  933.5] check-ins with them.
+  [  934.2-  940.0] And I am impressed by the rigor of the intellectual discussions, by the seriousness of the task
+  [  940.0-  941.0] that we've given them.
+  [  942.0-  946.9] Now some of the questions that I asked to kick off the reports, they want to answer those
+  [  946.9-  950.4] and answer a whole range of other questions, which might go to other task forces.
+  [  951.1-  953.2] But I'm impressed by what they're doing.
+  [  953.9-  957.5] I gave them, like I told you, a year-end deadline.
+  [  957.5-  963.9] I think some but not all of the groups will probably hit their deadline and turn their homework in on time
+  [  963.9-  969.8] But that just begins the process by which we're going to be consuming which is intellectually serious work
+  [  969.8-  976.1] That's a catalyst for us to think anew about productivity and jobs and an inflation framework
+  [  976.1-  981.5] And what's the best data to help us do our job how to think about the balance sheet task force?
+  [  981.5-  989.2] These are huge intellectual investments that I think are going to bear fruits in the next policy
+  [  989.2-  996.1] conjuncture, unlikely to find their way into this policy conjuncture, given the important role as
+  [  996.1- 1003.2] consumers of these ideas that my colleagues have. But I will have one small announcement. I
+  [ 1003.2- 1007.7] previewed this when I was at an IMF meeting, much to the chagrin of some of my colleagues
+  [ 1007.7- 1013.0] around here on November 16th. The Productivity and Jobs Task Force will be doing a field
+  [ 1013.0- 1019.1] hearing inviting a broad range of people who have strong views. What are the implications
+  [ 1019.1- 1025.0] for jobs in the economy near term, medium term, long term? Is this a productivity miracle
+  [ 1025.0- 1030.6] that's going to happen or will it happen slowly? I know I, for one, am keenly interested
+  [ 1030.6- 1035.7] in refining my own views on that question, but that task force decided that they wanted
+  [ 1035.7- 1038.3] to hear from more people as part of their undertaking.
+  [ 1039.0- 1042.4] I plan at attending, I might have a few words to say
+  [ 1042.4- 1044.0] at the outset of that conference.
+  [ 1044.5- 1046.7] I expect the conference will go three, four hours.
+  [ 1047.1- 1048.5] It'll be pretty wonky stuff.
+  [ 1048.6- 1050.4] I don't know how good the material will be
+  [ 1050.4- 1051.9] for the likes of you and your colleagues,
+  [ 1052.7- 1055.3] but it's a purpose to do a lot of listening for me
+  [ 1055.3- 1057.9] to interrogate the reality in front of me.
+  [ 1058.1- 1061.2] What do experts in their fields think about this?
+  [ 1061.7- 1064.6] What are the implications for the dual mandate
+  [ 1064.6- 1065.8] that I referenced to your colleague.
+  [ 1066.4- 1071.0] Is this going to make it harder or easier for us to achieve price stability over the
+  [ 1071.0- 1071.9] next several years?
+  [ 1072.5- 1076.1] What are the implications for jobs, medium and long term, but near term too?
+  [ 1076.6- 1081.8] So we're going to explore those largely in the public realm on November 16th.
+  [ 1081.9- 1082.9] I look forward to seeing you there.
+  [ 1086.8- 1087.6] Thank you so much.
+  [ 1088.3- 1089.0] Thank you, Mr. Chairman.
+  [ 1089.2- 1090.2] James Rosen with Newsmax.
+  [ 1090.6- 1092.2] You spoke of interrogating reality.
+  [ 1092.8- 1096.4] Since reality is a no-show here today, I'm going to satisfy myself with interrogating
+  [ 1096.4- 1096.6] you.
+  [ 1097.3- 1100.5] You spoke earlier in your remarks here today about how
+  [ 1100.5- 1103.2] your colleagues are serious and sober people who are
+  [ 1103.2- 1104.4] committed to price stability.
+  [ 1105.1- 1107.9] In an event in the Oval Office on October 7 of this
+  [ 1107.9- 1109.6] year, President Trump said, and I quote,
+  [ 1109.8- 1113.3] Kevin is great, but Kevin is one vote out of a board
+  [ 1113.3- 1116.1] with numerous people that were put on by Obama and
+  [ 1116.1- 1118.0] Biden and a couple by me.
+  [ 1118.1- 1120.0] So you have a board that would like to see the
+  [ 1120.0- 1121.8] country do badly, in my opinion.
+  [ 1122.6- 1123.7] Do you agree with those comments?
+  [ 1123.7- 1129.4] So James I appreciate the question. I'm not going to be responding to quotes
+  [ 1129.4- 1135.0] from public officials. What I can tell you is my experience in five months here.
+  [ 1135.4- 1141.5] We just came out of a heck of a family fight. Serious sober discussion. I think
+  [ 1141.5- 1147.7] we came to the right policy decision for this moment and I'm honored to be here
+  [ 1147.7- 1156.0] and honored to be the chairman of this group. Chairman Warsh, Mariela Isacapura
+  [ 1156.0- 1157.0] with Bloomberg News.
+  [ 1158.1- 1159.4] So the economy is strong.
+  [ 1159.7- 1161.9] Inflation is well above 2%.
+  [ 1161.9- 1163.3] You're saying inflation expectations
+  [ 1163.3- 1165.2] are going the right way, but surveys
+  [ 1165.2- 1167.6] show that households expect inflation
+  [ 1167.6- 1170.6] to remain above the Fed's goal, and not just
+  [ 1170.6- 1171.6] for the short term.
+  [ 1172.1- 1175.1] Using a hike today, I don't know, waiting for more data.
+  [ 1175.3- 1178.0] I haven't really heard the clear arguments
+  [ 1178.0- 1178.9] as to that decision.
+  [ 1179.2- 1182.2] So do you worry that with today's decision,
+  [ 1182.5- 1184.8] households may not believe your pledge
+  [ 1184.8- 1190.1] to bring down inflation clearly and at sufficient speed and instead will read
+  [ 1190.1- 1194.3] this decision of holding rates steady as a sign that the central bank has in fact
+  [ 1194.3- 1199.5] a soft inflation target. Yeah so what I can do is tell you there's no soft
+  [ 1199.5- 1203.9] inflation target, there's no implicit inflation target, there's a target of
+  [ 1203.9- 1211.4] price stability and it's 2% as measured by PCE. It took six years to for
+  [ 1211.4- 1218.0] inflation to have the effect on consumers that you reference, but I would say this.
+  [ 1219.4- 1223.3] When consumers interrogate reality, they look outside their window, too.
+  [ 1223.8- 1227.4] They go to the gas station, too, and they see that prices are up.
+  [ 1228.2- 1233.1] I am not going to be the guy who says that oil prices haven't gone up, and when they
+  [ 1233.1- 1234.7] fill up their tank, they don't see it.
+  [ 1235.5- 1240.4] And so inflation's gone up in expectations in the very near term, because they're doing
+  [ 1240.4- 1242.3] what we're doing, interrogating reality.
+  [ 1243.1- 1249.2] But if you look out over the horizon, if you look at most but not all measures, what you
+  [ 1249.2- 1256.2] see is households, businesses, financial markets, they have the confidence that they should
+  [ 1256.2- 1258.9] have that the central bank will deliver price stability.
+  [ 1265.4- 1266.0] Thank you, Mr. Chairman.
+  [ 1266.2- 1267.1] Edward Lawrence of Fox Business.
+  [ 1267.6- 1272.3] So do you see a direct line correlation between oil prices and the inflation we're seeing
+  [ 1272.3- 1276.8] in the United States, and if so, how fast could inflation fall or react to falling oil
+  [ 1276.8- 1277.2] prices?
+  [ 1278.0- 1282.8] So, I don't want to engage in hypotheticals, but I can look out our window and see what's
+  [ 1282.8- 1283.2] happened.
+  [ 1284.6- 1292.4] There had been a stable correlation between oil prices as they moved up this year, generally,
+  [ 1293.2- 1297.4] and interest rates, not the interest rates that we control, but interest rates set in
+  [ 1297.4- 1297.8] the market.
+  [ 1297.8- 1304.6] that correlation has been quite strong until very recently. We've seen oil
+  [ 1304.6- 1310.8] prices continue to move up, largely due to geopolitical events. We've seen crack
+  [ 1310.8- 1315.7] spreads between oil and refined products continue to stay elevated. But what's
+  [ 1315.7- 1322.6] happened? Interest rates have rolled over to the downside. I'm not a Wall Street
+  [ 1322.6- 1325.9] newsletter. I'm just telling you when I look out the window over the last
+  [ 1325.9- 1332.8] several months, that is what we've seen. To the extent that oil prices were to
+  [ 1332.8- 1337.5] move lower, again probably due to geopolitical events, that's something
+  [ 1337.5- 1342.1] that we're gonna have to interrogate. What are the effects on the Fed's dual
+  [ 1342.1- 1345.6] mandate? What are the effects on financial market prices and what are we
+  [ 1345.6- 1350.3] gonna do about it? But that's a hypothetical and in fact if we look at
+  [ 1350.3- 1355.3] financial market prices, futures prices for oil,
+  [ 1355.7- 1358.4] they've moved up over the course of the last several weeks
+  [ 1358.4- 1360.3] and I can't help but take note of that too.
+  [ 1366.5- 1368.6] Thank you, Claire Jones, Financial Times.
+  [ 1369.8- 1372.6] Much of the growth that we're seeing in the US economy now
+  [ 1372.6- 1374.7] and quite a bit of the inflation too
+  [ 1374.7- 1377.3] is coming from the AI boom.
+  [ 1377.8- 1380.6] There's quite a lively debate as to whether or not
+  [ 1381.3- 1384.2] this is part of the economy that's sensitive
+  [ 1384.2- 1387.2] to interest rates in the same way as, say, housing.
+  [ 1387.5- 1393.2] I'd love to get your sense of rates need to rise more,
+  [ 1393.2- 1395.4] given that so much of the US economy now
+  [ 1395.4- 1398.0] is about AI than it otherwise would
+  [ 1398.0- 1400.9] if, say, housing was a bigger part of the story.
+  [ 1401.2- 1401.5] Thank you.
+  [ 1401.9- 1402.7] Thank you, Claire.
+  [ 1403.0- 1406.6] So there was a narrative for quite a while,
+  [ 1407.0- 1410.0] maybe even in this room over the course of the last several
+  [ 1410.0- 1410.8] press conferences.
+  [ 1411.6- 1413.4] Well, they're going to raise rates
+  [ 1413.4- 1417.7] rates are talking about raising rates, but it's not going to have any effect on AI because
+  [ 1417.7- 1420.7] the returns that investors are expecting are so different.
+  [ 1421.8- 1423.8] I was skeptical of that view.
+  [ 1424.9- 1426.3] Interest rates get in the cracks.
+  [ 1426.9- 1432.1] Interest rates affect directly or indirectly almost everything.
+  [ 1433.2- 1434.1] And what have we seen?
+  [ 1434.1- 1445.0] Since early September, what we've seen inside of the technology complex, outside of the technology
+  [ 1445.0- 1452.3] complex, whether you pronounce it AI or SI, Claire, is up to you, what have you seen?
+  [ 1453.0- 1454.1] Interest rates have had an effect.
+  [ 1454.7- 1461.3] You see market participants that are discriminating between the kinds of investments they want
+  [ 1461.3- 1461.7] to make.
+  [ 1461.7- 1466.9] You've seen credit spreads for certain assets widen out, gap out.
+  [ 1467.4- 1471.1] For others, you've seen some tightening in financial conditions, but not significantly.
+  [ 1471.9- 1478.4] So on the thrust of your question of with respect to the new technology and this investment
+  [ 1478.4- 1480.7] surge, do interest rates matter?
+  [ 1481.0- 1484.9] I believe they do, and I don't believe that they're somehow divorced from the rest of
+  [ 1484.9- 1485.4] the economy.
+  [ 1485.4- 1487.4] Secondly, I'll just say this.
+  [ 1488.8- 1495.5] It is convenient to say that the strength of the economy is all about this new technology
+  [ 1495.5- 1496.0] wave.
+  [ 1496.7- 1503.2] In fact, if we look at the data, really including data from the last meeting till this, the
+  [ 1503.2- 1508.1] CAPEX story is not just robust, not just strong, but it is broadening.
+  [ 1509.0- 1513.9] And so if you want to tell the story somehow that this is strength we're seeing only
+  [ 1513.9- 1518.2] in narrow pockets, that's a much harder story to tell now than it would have been several
+  [ 1518.2- 1518.8] quarters ago.
+  [ 1524.9- 1526.7] Thanks so much, Elizabeth Schulze with ABC News.
+  [ 1527.1- 1529.4] As you know, the midterm elections are in six days.
+  [ 1529.7- 1532.6] Did the midterms factor into the Fed's decision to stay on hold?
+  [ 1533.1- 1537.7] And if not, how can you assure the American public that politics were not at play here?
+  [ 1539.7- 1543.3] So politics played no role in the decision.
+  [ 1543.8- 1546.7] I just spent two days with my colleagues upstairs.
+  [ 1547.3- 1549.7] I didn't hear an utterance about politics.
+  [ 1550.1- 1557.3] I didn't hear a reference to politics, elections, what's happening in the next week or so.
+  [ 1557.6- 1559.2] I didn't hear anything about it.
+  [ 1559.8- 1565.0] And I don't believe it had any role in the decision, not just for me, but my colleagues
+  [ 1565.0- 1565.8] around the room.
+  [ 1566.7- 1573.2] But I will say it's an information-rich interval in the coming period, having nothing to do
+  [ 1573.2- 1573.8] with politics.
+  [ 1579.2- 1583.7] Hi, thank you, Chris Ruger at Associated Press. I know you don't like the statement
+  [ 1583.7- 1588.1] of economic projections, but last month they did, your colleagues penciled in,
+  [ 1588.3- 1591.9] another rate hike for this year. And so could you give us your sense from this
+  [ 1591.9- 1596.8] meeting, whether you still see widespread support for another hike this year
+  [ 1596.8- 1601.7] around the table? Thank you. So the blackout period for them ends I think on
+  [ 1601.7- 1605.2] Friday or at some point over the weekend, so they might they might indulge
+  [ 1605.2- 1612.7] you in that discussion. I don't believe in forward guidance, absent exigent
+  [ 1612.7- 1618.7] circumstances, absent a crisis. I have to give that caveat because in the darkest
+  [ 1618.7- 1625.5] days of the 2008 financial crisis, in part using some literature and thinking
+  [ 1625.5- 1629.3] from a very recent Nobel Prize winner, that kind of forward guidance is
+  [ 1629.3- 1633.7] actually quite helpful. But in normal ordinary times, especially times where
+  [ 1633.7- 1636.3] or the underlying real economy is this strong.
+  [ 1636.9- 1639.3] I don't believe in it, I don't favor it.
+  [ 1639.8- 1641.9] I also don't believe in prejudging meetings.
+  [ 1643.2- 1644.4] A lot of things can happen.
+  [ 1645.2- 1649.8] So I'm not gonna be able to share with you my musings
+  [ 1649.8- 1651.8] about what happens when this group gets together
+  [ 1652.4- 1653.6] six weeks from now.
+  [ 1654.3- 1657.5] But my judgment is that we might learn a lot
+  [ 1657.5- 1660.4] and like in my response to Colby's question,
+  [ 1660.4- 1668.9] will be, I think, better positioned to determine the right policy decision and the stance of policy.
+  [ 1673.7- 1678.5] Hi, my name is Sang-un Lee from the Korea Economic Development paper. I got a question as a foreign
+  [ 1678.5- 1684.7] press. You have spoken several times about the possibility of the Fed shrinking its balance
+  [ 1684.7- 1691.3] sheet further. If that plan moves forward later, how would you avoid disrupting foreign
+  [ 1691.3- 1696.7] official holders of treasuries or dollar funding markets abroad like South Korea and Japan.
+  [ 1698.0- 1699.5] So thank you for your question.
+  [ 1700.4- 1705.8] First off, I would say I pay probably more attention to the Korean economy than you might
+  [ 1705.8- 1713.4] think because when I'm looking at the feed stocks effectively for this new surge in technology,
+  [ 1713.5- 1717.3] a lot of it's coming from Japan and Korea, some from Singapore.
+  [ 1717.3- 1725.9] So I'm particularly interested in what's happening in the Korean economy usually because it's telling me what's on planes and ships coming this way.
+  [ 1727.2- 1737.7] Secondly, I should say that your new central bank governor is someone I've known for 20 years and is a very talented guy and a good friend, so I'm glad he's in that post.
+  [ 1739.2- 1746.2] He and I met actually about 20 years ago amid the global financial crisis as it would come to be known.
+  [ 1746.2- 1751.7] And I remember this is a generation of discussions with him about the use of the balance sheet
+  [ 1752.2- 1754.6] in exigent circumstances like we had then.
+  [ 1755.4- 1761.3] At this point, the balance sheet is solely within the four walls of the balance sheet
+  [ 1761.3- 1761.9] task force.
+  [ 1762.5- 1764.7] Now, I have checked in with them, full disclosure.
+  [ 1764.9- 1767.8] They're working away and comparing their best thoughts.
+  [ 1768.7- 1774.2] And I think the conclusions they come to, the recommendations they come to, will be fed
+  [ 1774.2- 1779.8] into the FOMC, probably early in the first quarter, but don't hold me exactly to that
+  [ 1779.8- 1787.4] timing, and if we decide to make changes in the balance sheet, it will be after a serious
+  [ 1787.4- 1790.5] consideration of their proposals and their recommendations.
+  [ 1791.3- 1797.0] I think it is unlikely to have any material effect on this policy conjuncture, but it's
+  [ 1797.0- 1800.5] a question we should get to the bottom to, and I look forward to doing it with the help
+  [ 1800.5- 1801.4] of the outside task force.
+  [ 1801.4- 1812.3] Nick Temerosa, The Wall Street Journal. Chairman Warsh, I want to follow up on
+  [ 1812.3- 1816.4] your answer to Claire's question. As the AI investment boom becomes more
+  [ 1816.4- 1822.3] dependent on external financing, does that make aggregate demand more
+  [ 1822.3- 1828.2] sensitive to interest rates than it was before? And related to that, when you
+  [ 1828.2- 1832.2] removed a dose of accommodation last month, did you see about what you
+  [ 1832.2- 1836.4] bargained for? So you gave me two questions and neither of them were
+  [ 1836.4- 1840.9] ahead of any sort of parliamentary out, so you're giving me the opportunity to choose
+  [ 1840.9- 1842.0] which of those.
+  [ 1845.8- 1847.8] So I'll answer your second question.
+  [ 1849.2- 1855.6] When we removed a dose of accommodation, I don't know, six weeks ago, we don't have
+  [ 1855.6- 1860.1] perfect foresight on what financial markets are going to do with it, but broadly I would
+  [ 1860.1- 1867.2] say the effects on financial markets, on financial market conditions, broadly were consistent
+  [ 1867.2- 1868.3] with my expectations.
+  [ 1874.3- 1875.4] Howard Stein with Reuters.
+  [ 1875.7- 1876.2] Thank you, Chairman.
+  [ 1876.3- 1878.5] I'm going to take Nick's first question then.
+  [ 1879.0- 1879.8] Give it to me again.
+  [ 1880.0- 1880.3] I don't remember.
+  [ 1880.4- 1880.5] No.
+  [ 1880.9- 1884.3] It's about aggregate demand and the components of inflation.
+  [ 1885.0- 1889.2] A lot of your colleagues have said they felt the investment boom in AI was now adding
+  [ 1889.2- 1891.5] a strong demand component to inflation.
+  [ 1891.5- 1896.3] and this was a handoff from the supply side concerns that might be expected to
+  [ 1896.3- 1901.3] fade over time. How much do you think demand is adding to inflation right now
+  [ 1901.3- 1907.4] and how sensitive will that be to Fed control? Good, good, good, good, good
+  [ 1907.4- 1915.9] pickup of that, good team effort. So I'd say this, the only things we really
+  [ 1915.9- 1917.9] they know in economics and supply and demand cross.
+  [ 1918.9- 1922.2] Our measures of the size and the shape
+  [ 1922.2- 1924.4] of the aggregate demand curve is imperfect.
+  [ 1925.3- 1927.9] Broadly what I heard in the room the last couple of days
+  [ 1927.9- 1929.5] is consistent with my own views,
+  [ 1929.5- 1931.4] which is the economy is strong.
+  [ 1931.8- 1933.2] I didn't try to sugar coat that
+  [ 1933.2- 1935.3] in the first part of my statement.
+  [ 1935.9- 1938.5] The economy has been marked up for the first three quarters.
+  [ 1938.8- 1941.0] The economy is pointing in the right direction.
+  [ 1941.7- 1943.9] Is the economy running too hot?
+  [ 1943.9- 1947.1] Is the economy running too strong?
+  [ 1948.0- 1950.7] That isn't the judgment of most of my colleagues.
+  [ 1951.3- 1954.8] Part of it is we never know what potential growth really is, Howard.
+  [ 1955.7- 1960.0] My judgment is we have seen an improvement in productivity.
+  [ 1960.8- 1962.5] We can't measure it precisely.
+  [ 1963.4- 1968.1] I think most of that change in productivity precedes everything we're talking about,
+  [ 1968.1- 1974.1] about super intelligence, but productivity has been moving higher in the economy, however
+  [ 1974.1- 1976.8] imperfectly measured, I think for a couple of years.
+  [ 1977.8- 1983.1] And so economic growth is higher, but that doesn't tell me that economic growth is somehow
+  [ 1983.1- 1986.0] causing inflation and making our job harder.
+  [ 1986.6- 1989.1] But we'll be continuing to look at those issues.
+  [ 1990.1- 1995.2] The goal, in my view, and you've heard me say this before, isn't to throw sand in the
+  [ 1995.2- 1997.5] gears of the economy and throw people out of work.
+  [ 1997.5- 1998.9] I don't think we have to do that.
+  [ 1999.4- 2004.0] The dominant means in which this policy is going to be put into practice is we are tightening
+  [ 2004.0- 2005.1] financial conditions.
+  [ 2005.7- 2009.2] They've tightened a bit since we met last time.
+  [ 2009.6- 2011.9] That isn't something that we're uncomfortable with.
+  [ 2012.0- 2016.6] That tells me that policy is working, and I think we can do that and make the economy
+  [ 2017.2- 2021.5] more durable, have it last longer, and still achieve stable prices.
+  [ 2027.9- 2028.3] Hi, Chair Warsh.
+  [ 2029.2- 2030.4] Victoria Guido with Politico.
+  [ 2030.4- 2036.8] I wanted to ask, next week is a hearing at the White House on Lisa Cook's future and
+  [ 2036.8- 2038.5] allegations that have been made against her.
+  [ 2038.8- 2042.6] Are you personally or the Fed, as an institution, going to be involved at all in those proceedings?
+  [ 2043.9- 2044.7] Not to my knowledge.
+  [ 2046.7- 2047.5] Thank you.
+  [ 2047.5- 2048.2] Thank you, guys.
+clips made: 0
