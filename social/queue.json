@@ -611,56 +611,6 @@
    ]
   },
   {
-   "file": "clip_fomc_20261028_2.mp4",
-   "title": "Fed Chair Warsh Addresses High Inflation and Strong Job Market",
-   "caption": "Fed Chair Kevin Warsh pointed to historic strength in labor market metrics, noting low unemployment claims. However, he emphasized that inflation has remained above the Fed's two percent target for nearly six years.\n\nFootage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm",
-   "tags": [
-    "#Inflation",
-    "#Jobs",
-    "#Fed",
-    "#FederalReserve",
-    "#Economy"
-   ],
-   "comment": "Are higher everyday prices still impacting your household expenses?",
-   "thumb": "6 Years Of *High* Inflation",
-   "thumb_photo": "",
-   "thumb_tag": "FED WATCH",
-   "ai_voice": false,
-   "voice": "none",
-   "made": "2026-11-03",
-   "sources": [
-    "Footage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm"
-   ],
-   "format": "clip",
-   "series": "Fed Watch",
-   "ig_trial": true
-  },
-  {
-   "file": "clip_fomc_20261028_1.mp4",
-   "title": "Fed Chair Warsh on Surprising GDP Growth and Capital Investment",
-   "caption": "Fed Chair Kevin Warsh detailed stronger than expected economic expansion during the press conference. GDP growth for the first half of the year was revised upward to 2.4 percent, driven by robust high-tech investments.\n\nFootage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm",
-   "tags": [
-    "#Fed",
-    "#Economy",
-    "#GDP",
-    "#Markets",
-    "#Investing"
-   ],
-   "comment": "Do you think strong economic growth will force the Fed to hold interest rates higher for longer?",
-   "thumb": "GDP *Surges* To 2.4%",
-   "thumb_photo": "",
-   "thumb_tag": "FED WATCH",
-   "ai_voice": false,
-   "voice": "none",
-   "made": "2026-11-03",
-   "sources": [
-    "Footage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm"
-   ],
-   "format": "clip",
-   "series": "Fed Watch",
-   "ig_trial": true
-  },
-  {
    "file": "paycheck_split.mp4",
    "title": "How to split every paycheck (the 50/30/20 rule)",
    "caption": "Fifty percent goes to needs. Rent, food, bills.\nThirty percent goes to wants. Eating out, trips, fun.\nTwenty percent goes to your future. Savings, investing, paying off debt.",
@@ -2887,6 +2837,56 @@
    ],
    "loop": true,
    "format": "micro",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_fomc_20261028_1.mp4",
+   "title": "Fed Chair Warsh: Why not raise interest rates today?",
+   "caption": "October 28, 2026: a reporter asks why the Fed held rates steady when many officials seem to favor a hike in December. Chair Kevin Warsh answers.\n\nFootage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm",
+   "tags": [
+    "#federalreserve",
+    "#interestrates",
+    "#inflation",
+    "#fed",
+    "#economy"
+   ],
+   "comment": "Should the Fed raise rates in December? 👇",
+   "thumb": "Why no *rate hike* yet?",
+   "thumb_photo": "",
+   "thumb_tag": "FED WATCH",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm"
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_fomc_20261028_2.mp4",
+   "title": "Fed Chair Warsh: \"We own\" the 2% inflation target",
+   "caption": "October 28, 2026 press conference: Chair Kevin Warsh says the Fed won't settle for inflation \"somewhere in the twos\".\n\nFootage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm",
+   "tags": [
+    "#federalreserve",
+    "#interestrates",
+    "#inflation",
+    "#fed",
+    "#economy"
+   ],
+   "comment": "Will the Fed get inflation back to 2%? 👇",
+   "thumb": "\"We *own* it\"",
+   "thumb_photo": "",
+   "thumb_tag": "FED WATCH",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm"
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
    "ig_trial": true
   }
  ]
