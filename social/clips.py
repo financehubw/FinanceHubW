@@ -174,8 +174,8 @@ def scout(key: str) -> dict:
 def rich_tokens(text: str) -> list[tuple[str, bool]]:
     """'Reagan shows what *inflation* did' -> [(word, highlighted), ...]"""
     out = []
-    for part in re.findall(r"\*[^*]+\*[^\s*]*|[^*\s]+", text):
-        hi = part.startswith("*")
+    for part in re.findall(r"[^\s*]*\*[^*]+\*[^\s*]*|[^*\s]+", text):   # quotes/punctuation stay glued
+        hi = "*" in part
         out += [(w, hi) for w in part.replace("*", "").split()]
     return out
 
