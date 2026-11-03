@@ -61,3 +61,34 @@ except Exception as e:  # noqa: BLE001
     {"channel": ch, "analytics": analytics_note, "traffic_sources": traffic,
      "videos": sorted(out.values(), key=lambda x: x["posted"])}, indent=1))
 print(json.dumps({"channel": ch, "analytics": analytics_note, "traffic": traffic}, indent=1))
+
+# ---- what works: median views per kind of Short -> posting weights for social/mix.py
+try:
+    import statistics
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT / "social"))
+    import mix
+    queue = {i["file"]: i for i in json.loads((ROOT / "social/queue.json").read_text())["items"]}
+    cutoff = (dt.datetime.utcnow() - dt.timedelta(days=2)).strftime("%Y-%m-%d")
+    by = {}
+    for v in out.values():
+        if v["posted"][:10] <= cutoff:
+            it = queue.get(v["file"], {"file": v["file"], "title": v["title"]})
+            by.setdefault(mix.category(it), []).append(v["views"])
+    allv = [x for xs in by.values() for x in xs]
+    base = statistics.median(allv) if allv else 1
+    table, w = {}, {}
+    for c in set(mix.DEFAULT) | set(by):
+        xs = by.get(c, [])
+        med = statistics.median(xs) if xs else None
+        table[c] = {"shorts": len(xs), "median_views": med, "mean_views": round(sum(xs) / len(xs), 1) if xs else None}
+        if len(xs) < 4:          # not enough data yet: keep testing it
+            w[c] = mix.DEFAULT.get(c, 1.0)
+        else:                    # blend median and mean (one viral hit counts, but doesn't take over)
+            score = (0.6 * med + 0.4 * (sum(xs) / len(xs))) / max(1, base)
+            w[c] = round(min(2.5, max(0.4, score)), 2)
+    (ROOT / "social/format_weights.json").write_text(json.dumps(
+        {"updated": dt.date.today().isoformat(), "weights": w, "table": table}, indent=1))
+    print("format weights:", w)
+except Exception as e:  # noqa: BLE001
+    print("format weights skipped:", e)

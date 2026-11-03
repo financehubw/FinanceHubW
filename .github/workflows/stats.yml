@@ -1,0 +1,42 @@
+name: Channel stats
+
+# Daily: YouTube views per Short -> docs/yt_stats.json, and posting weights per kind of Short
+# (social/format_weights.json) so the queue leans into what works. Free (YouTube Data API quota).
+on:
+  schedule:
+    - cron: "52 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            social
+            docs
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -q google-api-python-client google-auth requests
+      - run: python social/yt_stats.py
+        env:
+          YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
+      - name: Save
+        run: |
+          git config user.name "FinanceHubW"
+          git config user.email "bot@financehubw.invalid"
+          git add docs/yt_stats.json social/format_weights.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Channel stats"
+          for i in 1 2 3; do python3 social/git_save.py && exit 0; sleep 5; done
+          exit 1

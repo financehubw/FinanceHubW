@@ -1,0 +1,40 @@
+{
+ "id": "clip_gold33",
+ "source": "gold_rush_1933",
+ "start": 15.0,
+ "end": 28.9,
+ "fix_at": [
+  [
+   19.9,
+   "paid",
+   "pay"
+  ],
+  [
+   20.1,
+   "air",
+   "dirt"
+  ],
+  [
+   20.3,
+   "today",
+   "a day"
+  ]
+ ],
+ "headline": "1933: Americans pan for gold at *$33 an ounce*",
+ "quote": "With gold now at $33 an ounce",
+ "thumb": "Gold: *$33* an ounce",
+ "title": "Gold was $33 an ounce in 1933 (real newsreel)",
+ "caption": "November 1933: the US government was raising the price it paid for gold, and amateur prospectors rushed to dig. In 1934 it fixed the price at $35.",
+ "context": "Gold today: *{px$:GC=F}* an ounce.",
+ "context_secs": 4.0,
+ "comment": "Would you rather own gold or stocks? 👇",
+ "tags": [
+  "#gold",
+  "#history",
+  "#investing",
+  "#money",
+  "#goldprice"
+ ],
+ "tag": "MONEY HISTORY",
+ "series": "Money History, in Real Footage"
+}

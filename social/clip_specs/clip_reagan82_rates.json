@@ -1,0 +1,22 @@
+{
+ "id": "clip_reagan82_rates",
+ "source": "reagan_1982_economy",
+ "start": 894.8,
+ "end": 912.7,
+ "headline": "Reagan in 1982: interest rates had climbed to *21.5%*",
+ "quote": "Interest rates had climbed as high as 21.5 percent",
+ "thumb": "Interest rates hit *21.5%*",
+ "title": "When US interest rates hit 21.5% (Reagan, 1982)",
+ "caption": "October 1982: President Reagan says inflation was 12.4% in 1980 and interest rates had climbed as high as 21.5%. Mortgage rates topped 18% in 1981.",
+ "context": "The prime rate hit 21.5% in Dec 1980. Today: *{fred:DPRIME:1:2}%*.",
+ "comment": "Could you afford a mortgage at 18%? 👇",
+ "tags": [
+  "#interestrates",
+  "#inflation",
+  "#history",
+  "#money",
+  "#economy"
+ ],
+ "tag": "MONEY HISTORY",
+ "series": "Money History, in Real Footage"
+}

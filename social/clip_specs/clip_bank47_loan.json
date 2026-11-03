@@ -1,0 +1,29 @@
+{
+ "id": "clip_bank47_loan",
+ "source": "using_bank_1947",
+ "start": 314.2,
+ "end": 339.8,
+ "fix_at": [
+  [
+   314.3,
+   "Now",
+   ""
+  ]
+ ],
+ "headline": "1947: the interest on a *$1,000* bank loan",
+ "quote": "It comes to just $20.43",
+ "thumb": "A *$1,000* loan in 1947",
+ "title": "What a $1,000 bank loan cost in 1947",
+ "caption": "From \"Using the Bank\" (1947): a shop owner borrows $1,000, repaid at $50 a month for 20 months.",
+ "context": "That's about *2.4% a year*. Today's prime rate: *{fred:DPRIME:1:2}%*.",
+ "comment": "What rate is your loan at? 👇",
+ "tags": [
+  "#loans",
+  "#interestrates",
+  "#banking",
+  "#history",
+  "#money"
+ ],
+ "tag": "MONEY HISTORY",
+ "series": "Money History, in Real Footage"
+}

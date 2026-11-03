@@ -37,7 +37,7 @@ SPEC_DIR = ROOT / "social" / "clip_specs"
 DONE = ROOT / "social" / "clips_done.json"
 FONTS = ROOT / "motion" / "fonts"
 CACHE = Path(os.environ.get("CLIP_CACHE", "/tmp/fhw_clips"))
-UA = {"User-Agent": "FinanceHubW/1.0 (github.com/financehubw/FinanceHubW)"}
+UA = {"User-Agent": "FinanceHubW-clips/1.0 (https://github.com/financehubw/FinanceHubW) python-requests"}
 W, H, FPS = 1080, 1920, 30
 DEEP, WHITE, AMBER, NEON, GREY = (8, 12, 22), (244, 246, 250), (255, 192, 46), (60, 230, 140), (150, 160, 176)
 BOLD, SEMI, SERIF = "archivo-latin-800-normal.ttf", "archivo-latin-600-normal.ttf", "fraunces-latin-900-normal.ttf"
@@ -66,9 +66,13 @@ def download(url: str, out: Path) -> Path:
     out.parent.mkdir(parents=True, exist_ok=True)
     if out.exists() and out.stat().st_size > 10_000:
         return out
-    for attempt in range(4):
+    url = re.sub(r"\?utm_[^#]*$", "", url)
+    for attempt in range(6):
         try:
             with requests.get(url, headers=UA, timeout=120, stream=True) as r:
+                if r.status_code == 429:      # Wikimedia rate limit: wait as long as it asks
+                    wait = int(r.headers.get("Retry-After", "0") or 0) or 30 * 2 ** attempt
+                    print(f"  rate limited, waiting {wait}s"); time.sleep(min(wait, 300)); continue
                 r.raise_for_status()
                 tmp = out.with_suffix(out.suffix + ".part")
                 with open(tmp, "wb") as fh:
@@ -296,31 +300,59 @@ def draw_context(img: Image.Image, text: str, y: int, a: float) -> None:
     draw_rich(d, (100, y - h + 25 + off), lines, f, 52)
 
 
-# ------------------------------------------------------------------ CPI helper for "what happened next" lines
-def cpi_series() -> dict[str, float]:
-    t = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL", headers=UA, timeout=60).text
-    out = {}
-    for line in t.splitlines()[1:]:
-        d, _, v = line.partition(",")
-        try:
-            out[d[:7]] = float(v)
-        except ValueError:
-            pass
-    return out
+# ------------------------------------------------------------------ live numbers for "what happened next" lines
+_FRED: dict[str, dict[str, float]] = {}
+
+
+def fred(series: str) -> dict[str, float]:
+    """FRED series as {YYYY-MM-DD: value} (free CSV, no key)."""
+    if series not in _FRED:
+        t = requests.get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series}", headers=UA, timeout=60).text
+        out = {}
+        for line in t.splitlines()[1:]:
+            d, _, v = line.partition(",")
+            try:
+                out[d] = float(v)
+            except ValueError:
+                pass
+        _FRED[series] = out
+    return _FRED[series]
+
+
+def px(ticker: str, date: str | None = None) -> float:
+    import yfinance as yf
+    if date:
+        d = dt.date.fromisoformat(date)
+        h = yf.Ticker(ticker).history(start=d.isoformat(), end=(d + dt.timedelta(days=10)).isoformat(), auto_adjust=False)
+        return float(h["Close"].dropna().iloc[0])
+    return float(yf.Ticker(ticker).history(period="10d", auto_adjust=False)["Close"].dropna().iloc[-1])
 
 
 def resolve(text: str) -> str:
-    """{cpi:1981-02} -> how many times prices have multiplied since then ('3.7x'); {cpi$:1981-02} -> '$3.70'."""
-    if "{cpi" not in text:
-        return text
-    s = cpi_series()
-    last = s[max(s)]
-
-    def rep(m):
-        base = s.get(m.group(2)) or s[min(k for k in s if k >= m.group(2))]
+    """Live figures, filled in at render time so 'today' is always true:
+      {cpi:1981-02}          prices multiplied since then, e.g. 3.6x (US CPI, FRED CPIAUCSL)
+      {cpi$:1947-06:2.98}    $2.98 then in today's dollars
+      {fred:DPRIME:1:2}      latest value of a FRED series / 1, 2 decimals
+      {px:GC=F} {px$:GC=F}   latest price (with $), {px:^GSPC:1982-10-13} close on that date"""
+    def cpi(m):
+        s = fred("CPIAUCSL")
+        last = s[max(s)]
+        base = next(v for k, v in sorted(s.items()) if k[:7] >= m.group(2))
         x = last / base
-        return f"${x:,.2f}" if m.group(1) == "cpi$" else f"{x:.1f}x"
-    return re.sub(r"\{(cpi\$?):(\d{4}-\d{2})\}", rep, text)
+        return f"${x * float(m.group(3)):,.2f}" if m.group(1) == "cpi$" else f"{x:.1f}x"
+
+    def fr(m):
+        s = fred(m.group(1))
+        v = s[max(s)] / float(m.group(2))
+        return f"{v:,.{int(m.group(3))}f}"
+
+    def pr(m):
+        v = px(m.group(2), m.group(3))
+        txt = f"{v:,.0f}" if v >= 100 else f"{v:,.2f}"
+        return ("$" if m.group(1) == "px$" else "") + txt
+    text = re.sub(r"\{(cpi\$?):(\d{4}-\d{2})(?::([\d.]+))?\}", cpi, text)
+    text = re.sub(r"\{fred:([A-Z0-9]+):([\d.e]+):(\d)\}", fr, text)
+    return re.sub(r"\{(px\$?):([^:}]+)(?::(\d{4}-\d{2}-\d{2}))?\}", pr, text)
 
 
 # ------------------------------------------------------------------ render
@@ -342,17 +374,31 @@ def words_in(doc: dict, s: float, e: float) -> list[dict]:
     for seg in doc["segments"]:
         for w, ws, we in seg["words"]:
             if ws >= s - 0.05 and we <= e + 0.4:
-                out.append({"w": w, "t": ws - s, "d": max(0.08, we - ws)})
+                if out and re.match(r"^[.,%'\-]|^'s$", w):        # Whisper splits '12' '.4', 'trillion' '-dollar'
+                    out[-1]["w"] += w
+                    out[-1]["d"] = max(out[-1]["d"], we - s - out[-1]["t"])
+                    continue
+                out.append({"w": w, "t": ws - s, "d": max(0.08, we - ws), "abs": ws})
     return out
 
 
-def apply_fixes(words: list[dict], fixes: dict) -> list[dict]:
-    """Names only (e.g. Whisper's 'Rosevelt' -> 'Roosevelt'). Never numbers, years or dates."""
+def apply_fixes(words: list[dict], fixes: dict, fix_at: list | None = None) -> list[dict]:
+    """Caption fixes. `fix` maps names Whisper misspells ('Rosevelt' -> 'Roosevelt'). `fix_at` = [[time, heard,
+    said], ...] for a single misheard word at that moment ('' drops it). Never used to change numbers or dates."""
     for w in words:
         core = re.sub(r"[^\w'-]", "", w["w"])
         if core in fixes:
             w["w"] = w["w"].replace(core, fixes[core])
-    return words
+    drop = set()
+    for at, heard, said in fix_at or []:
+        k = min(range(len(words)), key=lambda i: abs(words[i]["abs"] - float(at)), default=None)
+        if k is None or heard.lower() not in words[k]["w"].lower():
+            print(f"  fix_at {at} '{heard}' not found"); continue
+        if said:
+            words[k]["w"] = re.sub(re.escape(heard), said, words[k]["w"], flags=re.I)
+        else:
+            drop.add(k)
+    return [w for i, w in enumerate(words) if i not in drop]
 
 
 def render(spec_id: str) -> dict:
@@ -369,8 +415,9 @@ def render(spec_id: str) -> dict:
         raise SystemExit(f"{spec_id}: clip must be 8-60 s, got {dur:.1f}")
     spec.setdefault("credit", info["credit"])
     spec.setdefault("date", info.get("date", ""))
-    if spec.get("context"):
-        spec["context"] = resolve(spec["context"])
+    for k in ("context", "caption", "title"):
+        if spec.get(k):
+            spec[k] = resolve(spec[k])
     crop = cropdetect(src, s, e)
     m = probe(src)
     cw, ch = (int(crop.split("=")[1].split(":")[0]), int(crop.split(":")[1])) if crop else (m["width"], m["height"])
@@ -383,7 +430,7 @@ def render(spec_id: str) -> dict:
     vy = top + 10 + max(0, (1560 - (top + 10) - block) // 2)
     cap_y = vy + fg_h + 34
     over = panel(spec)
-    words = apply_fixes(words_in(doc, s, e), spec.get("fix", {}))
+    words = apply_fixes(words_in(doc, s, e), spec.get("fix", {}), spec.get("fix_at"))
     groups = caption_groups(words)
     pre = crop + "," if crop else ""
     vf = (f"[0:v]{pre}fps={FPS},split[a][b];"

@@ -1,0 +1,23 @@
+{
+ "id": "clip_reagan82_markets",
+ "source": "reagan_1982_economy",
+ "start": 1025.2,
+ "end": 1035.6,
+ "headline": "Reagan in 1982: '*Markets will go up*, and they will come down'",
+ "quote": "Markets will go up, and they will come down",
+ "thumb": "\"The trend is *up*\"",
+ "title": "Reagan, 1982: \"Markets will go up and they will come down\"",
+ "caption": "October 1982, two months into a new bull market. The S&P 500 closed at {px:^GSPC:1982-10-13} that day.",
+ "context": "S&P 500 that day: *{px:^GSPC:1982-10-13}*. Today: *{px:^GSPC}*.",
+ "context_secs": 4.2,
+ "comment": "Would you have bought stocks in 1982? 👇",
+ "tags": [
+  "#stockmarket",
+  "#investing",
+  "#sp500",
+  "#history",
+  "#money"
+ ],
+ "tag": "MONEY HISTORY",
+ "series": "Money History, in Real Footage"
+}

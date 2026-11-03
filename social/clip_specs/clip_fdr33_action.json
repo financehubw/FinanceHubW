@@ -1,0 +1,29 @@
+{
+ "id": "clip_fdr33_action",
+ "source": "fdr_inaugural_1933",
+ "start": 250.4,
+ "end": 278.5,
+ "fix_at": [
+  [
+   258.4,
+   "this",
+   ""
+  ]
+ ],
+ "headline": "FDR's first speech as president, in the middle of a *bank panic*",
+ "quote": "This nation is asking for action, and action now",
+ "thumb": "\"*Action, and action now*\"",
+ "title": "FDR's first speech as president, during the 1933 bank panic",
+ "caption": "March 4, 1933: banks across America were failing as Franklin D. Roosevelt took office. Newsreel footage of his inaugural address.",
+ "context": "Two days later, he ordered *every bank in America* to close.",
+ "comment": "Would you keep your savings in a bank in 1933? 👇",
+ "tags": [
+  "#history",
+  "#banking",
+  "#greatdepression",
+  "#fdr",
+  "#money"
+ ],
+ "tag": "MONEY HISTORY",
+ "series": "Money History, in Real Footage"
+}

@@ -60,6 +60,11 @@ def next_item() -> dict | None:
     ready = [i for i in ready if not i["file"].startswith("news_")]   # never post a stale news Short
     if not ready:
         return None
+    try:   # rotate kinds of Shorts by how well each kind does (social/mix.py)
+        import mix
+        return mix.pick(ready, log, {i["file"]: i for i in items})
+    except Exception as e:  # noqa: BLE001
+        print(f"  mix skipped - {e}", file=sys.stderr)
     for item in ready[:6]:
         if not last or item.get("thumb_tag", "") != last:
             return item

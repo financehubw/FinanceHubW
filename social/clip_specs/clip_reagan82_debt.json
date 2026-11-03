@@ -1,0 +1,22 @@
+{
+ "id": "clip_reagan82_debt",
+ "source": "reagan_1982_economy",
+ "start": 598.3,
+ "end": 614.2,
+ "headline": "Reagan in 1982: America is 'staggering under a *trillion-dollar debt*'",
+ "quote": "Staggering under a trillion-dollar debt",
+ "thumb": "The *$1 trillion* debt",
+ "title": "Reagan warned about a $1 trillion US debt in 1982",
+ "caption": "October 1982: federal debt had just passed $1 trillion, and interest cost $110 billion a year. Today's figures are at the end (FRED data).",
+ "context": "Today: *${fred:GFDEBTN:1e6:1} trillion* of debt and *${fred:A091RC1Q027SBEA:1e3:2} trillion* a year in interest.",
+ "comment": "Should the US pay down its debt? 👇",
+ "tags": [
+  "#nationaldebt",
+  "#economy",
+  "#history",
+  "#money",
+  "#usdebt"
+ ],
+ "tag": "MONEY HISTORY",
+ "series": "Money History, in Real Footage"
+}
