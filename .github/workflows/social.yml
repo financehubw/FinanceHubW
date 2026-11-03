@@ -55,6 +55,10 @@ on:
         description: "Only diagnose the Facebook connection"
         type: boolean
         default: false
+      from_clock:
+        description: "Started by the Clock workflow: post only if a slot is due"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -118,8 +122,9 @@ jobs:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
       - name: Wait for the posting time
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || inputs.from_clock
         run: |
+          git pull -q --rebase origin main || true     # today's posts as of now, not as of when this run was queued
           python - <<'PY'
           import json, time, datetime as dt, sys
           now = dt.datetime.now(dt.timezone.utc)
