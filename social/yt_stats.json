@@ -1,9 +1,9 @@
 {
  "channel": {
-  "viewCount": "3197",
+  "viewCount": "3204",
   "subscriberCount": "6",
   "hiddenSubscriberCount": false,
-  "videoCount": "32"
+  "videoCount": "33"
  },
  "analytics": "ok",
  "traffic_sources": {
@@ -15,6 +15,14 @@
   "SUBSCRIBER": 3,
   "NO_LINK_OTHER": 1,
   "RELATED_VIDEO": 0
+ },
+ "countries": {
+  "US": 1433,
+  "IN": 56,
+  "CA": 40,
+  "GB": 32,
+  "ID": 0,
+  "NL": 0
  },
  "videos": [
   {
@@ -387,7 +395,7 @@
    "posted": "2026-11-02T07:08:13Z",
    "title": "Nobel prize winners ran a fund that nearly broke Wall Street | Money Stories #4 #Shorts",
    "duration": "PT31S",
-   "views": 63,
+   "views": 65,
    "likes": 0,
    "comments": 1,
    "avg_view_pct": 49.5,
@@ -411,7 +419,7 @@
    "posted": "2026-11-03T07:19:07Z",
    "title": "One joke wiped out \u00a3500 million | Money Stories #5 #Shorts",
    "duration": "PT26S",
-   "views": 138,
+   "views": 149,
    "likes": 0,
    "comments": 1
   },
@@ -421,7 +429,7 @@
    "posted": "2026-11-03T15:15:12Z",
    "title": "How to split every paycheck (the 50/30/20 rule) #Shorts",
    "duration": "PT24S",
-   "views": 37,
+   "views": 49,
    "likes": 0,
    "comments": 1
   },
@@ -431,8 +439,18 @@
    "posted": "2026-11-03T18:38:45Z",
    "title": "Reagan shows what inflation did to the dollar (1981) #Shorts",
    "duration": "PT29S",
-   "views": 1000,
-   "likes": 16,
+   "views": 1111,
+   "likes": 17,
+   "comments": 1
+  },
+  {
+   "id": "6i3033fF3B4",
+   "file": "news_20261103.mp4",
+   "posted": "2026-11-03T22:32:53Z",
+   "title": "US stocks rise as tech shares gain (today's money news) #Shorts",
+   "duration": "PT17S",
+   "views": 23,
+   "likes": 0,
    "comments": 1
   }
  ]
