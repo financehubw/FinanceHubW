@@ -1,6 +1,22 @@
-anthropic>=0.40
-feedparser>=6.0
-tweepy>=4.14
+# Core: news, publishing, data
 requests>=2.31
+feedparser>=6.0
 yfinance>=0.2.40
-pillow
+google-api-python-client>=2.100
+google-auth>=2.23
+
+# Rendering: images, video, sound
+pillow>=10.0
+numpy>=1.26
+scipy>=1.11
+edge-tts>=6.1
+cairosvg>=2.7          # brand marks (brand/mark.py)
+playwright>=1.40       # magazine slides
+
+# Real-footage clips
+faster-whisper>=1.0
+yt-dlp>=2024.1         # Federal Reserve (Brightcove) videos only
+
+# Optional
+anthropic>=0.40        # optional writer/checker
+tweepy>=4.14           # X API, if keys are set

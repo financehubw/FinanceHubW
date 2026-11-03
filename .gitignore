@@ -1,8 +1,24 @@
+# Python
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+.venv/
+venv/
 
-# never commit OAuth files
+# Secrets: never commit keys, tokens or OAuth files
+.env
+.env.*
 client_secret*.json
 youtube_token.json
+*token*.json
+
+# Build and temporary files
 build/
+*.part
+*.tmp
+.cache/
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
