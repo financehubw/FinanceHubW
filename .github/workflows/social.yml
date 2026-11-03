@@ -172,14 +172,14 @@ jobs:
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
           git add social/posted.json site/archive.json
-          git add social/yt_playlists.json 2>/dev/null || true
-          git add -A site/media/shorts 2>/dev/null || true
+          for p in social/yt_playlists.json; do [ -e "$p" ] && git add "$p"; done; true
+          for p in site/media/shorts; do [ -e "$p" ] && git add -A "$p"; done; true
           if [ -f docs/fb_check.json ]; then git add docs/fb_check.json; fi
           if [ -f docs/ig_delete.txt ]; then git add docs/ig_delete.txt; fi
           if [ -f docs/photo_check.txt ]; then git add docs/photo_check.txt; fi
           if [ -f docs/ig_list.txt ]; then git add docs/ig_list.txt; fi
           if [ -f docs/url_check.txt ]; then git add docs/url_check.txt; fi
-          git add site/media/shorts/thumbs 2>/dev/null || true
+          for p in site/media/shorts/thumbs; do [ -e "$p" ] && git add "$p"; done; true
           if [ -f docs/yt_stats.json ]; then git add docs/yt_stats.json; fi
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Record posted Short"

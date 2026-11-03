@@ -64,7 +64,7 @@ jobs:
         run: |
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          git add docs/daily_draft.log magazine/daily site/media/daily site/daily.json social/daily_queue.json 2>/dev/null || true
+          for p in docs/daily_draft.log magazine/daily site/media/daily site/daily.json social/daily_queue.json; do [ -e "$p" ] && git add "$p"; done; true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "The Daily: draft for review"
           for i in 1 2 3; do

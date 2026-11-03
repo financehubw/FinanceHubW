@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          git add docs/make_shorts.log social/queue.json social/shorts_scripts site/media/shorts 2>/dev/null || true
+          for p in docs/make_shorts.log social/queue.json social/shorts_scripts site/media/shorts; do [ -e "$p" ] && git add "$p"; done; true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "New Shorts rendered"
           for i in 1 2 3; do

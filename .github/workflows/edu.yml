@@ -52,7 +52,7 @@ jobs:
       - run: |
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          git add social/edu_posted.json 2>/dev/null || true
+          for p in social/edu_posted.json; do [ -e "$p" ] && git add "$p"; done; true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Record learn carousel"
           python3 social/git_save.py

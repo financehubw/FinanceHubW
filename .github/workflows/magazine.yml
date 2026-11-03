@@ -55,7 +55,7 @@ jobs:
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
           python social/site_index.py || true
-          git add social/magazine_posted.json site/archive.json site/library.json docs/magazine.log 2>/dev/null || true
+          for p in social/magazine_posted.json site/archive.json site/library.json docs/magazine.log; do [ -e "$p" ] && git add "$p"; done; true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Record posted magazine edition"
           for i in 1 2 3; do

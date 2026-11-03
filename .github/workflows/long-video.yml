@@ -57,7 +57,7 @@ jobs:
         run: |
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          git add docs/long_video.log social/long_posted.json social/yt_playlists.json 2>/dev/null || true
+          for p in docs/long_video.log social/long_posted.json social/yt_playlists.json; do [ -e "$p" ] && git add "$p"; done; true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Weekly long video"
           python3 social/git_save.py
