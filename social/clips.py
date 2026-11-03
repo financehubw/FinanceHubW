@@ -592,7 +592,12 @@ Transcript:
 {lines}"""
     raw = ask_ai(prompt)
     m = re.search(r"\[.*\]", raw, re.S)
-    picks = json.loads(m.group(0)) if m else []
+    try:
+        picks = json.loads(m.group(0)) if m else []
+    except json.JSONDecodeError as e:
+        picks = []; print("  picks: bad JSON", e)
+    if not picks:
+        print("  picks: none in reply:", raw[:500].replace("\n", " "))
     starts = [s["s"] for s in doc["segments"]]
     ends = [s["e"] for s in doc["segments"]]
     good = []
@@ -601,13 +606,20 @@ Transcript:
             s = min(starts, key=lambda x: abs(x - float(p["start"])))
             e = min(ends, key=lambda x: abs(x - float(p["end"])))
         except (KeyError, TypeError, ValueError):
-            continue
-        if not 15 <= e - s <= 50:
-            continue
+            print("  pick skipped (no usable times):", str(p)[:200]); continue
+        if e - s > 50:             # too long: end at the last sentence that fits in 45 s
+            e = max([x for x in ends if s + 12 <= x <= s + 45] or [e])
+        if e - s < 15:             # too short: run on to the next sentence end
+            e = min([x for x in ends if x >= s + 18] or [e])
+        if not 12 <= e - s <= 50:
+            print(f"  pick skipped ({e - s:.0f}s long):", p.get("headline")); continue
         text = " ".join(w for seg in doc["segments"] for w, ws, we in seg["words"] if s - 0.05 <= ws and we <= e + 0.4).lower()
         qw = re.sub(r"[^\w\s']", "", p.get("quote", "")).lower().split()
         if qw and sum(w in text for w in qw) < 0.7 * len(qw):
-            continue        # the quote must really be in the moment
+            print("  quote not in the moment, dropped:", p.get("quote")); p["quote"] = ""
+        if not all(p.get(k) for k in ("headline", "title", "caption", "comment")):
+            print("  pick skipped (missing text):", str(p)[:200]); continue
+        print(f"  pick {s:.0f}-{e:.0f}s: {p['headline']}")
         good.append({**p, "start": s, "end": e})
     return good[:n]
 
@@ -627,11 +639,29 @@ def fed_latest() -> dict | None:
     chair = re.search(r"Chair(?:man)?\s+([A-Z][a-zA-Z'-]+)", re.sub("<[^>]+>", " ", html))
     if not vid:
         return None
+    name = chair.group(1) if chair else fed_chair()
     day = dt.datetime.strptime(d, "%Y%m%d")
     return {"key": f"fomc_{d}", "kind": "brightcove", "id": vid.group(1), "page": page,
             "title": f"FOMC Press Conference, {day:%B %-d, %Y}", "date": f"{day:%b %-d, %Y}",
-            "credit": "Federal Reserve Board (public domain)", "speaker": f"Fed Chair {chair.group(1)}" if chair else "the Fed Chair",
+            "credit": "Federal Reserve Board (public domain)", "speaker": f"Fed Chair {name}" if name else "the Fed Chair",
             "tag": "FED WATCH", "series": "Fed Watch"}
+
+
+def fed_chair() -> str | None:
+    """Surname of the current Fed Chair, from the Board's own list of members."""
+    try:
+        html = requests.get("https://www.federalreserve.gov/aboutthefed/bios/board/default.htm", headers=UA, timeout=60).text
+    except requests.RequestException:
+        return None
+    lines = [l.strip() for l in re.sub(r"<[^>]+>", "\n", html).splitlines() if l.strip()]
+    for i, l in enumerate(lines):
+        if re.match(r"^Chair(man)?\b", l) and "Vice" not in l and i:
+            name = lines[i - 1].rstrip(",")
+            if re.match(r"^[A-Z][\w.' -]{3,40}$", name):
+                print("  Fed Chair:", name)
+                return name.split()[-1]
+    m = re.search(r"([A-Z][a-z]+(?: [A-Z]\.)? [A-Z][a-z]+),?\s*Chair\b", " ".join(lines))
+    return m.group(1).split()[-1] if m else None
 
 
 def spec_from_pick(key: str, info: dict, p: dict, k: int) -> str:
@@ -653,14 +683,19 @@ def auto() -> None:
         fed = fed_latest()
     except requests.RequestException as e:
         fed = None; print("fed check failed:", e)
-    if fed and fed["key"] not in done["sources"]:
+    tries = done.setdefault("tries", {})
+    if fed and fed["key"] not in done["sources"] and tries.get(fed["key"], 0) < 3:
         reg[fed["key"]] = {k: v for k, v in fed.items() if k != "key"}
         save(REGISTRY, reg)
-        doc = scout(fed["key"])
+        doc = load(SRC_DIR / f"{fed['key']}.json", None) or scout(fed["key"])
+        doc["info"] = reg[fed["key"]]
         picks = pick_moments(doc, 2, fed["speaker"], "Pick moments that answer what viewers care about: rate cuts, inflation, jobs, markets.")
         ids = [spec_from_pick(fed["key"], reg[fed["key"]], p, k) for k, p in enumerate(picks, 1)]
         made += make(ids, front=True)
-        done["sources"].append(fed["key"]); save(DONE, done)
+        tries[fed["key"]] = tries.get(fed["key"], 0) + 1
+        if ids:
+            done["sources"].append(fed["key"])
+        save(DONE, done)
     q = load(QUEUE, {"items": []})["items"]
     posted = {p["file"] for p in load(ROOT / "social" / "posted.json", {"posted": []})["posted"]}
     waiting = [i for i in q if i.get("format") == "clip" and i["file"] not in posted]
