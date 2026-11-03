@@ -49,18 +49,22 @@ try:   # needs the yt-analytics.readonly permission granted when the YouTube tok
     src = ya.reports().query(ids="channel==MINE", startDate="2026-10-01", endDate=end,
                              metrics="views", dimensions="insightTrafficSourceType", sort="-views").execute()
     traffic = {r[0]: r[1] for r in src.get("rows", [])}
+    geo = ya.reports().query(ids="channel==MINE", startDate="2026-10-01", endDate=end, metrics="views",
+                             dimensions="country", sort="-views", maxResults=15).execute()
+    countries = {r[0]: r[1] for r in geo.get("rows", [])}
 except Exception as e:  # noqa: BLE001
     detail = getattr(e, "content", b"")
     analytics_note, traffic = (detail.decode("utf-8", "ignore") if isinstance(detail, bytes) else str(e))[:600], {}
+    countries = {}
 
 try:
     ch = yt.channels().list(part="statistics", mine=True).execute()["items"][0]["statistics"]
 except Exception as e:  # noqa: BLE001
     ch = {"error": str(e)[:150]}
 (ROOT / "social/yt_stats.json").write_text(json.dumps(
-    {"channel": ch, "analytics": analytics_note, "traffic_sources": traffic,
+    {"channel": ch, "analytics": analytics_note, "traffic_sources": traffic, "countries": countries,
      "videos": sorted(out.values(), key=lambda x: x["posted"])}, indent=1))
-print(json.dumps({"channel": ch, "analytics": analytics_note, "traffic": traffic}, indent=1))
+print(json.dumps({"channel": ch, "analytics": analytics_note, "traffic": traffic, "countries": countries}, indent=1))
 
 # ---- what works: median views per kind of Short -> posting weights for social/mix.py
 try:

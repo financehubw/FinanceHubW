@@ -87,7 +87,16 @@ def caption_for(item: dict, platform: str = "instagram") -> str:
     tags = item.get("tags", [])
     if platform == "youtube":
         yt_tags = ["#shorts"] + [t for t in tags if t != "#shorts"][:2]
-        return (f"{item['title']}. {item['caption']}\n\n"
+        series = ""
+        try:   # a link to the rest of the series keeps viewers watching (and subscribing)
+            import yt_extras
+            s = yt_extras.series_of(item)
+            pid = json.loads(yt_extras.PLAYLISTS.read_text()).get(s[0]) if s else None
+            if pid:
+                series = f"▶ The whole series, {s[0]}: https://www.youtube.com/playlist?list={pid}\n"
+        except Exception:  # noqa: BLE001
+            pass
+        return (f"{item['title']}. {item['caption']}\n\n{series}"
                 "A new money breakdown every day. Subscribe so you don't miss one: @FinanceHubW\n"
                 f"Educational content, not financial advice.{note}\n\n" + " ".join(yt_tags))
     q = item.get("comment", "")
