@@ -1,6 +1,15 @@
-clip: clip_reagan81_36cents
-  -> clip_reagan81_36cents.mp4 | Reagan shows what inflation did to the dollar (1981)
+clip: clip_fdr33_action
+  -> clip_fdr33_action.mp4 | FDR's first speech as president, during the 1933 bank panic
+clip: clip_reagan82_markets
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+  -> clip_reagan82_markets.mp4 | Reagan, 1982: "Markets will go up and they will come down"
 clip: clip_reagan81_inflation
   -> clip_reagan81_inflation.mp4 | Reagan explains inflation in 14 seconds (1981)
-clip: clip_reagan81_allowance
-  -> clip_reagan81_allowance.mp4 | Reagan's famous "allowance" line about government spending (1981)

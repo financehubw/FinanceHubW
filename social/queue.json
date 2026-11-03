@@ -2515,31 +2515,6 @@
    "ig_trial": true
   },
   {
-   "file": "clip_fdr33_action.mp4",
-   "title": "FDR's first speech as president, during the 1933 bank panic",
-   "caption": "March 4, 1933: banks across America were failing as Franklin D. Roosevelt took office. Newsreel footage of his inaugural address.\n\nFootage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1933-03-05_Extra_Special_Roosevelt_Inaugurated",
-   "tags": [
-    "#history",
-    "#banking",
-    "#greatdepression",
-    "#fdr",
-    "#money"
-   ],
-   "comment": "Would you keep your savings in a bank in 1933? 👇",
-   "thumb": "\"*Action, and action now*\"",
-   "thumb_photo": "",
-   "thumb_tag": "MONEY HISTORY",
-   "ai_voice": false,
-   "voice": "none",
-   "made": "2026-11-03",
-   "sources": [
-    "Footage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1933-03-05_Extra_Special_Roosevelt_Inaugurated"
-   ],
-   "format": "clip",
-   "series": "Money History, in Real Footage",
-   "ig_trial": true
-  },
-  {
    "file": "clip_gold33.mp4",
    "title": "Gold was $33 an ounce in 1933 (real newsreel)",
    "caption": "November 1933: the US government was raising the price it paid for gold, and amateur prospectors rushed to dig. In 1934 it fixed the price at $35.\n\nFootage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1933-11-06_City_Gold_Rush_Starts",
@@ -2715,31 +2690,6 @@
    "ig_trial": true
   },
   {
-   "file": "clip_reagan82_markets.mp4",
-   "title": "Reagan, 1982: \"Markets will go up and they will come down\"",
-   "caption": "October 1982, two months into a new bull market. The S&P 500 closed at 137 that day.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm",
-   "tags": [
-    "#stockmarket",
-    "#investing",
-    "#sp500",
-    "#history",
-    "#money"
-   ],
-   "comment": "Would you have bought stocks in 1982? 👇",
-   "thumb": "\"The trend is *up*\"",
-   "thumb_photo": "",
-   "thumb_tag": "MONEY HISTORY",
-   "ai_voice": false,
-   "voice": "none",
-   "made": "2026-11-03",
-   "sources": [
-    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm"
-   ],
-   "format": "clip",
-   "series": "Money History, in Real Footage",
-   "ig_trial": true
-  },
-  {
    "file": "clip_reagan82_rates.mp4",
    "title": "When US interest rates hit 21.5% (Reagan, 1982)",
    "caption": "October 1982: President Reagan says inflation was 12.4% in 1980 and interest rates had climbed as high as 21.5%. Mortgage rates topped 18% in 1981.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm",
@@ -2790,18 +2740,18 @@
    "ig_trial": true
   },
   {
-   "file": "clip_reagan81_inflation.mp4",
-   "title": "Reagan explains inflation in 14 seconds (1981)",
-   "caption": "February 5, 1981, when US inflation was running in double digits (12.4% in 1980).\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm",
+   "file": "clip_reagan81_allowance.mp4",
+   "title": "Reagan's famous \"allowance\" line about government spending (1981)",
+   "caption": "February 5, 1981: President Reagan on cutting taxes to force spending down.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm",
    "tags": [
-    "#inflation",
-    "#economics",
+    "#taxes",
+    "#government",
     "#reagan",
     "#history",
     "#money"
    ],
-   "comment": "Do you feel prices are still rising? 👇",
-   "thumb": "What *inflation* really is",
+   "comment": "Would this work on governments? 👇",
+   "thumb": "Cut the *allowance*",
    "thumb_photo": "",
    "thumb_tag": "MONEY HISTORY",
    "ai_voice": false,
@@ -2815,18 +2765,68 @@
    "ig_trial": true
   },
   {
-   "file": "clip_reagan81_allowance.mp4",
-   "title": "Reagan's famous \"allowance\" line about government spending (1981)",
-   "caption": "February 5, 1981: President Reagan on cutting taxes to force spending down.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm",
+   "file": "clip_fdr33_action.mp4",
+   "title": "FDR's first speech as president, during the 1933 bank panic",
+   "caption": "March 4, 1933: banks across America were failing as Franklin D. Roosevelt took office. Newsreel footage of his inaugural address.\n\nFootage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1933-03-05_Extra_Special_Roosevelt_Inaugurated",
    "tags": [
-    "#taxes",
-    "#government",
+    "#history",
+    "#banking",
+    "#greatdepression",
+    "#fdr",
+    "#money"
+   ],
+   "comment": "Would you keep your savings in a bank in 1933? 👇",
+   "thumb": "\"*Action, and action now*\"",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1933-03-05_Extra_Special_Roosevelt_Inaugurated"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_reagan82_markets.mp4",
+   "title": "Reagan, 1982: \"Markets will go up and they will come down\"",
+   "caption": "October 1982, two months into a new bull market. The S&P 500 closed at 137 that day.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm",
+   "tags": [
+    "#stockmarket",
+    "#investing",
+    "#sp500",
+    "#history",
+    "#money"
+   ],
+   "comment": "Would you have bought stocks in 1982? 👇",
+   "thumb": "\"The trend is *up*\"",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_reagan81_inflation.mp4",
+   "title": "Reagan explains inflation in 14 seconds (1981)",
+   "caption": "February 5, 1981, when US inflation was running in double digits (12.4% in 1980).\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm",
+   "tags": [
+    "#inflation",
+    "#economics",
     "#reagan",
     "#history",
     "#money"
    ],
-   "comment": "Would this work on governments? 👇",
-   "thumb": "Cut the *allowance*",
+   "comment": "Do you feel prices are still rising? 👇",
+   "thumb": "What *inflation* really is",
    "thumb_photo": "",
    "thumb_tag": "MONEY HISTORY",
    "ai_voice": false,
