@@ -1,12 +1,15 @@
 {
  "channel": {
-  "viewCount": "2486",
+  "viewCount": "3197",
   "subscriberCount": "5",
   "hiddenSubscriberCount": false,
-  "videoCount": "22"
+  "videoCount": "29"
  },
+ "analytics": "<HttpError 403 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DMINE&startDate=2026-10-01&endDate=2026-11-03&metrics=views%2CaverageViewDuration%2CaverageViewPercentage%2CsubscribersGained%2Cshares&dimensions=video&sort=-views&maxResults=200&alt=json returned \"YouT",
+ "traffic_sources": {},
  "videos": [
   {
+   "id": "yNfP99LSP4E",
    "file": "car_payment.mp4",
    "posted": "2026-10-10T17:58:25Z",
    "title": "Your car payment could cost you $78,000 #Shorts",
@@ -16,6 +19,7 @@
    "comments": 0
   },
   {
+   "id": "rQPTKTejUpM",
    "file": "m1_ten_year_head_start.mp4",
    "posted": "2026-10-11T13:33:01Z",
    "title": "Start investing at 20 or 30? The gap is $298,066 #Shorts",
@@ -25,6 +29,7 @@
    "comments": 0
   },
   {
+   "id": "757-gKWyCDQ",
    "file": "bank_spread.mp4",
    "posted": "2026-10-12T14:03:41Z",
    "title": "Your bank pays you 0.5% and charges you 20% #Shorts",
@@ -34,6 +39,7 @@
    "comments": 0
   },
   {
+   "id": "rs7xO5MRc3U",
    "file": "bread_billion_marks.mp4",
    "posted": "2026-10-13T14:00:28Z",
    "title": "When bread cost 200 billion marks #Shorts",
@@ -43,6 +49,7 @@
    "comments": 0
   },
   {
+   "id": "kWeIUBxcdy4",
    "file": "m4_five_dollar_coffee.mp4",
    "posted": "2026-10-14T14:09:06Z",
    "title": "Your $5 coffee could be worth $226,659 #Shorts",
@@ -52,6 +59,7 @@
    "comments": 0
   },
   {
+   "id": "em5KMILUGl0",
    "file": "manhattan_real.mp4",
    "posted": "2026-10-15T14:15:18Z",
    "title": "The worst deal in history? #Shorts",
@@ -61,6 +69,7 @@
    "comments": 0
   },
   {
+   "id": "0fvp4V_448w",
    "file": "credit_card_20_years.mp4",
    "posted": "2026-10-16T14:12:11Z",
    "title": "The $5,000 debt that lasts 20 years #Shorts",
@@ -70,6 +79,7 @@
    "comments": 0
   },
   {
+   "id": "kOdjU6X2fjw",
    "file": "netflix_blockbuster.mp4",
    "posted": "2026-10-17T14:03:40Z",
    "title": "Blockbuster could have bought Netflix for $50 million #Shorts",
@@ -79,6 +89,7 @@
    "comments": 1
   },
   {
+   "id": "Zes-1A7ubsw",
    "file": "buffett_after_65.mp4",
    "posted": "2026-10-18T14:04:13Z",
    "title": "Buffett's secret nobody talks about #Shorts",
@@ -88,6 +99,7 @@
    "comments": 3
   },
   {
+   "id": "2oHoMvAixbE",
    "file": "bitcoin_pizza.mp4",
    "posted": "2026-10-19T05:31:39Z",
    "title": "The most expensive pizza ever bought #Shorts",
@@ -97,6 +109,7 @@
    "comments": 1
   },
   {
+   "id": "sh0-7SWR2bc",
    "file": "ronald_wayne.mp4",
    "posted": "2026-10-19T14:21:45Z",
    "title": "Apple's forgotten co-founder sold 10% for $800 #Shorts",
@@ -106,6 +119,7 @@
    "comments": 1
   },
   {
+   "id": "umkVPMMBWHk",
    "file": "hundred_a_month.mp4",
    "posted": "2026-10-20T05:32:23Z",
    "title": "$100 a month could become $228,000 #Shorts",
@@ -115,6 +129,7 @@
    "comments": 1
   },
   {
+   "id": "0mWiSY_ziw8",
    "file": "nvidia_2016.mp4",
    "posted": "2026-10-20T14:16:54Z",
    "title": "$1,000 in Nvidia in 2016 is now worth this #Shorts",
@@ -124,15 +139,17 @@
    "comments": 1
   },
   {
+   "id": "Es8bf9MbWKs",
    "file": "penny_doubling.mp4",
    "posted": "2026-10-21T05:31:43Z",
    "title": "A penny doubled for 30 days vs $1 million #Shorts",
    "duration": "PT18S",
-   "views": 30,
+   "views": 36,
    "likes": 1,
    "comments": 1
   },
   {
+   "id": "zdkxDvl4iFo",
    "file": "dollar_41_cents.mp4",
    "posted": "2026-10-21T14:18:15Z",
    "title": "Why your dollar will be worth 41 cents #Shorts",
@@ -142,6 +159,7 @@
    "comments": 1
   },
   {
+   "id": "T-slk2ixlrI",
    "file": "amazon_1997.mp4",
    "posted": "2026-10-22T05:32:17Z",
    "title": "$1,000 in Amazon in 1997 is now worth this #Shorts",
@@ -151,33 +169,37 @@
    "comments": 1
   },
   {
+   "id": "foeMNx2xc10",
    "file": "zimbabwe_100_trillion.mp4",
    "posted": "2026-10-22T14:17:20Z",
    "title": "The 100 trillion dollar banknote #Shorts",
    "duration": "PT17S",
+   "views": 23,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "id": "2oHmnrWN3H4",
+   "file": "ten_percent_salary.mp4",
+   "posted": "2026-10-25T15:05:09Z",
+   "title": "Save 10% and retire with $860,000 #Shorts",
+   "duration": "PT21S",
+   "views": 19,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "ILroImlP6go",
+   "file": "microsoft_ipo.mp4",
+   "posted": "2026-10-26T06:31:38Z",
+   "title": "$1,000 in Microsoft's first trading day is now worth this #Shorts",
+   "duration": "PT14S",
    "views": 19,
    "likes": 1,
    "comments": 1
   },
   {
-   "file": "ten_percent_salary.mp4",
-   "posted": "2026-10-25T15:05:09Z",
-   "title": "Save 10% and retire with $860,000 #Shorts",
-   "duration": "PT21S",
-   "views": 18,
-   "likes": 0,
-   "comments": 1
-  },
-  {
-   "file": "microsoft_ipo.mp4",
-   "posted": "2026-10-26T06:31:38Z",
-   "title": "$1,000 in Microsoft's first trading day is now worth this #Shorts",
-   "duration": "PT14S",
-   "views": 18,
-   "likes": 1,
-   "comments": 1
-  },
-  {
+   "id": "dFxZ2gKHrn0",
    "file": "buffett_age_11.mp4",
    "posted": "2026-10-26T15:22:27Z",
    "title": "Warren Buffett's first stock taught him this #Shorts",
@@ -187,20 +209,92 @@
    "comments": 1
   },
   {
+   "id": "-qTry0G9T1Y",
    "file": "apple_ipo.mp4",
    "posted": "2026-10-27T06:32:11Z",
    "title": "$1,000 in Apple's first trading day is now worth this #Shorts",
    "duration": "PT14S",
-   "views": 177,
+   "views": 235,
    "likes": 0,
    "comments": 1
   },
   {
+   "id": "4qhcdQ8mtr8",
    "file": "one_percent_fee.mp4",
    "posted": "2026-10-27T15:28:13Z",
    "title": "A 1% fee costs more than you think #Shorts",
    "duration": "PT16S",
-   "views": 4,
+   "views": 93,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "id": "fiddrA5mOqM",
+   "file": "kodak_digital_camera.mp4",
+   "posted": "2026-10-28T06:32:24Z",
+   "title": "Kodak invented the digital camera, then went bankrupt | Money Stories #1 #Shorts",
+   "duration": "PT26S",
+   "views": 81,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "id": "R0WZMF3ZNr4",
+   "file": "pepsi_harrier_jet.mp4",
+   "posted": "2026-10-28T15:31:25Z",
+   "title": "He tried to buy a fighter jet with Pepsi points | Money Stories #2 #Shorts",
+   "duration": "PT26S",
+   "views": 133,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "id": "aQ6DUSIjmxU",
+   "file": "newton_south_sea.mp4",
+   "posted": "2026-10-29T06:31:37Z",
+   "title": "Isaac Newton lost a fortune in a stock bubble | Money Stories #3 #Shorts",
+   "duration": "PT32S",
+   "views": 45,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "vxDzuaNJulo",
+   "file": "news_20261029.mp4",
+   "posted": "2026-10-29T15:31:34Z",
+   "title": "Fed keeps interest rates steady at 3.75% to 4% (today's money news) #Shorts",
+   "duration": "PT17S",
+   "views": 29,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "4szkjKSn-jA",
+   "file": "ltcm_nobel_fund.mp4",
+   "posted": "2026-11-02T07:08:13Z",
+   "title": "Nobel prize winners ran a fund that nearly broke Wall Street | Money Stories #4 #Shorts",
+   "duration": "PT31S",
+   "views": 57,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "oBo8QbBT8Tw",
+   "file": "mistakes_20s.mp4",
+   "posted": "2026-11-02T17:30:50Z",
+   "title": "3 money mistakes in your 20s that cost the most #Shorts",
+   "duration": "PT36S",
+   "views": 27,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "bd5aJuyjo8Y",
+   "file": "ratner_joke.mp4",
+   "posted": "2026-11-03T07:19:07Z",
+   "title": "One joke wiped out \u00a3500 million | Money Stories #5 #Shorts",
+   "duration": "PT26S",
+   "views": 8,
    "likes": 0,
    "comments": 1
   }
