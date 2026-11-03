@@ -1,0 +1,47 @@
+{
+ "id": "news_20261103",
+ "title": "US stocks rise as tech shares gain (today's money news)",
+ "thumb": "*TODAY:* US stocks rise as tech shares gain",
+ "thumb_photo": "wall street new york",
+ "thumb_tag": "NEWS",
+ "caption": "Tech gains pushed US stock indexes higher ahead of midterm election results.\n\nRising stock markets often show growing confidence among investors.",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "US,  Reuters,  3 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. US stocks rise as tech shares gain.",
+   "chat": "US stocks rise as tech shares gain."
+  },
+  {
+   "say": "Tech gains pushed US stock indexes higher ahead of midterm election results.",
+   "photo": "wall street new york",
+   "clip": {
+    "kicker": "US",
+    "year": "3 Nov",
+    "text": "US stocks rise as tech shares gain"
+   }
+  },
+  {
+   "say": "Why it matters. Rising stock markets often show growing confidence among investors.",
+   "slide": [
+    "Rising stock markets often show growing confidence among investors."
+   ]
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}
