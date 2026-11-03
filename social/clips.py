@@ -574,16 +574,18 @@ def pick_moments(doc: dict, n: int, speaker: str, extra: str = "") -> list[dict]
     lines = "\n".join(f"[{s['s']:.1f}-{s['e']:.1f}] {s['text']}" for s in doc["segments"])[:60000]
     prompt = f"""You edit FinanceHubW, a money channel. Real footage only, the speaker's own words, neutral and factual.
 Source: {info.get('title')} ({info.get('date')}). Speaker: {speaker}. {extra}
-Pick the {n} best self-contained moments for a vertical Short: 18-45 seconds, starting exactly at a strong statement
-or the question being answered, ending right after the key line. Prefer surprising numbers, clear predictions or
-warnings about money, rates, prices, jobs or markets. Never cut mid-sentence. Use only the timestamps given.
+Pick the {n} best self-contained moments for a vertical Short: 15-45 seconds, starting exactly at a strong statement
+or where the speaker starts answering a question, ending right after the key line. In a press conference, prefer
+direct answers to reporters' questions over the prepared opening statement. Prefer news people care about:
+rate hikes or cuts, inflation, jobs, AI, markets, surprising numbers, clear warnings. Never cut mid-sentence.
+Use only the timestamps given.
 
 Return ONLY a JSON list, each item:
 {{"start": <a segment start>, "end": <a segment end>,
  "headline": "<= 75 chars, names the speaker, 1-3 key words wrapped in *asterisks*>",
  "quote": "<= 12 words copied exactly from the moment",
  "thumb": "<= 6 words, 1-2 key words in *asterisks*",
- "title": "<= 70 chars YouTube title: who + what, searchable, no hype words>",
+ "title": "<= 70 chars, sentence case, in the form 'Speaker: key claim or question' (e.g. 'Fed Chair Warsh: Why not raise interest rates today?'), no hype words>",
  "caption": "<2 short factual sentences of context>",
  "comment": "<one question for viewers>",
  "tags": ["#tag", "#tag", "#tag", "#tag", "#tag"]}}
