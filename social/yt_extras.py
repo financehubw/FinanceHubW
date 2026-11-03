@@ -96,6 +96,64 @@ def add_to_playlist(yt, video_id: str, item: dict) -> str | None:
             "status": {"privacyStatus": "public"}}).execute()["id"]
     known[name] = pid
     PLAYLISTS.write_text(json.dumps(known, indent=1), encoding="utf-8")
-    yt.playlistItems().insert(part="snippet", body={"snippet": {
-        "playlistId": pid, "resourceId": {"kind": "youtube#video", "videoId": video_id}}}).execute()
+    insert_item(yt, pid, video_id, tries=2)
     return name
+
+
+def insert_item(yt, pid: str, video_id: str, tries: int = 4) -> None:
+    """A just-uploaded video often can't join a playlist yet (YouTube answers 409 'operation aborted' while it is
+    still processing), so retry with growing pauses; sync_playlists() catches anything still missing later."""
+    import time
+    from googleapiclient.errors import HttpError
+    for k in range(tries):
+        try:
+            yt.playlistItems().insert(part="snippet", body={"snippet": {
+                "playlistId": pid, "resourceId": {"kind": "youtube#video", "videoId": video_id}}}).execute()
+            return
+        except HttpError as e:
+            if k == tries - 1 or e.resp.status not in (409, 500, 503):
+                raise
+            time.sleep(20 * (k + 1))
+
+
+def sync_playlists(yt, posted: list[dict], queue: dict[str, dict]) -> int:
+    """Puts every posted Short into its series playlist, oldest first. Returns how many were added."""
+    known = json.loads(PLAYLISTS.read_text()) if PLAYLISTS.exists() else {}
+    members: dict[str, set] = {}
+    added = 0
+    for p in sorted(posted, key=lambda x: x["date"]):
+        url = p.get("results", {}).get("YouTube", "")
+        if not url:
+            continue
+        vid = url.rstrip("/").rsplit("/", 1)[-1]
+        item = {**queue.get(p["file"], {}), **p}
+        s = series_of(item)
+        if not s:
+            continue
+        name = s[0]
+        pid = known.get(name)
+        if pid and pid not in members:
+            ids, tok = set(), None
+            while True:
+                r = yt.playlistItems().list(part="contentDetails", playlistId=pid, maxResults=50,
+                                            **({"pageToken": tok} if tok else {})).execute()
+                ids |= {i["contentDetails"]["videoId"] for i in r.get("items", [])}
+                tok = r.get("nextPageToken")
+                if not tok:
+                    break
+            members[pid] = ids
+        if pid and vid in members.get(pid, set()):
+            continue
+        try:
+            if pid:
+                insert_item(yt, pid, vid)
+            else:
+                add_to_playlist(yt, vid, item)
+                known = json.loads(PLAYLISTS.read_text())
+                pid = known.get(name)
+            members.setdefault(pid, set()).add(vid)
+            added += 1
+            print(f"  playlist {name}: + {p['title'][:60]}")
+        except Exception as e:  # noqa: BLE001
+            print(f"  playlist {name}: could not add {vid} - {str(e)[:120]}")
+    return added

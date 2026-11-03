@@ -79,14 +79,14 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           PYTHONUNBUFFERED: "1"
         run: |
-          mkdir -p docs
-          python social/clips.py ${{ inputs.mode || 'auto' }} ${{ inputs.args }} 2>&1 | tee docs/clips.log
+          mkdir -p logs
+          python social/clips.py ${{ inputs.mode || 'auto' }} ${{ inputs.args }} 2>&1 | tee logs/clips.log
       - name: Save
         if: always()
         run: |
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          for p in docs/clips.log social/queue.json social/clip_sources.json social/clip_sources social/clip_specs social/clips_done.json site/media/shorts; do
+          for p in logs/clips.log social/queue.json social/clip_sources.json social/clip_sources social/clip_specs social/clips_done.json site/media/shorts; do
             [ -e "$p" ] && git add "$p"     # one missing path must not stop the others from being saved
           done
           if git diff --cached --quiet; then exit 0; fi

@@ -40,8 +40,8 @@ jobs:
       - run: pip install requests numpy scipy pillow google-api-python-client google-auth
       - name: Post editions that are ready
         run: |
-          mkdir -p docs; set -o pipefail
-          python social/publish_magazine.py 2>&1 | tee docs/magazine.log
+          mkdir -p logs; set -o pipefail
+          python social/publish_magazine.py 2>&1 | tee logs/magazine.log
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -55,7 +55,7 @@ jobs:
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
           python social/site_index.py || true
-          for p in social/magazine_posted.json site/archive.json site/library.json docs/magazine.log; do [ -e "$p" ] && git add "$p"; done; true
+          for p in social/magazine_posted.json site/archive.json site/library.json logs/magazine.log; do [ -e "$p" ] && git add "$p"; done; true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Record posted magazine edition"
           for i in 1 2 3; do

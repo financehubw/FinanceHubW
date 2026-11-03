@@ -1,4 +1,4 @@
-"""Deletes a Short's video from the repo once it is safely posted everywhere.
+"""Deletes a Short's video from the repo once it is posted everywhere and kept in the `shorts` release.
 
 Instagram, Facebook and YouTube keep their own copies; the site only shows the thumbnail. Keeping
 every 10 MB video in the repo made it grow ~200 MB a week. A video is removed when it was posted
@@ -16,6 +16,10 @@ SHORTS = ROOT / "site" / "media" / "shorts"
 
 def main() -> None:
     posted = json.loads((ROOT / "social" / "posted.json").read_text())["posted"]
+    try:   # only videos already kept in the `shorts` release (social/archive_shorts.py) may leave the repo
+        archived = set(json.loads((ROOT / "social" / "shorts_archive.json").read_text()))
+    except (FileNotFoundError, json.JSONDecodeError):
+        archived = set()
     queue = json.loads((ROOT / "social" / "queue.json").read_text())["items"]
     done = {p["file"] for p in posted}
     waiting = {i["file"] for i in queue if i["file"] not in done}
@@ -23,7 +27,7 @@ def main() -> None:
     freed = 0
     for p in posted:
         f = SHORTS / p["file"]
-        if not f.exists() or p["file"] in waiting:
+        if not f.exists() or p["file"] in waiting or p["file"] not in archived:
             continue
         age = (now - dt.datetime.strptime(p["date"], "%Y-%m-%dT%H:%M:%SZ")).days
         if (age >= 9 and not p.get("failed")) or age >= 12:   # kept a week+ for the weekly long video

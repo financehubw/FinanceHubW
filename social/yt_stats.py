@@ -1,4 +1,4 @@
-"""Per-Short YouTube numbers -> docs/yt_stats.json.
+"""Per-Short YouTube numbers -> social/yt_stats.json.
 
 Public stats (views, likes, comments) plus YouTube Analytics (how much of each Short people watch,
 and how many subscribers each one brought in). Those two decide which formats grow the channel.
@@ -23,7 +23,7 @@ for i in range(0, len(keys), 50):                     # the API takes at most 50
     try:
         r = yt.videos().list(part="statistics,contentDetails,snippet", id=",".join(keys[i:i + 50])).execute()
     except Exception as e:  # noqa: BLE001
-        (ROOT / "docs/yt_stats.json").write_text(json.dumps({"error": str(e)[:400]}))
+        (ROOT / "social/yt_stats.json").write_text(json.dumps({"error": str(e)[:400]}))
         raise SystemExit(0)
     for v in r.get("items", []):
         s = v["statistics"]
@@ -57,7 +57,7 @@ try:
     ch = yt.channels().list(part="statistics", mine=True).execute()["items"][0]["statistics"]
 except Exception as e:  # noqa: BLE001
     ch = {"error": str(e)[:150]}
-(ROOT / "docs/yt_stats.json").write_text(json.dumps(
+(ROOT / "social/yt_stats.json").write_text(json.dumps(
     {"channel": ch, "analytics": analytics_note, "traffic_sources": traffic,
      "videos": sorted(out.values(), key=lambda x: x["posted"])}, indent=1))
 print(json.dumps({"channel": ch, "analytics": analytics_note, "traffic": traffic}, indent=1))
@@ -100,3 +100,13 @@ try:
     print("format weights:", w)
 except Exception as e:  # noqa: BLE001
     print("format weights skipped:", e)
+
+# ---- every posted Short in its series playlist (a fresh upload sometimes can't be added straight away)
+try:
+    import sys as _sys2
+    _sys2.path.insert(0, str(ROOT / "social"))
+    import yt_extras
+    _queue = {i["file"]: i for i in json.loads((ROOT / "social/queue.json").read_text())["items"]}
+    print("playlists: added", yt_extras.sync_playlists(yt, log, _queue))
+except Exception as e:  # noqa: BLE001
+    print("playlist sync skipped:", e)

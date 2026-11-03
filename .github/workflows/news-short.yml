@@ -31,14 +31,14 @@ jobs:
           ELEVEN_VOICE_ID: ${{ vars.ELEVEN_VOICE_ID }}
           PYTHONUNBUFFERED: "1"
         run: |
-          mkdir -p docs
-          python social/news_short.py 2>&1 | tee docs/news_short.log
+          mkdir -p logs
+          python social/news_short.py 2>&1 | tee logs/news_short.log
       - name: Save
         if: always()
         run: |
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          for p in docs/news_short.log social/queue.json social/shorts_scripts site/media/shorts; do [ -e "$p" ] && git add "$p"; done; true
+          for p in logs/news_short.log social/queue.json social/shorts_scripts site/media/shorts; do [ -e "$p" ] && git add "$p"; done; true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Today's news Short"
           python3 social/git_save.py

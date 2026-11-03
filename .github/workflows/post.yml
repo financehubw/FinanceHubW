@@ -76,8 +76,8 @@ jobs:
       - name: Keep the latest run log in the repo
         if: always()
         run: |
-          mkdir -p docs
-          { echo "=== run $(date -u +%FT%TZ)"; tail -n 150 bot_run.log 2>/dev/null; cat docs/last_run.log 2>/dev/null; } | head -n 1500 > docs/run.tmp && mv docs/run.tmp docs/last_run.log
+          mkdir -p logs
+          { echo "=== run $(date -u +%FT%TZ)"; tail -n 150 bot_run.log 2>/dev/null; cat logs/last_run.log 2>/dev/null; } | head -n 1500 > logs/run.tmp && mv logs/run.tmp logs/last_run.log
 
       - name: Draw Story cards for new X posts
         if: always()
@@ -120,7 +120,7 @@ jobs:
           python social/site_index.py || true
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          for f in xbot/state.json docs/corrections.json site/tweets.json docs/last_run.log site/media/stories site/media/newsposts site/media/digests social/stories_posted.json social/newsposts_posted.json social/digests_posted.json social/replied.json site/archive.json site/library.json; do if [ -e "$f" ]; then git add "$f"; fi; done
+          for f in xbot/state.json docs/corrections.json site/tweets.json logs/last_run.log site/media/stories site/media/newsposts site/media/digests social/stories_posted.json social/newsposts_posted.json social/digests_posted.json social/replied.json site/archive.json site/library.json; do if [ -e "$f" ]; then git add "$f"; fi; done
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Update posting history"
           for i in 1 2 3; do

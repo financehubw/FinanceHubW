@@ -40,14 +40,14 @@ jobs:
           ELEVEN_VOICE_ID: ${{ vars.ELEVEN_VOICE_ID }}
           PYTHONUNBUFFERED: "1"
         run: |
-          mkdir -p docs
-          python social/shorts_factory.py ${{ inputs.only }} 2>&1 | tee docs/make_shorts.log
+          mkdir -p logs
+          python social/shorts_factory.py ${{ inputs.only }} 2>&1 | tee logs/make_shorts.log
       - name: Save
         if: always()
         run: |
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          for p in docs/make_shorts.log social/queue.json social/shorts_scripts site/media/shorts; do [ -e "$p" ] && git add "$p"; done; true
+          for p in logs/make_shorts.log social/queue.json social/shorts_scripts site/media/shorts; do [ -e "$p" ] && git add "$p"; done; true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "New Shorts rendered"
           for i in 1 2 3; do

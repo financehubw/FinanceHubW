@@ -1,7 +1,8 @@
-name: Channel stats
+name: Channel stats and archive
 
-# Daily: YouTube views per Short -> docs/yt_stats.json, and posting weights per kind of Short
-# (social/format_weights.json) so the queue leans into what works. Free (YouTube Data API quota).
+# Daily: YouTube views, watch-through and subscribers per Short -> social/yt_stats.json; posting weights per kind
+# of Short (social/format_weights.json) so the queue leans into what works; every posted Short into its series
+# playlist; every posted video into the `shorts` release, and the SHORTS.md catalog. Free.
 on:
   schedule:
     - cron: "52 23 * * *"
@@ -17,25 +18,34 @@ concurrency:
 jobs:
   stats:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v5
         with:
+          fetch-depth: 0          # history, so videos already removed from the repo can be archived
+          filter: blob:none       # ...without downloading every old file
           sparse-checkout: |
             social
-            docs
+            site/media/shorts/thumbs
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - run: pip install -q google-api-python-client google-auth requests
-      - run: python social/yt_stats.py
+      - run: pip install -q google-api-python-client google-auth requests pillow
+      - name: YouTube stats, posting weights, playlists
+        run: python social/yt_stats.py
         env:
           YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
+      - name: Archive posted Shorts and update SHORTS.md
+        run: python social/archive_shorts.py
+        env:
+          GH_TOKEN: ${{ github.token }}
       - name: Save
         run: |
           git config user.name "FinanceHubW"
           git config user.email "bot@financehubw.invalid"
-          git add docs/yt_stats.json social/format_weights.json
+          for p in social/yt_stats.json social/format_weights.json social/yt_playlists.json social/shorts_archive.json SHORTS.md; do
+            [ -e "$p" ] && git add "$p"
+          done
           git diff --cached --quiet && exit 0
           git commit -m "Channel stats"
           for i in 1 2 3; do python3 social/git_save.py && exit 0; sleep 5; done
