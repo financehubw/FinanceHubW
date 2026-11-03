@@ -636,11 +636,11 @@ def main() -> None:
     for slot in ("big", "pol", "biz", "up", "r1", "r2", "r3"):
         tried = 0
         order = [plan[slot]] + backups
-        if slot == "biz":      # try the planned story first, then the stories richest in figures
+        if slot in ("biz", "pol"):   # both need a real figure: planned story first, then the richest in figures
             extra = sorted((i for i in by_id if i not in order), key=figures, reverse=True)[:6]
             order = [plan[slot]] + sorted(backups + extra, key=figures, reverse=True)
         for sid in order:
-            if tried >= (5 if slot == "biz" else 3):
+            if tried >= (5 if slot in ("biz", "pol") else 3):
                 break
             if sid in used:
                 continue
