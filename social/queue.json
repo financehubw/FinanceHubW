@@ -2338,6 +2338,131 @@
    "sources": [
     "Amazon price history, Yahoo Finance (split-adjusted), at render time"
    ]
+  },
+  {
+   "file": "loop_rule_of_72.mp4",
+   "title": "The Rule of 72 in 10 seconds",
+   "caption": "Divide 72 by your yearly return to see how many years your money takes to double.\nAt 8%: 72 ÷ 8 = 9 years.\nAt 12%: 6 years.",
+   "tags": [
+    "#ruleof72",
+    "#compoundinterest",
+    "#investing",
+    "#money",
+    "#personalfinance"
+   ],
+   "comment": "What return are you getting right now? 👇",
+   "thumb": "The *Rule of 72*",
+   "thumb_photo": "calculator",
+   "thumb_tag": "MONEY RULE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-03",
+   "sources": [
+    "Rule of 72: years to double ≈ 72 ÷ annual return (%). 1.08^9 = 1.999"
+   ],
+   "loop": true,
+   "format": "micro",
+   "ig_trial": true
+  },
+  {
+   "file": "loop_7_dollars_a_day.mp4",
+   "title": "$7 a day could become $661,889",
+   "caption": "$7 a day is $2,555 a year.\nInvested at 8% a year for 40 years, that grows to about $661,889.\nSmall daily habits, huge totals.",
+   "tags": [
+    "#compoundinterest",
+    "#investing",
+    "#money",
+    "#savingmoney",
+    "#personalfinance"
+   ],
+   "comment": "What do you spend $7 a day on? 👇",
+   "thumb": "$7 a day = *$661,889*",
+   "thumb_photo": "coffee cup",
+   "thumb_tag": "MONEY RULE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-03",
+   "sources": [
+    "Math: $2,555 a year (7 × 365) at 8% for 40 years, end-of-year deposits: 2,555 × ((1.08^40 − 1) / 0.08) = 661,889"
+   ],
+   "loop": true,
+   "format": "micro",
+   "ig_trial": true
+  },
+  {
+   "file": "loop_retire_25x.mp4",
+   "title": "How much do you need to retire? The 25x rule",
+   "caption": "The 25x rule comes from the 4% rule: if you can live on 4% of your savings a year, you need 25 times your yearly spending.\nSpend $40,000 a year? You need about $1,000,000.",
+   "tags": [
+    "#retirement",
+    "#fire",
+    "#financialindependence",
+    "#money",
+    "#personalfinance"
+   ],
+   "comment": "What's your number? 👇",
+   "thumb": "Your number: *spending × 25*",
+   "thumb_photo": "retirement",
+   "thumb_tag": "MONEY RULE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-03",
+   "sources": [
+    "The 4% rule (Trinity study, 1998): withdrawing 4% a year means savings of 1 ÷ 0.04 = 25x yearly spending"
+   ],
+   "loop": true,
+   "format": "micro",
+   "ig_trial": true
+  },
+  {
+   "file": "loop_50_30_20.mp4",
+   "title": "The 50/30/20 rule in 10 seconds",
+   "caption": "50% for needs, 30% for wants, 20% for savings and debt.\nEarn $4,000 a month? $2,000 / $1,200 / $800.",
+   "tags": [
+    "#budgeting",
+    "#503020",
+    "#money",
+    "#savingmoney",
+    "#personalfinance"
+   ],
+   "comment": "Which part is hardest for you? 👇",
+   "thumb": "Split every paycheck *50/30/20*",
+   "thumb_photo": "paycheck",
+   "thumb_tag": "MONEY RULE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-03",
+   "sources": [
+    "The 50/30/20 budget (Elizabeth Warren and Amelia Warren Tyagi, All Your Worth, 2005). Math: 4,000 × 0.5 / 0.3 / 0.2"
+   ],
+   "loop": true,
+   "format": "micro",
+   "ig_trial": true
+  },
+  {
+   "file": "loop_500_a_month.mp4",
+   "title": "$500 a month can make you a millionaire",
+   "caption": "$500 a month is $6,000 a year.\nInvested at 8% a year for 35 years, that grows to about $1,033,901.\nStart early and let it compound.",
+   "tags": [
+    "#millionaire",
+    "#compoundinterest",
+    "#investing",
+    "#money",
+    "#personalfinance"
+   ],
+   "comment": "How much could you invest each month? 👇",
+   "thumb": "$500 a month = *$1 million*",
+   "thumb_photo": "piggy bank",
+   "thumb_tag": "MONEY RULE",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-03",
+   "sources": [
+    "Math: $6,000 a year at 8% for 35 years, end-of-year deposits: 6,000 × ((1.08^35 − 1) / 0.08) = 1,033,901"
+   ],
+   "loop": true,
+   "format": "micro",
+   "ig_trial": true
   }
  ]
 }

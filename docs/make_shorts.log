@@ -1,156 +1,86 @@
-rendering monthly_tsla_2013
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  splits.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  splits.sort_index(inplace=True)
-  -> monthly_tsla_2013.mp4 | $100 a month into Tesla since 2013 is now worth this
-rendering top5_companies_2026_11
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-  -> top5_companies_2026_11.mp4 | The 5 most valuable companies in the world (November 2026)
-rendering whatif_aapl_2007
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  splits.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  splits.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:585: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:587: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  dividends.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  splits.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  splits.sort_index(inplace=True)
-  -> whatif_aapl_2007.mp4 | $1,000 in Apple in 2007 is now worth this
-rendering whatif_amzn_2008
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  splits.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  splits.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:604: Pandas4Warning: The inplace keyword in DataFrame.set_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  splits.set_index("date", inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:606: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  splits.sort_index(inplace=True)
-  -> whatif_amzn_2008.mp4 | $1,000 in Amazon in 2008 is now worth this
-[vost#0:0/rawvideo @ 0x558517eb9580] [vost#0:0/rawvideo @ 0x55b40fa09a80] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55b40f97aa40] Error muxing a packet
+rendering loop_rule_of_72
+  -> loop_rule_of_72.mp4 | The Rule of 72 in 10 seconds
+rendering loop_7_dollars_a_day
+  -> loop_7_dollars_a_day.mp4 | $7 a day could become $661,889
+rendering loop_retire_25x
+  -> loop_retire_25x.mp4 | How much do you need to retire? The 25x rule
+rendering loop_50_30_20
+  -> loop_50_30_20.mp4 | The 50/30/20 rule in 10 seconds
+rendering loop_500_a_month
+  -> loop_500_a_month.mp4 | $500 a month can make you a millionaire
+[vost#0:0/rawvideo @ 0x5633effa8800] [vost#0:0/rawvideo @ 0x55ec933c5ec0] Error submitting a packet to the muxer: Broken pipe
 Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x558517ddd640] Error muxing a packet
-[vost#0:0/rawvideo @ 0x556aa3042d00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x556aa2fee840] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55d4a38c8500] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55d4a38b0b40] Error muxing a packet
-[out#0/rawvideo @ 0x558517ddd640] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x558517ddd640] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x564cd6957500] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x564cd6903d00] Error muxing a packet
-[vost#0:0/rawvideo @ 0x56506f6adfc0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x56506f6149c0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x556c787ef000] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x556c7875f380] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55a76dd79600] [out#0/rawvideo @ 0x55b40f97aa40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55b40f97aa40] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x563a18eb15c0] [out#0/rawvideo @ 0x55d4a38b0b40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55d4a38b0b40] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x55c77894c080] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55a76dd22940] Error muxing a packet
-Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55c7788cefc0] Error muxing a packet
-[out#0/rawvideo @ 0x564cd6903d00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x564cd6903d00] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55a76dd22940] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55a76dd22940] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x556aa2fee840] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x556aa2fee840] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x556c7875f380] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x556c7875f380] Error closing file: Broken pipe
-Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x563a18eb24c0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x5562cbed1780] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5562cbe4a100] Error muxing a packet
-[vost#0:0/rawvideo @ 0x561d199c99c0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x561d199ca040] Error muxing a packet
-[out#0/rawvideo @ 0x563a18eb24c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x563a18eb24c0] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x55a80c81a6c0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55a80c6cc880] Error muxing a packet
-[out#0/rawvideo @ 0x561d199ca040] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x561d199ca040] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55c7788cefc0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55c7788cefc0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x56506f6149c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x56506f6149c0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x5562cbe4a100] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5562cbe4a100] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55a80c6cc880] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55a80c6cc880] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55ec9333b680] [out#0/rawvideo @ 0x5633eff2a940] Error muxing a packet
+Error muxing a packet
+[vost#0:0/rawvideo @ 0x5575c2340380] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5575c2270fc0] Error muxing a packet
+[vost#0:0/rawvideo @ 0x55f01fb5d500] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55f01fb5cb00] Error muxing a packet
+[vost#0:0/rawvideo @ 0x5606701d8480] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x560670192480] Error muxing a packet
+[vost#0:0/rawvideo @ 0x563dbcea3500] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x563dbce11800] Error muxing a packet
+[out#0/rawvideo @ 0x5633eff2a940] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5633eff2a940] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5575c2270fc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5575c2270fc0] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x55f80ccb2ac0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55f80cc48080] Error muxing a packet
+[vost#0:0/rawvideo @ 0x55fa1cdece00] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55fa1cd10540] Error muxing a packet
+[vost#0:0/rawvideo @ 0x56145e776d40] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x56145e6d5d40] Error muxing a packet
+[out#0/rawvideo @ 0x55fa1cd10540] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55fa1cd10540] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x563dbce11800] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x563dbce11800] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x5576b29906c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5576b293ce80] Error muxing a packet
+[vost#0:0/rawvideo @ 0x559011920540] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x559011921780] Error muxing a packet
+[vost#0:0/rawvideo @ 0x55f4b1521b00] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55f4b144df40] Error muxing a packet
+[vost#0:0/rawvideo @ 0x55b3982806c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55b39810b940] Error muxing a packet
+[vost#0:0/rawvideo @ 0x55ae6dec06c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55ae6dd4b940] Error muxing a packet
+[vost#0:0/rawvideo @ 0x560548352ac0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x56054834ef00] Error muxing a packet
+[vost#0:0/rawvideo @ 0x561f1a726400] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x561f1a69b540] Error muxing a packet
+[out#0/rawvideo @ 0x56054834ef00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x56054834ef00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x561f1a69b540] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x561f1a69b540] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x555a6a83b380] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x555a6a7527c0] Error muxing a packet
+[out#0/rawvideo @ 0x55f01fb5cb00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55f01fb5cb00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x56145e6d5d40] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x56145e6d5d40] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x555a6a7527c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x555a6a7527c0] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x5602bc467780] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5602bc3c5180] Error muxing a packet
+[vost#0:0/rawvideo @ 0x5581f2790f00] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5581f26af200] Error muxing a packet
+[out#0/rawvideo @ 0x560670192480] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x560670192480] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55f80cc48080] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55f80cc48080] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5602bc3c5180] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5602bc3c5180] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55b39810b940] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55b39810b940] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55ec9333b680] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55ec9333b680] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x559011921780] [out#0/rawvideo @ 0x5576b293ce80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5576b293ce80] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55f4b144df40] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55f4b144df40] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55ae6dd4b940] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55ae6dd4b940] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5581f26af200] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5581f26af200] Error closing file: Broken pipe
+Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x559011921780] Error closing file: Broken pipe
