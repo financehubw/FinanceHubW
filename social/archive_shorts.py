@@ -142,7 +142,7 @@ Every Short FinanceHubW has published, newest first: {len(posted)} so far, {tota
 Views and watch-through (the average share of the Short that people watch) come from the YouTube Data and Analytics
 APIs and refresh daily. Each video file is kept in the [`shorts` release](../../releases/tag/{TAG}).
 
-_Updated {dt.datetime.utcnow():%d %b %Y, %H:%M} UTC by [`social/archive_shorts.py`](social/archive_shorts.py)._
+_Updated {dt.datetime.now(dt.timezone.utc):%d %b %Y, %H:%M} UTC by [`social/archive_shorts.py`](social/archive_shorts.py)._
 
 | Cover | Short | Posted | Views | Watched | Links |
 |---|---|---|--:|--:|---|
