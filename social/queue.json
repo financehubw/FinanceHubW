@@ -2365,6 +2365,31 @@
    "ig_trial": true
   },
   {
+   "file": "clip_fomc_20261028_1.mp4",
+   "title": "Fed Chair Warsh: Why not raise interest rates today?",
+   "caption": "October 28, 2026: a reporter asks why the Fed held rates steady when many officials seem to favor a hike in December. Chair Kevin Warsh answers.\n\nFootage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm",
+   "tags": [
+    "#federalreserve",
+    "#interestrates",
+    "#inflation",
+    "#fed",
+    "#economy"
+   ],
+   "comment": "Should the Fed raise rates in December? 👇",
+   "thumb": "Why no *rate hike* yet?",
+   "thumb_photo": "",
+   "thumb_tag": "FED WATCH",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm"
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
    "file": "clip_reagan82_rates.mp4",
    "title": "When US interest rates hit 21.5% (Reagan, 1982)",
    "caption": "October 1982: President Reagan says inflation was 12.4% in 1980 and interest rates had climbed as high as 21.5%. Mortgage rates topped 18% in 1981.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm",
@@ -2412,6 +2437,31 @@
    ],
    "format": "clip",
    "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_fomc_20261028_2.mp4",
+   "title": "Fed Chair Warsh: \"We own\" the 2% inflation target",
+   "caption": "October 28, 2026 press conference: Chair Kevin Warsh says the Fed won't settle for inflation \"somewhere in the twos\".\n\nFootage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm",
+   "tags": [
+    "#federalreserve",
+    "#interestrates",
+    "#inflation",
+    "#fed",
+    "#economy"
+   ],
+   "comment": "Will the Fed get inflation back to 2%? 👇",
+   "thumb": "\"We *own* it\"",
+   "thumb_photo": "",
+   "thumb_tag": "FED WATCH",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm"
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
    "ig_trial": true
   },
   {
@@ -2837,56 +2887,6 @@
    ],
    "loop": true,
    "format": "micro",
-   "ig_trial": true
-  },
-  {
-   "file": "clip_fomc_20261028_1.mp4",
-   "title": "Fed Chair Warsh: Why not raise interest rates today?",
-   "caption": "October 28, 2026: a reporter asks why the Fed held rates steady when many officials seem to favor a hike in December. Chair Kevin Warsh answers.\n\nFootage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm",
-   "tags": [
-    "#federalreserve",
-    "#interestrates",
-    "#inflation",
-    "#fed",
-    "#economy"
-   ],
-   "comment": "Should the Fed raise rates in December? 👇",
-   "thumb": "Why no *rate hike* yet?",
-   "thumb_photo": "",
-   "thumb_tag": "FED WATCH",
-   "ai_voice": false,
-   "voice": "none",
-   "made": "2026-11-03",
-   "sources": [
-    "Footage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm"
-   ],
-   "format": "clip",
-   "series": "Fed Watch",
-   "ig_trial": true
-  },
-  {
-   "file": "clip_fomc_20261028_2.mp4",
-   "title": "Fed Chair Warsh: \"We own\" the 2% inflation target",
-   "caption": "October 28, 2026 press conference: Chair Kevin Warsh says the Fed won't settle for inflation \"somewhere in the twos\".\n\nFootage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm",
-   "tags": [
-    "#federalreserve",
-    "#interestrates",
-    "#inflation",
-    "#fed",
-    "#economy"
-   ],
-   "comment": "Will the Fed get inflation back to 2%? 👇",
-   "thumb": "\"We *own* it\"",
-   "thumb_photo": "",
-   "thumb_tag": "FED WATCH",
-   "ai_voice": false,
-   "voice": "none",
-   "made": "2026-11-03",
-   "sources": [
-    "Footage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm"
-   ],
-   "format": "clip",
-   "series": "Fed Watch",
    "ig_trial": true
   }
  ]
