@@ -88,8 +88,10 @@ try:
         wm = statistics.median(watch[c]) if watch.get(c) else None
         table[c] = {"shorts": len(xs), "median_views": med, "mean_views": round(sum(xs) / len(xs), 1) if xs else None,
                     "median_watch_pct": wm}
-        if len(xs) < 4:          # not enough data yet: keep testing it
+        if len(xs) < 4:          # not enough data yet: keep testing it (an early runaway hit earns more slots now)
             w[c] = mix.DEFAULT.get(c, 1.0)
+            if med is not None and med >= 3 * max(1, base):
+                w[c] = round(min(2.5, max(w[c], med / max(1, base))), 2)
         else:                    # mostly the median; the mean counts a little, capped, so one viral hit can't take over
             score = (0.7 * med + 0.3 * min(sum(xs) / len(xs), 2 * med)) / max(1, base)
             if wm and wbase:     # Shorts people watch to the end get pushed further by YouTube

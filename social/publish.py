@@ -211,17 +211,43 @@ def page_token() -> str:
     return r["access_token"]
 
 
+def post_facebook_reel(page: str, tok: str, item: dict, url: str) -> str:
+    """Facebook Reels publishing API: Reels reach people beyond the Page's followers; plain Page videos don't."""
+    s = requests.post(f"{GRAPH}/{page}/video_reels", timeout=60,
+                      data={"upload_phase": "start", "access_token": tok}).json()
+    vid = s.get("video_id")
+    if not vid:
+        raise RuntimeError(f"start: {s.get('error', s)}")
+    u = requests.post(f"https://rupload.facebook.com/video-upload/v21.0/{vid}", timeout=300,
+                      headers={"Authorization": f"OAuth {tok}", "file_url": url}).json()
+    if not u.get("success"):
+        raise RuntimeError(f"upload: {u.get('error', u)}")
+    f = requests.post(f"{GRAPH}/{page}/video_reels", timeout=60, data={
+        "upload_phase": "finish", "video_id": vid, "video_state": "PUBLISHED",
+        "description": caption_for(item), "access_token": tok}).json()
+    if not f.get("success"):
+        raise RuntimeError(f"finish: {f.get('error', f)}")
+    return vid
+
+
 def post_facebook(item: dict, url: str) -> str:
     page, tok = os.environ["FB_PAGE_ID"], page_token()
-    try:   # never post the same video twice on the Page
-        vids = requests.get(f"{GRAPH}/{page}/videos", timeout=30, params={
-            "fields": "id,title", "limit": 25, "access_token": tok}).json().get("data", [])
-        dup = next((v for v in vids if (v.get("title") or "").strip() == item["title"].strip()), None)
-        if dup:
-            print("  Facebook: already posted, skipping")
-            return dup["id"]
+    try:   # never post the same video twice on the Page (as a Reel or as a video)
+        for edge, field in (("video_reels", "description"), ("videos", "title")):
+            vids = requests.get(f"{GRAPH}/{page}/{edge}", timeout=30, params={
+                "fields": f"id,{field}", "limit": 25, "access_token": tok}).json().get("data", [])
+            dup = next((v for v in vids if (v.get(field) or "").strip().startswith(item["title"].strip())), None)
+            if dup:
+                print("  Facebook: already posted, skipping")
+                return dup["id"]
     except requests.RequestException:
         pass
+    try:
+        rid = post_facebook_reel(page, tok, item, url)
+        print("  Facebook: posted as a Reel")
+        return rid
+    except Exception as e:  # noqa: BLE001
+        print(f"  Facebook Reel not accepted ({str(e)[:160]}); posting as a Page video", file=sys.stderr)
     t = thumb_for(item)
     files = {"thumb": (t.name, t.read_bytes(), "image/jpeg")} if t else None
     r = requests.post(f"{GRAPH}/{page}/videos", timeout=180, files=files, data={

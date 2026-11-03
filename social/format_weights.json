@@ -2,7 +2,7 @@
  "updated": "2026-11-03",
  "weights": {
   "data": 0.79,
-  "clip": 1.2,
+  "clip": 2.0,
   "news": 1.0,
   "micro": 1.2,
   "story": 1.0,

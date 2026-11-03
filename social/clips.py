@@ -9,6 +9,7 @@ YouTube itself is never downloaded from (it blocks cloud runners, and its terms 
 
   python social/clips.py scout KEY...   download + transcribe a source  -> social/clip_sources/KEY.json
   python social/clips.py make ID...     render social/clip_specs/ID.json -> site/media/shorts/ID.mp4 + queue
+  python social/clips.py mine KEY...    let Gemini pick the best moments of these sources, then render them
   python social/clips.py auto           new Fed press conference, or a fresh history source, mined by Gemini
 """
 from __future__ import annotations
@@ -720,5 +721,18 @@ if __name__ == "__main__":
             scout(k)
     elif cmd == "make":
         make(args)
+    elif cmd == "mine":   # let the AI pick the best moments from these sources, then render them
+        reg, done = load(REGISTRY, {}), load(DONE, {"sources": []})
+        for k in args:
+            info = reg[k]
+            doc = load(SRC_DIR / f"{k}.json", None) or scout(k)
+            doc["info"] = info
+            picks = pick_moments(doc, int(info.get("moments", 2)), info.get("speaker", "the speaker"),
+                                 info.get("pick_hint", ""))
+            ids = [spec_from_pick(k, info, p, n) for n, p in enumerate(picks, 1)]
+            make(ids)
+            if ids and k not in done["sources"]:
+                done["sources"].append(k)
+            save(DONE, done)
     else:
         auto()

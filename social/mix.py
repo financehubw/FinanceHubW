@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 WEIGHTS = ROOT / "social" / "format_weights.json"
-DEFAULT = {"clip": 1.2, "micro": 1.2, "story": 1.0, "lesson": 1.0, "data": 0.6}
+DEFAULT = {"clip": 2.0, "micro": 1.2, "story": 1.0, "lesson": 1.0, "data": 0.6}   # clip: first one hit ~30x the median
 
 
 def category(item: dict) -> str:

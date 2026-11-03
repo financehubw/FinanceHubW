@@ -151,20 +151,25 @@ def main():
     used = {f for e in log["posted"] for f in e["files"]}
     if a.files:
         files = [f if f.endswith(".mp4") else f + ".mp4" for f in a.files]
-    else:   # this week's posted Shorts, not news, not already in a long video
+    else:   # real-footage episode if there are enough new clips; otherwise this week's Shorts
+        clips = [p["file"] for p in posted if p["file"].startswith("clip_") and p["file"] not in used]
         since = (dt.datetime.utcnow() - dt.timedelta(days=8)).strftime("%Y-%m-%d")
-        files = [p["file"] for p in posted if p["date"] >= since and not p["file"].startswith("news_")
-                 and p["file"] not in used]
+        files = clips[:8] if len(clips) >= 5 else [
+            p["file"] for p in posted if p["date"] >= since and not p["file"].startswith(("news_", "loop_"))
+            and p["file"] not in used]
     files = [f for f in files if restore(SHORTS / f)]
     if len(files) < 4:
         print(f"long video: only {len(files)} Shorts available, need 4"); return
     items = [queue.get(f, {"file": f, "title": f[:-4].replace("_", " ")}) for f in files]
     titles = [clean_title(i.get("title", "")) for i in items]
-    title = a.title or f"{len(files)} Money Stories You Need to Hear"
+    real = all(f.startswith("clip_") for f in files)
+    title = a.title or (f"Money History in Real Footage: {len(files)} Moments That Shaped Your Money" if real
+                        else f"{len(files)} Money Stories You Need to Hear")
     tmp = Path(tempfile.mkdtemp())
     parts, chapters, t = [], [], 0.0
-    card(title, f"{len(files)} stories · real numbers · under {int(sum(dur(SHORTS / f) for f in files) // 60) + 2} minutes",
-         tmp / "intro.png")
+    mins = int(sum(dur(SHORTS / f) for f in files) // 60) + 2
+    card(title, (f"{len(files)} real moments · in their own words · under {mins} minutes" if real
+                 else f"{len(files)} stories · real numbers · under {mins} minutes"), tmp / "intro.png")
     still(tmp / "intro.png", 4, tmp / "000.mp4"); parts.append(tmp / "000.mp4")
     chapters.append(f"0:00 Intro"); t += 4
     for n, (f, ti) in enumerate(zip(files, titles), 1):
@@ -182,10 +187,12 @@ def main():
     run("-f", "concat", "-safe", "0", "-i", str(tmp / "list.txt"), "-c", "copy", "-movflags", "+faststart", str(out))
     thumbnail(title, SHORTS / "thumbs" / files[0].replace(".mp4", ".jpg"), tmp / "thumb.jpg")
     sources = sorted({s for i in items for s in i.get("sources", [])})
-    desc = (f"{title}. {len(files)} true money stories and lessons, with real numbers.\n\n"
+    desc = (f"{title}. " + (f"{len(files)} moments from real footage, in the speakers' own words.\n\n" if real
+                             else f"{len(files)} true money stories and lessons, with real numbers.\n\n")
             + "\n".join(chapters) + "\n\nSubscribe for a new money story every day: @FinanceHubW\n"
-            "Educational content, not financial advice. Narration is AI-generated.\n\nSources:\n"
-            + "\n".join(f"- {s}" for s in sources[:15]) + "\n\n#money #finance #investing #personalfinance")
+            "Educational content, not financial advice." + ("" if real else " Narration is AI-generated.")
+            + "\n\nSources:\n" + "\n".join(f"- {s}" for s in sources[:15])
+            + "\n\n#money #finance #history #investing")
     print(title, f"{dur(out) / 60:.1f} min\n" + desc)
     if os.environ.get("DRY_RUN"):
         print("DRY_RUN: built", out); return
@@ -197,7 +204,7 @@ def main():
     r = yt.videos().insert(part="snippet,status", body={
         "snippet": {"title": title[:100], "description": desc, "categoryId": "27",
                     "tags": ["money", "finance", "investing", "personal finance", "money stories", "money mistakes"]},
-        "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True}},
+        "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": not real}},
         media_body=MediaFileUpload(str(out), resumable=True)).execute()
     vid = r["id"]
     try:
@@ -207,7 +214,8 @@ def main():
     try:
         sys.path.insert(0, str(ROOT / "social"))
         import yt_extras
-        yt_extras.add_to_playlist(yt, vid, {"file": "long_", "title": "Money Stories"})
+        yt_extras.add_to_playlist(yt, vid, {"file": "long_", "title": "Money Stories"} if not real else
+                                  {"file": "long_", "title": title, "series": "Money History, in Real Footage"})
     except Exception as e:  # noqa: BLE001
         print("playlist skipped:", e)
     print("long video:", f"https://youtu.be/{vid}")
