@@ -19,11 +19,11 @@
 </div>
 
 <p align="center">
-  <img src="site/media/shorts/thumbs/clip_reagan81_36cents.jpg" width="150" alt="Reagan's 36-cent dollar">
-  <img src="site/media/shorts/thumbs/clip_fomc_20261028_1.jpg" width="150" alt="Fed Watch: why not raise rates today?">
-  <img src="site/media/shorts/thumbs/clip_gold33.jpg" width="150" alt="Gold at $33 an ounce in 1933">
-  <img src="site/media/shorts/thumbs/loop_500_a_month.jpg" width="150" alt="$500 a month to $1 million">
-  <img src="site/media/shorts/thumbs/pepsi_harrier_jet.jpg" width="150" alt="The Pepsi Harrier jet">
+  <img src="site/media/shorts/thumbs/clip_reagan81_36cents.jpg" width="19%" alt="Reagan's 36-cent dollar">
+  <img src="site/media/shorts/thumbs/clip_fomc_20261028_1.jpg" width="19%" alt="Fed Watch: why not raise rates today?">
+  <img src="site/media/shorts/thumbs/clip_gold33.jpg" width="19%" alt="Gold at $33 an ounce in 1933">
+  <img src="site/media/shorts/thumbs/loop_500_a_month.jpg" width="19%" alt="$500 a month to $1 million">
+  <img src="site/media/shorts/thumbs/pepsi_harrier_jet.jpg" width="19%" alt="The Pepsi Harrier jet">
 </p>
 <p align="center"><sub>Recent covers. Every published Short, with views and a download link, is in <a href="SHORTS.md"><b>SHORTS.md</b></a>.</sub></p>
 
@@ -64,43 +64,41 @@ what it posts from its own analytics.
 ## How it works
 
 ```mermaid
-flowchart LR
-  subgraph IN[Inputs]
-    N[News feeds, central banks,<br/>regulators, exchanges]
-    F[Public-domain footage<br/>Internet Archive · Wikimedia · Federal Reserve]
-    D[Market data<br/>Yahoo Finance · FRED]
+flowchart TD
+  subgraph IN["Inputs"]
+    direction LR
+    N["News feeds, central banks,<br/>regulators, exchanges"]
+    F["Public-domain footage"]
+    D["Market data<br/>Yahoo Finance · FRED"]
   end
-  subgraph STUDIO[Studio on GitHub Actions]
-    V[Group, rank and fact-check<br/>free AI checkers]
-    R[Shorts renderer<br/>Pillow · ffmpeg · ElevenLabs]
-    C[Clip cutter<br/>Whisper captions · Gemini picks]
-    M[Slides: The Daily,<br/>briefings, carousels]
-    Q[Queue and posting order<br/>Clock · duplicate guards]
-    S[Stats<br/>YouTube Data + Analytics]
+  subgraph STUDIO["Studio on GitHub Actions"]
+    direction LR
+    V["Fact-check<br/>free AI checkers"]
+    R["Shorts renderer<br/>Pillow · ffmpeg · voice"]
+    C["Clip cutter<br/>Whisper · Gemini"]
+    M["Slides<br/>The Daily · carousels"]
   end
-  subgraph OUT[Channels]
-    YT[YouTube]
-    IG[Instagram]
-    FB[Facebook]
-    X[X]
-    WEB[Website]
+  Q["Queue · Clock · duplicate guards"]
+  subgraph OUT["Channels"]
+    direction LR
+    YT["YouTube"]
+    IG["Instagram"]
+    FB["Facebook"]
+    X["X"]
+    WEB["Website"]
   end
+  S["Nightly stats<br/>YouTube Data + Analytics"]
   N --> V
-  V --> M
-  V --> R
-  V --> X
   D --> R
   F --> C
+  V --> R
+  V --> M
   R --> Q
   C --> Q
-  Q --> YT
-  Q --> IG
-  Q --> FB
-  M --> IG
-  M --> FB
-  M --> WEB
-  YT -.-> S
-  S -. weights .-> Q
+  Q --> OUT
+  M --> OUT
+  OUT -.-> S
+  S -. "posting weights" .-> Q
 ```
 
 1. **Find and verify.** [`xbot/sources.py`](xbot/sources.py) reads newsrooms, exchanges, central banks and regulators
