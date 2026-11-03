@@ -50,7 +50,8 @@ try:   # needs the yt-analytics.readonly permission granted when the YouTube tok
                              metrics="views", dimensions="insightTrafficSourceType", sort="-views").execute()
     traffic = {r[0]: r[1] for r in src.get("rows", [])}
 except Exception as e:  # noqa: BLE001
-    analytics_note, traffic = str(e)[:300], {}
+    detail = getattr(e, "content", b"")
+    analytics_note, traffic = (detail.decode("utf-8", "ignore") if isinstance(detail, bytes) else str(e))[:600], {}
 
 try:
     ch = yt.channels().list(part="statistics", mine=True).execute()["items"][0]["statistics"]
