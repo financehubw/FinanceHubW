@@ -3,7 +3,7 @@
   "viewCount": "3197",
   "subscriberCount": "5",
   "hiddenSubscriberCount": false,
-  "videoCount": "29"
+  "videoCount": "30"
  },
  "analytics": "{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"YouTube Analytics API has not been used in project 182213706415 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/youtubeanalytics.googleapis.com/overview?project=182213706415 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.\",\n    \"errors\": [\n      {\n        \"message\": \"YouTube Analytics API has not been used in project 182213706415 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/youtube",
  "traffic_sources": {},
@@ -294,7 +294,7 @@
    "posted": "2026-11-03T07:19:07Z",
    "title": "One joke wiped out \u00a3500 million | Money Stories #5 #Shorts",
    "duration": "PT26S",
-   "views": 9,
+   "views": 91,
    "likes": 0,
    "comments": 1
   }

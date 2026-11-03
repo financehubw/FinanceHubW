@@ -1,0 +1,43 @@
+{
+ "updated": "2026-11-03",
+ "weights": {
+  "news": 1.0,
+  "micro": 1.2,
+  "data": 1.25,
+  "clip": 1.2,
+  "lesson": 2.26,
+  "story": 1.0
+ },
+ "table": {
+  "news": {
+   "shorts": 1,
+   "median_views": 29,
+   "mean_views": 29.0
+  },
+  "micro": {
+   "shorts": 0,
+   "median_views": null,
+   "mean_views": null
+  },
+  "data": {
+   "shorts": 4,
+   "median_views": 22.0,
+   "mean_views": 73.0
+  },
+  "clip": {
+   "shorts": 0,
+   "median_views": null,
+   "mean_views": null
+  },
+  "lesson": {
+   "shorts": 18,
+   "median_views": 34.0,
+   "mean_views": 141.1
+  },
+  "story": {
+   "shorts": 3,
+   "median_views": 81,
+   "mean_views": 86.3
+  }
+ }
+}
