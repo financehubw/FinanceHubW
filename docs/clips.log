@@ -1,0 +1,39 @@
+clip: clip_bank47_loan
+  -> clip_bank47_loan.mp4 | What a $1,000 bank loan cost in 1947
+clip: clip_bonds41
+  -> clip_bonds41.mp4 | "The best investment in the world": 1941 US savings bonds
+clip: clip_fdr33_action
+  -> clip_fdr33_action.mp4 | FDR's first speech as president, during the 1933 bank panic
+clip: clip_gold33
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+  -> clip_gold33.mp4 | Gold was $33 an ounce in 1933 (real newsreel)
+clip: clip_jfk62_taxcut
+  -> clip_jfk62_taxcut.mp4 | JFK explains his tax cut plan (1962 footage)
+clip: clip_money47_gold
+  -> clip_money47_gold.mp4 | How a 1947 film explained money (and what changed in 1971)
+clip: clip_oil73
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+  -> clip_oil73.mp4 | When oil prices quadrupled in 1973 (real 1975 film)
+clip: clip_paint47
+  -> clip_paint47.mp4 | Prices in 1947: a gallon of paint cost $2.98
+clip: clip_reagan82_debt
+  -> clip_reagan82_debt.mp4 | Reagan warned about a $1 trillion US debt in 1982
+clip: clip_reagan82_depression
+  -> clip_reagan82_depression.mp4 | Reagan on the night his father lost his job (Great Depression)
+clip: clip_reagan82_markets
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  quotes.sort_index(inplace=True)
+  -> clip_reagan82_markets.mp4 | Reagan, 1982: "Markets will go up and they will come down"
+clip: clip_reagan82_rates
+  -> clip_reagan82_rates.mp4 | When US interest rates hit 21.5% (Reagan, 1982)

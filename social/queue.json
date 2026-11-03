@@ -2463,6 +2463,306 @@
    "loop": true,
    "format": "micro",
    "ig_trial": true
+  },
+  {
+   "file": "clip_bank47_loan.mp4",
+   "title": "What a $1,000 bank loan cost in 1947",
+   "caption": "From \"Using the Bank\" (1947): a shop owner borrows $1,000, repaid at $50 a month for 20 months.\n\nFootage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/Usingthe1947",
+   "tags": [
+    "#loans",
+    "#interestrates",
+    "#banking",
+    "#history",
+    "#money"
+   ],
+   "comment": "What rate is your loan at? 👇",
+   "thumb": "A *$1,000* loan in 1947",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/Usingthe1947"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_bonds41.mp4",
+   "title": "\"The best investment in the world\": 1941 US savings bonds",
+   "caption": "April 1941 newsreel, as the US prepared to launch Defense Savings Bonds.\n\nFootage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1941-04-17_Baby_Bonds_For_Defense",
+   "tags": [
+    "#bonds",
+    "#savings",
+    "#history",
+    "#investing",
+    "#money"
+   ],
+   "comment": "Do you own any bonds? 👇",
+   "thumb": "\"The best *investment* in the world\"",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1941-04-17_Baby_Bonds_For_Defense"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_fdr33_action.mp4",
+   "title": "FDR's first speech as president, during the 1933 bank panic",
+   "caption": "March 4, 1933: banks across America were failing as Franklin D. Roosevelt took office. Newsreel footage of his inaugural address.\n\nFootage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1933-03-05_Extra_Special_Roosevelt_Inaugurated",
+   "tags": [
+    "#history",
+    "#banking",
+    "#greatdepression",
+    "#fdr",
+    "#money"
+   ],
+   "comment": "Would you keep your savings in a bank in 1933? 👇",
+   "thumb": "\"*Action, and action now*\"",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1933-03-05_Extra_Special_Roosevelt_Inaugurated"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_gold33.mp4",
+   "title": "Gold was $33 an ounce in 1933 (real newsreel)",
+   "caption": "November 1933: the US government was raising the price it paid for gold, and amateur prospectors rushed to dig. In 1934 it fixed the price at $35.\n\nFootage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1933-11-06_City_Gold_Rush_Starts",
+   "tags": [
+    "#gold",
+    "#history",
+    "#investing",
+    "#money",
+    "#goldprice"
+   ],
+   "comment": "Would you rather own gold or stocks? 👇",
+   "thumb": "Gold: *$33* an ounce",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1933-11-06_City_Gold_Rush_Starts"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_jfk62_taxcut.mp4",
+   "title": "JFK explains his tax cut plan (1962 footage)",
+   "caption": "August 13, 1962: President Kennedy makes the case for cutting income taxes across the board.\n\nFootage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1962-08-13_Income_Tax_Cut",
+   "tags": [
+    "#taxes",
+    "#history",
+    "#jfk",
+    "#economy",
+    "#money"
+   ],
+   "comment": "Do tax cuts create jobs? 👇",
+   "thumb": "JFK's *tax cut* pitch",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1962-08-13_Income_Tax_Cut"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_money47_gold.mp4",
+   "title": "How a 1947 film explained money (and what changed in 1971)",
+   "caption": "From \"What Is Money?\" (1947), a classroom film. Back then, US paper money was linked to gold.\n\nFootage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/WhatIsMo1947",
+   "tags": [
+    "#money",
+    "#history",
+    "#gold",
+    "#dollar",
+    "#finance"
+   ],
+   "comment": "What do you think backs the dollar today? 👇",
+   "thumb": "Your dollar, backed by *gold*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/WhatIsMo1947"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_oil73.mp4",
+   "title": "When oil prices quadrupled in 1973 (real 1975 film)",
+   "caption": "From \"When the Circuit Breaks: America's Energy Crisis\" (1975). The 1973 oil embargo sent prices from $3 to $12 a barrel.\n\nFootage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/WhentheC1975",
+   "tags": [
+    "#oil",
+    "#history",
+    "#inflation",
+    "#energy",
+    "#money"
+   ],
+   "comment": "How much do you pay for gas right now? 👇",
+   "thumb": "Oil: *$3* to *$12*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/WhentheC1975"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_paint47.mp4",
+   "title": "Prices in 1947: a gallon of paint cost $2.98",
+   "caption": "From \"What Is Money?\" (1947): Tom gets a crisp new $5 bill to buy a $2.98 gallon of paint.\n\nFootage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/WhatIsMo1947",
+   "tags": [
+    "#inflation",
+    "#history",
+    "#prices",
+    "#money",
+    "#1940s"
+   ],
+   "comment": "What does a gallon of paint cost where you live? 👇",
+   "thumb": "Paint: *$2.98* a gallon",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/WhatIsMo1947"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_reagan82_debt.mp4",
+   "title": "Reagan warned about a $1 trillion US debt in 1982",
+   "caption": "October 1982: federal debt had just passed $1 trillion, and interest cost $110 billion a year. Today's figures are at the end (FRED data).\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm",
+   "tags": [
+    "#nationaldebt",
+    "#economy",
+    "#history",
+    "#money",
+    "#usdebt"
+   ],
+   "comment": "Should the US pay down its debt? 👇",
+   "thumb": "The *$1 trillion* debt",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_reagan82_depression.mp4",
+   "title": "Reagan on the night his father lost his job (Great Depression)",
+   "caption": "From an October 1982 address on the economy: Reagan was 21 and looking for work in 1932.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm",
+   "tags": [
+    "#greatdepression",
+    "#history",
+    "#jobs",
+    "#money",
+    "#economy"
+   ],
+   "comment": "Did your family live through a recession? 👇",
+   "thumb": "The night his father *lost his job*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_reagan82_markets.mp4",
+   "title": "Reagan, 1982: \"Markets will go up and they will come down\"",
+   "caption": "October 1982, two months into a new bull market. The S&P 500 closed at 137 that day.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm",
+   "tags": [
+    "#stockmarket",
+    "#investing",
+    "#sp500",
+    "#history",
+    "#money"
+   ],
+   "comment": "Would you have bought stocks in 1982? 👇",
+   "thumb": "\"The trend is *up*\"",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_reagan82_rates.mp4",
+   "title": "When US interest rates hit 21.5% (Reagan, 1982)",
+   "caption": "October 1982: President Reagan says inflation was 12.4% in 1980 and interest rates had climbed as high as 21.5%. Mortgage rates topped 18% in 1981.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm",
+   "tags": [
+    "#interestrates",
+    "#inflation",
+    "#history",
+    "#money",
+    "#economy"
+   ],
+   "comment": "Could you afford a mortgage at 18%? 👇",
+   "thumb": "Interest rates hit *21.5%*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
   }
  ]
 }
