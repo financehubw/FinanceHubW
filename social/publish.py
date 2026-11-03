@@ -118,9 +118,10 @@ def post_youtube(item: dict, path: Path) -> str:
                    "containsSyntheticMedia": bool(item.get("ai_voice", True))},
     }
     upload = path
-    try:   # Subscribe card on the last 2 seconds (YouTube copy only)
+    try:   # Subscribe card on the last 2 seconds (YouTube copy only); loops stay seamless, so they get none
         import yt_extras
-        upload = yt_extras.endcard(path, item)
+        if not item.get("loop"):
+            upload = yt_extras.endcard(path, item)
     except Exception as e:  # noqa: BLE001
         print(f"  end card skipped - {e}", file=sys.stderr)
     r = yt.videos().insert(part="snippet,status", body=body,
@@ -153,10 +154,19 @@ def post_instagram(item: dict, url: str) -> str:
             return dup["id"]
     except requests.RequestException:
         pass
-    c = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data={
-        "media_type": "REELS", "video_url": url, "caption": caption_for(item),
-        "share_to_feed": "true", "access_token": tok,   # in followers' Home feed and the grid (more reach)
-        **({"cover_url": f"{SITE_URL}/media/shorts/thumbs/{thumb_for(item).name}"} if thumb_for(item) else {})}).json()
+    data = {"media_type": "REELS", "video_url": url, "caption": caption_for(item),
+            "share_to_feed": "true", "access_token": tok,   # in followers' Home feed and the grid (more reach)
+            **({"cover_url": f"{SITE_URL}/media/shorts/thumbs/{thumb_for(item).name}"} if thumb_for(item) else {})}
+    if item.get("ig_trial") and not os.environ.get("IG_NO_TRIAL"):
+        # Trial Reel: shown to non-followers first; Instagram shares it to followers and the grid on its own
+        # if it performs well (new formats get tested on strangers without cluttering the grid).
+        data.pop("share_to_feed")
+        data["trial_params"] = json.dumps({"graduation_strategy": "SS_PERFORMANCE"})
+    c = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data=data).json()
+    if "id" not in c and "trial_params" in data:      # not available for this account: post a normal Reel
+        print(f"  Instagram trial Reel not accepted ({c.get('error', {}).get('message', c)}); posting a normal Reel")
+        data.pop("trial_params"); data["share_to_feed"] = "true"; item["ig_trial"] = False
+        c = requests.post(f"{GRAPH}/{ig}/media", timeout=60, data=data).json()
     if "id" not in c:
         raise RuntimeError(f"container not created: {c.get('error', c)}")
     cid = c["id"]
@@ -377,13 +387,15 @@ def main() -> None:
             print(f"  {name}: FAILED - {e}", file=sys.stderr)
 
     post_comments(item, results)
-    if "Instagram" in results:
+    if "Instagram" in results and not item.get("ig_trial"):   # a trial Reel isn't on the profile: no Story for it
         story_teaser(item)
     if results:   # mark as done only if at least one platform got it, so a total failure retries
         log = load(POSTED, {"posted": []})
         log["posted"].append({"file": item["file"], "title": item["title"],
                               "date": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-                              "results": results, "failed": failed, "errors": errors})
+                              "results": results, "failed": failed, "errors": errors,
+                              **({"format": item["format"]} if item.get("format") else {}),
+                              **({"ig_trial": True} if item.get("ig_trial") and "Instagram" in results else {})})
         POSTED.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
     if failed and not results:
         sys.exit("every platform failed")

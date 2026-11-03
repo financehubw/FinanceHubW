@@ -27,6 +27,10 @@ def _font(name: str, size: int):
 def series_of(item: dict) -> tuple[str, str] | None:
     """(playlist name, short description) for the Short, or None."""
     f, t = item["file"], item.get("title", "")
+    if item.get("series") == "Fed Watch":
+        return "Fed Watch", "The Federal Reserve in its own words: rates, inflation and jobs, clipped from the source."
+    if item.get("series"):
+        return item["series"], "Real footage, the speaker's own words: the moments that shaped money."
     if "Money Stories" in t:
         return "Money Stories", "True money stories: the deals, mistakes and fortunes behind them."
     if "Compound Interest" in t or f.startswith("compound_"):

@@ -1,0 +1,93 @@
+name: Real-footage clips
+
+# Money moments in the speaker's own words, from public-domain footage (Internet Archive newsreels, presidential
+# speeches on Wikimedia Commons, the Federal Reserve Board's own videos). Daily: a new Fed press conference is
+# clipped within hours; otherwise a stock of history clips is kept topped up. Free: Whisper on the runner + Gemini.
+on:
+  schedule:
+    - cron: "41 21 * * *"     # 3:11 AM IST, after US press conferences end
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "auto | scout | make"
+        default: "auto"
+      args:
+        description: "Source keys (scout) or clip ids (make), space separated"
+        default: ""
+      scout_matrix:
+        description: 'Scout many sources in parallel: JSON list, e.g. ["a","b"] (leave [] otherwise)'
+        default: "[]"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: clips-${{ inputs.scout_matrix != '[]' && inputs.scout_matrix != '' && 'scout' || 'main' }}
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    if: inputs.scout_matrix != '' && inputs.scout_matrix != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 12
+      matrix:
+        key: ${{ fromJSON(inputs.scout_matrix) }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          sparse-checkout: |
+            social
+            xbot
+            motion/fonts
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: pip install -q requests pillow numpy faster-whisper yt-dlp
+      - name: Transcribe ${{ matrix.key }}
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python social/clips.py scout ${{ matrix.key }}
+      - name: Save transcript
+        run: |
+          git config user.name "FinanceHubW"
+          git config user.email "bot@financehubw.invalid"
+          git add social/clip_sources/${{ matrix.key }}.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Clip source transcript: ${{ matrix.key }}"
+          for i in 1 2 3 4 5; do python3 social/git_save.py && exit 0; sleep $((RANDOM % 20 + 5)); done
+          exit 1
+
+  clips:
+    if: inputs.scout_matrix == '' || inputs.scout_matrix == '[]' || github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: pip install -q requests pillow numpy scipy faster-whisper yt-dlp
+      - name: Clips
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          mkdir -p docs
+          python social/clips.py ${{ inputs.mode || 'auto' }} ${{ inputs.args }} 2>&1 | tee docs/clips.log
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "FinanceHubW"
+          git config user.email "bot@financehubw.invalid"
+          git add docs/clips.log social/queue.json social/clip_sources.json social/clip_sources social/clip_specs social/clips_done.json site/media/shorts 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Real-footage clips"
+          for i in 1 2 3; do python3 social/git_save.py && exit 0; sleep 5; done
+          exit 1

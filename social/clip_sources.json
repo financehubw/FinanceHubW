@@ -1,0 +1,110 @@
+{
+ "reagan_1981_economy": {
+  "kind": "commons",
+  "title": "President Reagan's Address to the Nation on the Economy, February 5, 1981.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm",
+  "date": "Feb 5, 1981",
+  "credit": "Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons",
+  "speaker": "President Ronald Reagan",
+  "tag": "MONEY HISTORY"
+ },
+ "reagan_1982_economy": {
+  "kind": "commons",
+  "title": "President Reagan's Address to the Nation on the Economy, October 13, 1982.webm",
+  "page": "https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm",
+  "date": "Oct 13, 1982",
+  "credit": "Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons",
+  "speaker": "President Ronald Reagan",
+  "tag": "MONEY HISTORY"
+ },
+ "fdr_inaugural_1933": {
+  "kind": "archive",
+  "id": "1933-03-05_Extra_Special_Roosevelt_Inaugurated",
+  "date": "Mar 4, 1933",
+  "credit": "Universal Newsreel (public domain), National Archives via Internet Archive",
+  "speaker": "President Franklin D. Roosevelt",
+  "title": "Roosevelt Inaugurated (newsreel)",
+  "tag": "MONEY HISTORY"
+ },
+ "fdr_bank_bill_1933": {
+  "kind": "archive",
+  "id": "1933-03-09_President_Roosevelts_Emergency_Bank_Bill",
+  "date": "Mar 9, 1933",
+  "credit": "Universal Newsreel (public domain), National Archives via Internet Archive",
+  "speaker": "a 1933 newsreel narrator",
+  "title": "Emergency Bank Bill passed (newsreel)",
+  "tag": "MONEY HISTORY"
+ },
+ "money_flow_1933": {
+  "kind": "archive",
+  "id": "1933-03-20_Money_Stream_Flow_From_Treasury",
+  "date": "Mar 1933",
+  "credit": "Universal Newsreel (public domain), National Archives via Internet Archive",
+  "speaker": "a 1933 newsreel narrator",
+  "title": "Money stream flows from the Treasury (newsreel)",
+  "tag": "MONEY HISTORY"
+ },
+ "gold_rush_1933": {
+  "kind": "archive",
+  "id": "1933-11-06_City_Gold_Rush_Starts",
+  "date": "Nov 1933",
+  "credit": "Universal Newsreel (public domain), National Archives via Internet Archive",
+  "speaker": "a 1933 newsreel narrator",
+  "title": "City gold rush starts (newsreel)",
+  "tag": "MONEY HISTORY"
+ },
+ "baby_bonds_1941": {
+  "kind": "archive",
+  "id": "1941-04-17_Baby_Bonds_For_Defense",
+  "date": "Apr 1941",
+  "credit": "Universal Newsreel (public domain), National Archives via Internet Archive",
+  "speaker": "a 1941 newsreel narrator",
+  "title": "Baby bonds for defense (newsreel)",
+  "tag": "MONEY HISTORY"
+ },
+ "truman_meat_1946": {
+  "kind": "archive",
+  "id": "1946-10-14_Truman_Lifts_Meat_Price_Controls",
+  "date": "Oct 14, 1946",
+  "credit": "Universal Newsreel (public domain), National Archives via Internet Archive",
+  "speaker": "President Harry Truman",
+  "title": "Truman lifts meat price controls (newsreel)",
+  "tag": "MONEY HISTORY"
+ },
+ "jfk_tax_cut_1962": {
+  "kind": "archive",
+  "id": "1962-08-13_Income_Tax_Cut",
+  "date": "Aug 13, 1962",
+  "credit": "Universal Newsreel (public domain), National Archives via Internet Archive",
+  "speaker": "President John F. Kennedy",
+  "title": "Income tax cut: Kennedy hopes to spur economy (newsreel)",
+  "tag": "MONEY HISTORY"
+ },
+ "what_is_money_1947": {
+  "kind": "archive",
+  "id": "WhatIsMo1947",
+  "date": "1947",
+  "credit": "Prelinger Archives (public domain), via Internet Archive",
+  "speaker": "a 1947 educational film",
+  "title": "What Is Money? (1947 film)",
+  "tag": "MONEY HISTORY"
+ },
+ "using_bank_1947": {
+  "kind": "archive",
+  "id": "Usingthe1947",
+  "date": "1947",
+  "credit": "Prelinger Archives (public domain), via Internet Archive",
+  "speaker": "a 1947 educational film",
+  "title": "Using the Bank (1947 film)",
+  "tag": "MONEY HISTORY"
+ },
+ "energy_crisis_1975": {
+  "kind": "archive",
+  "id": "WhentheC1975",
+  "date": "1975",
+  "credit": "Prelinger Archives (public domain), via Internet Archive",
+  "speaker": "a 1975 documentary",
+  "title": "When the Circuit Breaks: America's Energy Crisis (1975)",
+  "tag": "MONEY HISTORY"
+ }
+}
