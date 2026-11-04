@@ -3,7 +3,7 @@
   "short": "14:00",
   "briefing_morning": "02:30",
   "briefing_evening": "13:00",
-  "short_midday": "06:30"
+  "short_midday": "11:30"
  },
  "notes": {
   "status": "ok",
@@ -11,7 +11,7 @@
   "briefing_morning": "11 posts over 3 hours",
   "briefing_evening": "testing 13:00 UTC this week (0 posts so far)",
   "media_seen": 47,
-  "short_midday": "13 posts over 3 hours"
+  "short_midday": "moved to US morning: 89% of views are from the US (YouTube Analytics, 4 Nov)"
  },
  "updated": "2026-11-01T06:54Z"
 }
