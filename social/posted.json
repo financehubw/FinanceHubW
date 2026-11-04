@@ -425,6 +425,19 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "loop_500_a_month.mp4",
+   "title": "$500 a month can make you a millionaire",
+   "date": "2026-11-04T06:32:24Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/QTETFzWwr1c",
+    "Instagram": "18125547433932578",
+    "Facebook": "3925884520884763"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "micro"
   }
  ]
 }
