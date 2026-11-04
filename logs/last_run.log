@@ -1,3 +1,76 @@
+=== run 2026-11-04T16:34:17Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+109/171 sources returned news, 1035 recent items
+282 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US STOCKS JUMP AFTER ELECTION RESULTS
+
+📌 US stocks jumped following the recent election results.
+💡 Higher stock prices can boost the value of retirement savings.
+#USStocks
+
+📍 US · 📰 Analytics Insight · ✅ 2 sources
+https://news.google.com/rss/articles/CBMitwFBVV95cUxNSHlodVhZWkJHMXR5R09zRzNicFh4aUQyRnpMa254ZTZ0cF81NGxnRjRyeDE4N2ttRTFUbi1JRm5lX09HbV9zZzFTWVNENncwN0IzN2ZMbXJiLXdMYmVxSzdabGd2Zm9xRmplRHk0OG5oY28zMzZhV2ljNkI3ak42UXFnWGVDMXpjQjR6Ulk0SWloU19VOU9hbkFlZm1ERUxYZ3M5UEVMVHc0UkdEY25uVmxWR3QySEHSAcQBQVVfeXFMUGRiUk1wNlZUbkZvNDhHZzJTUmNKQzhEZ1dGajBDYmtxQ3NZSnhhSTdCZUxkanhyQV95RUtXbm1kRDg3Ui1qX0t5Qk1EVEhFcFBGbnBnN3VqR0g3QXMtZ0xoZnNUM0NycmlXalF0WHdtdFluSHVoZFVYTWtJd2tYdjZWWUxlUHZpcmQ3dG12T0Rwczloajd1UGtYajNaZHJQcFVJUzVwZ2FoZWxxTjVYeVFBaU85N0FFRXpxQW5vdWVZOU9LQg?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about US stocks jumping after the election are confirmed by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The post lists only Analytics Insight as the source, but two sources are cited.
+  -> blocked by fact-check
+---
+🇺🇸 US STOCKS RISE AFTER DEMOCRATS WIN CONGRESS
+
+📌 US stocks and clean energy shares rose after Democrats won the midterm elections.
+
+📍 US · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-dow-jones-soars-1000-points-at-open-as-democrats-win-congress-data-center-stocks-slide/articleshow/135542698.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about US stocks and clean energy rising after Democrats' win are directly supported by the Economic Times article
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the stock market rise, Democratic victory, and specific sector movements (clean energy up, data center/AI down) are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-22b8e70dfa09
+---
+🇺🇸 US STOCKS AND BITCOIN SURGE AFTER VOTE
+
+📌 The Dow jumped over 1,000 points and Bitcoin climbed toward $80,500 after election results.
+📊 Dow: +1,178 pts (+2.3%)
+
+📍 US · 📰 Mint · ✅ 11 sources
+https://www.livemint.com/market/stock-market-news/us-market-nasdaq-dow-ai-stocks-after-us-midterm-election-results-11793804138598.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and Bitcoin price are directly supported by the cited Mint and Cointelegraph sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Mint article and other sources.
+  Groq Qwen: PASS - All factual claims regarding the Dow's gain, Bitcoin's price, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d31c6bad234c
+---
+🇺🇸 US STOCKS RISE AND DOLLAR FALLS AFTER MIDTERM VOTE
+
+📌 US shares and bonds rose while the dollar fell. The Dow Jones index jumped 2%.
+📊 Dow Jones: +2%
+
+📍 US · 📰 The Guardian · ✅ 3 sources
+https://www.theguardian.com/business/2026/nov/04/us-dollar-slides-democrats-midterm-election-win-growth-fears
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (US stocks up, dollar down, Dow +2%) are directly supported by the Guardian article.
+  Groq GPT-OSS 20B: FAIL - The post incorrectly states that bonds rose, while the source reports bond yields fell.
+  -> blocked by fact-check
+---
+🇺🇸 US STOCKS RISE AFTER DEMOCRATS WIN MIDTERMS
+
+📌 US stock markets opened higher as Democrats won key midterm election seats.
+💡 Clear political results often lower uncertainty in financial markets.
+#USMarkets
+
+📍 US · 📰 Al Jazeera · ✅ 4 sources
+https://www.aljazeera.com/economy/2026/11/4/us-markets-rise-as-democrats-sweep-midterm-elections?traffic_source=rss
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly backed by the cited Al Jazeera and other sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Al Jazeera article.
+  Groq Qwen: PASS - All factual claims regarding the market rise, the Democratic victory in midterms, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-1e930f0ccbd9
+done: 3 post(s) this run
 === run 2026-11-04T07:04:36Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1425,76 +1498,3 @@ skip (off-topic or nothing new): How can US Fed FOMC meeting outcome impact Indi
 
 📍 Global · 📰 JournalArta · ✅ 6 sources
 https://news.google.com/rss/articles/CBMieEFVX3lxTE12MlVpR01lQUQ5M1ZKY29tMktyRWhfRmxGcUlRWTJlaDNlRmMxbUIxakxCS19MUlZBTE04ejF5bjFFUVUtS1RDTFpoX29VLVphOGRLN19jbmRaZWw3VENhUk9UcTZuUFVCOWVUc091aTZkSlVodDJvZA?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about global stocks holding gains and oil prices jumping after the Fed decision are directly supported by the cited source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
-  Groq Qwen: PASS - The factual claims regarding global stocks holding gains and oil prices jumping after the Fed decision are directly supported by multiple sources, and the location and source attribution match the pro
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-caebe537f3d2
----
-🇺🇸 FED HOLDS INTEREST RATES STEADY
-
-📌 US central bank keeps its key interest rate unchanged, while two officials wanted a hike.
-📊 $BTC: Steady
-💡 Keeping rates steady usually keeps borrowing costs from rising further.
-
-📍 US · 📰 Mint · ✅ 5 sources
-https://www.livemint.com/market/wall-street-mostly-rises-as-fed-holds-key-rate-steady-deferring-next-likely-hike-to-december-11793213973901.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the sources.
-  Groq Qwen: PASS - All factual claims regarding the Fed's decision, the 10-2 vote, the specific officials favoring a hike, and the steady Bitcoin price are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-14f676bb3217
----
-🇺🇸 FED HOLDS RATES AND PLANS FEWER MEETINGS
-
-📌 The US central bank kept interest rates steady and plans to reduce its policy meetings.
-💡 Interest rates affect the cost of borrowing money for homes and cars.
-#Fed
-
-📍 US · 📰 CNBC · ✅ 3 sources
-https://news.google.com/rss/articles/CBMinAFBVV95cUxPbEVyM1lDY2RtTmtlRktDOHBrVzR3bGtFajBVSWZLc0xnNUFrbGRwYjR2allBWllLQlZtWlZZeVB2RnlOTGFCX3dINGF4d3d4OVZEWVRYUG1DNXJ2bG5oZFpRS0ZlTm9WQ1kxX1Ribm5KOURXUURBS1JfTUFERVZrS2tsWWlkQmNQUUVWZXJFZ29VZV9nQzJ1dVN5TEXSAaIBQVVfeXFMUHk1Nl9IWTFPaWtFSmJIUXVLVFlFa0NGR3J3WmE3VHhfMVpTZW80MEhDaTQtRmVjRWFSZWFxM2ZXUjRBSWtRV0JSZkRTeDhpUkFFRnlWSk80T0N0UFMwMmVfeUszVjJrOUkxNGhRTDMwbHJXcDN5cG1LajcwNTlxemNubkRFZTk3Q1dmLVhVdE5aSHI2X1kzMUp0dW5qQjJPQnN3?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources
-  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
-  Groq Qwen: FAIL - The draft attributes the plan to reduce meetings to the central bank generally, while the source explicitly attributes this statement to Chairman Warsh, and the draft omits the specific context that t
-  -> blocked by fact-check
----
-🌐 GOLD HOVERS NEAR $4,000
-
-📌 Gold prices trade near $4,000 as oil stays above $100 and traders watch the US central bank.
-📊 Gold: $4,000
-💡 Higher oil prices often push up the general cost of living.
-#Gold
-
-📍 Global · 📰 Bloomberg.com · ✅ 2 sources
-https://news.google.com/rss/articles/CBMirwFBVV95cUxOWUt1anRfa2s0VVI2NXlTQlJWaE5weVJJNlhlRWxZMzA4LTVRelVZU3ZRRzBYMXgxdEI1UjVBRE9GbmJROXdIS08tbE9OQ24tVFhDZjRvTEFPLWRNUHV1RzdhWEVpSWhXbGp5UUw3SVhJTk9UYmNLS0lvSXdVbjBETjFCY2pycF9HaDlSY2I0b2FHdlVKc0RIcEpVUUw2ZlhEbExwa3FrY20tcDY5dlNF?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All price, oil, and Fed references are confirmed by the Bloomberg and FXStreet articles, and the general cost‑of‑living note is accurate.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources
-  Groq Qwen: FAIL - The post claims gold 'hovers' or 'trades near' $4,000, but the sources explicitly state gold 'slips toward' $4,000, indicating a downward movement rather than stability.
-  -> blocked by fact-check
----
-🇪🇺 EUROPEAN STOCKS HOLD STEADY
-
-📌 Europe's main stock index stayed flat due to company earnings and oil prices.
-📊 STOXX 600
-#Europe
-
-📍 Europe · 📰 Reuters · ✅ 5 sources
-https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcXE1bGx1U0l2OThtWFF4WlFvUVJVWkoydE5FWkpXeHRpVVkyRUJfNHBIbDdzQm9BLWV6UjhiX0NPNFkxSGpNMTNhcHprSWZPX1duOW44emJjVTVYMGNDMkE0dVJReHBieVZtenBSMjZISHFZb2hZMmt3ekJiMXlmTTV2cjVtbVpoZXhfVVVXeWpDcnVlUU95d21SYjNKSGE4eUZqZU03MUc3dEYyYXU3MEJwaGJZOTdR?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the STOXX 600 being flat/subdued due to earnings and oil prices are directly supported by the Reuters source.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: FAIL - The post claims the index 'stayed flat' and 'held steady,' which contradicts the source headline stating it was 'subdued' and weighed down by earnings and oil prices, implying a negative or weak perfo
-  -> blocked by fact-check
-skip (off-topic or nothing new): US Fed meeting outcome news: FOMC decides no rate hike - Details
----
-🇪🇺 EUROPE BANKS REPORT RECORD RETAIL FUNDING DROP
-
-📌 Euro-area banks report record deterioration in retail-funding access.
-💡 Harder funding usually makes loans costlier for everyday people.
-#Crypto
-
-📍 Europe · 📰 CryptoSlate · ✅ 2 sources
