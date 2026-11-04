@@ -1,3 +1,35 @@
+=== run 2026-11-04T22:10:31Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+89/171 sources returned news, 781 recent items
+186 new trusted stories, posting up to 1 this run
+---
+🇺🇸 US STOCKS SURGE AS DOW SOARS 1,500 POINTS
+
+📌 US stocks surged with the Dow jumping 1,500 points after elections, while oil fell.
+📊 Dow Jones: +1,500 points
+
+📍 US · 📰 The Washington Post · ✅ 11 sources
+https://news.google.com/rss/articles/CBMisgFBVV95cUxPUnRkLUd3SEJnVkQzeHdYM1E1VUVfcGhHblh1bVp1dTIyTEprN3FQMFZ2b0dFUkVGMzliWmMzUU1VZDVISlNIRG9CMmxuNG1xS2ZjdnF6V2FNcUc1V1B6SG1ZU1B5QUFBQThBY0tPbjBKXzRoSHhNX2hDOGJpQlJ4YjZXWW1FSkVYZUxpcm95aklvSFBiLWxYMk1xYW9vM2kybG5FbmFfVjBfNDdLYXF5NW5R?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - No source confirms the Dow jumped exactly 1,500 points; the claim is unsupported or exaggerated.
+  -> blocked by fact-check
+---
+🇺🇸 BITCOIN PASSES $80,000
+
+📌 Bitcoin rose over 5% to pass $80,000 for the first time since a major exchange hack.
+📊 $BTC: $80,000
+#Crypto
+
+📍 US · 📰 CryptoSlate · ✅ 2 sources
+https://cryptoslate.com/bitcoin-rockets-above-80000-for-first-time-since-binance-hack-despite-democrats-sweep-but-a-historical-crash-looms/
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about price, percentage rise, first time since Binance hack, and source details are directly supported by the CryptoSlate article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding the price rise, percentage increase, and context are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-e3738938c2b7
+done: 1 post(s) this run
 === run 2026-11-04T16:34:17Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1466,35 +1498,3 @@ https://news.google.com/rss/articles/CBMiqwFBVV95cUxNam11TnFyUXRjMFpjV1NiWVpRVDR
   Groq Qwen: PASS - The claim that the US Fed kept interest rates unchanged is directly supported by the source title 'Fed Leaves Rates Untouched', and the location and source attribution are correct.
 published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-ca784623ab30
-done: 1 post(s) this run
-=== run 2026-10-28T21:17:01Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-94/171 sources returned news, 867 recent items
-re-check of earlier post: 4 fail / 0 pass
-239 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-28T19:31:26Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-97/171 sources returned news, 1028 recent items
-re-check of earlier post: 5 fail / 0 pass
-264 new trusted stories, posting up to 3 this run
----
-🇺🇸 🔄 UPDATE: BREAKING: US FED HOLDS INTEREST RATES STEADY
-
-📌 The U.S. central bank kept interest rates unchanged due to high inflation.
-
-📍 US · 📰 Economic Times · ✅ 13 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/fed-rate-us-federal-reserve-holds-interest-rates-steady-as-stubborn-inflation-puts-future-rate-hikes-in-focus/articleshow/135275622.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "13 sources" but only six sources are listed, which is unsupported.
-  -> blocked by fact-check
-skip (off-topic or nothing new): How can US Fed FOMC meeting outcome impact Indian stock market? Sensex, Nifty to rise? Experts decode
----
-🌐 GLOBAL STOCKS HOLD GAINS AFTER FED DECISION
-
-📌 World stock markets kept their price gains and oil prices jumped after a U.S. central bank decision.
-
-📍 Global · 📰 JournalArta · ✅ 6 sources
-https://news.google.com/rss/articles/CBMieEFVX3lxTE12MlVpR01lQUQ5M1ZKY29tMktyRWhfRmxGcUlRWTJlaDNlRmMxbUIxakxCS19MUlZBTE04ejF5bjFFUVUtS1RDTFpoX29VLVphOGRLN19jbmRaZWw3VENhUk9UcTZuUFVCOWVUc091aTZkSlVodDJvZA?oc=5
