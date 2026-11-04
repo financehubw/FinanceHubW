@@ -1,3 +1,56 @@
+=== run 2026-11-04T07:04:36Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+102/171 sources returned news, 1017 recent items
+259 new trusted stories, posting up to 3 this run
+---
+🇮🇳 INDIAN RUPEE RISES 14 PAISE TO 94.61 AGAINST US DOLLAR
+
+📌 The Indian rupee rose 14 paise to 94.61 against the US dollar in early trade.
+📊 Sensex: +435.10 points
+
+📍 India · 📰 Economic Times · ✅ 7 sources
+https://economictimes.indiatimes.com/markets/forex/rupee-rises-14-paise-to-94-61-against-us-dollar-in-early-trade/articleshow/135524906.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, market moves, and source attribution are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the rupee's movement, the specific rate, the Sensex gain, the location, and the source attribution are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - (plain-text verdict)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-b23f4af42c63
+---
+🇮🇳 INDIA STOCKS FALL FROM DAY HIGH
+
+📌 Sensex drops over 500 points and Nifty falls below 23,800 after a four-day rise.
+📊 Sensex: -540 pts
+
+📍 India · 📰 Moneycontrol.com · ✅ 4 sources
+https://news.google.com/rss/articles/CBMijAJBVV95cUxNbFVTdkF3elYtMTNETkZEXzhVS2ZzMWl5VmFHVGRQUTFFd3JvYm82MVJqM0hYa1JMWTU2Rm40a2JlRFY2cU1TdGVCdWRtVEJPeUxaOGRucWlnY1p0YnlsT211Y09SamdLOEpQNzVYb1BxTjVwLVdXRHN1RjV4QURfV0ZsaXJwc3ctNHhQbzM0eXRMdTB0ZktzRHpSVUlnZjVCc1pSU0JuX0F3RmJXMWpxMFdwblhyNkdYRHhZYV9LRmlpSkpYOVNHMk1tOGM1THNZU29tcjE2S085ZC1QZkhPRUJ6TnVUZkMxU1JZdHNnRFladmw3YVB2RzJxME5Hdmt2ZmpPYThJRURDUnhJ0gGSAkFVX3lxTE5scUhpVWNxN2ZzNEZmMGRTSEEwbWxOYU5QaGRWcEM0QjBMQmN4dDIyWUlBVnZYaTZFT3dVRDI4YUhtWUdkeWxQZktzdjNiaXNlU0E5cExpUzR3QjU5UWJsbzlzU1JqY0JDc2Jaem83Z3ktUnZuTUNNUlcwbG53QjVHbGJaTWRXSWsxdVFkUTBPQXpyQVQ0MGlhSXJENlFMeEdMSW42Uy1yZUZRZXlrcWxlRVRIR3oydTdiMlRQeFF1TGRyMGZyVjZRR28yZHZGYVBnNjltWFdCalNLeWNiWXRXSkFRNVAzQi1aWTVrTjB1T2k5d2JVRW9MOWYxY3Q4b2JVQW0zR0hMNjFpckN1NDZCN0E?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, market directions, and context (500‑point drop, Nifty <23,800, four‑day rally) are confirmed by the Moneycontrol source
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: PASS - All factual claims regarding the Sensex drop (540 pts), Nifty level (<23,800), and the context (profit booking after a four-day rise) are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-super-vl:free returned an empty reply)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6f87b28da8fd
+---
+🇮🇳 GOLD AND SILVER PRICES DECLINE IN INDIA
+
+📌 Retail prices for gold and silver dropped across major Indian cities ahead of festivals.
+💡 Lower metal prices can reduce the cost of buying jewelry and coins.
+#Gold
+
+📍 India · 📰 Mint · ✅ 10 sources
+https://www.livemint.com/money/personal-finance/gold-silver-prices-today-4-nov-check-24k-22k-gold-999-silver-rates-in-delhi-mumbai-kolkata-ahead-of-dhanteras-11793762831871.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about price declines and retail drops across Indian cities ahead of festivals are directly supported by the Mint source.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - The post accurately reflects the source's report that gold and silver prices declined in India on November 4 ahead of Dhanteras, and the general explanation provided is factually correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-5edb4979bf5f
+done: 3 post(s) this run
 === run 2026-11-03T23:37:24Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1445,56 +1498,3 @@ skip (off-topic or nothing new): US Fed meeting outcome news: FOMC decides no ra
 #Crypto
 
 📍 Europe · 📰 CryptoSlate · ✅ 2 sources
-https://cryptoslate.com/euro-area-banks-report-record-deterioration-in-retail-funding-access/
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited CryptoSlate source.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited CryptoSlate article and the general explanation is accurate.
-  Groq Qwen: PASS - The factual claims regarding the record deterioration in retail funding access for Euro-area banks are directly supported by the provided sources, and the general explanation in the 💡 line is accurate
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-d58c289d1c91
-done: 3 post(s) this run
-=== run 2026-10-28T17:30:11Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-104/171 sources returned news, 1079 recent items
-252 new trusted stories, posting up to 3 this run
----
-🇬🇧 UK BUDGET TESTS BOND MARKETS
-
-📌 Markets tolerate the new UK budget while watching global central bank decisions.
-💡 Government budgets can affect public debt and national borrowing costs.
-#UKBudget
-
-📍 UK · 📰 Bloomberg.com · ✅ 2 sources
-https://news.google.com/rss/articles/CBMisgFBVV95cUxOckZXZGlIc2VLZlpqMDZWRUdyUFlmMUJRTlFHZDFHQXJxS0Rla1FOaTd1SlJFZ3IwQ2dfRWJadUhVb1I4Rlo3emlXV0Y5MUItbzFlUGNDS2xHd0RpWkI2MEtKdkFWb1lwdlVSLThpRkt0NjNrT2dYYmdZQ1l6a3J0S21jSnE2RjBueE00cjgyaTQtTjZEMDNjVUhqOVAwQzNGRlNLLU9LU0duVTdVSW5RR2Fn?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the Bloomberg and Marketscreener articles
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the UK budget, market tolerance, and global central bank focus, with correct location and source attribution.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-super-vl:free returned an empty reply)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-6fe26bf78617
----
-🇺🇸 US STOCKS WAIT FOR FED DECISION AND TECH EARNINGS
-
-📌 Investors wait for the US central bank rate decision and big tech earnings.
-💡 Central bank rate decisions can change borrowing costs for people and businesses.
-
-📍 US · 📰 Invezz · ✅ 3 sources
-https://news.google.com/rss/articles/CBMisgFBVV95cUxNRFhXZkhvUlFpY1BCdVRSZkNhakdOc3cxNEJGUW5YeExqRzFNZ2xMZlhfZWczZ0pfcVhKYjBJLVdiaXJQY2dSQnFQSnBLTWg3U1pRcGRfXzRGekJPWmJaaDVZMnk5ajN4QldfT2pYVFE0TnVEN3dubkc0WDNKX2kzdHQtTlo0d2U3dlh0VF9XNE5WVTBsM0U5aGx3ZnlGc1JnY3hPMkJUVE9GOGFmTm9JdzVB?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are supported by the cited sources and the general explanation is correct.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
-  Groq Qwen: PASS - The post accurately summarizes the sources' reports that US investors are waiting for the Fed decision and tech earnings, and the general explanation of rate impacts is correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-0be7d7faef74
-skip (off-topic or nothing new): SEBI signs MoU with BoE on cooperation and exchange of information related to SEBI-recognised Clearing Corporations
----
-🌐 DOLLAR AND STOCKS HOLD STEADY
-
-📌 Global markets stay calm as people wait for the U.S. central bank's rate decision.
-💡 Interest rate changes can shift borrowing costs worldwide.
-
-📍 Global · 📰 Euronext Markets: Real-time Stock Market · ✅ 4 sources
-https://news.google.com/rss/articles/CBMikAFBVV95cUxOYV9pbFdteGZ5NXJ3ZUNuTTNXNTN1eVVucDk1SmtCLTFxNE1qQUhRYVBfVWp3RzVRNFl0aGlfTVlWTmlFYTA2WDNOMDgwOWc2ZlhGaGkzMFVlZjFXVVdxbV8wR3Atc0V3UmU5aXVBUUVTYUtYNGpfRkRuNVYyM1RCWHU5TzVmMjZraHlRdk41SE4?oc=5
