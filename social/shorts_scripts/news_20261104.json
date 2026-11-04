@@ -1,0 +1,47 @@
+{
+ "id": "news_20261104",
+ "title": "US stocks and Bitcoin surge after vote (today's money news)",
+ "thumb": "*TODAY:* US stocks and Bitcoin surge after vote",
+ "thumb_photo": "bitcoin coin",
+ "thumb_tag": "NEWS",
+ "caption": "The Dow jumped over 1,000 points and Bitcoin climbed toward $80,500 after election results.\nDow: +1,178 pts (+2.3%)",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "US,  Mint,  11 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. US stocks and Bitcoin surge after vote.",
+   "chat": "US stocks and Bitcoin surge after vote."
+  },
+  {
+   "say": "The Dow jumped over 1,000 points and Bitcoin climbed toward $80,500 after election results.",
+   "photo": "bitcoin coin",
+   "clip": {
+    "kicker": "US",
+    "year": "4 Nov",
+    "text": "US stocks and Bitcoin surge after vote"
+   }
+  },
+  {
+   "say": "Dow: +1,178 pts (+2.3%).",
+   "photo": "bitcoin coin",
+   "big": "+1,178 pts (+2",
+   "sub": "Dow"
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}
