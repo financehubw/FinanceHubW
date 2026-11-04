@@ -1,0 +1,22 @@
+{
+ "id": "clip_fomc_20200315_1",
+ "source": "fomc_20200315",
+ "start": 1630.25,
+ "end": 1663.16,
+ "headline": "Powell: Economic outlook depends heavily on *virus spread*",
+ "quote": "the economic outlook is evolving on a daily basis",
+ "thumb": "*Virus spread* drives outlook",
+ "title": "Powell, Mar 2020: Economic outlook depends on virus spread",
+ "caption": "Fed Chair Jerome Powell explained why official economic projections were omitted during the emergency March 2020 press conference. He noted that the outlook changed daily depending on the virus's spread.",
+ "comment": "How well did the Fed handle economic uncertainty at the start of the pandemic?",
+ "tags": [
+  "#Powell",
+  "#Fed",
+  "#COVID19",
+  "#Economy",
+  "#Finance"
+ ],
+ "tag": "FED HISTORY",
+ "series": "Fed Watch",
+ "auto": true
+}

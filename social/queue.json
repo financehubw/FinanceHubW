@@ -2911,6 +2911,431 @@
    "loop": true,
    "format": "micro",
    "ig_trial": true
+  },
+  {
+   "file": "clip_fomc_20200315_1.mp4",
+   "title": "Powell, Mar 2020: Economic outlook depends on virus spread",
+   "caption": "Fed Chair Jerome Powell explained why official economic projections were omitted during the emergency March 2020 press conference. He noted that the outlook changed daily depending on the virus's spread.\n\nFootage: Federal Reserve Board (public domain).",
+   "tags": [
+    "#Powell",
+    "#Fed",
+    "#COVID19",
+    "#Economy",
+    "#Finance"
+   ],
+   "comment": "How well did the Fed handle economic uncertainty at the start of the pandemic?",
+   "thumb": "*Virus spread* drives outlook",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain)."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_fomc_20200315_2.mp4",
+   "title": "Powell, Mar 2020: Conduct monetary policy independently",
+   "caption": "Fed Chair Jerome Powell addressed policy coordination between the Federal Reserve and the White House as COVID-19 hit. He emphasized that the Fed maintains clear independence in executing monetary policy.\n\nFootage: Federal Reserve Board (public domain).",
+   "tags": [
+    "#Powell",
+    "#Fed",
+    "#MonetaryPolicy",
+    "#Economy",
+    "#Finance"
+   ],
+   "comment": "Should central banks coordinate more closely with fiscal authorities during a crisis?",
+   "thumb": "*Independent* monetary policy",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain)."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_fomc_20220615_1.mp4",
+   "title": "Powell, Jun 2022: We're not trying to induce a recession",
+   "caption": "In June 2022, the Federal Reserve raised interest rates by 75 basis points to fight high inflation. Fed Chair Jerome Powell emphasized that the Fed's goal was bringing down inflation while keeping the labor market strong.\n\nFootage: Federal Reserve Board (public domain).",
+   "tags": [
+    "#JeromePowell",
+    "#Fed",
+    "#Inflation",
+    "#Recession",
+    "#Economy"
+   ],
+   "comment": "Do you think the Fed can curb inflation without triggering a recession?",
+   "thumb": "Not inducing a *recession*",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain)."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_fomc_20220615_2.mp4",
+   "title": "Powell, Jun 2022: Failing to lower inflation is not an option",
+   "caption": "During the June 2022 FOMC press conference, Jerome Powell declared price stability to be the bedrock of the economy. He warned that failing to restore lower inflation would erode wages and hurt workers.\n\nFootage: Federal Reserve Board (public domain).",
+   "tags": [
+    "#Fed",
+    "#JeromePowell",
+    "#Inflation",
+    "#Economy",
+    "#InterestRates"
+   ],
+   "comment": "Is restoring price stability worth the risk of slowing economic growth?",
+   "thumb": "Restoring *price stability*",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain)."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_fomc_20230322_1.mp4",
+   "title": "Powell, Mar 2023: Is the banking system sound after recent stress?",
+   "caption": "Fed Chair Jerome Powell addresses concerns about banking sector stability following recent financial institution collapses.\n\nFootage: Federal Reserve Board (public domain).",
+   "tags": [
+    "#BankingCrisis",
+    "#JeromePowell",
+    "#FederalReserve",
+    "#FinanceNews",
+    "#Economy2023"
+   ],
+   "comment": "Do you feel confident in the current safety of your deposits?",
+   "thumb": "Banking *system* is *sound*",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain)."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_fomc_20230322_2.mp4",
+   "title": "Powell, Mar 2023: Have deposit flows stabilized across lenders?",
+   "caption": "Powell notes that deposit movements across the banking sector have leveled off over the preceding week.\n\nFootage: Federal Reserve Board (public domain).",
+   "tags": [
+    "#BankDeposits",
+    "#Powell",
+    "#BankingSector",
+    "#Economy",
+    "#FinanceHubW"
+   ],
+   "comment": "Have you moved any of your money in response to recent news?",
+   "thumb": "*Deposit* flows have *stabilized*",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain)."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_fomc_20240918_1.mp4",
+   "title": "Powell, Sep 2024: Why a half-point rate cut now?",
+   "caption": "The Fed slashed interest rates by a half point in September 2024. Chair Powell explained the decision followed cooling inflation and labor data.\n\nFootage: Federal Reserve Board (public domain).",
+   "tags": [
+    "#FederalReserve",
+    "#JeromePowell",
+    "#InterestRates",
+    "#Economy",
+    "#FinanceHubW"
+   ],
+   "comment": "Did the Fed wait too long to cut rates?",
+   "thumb": "Fed cuts rates *50 bps*",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain)."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_fomc_20240918_2.mp4",
+   "title": "Powell, Sep 2024: Is a half-point cut the new normal?",
+   "caption": "Following a large half-point rate cut, Chair Powell clarified future reductions aren't guaranteed to match that size.\n\nFootage: Federal Reserve Board (public domain).",
+   "tags": [
+    "#FederalReserve",
+    "#JeromePowell",
+    "#InterestRates",
+    "#MonetaryPolicy",
+    "#FinanceHubW"
+   ],
+   "comment": "How large will the next rate cut be?",
+   "thumb": "Not the *new pace*",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain)."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_reagan_1985_tax_1.mp4",
+   "title": "President Reagan, 1985: Did tax rate cuts trigger the economic expansion?",
+   "caption": "President Reagan defended past tax rate reductions in a national address. He claimed the cuts contributed to falling inflation and economic growth.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons.",
+   "tags": [
+    "#TaxReform",
+    "#EconomicHistory",
+    "#RonaldReagan",
+    "#Taxes",
+    "#FinanceHubW"
+   ],
+   "comment": "Do broad tax cuts consistently deliver long-term economic expansion?",
+   "thumb": "Reagan on *tax cuts*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_reagan_1985_tax_2.mp4",
+   "title": "President Reagan, 1985: Why are tax system free rides ending?",
+   "caption": "The 1985 tax reform proposal aimed to target corporate and individual loopholes. President Reagan stated that those avoiding taxes would now be required to pay.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons.",
+   "tags": [
+    "#TaxLoopholes",
+    "#TaxPolicy",
+    "#RonaldReagan",
+    "#BusinessTaxes",
+    "#FinanceHubW"
+   ],
+   "comment": "Should the tax code eliminate all special industry preferences?",
+   "thumb": "End of *tax loopholes*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_reagan_trade_1.mp4",
+   "title": "President Ronald Reagan: 1987 warning on tariffs and trade wars",
+   "caption": "President Ronald Reagan discussed the dangers of protectionism during a 1987 radio address. He argued that tariffs lead directly to retaliatory trade wars.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons.",
+   "tags": [
+    "#tariffs",
+    "#tradewar",
+    "#economy",
+    "#history",
+    "#reagan"
+   ],
+   "comment": "Do you think tariffs are ever an effective long-term economic strategy?",
+   "thumb": "Reagan on *trade wars*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_reagan_trade_2.mp4",
+   "title": "President Ronald Reagan: 1987 speech on how tariffs hurt markets",
+   "caption": "Drawing on the history of the Great Depression, Reagan warned that protectionist policies cause markets to collapse and destroy jobs.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons.",
+   "tags": [
+    "#jobs",
+    "#tariffs",
+    "#marketcrash",
+    "#finance",
+    "#economy"
+   ],
+   "comment": "How do modern tariffs compare to those of the 1930s?",
+   "thumb": "Tariffs destroy *jobs*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_obama_2009_joint_1.mp4",
+   "title": "Obama, 2009: Why must we restart lending during the crisis?",
+   "caption": "President Obama addressed a joint session of Congress on the financial crisis. He emphasized that the flow of credit is essential for economic recovery.\n\nFootage: The White House (public domain), via Wikimedia Commons.",
+   "tags": [
+    "#Obama",
+    "#Economy",
+    "#FinanceHubW",
+    "#Banking",
+    "#History"
+   ],
+   "comment": "Did government intervention help restart lending fast enough?",
+   "thumb": "Restarting *lending* saves *economy*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: The White House (public domain), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_obama_2009_joint_2.mp4",
+   "title": "Obama, 2009: What is the true cost of economic inaction?",
+   "caption": "During the 2009 financial crisis, Obama warned Congress against delaying bold measures. He argued that inaction would lead to a prolonged economic slump.\n\nFootage: The White House (public domain), via Wikimedia Commons.",
+   "tags": [
+    "#Obama",
+    "#Economy",
+    "#FinanceHubW",
+    "#Recession",
+    "#Policy"
+   ],
+   "comment": "Was the scale of the 2009 recovery plan sufficient?",
+   "thumb": "Cost of *inaction* is *greater*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: The White House (public domain), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_bernanke_lecture_1_1.mp4",
+   "title": "Chairman Bernanke: What is a central bank?",
+   "caption": "Federal Reserve Chair Ben Bernanke explains the basic definition and role of a central bank.\n\nFootage: Federal Reserve Board (public domain), via Wikimedia Commons.",
+   "tags": [
+    "#FederalReserve",
+    "#BenBernanke",
+    "#CentralBank",
+    "#Economy",
+    "#FinanceHubW"
+   ],
+   "comment": "Did you know the Fed is a government agency?",
+   "thumb": "What is a *central bank*?",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_bernanke_lecture_1_2.mp4",
+   "title": "Chairman Bernanke: Two broad missions of central banks",
+   "caption": "Bernanke outlines macroeconomic stability and financial stability as the two core pillars.\n\nFootage: Federal Reserve Board (public domain), via Wikimedia Commons.",
+   "tags": [
+    "#FederalReserve",
+    "#BenBernanke",
+    "#MonetaryPolicy",
+    "#Banking",
+    "#FinanceHubW"
+   ],
+   "comment": "Which mission is more important today?",
+   "thumb": "Two broad missions of *central banks*",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_bernanke_lecture_1_3.mp4",
+   "title": "Chairman Bernanke: How the lender of last resort works",
+   "caption": "Bernanke describes how central banks provide liquidity during a traditional bank run.\n\nFootage: Federal Reserve Board (public domain), via Wikimedia Commons.",
+   "tags": [
+    "#FederalReserve",
+    "#BenBernanke",
+    "#BankingCrisis",
+    "#Liquidity",
+    "#FinanceHubW"
+   ],
+   "comment": "Would this have saved banks in the 1930s?",
+   "thumb": "The *lender of last resort* tool",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-04",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
   }
  ]
 }

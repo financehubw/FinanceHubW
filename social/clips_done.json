@@ -1,6 +1,14 @@
 {
  "sources": [
-  "fomc_20261028"
+  "fomc_20261028",
+  "fomc_20200315",
+  "fomc_20220615",
+  "fomc_20230322",
+  "fomc_20240918",
+  "reagan_1985_tax",
+  "reagan_trade",
+  "obama_2009_joint",
+  "bernanke_lecture_1"
  ],
  "tries": {
   "fomc_20261028": 1
