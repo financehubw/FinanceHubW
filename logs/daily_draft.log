@@ -1,27 +1,56 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-100/171 sources returned news, 1217 recent items
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-  big #8 draft 1: Groq GPT-OSS: PASS - All claims about record $4.15 price, national high, drops nationwide and in Florida, and being the highest ever on a Congressional Election Day are supported by the listed sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the record high price of $4.15, the drop in national and Florida prices, and the context of a Congressional Election Day are supported by the provided sources.
-  big: story #8 ok in 56s
-  pol: rejected: pol_stat must be 1-7 characters (it is 8); pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: pol_stat must be 1-7 characters (it is 8); pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: these numbers are not in the source: .5
-  pol: story #4 failed in 69s
-  pol: rejected: pol_stat_l2 must be 1-30 characters (it is 31); pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: story #6 failed in 2s
+110/171 sources returned news, 1192 recent items
+  big #10 draft 1: Groq GPT-OSS: PASS - All factual claims about the Dow rising 1,500 points and Brent falling below $95 are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the stock surge, Dow points, and oil price drop are directly supported by the provided sources.
+  big: story #10 ok in 85s
   pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
   pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
   pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: story #14 failed in 2s
-no story passed the checks for the pol slide; nothing published
+  pol: story #28 failed in 11s
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: story #36 failed in 3s
+  pol: rejected: this repeats the big story (500, dow, jump, points); it must be a different story
+  pol: rejected: this repeats the big story (500, gains, market, oil); it must be a different story
+  pol: rejected: this repeats the big story (dow, gains, jump, market); it must be a different story
+  pol: story #1 failed in 3s
+  pol: rejected: pol_body must be 1-170 characters (it is 175); pol_stat_l1 must be 1-26 characters (it is 28)
+  pol #33 draft 2: Groq GPT-OSS: PASS - Both the competitive bid amount and the 5.8970% yield for 91‑day Treasury bills are directly shown in the RBI auction results. | Groq GPT-OSS 20B: PASS - All numerical and factual claims match the RBI source and the definition of yield to maturity is accurate. | Groq Qwen: PASS - The competitive bid amount of 20,465.330 crore rupees and the yield to maturity of 5.8970% for 91-day bills are accurately reported in the source.
+  pol: story #33 ok in 18s
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: story #36 failed in 3s
+  biz: rejected: this repeats the big story (500, dow, jump, points); it must be a different story; these numbers are not in the source: 2.0
+  biz: rejected: this repeats the big story (500, dow, points, stocks); it must be a different story
+  biz: rejected: this repeats the big story (500, dow, market, oil); it must be a different story
+  biz: story #1 failed in 3s
+  biz: rejected: biz_stats needs exactly two figures; this repeats the big story (below, dollars, drop, market); it must be a different story
+  biz: rejected: this repeats the big story (below, dollars, drop, market); it must be a different story; these numbers are not in the source: .0
+  biz: rejected: biz_stats needs exactly two figures; this repeats the big story (below, dollars, drop, market); it must be a different story
+  biz: story #22 failed in 3s
+  biz: rejected: this repeats the big story (below, oil, prices); it must be a different story
+  biz: rejected: biz_stats note must be 1-18 characters; this repeats the big story (below, drop, oil, prices); it must be a different story
+  biz: rejected: biz_stats name must be 1-16 characters; this repeats the big story (below, dollars, drop, ninety); it must be a different story
+  biz: story #3 failed in 3s
+  biz: rejected: biz_stats note must be 1-18 characters; these numbers are not in the source: 4.1
+  biz #13 draft 2: Groq GPT-OSS: FAIL - The slide states Bitcoin is $81,000, but the source only says it is above $81,000, not exactly $81,000.
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); these numbers are not in the source: 81
+  biz: story #13 ok in 105s
+  up #39 draft 1: Groq GPT-OSS: PASS - All claims about the Panama Canal Authority announcing shortlisted bidders for a new terminal project by year‑end are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the source headlines stating that the Panama Canal authority will name shortlisted bidders for the terminal project by year-end.
+  up: story #39 ok in 2s
+  r1 #21 draft 1: Groq GPT-OSS: PASS - All factual claims about a near 8% drop in Greater Toronto home sales in October are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - The claim that Greater Toronto home sales fell nearly 8% in October is directly supported by the Globe and Mail and Global News sources, which cite the real estate board.
+  r1: story #21 ok in 2s
+  r2 #14 draft 1: Groq GPT-OSS: PASS - The slide accurately states that the cited sources contain no specific financial figures or market data for Europe. | Groq GPT-OSS 20B: PASS - The cited sources focus on US midterms and Trump’s impact, not on European financial figures or market data. | Groq Qwen: PASS - The slide accurately reflects the sources, which discuss the political implications for Europe but do not provide specific financial figures or market data for the region.
+  r2: story #14 ok in 5s
+  r3: rejected: region text must be 1-100 characters
+  r3: rejected: region text must be 1-100 characters
+  r3: rejected: region text must be 1-100 characters
+  r3: story #20 failed in 2s
+  r3: rejected: this repeats the big story (500, dow, market, points); it must be a different story
+  r3 #7 draft 2: Groq GPT-OSS: PASS - Sources confirm gold prices rose and investors bought gold, and the definition is acceptable. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - The claim that gold prices rose as investors bought the metal is supported by the source stating precious metals saw strong gains as investors digested election results, and the definition of gold as 
+  r3: story #7 ok in 3s
+  r3 #16 draft 1: Groq GPT-OSS: PASS - All factual statements about AI data center stocks and SpaceX declining due to the Texas governor result are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources, which state that AI data center stocks and SpaceX declined due to risks of a slowdown raised by the Texas governor result.
+  r3: story #16 ok in 3s
+no story passed the checks for the r3 slide; nothing published
