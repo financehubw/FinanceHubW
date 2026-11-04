@@ -1,51 +1,51 @@
-  pick 1630-1663s: Powell: Economic outlook depends heavily on *virus spread*
-  pick 1385-1425s: Powell: We conduct monetary policy *independently*
-clip: clip_fomc_20200315_1
-  -> clip_fomc_20200315_1.mp4 | Powell, Mar 2020: Economic outlook depends on virus spread
-clip: clip_fomc_20200315_2
-  -> clip_fomc_20200315_2.mp4 | Powell, Mar 2020: Conduct monetary policy independently
-  pick 1911-1940s: Fed Chair Powell: Not trying to induce a *recession*
-  pick 2468-2503s: Jerome Powell: Failing to restore *price stability* is not an option
-clip: clip_fomc_20220615_1
-  -> clip_fomc_20220615_1.mp4 | Powell, Jun 2022: We're not trying to induce a recession
-clip: clip_fomc_20220615_2
-  -> clip_fomc_20220615_2.mp4 | Powell, Jun 2022: Failing to lower inflation is not an option
-  pick 547-566s: Powell, Mar 2023: Banking *system* is *sound*
-  pick 563-583s: Powell, Mar 2023: *Deposit* flows have *stabilized*
-clip: clip_fomc_20230322_1
-  -> clip_fomc_20230322_1.mp4 | Powell, Mar 2023: Is the banking system sound after recent stress?
-clip: clip_fomc_20230322_2
-  -> clip_fomc_20230322_2.mp4 | Powell, Mar 2023: Have deposit flows stabilized across lenders?
-  pick 554-574s: Fed Chair Powell, Sep 2024: *Right thing* for the economy
-  pick 1059-1078s: Fed Chair Powell, Sep 2024: *Not* the new pace
-clip: clip_fomc_20240918_1
-  -> clip_fomc_20240918_1.mp4 | Powell, Sep 2024: Why a half-point rate cut now?
-clip: clip_fomc_20240918_2
-  -> clip_fomc_20240918_2.mp4 | Powell, Sep 2024: Is a half-point cut the new normal?
-  pick 66-90s: Reagan, 1985: *tax cuts* spark economic boom
-  pick 1084-1103s: Reagan, 1985: Free rides for *tax evaders* are over
-clip: clip_reagan_1985_tax_1
-  -> clip_reagan_1985_tax_1.mp4 | President Reagan, 1985: Did tax rate cuts trigger the economic expansion?
-clip: clip_reagan_1985_tax_2
-  -> clip_reagan_1985_tax_2.mp4 | President Reagan, 1985: Why are tax system free rides ending?
-  pick 189-209s: Reagan warns high tariffs cause *trade wars*
-  pick 211-230s: Reagan on how *tariffs* destroy jobs
-clip: clip_reagan_trade_1
-  -> clip_reagan_trade_1.mp4 | President Ronald Reagan: 1987 warning on tariffs and trade wars
-clip: clip_reagan_trade_2
-  -> clip_reagan_trade_2.mp4 | President Ronald Reagan: 1987 speech on how tariffs hurt markets
-  pick 649-672s: Obama, 2009: Restarting *lending* to save the *economy*
-  pick 912-930s: Obama, 2009: The high *cost* of economic *inaction*
-clip: clip_obama_2009_joint_1
-  -> clip_obama_2009_joint_1.mp4 | Obama, 2009: Why must we restart lending during the crisis?
-clip: clip_obama_2009_joint_2
-  -> clip_obama_2009_joint_2.mp4 | Obama, 2009: What is the true cost of economic inaction?
-  pick 391-410s: Chairman Bernanke on what a *central bank* is
-  pick 466-487s: Chairman Bernanke on the two missions of *central banks*
-  pick 1204-1224s: Chairman Bernanke explains the *lender of last resort*
-clip: clip_bernanke_lecture_1_1
-  -> clip_bernanke_lecture_1_1.mp4 | Chairman Bernanke: What is a central bank?
-clip: clip_bernanke_lecture_1_2
-  -> clip_bernanke_lecture_1_2.mp4 | Chairman Bernanke: Two broad missions of central banks
-clip: clip_bernanke_lecture_1_3
-  -> clip_bernanke_lecture_1_3.mp4 | Chairman Bernanke: How the lender of last resort works
+  pick 1928-1953s: Powell says restoring *price stability* will require economic pain
+  pick 2257-2299s: Powell outlines the *economic pain* of fighting inflation
+clip: clip_fomc_20220921_1
+  -> clip_fomc_20220921_1.mp4 | Powell, Sep 2022: There is no painless way to lower inflation
+clip: clip_fomc_20220921_2
+  -> clip_fomc_20220921_2.mp4 | Powell, Sep 2022: Higher rates and slower growth cause economic pain
+  pick 1174-1212s: Fed Chair Powell: It is *very premature* to think about pausing rate hikes
+  pick 2576-2595s: Fed Chair Powell: Path to a *soft landing* has narrowed
+clip: clip_fomc_20221102_1
+  -> clip_fomc_20221102_1.mp4 | Powell, Nov 2022: Very premature to think about pausing rate hikes
+clip: clip_fomc_20221102_2
+  -> clip_fomc_20221102_2.mp4 | Powell, Nov 2022: Path to a soft landing has narrowed
+  pick 1222-1257s: Bernanke on why the Fed *can't control* gas prices
+  pick 1531-1560s: Bernanke on ending $600B purchases *without tapering*
+clip: clip_fomc_20110427_1
+  -> clip_fomc_20110427_1.mp4 | Bernanke, Apr 2011: Fed can't create more oil to lower gas prices
+clip: clip_fomc_20110427_2
+  -> clip_fomc_20110427_2.mp4 | Bernanke, Apr 2011: We will end $600B purchases without tapering
+  pick 152-188s: FDR outlines strategy for *gold* and dollar valuation
+  pick 103-132s: FDR on raising *prices* and maintaining dollar purchasing power
+clip: clip_fdr_gold_1933_1
+  -> clip_fdr_gold_1933_1.mp4 | FDR, 1933: U.S. will control the gold value of the dollar
+clip: clip_fdr_gold_1933_2
+  -> clip_fdr_gold_1933_2.mp4 | FDR, 1933: Restoring price levels to stabilize dollar purchasing power
+  pick 4-39s: FDR reports *relief rolls* declining in 1935
+  pick 61-95s: President Roosevelt explains *Social Security* legislation
+clip: clip_fdr_fireside_1935_1
+  -> clip_fdr_fireside_1935_1.mp4 | President Roosevelt: Relief rolls are declining in 1935
+clip: clip_fdr_fireside_1935_2
+  -> clip_fdr_fireside_1935_2.mp4 | President Roosevelt: Social Security will prevent unemployment in 1935
+  pick 0-34s: President Roosevelt calls on Americans to buy *defense bonds*
+clip: clip_fdr_bond_1941_1
+  -> clip_fdr_bond_1941_1.mp4 | FDR (1941): Defense bonds will guarantee our security
+  pick 246-261s: 1953 film: Measuring the dollar's *purchasing power* in soup
+  pick 425-446s: 1953 film: The impact of a *wage lag* during inflation
+clip: clip_understanding_dollar_1953_1
+  -> clip_understanding_dollar_1953_1.mp4 | 1953 film: How does the price of soup change a dollar's value?
+clip: clip_understanding_dollar_1953_2
+  -> clip_understanding_dollar_1953_2.mp4 | 1953 film: Why do wages always follow rising prices?
+  pick 213-235s: 1948 educational film breaks down an *eight-dollar* weekly *income*
+  pick 543-564s: 1948 educational film warns that *cheap* products are *never* thrifty
+clip: clip_thrift_1948_1
+  -> clip_thrift_1948_1.mp4 | 1948 educational film: How did teens budget an eight-dollar weekly income?
+clip: clip_thrift_1948_2
+  -> clip_thrift_1948_2.mp4 | 1948 educational film: Is buying cheap products actually thrifty?
+  pick 453-471s: Educational Film: Does *credit* cost more?
+  pick 140-159s: Educational Film: You must *earn* credit
+clip: clip_credit_wise_1
+  -> clip_credit_wise_1.mp4 | Educational film: Does it cost more to buy things on credit?
+clip: clip_credit_wise_2
+  -> clip_credit_wise_2.mp4 | Educational film: How do you build a credit rating?
