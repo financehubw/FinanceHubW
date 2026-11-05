@@ -1,0 +1,47 @@
+{
+ "id": "news_20261105",
+ "title": "Pound hits highest level since 2016 brexit vote (today's money news)",
+ "thumb": "*TODAY:* Pound hits highest level since 2016 brex",
+ "thumb_photo": "london city skyline",
+ "thumb_tag": "NEWS",
+ "caption": "The British pound reached its highest level since the Brexit referendum in 2016.\n\nA stronger currency usually makes buying foreign goods cheaper.",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "UK,  The Guardian,  10 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. Pound hits highest level since 2016 brexit vote.",
+   "chat": "Pound hits highest level since 2016 brexit vote."
+  },
+  {
+   "say": "The British pound reached its highest level since the Brexit referendum in 2016.",
+   "photo": "london city skyline",
+   "clip": {
+    "kicker": "UK",
+    "year": "5 Nov",
+    "text": "Pound hits highest level since 2016 brexit vote"
+   }
+  },
+  {
+   "say": "Why it matters. A stronger currency usually makes buying foreign goods cheaper.",
+   "slide": [
+    "A stronger currency usually makes buying foreign goods cheaper."
+   ]
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}
