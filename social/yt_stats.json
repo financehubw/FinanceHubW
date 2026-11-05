@@ -1,14 +1,14 @@
 {
  "channel": {
-  "viewCount": "3204",
+  "viewCount": "5475",
   "subscriberCount": "6",
   "hiddenSubscriberCount": false,
-  "videoCount": "33"
+  "videoCount": "36"
  },
  "analytics": "ok",
  "traffic_sources": {
-  "SHORTS": 2951,
-  "YT_SEARCH": 117,
+  "SHORTS": 3041,
+  "YT_SEARCH": 121,
   "YT_OTHER_PAGE": 59,
   "YT_CHANNEL": 14,
   "EXT_URL": 4,
@@ -17,7 +17,7 @@
   "RELATED_VIDEO": 0
  },
  "countries": {
-  "US": 1433,
+  "US": 1469,
   "IN": 56,
   "CA": 40,
   "GB": 32,
@@ -244,8 +244,8 @@
    "views": 13,
    "likes": 1,
    "comments": 1,
-   "avg_view_pct": 48.7,
-   "avg_view_sec": 7,
+   "avg_view_pct": 32.5,
+   "avg_view_sec": 4,
    "subs_gained": 0,
    "shares": 0
   },
@@ -255,7 +255,7 @@
    "posted": "2026-10-22T14:17:20Z",
    "title": "The 100 trillion dollar banknote #Shorts",
    "duration": "PT17S",
-   "views": 23,
+   "views": 24,
    "likes": 1,
    "comments": 1,
    "avg_view_pct": 124.5,
@@ -297,7 +297,7 @@
    "posted": "2026-10-26T15:22:27Z",
    "title": "Warren Buffett's first stock taught him this #Shorts",
    "duration": "PT16S",
-   "views": 12,
+   "views": 13,
    "likes": 1,
    "comments": 1,
    "avg_view_pct": 131.6,
@@ -395,11 +395,11 @@
    "posted": "2026-11-02T07:08:13Z",
    "title": "Nobel prize winners ran a fund that nearly broke Wall Street | Money Stories #4 #Shorts",
    "duration": "PT31S",
-   "views": 66,
+   "views": 67,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 49.5,
-   "avg_view_sec": 15,
+   "avg_view_pct": 55.8,
+   "avg_view_sec": 17,
    "subs_gained": 0,
    "shares": 0
   },
@@ -409,9 +409,13 @@
    "posted": "2026-11-02T17:30:50Z",
    "title": "3 money mistakes in your 20s that cost the most #Shorts",
    "duration": "PT36S",
-   "views": 30,
+   "views": 34,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 46.4,
+   "avg_view_sec": 16,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "bd5aJuyjo8Y",
@@ -419,9 +423,13 @@
    "posted": "2026-11-03T07:19:07Z",
    "title": "One joke wiped out \u00a3500 million | Money Stories #5 #Shorts",
    "duration": "PT26S",
-   "views": 166,
+   "views": 184,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 130.5,
+   "avg_view_sec": 33,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "B4YeM3XlOwk",
@@ -429,7 +437,7 @@
    "posted": "2026-11-03T15:15:12Z",
    "title": "How to split every paycheck (the 50/30/20 rule) #Shorts",
    "duration": "PT24S",
-   "views": 55,
+   "views": 81,
    "likes": 0,
    "comments": 1
   },
@@ -439,9 +447,9 @@
    "posted": "2026-11-03T18:38:45Z",
    "title": "Reagan shows what inflation did to the dollar (1981) #Shorts",
    "duration": "PT29S",
-   "views": 1462,
-   "likes": 23,
-   "comments": 1
+   "views": 2190,
+   "likes": 41,
+   "comments": 2
   },
   {
    "id": "6i3033fF3B4",
@@ -449,7 +457,37 @@
    "posted": "2026-11-03T22:32:53Z",
    "title": "US stocks rise as tech shares gain (today's money news) #Shorts",
    "duration": "PT17S",
-   "views": 66,
+   "views": 90,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "QTETFzWwr1c",
+   "file": "loop_500_a_month.mp4",
+   "posted": "2026-11-04T06:32:24Z",
+   "title": "$500 a month can make you a millionaire #Shorts",
+   "duration": "PT10S",
+   "views": 4,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "kGavwRgGC1E",
+   "file": "hard_drive_bitcoin.mp4",
+   "posted": "2026-11-04T14:02:18Z",
+   "title": "He threw away a hard drive with 8,000 bitcoin | Money Stories #6 #Shorts",
+   "duration": "PT24S",
+   "views": 57,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "KuVzYKh8lJQ",
+   "file": "news_20261104.mp4",
+   "posted": "2026-11-04T22:32:02Z",
+   "title": "US stocks and Bitcoin surge after vote (today's money news) #Shorts",
+   "duration": "PT18S",
+   "views": 48,
    "likes": 0,
    "comments": 1
   }
