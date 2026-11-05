@@ -1,3 +1,80 @@
+=== run 2026-11-05T12:52:58Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+107/171 sources returned news, 1133 recent items
+300 new trusted stories, posting up to 3 this run
+---
+🇮🇳 SENSEX SURGES OVER 2,000 POINTS
+
+📌 Indian stock markets jumped sharply as crude oil prices declined.
+📊 Sensex: +2,000 pts
+📊 Nifty: 24,400+
+💡 Lower oil prices can reduce costs for the country.
+#Sensex
+
+📍 India · 📰 Firstpost · ✅ 4 sources
+https://news.google.com/rss/articles/CBMixAFBVV95cUxQVWZhWHlSWkVEeUt4QmhsTWZIbmVJbDZkM2Z0Zjl3M2lKVkFvSXNiVHVpMXdMUW1pWHRGMGxERUExQXVkNjViUTBZejVrdXpUU3dhZTVUWXZicUVyQzIxMlNZM3IxelFFYjg1S1VvMGFNRF9QMHQxSkRiejRNQk9OcHl4SjZnWGRiMVF6anl3dzFHQ2NtQXR2WVJVV25kVFpOUW1maHAtQ21iOGo2ZG5XV3JpRmpFaVNwS1pyWGhmVi1ZMTFG0gHKAUFVX3lxTE9nOVRoWFFIbWpGMXBISEp6YXh0eUZaX1RkUERXZlp1Z0JZNDROdU5iUHNDdkxKWG9TUW5ja3pORmRPRmEtcFFEWVhhNVo5NHdkMExpb2h2SkQzZ2pxUU9hSWJpdExLX1pqMkxPN2tGUmgwMWJxWWdLY3Q2RWQzZjFLYWEwTUJLS2tTcHdIdTBEaV80X2F1YlN1UUNQc0VvOFpqc2REb3NJWjJhR1podldQRVlFVGhEWjlyTXNFVmpjaGQ5ZENLbjlIemc?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the Sensex rise, Nifty level, oil price impact, and location are directly supported by the cited sources
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
+  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - (plain-text verdict)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-3a1866b5e17f
+---
+🇬🇧 BANK OF ENGLAND RAISES INTEREST RATE TO 4%
+
+📌 The Bank of England raised its main interest rate to 4% to curb rising prices.
+📊 UK Interest Rate: 4%
+
+📍 UK · 📰 The Globe and Mail · ✅ 37 sources
+https://www.theglobeandmail.com/business/article-bank-of-england-raises-interest-rates-inflation/
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the BoE raising its rate to 4% and the context are directly supported by the listed sources.
+  Groq GPT-OSS 20B: FAIL - The claim that the article cites 37 sources is not supported by the listed sources.
+  -> blocked by fact-check
+---
+🇬🇧 POUND HITS HIGHEST LEVEL SINCE 2016 BREXIT VOTE
+
+📌 The British pound reached its highest level since the Brexit referendum in 2016.
+💡 A stronger currency usually makes buying foreign goods cheaper.
+#Pound
+
+📍 UK · 📰 The Guardian · ✅ 10 sources
+https://news.google.com/rss/articles/CBMinAFBVV95cUxPU3ZSSzdsT2tObE9rWWFNLVhtZTdRSnFyMEdVTmhLS2cyOS1TVy1VbWdCdVVOT0hkWlJPUC1kUElISVI4dlNVZW1RcVZ6VWN5bnpPX3pja3ZBYnZWSzdnU01ZZjJwcFFldmFJeU1tMXVyS3kyMGtjX05OYzlPZHBBVktJazJhaDRjWkVMcVJZX1g4VkdkQ3o0aW4zN1U?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Guardian source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Guardian source and the explanation is a general, widely accepted fact.
+  Groq Qwen: PASS - All factual claims regarding the pound's performance, the reference to the 2016 Brexit vote, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-cba97d73abf3
+---
+🇮🇳 SENSEX JUMPS OVER 2,000 POINTS
+
+📌 The Indian stock market rose sharply, with the Sensex gaining 2,009 points.
+📊 Sensex: 80,000+ (approx)
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 5 sources
+https://www.thehindubusinessline.com/markets/nifty-crosses-24500-sensex-gains-2070-points-as-crude-extends-slide-bajaj-finance-leads-rally/article71669217.ece
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that the Sensex is around 80,000+ is not directly supported by the cited sources
+  -> blocked by fact-check
+---
+🇮🇳 SENSEX JUMPS OVER 2,000 POINTS
+
+📌 The Indian stock market rose for the sixth day in a row, gaining 2,009 points.
+📊 Sensex: +2,009 points
+
+📍 India · 📰 Fortune India · ✅ 6 sources
+https://news.google.com/rss/articles/CBMiygFBVV95cUxON2d6aFBLODVVZU9QSFY4MTZFcUtFLWt1RkZnX0I1X1pKWjNDY1QwRG95eFRSY290ZVlUeVd2eVNuamRsVmdBY3AySXRTSE9PVHR4d1BpMGtZcWF1MndOV1k1OFdMRHV6MmdzVWY2RTM5Tk8zN21rdEQ0U3pKdTkzU2NzaFB5eHdHUHFFOHB2REV1UldYa0VCbkVzVjJGaXNZcklPUjhvMjZYdUFnV1pxWkhEdW9MM0hoYXF2U2VrSVh0bjZINm5HV3NR0gHXAUFVX3lxTE9OMXk4endVY3dHLWpaUU94cnlWb0xJM01vb2NMR2lEWS11c0FBWWVGZWZhai1tSFNZQ2Q0dWtvaURKR0JvQVI3anlYeWpZVlNpRmd6eWZvSWJxSTAxUDRVcHhsaUJfcEJFTk5lNUlIcVFzdGdjWEJXVFBmaHVOUVpFS05UMGNHLTZhTnYyVHhkdlFzOGFzYl9rdWdHQTlnSmtSWXYyN2ZWVVVRU1hUc0NKLV83a2JrMm1XaFRTdUotSlVKcF9IMUZoZkFsRVZBQk0ycjAyekxj?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims (2,009‑point rise, sixth consecutive gain, Indian market) are confirmed by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the 2,009-point rise, the sixth consecutive day of gains, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-a01f223e44ce
+done: 3 post(s) this run
 === run 2026-11-05T02:50:05Z
 228 new trusted stories, posting up to 3 this run
 ---
@@ -1421,80 +1498,3 @@ https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMy1nNFJlTjdyU2M3dmZKRlp2c1E
 
 📌 Silver prices fell following the latest US central bank rate decision.
 💡 Central bank interest rate decisions often affect precious metal prices.
-#Silver
-
-📍 Global · 📰 Business Today · ✅ 2 sources
-https://news.google.com/rss/articles/CBMic0FVX3lxTE1wbzQ5YkhLRWRoSTlad1VqbkhLMWE4TU1RYlJHYnlyR3hwRFk1aEJhZlJScktyV3k4WVR2SUtrcWhqMTltT196OUpqV216UktnWjFieXM3dm93V09yWmpycHF3b29CMUlLTTJ5TEJlaHRpVGs?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The silver price decline claim is only supported by the Vietnam.vn source, while the listed Business Today source (about gold in Bharuch) does not back any claim and the location "Global" mismatches t
-  -> blocked by fact-check
----
-🇯🇵 BREAKING: TOKYO INFLATION RISES TO 2.8% IN OCTOBER
-
-📌 Tokyo inflation (price growth) rose to 2.8% in October, above expectations.
-📊 Tokyo CPI: 2.8% (exp 2.7%)
-
-📍 Japan · 📰 investingLive · ✅ 2 sources
-https://news.google.com/rss/articles/CBMidEFVX3lxTE1YX09uTjlQZFRCSUhQYmlwY05qaE1Ydjl5YnlTWlNwXzN0X3dVTnhtbzVPenpmeEVFR1lJVWp1SHhLQzJfVXN6dzUySkJYN05TOHdiZzZxSUxmRTZJd3c2TWJiUnJYUGNfZUxDd1R1czFxUW91?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, expectations, and location are directly supported by the cited investingLive and FXStreet sources
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the inflation rate, expected value, location, and source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-fcbb26cb2615
-done: 1 post(s) this run
-=== run 2026-10-29T19:29:57Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-96/171 sources returned news, 974 recent items
-240 new trusted stories, posting up to 1 this run
----
-🇺🇸 US ECONOMY GROWS 3.4%
-
-📌 The US economy grew 3.4% in the third quarter while inflation picked up in September.
-📊 US GDP: 3.4%
-
-📍 US · 📰 International: Top News And Analysis · ✅ 3 sources
-https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All figures and statements are directly confirmed by the cited article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the 3.4% GDP growth and September inflation acceleration, and the metadata matches the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-ac6075855203
-done: 1 post(s) this run
-=== run 2026-10-29T17:30:34Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
-97/171 sources returned news, 1035 recent items
-275 new trusted stories, posting up to 1 this run
----
-🇨🇳 SINOPEC Q3 PROFIT JUMPS 64% AS OIL PRICES RISE
-
-📌 China's oil giant Sinopec saw third-quarter profit jump 64% to $2 billion.
-📊 Q3 Profit: $2B (+64%)
-
-📍 China · 📰 Oilprice.com · ✅ 3 sources
-https://oilprice.com/Latest-Energy-News/World-News/Sinopec-Third-Quarter-Profit-Jumps-64-as-Oil-Prices-Climb.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, percentages, location, and source attribution are directly supported by the Oilprice.com article.
-  Groq GPT-OSS 20B: FAIL - The claim that the post cites 3 sources is not supported by the provided link, which lists only one source.
-  -> blocked by fact-check
----
-🇺🇸 FED HOLDS RATES BUT TWO OFFICIALS WANT A HIKE
-
-📌 US central bank keeps its key rate steady, but two members wanted an increase.
-#Fed
-
-📍 US · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
-https://www.thehindubusinessline.com/markets/fed-rate-hold-offers-little-comfort-to-indian-markets-as-two-members-seek-a-hike/article71641208.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the Fed holding rates and two members seeking a hike are directly supported by the cited article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited source.
-  Groq Qwen: PASS - The post accurately reflects the source headlines and content regarding the Fed holding rates and two members seeking a hike, with matching location and source attribution.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-17b19f8a48ab
-done: 1 post(s) this run
-=== run 2026-10-29T15:27:13Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
