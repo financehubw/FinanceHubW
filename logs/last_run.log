@@ -1,3 +1,154 @@
+=== run 2026-11-05T02:50:05Z
+228 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US MIDTERM ELECTION RESULTS IMPACT INDIAN MARKETS
+
+📌 Experts look at how US election results may affect Indian stocks and oil.
+💡 A weaker dollar and lower oil prices usually help lower inflation.
+#US
+
+📍 US · 📰 Mint · ✅ 8 sources
+https://www.livemint.com/market/stock-market-news/us-midterm-election-results-2026-impact-what-trumps-loss-mean-for-sensex-nifty-gold-silver-rates-experts-views-11793838614653.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The 💡 explanation is incorrect: a weaker dollar typically does not help lower inflation.
+  -> blocked by fact-check
+---
+🌐 OIL PRICES DROP BELOW $94 AS WAR FEARS EASE
+
+📌 Oil prices fell about 8% to below $94 as US-Iran war fears eased.
+📊 Crude oil: Below $94
+💡 Lower oil prices usually help reduce fuel costs for consumers.
+#Oil
+
+📍 Global · 📰 Bloomberg.com · ✅ 7 sources
+https://news.google.com/rss/articles/CBMinAFBVV95cUxPQlB2Q1M3aHY0UjIwVUczU09aRnVsVDhTSDVncElSMGVwRDE0a3lPLUNXbVN0R25iZHZkOXRtMkg5QTZ5VFNTRi1uTDZfd3pfVlZqUFEyaHZ6R0RPSDltbmRRdWMxbC1JcEV4UGxiYmFESjJWb1QtSkhaNW5kWlF1WkJHenZDLXJZdjJDWjYxcGsxd1RXMHI3N0R1a0Q?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the 8% drop, price below $94, and war‑fear easing are directly supported by the Bloomberg source.
+  Groq GPT-OSS 20B: FAIL - Percentage drop not supported by all sources
+  -> blocked by fact-check
+---
+🇺🇸 US DOLLAR FALLS AFTER ELECTION
+
+📌 The US dollar dropped against other currencies after US midterm election results.
+💡 A weaker currency can make imported goods costlier for local buyers.
+#Forex
+
+📍 US · 📰 Economic Times · ✅ 9 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-edges-lower-as-us-election-outcome-cheers-global-markets/articleshow/135555751.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 9 sources" but only six distinct sources are listed, so the source count is unsupported.
+  -> blocked by fact-check
+---
+🇯🇵 JAPAN CENTRAL BANK WEIGHS MORE RATE HIKES
+
+📌 Japan's central bank discussed raising interest rates (the cost of borrowing money) more.
+💡 Higher rates usually make loans costlier.
+#Japan
+
+📍 Japan · 📰 The Business Times · ✅ 6 sources
+https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQ3JyT1d5M1liZlNuRjJsZ1ZEMnFJQWprM2dscXhuNXR3M0loUDE5WkhWZUpiVHo1SlZ4NXVIcXFGMm0tWHc2NTBVSTVLX1hIM2RHb2pvSkpvUDRzM3Nad2JJeXg4WlhXQ1NuWWxadG5TOG1Kd0hpbWhYYTlBejluNUlHdVZxbGNTeEtJRFlnRERnbmdRb2YwbXFNb18tNnlKU0ItSTdBZDkwcjgxaEc5WEt3UDN0Ykt3NjNOUHNnc091QlloUThtQTBHYWp4SktJQWlWZTBLX0JQM1Viak1nVg?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the cited Business Times and Reuters articles.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Business Times article and the general explanation is accurate.
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the Bank of Japan debating further rate hikes, and the general explanation of higher rates is correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d7cc270da0aa
+skip (off-topic or nothing new): Stock Market Today: Gift Nifty, Oil Prices To Gold Rate; Five Key Factors That May Drive Sensex, Nifty 50 On November 5
+---
+🌐 GOLD PRICES RISE AGAIN
+
+📌 Gold prices went up after a weak US dollar and upcoming jobs data.
+💡 Lower currencies often push metal prices up.
+#Gold
+
+📍 Global · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/commodities/news/gold-rises-after-biggest-daily-gain-since-august-with-us-payrolls-in-focus/articleshow/135555727.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about gold rising due to a weak dollar and upcoming jobs data are supported by the Economic Times article, and the general explanation is accurate.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the rise in gold prices, the weak US dollar, and the focus on upcoming jobs data are directly supported by the source text.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims in the post are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f267701a7ebb
+---
+🇺🇸 US STOCKS ADD $1.2 TRILLION
+
+📌 US stocks added $1.2 trillion in market value after Democrats won control of Congress.
+📊 Dow: +3%
+💡 Stock market gains can boost the value of retirement accounts and pensions.
+
+📍 US · 📰 Nikkei Asia · ✅ 3 sources
+https://asia.nikkei.com/politics/u.s.-midterm-elections/democrats-win-control-of-congress-in-sharp-rebuke-to-trump
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and factual statements are directly supported by the cited ET NOW and Nikkei Asia articles.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the $1.2 trillion market cap increase, the 3% Dow rally, and the political context are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: FAIL - (plain-text verdict)
+  -> blocked by fact-check
+---
+🇰🇷 SOUTH KOREA POSTS RECORD $61.5B SURPLUS
+
+📌 South Korea made a record $61.5 billion surplus in September from selling computer chips.
+📊 Surplus: $61.5B
+
+📍 South Korea · 📰 Cnbc Tv18 · ✅ 5 sources
+https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOWVoQVM2YUNNRi16NklwS2FRQUVHMC1CeFRUY2Z5TWVNNlFiQ3dwVnhhM0p3dEtaWjRPRXdsaUVjZHppZUFXNDNlM3plSHdCSmJsUTZyd19RbFZ1T3hONG5zZGZMV1UxR0IyaTYtTjJyeHJNNXoydldUVTRXOG9yLWdmb0RhRkQ0U2s1c01IWXE2bU1DdG9FTEl1Qm5EWU0tc1JHU29aSTVtZGFpdnpCQ2lMLWZ3ajN2RGE5TWhNS0FqaW1CNllBSHJncjVOeU9k0gHWAUFVX3lxTE1XQ29kQnNpaUQtanZxOHZQeExKUVNlcEhSNzUzcXlwdER5dDg1TVB4bUVOQWNfSmc4Q0d0YW9Fc0lVV2ZWVF83UTF4ZEE5ODVxQkVvS0lGekpENlZFWnhFVEY0Y2M3ZEJ1ZDNtcV9fMXV2UFlrNW5vSnFYSkY5TjVOb0xsdG4zQ0xVUkJfblcyZzJvX0NiT3F6Y1V6LVQzOEJhdXBXUTlTUnhWbkdHSzlLNUdFazNLM3U1THE1V2dDeURqV3dLc0c4T0pQQjc2a0JqX0diMUE?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 5 sources" but six sources are listed, making the source count inaccurate.
+  -> blocked by fact-check
+---
+🇺🇸 OIL AND DATA CENTRE STOCKS FALL AFTER US MIDTERMS
+
+📌 Shares in oil and data centre companies dropped following the US midterm elections.
+
+📍 US · 📰 Reuters · ✅ 4 sources
+https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 4 sources" but the listed sources total five entries, so the numeric claim is unsupported
+  -> blocked by fact-check
+---
+🇺🇸 DOW SURGES NEARLY 1,600 POINTS AFTER US ELECTIONS
+
+📌 The Dow Jones Industrial Average rose by 1,600 points following the US elections.
+📊 Dow: +1,600 points
+#Stocks
+
+📍 US · 📰 Stocktwits · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi9AFBVV95cUxPa0ZDdDFWUVo5eHRmdXlpZkhHeFpsQ1ZKM2RjSWRPMUhLcDhHNFFjajZUTFRRRTRadFljY0pTUnZyVzkyb2tvZ3lWOW4tVDhIXzBoU3FxX0lmQTJTUWhrdS1WN1ByZ1hQUGdQMDh5d3pqYkVBNE52VFNKVVRZcnNvekpTMmNDSkJVMmI1R3NVaERTMmhadFQ0UWdFZHI4ZXkwTTBRYl9PZ1FBSXE0NVhpdG5jUFMwLS0tNUQ3MWl0M0NrWVJBWkNhdV9TWDc5aGVGeFpCQjROaDZSUEFvZ0Q5cnVaSHRoaXdHVmxRYjVsZnlBc2tM?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - One cited source says the Dow fell ~200 points, contradicting the claim of a 1,600‑point rise
+  -> blocked by fact-check
+---
+🇺🇸 US STOCKS RISE AS TECH SHARES CLIMB
+
+📌 The S&P 500 and Nasdaq indexes rose as tech stocks gained and oil prices fell.
+📊 $SPX: +1.23%
+💡 Rising stock markets can reflect investor confidence in the economy.
+#Stocks
+
+📍 US · 📰 NDTV Profit
+https://news.google.com/rss/articles/CBMi0AFBVV95cUxOV2N0UENsajQ0QlRHOVpCWTN1Nkpic1ZKOG5scV82MzZ5WE5Sa0UtWkxYVVhwaHd6Ulc2QzhEQlBRZzBHYlhGMFBpeU5KcklrVkFMaWt0aGFLR2NoYnFFNFFyTEVfTllzdjBnQUF6X01XVnQtMGNsZjNZaXBSam44bVI1ZmxfRmQ0eGIzdWcycllkWG50SzYyazU5RVBuRWFleWVlWVFsUDQ3WTJkREtsSDMyQVhFbVNXRGlCTktBSXUya0dFUXNpU09iLTZnNE9V0gHYAUFVX3lxTE9iVkdvRERSN2JlRVhPT0tNM0hhdVVaS19KdVpTazFLMHNoeEx6aXJOV2g2SlNQTi00R0pWOWVja09DYTBrYkcyNElvTnpyTjZxUlhlWlhES091cjJTUTJRTWpHanNOWGt0dGFDclprTHhZUFdiVG1pV0xzVGx0eE1xTU5tNzJGSXBWOGY2QkdrOEs3NlRZdVcySGFralhYSUpYOEh1R1FyY0gxMDRuZE9vN19DVDVpWUJQbWxEU3JTaHdIemxOUHJoaW8xaHZjUW9uQnhRbjNXdA?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims, including the +1.23% S&P 500 rise, Nasdaq gain, tech stock lift, and oil price drop, are directly supported by the NDTV Profit article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: FAIL - The specific percentage gain of +1.23% for the S&P 500 is not provided in the source text.
+  -> blocked by fact-check
+---
+🇺🇸 GOLD PRICE RISES ABOVE $4,100
+
+📌 Gold prices climbed past $4,100 following the U.S. election results.
+📊 Gold: $4,100+
+💡 Gold is often seen as a safe place to store value when markets are uncertain.
+#Gold
+
+📍 US · 📰 Bloomberg.com · ✅ 4 sources
+https://news.google.com/rss/articles/CBMiswFBVV95cUxNVVJrRWVPZ19DM1pLb3UzNEtBc0hseHNtMUY4RTRTRDdMb3Fnb19MM200Q05YNG8yN1VFYURtNjdqTE1EQUgxZG41R3ZQa0t3Z2JpQjFYUEY4VVlhLVk2dzR0dmhaaWdlUmdINE9Cb1cwRVdpbHJNTGZsejlmYkluVmdOSEZEVEpudmFZNENkZzFWSnFELUViV2NNTGUzUHBuMU9Wa3dpclhyZ2hPVUJTVGV4cw?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - Bloomberg source only confirms gold above $4,000, not above $4,100 as claimed
+  -> blocked by fact-check
+done: 2 post(s) this run
 === run 2026-11-04T22:10:31Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1347,154 +1498,3 @@ done: 1 post(s) this run
 === run 2026-10-29T15:27:13Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 1
-99/171 sources returned news, 1151 recent items
-307 new trusted stories, posting up to 1 this run
----
-🇪🇺 ECB HOLDS RATES AT 2.5% AS LAGARDE TO EXIT EARLY
-
-📌 The ECB kept its key rate at 2.5% as chief Christine Lagarde announced an early exit.
-📊 ECB deposit rate: 2.5%
-
-📍 Europe · 📰 Business · ✅ 4 sources
-https://www.euronews.com/2026/10/29/ecb-holds-rates-at-25-as-lagarde-announces-early-exit-with-inflation-near-double-the-targe
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the ECB rate, deposit rate level, and Lagarde's early exit are directly supported by the Euronews source.
-  Groq GPT-OSS 20B: FAIL - Source name in the post (Business) does not match the actual source (Euronews).
-  -> blocked by fact-check
----
-🇮🇳 INDIAN STOCKS JUMP OVER 1% AS SENSEX GAINS 905 POINTS
-
-📌 Indian stocks jumped over 1%, with Sensex up 905 points as crude oil prices fell.
-📊 Sensex: +905 pts
-
-📍 India · 📰 Business Standard · ✅ 3 sources
-https://news.google.com/rss/articles/CBMi0AFBVV95cUxQN2x1Nk5sek1aeDluWGNMSnEwREx2SGR5ZjRTd0tzT1NiQ3hoY3htWkJtSW1nYWlrOWRNeS1LVlNMYU5sRVF3eWRzQTVzallfc1JEMVhkSWc3TV9IM21vWG1vTmZRUmVEUmllVVhNdU13YUVVS01LUFNzTHVRRE80bDdaVW5XWXFUTm1oVjZNN2dQaExRMmpMNEdiSzdGMlhuTVBvZ2ZVTTZ1aUdYSTRhek9HbXFMZDNyTEdFSF9GLUZkRGZPOVlTU2JsNTF4WWtw0gHWAUFVX3lxTFB2LU9UckFtY0YwdFAtQ080T2I5a0NJZFowOEJ5bGJsRUR0M1E4WU5jR1d1X2ViencxOWR1dUVlYlVBdS1XRDhBWmpHVUhDNWhxbTdIWkdtdDBLY1hSN2hOclNhcG9HYlRITk81azlSZzFIY0lWZ0RrREg3THYxQWw0ZzIwUnFfUVFpbDQtQ3JESmpTMTZ2U1NFRHk5YjJRekdGWmlUaUhPR0I1UnYxc2dMSmRTdV9yc3hVM1VFc3lXWjZPRTB2UzZzT2kwVE9zMlhkZUQ0NFE?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and factual statements ( >1% rise, +905 points, crude price drop, location, source) are directly confirmed by the Business Standard article and corroborating sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Business Standard source.
-  Groq Qwen: PASS - All factual claims regarding the Sensex gain of 905 points, the >1% rise, and the attribution to Business Standard are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-5d8fa3d01bdd
-done: 1 post(s) this run
-=== run 2026-10-29T13:37:27Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-29T11:16:15Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-29T09:22:50Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-29T07:37:10Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-29T05:17:12Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 0
-daily cap reached, nothing to do this run
-=== run 2026-10-29T03:17:24Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 1
---- special
-🌅 MORNING BRIEF | 3 things to know today
-
-1️⃣ 🇺🇸 FED KEEPS INTEREST RATES STEADY AT 3.75% TO 4%
-2️⃣ 🇬🇧 UK BUDGET TESTS BOND MARKETS
-3️⃣ 🇺🇸 US STOCKS WAIT FOR FED DECISION AND TECH EARNINGS
-
-Follow @FinanceHubW to understand money, every day
-published to: website, Instagram Story
-90/171 sources returned news, 884 recent items
-224 new trusted stories, posting up to 0 this run
-done: 1 post(s) this run
-=== run 2026-10-29T01:33:27Z
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 2
---- special
-🌐 GLOBAL MARKETS OVERNIGHT
-
-🟢 S&P 500: 7,744 (+0.28%)
-🟢 Nasdaq: 26,550 (+0.27%)
-🟢 Dow: 52,475 (+0.19%)
-🔴 FTSE 100: 10,686 (-0.75%)
-🟢 Nikkei: 64,667 (+2.21%)
-🔴 Brent oil: $110.85 (-2.66%)
-
-🟢 up · 🔴 down · vs previous close
-#Markets #StockMarket
-published to: website, Instagram Story
-89/171 sources returned news, 841 recent items
-192 new trusted stories, posting up to 1 this run
----
-🇺🇸 FED KEEPS INTEREST RATES STEADY AT 3.75% TO 4%
-
-📌 The US central bank kept interest rates unchanged in a 10-2 vote.
-📊 $BTC
-💡 Higher rates usually make loans costlier.
-#Fed
-
-📍 US · 📰 Cointelegraph.com News · ✅ 3 sources
-https://cointelegraph.com/markets/bitcoin-faces-fresh-pressure-after-feds-hawkish-rate-hold-analysts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly backed by the cited sources
-  Groq GPT-OSS 20B: PASS - All claims are supported by the provided sources.
-  Groq Qwen: PASS - All factual claims regarding the interest rate range (3.75%-4%), the vote count (10-2), and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-b301981d9d91
-done: 2 post(s) this run
-=== run 2026-10-28T23:12:39Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-88/171 sources returned news, 787 recent items
-186 new trusted stories, posting up to 1 this run
----
-🇺🇸 US STOCKS RISE AS FED HOLDS RATES STEADY
-
-📌 US shares closed higher after the Federal Reserve kept interest rates steady.
-📊 Dow Jones: 52,475.10 (+0.19%)
-
-📍 US · 📰 Economic Times · ✅ 12 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-higher-as-fed-holds-rates-earnings-in-focus/articleshow/135279631.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 12 sources" but only six sources are provided, so the source count is unsupported.
-  -> blocked by fact-check
----
-🇺🇸 US FED KEEPS INTEREST RATES UNCHANGED
-
-📌 The US central bank kept its key interest rate unchanged.
-💡 Steady interest rates keep borrowing costs on loans at current levels.
-#Fed
-
-📍 US · 📰 Crypto Economy · ✅ 2 sources
-https://news.google.com/rss/articles/CBMiqwFBVV95cUxNam11TnFyUXRjMFpjV1NiWVpRVDRldjQ5eXZFeHEwcG5KZ1FyU2p4NnktWmpVUENuS08xaV90ZU9tR3Q3SV9hZ1lfbnNuYjRiUXFUOE1ULVVHNzl4c3RPb2gtTWVVNDRoUGFJOWthcmRHMTFHTjZnOTZaRGdNN1dGSW5ySnhuRGQ0SnNzMXFja3NBa1B2S1dDQkZHNzNPaHozT09NUEU4M1JrVFU?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited sources
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources and the explanation is a general, widely accepted principle.
-  Groq Qwen: PASS - The claim that the US Fed kept interest rates unchanged is directly supported by the source title 'Fed Leaves Rates Untouched', and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-ca784623ab30
