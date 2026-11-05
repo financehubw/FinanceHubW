@@ -1,0 +1,49 @@
+{
+ "id": "monthly_v_2008",
+ "title": "$100 a month into Visa since 2008 is now worth this",
+ "thumb": "$100/month in Visa since 2008 = *{dca:V:2008-03-19}*",
+ "thumb_photo": "credit card payment",
+ "thumb_tag": "MONTHLY HABIT",
+ "caption": "$100 every month into Visa since 2008.\nToday that would be worth about {dca:V:2008-03-19} (price growth only, no dividends).",
+ "comment": "Could you put away $100 a month? 👇",
+ "tags": [
+  "#investing",
+  "#sip",
+  "#money",
+  "#stocks",
+  "#finance",
+  "#habits"
+ ],
+ "sources": [
+  "Visa price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "One hundred dollars a month, into Visa, starting in 2008.",
+   "photo": "credit card payment",
+   "big": "$100",
+   "sub": "every month since 2008"
+  },
+  {
+   "say": "Back then, Visa was listing in a crisis.",
+   "photo": "credit card payment",
+   "clip": {
+    "kicker": "San Francisco",
+    "year": "2008",
+    "text": "Visa: listing in a crisis"
+   }
+  },
+  {
+   "say": "Today, those monthly payments would be worth about {dca:V:2008-03-19}.",
+   "photo": "piggy bank coins",
+   "big": "{dca:V:2008-03-19}",
+   "sub": "$100 a month, every month"
+  },
+  {
+   "say": "Small, boring, every month. That's how wealth is built.",
+   "photo": "calendar",
+   "big": "Every month",
+   "sub": "the habit that compounds"
+  }
+ ]
+}

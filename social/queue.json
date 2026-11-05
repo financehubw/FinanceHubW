@@ -3784,6 +3784,75 @@
    "format": "clip",
    "series": "Money History, in Real Footage",
    "ig_trial": true
+  },
+  {
+   "file": "monthly_v_2008.mp4",
+   "title": "$100 a month into Visa since 2008 is now worth this",
+   "caption": "$100 every month into Visa since 2008.\nToday that would be worth about $192,830 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Visa since 2008 = *$192,830*",
+   "thumb_photo": "credit card payment",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-05",
+   "sources": [
+    "Visa price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_brkb_1996.mp4",
+   "title": "$1,000 in Berkshire Hathaway in 1996 is now worth this",
+   "caption": "In 1996, Berkshire Hathaway was Warren Buffett's company.\n$1,000 in it then would be worth about $24,961 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Berkshire Hathaway in 1996? 👇",
+   "thumb": "$1,000 in Berkshire Hathaway 1996 = *$24,961*",
+   "thumb_photo": "omaha city",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-05",
+   "sources": [
+    "Berkshire Hathaway price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_ma_2006.mp4",
+   "title": "$1,000 in Mastercard in 2006 is now worth this",
+   "caption": "In 2006, Mastercard was a card network.\n$1,000 in it then would be worth about $146,235 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Mastercard in 2006? 👇",
+   "thumb": "$1,000 in Mastercard 2006 = *$146,235*",
+   "thumb_photo": "card payment terminal",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-05",
+   "sources": [
+    "Mastercard price history, Yahoo Finance (split-adjusted), at render time"
+   ]
   }
  ]
 }
