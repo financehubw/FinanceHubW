@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "EUROPE",
+   "text": "The Bank of England raised interest rates."
+  },
+  {
+   "name": "ASIA",
+   "text": "China blocked a US$5.4 billion takeover of engineering group ABB's robotics division."
+  },
+  {
+   "name": "LATIN AMERICA",
+   "text": "Paraguay's president resigned after the collapse of Ueno Bank left customers without their funds."
+  }
+ ],
+ "story_ids": [
+  6,
+  3,
+  17,
+  1,
+  2,
+  23,
+  14
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 6,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 3,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 17,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 1,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 2,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 23,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 14,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "The AI wipeout",
+ "cover_dek": "A drop in artificial intelligence shares sent Wall Street reeling.",
+ "big_headline": "A wipeout for AI stocks sends Wall Street reeling.",
+ "big_body": "The S&P 500, a large index tracking five hundred major American companies, tumbled more than 3 percent.",
+ "big_stat": "3%+",
+ "big_stat_l1": "The S&P 500 index of",
+ "big_stat_l2": "major companies tumbled",
+ "pol_headline": "British rates go up",
+ "pol_body": "The Bank of England raised its base rate from 3.75% to 4%, marking the first increase for more than three years.",
+ "pol_stat": "4%",
+ "pol_stat_l1": "the new base rate set by",
+ "pol_stat_l2": "the Bank of England",
+ "biz_headline": "Bitcoin drops below key level",
+ "biz_body": "Bitcoin fell below $76,000 during a market sell-off, while the Nasdaq stock exchange dropped 5%.",
+ "biz_stats": [
+  {
+   "value": "$76,000",
+   "name": "Bitcoin price",
+   "note": "falls below level"
+  },
+  {
+   "value": "5%",
+   "name": "Nasdaq drop",
+   "note": "on sell-off"
+  }
+ ],
+ "up_headline": "South Korea seeks crypto tax delay",
+ "up_body": "The government asks lawmakers to push a 22% crypto gains tax to 2029 and let investors carry losses forward for up to three years.",
+ "cover_photo": "tanker",
+ "big_photo": "nyse",
+ "pol_photo": "boe",
+ "biz_photo": "bitcoin",
+ "up_photo": "tradingfloor",
+ "sources_used": [
+  "AP News",
+  "Al Jazeera",
+  "BBC",
+  "BBC News",
+  "BNN Bloomberg",
+  "Bitcoin Magazine",
+  "Buenos Aires Times",
+  "Business"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−4.0%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,379."
+   },
+   {
+    "chg": "+1.1%",
+    "color": "#0B6B3A",
+    "text": "<strong>Gold</strong> rose to about $4,116 an ounce."
+   },
+   {
+    "chg": "−5.6%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $75,881."
+   }
+  ]
+ },
+ "status": "published"
+}
