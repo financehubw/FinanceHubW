@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "EUROPE",
+   "text": "UK house prices dropped 0.6% in October to an average of £296,285."
+  },
+  {
+   "name": "ASIA",
+   "text": "Japan's inflation remains near 2%."
+  },
+  {
+   "name": "AFRICA",
+   "text": "Nigeria's central bank introduced crypto licensing rules and banned algorithmic stablecoins."
+  }
+ ],
+ "story_ids": [
+  3,
+  16,
+  33,
+  17,
+  25,
+  22,
+  24
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 3,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 16,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 33,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 17,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 25,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 22,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 24,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "US jobs report",
+ "cover_dek": "The U.S. added 165,000 jobs in October as the unemployment rate slipped.",
+ "big_headline": "The U.S. economy added 165,000 jobs in October, way more than expected.",
+ "big_body": "Nonfarm payrolls were expected to increase by 59,000. Instead, the U.S. added 165,000 jobs while the unemployment rate slipped to 4.1%.",
+ "big_stat": "4.1%",
+ "big_stat_l1": "The unemployment rate",
+ "big_stat_l2": "slipped to this in October",
+ "pol_headline": "Strive posts a profit",
+ "pol_body": "Strive posted $474.8M in Q3 net income to common holders, which is profit belonging to everyday shareholders. This was almost entirely a $533.7M unrealized bitcoin gain.",
+ "pol_stat": "63.2%",
+ "pol_stat_l1": "the bitcoin yield",
+ "pol_stat_l2": "achieved by the company",
+ "biz_headline": "TeraWulf revenue jumps 51%",
+ "biz_body": "It grew as high-performance computing leasing, renting computers for tasks, overtook bitcoin mining.",
+ "biz_stats": [
+  {
+   "value": "-69%",
+   "name": "Bitcoin mining",
+   "note": "revenue falls"
+  },
+  {
+   "value": "+774%",
+   "name": "AI lease revenue",
+   "note": "yearly increase"
+  }
+ ],
+ "up_headline": "Thailand takes action against Bitget",
+ "up_body": "Thailand's Securities and Exchange Commission filed a criminal complaint against the operator for unlicensed trading from 2022 to 2025.",
+ "cover_photo": "dollars",
+ "big_photo": "nyse",
+ "pol_photo": "fed",
+ "biz_photo": "factory",
+ "up_photo": "bitcoin",
+ "sources_used": [
+  "Bitcoin Magazine",
+  "City AM",
+  "CoinDesk: Bitcoin, Ethereum, Crypto News",
+  "Cointelegraph.com News",
+  "CryptoRank",
+  "Cryptopolitan",
+  "Hokanews",
+  "IndexBox"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "+0.7%",
+    "color": "#0B6B3A",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,402."
+   },
+   {
+    "chg": "−1.0%",
+    "color": "#B4280E",
+    "text": "<strong>Gold</strong> fell to about $4,074 an ounce."
+   },
+   {
+    "chg": "−0.4%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $75,633."
+   }
+  ]
+ },
+ "status": "published"
+}
