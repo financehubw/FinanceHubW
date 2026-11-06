@@ -1,3 +1,114 @@
+=== run 2026-11-06T12:30:51Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+101/171 sources returned news, 1075 recent items
+264 new trusted stories, posting up to 3 this run
+---
+🇭🇰 HKEX POSTS RECORD NINE-MONTH EARNINGS
+
+📌 Hong Kong's exchange operator reported record earnings for the first nine months.
+💡 Strong exchange earnings usually reflect active stock trading by investors.
+
+📍 Hong Kong · 📰 Stock Titan · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiygFBVV95cUxPeTZlYTFabk9WSDJYUUlybUFMaWN3N0V5TzlYck4tLXRRWVNST19UV282V2RvRUhQV3F6dVR3LXh1a0FNXzRVajN3eDZaNEVNMGlfTm9FNWNrMC1zQUVGcjl5TlI3TEVsdHNnb0lsVk5IamE3eG5jamhIQzFNeGJGX3E1MW8yNEt6UlMwekt5RjdlRmhNbWd1LWp4ZHBHRDBBRGstZkNBQjcxRHdlbkxMRU81cnFHM1hsVm9RcFY3TXBNY1JvT1VKbTRn?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post attributes the HKEX record earnings claim to Stock Titan, but the supporting source is chinadailyhk, causing a source mismatch
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS SURGE AS SENSEX JUMPS 1,718 POINTS
+
+📌 Indian stock markets jumped today, with the main Sensex index gaining 1,718 points.
+📊 Sensex: +1,718 pts
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 9 sources
+https://www.thehindubusinessline.com/markets/sensex-reclaims-80000-after-march-nifty-tops-24700-despite-global-tech-rout/article71673442.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims (Sensex +1,718 points, Indian market surge) are directly supported by the listed sources.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 9 sources, but only six are listed, which is unsupported.
+  -> blocked by fact-check
+---
+🇺🇸 US FUTURES MIXED AS NASDAQ REBOUNDS
+
+📌 Nasdaq futures rose after a tech selloff, while Dow futures fell 475 points.
+📊 Dow futures: -475 points
+#USMarkets
+
+📍 US · 📰 Economic Times · ✅ 4 sources
+https://news.google.com/rss/articles/CBMi6gJBVV95cUxQdjVrNnVWaTZtSnBTWjNNZ2FITmRVLWplOFpJQmlEOGZ5MjcyclZQNWpERmZXU2dKbko3ZXRnMnZ1LTJaSmpIWFg5MzN0dTgwOWU1UXVXVGw4WTEtWkJLWUdKX1dEVDNOc3dyWDFIY21TVVF3M0dwVFZjaUVWandJV2JkeHRUdEVQSkhLSFdDQTlNR3hsWXByVTExVmE1Q3UxQ0FfRzJfaUpRdlFLRV9MblY1VkxVTFlxY2drUWw5dkNhT0s3T1JPTEFpZy1zMXMzZHQ5eGJkV1lpX0ZxWjNXcUJJam1Yc05KU3dsVkh0MXh6OHF3RmNFQW1mS1ZQaGNwSjJLNkVtMzg5SDhqRzR5U1ZOaTZzWUtQSnozWlNCVWo3QXB3ZlRvenlmc21EQVBOU1o3bVYyOTRKVGR3WWxoOTFpdU12VkF5cjEzc2VXR0Y3QjRxUVlEQTZrbjh3aV9YSE9BRnJYbTVvd9IB7wJBVV95cUxNQVFjOTVjUUFsa19Pa01tM3JOcE5VTWdhdWZ1bWhrcXRIUnFwdl93OEFKY2R6RG5PdXRBdi1iaHhLVmdZTFpLd0Z3aDBLb0dqUk55SWgwQkNlVGN3T196ZVJYMTRucHotWXJBalN2UlgtYklNNC13RmVnMHc1aTVEV0tfaFNNc3dXYmdIXzhjMDAwSGNVU2MwZ0l3a0lqM29Fd0VWSlJEaG8tOURjanlKUVprcFhWLW5rbnloWElaMkdZaXRZTW5JZ1Nkc043UURXbklEb2pLTWZNVHlnb0Jsb1diUzRZelFpN0VQWkl1eWJBTXlqLUtBSUFZdDhQeWlTelRhSC12Y3M5UXhfSTBPcURlTDhHQkU4QmZFMTJ3QXM4aGZwbi1OOVVCZVdkNUV1c0RaMFhjWC1ucTVtNkR2X2tHXzJUNTZsSFdPaDFFUU9yZzd5MFJDandhVHE4RllrY3h5Vi1RWW1GT2l0NFFN?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about Nasdaq futures rising and Dow futures falling 475 points are directly supported by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The claim that there are 4 sources is unsupported, as only one source is listed.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN RUPEE RISES TO 93.89 AGAINST US DOLLAR
+
+📌 The Indian rupee gained 52 paise to close at 93.89 against the US dollar.
+📊 USD/INR: 93.89
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 6 sources
+https://www.thehindubusinessline.com/markets/forex/rupee-surges-52-points-to-close-at-9389-against-us-dollar/article71673987.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (rate, gain of 52 paise, closing level, location) are directly supported by the cited source.
+  Groq GPT-OSS 20B: FAIL - Source name does not match the cited article
+  -> blocked by fact-check
+---
+🇮🇳 GOLD AND SILVER PRICES FALL ON DHANTERAS
+
+📌 Gold fell 1.18% to ₹1,42,401 per 10 grams while silver dropped 1.24%.
+📊 Gold: ₹1,42,401 per 10g (-1.18%)
+
+📍 India · 📰 Mint · ✅ 4 sources
+https://www.livemint.com/market/stock-market-news/dhanteras-2026-gold-silver-rates-today-how-much-do-precious-metals-cost-today-check-mcx-price-outlook-11793955217848.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, location, and source attribution are directly supported by the Mint article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
+  Groq Qwen: PASS - All factual claims regarding price changes, specific values, and the event context are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-04ca2e72f0ae
+---
+🇬🇧 UK FTSE 100 DROPS AS GLOBAL TECH SELL-OFF SPREADS
+
+📌 The UK main stock index fell after a global drop in tech shares.
+💡 Market drops can affect the value of pensions and savings.
+#FTSE
+
+📍 UK · 📰 UK Investor Magazine · ✅ 5 sources
+https://news.google.com/rss/articles/CBMidkFVX3lxTFA0NUZwSGtqOTZodFcwS3ZIdG4waHNkSk9hcFAtb3M2b3BIeG5qVE1jMnBDdmF3d1ZTcXFIRTRZU2dzR0JNRjJ3R3JTYzZ1UHRKajRPUHMxbVpkNU84cnFjMzVWczlXN0M2cVpzWEhiMzhPMl90U2c?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "5 sources" but the listed sources amount to more than five (including duplicates) and the count is not supported.
+  -> blocked by fact-check
+---
+🌐 CRYPTO ETFS LOSE $530 MILLION IN ONE DAY
+
+📌 Investors pulled $530 million from Bitcoin and Ethereum funds in a single day.
+📊 $BTC: $75,000
+
+📍 Global · 📰 CryptoSlate · ✅ 2 sources
+https://cryptoslate.com/bitcoin-and-ethereum-etfs-lose-530-million-in-one-day-as-3-trillion-wall-street-wipeout-rattles-crypto/
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (the $530 million ETF outflow and BTC price at $75,000) are directly supported by the cited CryptoSlate and Bitcoin News articles.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-super-vl:free returned an empty reply)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-86e97c97ddbd
+---
+🇬🇧 UK HOUSE PRICES FALL AT FASTEST RATE IN 3 YEARS
+
+📌 UK home prices fell at their fastest rate in three years.
+💡 Higher mortgage (home loan) rates make buying homes harder.
+#Property
+
+📍 UK · 📰 This is Money · ✅ 3 sources
+https://news.google.com/rss/articles/CBMi-AFBVV95cUxQeG53Qnl4OGlWT0k0X3dYU1cwS2FQNVdoLVRJT0J5ZTVRVzFGU1RhQ1M2V2tyX2w2VFl6YWlOUnctSHNGeGlraWo1LVZlbXh1TUlENTh2RUhkSnFQWmU2QTI3ZHR0bFJJRFdKeEFXTEU4UHlvekpRZ1dwV3BLSS05Y0U3TDV2dFpwNXFaYV85dGNoUC1KWnBacUZQMkw2ZzZEMlh1S21mcUQtaTJVOW84eGFHNVhXc3F2dEJZaFI1ZnVLcW1xR2Y3bWxaOFUwWE5Wd1loRl93VWlxemc1MXFHUHlvRV9NOGdFaG1HaXBSNXMybFZlcmZtTdIB-AFBVV95cUxQeG53Qnl4OGlWT0k0X3dYU1cwS2FQNVdoLVRJT0J5ZTVRVzFGU1RhQ1M2V2tyX2w2VFl6YWlOUnctSHNGeGlraWo1LVZlbXh1TUlENTh2RUhkSnFQWmU2QTI3ZHR0bFJJRFdKeEFXTEU4UHlvekpRZ1dwV3BLSS05Y0U3TDV2dFpwNXFaYV85dGNoUC1KWnBacUZQMkw2ZzZEMlh1S21mcUQtaTJVOW84eGFHNVhXc3F2dEJZaFI1ZnVLcW1xR2Y3bWxaOFUwWE5Wd1loRl93VWlxemc1MXFHUHlvRV9NOGdFaG1HaXBSNXMybFZlcmZtTQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the rate of UK house price decline are confirmed by the cited sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - The claim that UK house prices fell at their fastest rate in three years is directly supported by the sources, and the explanation regarding mortgage rates is a general, accurate statement.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-54ab62928a81
+done: 3 post(s) this run
 === run 2026-11-06T02:56:45Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1387,114 +1498,3 @@ https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSE5RWlV4ZFlvU1RQOG9JdkN4TTB
   Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
   Groq Qwen: PASS - All factual claims regarding Fed official Logan's call for at least two more rate hikes are directly supported by the provided sources, and the location and source attribution are correct.
 published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-69186c577df5
-done: 1 post(s) this run
-=== run 2026-10-30T13:31:45Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 5
-102/171 sources returned news, 1171 recent items
-284 new trusted stories, posting up to 3 this run
----
-🇮🇳 GOLD PRICES DROP SHARPLY IN INDIA
-
-📌 Gold fell below ₹1.42 lakh per 10 grams as silver dropped ₹5,400.
-📊 MCX Gold: Below ₹1.42 lakh
-💡 Lower gold prices can make buying jewelry cheaper for shoppers.
-#Gold
-
-📍 India · 📰 Mint · ✅ 5 sources
-https://www.livemint.com/market/commodities/india-gold-price-october-30-mcx-rate-crashes-below-rs-1-42-lakh-ahead-of-dhanteras-whats-triggering-selloff-11793360090751.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numeric and factual statements are directly backed by the listed sources.
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: FAIL - The source states MCX gold dropped below ₹1.43 lakh, while the post claims it fell below ₹1.42 lakh, which is a specific numerical discrepancy not directly supported by the primary source text provide
-  -> blocked by fact-check
----
-🇮🇳 RUPEE GAINS 33 PAISE AGAINST US DOLLAR
-
-📌 The Indian rupee rose to close at 94.93 against the US dollar.
-📊 USD/INR: 94.93 (+33 paise)
-💡 A stronger local currency can make imported goods cheaper.
-#Rupee
-
-📍 India · 📰 Economic Times · ✅ 4 sources
-https://economictimes.indiatimes.com/markets/forex/rupee-rises-33-paise-to-close-at-94-93-against-us-dollar/articleshow/135357047.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, currency rate, gain amount, source attribution, and general explanation are directly supported by the cited Economic Times article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - The post's claims regarding the rupee closing at 94.93 with a 33-paise gain are directly supported by the Economic Times and another source, and the general explanation is accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-ef3b3159211c
-skip (off-topic or nothing new): Gold rate, silver price today: Why is gold price down today? When will gold recover from its worst trading
----
-🇮🇳 NIFTY RECLAIMS 23,000 MARK
-
-📌 Indian shares rose as tech and drug company stocks led the market higher.
-📊 Nifty 50: 23,053 (+0.51%)
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 6 sources
-https://www.thehindubusinessline.com/markets/nifty-reclaims-23000-to-end-october-on-a-positive-note-it-and-pharma-lead-midcaps-bleed/article71644850.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - Source name does not match the actual source article
-  -> blocked by fact-check
----
-🇮🇳 INDIA BONDS FALL FOR FOURTH MONTH
-
-📌 Indian government bonds fell for the fourth month in a row as oil prices rose.
-💡 Higher bond yields (returns paid to bond holders) usually mean higher borrowing costs.
-#Bonds
-
-📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/bonds/india-bonds-buckle-for-fourth-straight-month-on-oils-climb/articleshow/135361502.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source.
-  Groq Qwen: FAIL - The post claims bond yields rose (implied by 'bonds fall' and the explanation), but the source explicitly states there was a 'decline in bond yields'.
-  -> blocked by fact-check
----
-🇯🇵 YEN STEADIES AHEAD OF RATE DECISION
-
-📌 The Japanese yen holds steady as people wait for the central bank's next move.
-#Forex
-
-📍 Japan · 📰 IDNFinancials · ✅ 5 sources
-https://news.google.com/rss/articles/CBMirwFBVV95cUxQVTNDYkZ0RG90ekN1NjJMQUc2ZGNGSENYRWdQSXViYWlHMlU2OUIxWkFtYURmdnhPU09MbHJrbmpUcTJSYUZGQjBxNE5hbjViVlBqeFltZ2JJc2ZwdkRrVVlaT1h4Zi1uMnNjcVNzWVBiSFhwUk5Fa2JJMEYtQ0dQRlRkdWVqeUtmei16ZFhfYXpES3dQLWNZMGxaOTNDbXVsUlptMi1iYzIzSnVJTG1R?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the yen holding steady ahead of the BOJ decision are directly supported by the source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
-  Groq Qwen: PASS - The post accurately reflects the source headline regarding the yen steadying ahead of the BOJ decision, with correct location and source attribution.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-53487032465d
----
-🇮🇳 STOCKS RISE FOR SECOND DAY
-
-📌 Indian stock markets went up for the second day in a row.
-📊 Sensex: +300 points
-💡 Higher stock values usually mean more confidence in businesses.
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
-https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-30th-october-2026/article71640574.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (second‑day rise, +300 Sensex points, location) are confirmed by the cited articles.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the market direction, duration, and specific Sensex gain are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-5496fc0ae0bd
-done: 3 post(s) this run
-=== run 2026-10-30T06:29:41Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 8
-95/171 sources returned news, 1032 recent items
-253 new trusted stories, posting up to 3 this run
----
-🌐 GOLD DROPS AS US RATE HIKE BETS RISE
-
-📌 Gold fell 0.6% to $3,997.39 an ounce as US inflation data raised rate hike bets.
-📊 Spot gold: $3,997.39/oz (-0.6%)
-
-📍 Global · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 6 sources
-https://www.thehindubusinessline.com/markets/gold/gold-slips-as-higher-oil-us-inflation-data-bolster-fed-hike-bets/article71643522.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, percentages, and context are directly confirmed by the cited Hindustan Business Line article.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
