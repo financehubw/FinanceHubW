@@ -1,9 +1,13 @@
 /home/runner/work/FinanceHubW/FinanceHubW/social/news_short.py:27: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   now = dt.datetime.utcnow()
-news short: Pound hits highest level since 2016 brexit vote (today's money news)
-rendering news_20261105
-  -> news_20261105.mp4 | Pound hits highest level since 2016 brexit vote (today's money news)
-[vost#0:0/rawvideo @ 0x560dc942ee00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x560dc92f98c0] Error muxing a packet
-[out#0/rawvideo @ 0x560dc92f98c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x560dc92f98c0] Error closing file: Broken pipe
+news short: Crypto etfs lose $530 million in one day (today's money news)
+rendering news_20261106
+  -> news_20261106.mp4 | Crypto etfs lose $530 million in one day (today's money news)
+[vost#0:0/rawvideo @ 0x56526f3a9c00] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x56526f2f6c00] Error muxing a packet
+[vost#0:0/rawvideo @ 0x55801f8c7000] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55801f86fd00] Error muxing a packet
+[out#0/rawvideo @ 0x56526f2f6c00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55801f86fd00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x56526f2f6c00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55801f86fd00] Error closing file: Broken pipe

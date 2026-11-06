@@ -1,0 +1,47 @@
+{
+ "id": "news_20261106",
+ "title": "Crypto etfs lose $530 million in one day (today's money news)",
+ "thumb": "*TODAY:* Crypto etfs lose $530 million in one day",
+ "thumb_photo": "bitcoin coin",
+ "thumb_tag": "NEWS",
+ "caption": "Investors pulled $530 million from Bitcoin and Ethereum funds in a single day.\n$BTC: $75,000",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "Global,  CryptoSlate,  2 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. Crypto etfs lose $530 million in one day.",
+   "chat": "Crypto etfs lose $530 million in one day."
+  },
+  {
+   "say": "Investors pulled $530 million from Bitcoin and Ethereum funds in a single day.",
+   "photo": "bitcoin coin",
+   "clip": {
+    "kicker": "Global",
+    "year": "6 Nov",
+    "text": "Crypto etfs lose $530 million in one day"
+   }
+  },
+  {
+   "say": "$BTC: $75,000.",
+   "photo": "bitcoin coin",
+   "big": "$75,000",
+   "sub": "$BTC"
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}
