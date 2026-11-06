@@ -1,26 +1,29 @@
 {
  "channel": {
-  "viewCount": "5475",
-  "subscriberCount": "6",
+  "viewCount": "6462",
+  "subscriberCount": "7",
   "hiddenSubscriberCount": false,
-  "videoCount": "36"
+  "videoCount": "38"
  },
  "analytics": "ok",
  "traffic_sources": {
-  "SHORTS": 3041,
-  "YT_SEARCH": 121,
-  "YT_OTHER_PAGE": 59,
+  "SHORTS": 5134,
+  "YT_SEARCH": 181,
+  "YT_OTHER_PAGE": 118,
   "YT_CHANNEL": 14,
+  "NO_LINK_OTHER": 4,
   "EXT_URL": 4,
   "SUBSCRIBER": 3,
-  "NO_LINK_OTHER": 1,
   "RELATED_VIDEO": 0
  },
  "countries": {
-  "US": 1469,
+  "US": 3113,
+  "CA": 127,
+  "GB": 98,
   "IN": 56,
-  "CA": 40,
-  "GB": 32,
+  "AU": 30,
+  "DE": 26,
+  "IE": 17,
   "ID": 0,
   "NL": 0
  },
@@ -381,7 +384,7 @@
    "posted": "2026-10-29T15:31:34Z",
    "title": "Fed keeps interest rates steady at 3.75% to 4% (today's money news) #Shorts",
    "duration": "PT17S",
-   "views": 29,
+   "views": 31,
    "likes": 0,
    "comments": 1,
    "avg_view_pct": 53.1,
@@ -398,7 +401,7 @@
    "views": 67,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 55.8,
+   "avg_view_pct": 55.5,
    "avg_view_sec": 17,
    "subs_gained": 0,
    "shares": 0
@@ -409,11 +412,11 @@
    "posted": "2026-11-02T17:30:50Z",
    "title": "3 money mistakes in your 20s that cost the most #Shorts",
    "duration": "PT36S",
-   "views": 34,
+   "views": 35,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 46.4,
-   "avg_view_sec": 16,
+   "avg_view_pct": 47.8,
+   "avg_view_sec": 17,
    "subs_gained": 0,
    "shares": 0
   },
@@ -423,11 +426,11 @@
    "posted": "2026-11-03T07:19:07Z",
    "title": "One joke wiped out \u00a3500 million | Money Stories #5 #Shorts",
    "duration": "PT26S",
-   "views": 184,
+   "views": 194,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 130.5,
-   "avg_view_sec": 33,
+   "avg_view_pct": 81.6,
+   "avg_view_sec": 21,
    "subs_gained": 0,
    "shares": 0
   },
@@ -437,9 +440,13 @@
    "posted": "2026-11-03T15:15:12Z",
    "title": "How to split every paycheck (the 50/30/20 rule) #Shorts",
    "duration": "PT24S",
-   "views": 81,
+   "views": 90,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 78.9,
+   "avg_view_sec": 18,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "wQ6Ed_6ahj8",
@@ -447,9 +454,13 @@
    "posted": "2026-11-03T18:38:45Z",
    "title": "Reagan shows what inflation did to the dollar (1981) #Shorts",
    "duration": "PT29S",
-   "views": 2190,
-   "likes": 41,
-   "comments": 2
+   "views": 3907,
+   "likes": 59,
+   "comments": 2,
+   "avg_view_pct": 95.1,
+   "avg_view_sec": 27,
+   "subs_gained": 1,
+   "shares": 0
   },
   {
    "id": "6i3033fF3B4",
@@ -457,9 +468,13 @@
    "posted": "2026-11-03T22:32:53Z",
    "title": "US stocks rise as tech shares gain (today's money news) #Shorts",
    "duration": "PT17S",
-   "views": 90,
+   "views": 91,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 56.3,
+   "avg_view_sec": 9,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "QTETFzWwr1c",
@@ -467,7 +482,7 @@
    "posted": "2026-11-04T06:32:24Z",
    "title": "$500 a month can make you a millionaire #Shorts",
    "duration": "PT10S",
-   "views": 4,
+   "views": 3,
    "likes": 0,
    "comments": 1
   },
@@ -477,7 +492,7 @@
    "posted": "2026-11-04T14:02:18Z",
    "title": "He threw away a hard drive with 8,000 bitcoin | Money Stories #6 #Shorts",
    "duration": "PT24S",
-   "views": 57,
+   "views": 65,
    "likes": 0,
    "comments": 1
   },
@@ -487,7 +502,27 @@
    "posted": "2026-11-04T22:32:02Z",
    "title": "US stocks and Bitcoin surge after vote (today's money news) #Shorts",
    "duration": "PT18S",
-   "views": 48,
+   "views": 74,
+   "likes": 2,
+   "comments": 1
+  },
+  {
+   "id": "SIoj4UTQfH4",
+   "file": "clip_fomc_20261028_1.mp4",
+   "posted": "2026-11-05T11:33:04Z",
+   "title": "Fed Chair Warsh: Why not raise interest rates today? #Shorts",
+   "duration": "PT24S",
+   "views": 1223,
+   "likes": 5,
+   "comments": 1
+  },
+  {
+   "id": "-C8VeufkIY4",
+   "file": "janitor_millionaire.mp4",
+   "posted": "2026-11-05T19:11:40Z",
+   "title": "A janitor quietly left $8 million | Money Stories #7 #Shorts",
+   "duration": "PT26S",
+   "views": 1,
    "likes": 0,
    "comments": 1
   }
