@@ -1,3 +1,146 @@
+=== run 2026-11-06T02:56:45Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+100/171 sources returned news, 897 recent items
+223 new trusted stories, posting up to 3 this run
+---
+🌐 JAPANESE YEN RISES AS STOCK MARKETS DROP
+
+📌 Stocks fell, driving investors to safer currencies like the yen and Swiss franc.
+💡 Stock market falls often lead investors to safer assets.
+#Forex
+
+📍 Global · 📰 Economic Times · ✅ 5 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls/articleshow/135590399.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about yen rise, stock decline, and safe‑haven flow are directly supported by the Economic Times article
+  Groq GPT-OSS 20B: FAIL - Number of sources claim unsupported
+  -> blocked by fact-check
+---
+🌏 ASIAN STOCKS DROP AS AI TECH SELLOFF DEEPENS
+
+📌 Asian shares fell sharply following a tech selloff, led by Kospi dropping 8.8%.
+📊 Kospi Index: -8.8%
+
+📍 Asia · 📰 Economic Times · ✅ 9 sources
+https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-join-us-selloff-as-ai-slump-deepens/articleshow/135589759.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements, including the 8.8% Kospi drop, are directly supported by the cited Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: FAIL - (plain-text verdict)
+  -> blocked by fact-check
+---
+🇯🇵 JAPAN TO SPEND CENTRAL BANK ETF SALES ON GROWTH
+
+📌 Japan's PM says money from central bank ETF (fund) sales will go to economic growth.
+
+📍 Japan · 📰 Bloomberg.com · ✅ 5 sources
+https://news.google.com/rss/articles/CBMitAFBVV95cUxNQWtiMndOTmkwV1RUeHBqaEZFbkhHWEhMb2VGcnA5ZXJGcHVPSlkzcXBiWk9UdDBJQWt5QnBGc1ZWWHM0RlRXNjJtUXlLcW1wM1JxS3FEMF9ncVlUWjhJa1gwODU2MGxwRlExVUpRbDA1U0REV21Ja2tQYVJkM3BtQmplZ2xlUTZ1NXdKWHJEY2QwelI1a09LV05xdms4R3FlN3o1R2JwNjlhMFZBaHJxRXhmT1o?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post attributes the statement to Japan's PM, but sources cite Minister Takaichi, not the prime minister.
+  -> blocked by fact-check
+skip (off-topic or nothing new): 'It wasn't Republicans, it was Dumocrats': Trump blames election results for stock market plunge
+---
+🌐 GOLD ON TRACK FOR WEEKLY GAIN
+
+📌 Gold prices rose 0.4% as markets wait for US jobs data.
+📊 Gold: +0.4%
+💡 Lower interest rates often make gold more attractive.
+#Gold
+
+📍 Global · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-weekly-gain-as-markets-await-us-payrolls-data/articleshow/135590413.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the source and the general explanation is correct.
+  Groq GPT-OSS 20B: FAIL - The 💡 line about lower rates making gold attractive is not directly supported by the source.
+  -> blocked by fact-check
+---
+🇮🇳 NIFTY SET TO FALL AT OPEN
+
+📌 The Nifty index is expected to drop by about 170 points when the market opens.
+📊 Nifty: -170 points
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
+https://www.thehindubusinessline.com/markets/nifty-may-lose-around-170-points-at-open-after-sharp-rally/article71672643.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (expected 170‑point drop, location, source name) are directly supported by the cited BusinessLine article.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims in the post are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-173d833afefe
+---
+🇺🇸 NASDAQ DROPS $2.5 TRILLION
+
+📌 Wall Street loses $2.5 trillion in market value during its worst crash in 18 months.
+📊 Market value lost: $2.5 trillion
+
+📍 US · 📰 Firstpost · ✅ 3 sources
+https://news.google.com/rss/articles/CBMimAFBVV95cUxNMC15YjNWam9Qa3JRR2V0Tld6bUJjRjdXZHpobUF0SkJ3RGxpTkJPaEhmYVVQZWdfOGxud2kwQm5HMlBDbjIyMk1jYl9sc09sbGlzaHQ3TzVONkZvMUwyejlPTVZuLWhCYTVHMWw5Qjk5cmdrMVpyLXZvUmg5a0UzOVlvcllWZExOaDdFY0xhTVN4S3RZUFcyYtIBmAFBVV95cUxNMC15YjNWam9Qa3JRR2V0Tld6bUJjRjdXZHpobUF0SkJ3RGxpTkJPaEhmYVVQZWdfOGxud2kwQm5HMlBDbjIyMk1jYl9sc09sbGlzaHQ3TzVONkZvMUwyejlPTVZuLWhCYTVHMWw5Qjk5cmdrMVpyLXZvUmg5a0UzOVlvcllWZExOaDdFY0xhTVN4S3RZUFcyYg?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (loss amount, crash timeframe, location, source) are directly supported by the cited articles.
+  Groq GPT-OSS 20B: FAIL - Claim that Nasdaq dropped $2.5 trillion is not supported by the cited sources.
+  -> blocked by fact-check
+---
+🌏 ASIAN STOCKS CRASH
+
+📌 South Korea's Kospi dropped up to 9% following big losses in tech shares in the US.
+📊 Kospi: -9%
+💡 Stock market drops can reduce the value of retirement savings and investments.
+#Markets
+
+📍 Asia · 📰 Mint · ✅ 5 sources
+https://www.livemint.com/market/stock-market-news/asian-markets-today-south-koreas-kospi-crashes-8-plunges-below-5-000-whats-behind-the-selloff-11793930297845.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and context are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: FAIL - (plain-text verdict)
+  -> blocked by fact-check
+---
+🇯🇵 NIKKEI DROPS OVER 6%
+
+📌 Japan's main stock index fell over 6 percent following drops in US markets.
+📊 Nikkei 225: -6%
+💡 Lower stock values reduce the worth of retirement funds and investments.
+#Nikkei
+
+📍 Japan · 📰 The Japan Times · ✅ 5 sources
+https://news.google.com/rss/articles/CBMiekFVX3lxTE1reG1aWkcybVF6b0Q1RmFuUl9nSjFDS0Z1NlRDeDBjZ3ZacGZOSGxLZDY4Ykt1VEpUZTVTUE45QUkzcjc1R1BTTDUzU1Nka2xYN2hVLUc3QjQyRC05N2N2NnlIS0lHaVA2ekp3alNzWGQ0NnhOMXNxdlVB?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post states Nikkei fell -6%, but the source reports a drop of more than 7%.
+  -> blocked by fact-check
+skip (off-topic or nothing new): China's YMTC Puts IPO on Hold Amid Global AI Sell-Off
+---
+🇮🇳 INDIA STOCKS SET FOR PULLBACK AFTER RALLY
+
+📌 Foreign investors bought 150 billion rupees in Indian stocks, the most in nearly six years.
+📊 Inflow: 150B rupees ($1.6B)
+
+📍 India · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/market/indian-stocks-set-for-pullback-after-sharp-rally-on-oil-slide-foreign-inflows-11793932289845.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the 150 billion rupee foreign inflow and its six‑year high are directly supported by the Mint article.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources, but four are listed.
+  -> blocked by fact-check
+---
+🇯🇵 NIKKEI DROPS OVER 6%
+
+📌 Japan's main stock index fell heavily right after the market opened.
+📊 Nikkei: -6%
+💡 Lower stock values can reduce retirement and investment savings.
+#Japan
+
+📍 Japan · 📰 Yahoo Finance · ✅ 12 sources
+https://news.google.com/rss/articles/CBMirgFBVV95cUxNLTE2eW8xa2dBWi1xUl9UOENrX2NHSTRtT29YM2cwVkFfeDhhelh2YlRfd1NrWEFubE1ZbjBLOXhyYUYteUE4c3ZhVTlZTXpvMUdrT1BTS0lRVjd2Y29MTGRxZTJtNC01UG9pSHlDWHNSVkk1WUk2SEpUQXVablJvNGdiczMwVy1Wcmg0akJrZnRtc2RwRXg0WjB6NzdWVzVTMlZkZ2FQWEhRMjBnNkE?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post states a 6% drop, but the source says the Nikkei fell "more than 6%"
+  -> blocked by fact-check
+done: 1 post(s) this run
 === run 2026-11-05T21:12:41Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1355,146 +1498,3 @@ https://www.thehindubusinessline.com/markets/gold/gold-slips-as-higher-oil-us-in
   written by Gemini
   Groq GPT-OSS: PASS - All numbers, percentages, and context are directly confirmed by the cited Hindustan Business Line article.
   Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the price drop, specific values, and the cause (US inflation/rate hike bets) are directly supported by the primary source.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-super-vl:free returned an empty reply)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-879953befce9
----
-🇮🇳 INDIAN RUPEE RISES 7 PAISE AGAINST US DOLLAR
-
-📌 The Indian rupee gained 7 paise to trade at 95.19 against the US dollar.
-📊 USD/INR: 95.19
-💡 A stronger local currency makes buying imported goods cheaper.
-
-📍 India · 📰 Economic Times · ✅ 8 sources
-https://economictimes.indiatimes.com/markets/forex/rupee-rises-7-paise-to-95-19-against-us-dollar-in-early-trade/articleshow/135343759.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six sources are provided, making that factual claim unsupported.
-  -> blocked by fact-check
----
-🇮🇳 OIL TOPS $116 AS INDIAN STOCKS FALL
-
-📌 Global oil prices crossed $116 a barrel, pushing Indian stock markets lower.
-📊 Oil: >$116 per barrel
-
-📍 India · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/markets/stocks/news/sensex-nifty-turn-lower-broader-markets-crash-as-oil-tops-116/barrel-what-lies-ahead/articleshow/135345897.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about oil price > $116 and Indian market decline are directly supported by the cited Economic Times article and the Apa.az report.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
-  Groq Qwen: PASS - All factual claims regarding oil prices exceeding $116, the decline in Indian stock markets, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-740648b56149
----
-🇮🇳 INDIAN STOCKS RISE ON IT GAINS
-
-📌 Sensex and Nifty rose today, driven by gains in tech stocks.
-💡 Rising stock markets can increase the value of investments.
-#Nifty
-
-📍 India · 📰 TradingView · ✅ 2 sources
-https://news.google.com/rss/articles/CBMi-gFBVV95cUxNTloxZVd5Tnh3MF8wZTVieklvbU9Gazhfb1V5Q19GcER1Q3dBVlVJR2xhNGpnOHRQZDR6SVlrckZhYUtobEl3MHdZcG1zMXpCQjMySTdhcjBxdUhuVmRmejlHWWJ5bjFwdDVPN2ZtYkRyZGlfY2s4cC1uUUNNU24xLV9FMk5mc08zSXZteXk2MDExcWx1UzZqY2VlWHFrWVM4ZTFfcnB0QWlieGtzVjNMUHBpcXNLbkNJSTBGRzdGX2d0MHFLSURLR1RUUnp3MXRGNG5uNWQ3MDdMNkhFcGJqanc0RnBRX2VWd1gwUGlIekRsMlkxdEJ0eHlB?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are confirmed by the Rediff and TradingView articles, and the general explanation is accurate.
-  Groq GPT-OSS 20B: FAIL - Source attribution does not match the claim; the rise in Sensex and Nifty is reported by Rediff, not TradingView.
-  -> blocked by fact-check
----
-🇯🇵 JAPAN INFLATION HITS 2% TARGET AFTER 13 YEARS
-
-📌 Japan reached its 2% inflation target after 13 years, but held interest rates steady.
-📊 Inflation target: 2%
-
-📍 Japan · 📰 Business · ✅ 12 sources
-https://www.euronews.com/2026/10/30/bank-of-japan-says-inflation-hit-2-target-after-13-years
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about Japan hitting a 2% inflation target after 13 years and holding rates steady are directly supported by the cited Euronews Business article.
-  Groq GPT-OSS 20B: FAIL - The claim of 12 sources is unsupported by the listed references.
-  -> blocked by fact-check
----
-🇮🇳 INDIAN STOCKS OPEN FLAT NEAR 74,164
-
-📌 Indian stock markets opened nearly flat, with the Sensex up just 0.02% at 74,164.
-📊 Sensex: 74,164 (+0.02%)
-#Sensex
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
-https://www.thehindubusinessline.com/markets/markets-open-flat-amid-tech-sell-off-crude-surge-trent-leads-nifty-gainers/article71643564.ece
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post says the Sensex opened near 74,164, but the source states it opened at 74,199.69
-  -> blocked by fact-check
----
-🌐 BREAKING: BINANCE SUFFERS $6.3 BILLION HACK
-
-📌 Hackers stole $6.3 billion from Binance, which has now frozen withdrawals.
-📊 Stolen funds: $6.3 billion
-
-📍 Global · 📰 Business · ✅ 6 sources
-https://www.scmp.com/business/cryptocurrency/article/3372664/binance-pledges-cover-losses-after-us6-billion-crypto-hack
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, amounts, and the withdrawal freeze are directly confirmed by the SCMP source.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
-  Groq Qwen: FAIL - The source URL and title explicitly state a US$6 billion hack, while the post claims $6.3 billion, creating a direct contradiction with the provided source metadata.
-  -> blocked by fact-check
----
-🇮🇳 INDIAN STOCKS RISE AS NIFTY TOUCHES 23,000
-
-📌 Indian stock markets rose today, with the key Nifty 50 index touching 23,000 points.
-📊 Nifty 50: 23,001 (+0.28%)
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
-https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-30th-october-2026/article71640574.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, percentages, and market direction are directly supported by the cited source.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources but only cites one, which is unsupported.
-  -> blocked by fact-check
----
-🇪🇺 ECB MAY PAUSE INTEREST RATE HIKES AFTER DECEMBER
-
-📌 European Central Bank may raise rates by 0.25% in December, then pause.
-📊 Expected rate hike: +0.25%
-
-📍 Europe · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-ecb-may-pause-rate-hikes-after-december-amid-growth-risks/articleshow/135346378.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about a 0.25% December hike and subsequent pause are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
-  Groq Qwen: PASS - All factual claims regarding the ECB's expected 0.25% rate hike in December and subsequent pause are directly supported by the source, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-6c124a1d12cb
-done: 3 post(s) this run
-=== run 2026-10-30T00:16:24Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-91/171 sources returned news, 803 recent items
-187 new trusted stories, posting up to 1 this run
----
-🇯🇵 TOKYO INFLATION TOPS BANK OF JAPAN'S 2% TARGET
-
-📌 Tokyo inflation rose past the central bank's 2% target ahead of its rate decision.
-📊 BOJ inflation target: 2%
-
-📍 Japan · 📰 Bloomberg.com · ✅ 9 sources
-https://news.google.com/rss/articles/CBMisgFBVV95cUxNM2sydmttNTVRUEdIMmhaZmFKMW9TN0tsYmZxZEU5cG9QSUVUQmJGck1nSVJ6UFdBY1k0TUh3Zzlnb3QxeXRxS09JejUyZkZUY3ViOFA3V3BDVGhGTGE4WWY5UUNRWGxrZVRkU05ScWt0TUlIX3djbVlDNUlvQjRNNmNqMUJyTHdyYmNVdU1BQlVSeEpJMXM4TEg5dUlFbmh2MWhMQktnekNfU092T21FeFZR?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim of "✅ 9 sources" is not supported by the listed six sources
-  -> blocked by fact-check
----
-🇺🇸 WALL STREET DROPS AFTER ALPHABET MISSES REVENUE
-
-📌 US stocks fell after Alphabet missed revenue targets, led by a 1.36% drop in tech.
-📊 Nasdaq: -1.36%
-
-📍 US · 📰 Economic Times · ✅ 5 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-markets-today-us-stocks-end-lower-as-alphabet-revenue-miss-revives-ai-capex-jitters/articleshow/135331051.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post attributes the 1.36% drop specifically to the tech sector, which the sources only state as a Nasdaq Composite decline, not a tech‑sector drop.
-  -> blocked by fact-check
----
-🌐 BREAKING: BINANCE HIT BY MULTIBILLION-DOLLAR HACK
-
-📌 Suspected hackers stole up to $5.8 billion from Binance, hitting crypto prices.
-📊 $BTC: Below $79,000
-
-📍 Global · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 5 sources
-https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets
