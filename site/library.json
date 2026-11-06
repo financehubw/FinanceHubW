@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "type": "daily",
+   "date": "2026-11-06",
+   "label": "Fri 6 Nov 2026",
+   "title": "US jobs report",
+   "summary": "The U.S. added 165,000 jobs in October as the unemployment rate slipped.",
+   "base": "media/daily/2026-11-06/",
+   "first": 1,
+   "slides": 7
+  },
+  {
    "type": "briefing",
    "date": "2026-11-05",
    "label": "Thu 5 Nov 2026",
