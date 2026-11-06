@@ -1,3 +1,37 @@
+=== run 2026-11-06T19:40:34Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+91/171 sources returned news, 789 recent items
+202 new trusted stories, posting up to 1 this run
+---
+🇺🇸 FED OFFICIAL SAYS MORE RATE HIKES LIKELY NEEDED
+
+📌 Fed official Mary Daly says more rate hikes are likely needed to lower inflation.
+💡 Higher rates (cost of borrowing) usually make loans more expensive.
+#Fed
+
+📍 US · 📰 CNBC · ✅ 8 sources
+https://news.google.com/rss/articles/CBMiekFVX3lxTE83d09fT01uTmdIZ09Wb0pDYWg4VU5rRTF3MWstQ25hU2dDM011N3k3cVBzRFFOeGtuTjVSMHJVcy1zb25qY0Q4NERLSUIxN3JUN2tUbEZoZ2FLbVBDajRHUFktYVEtOTZ2cWxlX21NbF8xd1JxN25GNkNn0gF_QVVfeXFMUFM0YzVQazV4YXplRlQzdkpaM3ZtTGNVdlU3OG83N1o1ZmhtVFVGaEdvOC1WckhzNEQwNXdLb0hBQWptVjJuOVdNV2hrM0lCbmQzWk1veVdQTnJjbEZJRXJuZXByelRRWHJoakE1UktiTV90Zl90R1M1OHBBTXYxZw?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim of "✅ 8 sources" is not supported by the listed six sources
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN NIFTY 50 INDEX ENDS YEAR DOWN 3.24%
+
+📌 The Nifty 50 index is set to finish the year down about 3.24%.
+📊 Nifty 50: -3.24%
+💡 Lower stock returns usually mean smaller gains for investors.
+#Nifty
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/market/stock-market-news/dhanteras-diwali-gold-beats-stocks-or-nifty-takes-the-lead-gold-vs-nifty-50-returns-in-samvat-2082-compared-11793983947279.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (3.24% decline, India location, Mint source) are directly supported by the article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source and the explanation is a general, widely accepted statement.
+  Groq Qwen: PASS - The claim that the Nifty 50 is set to finish the year down about 3.24% is directly supported by the Mint source, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-fcad6a53fc63
+done: 1 post(s) this run
 === run 2026-11-06T12:30:51Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1464,37 +1498,3 @@ https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stoc
   written by Gemini
   Groq GPT-OSS: PASS - All factual claims about Nasdaq drop >2.5% and tech stock decline are supported by the Economic Times source and the listed sources.
   Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the Nasdaq drop, AI spending fears, and source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-279d6469faa8
-done: 1 post(s) this run
-=== run 2026-10-30T19:40:26Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 5
-97/171 sources returned news, 864 recent items
-230 new trusted stories, posting up to 1 this run
----
-🌐 BREAKING: BINANCE HIT BY RECORD $6.3B CRYPTO HACK
-
-📌 Binance suffered a record $6.3 billion hack, but says losses will be covered.
-📊 Impacted assets: $6.3 billion
-
-📍 Global · 📰 MarketWatch.com · ✅ 10 sources
-https://www.marketwatch.com/story/heres-when-binance-plans-to-reopen-after-whats-believed-to-be-the-largest-ever-6-3-billion-hack-d3cb8154?mod=mw_rss_topstories
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly confirmed by the MarketWatch source.
-  Groq GPT-OSS 20B: FAIL - The claim that the post is supported by 10 sources is unsupported by the provided list.
-  -> blocked by fact-check
----
-🇺🇸 FED OFFICIAL CALLS FOR TWO MORE RATE HIKES
-
-📌 Fed official Logan says the US needs at least two more interest rate hikes.
-📊 Rate hikes requested: At least 2
-
-📍 US · 📰 FXStreet · ✅ 6 sources
-https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSE5RWlV4ZFlvU1RQOG9JdkN4TTBLbTNCZm03NEp4QngtenVNVzBuQkJKQXlOVXNmZVk2anhpOHVEcHdpSzVWYVluYm5zZ3RyTjVkS2dOY3U5THktVFdxR1FhWk9SWFo2YWJqXy1UY3FLS0luNWxCeU1sMm96NHIwdUNTWWJ5QzNxNFJ1dC1RM1NJekRhV0JtcXBQcGt0d1RFNG00RFdVOWI?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about Logan calling for at least two more rate hikes are directly supported by the cited FXStreet source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding Fed official Logan's call for at least two more rate hikes are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
