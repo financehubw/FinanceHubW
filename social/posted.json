@@ -525,6 +525,19 @@
    "failed": [],
    "errors": {},
    "format": "micro"
+  },
+  {
+   "file": "clip_gold33.mp4",
+   "title": "Gold was $33 an ounce in 1933 (real newsreel)",
+   "date": "2026-11-07T15:14:51Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/plzfW_L_v3I",
+    "Instagram": "18383501122239680",
+    "Facebook": "1781535713977198"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
