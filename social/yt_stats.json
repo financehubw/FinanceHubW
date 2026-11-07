@@ -1,31 +1,32 @@
 {
  "channel": {
-  "viewCount": "6462",
-  "subscriberCount": "7",
+  "viewCount": "8933",
+  "subscriberCount": "8",
   "hiddenSubscriberCount": false,
-  "videoCount": "38"
+  "videoCount": "40"
  },
  "analytics": "ok",
  "traffic_sources": {
-  "SHORTS": 5134,
-  "YT_SEARCH": 181,
-  "YT_OTHER_PAGE": 118,
-  "YT_CHANNEL": 14,
+  "SHORTS": 6046,
+  "YT_SEARCH": 232,
+  "YT_OTHER_PAGE": 139,
+  "YT_CHANNEL": 18,
+  "SUBSCRIBER": 5,
   "NO_LINK_OTHER": 4,
   "EXT_URL": 4,
-  "SUBSCRIBER": 3,
+  "SOUND_PAGE": 1,
   "RELATED_VIDEO": 0
  },
  "countries": {
-  "US": 3113,
-  "CA": 127,
-  "GB": 98,
+  "US": 3730,
+  "CA": 218,
+  "GB": 158,
+  "AU": 72,
   "IN": 56,
-  "AU": 30,
   "DE": 26,
+  "NL": 18,
   "IE": 17,
-  "ID": 0,
-  "NL": 0
+  "ID": 0
  },
  "videos": [
   {
@@ -261,8 +262,8 @@
    "views": 24,
    "likes": 1,
    "comments": 1,
-   "avg_view_pct": 124.5,
-   "avg_view_sec": 21,
+   "avg_view_pct": 111.4,
+   "avg_view_sec": 18,
    "subs_gained": 0,
    "shares": 0
   },
@@ -303,8 +304,8 @@
    "views": 13,
    "likes": 1,
    "comments": 1,
-   "avg_view_pct": 131.6,
-   "avg_view_sec": 21,
+   "avg_view_pct": 101.8,
+   "avg_view_sec": 16,
    "subs_gained": 0,
    "shares": 0
   },
@@ -415,8 +416,8 @@
    "views": 35,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 47.8,
-   "avg_view_sec": 17,
+   "avg_view_pct": 46.0,
+   "avg_view_sec": 16,
    "subs_gained": 0,
    "shares": 0
   },
@@ -429,8 +430,8 @@
    "views": 194,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 81.6,
-   "avg_view_sec": 21,
+   "avg_view_pct": 78.3,
+   "avg_view_sec": 20,
    "subs_gained": 0,
    "shares": 0
   },
@@ -443,8 +444,8 @@
    "views": 90,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 78.9,
-   "avg_view_sec": 18,
+   "avg_view_pct": 74.1,
+   "avg_view_sec": 17,
    "subs_gained": 0,
    "shares": 0
   },
@@ -454,11 +455,11 @@
    "posted": "2026-11-03T18:38:45Z",
    "title": "Reagan shows what inflation did to the dollar (1981) #Shorts",
    "duration": "PT29S",
-   "views": 3907,
-   "likes": 59,
+   "views": 4189,
+   "likes": 61,
    "comments": 2,
-   "avg_view_pct": 95.1,
-   "avg_view_sec": 27,
+   "avg_view_pct": 98.3,
+   "avg_view_sec": 28,
    "subs_gained": 1,
    "shares": 0
   },
@@ -468,7 +469,7 @@
    "posted": "2026-11-03T22:32:53Z",
    "title": "US stocks rise as tech shares gain (today's money news) #Shorts",
    "duration": "PT17S",
-   "views": 91,
+   "views": 90,
    "likes": 0,
    "comments": 1,
    "avg_view_pct": 56.3,
@@ -484,7 +485,11 @@
    "duration": "PT10S",
    "views": 3,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 0,
+   "avg_view_sec": 0,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "kGavwRgGC1E",
@@ -492,9 +497,13 @@
    "posted": "2026-11-04T14:02:18Z",
    "title": "He threw away a hard drive with 8,000 bitcoin | Money Stories #6 #Shorts",
    "duration": "PT24S",
-   "views": 65,
+   "views": 69,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 63.8,
+   "avg_view_sec": 15,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "KuVzYKh8lJQ",
@@ -502,9 +511,13 @@
    "posted": "2026-11-04T22:32:02Z",
    "title": "US stocks and Bitcoin surge after vote (today's money news) #Shorts",
    "duration": "PT18S",
-   "views": 74,
+   "views": 84,
    "likes": 2,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 96.8,
+   "avg_view_sec": 17,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "SIoj4UTQfH4",
@@ -512,7 +525,7 @@
    "posted": "2026-11-05T11:33:04Z",
    "title": "Fed Chair Warsh: Why not raise interest rates today? #Shorts",
    "duration": "PT24S",
-   "views": 1223,
+   "views": 1221,
    "likes": 5,
    "comments": 1
   },
@@ -522,8 +535,28 @@
    "posted": "2026-11-05T19:11:40Z",
    "title": "A janitor quietly left $8 million | Money Stories #7 #Shorts",
    "duration": "PT26S",
-   "views": 1,
+   "views": 26,
    "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "cNuvUk5yHjI",
+   "file": "clip_reagan82_rates.mp4",
+   "posted": "2026-11-06T11:32:02Z",
+   "title": "When US interest rates hit 21.5% (Reagan, 1982) #Shorts",
+   "duration": "PT19S",
+   "views": 1283,
+   "likes": 12,
+   "comments": 3
+  },
+  {
+   "id": "2c487mK0xTw",
+   "file": "compound_1_snowball.mp4",
+   "posted": "2026-11-06T15:28:01Z",
+   "title": "Compound interest explained in 20 seconds | Compound Interest #1 #Shorts",
+   "duration": "PT28S",
+   "views": 103,
+   "likes": 4,
    "comments": 1
   }
  ]
