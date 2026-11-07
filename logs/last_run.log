@@ -1,3 +1,52 @@
+=== run 2026-11-07T06:34:10Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+80/171 sources returned news, 628 recent items
+155 new trusted stories, posting up to 2 this run
+---
+🇮🇳 GOLD AND SILVER PRICES RISE IN INDIA
+
+📌 Gold and silver prices edged higher across Indian cities today.
+💡 Buying gold and silver jewellery becomes slightly more expensive.
+#Gold
+
+📍 India · 📰 Economic Times · ✅ 3 sources
+https://news.google.com/rss/articles/CBMi7AJBVV95cUxQdUMyNDUxYm1KLUpJV2NaSDREa05NU3huS2IxN0J0VEVXMUZ1T1ZZc3NVN0FFY0xCWkVSWW9wZWJ5MzFtVzJ1eVNnZXVDZDA3RXZLbnlfaTBPXzBrOUZuMk1IUFU0MTNlZVlWUzY1U2s5bC1YMlF5Unc3Zmt3ekpQRTFJeFA3X0JFNDl1MjNUMnNuWkpFcVpRZllhVHA2MmtQS1hJM3NFRC0zaDl2U3JQYndOQzlIQ3RkOW90UkZ3Y0kzRmNPNXhBZ2hvblBsczA5MGFpVzd2NDduRVU2THdJR1g0cVRJZzQzZURBcjVqUE1uYzE2aWc3dE9wdnZQUEZHTzVqS09xVlBZVnpmTUFibWZrT0lZOHo1bE00THdWVGRIRmpqQlExYkRUMVJ3TzZ2MXk5NHdoQkRlWjVxWXNjNGhLTDZZalVaSlc5bVliVWMtSkFwbEhoVmNVMWFIa0IwdW4yazM4S0NPcVdi0gHyAkFVX3lxTE5ZeWhSUll3bFc5OE10U2ZPWXF4WVhoWDJPY2JnSHQxLW81ZDZETk9sVGtpNlNGVVpxaDI5UTJYYmI4SnVhTU9pT2Q3SFlKTnRkaWs3MS1veGQ4Z2VFX1JheS1lcUJaTy1GYjFkN2RCanhrWW9wUmdUTHBvaDdjbHZacExsblB4S3kydWhHUW8zWTNHOUhiakEyU1ZsRWtNTExuRDhKTXdpTVZUV2czQXZlYVhkc1lQX0U2ZzQ3TjFKTmt2TEt4NFpSZEpGSjFZZWtBcFJWT2ZIZkNJd1JOalY2aVlJcWpUR2FtOTByaUc0ekZlY0QzN3g3dEJIbm12MndNZ1FQaXJmeWpnV3p4TTBZRUJ3eXNVZ1BXTXo5VXhyQVFzSzJZWXp1Q19LTEdDcHpjanRidTlVT0xiclJHVzN1ZFg3eVBoWFB1elVQUktldFY1a3VZNVdmbGdGbV92R2FhWTBKMUpVSjJnNFR4V3JlSFE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All price‑rise claims are directly supported by the three cited sources.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources but only lists one, which is unsupported.
+  -> blocked by fact-check
+---
+🇺🇸 US ADDS 165,000 JOBS, PUSHING DOLLAR UP AND GOLD DOWN
+
+📌 The US added 165,000 jobs last month, beating expectations and lifting the dollar.
+📊 US jobs added: 165,000
+
+📍 US · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/markets/commodities/news/gold-drops-as-strong-us-payrolls-boost-dollar-yields/articleshow/135626183.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All job, dollar, and gold figures are directly supported by the Economic Times articles.
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: PASS - All factual claims regarding the 165,000 jobs added, the dollar's rise, and gold's decline are directly supported by the provided sources, and the location and source attribution are correct.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims in the post (165,000 jobs added, beating expectations, dollar up, gold down) are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-c02edbb34697
+---
+🇮🇳 INDIAN IPOS RAISE RECORD RS 2.23 LAKH CRORE
+
+📌 375 companies raised a record Rs 2.23 lakh crore in Indian IPOs during Samvat 2082.
+📊 IPO Amount: Rs 2.23 lakh crore
+
+📍 India · 📰 Lokmat Times · ✅ 4 sources
+https://news.google.com/rss/articles/CBMisgFBVV95cUxQVjJLVnduc2JIaUlJVEtFZ2htWWZ5dVQ2LTl1SGtUTlo3VFN5X2ZWQXE1WEpySnc0VlhBNlVnd1hfOEEtVEpDem5jeEZrcTlaMW8tVmZfYXkxb0tKM2VVQk92a29hdnFEZkpoM29GUlpYOEVUTDNkTjN0aXpXbEJCYnptOURaR1ltckZoXzhSTjVlUHZmUUliM2pvMzF1ZUptTlk1X2pQM3pFd3ZKX2VkVW530gG3AUFVX3lxTFBvYm51VnhXSExOQnFVU2g2MjhLNWgxTThlQ0p4bjQxVjBfS083Mkl6WUx6X1AxRVNVbjFLc01WTUZkOXdRanlnSzBncjJ3UElmemhWTnlmTmNGbThBdzZWMzg4VWJJZnh3a21jZEZoUVM0ZVdlUHN3a3NxalNXaFczQTVvTU1STjB6QnpIUGFfOVR0eVZRS2kwT1pOYTljRDNIc3U0U24yRkdUSVF4SnUwQzNtWmhwQQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, year, company count, and location are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the amount (Rs 2.23 lakh crore), number of companies (375), period (Samvat 2082), and location (India) are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d9a8156a4608
+done: 2 post(s) this run
 === run 2026-11-07T00:16:05Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1449,52 +1498,3 @@ published to: website, Instagram Story
 📍 Global · 📰 BeInCrypto · ✅ 2 sources
 https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZVXVxNHNyeV9LVFgyem5FNF9DX2VUZkNKaGwxNzVmalY2SFpZSmZlM2JIbzlCaGE3eVZSSUhib1l5UzNCZC1RQ1NoT1BqeE1vZ3d5eVRDRHRFVG5LM1lRYXVkLXo4ZU1IRnhsUjFqSHQ?oc=5
   written by Gemini
-  Groq GPT-OSS: PASS - All figures, event description, and source attribution are directly confirmed by the cited articles.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited BeInCrypto source.
-  Groq Qwen: PASS - The specific outflow amount of $643 million and the attribution to Bitcoin ETFs following a hack are directly supported by the BeInCrypto source title.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-b35e5c8e106a
-done: 3 post(s) this run
-=== run 2026-10-31T06:12:21Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 4
-78/171 sources returned news, 650 recent items
-177 new trusted stories, posting up to 1 this run
----
-🇮🇳 RATNADEEP RETAIL GETS SEBI NOD FOR IPO
-
-📌 Ratnadeep Retail got approval to raise up to Rs 400 crore via an initial public offering.
-📊 IPO size: Rs 400 crore
-📊 OFS: 1.49 crore shares
-#IPO
-
-📍 India · 📰 Economic Times · ✅ 4 sources
-https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-ahead-value-fashion-retailer-ratnadeep-retail-gets-sebi-nod-to-raise-funds-through-public-issue/articleshow/135389668.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the Rs 400 crore IPO size, 1.49 crore OFS shares, SEBI approval, and Indian location are directly supported by the Economic Times sources.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 4 sources, but 5 sources are listed.
-  -> blocked by fact-check
----
-🇮🇳 SEBI EASES RULES FOR FOREIGN INVESTORS
-
-📌 Market regulator SEBI made identity checks (KYC) less frequent for foreign portfolio investors.
-
-📍 India · 📰 SEBI · 🏛️ Official
-https://www.sebi.gov.in/media-and-notifications/press-releases/oct-2026/ease-of-compliance-for-fpis-rationalisation-of-kyc-review-periodicity_105522.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about SEBI easing KYC frequency for FPIs are directly supported by the official SEBI press release.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
-  Groq Qwen: PASS - The post accurately reflects the source headlines and titles regarding SEBI easing KYC rules for FPIs in India, with no unsupported factual claims.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-00b3e4aef375
-done: 1 post(s) this run
-=== run 2026-10-31T00:03:12Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 4
-88/171 sources returned news, 673 recent items
-141 new trusted stories, posting up to 1 this run
----
-🇺🇸 US TECH STOCKS CRASH ON AI SPENDING FEARS
-
-📌 US tech stocks fell sharply, with the Nasdaq dropping over 2.5% on AI spending fears.
-📊 Nasdaq: down over 2.5%
