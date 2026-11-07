@@ -512,6 +512,19 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "loop_7_dollars_a_day.mp4",
+   "title": "$7 a day could become $661,889",
+   "date": "2026-11-07T11:33:08Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/q6F3GK0qS4A",
+    "Instagram": "18108122966202927",
+    "Facebook": "1184179967274412"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "micro"
   }
  ]
 }
