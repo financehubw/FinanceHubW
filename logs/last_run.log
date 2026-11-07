@@ -1,3 +1,9 @@
+=== run 2026-11-07T23:52:59Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+67/171 sources returned news, 417 recent items
+100 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-07T19:05:29Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1492,9 +1498,3 @@ https://www.livemint.com/money/gold-24k-22k-18k-silver-999-prices-today-1-novemb
   written by Gemini
   Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only five source entries are provided, making the source count unsupported.
   -> blocked by fact-check
----
-🌐 NORTH KOREAN HACKERS STOLE $6.3B FROM BINANCE
-
-📌 North Korean hackers stole $6.3 billion from crypto exchange Binance in 20 minutes.
-📊 Stolen crypto: $6.3 billion
-
