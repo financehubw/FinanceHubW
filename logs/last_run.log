@@ -1,3 +1,51 @@
+=== run 2026-11-07T13:34:00Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+77/171 sources returned news, 651 recent items
+158 new trusted stories, posting up to 2 this run
+---
+🇵🇰 GOLD PRICE UNCHANGED IN PAKISTAN AT RS 429,136 PER TOLA
+
+📌 Gold prices in Pakistan stayed unchanged today at Rs 429,136 per tola.
+📊 Gold: Rs 429,136 per tola
+#Gold
+
+📍 Pakistan · 📰 Investify · ✅ 6 sources
+https://news.google.com/rss/articles/CBMinAFBVV95cUxOc1c1WTB6NzNybV9kTlo0TTVudzV0dlFVYllMWUpMQ0kxdDRYMngwTHk0YU5QdmJGLVByOXh3cEVHVDVCTEhDakQ1ZFByakRTMHg4ekVzRnZhSEdZa0QzeXZ6TmZ4RjN1M3NZRW9TMnZlTDVZUmZZb05FWERheE9OSTFBdzdQczN4TGUwSWFNa2NLZno5RGxkWkl6OS0?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All stated facts about the unchanged gold price of Rs 429,136 per tola in Pakistan are confirmed by the cited sources.
+  Groq GPT-OSS 20B: FAIL - Business Today source does not support the claim about Pakistan gold price.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS RALLY FOR SEVEN SESSIONS
+
+📌 Indian stock markets had a sharp seven-session rally.
+💡 Rising stock markets generally boost investment values.
+#Nifty
+
+📍 India · 📰 Mint
+https://www.livemint.com/market/stock-market-news/from-diwali-2025-to-diwali-2026-how-sensex-nifty-50-rupee-crude-oil-changed-in-samvat-2082-what-lies-ahead-11794043761591.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about a seven-session rally are directly supported by the Mint source.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - The claim of a sharp seven-session rally is directly supported by the source, and the general explanation is accurate.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-863996b042ac
+---
+🇮🇳 COCA-COLA INDIA BOTTLER FILES FOR IPO
+
+📌 Coca-Cola's Indian bottler filed papers to sell 99.75 crore shares in an IPO.
+📊 Shares offered: 99.75 crore
+
+📍 India · 📰 Moneycontrol.com · ✅ 11 sources
+https://news.google.com/rss/articles/CBMi8gFBVV95cUxQSm9qZ2lyTUtsQTNZQjdON1ZhZktQVnpJQ3l2c2JpVEMtZEhoVzZJVmppX2R6azcyZ3NXMl91Q1h1Q1VGM00xXzdCaE15dVV3LTBueUtsZVQwem5PUmFrZWRjT1ZCZmFQeGwyUDlnSU8tTUlmdTlvRUpyaUlRMWRjX0RJb3lOTUVQdmZUVi1fTXNlSzUyU09mSlgtbkh3dHk0MWREOWpTN21QeENKNEFBU3RiRHRQcU1vT1AtelRtajJrcXQzcmUxZU9Vc0ZxU0kwYnFlZzhuSUI3T2VCWGtweXNTZkw2bDhRQ1A1OFZfb293UdIB9wFBVV95cUxPcjJWYlhRMHJuNHJSaVJJVnZLWExaQnd1Q2Fsd1duaV9WUjhRbm5iVEhpTVZNb204ZVB4RzhULXdyY2VLUXliMWxHU0UyQnNpVC1fWGt5QmtPN21uNEZoV25CMkpuZXlzQTFTaEhFYmdZWkNUWHNvcTFJN21SajZHNWlrYzhXTUJoV0hkcjhNM1djMkdIUDgwLWZEcGZzR3VZSUFuUElQbWJWUUZOaFdRWXRMSzBUVjAyaDhmSXgyTDJCTkZTY1NwMktLd0ZTT1lDY053WEZYbXMtTWU4TXBwRkQxTEVPd2F0ck00R21iWktHeEZDaHpv?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about the IPO filing and share count are directly supported by the cited Moneycontrol.com sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Moneycontrol source.
+  Groq Qwen: PASS - All factual claims regarding the entity, share count (99.75 crore), location, and source are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-61f07cdaecea
+done: 2 post(s) this run
 === run 2026-11-07T06:34:10Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1450,51 +1498,3 @@ daily cap: 12, room left in the last 24h: 6
 
 📌 Gold prices in Pakistan dropped by Rs10,800 per tola.
 📊 Gold drop: Rs10,800 per tola
-💡 Lower gold prices make buying gold less expensive.
-#Gold
-
-📍 Pakistan · 📰 Investify · ✅ 12 sources
-https://news.google.com/rss/articles/CBMirAFBVV95cUxNbUxqZ2NQNkw3VW54OTlJYVQ5ZG9KbHJlNVI3bkRDRmJJYThZSmlrRFhqenVUbC1faVNfQ19OTEZVbm9vMlpNZWp4ekszWGlQWkVJYzJwYkdIZjlQSURjeTVuZk5yMG9kVHZkYi1tXzRmaTBxUGh0eVFDcDIxZEFIY2xQazJwOEhnaGZWOVAyV09wLS1BcmpQcTRZVjYxQ2NmWlo2LTVNdEhMb3hV?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "12 sources" but only seven sources are provided, so the source count is unsupported
-  -> blocked by fact-check
----
-🇮🇳 SEBI MONITORS TATA SONS GOVERNANCE DEVELOPMENTS
-
-📌 India market regulator SEBI is watching Tata Sons governance closely.
-💡 Strong regulator oversight helps protect everyday investors.
-#SEBI
-
-📍 India · 📰 Moneycontrol.com · ✅ 6 sources
-https://news.google.com/rss/articles/CBMi3AFBVV95cUxOV0FhNFJCSTJFR3ZhY1F1a3F5SXQ3NEFqeWtXRGRWLUNCNVIxdjA2bGNLQk8yRzBkQUVYV0RpNmoyeWdUdVVNaWVIa29Yc2VMM04xZ09TWUFOR3RkQ1RiSWpaNGpWeS0zakNsN3V4eXBLaFUtQ2VRd2oyTTlzQVlHa2Y5emxHdkwtYktvdk9wa1RFaFBTM09HNHFPeWpscE1OU01fZmxocGdPa3l4UTNlcFFhYlFnU1pULXZwaExzZGVSMkdwbU13cncyVUNzd2tmc1JydEtvSzhTNnB00gHcAUFVX3lxTE5XQWE0UkJJMkVHdmFjUXVrcXlJdDc0QWp5a1dEZFYtQ0I1UjF2MDZsY0tCTzJHMGRBRVhXRGk2ajJ5Z1R1VU1pZUhrb1hzZUwzTjFnT1NZQU5HdGRDVGJJalo0alZ5LTNqQ2w3dXh5cEtoVS1DZVF3ajJNOXNBWUdrZjl6bEd2TC1iS292T3BrVEVoUFMzT0c0cU95amxwTU5TTV9mbGhwZ09reXhRM2VwUWFiUWdTWlQtdnBoTHNkZVIyR3BtTXdydzJVQ3N3a2ZzUnJ0S29LOFM2cHQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about SEBI monitoring Tata Sons governance are directly supported by the Moneycontrol sources.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: PASS - The post accurately reflects the source headlines stating that SEBI is monitoring Tata Sons governance developments, and the general explanation provided is factually sound.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-9509f890f975
----
-🌐 FBI JOINS HUNT FOR $6.3 BILLION BINANCE HACKERS
-
-📌 The FBI is helping search for hackers who stole $6.3 billion, as Bitcoin holds $77,000.
-📊 $BTC: $77,000+
-
-📍 Global · 📰 All News · ✅ 3 sources
-https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-77000-as-binance-hack-recovery-takes-shape-4989115
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited article.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the FBI's involvement, the $6.3 billion hack amount, and Bitcoin's price above $77,000 are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-super-vl:free returned an empty reply)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-639a2aaa9c07
----
-🌐 INVESTORS PULL $643M FROM BITCOIN ETFS AFTER HACK
-
-📌 Investors pulled $643 million from Bitcoin ETFs (funds tracking crypto) after a hack.
-📊 $BTC ETF Outflows: $643M
-
-📍 Global · 📰 BeInCrypto · ✅ 2 sources
-https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZVXVxNHNyeV9LVFgyem5FNF9DX2VUZkNKaGwxNzVmalY2SFpZSmZlM2JIbzlCaGE3eVZSSUhib1l5UzNCZC1RQ1NoT1BqeE1vZ3d5eVRDRHRFVG5LM1lRYXVkLXo4ZU1IRnhsUjFqSHQ?oc=5
-  written by Gemini
