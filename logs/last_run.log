@@ -1,3 +1,9 @@
+=== run 2026-11-07T00:16:05Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+78/171 sources returned news, 675 recent items
+156 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-06T19:40:34Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1492,9 +1498,3 @@ daily cap: 12, room left in the last 24h: 4
 
 📌 US tech stocks fell sharply, with the Nasdaq dropping over 2.5% on AI spending fears.
 📊 Nasdaq: down over 2.5%
-
-📍 US · 📰 Economic Times · ✅ 6 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-dow-jones-crashes-500-pts-nasdaq-over-2-5-as-ai-cash-burn-fears-spark-tech-selloff/articleshow/135377269.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about Nasdaq drop >2.5% and tech stock decline are supported by the Economic Times source and the listed sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
