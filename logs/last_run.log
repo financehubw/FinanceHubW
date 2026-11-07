@@ -1,3 +1,49 @@
+=== run 2026-11-07T19:05:29Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+78/171 sources returned news, 541 recent items
+151 new trusted stories, posting up to 1 this run
+---
+🇺🇸 BERKSHIRE HATHAWAY DOUBLES BUYBACKS AS PROFITS FALL
+
+📌 Berkshire Hathaway more than doubled share buybacks in Q3 as total profits declined.
+
+📍 US · 📰 International: Top News And Analysis · ✅ 6 sources
+https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The 📍 location is listed as US but the source is labeled International, so the place does not match the source.
+  -> blocked by fact-check
+---
+🇺🇸 ODDS OF DECEMBER FED RATE HIKE JUMP TO 77%
+
+📌 US added 165,000 jobs in October, pushing the chances of a December rate hike to 77%.
+📊 December hike odds: 77%
+
+📍 US · 📰 Yahoo Finance · ✅ 4 sources
+https://news.google.com/rss/articles/CBMimAFBVV95cUxNMlI4clZBeTdvY1o1MkE1b1VoVUpfbjAtYlZ6Qk1CTG94Y2JBaEJXN3EyOGNBQkR0MlFwVzNfNmZBVXFyOGstczl4ZTBYWlkxRUpzNENra2YzY0JucEV2bTFaZkdqYlBVLWpoUEpiQThhcy00RG1oNE5qLWowWVE3NmNRVlBtZm90Zzl3RU9ibkhLcU9kMkY2Tg?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (165,000 jobs added, 77% odds) are directly supported by the Yahoo Finance source.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the 165,000 job gain in October and the 77% odds of a December rate hike are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: FAIL - (plain-text verdict)
+  -> blocked by fact-check
+---
+🇺🇸 US ADDS 165,000 JOBS IN OCTOBER
+
+📌 The US added 165,000 jobs in October as focus turns to upcoming inflation data.
+📊 US October Jobs: +165,000
+💡 Job growth influences central bank decisions on interest rates.
+
+📍 US · 📰 Coinpaper · ✅ 2 sources
+https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ2NGWWpEWTdKaUFnMmZFWVlKaGVDbW40Q2NLYVlvcmFCOU5JdGJGRERuZDE3cjlkcXNSRnI1eDE0cHVHVnJEd1c2TkN1SGs3SFdUSjctWWdKY3VPWGVDWXNsRkVxT3lfdTdTRWtFeDZCQ2dzX3RsVkdfNjVldzVkVGlLQ3UyUnNjVUQtZ3N0cy1TSDYwSWlELWxYVXNlWUtaV1puU1V4OGlnQ0ZPZ2M5M1BLQWhLVFdlRG00?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about 165,000 jobs added in October and related context are directly supported by the Coinpaper source.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited Coinpaper source.
+  Groq Qwen: PASS - All factual claims regarding the job numbers, month, and context are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-1583ea5e3dcc
+done: 1 post(s) this run
 === run 2026-11-07T13:34:00Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1452,49 +1498,3 @@ https://www.livemint.com/money/gold-24k-22k-18k-silver-999-prices-today-1-novemb
 📌 North Korean hackers stole $6.3 billion from crypto exchange Binance in 20 minutes.
 📊 Stolen crypto: $6.3 billion
 
-📍 Global · 📰 Mint · ✅ 21 sources
-https://www.livemint.com/market/cryptocurrency/binance-crypto-theft-heres-how-north-korean-hackers-perfected-the-heist-stole-6-3-billion-in-20-minutes-details-11793500918241.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited Mint article and related sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Mint article.
-  Groq Qwen: PASS - All factual claims regarding the amount ($6.3B), time (20 minutes), perpetrators (North Korean hackers), victim (Binance), and attribution (FBI) are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-a3c3382f7de8
-done: 1 post(s) this run
-=== run 2026-10-31T23:37:43Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-66/171 sources returned news, 431 recent items
-100 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-10-31T18:44:28Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-78/171 sources returned news, 575 recent items
-135 new trusted stories, posting up to 1 this run
----
-🇮🇳 INDIAN STOCKS REBOUND AS NIFTY JUMPS 2.59%
-
-📌 Indian shares bounced back this week, led by pharma and IT companies.
-📊 Nifty 50: +2.59%
-💡 Rising stock markets often lift the value of people's retirement savings.
-
-📍 India · 📰 Mint · ✅ 3 sources
-https://www.livemint.com/market/stock-market-news/stock-market-prediction-nov-2-6-week-nifty-sensex-rebound-from-losses-will-bulls-deliver-a-diwali-bonanza-outlook-11793459177658.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Mint source
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the Nifty 50's 2.59% rise, the leading sectors (pharma and IT), and the source attribution are directly supported by the provided Mint source.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-1565ee9a14e6
-done: 1 post(s) this run
-=== run 2026-10-31T13:03:40Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-78/171 sources returned news, 664 recent items
-179 new trusted stories, posting up to 3 this run
----
-🇵🇰 GOLD PRICES DROP BY RS10,800 IN PAKISTAN
-
-📌 Gold prices in Pakistan dropped by Rs10,800 per tola.
-📊 Gold drop: Rs10,800 per tola
