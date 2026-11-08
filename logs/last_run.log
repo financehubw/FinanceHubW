@@ -1,3 +1,9 @@
+=== run 2026-11-08T23:57:19Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+83/171 sources returned news, 565 recent items
+129 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-08T19:03:17Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1492,9 +1498,3 @@ https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOHZrOEJsNjJTRlpOaDJ6YVRIaGd
   Groq Qwen: PASS - All factual claims regarding the Sensex rise, point value, drivers (Reliance, oil), location, and source attribution are directly supported by the provided sources.
 published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-23d722397b35
-done: 3 post(s) this run
-=== run 2026-11-02T01:50:18Z
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
-See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
-  quotes.sort_index(inplace=True)
-/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/yfinance/utils.py:568: Pandas4Warning: The inplace keyword in DataFrame.sort_index is deprecated and will be removed in a future version (PDEP-8).
