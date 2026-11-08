@@ -147,7 +147,7 @@ jobs:
                   wait = max(wait, left)
           today = [p for p in log if p["date"][:10] == now.strftime("%Y-%m-%d")]
           last = max((dt.datetime.strptime(p["date"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc) for p in log), default=None)
-          if len(today) >= due or (last and (now - last).total_seconds() < 3 * 3600):
+          if len(today) >= due or (last and (now - last).total_seconds() < 2 * 3600):
               print(f"nothing due now (slots {', '.join(slots)} UTC, {len(today)} posted today)"); open("/tmp/skip", "w").write("1"); sys.exit(0)
           print(f"posting Short {len(today) + 1} of today")
           if wait > 0: time.sleep(wait)
