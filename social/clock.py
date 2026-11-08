@@ -27,7 +27,7 @@ def slots() -> list[str]:
         t = json.loads((ROOT / "social" / "best_times.json").read_text())["times"]
     except Exception:  # noqa: BLE001
         t = {}
-    return sorted({t.get("short_midday", "06:30"), t.get("short", "15:00"), t.get("short_us", "18:30"),
+    return sorted({t.get("short_midday", "06:30"), t.get("short", "15:00"), t.get("short_us", "18:30"), t.get("short_eve", "16:15"),
                    t.get("short_night", "22:30")})
 
 
