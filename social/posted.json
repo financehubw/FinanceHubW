@@ -563,6 +563,19 @@
    "failed": [],
    "errors": {},
    "format": "clip"
+  },
+  {
+   "file": "loop_retire_25x.mp4",
+   "title": "How much do you need to retire? The 25x rule",
+   "date": "2026-11-08T11:32:12Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/QMC1VKVXkn0",
+    "Instagram": "18417191602093618",
+    "Facebook": "1123441307102656"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "micro"
   }
  ]
 }
