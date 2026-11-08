@@ -1,31 +1,33 @@
 {
  "channel": {
-  "viewCount": "8933",
-  "subscriberCount": "8",
+  "viewCount": "10781",
+  "subscriberCount": "10",
   "hiddenSubscriberCount": false,
-  "videoCount": "40"
+  "videoCount": "44"
  },
  "analytics": "ok",
  "traffic_sources": {
-  "SHORTS": 6046,
-  "YT_SEARCH": 232,
-  "YT_OTHER_PAGE": 139,
-  "YT_CHANNEL": 18,
-  "SUBSCRIBER": 5,
-  "NO_LINK_OTHER": 4,
+  "SHORTS": 8413,
+  "YT_SEARCH": 303,
+  "YT_OTHER_PAGE": 173,
+  "YT_CHANNEL": 22,
+  "SUBSCRIBER": 6,
   "EXT_URL": 4,
+  "NO_LINK_OTHER": 1,
   "SOUND_PAGE": 1,
   "RELATED_VIDEO": 0
  },
  "countries": {
-  "US": 3730,
-  "CA": 218,
-  "GB": 158,
-  "AU": 72,
-  "IN": 56,
-  "DE": 26,
-  "NL": 18,
-  "IE": 17,
+  "US": 5339,
+  "CA": 375,
+  "GB": 284,
+  "AU": 122,
+  "IN": 121,
+  "IE": 54,
+  "NL": 50,
+  "DE": 49,
+  "PH": 20,
+  "SG": 20,
   "ID": 0
  },
  "videos": [
@@ -374,8 +376,8 @@
    "views": 45,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 45.6,
-   "avg_view_sec": 14,
+   "avg_view_pct": 47.3,
+   "avg_view_sec": 15,
    "subs_gained": 0,
    "shares": 0
   },
@@ -455,13 +457,13 @@
    "posted": "2026-11-03T18:38:45Z",
    "title": "Reagan shows what inflation did to the dollar (1981) #Shorts",
    "duration": "PT29S",
-   "views": 4189,
+   "views": 4251,
    "likes": 61,
    "comments": 2,
-   "avg_view_pct": 98.3,
-   "avg_view_sec": 28,
-   "subs_gained": 1,
-   "shares": 0
+   "avg_view_pct": 100.2,
+   "avg_view_sec": 29,
+   "subs_gained": 2,
+   "shares": 4
   },
   {
    "id": "6i3033fF3B4",
@@ -500,7 +502,7 @@
    "views": 69,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 63.8,
+   "avg_view_pct": 62.8,
    "avg_view_sec": 15,
    "subs_gained": 0,
    "shares": 0
@@ -514,8 +516,8 @@
    "views": 84,
    "likes": 2,
    "comments": 1,
-   "avg_view_pct": 96.8,
-   "avg_view_sec": 17,
+   "avg_view_pct": 92.9,
+   "avg_view_sec": 16,
    "subs_gained": 0,
    "shares": 0
   },
@@ -525,9 +527,13 @@
    "posted": "2026-11-05T11:33:04Z",
    "title": "Fed Chair Warsh: Why not raise interest rates today? #Shorts",
    "duration": "PT24S",
-   "views": 1221,
+   "views": 1224,
    "likes": 5,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 49.0,
+   "avg_view_sec": 11,
+   "subs_gained": 0,
+   "shares": 1
   },
   {
    "id": "-C8VeufkIY4",
@@ -535,9 +541,13 @@
    "posted": "2026-11-05T19:11:40Z",
    "title": "A janitor quietly left $8 million | Money Stories #7 #Shorts",
    "duration": "PT26S",
-   "views": 26,
+   "views": 45,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 250,
+   "avg_view_sec": 65,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "cNuvUk5yHjI",
@@ -545,8 +555,8 @@
    "posted": "2026-11-06T11:32:02Z",
    "title": "When US interest rates hit 21.5% (Reagan, 1982) #Shorts",
    "duration": "PT19S",
-   "views": 1283,
-   "likes": 12,
+   "views": 1432,
+   "likes": 13,
    "comments": 3
   },
   {
@@ -555,8 +565,48 @@
    "posted": "2026-11-06T15:28:01Z",
    "title": "Compound interest explained in 20 seconds | Compound Interest #1 #Shorts",
    "duration": "PT28S",
-   "views": 103,
+   "views": 204,
    "likes": 4,
+   "comments": 1
+  },
+  {
+   "id": "q6F3GK0qS4A",
+   "file": "loop_7_dollars_a_day.mp4",
+   "posted": "2026-11-07T11:33:08Z",
+   "title": "$7 a day could become $661,889 #Shorts",
+   "duration": "PT10S",
+   "views": 166,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "plzfW_L_v3I",
+   "file": "clip_gold33.mp4",
+   "posted": "2026-11-07T15:14:51Z",
+   "title": "Gold was $33 an ounce in 1933 (real newsreel) #Shorts",
+   "duration": "PT15S",
+   "views": 1493,
+   "likes": 21,
+   "comments": 3
+  },
+  {
+   "id": "jTcVc7oNh3w",
+   "file": "secretary_millionaire.mp4",
+   "posted": "2026-11-07T18:32:06Z",
+   "title": "A secretary secretly built $9 million | Money Stories #8 #Shorts",
+   "duration": "PT27S",
+   "views": 74,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "id": "Ly0PaMVa7_M",
+   "file": "clip_fomc_20261028_2.mp4",
+   "posted": "2026-11-07T22:32:03Z",
+   "title": "Fed Chair Warsh: \"We own\" the 2% inflation target #Shorts",
+   "duration": "PT19S",
+   "views": 1114,
+   "likes": 7,
    "comments": 1
   }
  ]
