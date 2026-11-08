@@ -576,6 +576,19 @@
    "failed": [],
    "errors": {},
    "format": "micro"
+  },
+  {
+   "file": "clip_reagan82_debt.mp4",
+   "title": "Reagan warned about a $1 trillion US debt in 1982",
+   "date": "2026-11-08T14:03:04Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/niYcJfFmCiI",
+    "Instagram": "18068330546789664",
+    "Facebook": "1634263624757161"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
