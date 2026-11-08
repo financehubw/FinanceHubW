@@ -2,6 +2,56 @@
  "about": "Shorts waiting to be posted, oldest first. To add one: put the .mp4 in site/media/shorts/ and add an entry here. The publisher posts the first entry not yet in posted.json. Optional \"comment\": posted as the first comment on each platform.",
  "items": [
   {
+   "file": "clip_reagan82_debt.mp4",
+   "title": "Reagan warned about a $1 trillion US debt in 1982",
+   "caption": "October 1982: federal debt had just passed $1 trillion, and interest cost $110 billion a year. Today's figures are at the end (FRED data).\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm",
+   "tags": [
+    "#nationaldebt",
+    "#economy",
+    "#history",
+    "#money",
+    "#usdebt"
+   ],
+   "comment": "Should the US pay down its debt? 👇",
+   "thumb": "The *$1 trillion* debt",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_money47_gold.mp4",
+   "title": "How a 1947 film explained money (and what changed in 1971)",
+   "caption": "From \"What Is Money?\" (1947), a classroom film. Back then, US paper money was linked to gold.\n\nFootage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/WhatIsMo1947",
+   "tags": [
+    "#money",
+    "#history",
+    "#gold",
+    "#dollar",
+    "#finance"
+   ],
+   "comment": "What do you think backs the dollar today? 👇",
+   "thumb": "Your dollar, backed by *gold*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-03",
+   "sources": [
+    "Footage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/WhatIsMo1947"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
+  },
+  {
    "file": "car_payment.mp4",
    "title": "Your car payment could cost you $78,000",
    "caption": "$1,000 a month for 5 years is $60,000 in car payments.\nInvested instead at around 10% a year, the same money could have grown to about $78,000.\nThe car loses value. The investment can grow. (Returns are not guaranteed.)",
@@ -2557,31 +2607,6 @@
    "ig_trial": true
   },
   {
-   "file": "clip_reagan82_debt.mp4",
-   "title": "Reagan warned about a $1 trillion US debt in 1982",
-   "caption": "October 1982: federal debt had just passed $1 trillion, and interest cost $110 billion a year. Today's figures are at the end (FRED data).\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm",
-   "tags": [
-    "#nationaldebt",
-    "#economy",
-    "#history",
-    "#money",
-    "#usdebt"
-   ],
-   "comment": "Should the US pay down its debt? 👇",
-   "thumb": "The *$1 trillion* debt",
-   "thumb_photo": "",
-   "thumb_tag": "MONEY HISTORY",
-   "ai_voice": false,
-   "voice": "none",
-   "made": "2026-11-03",
-   "sources": [
-    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm"
-   ],
-   "format": "clip",
-   "series": "Money History, in Real Footage",
-   "ig_trial": true
-  },
-  {
    "file": "clip_oil73.mp4",
    "title": "When oil prices quadrupled in 1973 (real 1975 film)",
    "caption": "From \"When the Circuit Breaks: America's Energy Crisis\" (1975). The 1973 oil embargo sent prices from $3 to $12 a barrel.\n\nFootage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/WhentheC1975",
@@ -2726,31 +2751,6 @@
    "made": "2026-11-03",
    "sources": [
     "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm"
-   ],
-   "format": "clip",
-   "series": "Money History, in Real Footage",
-   "ig_trial": true
-  },
-  {
-   "file": "clip_money47_gold.mp4",
-   "title": "How a 1947 film explained money (and what changed in 1971)",
-   "caption": "From \"What Is Money?\" (1947), a classroom film. Back then, US paper money was linked to gold.\n\nFootage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/WhatIsMo1947",
-   "tags": [
-    "#money",
-    "#history",
-    "#gold",
-    "#dollar",
-    "#finance"
-   ],
-   "comment": "What do you think backs the dollar today? 👇",
-   "thumb": "Your dollar, backed by *gold*",
-   "thumb_photo": "",
-   "thumb_tag": "MONEY HISTORY",
-   "ai_voice": false,
-   "voice": "none",
-   "made": "2026-11-03",
-   "sources": [
-    "Footage: Prelinger Archives (public domain), via Internet Archive. https://archive.org/details/WhatIsMo1947"
    ],
    "format": "clip",
    "series": "Money History, in Real Footage",

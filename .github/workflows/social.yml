@@ -134,7 +134,7 @@ jobs:
           except Exception:
               times = {}
           slots = sorted([times.get("short_midday", "06:30"), times.get("short", "15:00"),
-                          times.get("short_us", "18:30"), times.get("short_night", "22:30")])
+                          times.get("short_us", "18:30"), times.get("short_eve", "16:15"), times.get("short_night", "22:30")])
           # 4 Shorts a day: India noon, India evening, US lunchtime, US evening (more shots at a breakout)
           # GitHub often starts scheduled runs hours late, so catch up: post when a slot has
           # passed today (or is under 25 min away) and today's posts are fewer than slots passed.

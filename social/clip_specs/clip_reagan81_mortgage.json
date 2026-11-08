@@ -1,0 +1,23 @@
+{
+ "id": "clip_reagan81_mortgage",
+ "source": "reagan_1981_economy",
+ "start": 116.4,
+ "end": 124.9,
+ "headline": "Reagan in 1981: mortgage rates hit *15.4%*",
+ "quote": "They're two and a half times as high now, 15.4 percent",
+ "thumb": "Mortgage rates: *15.4%*",
+ "title": "When mortgage rates hit 15.4% (Reagan, 1981)",
+ "caption": "February 5, 1981: President Reagan compares mortgage rates with 1960.",
+ "context": "30-year mortgage rate today: *{fred:MORTGAGE30US:1:2}%*.",
+ "context_secs": 4.0,
+ "comment": "What's your mortgage rate? 👇",
+ "tags": [
+  "#mortgage",
+  "#interestrates",
+  "#reagan",
+  "#history",
+  "#money"
+ ],
+ "tag": "MONEY HISTORY",
+ "series": "Money History, in Real Footage"
+}
