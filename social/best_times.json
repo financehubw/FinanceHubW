@@ -2,16 +2,16 @@
  "times": {
   "short": "14:00",
   "briefing_morning": "02:30",
-  "briefing_evening": "13:00",
-  "short_midday": "11:30"
+  "briefing_evening": "11:30",
+  "short_midday": "09:30"
  },
  "notes": {
   "status": "ok",
-  "short": "13 posts over 3 hours; moved to 14h UTC (median reach 106)",
-  "briefing_morning": "11 posts over 3 hours",
-  "briefing_evening": "testing 13:00 UTC this week (0 posts so far)",
-  "media_seen": 47,
-  "short_midday": "moved to US morning: 89% of views are from the US (YouTube Analytics, 4 Nov)"
+  "short": "28 posts over 8 hours",
+  "briefing_morning": "18 posts over 5 hours",
+  "briefing_evening": "testing 11:30 UTC this week (0 posts so far)",
+  "media_seen": 78,
+  "short_midday": "16 posts over 4 hours; moved to 09h UTC (median reach 126)"
  },
- "updated": "2026-11-01T06:54Z"
+ "updated": "2026-11-08T13:13Z"
 }
