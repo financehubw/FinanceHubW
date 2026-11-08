@@ -3899,6 +3899,31 @@
    "sources": [
     "Mastercard price history, Yahoo Finance (split-adjusted), at render time"
    ]
+  },
+  {
+   "file": "clip_reagan81_mortgage.mp4",
+   "title": "When mortgage rates hit 15.4% (Reagan, 1981)",
+   "caption": "February 5, 1981: President Reagan compares mortgage rates with 1960.\n\nFootage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm",
+   "tags": [
+    "#mortgage",
+    "#interestrates",
+    "#reagan",
+    "#history",
+    "#money"
+   ],
+   "comment": "What's your mortgage rate? 👇",
+   "thumb": "Mortgage rates: *15.4%*",
+   "thumb_photo": "",
+   "thumb_tag": "MONEY HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-08",
+   "sources": [
+    "Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm"
+   ],
+   "format": "clip",
+   "series": "Money History, in Real Footage",
+   "ig_trial": true
   }
  ]
 }
