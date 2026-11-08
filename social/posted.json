@@ -614,6 +614,19 @@
    "failed": [],
    "errors": {},
    "format": "clip"
+  },
+  {
+   "file": "loop_rule_of_72.mp4",
+   "title": "The Rule of 72 in 10 seconds",
+   "date": "2026-11-08T22:32:14Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/vxpIpg17p5s",
+    "Instagram": "18378737482214277",
+    "Facebook": "1500109592039171"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "micro"
   }
  ]
 }
