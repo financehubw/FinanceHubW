@@ -1,24 +1,25 @@
-5 True Money Stories That Sound Made Up 2.5 min
-5 True Money Stories That Sound Made Up. 5 true money stories and lessons, with real numbers.
+/home/runner/work/FinanceHubW/FinanceHubW/social/compile_long.py:156: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  since = (dt.datetime.utcnow() - dt.timedelta(days=8)).strftime("%Y-%m-%d")
+Money History in Real Footage: 6 Moments That Shaped Your Money 2.1 min
+Money History in Real Footage: 6 Moments That Shaped Your Money. 6 moments from real footage, in the speakers' own words.
 
 0:00 Intro
-0:04 1. Kodak invented the digital camera, then went bankrupt
-0:29 2. He tried to buy a fighter jet with Pepsi points
-0:54 3. Isaac Newton lost a fortune in a stock bubble
-1:25 4. Nobel prize winners ran a fund that nearly broke Wall Street
-1:56 5. One joke wiped out £500 million
-2:21 More every week
+0:04 1. Reagan shows what inflation did to the dollar (1981)
+0:32 2. Fed Chair Warsh: Why not raise interest rates today?
+0:55 3. When US interest rates hit 21.5% (Reagan, 1982)
+1:13 4. Gold was $33 an ounce in 1933 (real newsreel)
+1:28 5. Fed Chair Warsh: "We own" the 2% inflation target
+1:46 6. Reagan warned about a $1 trillion US debt in 1982
+2:02 More every week
 
 Subscribe for a new money story every day: @FinanceHubW
-Educational content, not financial advice. Narration is AI-generated.
+Educational content, not financial advice.
 
 Sources:
-- Andrew Odlyzko, 'Newton's financial misadventures in the South Sea Bubble' (Royal Society, 2019)
-- BBC News: 'Gerald Ratner: the speech that cost £500m'
-- Federal Reserve History: 'Near Failure of Long-Term Capital Management'
-- Kodak bankruptcy filing, January 2012 (Reuters, BBC)
-- Leonard v. PepsiCo, Inc., 88 F. Supp. 2d 116 (S.D.N.Y. 1999)
-- Steve Sasson / Kodak digital camera history (Kodak, IEEE)
+- Footage: Federal Reserve Board (public domain). https://www.federalreserve.gov/monetarypolicy/fomcpresconf20261028.htm
+- Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_February_5,_1981.webm
+- Footage: Ronald Reagan Presidential Library (CC BY 3.0), via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:President_Reagan%27s_Address_to_the_Nation_on_the_Economy,_October_13,_1982.webm
+- Footage: Universal Newsreel (public domain), National Archives via Internet Archive. https://archive.org/details/1933-11-06_City_Gold_Rush_Starts
 
-#money #finance #investing #personalfinance
-long video: https://youtu.be/xUFoAG42rz0
+#money #finance #history #investing
+long video: https://youtu.be/Q5Mz8xiYbiQ
