@@ -1,3 +1,73 @@
+=== run 2026-11-08T13:51:45Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+79/171 sources returned news, 577 recent items
+138 new trusted stories, posting up to 2 this run
+skip (off-topic or nothing new): Gold, Silver Outlook: Inflation Data And Geopolitical Tensions Likely To Drive Prices This Week
+---
+🇮🇳 INDIAN STOCKS FALL, ENDING 8-YEAR DIWALI WINNING STREAK
+
+📌 Indian stock markets ended lower in Diwali trading, breaking an 8-year streak.
+📊 $HDFCBANK: ₹784.50 (-0.32%)
+
+📍 India · 📰 Mint · ✅ 7 sources
+https://www.livemint.com/market/stock-market-news/diwali-muhurat-trading-2026-why-hdfc-bank-shares-a-talking-point-today-amid-samvat-2083-despite-13-monthly-rally-11794130829551.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the market decline, 8‑year streak, and HDFC Bank price/percentage are directly supported by the cited Mint article and other sources
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: FAIL - The source states the stock had risen 13.32% in the past week, but the draft implies a 13-monthly rally (or misattributes the 13% figure to a monthly period not supported by the text which specifies '
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS FALL IN MUHURAT TRADING FOR 1ST TIME SINCE 2017
+
+📌 India's Sensex and Nifty closed lower in Muhurat trading for the 1st time since 2017.
+📊 Diwali session loss: 8th time in 30 years
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/market/stock-market-news/muhurat-trading-2026-samvat-2082-ends-samvat-2083-begins-sensex-nifty-end-in-red-first-time-after-2017-reasons-11794130754040.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the first negative Muhurat close since 2017 and the eighth loss in 30 years are directly supported by the Mint articles.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the cited Mint sources.
+  Groq Qwen: PASS - All factual claims regarding the first negative close since 2017 and the 8th time in 30 years are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-db226dae0fc7
+---
+🇮🇳 SEBI LAUNCHES NEW MARKET SETTLEMENT RULES FOR 2026
+
+📌 SEBI (India market regulator) made its new 2026 dispute settlement rules active.
+💡 It allows market rule cases to be settled faster without long legal battles.
+
+📍 India · 📰 SEBI · 🏛️ Official
+https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/commencement-of-sebi-settlement-of-administrative-and-civil-proceedings-regulations-2026_105680.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that the rules specifically allow "market rule cases" to be settled faster is not directly stated in the source, which refers to settlement of administrative and civil proceedings generally.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN RUPEE TRADES AGAINST US DOLLAR
+
+📌 Reports show mixed moves for the Indian rupee against the US dollar.
+#Rupee
+
+📍 India · 📰 Day · ✅ 2 sources
+https://news.google.com/rss/articles/CBMivgFBVV95cUxQUXA2cVF6QlZjX1V6MmpBbXM0Um9XUTR0UHJsR1V3cUNnMUxNVmtRbkd2Mldzd2xhV1RfWjRhSEZ4R3dlUEF0bG1JcVdQU1plZnJMN2pvOVV0YUJiYi01aDVYbm5vTm10blMyVGZSOGtldW01bkFTVGdsN2Y5ZDdEVmluZEY5N3RuOFhJSzlBakl2eEt4a2dmVTRaM3ZRMzJDTE1jVzQ2MnAwZG9NejZCYlJQYkMwWE5vVTFuMjl3?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source name 📰 "Day" does not exactly match the listed sources (Mid-Day and News On AIR).
+  -> blocked by fact-check
+---
+🇮🇳 FOREIGN INVESTORS BUY ₹46,000 CRORE OF INDIAN STOCKS
+
+📌 Foreign investors put ₹45,970 crore into Indian stocks in November.
+📊 Foreign inflows: ₹45,970 crore
+
+📍 India · 📰 Mint
+https://www.livemint.com/market/stock-market-news/global-ai-sell-off-turns-into-indias-gain-as-fpis-pump-rs-46-000-crore-in-5-sessions-will-the-buying-spree-sustain-11794135940793.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and contextual claims are directly supported by the Mint article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint article.
+  Groq Qwen: PASS - All factual claims regarding the amount (₹45,970 crore), timeframe (November), entity (Foreign investors/FPIs), and source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d1c511cfd271
+done: 2 post(s) this run
 === run 2026-11-08T06:40:02Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1428,73 +1498,3 @@ daily cap: 12, room left in the last 24h: 9
 --- special
 🌐 GLOBAL MARKETS OVERNIGHT
 
-🔴 S&P 500: 7,580 (-1.82%)
-🔴 Nasdaq: 25,437 (-2.86%)
-🔴 Dow: 51,770 (-1.09%)
-🟢 FTSE 100: 10,730 (+0.07%)
-🔴 Nikkei: 63,247 (-0.07%)
-🔴 Brent oil: $111.05 (-5.60%)
-
-🟢 up · 🔴 down · vs previous close
-#Markets #StockMarket
-published to: website, Instagram Story
-89/171 sources returned news, 739 recent items
-175 new trusted stories, posting up to 3 this run
----
-🇮🇳 GIFT NIFTY JUMPS 205 POINTS
-
-📌 Gift Nifty rose 205 points to 23,291, pointing to a positive open for Indian stocks.
-📊 Gift Nifty: 23,291 (+0.89%)
-#Nifty
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-2-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-11793580087099.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All figures, percentages, and interpretation are directly supported by the Livemint source.
-  Groq GPT-OSS 20B: FAIL - The claim that there are 2 sources is unsupported; only one source is listed.
-  -> blocked by fact-check
----
-🇺🇸 US DOLLAR FLAT AHEAD OF MIDTERMS AS BITCOIN FALLS
-
-📌 The US dollar held steady at 101.94, while bitcoin dropped after a crypto theft.
-📊 Dollar: 101.94
-#Dollar
-
-📍 US · 📰 All News · ✅ 6 sources
-https://www.investing.com/news/forex-news/dollar-rangebound-ahead-of-us-midterms-bitcoin-reels-from-crypto-heist-4989794
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (dollar at 101.94, flat ahead of midterms, bitcoin fell after a crypto theft) are directly supported by the cited source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
-  Groq Qwen: PASS - All factual claims regarding the dollar level (101.94), market direction (flat/rangebound), and the cause of the bitcoin drop (crypto heist) are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-55d4703b8e37
----
-🇮🇳 FOREIGN INVESTORS INCREASE BUYING IN INDIAN STOCKS
-
-📌 Foreign investors are buying Indian stocks again as company earnings improve.
-💡 Foreign investment usually shows confidence in a country's businesses.
-#India
-
-📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/stocks/news/november-could-favour-bulls-but-macro-headwinds-cloud-outlook/articleshow/135441344.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about foreign investors buying Indian stocks due to earnings improvement are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - All factual claims regarding foreign investor buying, improving earnings, and the source attribution are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-19cc997ec502
----
-🌏 ASIAN SHARES FALL OVER HEAVY AI SPENDING WORRIES
-
-📌 Asian stocks fell as heavy AI spending raised cash flow concerns.
-📊 Gold: 1-year low
-💡 High spending can lower short-term cash flow for companies.
-#Asia
-
-📍 Asia · 📰 Economic Times · ✅ 5 sources
-https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asia-shares-bend-under-ai-stress-apple-earnings-loom/articleshow/135441259.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about Asian shares falling, AI spending cash‑flow concerns, and gold hitting a one‑year low are directly supported by the cited source.
-  Groq GPT-OSS 20B: FAIL - The post claims 5 sources, but the list actually contains 6.
-  -> blocked by fact-check
----
