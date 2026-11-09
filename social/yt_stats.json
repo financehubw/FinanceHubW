@@ -1,31 +1,31 @@
 {
  "channel": {
-  "viewCount": "10781",
-  "subscriberCount": "10",
+  "viewCount": "14525",
+  "subscriberCount": "11",
   "hiddenSubscriberCount": false,
-  "videoCount": "44"
+  "videoCount": "50"
  },
  "analytics": "ok",
  "traffic_sources": {
-  "SHORTS": 8413,
-  "YT_SEARCH": 303,
-  "YT_OTHER_PAGE": 173,
+  "SHORTS": 10162,
+  "YT_SEARCH": 327,
+  "YT_OTHER_PAGE": 223,
   "YT_CHANNEL": 22,
-  "SUBSCRIBER": 6,
+  "SUBSCRIBER": 9,
   "EXT_URL": 4,
   "NO_LINK_OTHER": 1,
   "SOUND_PAGE": 1,
   "RELATED_VIDEO": 0
  },
  "countries": {
-  "US": 5339,
-  "CA": 375,
-  "GB": 284,
-  "AU": 122,
-  "IN": 121,
+  "US": 6663,
+  "CA": 468,
+  "GB": 355,
+  "AU": 151,
+  "IN": 151,
+  "DE": 82,
+  "NL": 66,
   "IE": 54,
-  "NL": 50,
-  "DE": 49,
   "PH": 20,
   "SG": 20,
   "ID": 0
@@ -457,10 +457,10 @@
    "posted": "2026-11-03T18:38:45Z",
    "title": "Reagan shows what inflation did to the dollar (1981) #Shorts",
    "duration": "PT29S",
-   "views": 4251,
+   "views": 4258,
    "likes": 61,
    "comments": 2,
-   "avg_view_pct": 100.2,
+   "avg_view_pct": 100.6,
    "avg_view_sec": 29,
    "subs_gained": 2,
    "shares": 4
@@ -516,8 +516,8 @@
    "views": 84,
    "likes": 2,
    "comments": 1,
-   "avg_view_pct": 92.9,
-   "avg_view_sec": 16,
+   "avg_view_pct": 88.3,
+   "avg_view_sec": 15,
    "subs_gained": 0,
    "shares": 0
   },
@@ -527,7 +527,7 @@
    "posted": "2026-11-05T11:33:04Z",
    "title": "Fed Chair Warsh: Why not raise interest rates today? #Shorts",
    "duration": "PT24S",
-   "views": 1224,
+   "views": 1230,
    "likes": 5,
    "comments": 1,
    "avg_view_pct": 49.0,
@@ -541,11 +541,11 @@
    "posted": "2026-11-05T19:11:40Z",
    "title": "A janitor quietly left $8 million | Money Stories #7 #Shorts",
    "duration": "PT26S",
-   "views": 45,
+   "views": 46,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 250,
-   "avg_view_sec": 65,
+   "avg_view_pct": 93.8,
+   "avg_view_sec": 24,
    "subs_gained": 0,
    "shares": 0
   },
@@ -555,9 +555,13 @@
    "posted": "2026-11-06T11:32:02Z",
    "title": "When US interest rates hit 21.5% (Reagan, 1982) #Shorts",
    "duration": "PT19S",
-   "views": 1432,
-   "likes": 13,
-   "comments": 3
+   "views": 1996,
+   "likes": 15,
+   "comments": 3,
+   "avg_view_pct": 91.6,
+   "avg_view_sec": 17,
+   "subs_gained": 0,
+   "shares": 1
   },
   {
    "id": "2c487mK0xTw",
@@ -565,9 +569,13 @@
    "posted": "2026-11-06T15:28:01Z",
    "title": "Compound interest explained in 20 seconds | Compound Interest #1 #Shorts",
    "duration": "PT28S",
-   "views": 204,
+   "views": 239,
    "likes": 4,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 54.5,
+   "avg_view_sec": 15,
+   "subs_gained": 1,
+   "shares": 0
   },
   {
    "id": "q6F3GK0qS4A",
@@ -575,7 +583,7 @@
    "posted": "2026-11-07T11:33:08Z",
    "title": "$7 a day could become $661,889 #Shorts",
    "duration": "PT10S",
-   "views": 166,
+   "views": 199,
    "likes": 0,
    "comments": 1
   },
@@ -585,8 +593,8 @@
    "posted": "2026-11-07T15:14:51Z",
    "title": "Gold was $33 an ounce in 1933 (real newsreel) #Shorts",
    "duration": "PT15S",
-   "views": 1493,
-   "likes": 21,
+   "views": 1579,
+   "likes": 22,
    "comments": 3
   },
   {
@@ -595,7 +603,7 @@
    "posted": "2026-11-07T18:32:06Z",
    "title": "A secretary secretly built $9 million | Money Stories #8 #Shorts",
    "duration": "PT27S",
-   "views": 74,
+   "views": 132,
    "likes": 1,
    "comments": 1
   },
@@ -605,8 +613,58 @@
    "posted": "2026-11-07T22:32:03Z",
    "title": "Fed Chair Warsh: \"We own\" the 2% inflation target #Shorts",
    "duration": "PT19S",
-   "views": 1114,
-   "likes": 7,
+   "views": 1586,
+   "likes": 9,
+   "comments": 1
+  },
+  {
+   "id": "QMC1VKVXkn0",
+   "file": "loop_retire_25x.mp4",
+   "posted": "2026-11-08T11:32:12Z",
+   "title": "How much do you need to retire? The 25x rule #Shorts",
+   "duration": "PT12S",
+   "views": 120,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "niYcJfFmCiI",
+   "file": "clip_reagan82_debt.mp4",
+   "posted": "2026-11-08T14:03:04Z",
+   "title": "Reagan warned about a $1 trillion US debt in 1982 #Shorts",
+   "duration": "PT17S",
+   "views": 3839,
+   "likes": 43,
+   "comments": 7
+  },
+  {
+   "id": "lFeNNxqha8A",
+   "file": "sp500_beginners.mp4",
+   "posted": "2026-11-08T16:17:35Z",
+   "title": "How to invest in the S&P 500 (beginner, 30 seconds) #Shorts",
+   "duration": "PT33S",
+   "views": 121,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "g7yZiMNcFhI",
+   "file": "clip_money47_gold.mp4",
+   "posted": "2026-11-08T18:32:26Z",
+   "title": "How a 1947 film explained money (and what changed in 1971) #Shorts",
+   "duration": "PT21S",
+   "views": 66,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "vxpIpg17p5s",
+   "file": "loop_rule_of_72.mp4",
+   "posted": "2026-11-08T22:32:14Z",
+   "title": "The Rule of 72 in 10 seconds #Shorts",
+   "duration": "PT11S",
+   "views": 120,
+   "likes": 0,
    "comments": 1
   }
  ]
