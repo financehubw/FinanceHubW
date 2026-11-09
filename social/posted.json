@@ -627,6 +627,19 @@
    "failed": [],
    "errors": {},
    "format": "micro"
+  },
+  {
+   "file": "clip_oil73.mp4",
+   "title": "When oil prices quadrupled in 1973 (real 1975 film)",
+   "date": "2026-11-09T09:32:50Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/Z3e6KDOoK08",
+    "Instagram": "18131492911812451",
+    "Facebook": "4372777253032761"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
