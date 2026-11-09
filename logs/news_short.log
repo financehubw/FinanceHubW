@@ -1,13 +1,11 @@
 /home/runner/work/FinanceHubW/FinanceHubW/social/news_short.py:27: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   now = dt.datetime.utcnow()
-news short: Crypto etfs lose $530 million in one day (today's money news)
-rendering news_20261106
-  -> news_20261106.mp4 | Crypto etfs lose $530 million in one day (today's money news)
-[vost#0:0/rawvideo @ 0x56526f3a9c00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x56526f2f6c00] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55801f8c7000] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55801f86fd00] Error muxing a packet
-[out#0/rawvideo @ 0x56526f2f6c00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55801f86fd00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x56526f2f6c00] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55801f86fd00] Error closing file: Broken pipe
+news short: Pnc bank tests usdc payments for firms (today's money news)
+rendering news_20261109
+  ElevenLabs unavailable (ElevenLabs 401: {"detail":{"type":"invalid_request","code":"quota_exceeded","message":"This request exceeds your quota of 10000. You have 23 credits remaining, while 28 credits are required for this request.","status); using the free voice for the rest of this run
+  voice retry 1: No audio was received. Please verify that your parameters are correct.
+  -> news_20261109.mp4 | Pnc bank tests usdc payments for firms (today's money news)
+[vost#0:0/rawvideo @ 0x56329d319900] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x56329d27dcc0] Error muxing a packet
+[out#0/rawvideo @ 0x56329d27dcc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x56329d27dcc0] Error closing file: Broken pipe
