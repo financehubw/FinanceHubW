@@ -1,34 +1,33 @@
-rendering monthly_v_2008
-  -> monthly_v_2008.mp4 | $100 a month into Visa since 2008 is now worth this
-rendering whatif_brkb_1996
-  -> whatif_brkb_1996.mp4 | $1,000 in Berkshire Hathaway in 1996 is now worth this
-rendering whatif_ma_2006
-  -> whatif_ma_2006.mp4 | $1,000 in Mastercard in 2006 is now worth this
-[vost#0:0/rawvideo @ 0x55f150c1bc00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55f150b99200] Error muxing a packet
-[vost#0:0/rawvideo @ 0x5593b6fa2840] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5593b6f5c480] Error muxing a packet
-[vost#0:0/rawvideo @ 0x5608667a2e80] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x56086679de40] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55a493336f00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55a4932a78c0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x555d2f325f00] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x555d2f2aaa00] Error muxing a packet
-[vost#0:0/rawvideo @ 0x558887d856c0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x558887d31e40] Error muxing a packet
-[out#0/rawvideo @ 0x558887d31e40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55f150b99200] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x558887d31e40] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55f150b99200] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x5593b6f5c480] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5593b6f5c480] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55a4932a78c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55a4932a78c0] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x563121939c80] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x5631217e1a40] Error muxing a packet
-[out#0/rawvideo @ 0x555d2f2aaa00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x555d2f2aaa00] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x56086679de40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x56086679de40] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x5631217e1a40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5631217e1a40] Error closing file: Broken pipe
+rendering whatif_gld_2004
+  -> whatif_gld_2004.mp4 | $1,000 in gold in 2004 is now worth this
+rendering whatif_qqq_1999
+  ElevenLabs unavailable (ElevenLabs 401: {"detail":{"type":"invalid_request","code":"quota_exceeded","message":"This request exceeds your quota of 10000. You have 23 credits remaining, while 32 credits are required for this request.","status); using the free voice for the rest of this run
+  voice retry 1: No audio was received. Please verify that your parameters are correct.
+  voice retry 2: No audio was received. Please verify that your parameters are correct.
+  -> whatif_qqq_1999.mp4 | $1,000 in the Nasdaq 100 in 1999 is now worth this
+rendering whatif_spy_1993
+  -> whatif_spy_1993.mp4 | $1,000 in the S&P 500 in 1993 is now worth this
+[vost#0:0/rawvideo @ 0x563d8b837180] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x563d8b7a4dc0] Error muxing a packet
+[vost#0:0/rawvideo @ 0x55ecfb0d0d40] Error submitting a packet to the muxer: Broken pipe
+[vost#0:0/rawvideo @ 0x555a09bc6cc0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55ecfb079c00] Error muxing a packet
+[out#0/rawvideo @ 0x555a09b3fa40] Error muxing a packet
+[out#0/rawvideo @ 0x555a09b3fa40] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x555a09b3fa40] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x55ecfb079c00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55ecfb079c00] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x557d7b4cb500] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x557d7b477d00] Error muxing a packet
+[vost#0:0/rawvideo @ 0x558a6ee19ac0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x558a6ee19f00] Error muxing a packet
+[out#0/rawvideo @ 0x558a6ee19f00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x558a6ee19f00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x563d8b7a4dc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x563d8b7a4dc0] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x559d2fc485c0] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x559d2fbf4dc0] Error muxing a packet
+[out#0/rawvideo @ 0x557d7b477d00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x557d7b477d00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x559d2fbf4dc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x559d2fbf4dc0] Error closing file: Broken pipe

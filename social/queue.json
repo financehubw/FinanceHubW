@@ -3924,6 +3924,75 @@
    "format": "clip",
    "series": "Money History, in Real Footage",
    "ig_trial": true
+  },
+  {
+   "file": "whatif_gld_2004.mp4",
+   "title": "$1,000 in gold in 2004 is now worth this",
+   "caption": "In 2004, gold was the first big gold ETF.\n$1,000 in it then would be worth about $8,394 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with gold in 2004? 👇",
+   "thumb": "$1,000 in gold 2004 = *$8,394*",
+   "thumb_photo": "gold bars",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-09",
+   "sources": [
+    "gold price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_qqq_1999.mp4",
+   "title": "$1,000 in the Nasdaq 100 in 1999 is now worth this",
+   "caption": "In 1999, the Nasdaq 100 was tech stocks, just before the crash.\n$1,000 in it then would be worth about $12,849 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with the Nasdaq 100 in 1999? 👇",
+   "thumb": "$1,000 in the Nasdaq 100 1999 = *$12,849*",
+   "thumb_photo": "nasdaq screen",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "free",
+   "made": "2026-11-09",
+   "sources": [
+    "the Nasdaq 100 price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_spy_1993.mp4",
+   "title": "$1,000 in the S&P 500 in 1993 is now worth this",
+   "caption": "In 1993, the S&P 500 was the first US index ETF.\n$1,000 in it then would be worth about $16,735 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with the S&P 500 in 1993? 👇",
+   "thumb": "$1,000 in the S&P 500 1993 = *$16,735*",
+   "thumb_photo": "wall street",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "free",
+   "made": "2026-11-09",
+   "sources": [
+    "the S&P 500 price history, Yahoo Finance (split-adjusted), at render time"
+   ]
   }
  ]
 }
