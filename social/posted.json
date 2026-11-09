@@ -665,6 +665,19 @@
    "failed": [],
    "errors": {},
    "format": "clip"
+  },
+  {
+   "file": "loop_50_30_20.mp4",
+   "title": "The 50/30/20 rule in 10 seconds",
+   "date": "2026-11-09T18:32:11Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/HjPrsUlRweA",
+    "Instagram": "18084939611338592",
+    "Facebook": "1814425639863626"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "micro"
   }
  ]
 }
