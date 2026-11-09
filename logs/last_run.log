@@ -1,3 +1,94 @@
+=== run 2026-11-09T19:09:46Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+100/171 sources returned news, 960 recent items
+245 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US STOCKS REBOUND AS NASDAQ JUMPS OVER 3%
+
+📌 US stocks rose on Monday, with the Nasdaq jumping over 3% despite a drop in Nvidia.
+📊 Nasdaq: +3%
+
+📍 US · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/market/stock-market-news/wall-street-bounces-back-from-ai-sell-off-nasdaq-rallies-over-3-but-nvidia-plunges-9-on-jensen-huang-controversy-11794238373887.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims Nasdaq rose exactly +3%, but the source only reports it rose over 3%.
+  -> blocked by fact-check
+---
+🇺🇸 UNITED STATES OIL FUND REPORTS Q3 EARNINGS
+
+📌 United States Oil Fund released its earnings report for the third quarter.
+#Oil
+
+📍 US · 📰 marketscreener.com · ✅ 4 sources
+https://news.google.com/rss/articles/CBMi5wFBVV95cUxOaDA4MFZsWVBZWnJkS2JzdGtSQXMwRm5mUmxYYjFsLWxMNUUtQ0l5bzJCOG5mRGJ3bnVXRHpNeElOQjhHYWZBbmVFci16aEtuTHRlS1ZlbXZvVmR5VTVuNEIzTEhvbTZ4RXdwMHJ1ZFpycWZnQnBWZUp2WUVvMFlkOUN2RXZZbzAtbkJCbUtYcFgxakVZQzhOd1FDZTZsQmhIXzhqTHVFWlpucVdLajdkYzJ5WWFwU2VZR3ltdHRsdTlPelF3N2hsZzZEcWdWNlZ3dmVsNFRjSkxPMGZ0WHVHWFVCeC1DZVE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - The post only states that the United States Oil Fund released its Q3 earnings report, which is directly confirmed by the cited marketscreener.com article.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 4 sources, but lists 6, which is unsupported.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Oil prices and bond yields no longer moving together
+skip (off-topic or nothing new): Ethereum Price Slips Against Bitcoin as ETH/BTC Breakout Fails
+---
+🇺🇸 MORGAN STANLEY BUYS VINYL EQUITY
+
+📌 Morgan Stanley bought Vinyl Equity to handle more IPO (when a company sells shares to the public first time) work.
+📊 Morgan Stanley: +4%
+#StockMarket
+
+📍 US · 📰 Yahoo Finance · ✅ 5 sources
+https://news.google.com/rss/articles/CBMitwFBVV95cUxPd3QtdF93VHl1TWc5TUttOUZ3UXB3aDZtZERvRTJUdVJFSFZseTdpM1Z3RFo2SUhvTTJzNkNYbW9TaEhyNExwbGloZXdiSTFmbUZpcEY1XzgtcWJzN2YwWnVQMnJDOHNlZGhfZ3A1V1RBT3g2WHFuTEtheGx2OWcwOHBucmQtam1lX0dWS0M5WWJYQ2Rla080QVY3ZTltMUlWNFo4YUdlY3Bpa1Z2cUpDMGxxVzNEMlE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the listed sources
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: PASS - All factual claims regarding the acquisition, the rationale (IPO work), and the specific stock price increase (+4%) are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: FAIL - (plain-text verdict)
+  -> blocked by fact-check
+skip (off-topic or nothing new): Fed ‘going to have little patience with inflation’: Russell Investments By Investing.com
+---
+🇺🇸 U.S. INFLATION REMAINS HIGH
+
+📌 Prices in the U.S. are still rising fast. The central bank plans to raise borrowing costs soon.
+💡 Higher rates usually make loans costlier
+#Fed
+
+📍 US · 📰 MarketWatch.com
+https://www.marketwatch.com/story/hot-u-s-inflation-hasnt-cooled-off-rising-consumer-prices-to-keep-fed-rate-hike-on-track-926c44b0?mod=mw_rss_topstories
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about ongoing U.S. inflation, rising prices, and the Fed's likely rate hike are directly supported by the MarketWatch article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the MarketWatch article and the explanation is a widely accepted general fact.
+  Groq Qwen: PASS - All factual claims regarding high inflation, the Fed's plan to raise rates, and the source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-c63ed0cf2e1b
+skip (off-topic or nothing new): Upcoming IPO: Veritas Finance gets Sebi nod to launch public issue – Top things for investors
+---
+🇺🇸 NVIDIA SHARES FALL AFTER SPY PROBE
+
+📌 Nvidia shares dropped after its board opened an investigation into CEO Jensen Huang.
+📊 $NVDA
+💡 Lower stock prices can reduce the value of retirement accounts and funds.
+
+📍 US · 📰 BBC News · ✅ 8 sources
+https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six sources are provided, so that factual claim is unsupported.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Fed should move policy 'with care' as it responds to inflation, Barkin says
+---
+🇺🇸 PNC BANK TESTS USDC PAYMENTS FOR FIRMS
+
+📌 PNC Bank now lets big business clients accept stablecoin (cryptocurrency pegged to a real currency) payments.
+
+📍 US · 📰 The Block · ✅ 4 sources
+https://www.theblock.co/news/business/2026-11-09-coinbase-pnc-bank-expand-partnership-with-usdc-payments-corporate-clients-436466
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about PNC testing USDC payments for corporate clients, the US location, and source attribution are directly supported by the listed sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding PNC Bank's pilot of USDC payments for corporate clients are supported by the sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-e7bb5f0078bf
+skip (off-topic or nothing new): Will a Federal Reserve Interest Rate Hike Trigger a Recession? Here's What History Says.
+done: 2 post(s) this run
 === run 2026-11-09T07:12:13Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1407,94 +1498,3 @@ https://news.google.com/rss/articles/CBMikAFBVV95cUxQMU1WSUxDYnh0NXp0ZnFMbHhIWXB
   written by Gemini
   Groq GPT-OSS: PASS - All factual statements about the ₹42,000 drop and Indian context are directly supported by the cited sources
   Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: FAIL - The source 'Laodong.vn' reports that silver prices increased and precious metals recovered, which contradicts the post's claim that gold prices fell/crashed.
-  -> blocked by fact-check
----
-🌐 GOLD FALLS OVER 30% TO ONE-YEAR LOW
-
-📌 Gold prices dropped over 30% from their January high to a one-year low.
-📊 Gold: -30% from January peak
-💡 Lower gold prices can reduce the value of existing gold holdings.
-#Gold
-
-📍 Global · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/commodities/explained-why-gold-investors-should-tone-down-expectations-as-yellow-metal-plunges-to-a-1-year-low/articleshow/135449976.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about the >30% drop to a one-year low are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: FAIL - Location does not match source
-  -> blocked by fact-check
----
-🇮🇳 RELIANCE LEADS INDIAN STOCK MARKET RALLY
-
-📌 Indian stock markets rose on Monday, led by energy firm $RELIANCE.
-📊 $RELIANCE: Surged 5% or more
-
-📍 India · 📰 Moneycontrol.com · ✅ 2 sources
-https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYWhtRWlBcjZGTjlCMjJzbmNBVzJ4b085RWd3VFBhVnpEVktld0pKNUNZOENFbFIzM1ByV2NodDFqR3E1VklPQmM0UEozSXFPZWk2TjAtWlBuOV9KR3U0U3RBLTRaTjR5V1pwQ1lrdU9IVHF3aHFnMDhLV09hcjNldl9xVG94V3BrRVZCLXNfS0NHS21sT2dPajFvYkxVUVF0aUpNNkhmMktqMDJqbkJoSXUxb1RSenUtcU5DWF9kYVIxS0x3anRkdzdXOHRoVndYYmczZF94OXk0U0RCZzh6YVM0ZTlNVmvSAecBQVVfeXFMT2FobUVpQXI2Rk45QjIyc25jQVcyeG9POUVnd1RQYVZ6RFZLZXdKSjVDWThDRWxSMzNQcldjaHQxakdxNVZJT0JjNFBKM0lxT2VpNk4wLVpQbjlfSkd1NFN0QS00Wk40eVdacENZa3VPSFRxd2hxZzA4S1dPYXIzZXZfcVRveFdwa0VWQi1zX0tDR0ttbE9nT2oxb2JMVVFRdGlKTTZIZjJLajAyam5CaEl1MW9UUnp1LXFOQ1hfZGFSMUtMd2p0ZHc3Vzh0aFZ3WGJnM2RfeDl5NFNEQmc4emFTNGU5TVZr?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the Monday rally, Reliance's >5% surge, and market rise are directly supported by the Moneycontrol sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited Moneycontrol sources.
-  Groq Qwen: PASS - All factual claims regarding the market rally, Reliance's 5% surge, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-6049c102b517
----
-🌐 GOLD RISES 0.9% TO $3,907 PER OUNCE
-
-📌 Spot gold rose 0.9% to $3,907.94 an ounce after touching a one-year low.
-📊 Gold: $3,907.94 (+0.9%)
-
-📍 Global · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
-https://www.thehindubusinessline.com/markets/gold/gold-rises-on-softer-oil-markets-parse-fed-signals/article71655715.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All figures, percentage, price, and one-year low claim are directly supported by the source.
-  Groq GPT-OSS 20B: FAIL - Source name does not match the cited BusinessLine article
-  -> blocked by fact-check
----
-🇮🇳 GOLD AND SILVER PRICES RISE IN INDIA
-
-📌 Gold rose to ₹1,39,112 and silver to ₹1,81,999 as Nifty passed 23,300.
-📊 MCX Gold: ₹1,39,112
-💡 Precious metals cost more to buy when market prices go up.
-#Gold
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/money/personal-finance/mcx-gold-vs-mcx-silver-rates-today-2-nov-check-how-precious-metals-are-performing-on-monday-amid-sensex-nifty-surge-11793601809697.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All price, Nifty, and explanation claims are directly supported by the Mint source
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
-  Groq Qwen: PASS - All factual claims regarding prices, indices, and source attribution are directly supported by the Mint source.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-a96c603deff3
-done: 2 post(s) this run
-=== run 2026-11-02T07:17:41Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-107/171 sources returned news, 1020 recent items
-243 new trusted stories, posting up to 3 this run
----
-🇮🇳 INDIAN RUPEE DROPS 21 PAISE AGAINST US DOLLAR
-
-📌 The Indian rupee fell 21 paise against the US dollar in early trading.
-📊 Rupee: Down 21 paise
-
-📍 India · 📰 Economic Times · ✅ 7 sources
-https://economictimes.indiatimes.com/markets/forex/rupee-falls-21-paise-to-94-97-against-us-dollar-in-early-trade/articleshow/135446133.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (drop of 21 paise, early trade, India, Economic Times source) are directly supported by the cited articles.
-  Groq GPT-OSS 20B: FAIL - The claim that there are 7 sources is not supported by the cited Economic Times article.
-  -> blocked by fact-check
----
-🇮🇳 GOLD AND SILVER PRICES RISE IN INDIA
-
-📌 Gold rose by Rs 613 and silver jumped Rs 2,800 on MCX ahead of Diwali.
-📊 MCX Gold: Rs 1,39,098 per 10g
-
-📍 India · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-rise-rs-600/10-grams-silver-jumps-rs-3000/kg-ahead-of-diwali-but-rate-hike-bets-linger-what-should-you-do/articleshow/135446161.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 2 sources" but the provided list contains more than two distinct sources
-  -> blocked by fact-check
----
-🇮🇳 COAL INDIA UNIT SECL FILES FOR IPO
-
-📌 Coal India unit SECL filed for an IPO to sell 66.81 crore shares.
