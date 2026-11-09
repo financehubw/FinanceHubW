@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "ASIA-PACIFIC",
+   "text": "Philippine gross domestic product growth slowed to 2.1% in the third quarter."
+  },
+  {
+   "name": "EUROPE",
+   "text": "The European Central Bank, European Commission and ESMA seek nominations for the tokenisation group."
+  },
+  {
+   "name": "THE AMERICAS",
+   "text": "Canada extends its tariff relief program for companies importing goods from the United States."
+  }
+ ],
+ "story_ids": [
+  23,
+  20,
+  10,
+  11,
+  30,
+  31,
+  16
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 23,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 20,
+   "free_checkers": "Groq GPT-OSS: FAIL - The source does not support the specific claim of a 1% increase in borrowing costs before Christmas."
+  },
+  {
+   "slot": "biz",
+   "story": 10,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 11,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 30,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 31,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 16,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "MARA's bitcoin sale",
+ "cover_dek": "MARA posted a $634.4 million profit and sold 13,597 bitcoin to repay debt.",
+ "big_headline": "MARA sold 13,597 bitcoin to repay $750 million in loans.",
+ "big_body": "MARA sold 13,597 bitcoin for $1.1 Billion to repay $750 million in loans. The company posted a $634.4 million Q3 net profit as it pivots to AI.",
+ "big_stat": "40%",
+ "big_stat_l1": "MARA sold about this much",
+ "big_stat_l2": "of its bitcoin holdings",
+ "pol_headline": "US inflation has not cooled",
+ "pol_body": "US consumer prices are still rising. This keeps the Fed, the US central bank, on track to increase borrowing costs before Christmas.",
+ "pol_stat": "+1%",
+ "pol_stat_l1": "higher borrowing costs",
+ "pol_stat_l2": "expected before Christmas",
+ "biz_headline": "Rocket Lab posts Q3 results",
+ "biz_body": "Rocket Lab had positive cash flow, or cash from business operations. Its backlog, which is future work, grew.",
+ "biz_stats": [
+  {
+   "value": "52%",
+   "name": "Backlog growth",
+   "note": "sequential rate"
+  },
+  {
+   "value": "$1.2bn",
+   "name": "Backlog added",
+   "note": "in third quarter"
+  }
+ ],
+ "up_headline": "Tuesday: October inflation report",
+ "up_body": "A key report on October inflation comes out Tuesday. Headline CPI is expected to rise 0.3%, while core is forecast to increase 0.2%.",
+ "cover_photo": "pumpjack",
+ "big_photo": "tanker",
+ "pol_photo": "fed",
+ "biz_photo": "rocket",
+ "up_photo": "nyse",
+ "sources_used": [
+  "CNBC",
+  "CTV News",
+  "ESMA",
+  "Economy",
+  "KuCoin",
+  "MLQ.ai",
+  "MarketWatch",
+  "MarketWatch.com"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "+2.3%",
+    "color": "#0B6B3A",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,550."
+   },
+   {
+    "chg": "+1.8%",
+    "color": "#0B6B3A",
+    "text": "<strong>Gold</strong> rose to about $4,150 an ounce."
+   },
+   {
+    "chg": "+0.8%",
+    "color": "#0B6B3A",
+    "text": "<strong>Bitcoin</strong> trades at about $75,202."
+   }
+  ]
+ },
+ "status": "draft"
+}

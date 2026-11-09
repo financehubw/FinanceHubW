@@ -1,36 +1,27 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-101/171 sources returned news, 1105 recent items
-  big #3 draft 1: Groq GPT-OSS: PASS - All job count, unemployment rate, and expectation figures are confirmed by the cited sources | Groq GPT-OSS 20B: PASS - All numerical and factual statements are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding job numbers, unemployment rates, and expectations are supported by the provided sources.
-  big: story #3 ok in 18s
-  pol: rejected: pol_body must be 1-170 characters (it is 179); these numbers are not in the source: 4.7
-  pol: rejected: pol_body must be 1-170 characters (it is 179); these numbers are not in the source: 5.24
-  pol: rejected: these numbers are not in the source: 5.2
-  pol: story #1 failed in 164s
-  pol #16 draft 1: Groq GPT-OSS: PASS - All numbers and claims are directly supported by the Bitcoin Magazine source. | Groq GPT-OSS 20B: PASS - All numerical and factual claims are directly supported by the Bitcoin Magazine source. | Groq Qwen: PASS - All factual claims regarding the $474.8M net income, $533.7M unrealized gain, and 63.2% yield are directly supported by the Bitcoin Magazine source.
-  pol: story #16 ok in 3s
-  biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: biz_stats note must be 1-18 characters; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); these numbers are not in the source: 100
-  biz: story #15 failed in 2s
-  biz: rejected: biz_stats value must be 1-7 characters; biz_stats note must be 1-18 characters; biz_stats value must be 1-7 characters
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: story #31 failed in 2s
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: biz_stats value must be 1-7 characters; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4b
-  biz: story #8 failed in 2s
-  biz: rejected: biz_stats note must be 1-18 characters
+98/171 sources returned news, 1054 recent items
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: rejected: these numbers are not in the source: 0
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: story #24 failed in 82s
+  big #23 draft 1: Groq GPT-OSS: PASS - All numeric and factual claims are directly supported by the provided sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the profit amount, bitcoin quantity, loan repayment amount, sale value, and percentage of holdings are supported by the provided sources.
+  big: story #23 ok in 23s
+  pol: rejected: pol_stat must be 1-7 characters (it is 0); pol_stat_l1 must be 1-26 characters (it is 0); pol_stat_l2 must be 1-30 characters (it is 0); pol_stat must be a meaningful figure with a unit, like $100+, 5
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); these numbers are not in the source: 0
+  pol #20 draft 3: Groq GPT-OSS: FAIL - The source does not support the specific claim of a 1% increase in borrowing costs before Christmas.
+  pol: story #20 ok in 396s
   biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz #33 draft 3: Groq GPT-OSS: PASS - All numerical and factual statements are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and factual claims are directly supported by the cited sources. | Groq Qwen: PASS - All numerical claims (51% revenue jump, -69% mining revenue, +774% AI lease revenue) and the narrative that HPC leasing overtook bitcoin mining are directly supported by the provided sources.
-  biz: story #33 ok in 67s
-  up #17 draft 1: Groq GPT-OSS: PASS - All claims about the SEC filing a criminal complaint against Bitget for unlicensed trading from 2022‑2025 are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the source information regarding the Thai SEC filing a criminal complaint against Bitget's operator for unlicensed trading between 2022 and 2025.
-  up: story #17 ok in 24s
-  r1 #25 draft 1: Groq GPT-OSS: PASS - All numbers and statements (0.6% drop in October and £296,285 average) are directly supported by the Guardian source. | Groq GPT-OSS 20B: PASS - All numerical and factual statements are supported by the cited sources. | Groq Qwen: PASS - The slide's claims regarding the 0.6% monthly drop and the average price of £296,285 are directly supported by The Guardian source.
-  r1: story #25 ok in 3s
-  r2 #22 draft 1: Groq GPT-OSS: PASS - Both sources quote Governor Ueda stating Japan's inflation is near 2%. | Groq GPT-OSS 20B: PASS - The statement that Japan's inflation remains near 2% is supported by both the Reuters and IndexBox sources. | Groq Qwen: PASS - The claim that Japan's inflation remains near 2% is directly supported by the source headline stating 'Inflation Near 2%'.
-  r2: story #22 ok in 4s
-  r3 #24 draft 1: Groq GPT-OSS: PASS - Both the licensing rules and the ban on algorithmic stablecoins are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources, which confirm that Nigeria's central bank introduced licensing rules for stablecoins and banned algorithmic versions.
-  r3: story #24 ok in 2s
-Draft ready for review: magazine/daily/2026-11-06/edition.json (not published)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz #10 draft 3: Groq GPT-OSS: PASS - The Rocket Lab press release confirms positive operating cash flow, 52% sequential backlog growth, and $1.2 bn added to backlog. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the Yahoo Finance article on Rocket Lab’s Q3 2026 results. | Groq Qwen: PASS - The slide's claims regarding Rocket Lab's Q3 results, specifically the $1.2 billion backlog growth (52% sequential) and positive operating cash flow, are directly supported by the third source.
+  biz: story #10 ok in 114s
+  up #11 draft 1: Groq GPT-OSS: PASS - All claims about the report date and expected CPI headline (0.3%) and core (0.2%) increases are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the report date, headline CPI expectation (0.3% rise), and core CPI expectation (0.2% increase) are directly supported by the provided sources.
+  up: story #11 ok in 14s
+  r1 #30 draft 1: Groq GPT-OSS: PASS - The source states Philippine GDP growth slowed to 2.1% in Q3, matching the slide. | Groq GPT-OSS 20B: PASS - The slide accurately reports the 2.1% GDP growth figure for Q3 as stated in the Nikkei Asia source. | Groq Qwen: PASS - The slide's claim that Philippine GDP growth slowed to 2.1% in the third quarter is directly supported by the source headline stating it 'further slows to 2.1% in Q3'.
+  r1: story #30 ok in 216s
+  r2: rejected: region text must be 1-100 characters
+  r2 #31 draft 2: Groq GPT-OSS: PASS - All claims about ECB, European Commission, and ESMA seeking nominations for the tokenisation standards group are directly supported by the source. | Groq GPT-OSS 20B: PASS - All claims are supported by the source. | Groq Qwen: PASS - The slide accurately reflects the source text regarding the entities involved (ECB, European Commission, ESMA) and their action (seeking nominations for the tokenisation group).
+  r2: story #31 ok in 3s
+  r3 #16 draft 1: Groq GPT-OSS: PASS - All sources confirm Canada is extending its tariff relief program for firms importing U.S. goods. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - The slide's claim that Canada is extending its tariff relief program for companies importing goods from the United States is directly supported by multiple sources, including Reuters and Yahoo Finance
+  r3: story #16 ok in 2s
+Draft ready for review: magazine/daily/2026-11-09/edition.json (not published)
