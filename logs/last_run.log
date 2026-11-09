@@ -1,3 +1,101 @@
+=== run 2026-11-09T07:12:13Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+99/171 sources returned news, 965 recent items
+224 new trusted stories, posting up to 3 this run
+---
+🇨🇳 CHINA PAUSES 24% EXTRA TAX ON US GOODS FOR 2 MONTHS
+
+📌 China put a 24% extra tax on US goods on hold for two months, keeping a 10% rate.
+📊 US tariff pause: 2 months
+
+📍 China · 📰 The Straits Times · ✅ 12 sources
+https://news.google.com/rss/articles/CBMiywFBVV95cUxOTGJUS1B5VEpTVEVEUmpaTUVmRXNpb3ljNF8waHVsZjNCTU9lejRaTGo1ZjJ3V3l0VzBtOEJtWFRxTVhjOEhocGtVdnRUdDVTWjFua0daMXNSVjZGRlJCX2RUR1lPSzBpYk9QaXJ5dHVId0t5ZE85TTN5TXlVX2Z6TGhqZ1d2eDFtUmN0R1hLZHZQT09MbEEtSFMwSHFLZE5QcDhGV3lheXVWS3FYdEctSU5yREJwdU13bm1XQzNJQTVhSEsxT2sxZDdQYw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the 24% tariff pause, two‑month duration, and retained 10% rate are directly confirmed by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the 24% tariff suspension, the 10% retained rate, the two-month duration, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-7005e9efdfc4
+---
+🇮🇳 INDIAN RUPEE RISES 24 PAISE AGAINST US DOLLAR
+
+📌 The Indian rupee strengthened 24 paise to 93.74 against the US dollar in early trade.
+📊 USD/INR: 93.74
+
+📍 India · 📰 Business Standard · ✅ 11 sources
+https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc053cHNiTTd6N0VYamdSTHZFYmJBa0QzcTJEV1NBa2l0MkVJTDVVYnZnWlNFNnFWbF9kbGVsdkdHeXlFR2NRX3haNFpkUzBLcjBwdExIZXc1Q3p0bXJ0cU9aYWpzeXJnUW9FOHJKeDJWSlc5Y2RxQ3NkcjVCZl9HU2pGNndwRHpRaS1kRzUwcjdmaUZuUXE3SEJCYzBhUE9fN0dJc1U3aU14Zk84ejVlczJRTXpVN1ZJd0EzN2hJbF9OSFczVFlYbmpwajZmd3BNazMzVmVwRllCUG_SAeABQVVfeXFMUGwxaVZMbU41MWs5clNoUlVoNnZWU0FEeFF6UFYzS3c3NzBzZkpjd195a25jTnZuaC05YVhXaHVzV0dJWUFtN2ljR0VXeS1QQmtkbUNjS2p6eDkwcUlKdDdNRHI2YnhYRmNKa0ZDd1lOd19lVWd1eW9uOGVpdm5pREpWYXZkRnl2M0ZvM1hRcWt1YUhpWWxfYWZ3alFDYnFrMi1JbklpRjVrc1l0SEd0VjZRUHp0R0lnNnd5U0MxcmMyVE5jS1VMb3hzSXowT014cmpoSDVKanFGVTEya2NQRjU?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The rupee rise claim is not directly supported by the cited Business Standard article and the post incorrectly states there are 11 sources
+  -> blocked by fact-check
+---
+🇮🇳 CITI SEES NIFTY REACHING 28,000 BY END OF 2027
+
+📌 Citi expects India's Nifty 50 index to reach 28,000 points by the end of 2027.
+📊 $NIFTY target: 28,000
+💡 Lower oil prices usually help reduce inflation.
+
+📍 India · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/stocks/news/citi-bullish-on-indian-equities-sees-nifty-at-28000-by-end-2027/articleshow/135671094.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Economic Times source.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources, but five distinct sources are listed.
+  -> blocked by fact-check
+---
+🌏 ASIAN STOCKS RISE AS MARKET FEARS EASE
+
+📌 Asian stocks bounced back today, with Japan's Nikkei index up 2.5%.
+📊 Nikkei: +2.5%
+
+📍 Asia · 📰 The Straits Times World News · ✅ 4 sources
+https://www.straitstimes.com/business/asian-stocks-steady-as-ai-mideast-jitters-recede-dollar-firm-on-fed-bets
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the Nikkei rise and market bounce are directly supported by the cited Straits Times article.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the Nikkei's 2.5% rise and the general market bounce are directly supported by the sources, and the location and source attribution are correct.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: SKIP - unavailable (HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"xingchen-agi/xing4.0-29b-a4b:free is temporarily rate-limited up)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-2699ad30a35a
+---
+🇮🇳 GOLD AND SILVER RETAIL RATES UPDATED ON NOV 9
+
+📌 Jewelers across India published updated daily retail prices for gold and silver.
+💡 Precious metal prices change daily based on global market demand.
+#Gold
+
+📍 India · 📰 Mint · ✅ 4 sources
+https://www.livemint.com/money/personal-finance/gold-silver-prices-today-9-november-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11794188827441.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims are directly supported by the Mint article and are accurate.
+  Groq GPT-OSS 20B: FAIL - The claim that jewelers across India published updated daily retail prices is not directly supported by the Mint article, which only lists rates for Delhi, Mumbai, and Kolkata, and the post’s assertio
+  -> blocked by fact-check
+---
+🌐 STOCKS TRADE FLAT AS INVESTORS WATCH US-IRAN TALKS
+
+📌 Indian and UK stock markets stayed flat as investors tracked US-Iran talks.
+
+📍 Global · 📰 Dalal Street Investment Journal · ✅ 2 sources
+https://news.google.com/rss/articles/CBMizwFBVV95cUxONnRleHUwOVVvel9WNTZsYXVOUkd4T0dBeWVXY3RzaDAta0o2M0Y0dFdHd3pObFdGRi1fTTRBUWREdjRyTlEwX0NvQktvazNkcV91UDNPNkxQUjd1TU1UbmNwbHQtdWdBajlEQ2hhNHZqZzY4Nk54YTU3UFlwa3ZhZWlBMzFPV19zbW1FMC1McWpXV012cC1jRmRuVGRCWWNSazNFeWp1LVZKSEg1YkVQU0RsV1lMZzczVG5TVDk0cTVQOEx5WHR4ZmRRMno5N1E?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post lists only Dalal Street Investment Journal as the source, but the UK market flat claim relies on a separate marketscreener.com source, so the source name does not match all cited sources.
+  -> blocked by fact-check
+---
+🌐 CRYPTO MARKET DROPS AS BITCOIN AND ETHEREUM FALL
+
+📌 The crypto market is down today as major coins like Bitcoin and Ethereum fell.
+💡 Market drops mean the overall value of cryptocurrencies has fallen.
+#Crypto
+
+📍 Global · 📰 Crypto News · ✅ 2 sources
+https://news.google.com/rss/articles/CBMihwFBVV95cUxNam8yWV9mS0w1czZOOFBHWFFrZ2Z4TGZ5b0h4emd0aFpKUFN1azV2bjVLbjZ6QUhtcm1EVHVGNV9OZFNXU1luck1iR0VrREZrUVgtUjRIRXVlS29IOW54Zm5jVl9PX0I1dHRTaXdqMVlrdmV3MVFRS2luLXhGM0NUSVpDOVFsWFk?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Bitcoin and Ethereum falling and the market dropping are directly supported by the cited Crypto News articles.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Crypto News articles.
+  Groq Qwen: PASS - The factual claims that the crypto market is down and Bitcoin and Ethereum fell are directly supported by the source headlines, and the general explanation is accurate.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-933742521392
+done: 3 post(s) this run
 === run 2026-11-08T23:57:19Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1400,101 +1498,3 @@ https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-ri
 🇮🇳 COAL INDIA UNIT SECL FILES FOR IPO
 
 📌 Coal India unit SECL filed for an IPO to sell 66.81 crore shares.
-📊 Shares on offer: 66.81 crore
-
-📍 India · 📰 Cnbc Tv18 · ✅ 6 sources
-https://news.google.com/rss/articles/CBMiugFBVV95cUxPXzFMWEhEamppekl0TnZKeHl2R1I1S282Z1JwNFlDY0xTQTdrRVZCOWY0RGxpcEQ3dUFhVDlRVUxHaXNsRE1Bc0lHYUc3cFNlV1M4LWtWc0ZFMGNNTWFhQlpWYkVQOFpTb3NKSFU0bWZGZHA0NDYzVkp0NHRiNTJaWVNXaWUxNU5LQUVQaTMxc3locGxvWWpNb0RENzBTWHNGMXhfN0JtQzU4WGlVS0ZydWVGMUY4ZmtpN1E?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about SECL filing for an IPO and selling 66.81 crore shares are directly supported by the cited CNBC TV18 source.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the entity (SECL/Coal India unit), the action (filing for IPO/DRHP), the share count (66.81 crore), and the source attribution are directly supported by the provided sourc
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-super-vl:free returned an empty reply)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-eddc3079ff69
----
-🇮🇳 INDIA REGULATOR PROPOSES CUTTING TAX FOR FOREIGN INVESTORS
-
-📌 India's market regulator wants to scrap LTCG tax (profit tax) for foreign investors.
-
-📍 India · 📰 Economic Times · ✅ 5 sources
-https://economictimes.indiatimes.com/markets/stocks/news/sebi-backs-removal-of-ltcg-tax-for-foreign-investors-report/articleshow/135448760.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about SEBI proposing to scrap LTCG tax for foreign investors are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The post claims 5 sources, but the listed references include 6 distinct sources.
-  -> blocked by fact-check
----
-🇮🇳 INDIA BONDS SURGE AS OIL PRICES FALL
-
-📌 Indian government bonds rose and oil fell 3% on US-Iran talk hopes.
-📊 Brent crude: $109.82 per barrel
-
-📍 India · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/markets/bonds/india-bonds-surge-as-oil-cools-on-us-iran-deal-hopes/articleshow/135448296.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (bond rise, 3% oil drop, Brent $109.82, US‑Iran talks) are directly backed by the Economic Times and Oilprice.com sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the 3% oil drop, Brent price of $109.82, and the attribution to US-Iran deal hopes are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-10bfb479f6ab
----
-🇯🇵 JAPAN CENTRAL BANK SIGNALS DECEMBER RATE HIKE
-
-📌 Japan's central bank signals a rate hike in December as inflation stays high.
-📊 Rate path limit: 1.5%
-
-📍 Japan · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/boj-signals-december-rate-hike-but-path-beyond-1-5-remains-uncertain/articleshow/135447724.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that the rate path limit is 1.5% is not directly supported; sources say the outlook beyond 1.5% is uncertain, not that 1.5% is a firm limit.
-  -> blocked by fact-check
----
-🇮🇳 SENSEX JUMPS OVER 1,000 POINTS AS OIL PRICES FALL
-
-📌 India's Sensex jumped over 1,000 points as lower oil prices boosted stock markets.
-📊 $SENSEX: +1,000 points
-
-📍 India · 📰 Outlook Money · ✅ 2 sources
-https://news.google.com/rss/articles/CBMilwFBVV95cUxPZDVEbTZhV2RIQ2l2UHJYbDZISkF0dlpJZW5NdFNlTHlCLU9DdXltc0NDNG1jdzh0dW83ODhyR3dIQWpuZm95R0ZpamcwUlZQQmo2Tm5kQmNIWEh4XzMzcDRPSDJ2SmJxWTF1MmR1ZzZ1MlNrVEJweGY4TG90SjhER0pTLTMxTDY5dlZveXNzSFdmMXZFakpn0gGkAUFVX3lxTFBYcUJybi0xUmxIV0lZR1pkRVE2OXg0SURITFZ1OWF0dmVQWlFReTZxR1hMUGM1a0xNakpwNWFrOWRwQXd4aUwtcXBGS0hUTUZTSmp5eVZtTFVoU3NmQlE1V2VHRXNEeWdCOEVSeG9ZVDBQc04wTjFNMWsyZkFXMWxTaDlhMG1VTHNXM3JtTm9malZOMVRQWEtYY1R1X20tQmlrcnQ0?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that the Sensex jumped "over 1,000 points" is not explicitly stated in the sources, which report a 1,000‑point rise.
-  -> blocked by fact-check
----
-🇺🇸 US MIDTERM ELECTIONS BEGIN TOMORROW
-
-📌 Americans vote in midterm elections tomorrow for control of the US Congress.
-💡 Political shifts can cause short-term volatility (price swings) in stock markets.
-#USElections
-
-📍 US · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/stocks/news/us-midterm-elections-begin-tomorrow-can-trumps-likely-defeat-sparkle-sensex-nifty-heres-what-analysts-say/articleshow/135446891.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source does not explicitly state that the elections begin tomorrow; it only mentions the November 3 date.
-  -> blocked by fact-check
----
-🇰🇷 SOUTH KOREA UNVEILS RECORD BUDGET FOR AI AND CHIPS
-
-📌 South Korea's 2027 budget will rise 12.8% to a record 820.9 trillion won.
-📊 2027 Budget: 820.9 trillion won
-#SouthKorea
-
-📍 South Korea · 📰 International: Top News And Analysis · ✅ 4 sources
-https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and factual statements are directly confirmed by the cited source.
-  Groq GPT-OSS 20B: FAIL - Source name does not match the actual source (CNBC)
-  -> blocked by fact-check
----
-🇮🇳 SENSEX JUMPS 765 POINTS IN EARLY TRADE
-
-📌 India's Sensex index rose 765 points, led by $RELIANCE shares and lower oil prices.
-📊 Sensex: +765 points
-
-📍 India · 📰 Deccan Herald · ✅ 3 sources
-https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOHZrOEJsNjJTRlpOaDJ6YVRIaGd4dGxBb1otX19fSWpfSDFsdjh1Q29iLTFtcEkxeU9jS0xDV2ZzcWQ0RDZuNnk5SXZ1ZF9PVjdfdGlVRVM3bnlqLVZzQVBJN20xaER5bTJDSjRsakdtTUowQXUyUjZ5aXVhZ3k4S0pnYzVoRk1LXzc4Y3E3NzllUklWU1ZzTHlONWx4V1dZNU1DcjNqMnhPYW5fYWE1LXRRYzhlQzNyNkRBTVJQZUFwTW1NUWNKajRKdHllNm9ZODNGQmVoeWN4R25kcFVFUlE1R29pYXc?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the Sensex rise, point value, drivers (Reliance, oil), location, and source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-23d722397b35
