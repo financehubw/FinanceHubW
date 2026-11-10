@@ -1,3 +1,25 @@
+=== run 2026-11-10T02:58:39Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+92/171 sources returned news, 794 recent items
+185 new trusted stories, posting up to 1 this run
+---
+🌏 ASIAN TECH STOCKS RALLY AS SOFTBANK JUMPS 11%
+
+📌 Asian tech stocks gained as oil prices fell and SoftBank jumped 11%.
+📊 SoftBank: +11%
+💡 Lower oil prices often help reduce costs for businesses.
+#Tech
+
+📍 Asia · 📰 Yahoo Finance UK · ✅ 5 sources
+https://news.google.com/rss/articles/CBMigwFBVV95cUxPMHFacU50YVJCbE5CaW5xYURweVBOT05BREtFSG5yN1VILUJUdmJqb3BPWm5WeTF0TkRCcVFjLU91a2RKRnNLcGlOLUhBT0lqSzBySV96Yk93UHhrV0Z4aHcxekk1SXBjUGl6elVnMUJ5bEptLWd4R3dwS1JSdlpRaDZnNA?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the 11% SoftBank jump, Asian tech rally, and falling oil prices are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the Asian tech stock rally, SoftBank's 11% surge, and the impact of falling oil prices are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d4a201bfaf51
+done: 1 post(s) this run
 === run 2026-11-09T19:09:46Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1476,25 +1498,3 @@ published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-b4081a02e584
 done: 2 post(s) this run
 === run 2026-11-02T20:29:37Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-87/171 sources returned news, 861 recent items
-203 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-02T09:55:50Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 3
-102/171 sources returned news, 1104 recent items
-re-check of earlier post: 2 fail / 3 pass
-261 new trusted stories, posting up to 2 this run
----
-🇮🇳 GOLD PRICES FALL OVER ₹42,000 FROM JANUARY PEAK
-
-📌 Gold prices dropped by more than ₹42,000 from their high in January.
-📊 Gold: -₹42,000 from peak
-
-📍 India · 📰 The Federal · ✅ 3 sources
-https://news.google.com/rss/articles/CBMikAFBVV95cUxQMU1WSUxDYnh0NXp0ZnFMbHhIWXByS1llTWRmQ3ZFZXVQbjJLRUxSa09XUWoyaTliNVI5NWxTWGxGcU84ZXNHcG1SMkFOV2ZpdnR5c3hjT2dmLUR0Sl8zTlNNQ2FFVTI0ZVRBR1RmYUhBTGNSYlFjZVBRWmJZejdHa0FMZXZ3ek9oQmRpUHhlTGo?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the ₹42,000 drop and Indian context are directly supported by the cited sources
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
