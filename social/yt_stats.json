@@ -1,30 +1,30 @@
 {
  "channel": {
-  "viewCount": "14525",
-  "subscriberCount": "11",
+  "viewCount": "25381",
+  "subscriberCount": "19",
   "hiddenSubscriberCount": false,
-  "videoCount": "50"
+  "videoCount": "54"
  },
  "analytics": "ok",
  "traffic_sources": {
-  "SHORTS": 10162,
-  "YT_SEARCH": 327,
-  "YT_OTHER_PAGE": 223,
-  "YT_CHANNEL": 22,
-  "SUBSCRIBER": 9,
+  "SHORTS": 13755,
+  "YT_SEARCH": 379,
+  "YT_OTHER_PAGE": 312,
+  "YT_CHANNEL": 23,
+  "SUBSCRIBER": 11,
   "EXT_URL": 4,
   "NO_LINK_OTHER": 1,
   "SOUND_PAGE": 1,
   "RELATED_VIDEO": 0
  },
  "countries": {
-  "US": 6663,
-  "CA": 468,
-  "GB": 355,
-  "AU": 151,
-  "IN": 151,
-  "DE": 82,
-  "NL": 66,
+  "US": 9605,
+  "CA": 591,
+  "GB": 434,
+  "IN": 218,
+  "AU": 185,
+  "DE": 123,
+  "NL": 90,
   "IE": 54,
   "PH": 20,
   "SG": 20,
@@ -418,8 +418,8 @@
    "views": 35,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 46.0,
-   "avg_view_sec": 16,
+   "avg_view_pct": 48.6,
+   "avg_view_sec": 17,
    "subs_gained": 0,
    "shares": 0
   },
@@ -457,10 +457,10 @@
    "posted": "2026-11-03T18:38:45Z",
    "title": "Reagan shows what inflation did to the dollar (1981) #Shorts",
    "duration": "PT29S",
-   "views": 4258,
+   "views": 4261,
    "likes": 61,
    "comments": 2,
-   "avg_view_pct": 100.6,
+   "avg_view_pct": 100.8,
    "avg_view_sec": 29,
    "subs_gained": 2,
    "shares": 4
@@ -471,7 +471,7 @@
    "posted": "2026-11-03T22:32:53Z",
    "title": "US stocks rise as tech shares gain (today's money news) #Shorts",
    "duration": "PT17S",
-   "views": 90,
+   "views": 96,
    "likes": 0,
    "comments": 1,
    "avg_view_pct": 56.3,
@@ -527,10 +527,10 @@
    "posted": "2026-11-05T11:33:04Z",
    "title": "Fed Chair Warsh: Why not raise interest rates today? #Shorts",
    "duration": "PT24S",
-   "views": 1230,
+   "views": 1231,
    "likes": 5,
    "comments": 1,
-   "avg_view_pct": 49.0,
+   "avg_view_pct": 49.1,
    "avg_view_sec": 11,
    "subs_gained": 0,
    "shares": 1
@@ -544,8 +544,8 @@
    "views": 46,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 93.8,
-   "avg_view_sec": 24,
+   "avg_view_pct": 79.3,
+   "avg_view_sec": 20,
    "subs_gained": 0,
    "shares": 0
   },
@@ -555,10 +555,10 @@
    "posted": "2026-11-06T11:32:02Z",
    "title": "When US interest rates hit 21.5% (Reagan, 1982) #Shorts",
    "duration": "PT19S",
-   "views": 1996,
+   "views": 2037,
    "likes": 15,
    "comments": 3,
-   "avg_view_pct": 91.6,
+   "avg_view_pct": 91.1,
    "avg_view_sec": 17,
    "subs_gained": 0,
    "shares": 1
@@ -572,8 +572,8 @@
    "views": 239,
    "likes": 4,
    "comments": 1,
-   "avg_view_pct": 54.5,
-   "avg_view_sec": 15,
+   "avg_view_pct": 50.0,
+   "avg_view_sec": 14,
    "subs_gained": 1,
    "shares": 0
   },
@@ -583,9 +583,13 @@
    "posted": "2026-11-07T11:33:08Z",
    "title": "$7 a day could become $661,889 #Shorts",
    "duration": "PT10S",
-   "views": 199,
+   "views": 212,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 101.9,
+   "avg_view_sec": 10,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "plzfW_L_v3I",
@@ -593,9 +597,13 @@
    "posted": "2026-11-07T15:14:51Z",
    "title": "Gold was $33 an ounce in 1933 (real newsreel) #Shorts",
    "duration": "PT15S",
-   "views": 1579,
-   "likes": 22,
-   "comments": 3
+   "views": 2189,
+   "likes": 27,
+   "comments": 3,
+   "avg_view_pct": 85.0,
+   "avg_view_sec": 12,
+   "subs_gained": 1,
+   "shares": 0
   },
   {
    "id": "jTcVc7oNh3w",
@@ -603,9 +611,13 @@
    "posted": "2026-11-07T18:32:06Z",
    "title": "A secretary secretly built $9 million | Money Stories #8 #Shorts",
    "duration": "PT27S",
-   "views": 132,
+   "views": 155,
    "likes": 1,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 46.2,
+   "avg_view_sec": 12,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "Ly0PaMVa7_M",
@@ -613,9 +625,13 @@
    "posted": "2026-11-07T22:32:03Z",
    "title": "Fed Chair Warsh: \"We own\" the 2% inflation target #Shorts",
    "duration": "PT19S",
-   "views": 1586,
+   "views": 1763,
    "likes": 9,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 90.9,
+   "avg_view_sec": 17,
+   "subs_gained": 1,
+   "shares": 0
   },
   {
    "id": "QMC1VKVXkn0",
@@ -623,7 +639,7 @@
    "posted": "2026-11-08T11:32:12Z",
    "title": "How much do you need to retire? The 25x rule #Shorts",
    "duration": "PT12S",
-   "views": 120,
+   "views": 124,
    "likes": 0,
    "comments": 1
   },
@@ -633,9 +649,9 @@
    "posted": "2026-11-08T14:03:04Z",
    "title": "Reagan warned about a $1 trillion US debt in 1982 #Shorts",
    "duration": "PT17S",
-   "views": 3839,
-   "likes": 43,
-   "comments": 7
+   "views": 8571,
+   "likes": 62,
+   "comments": 20
   },
   {
    "id": "lFeNNxqha8A",
@@ -643,7 +659,7 @@
    "posted": "2026-11-08T16:17:35Z",
    "title": "How to invest in the S&P 500 (beginner, 30 seconds) #Shorts",
    "duration": "PT33S",
-   "views": 121,
+   "views": 127,
    "likes": 0,
    "comments": 1
   },
@@ -653,9 +669,9 @@
    "posted": "2026-11-08T18:32:26Z",
    "title": "How a 1947 film explained money (and what changed in 1971) #Shorts",
    "duration": "PT21S",
-   "views": 66,
-   "likes": 0,
-   "comments": 1
+   "views": 467,
+   "likes": 3,
+   "comments": 4
   },
   {
    "id": "vxpIpg17p5s",
@@ -663,7 +679,47 @@
    "posted": "2026-11-08T22:32:14Z",
    "title": "The Rule of 72 in 10 seconds #Shorts",
    "duration": "PT11S",
-   "views": 120,
+   "views": 147,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "Z3e6KDOoK08",
+   "file": "clip_oil73.mp4",
+   "posted": "2026-11-09T09:32:50Z",
+   "title": "When oil prices quadrupled in 1973 (real 1975 film) #Shorts",
+   "duration": "PT20S",
+   "views": 1145,
+   "likes": 16,
+   "comments": 1
+  },
+  {
+   "id": "ffrZdrw-rf0",
+   "file": "pets_com_crash.mp4",
+   "posted": "2026-11-09T14:02:30Z",
+   "title": "This company went from IPO to closed in 268 days | Money Stories #9 #Shorts",
+   "duration": "PT27S",
+   "views": 44,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "aJQ1JZGvrNU",
+   "file": "clip_fdr33_action.mp4",
+   "posted": "2026-11-09T16:17:22Z",
+   "title": "FDR's first speech as president, during the 1933 bank panic #Shorts",
+   "duration": "PT29S",
+   "views": 1290,
+   "likes": 21,
+   "comments": 1
+  },
+  {
+   "id": "HjPrsUlRweA",
+   "file": "loop_50_30_20.mp4",
+   "posted": "2026-11-09T18:32:11Z",
+   "title": "The 50/30/20 rule in 10 seconds #Shorts",
+   "duration": "PT12S",
+   "views": 78,
    "likes": 0,
    "comments": 1
   }
