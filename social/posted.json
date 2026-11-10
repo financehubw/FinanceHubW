@@ -678,6 +678,19 @@
    "failed": [],
    "errors": {},
    "format": "micro"
+  },
+  {
+   "file": "clip_reagan81_inflation.mp4",
+   "title": "Reagan explains inflation in 14 seconds (1981)",
+   "date": "2026-11-10T09:32:11Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/El_OfTHnQyU",
+    "Instagram": "17942345190391237",
+    "Facebook": "2206750363384283"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
