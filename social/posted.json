@@ -728,6 +728,19 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "clip_paint47.mp4",
+   "title": "Prices in 1947: a gallon of paint cost $2.98",
+   "date": "2026-11-10T22:33:59Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/qra-B1eMmi4",
+    "Instagram": "17968191027239194",
+    "Facebook": "1445893164402273"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
