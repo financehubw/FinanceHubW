@@ -1,27 +1,36 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-98/171 sources returned news, 1054 recent items
+104/171 sources returned news, 1128 recent items
+  big: rejected: big_stat_l1 must be 1-26 characters (it is 27); big_stat_l2 must be 1-28 characters (it is 32); big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or 
   big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: rejected: these numbers are not in the source: 0
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: story #24 failed in 82s
-  big #23 draft 1: Groq GPT-OSS: PASS - All numeric and factual claims are directly supported by the provided sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the profit amount, bitcoin quantity, loan repayment amount, sale value, and percentage of holdings are supported by the provided sources.
-  big: story #23 ok in 23s
-  pol: rejected: pol_stat must be 1-7 characters (it is 0); pol_stat_l1 must be 1-26 characters (it is 0); pol_stat_l2 must be 1-30 characters (it is 0); pol_stat must be a meaningful figure with a unit, like $100+, 5
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); these numbers are not in the source: 0
-  pol #20 draft 3: Groq GPT-OSS: FAIL - The source does not support the specific claim of a 1% increase in borrowing costs before Christmas.
-  pol: story #20 ok in 396s
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz #10 draft 3: Groq GPT-OSS: PASS - The Rocket Lab press release confirms positive operating cash flow, 52% sequential backlog growth, and $1.2 bn added to backlog. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the Yahoo Finance article on Rocket Lab’s Q3 2026 results. | Groq Qwen: PASS - The slide's claims regarding Rocket Lab's Q3 results, specifically the $1.2 billion backlog growth (52% sequential) and positive operating cash flow, are directly supported by the third source.
-  biz: story #10 ok in 114s
-  up #11 draft 1: Groq GPT-OSS: PASS - All claims about the report date and expected CPI headline (0.3%) and core (0.2%) increases are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the report date, headline CPI expectation (0.3% rise), and core CPI expectation (0.2% increase) are directly supported by the provided sources.
-  up: story #11 ok in 14s
-  r1 #30 draft 1: Groq GPT-OSS: PASS - The source states Philippine GDP growth slowed to 2.1% in Q3, matching the slide. | Groq GPT-OSS 20B: PASS - The slide accurately reports the 2.1% GDP growth figure for Q3 as stated in the Nikkei Asia source. | Groq Qwen: PASS - The slide's claim that Philippine GDP growth slowed to 2.1% in the third quarter is directly supported by the source headline stating it 'further slows to 2.1% in Q3'.
-  r1: story #30 ok in 216s
-  r2: rejected: region text must be 1-100 characters
-  r2 #31 draft 2: Groq GPT-OSS: PASS - All claims about ECB, European Commission, and ESMA seeking nominations for the tokenisation standards group are directly supported by the source. | Groq GPT-OSS 20B: PASS - All claims are supported by the source. | Groq Qwen: PASS - The slide accurately reflects the source text regarding the entities involved (ECB, European Commission, ESMA) and their action (seeking nominations for the tokenisation group).
-  r2: story #31 ok in 3s
-  r3 #16 draft 1: Groq GPT-OSS: PASS - All sources confirm Canada is extending its tariff relief program for firms importing U.S. goods. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - The slide's claim that Canada is extending its tariff relief program for companies importing goods from the United States is directly supported by multiple sources, including Reuters and Yahoo Finance
-  r3: story #16 ok in 2s
-Draft ready for review: magazine/daily/2026-11-09/edition.json (not published)
+  big: rejected: cover_dek must be 1-80 characters (it is 82)
+  big: story #4 failed in 5s
+  big #16 draft 1: Groq GPT-OSS: PASS - All factual statements about Brent falling below $90, the $89.70 price, first time since August, and Trump’s de‑escalation signals are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the price drop to $89.70, the timing (first time since August), and the cause (Trump's de-escalation signals) are supported by the provided sources.
+  big: story #16 ok in 3s
+  pol: rejected: these numbers are not in the source: .5
+  pol: rejected: these numbers are not in the source: .5
+  pol: rejected: these numbers are not in the source: .5
+  pol: story #2 failed in 4s
+  pol: rejected: pol_body must be 1-170 characters (it is 171); pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: story #9 failed in 118s
+  pol #15 draft 1: Groq GPT-OSS: PASS - All valuation, raise amount, and company details are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the valuation, amount to be raised, timing, and company identity are supported by the provided sources.
+  pol: story #15 ok in 66s
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz #9 draft 2: Groq GPT-OSS: PASS - All factual statements about the IPO, Nasdaq listing, $1.4 trillion target valuation, and $26 billion private raise are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the IPO plan, Nasdaq listing, $1.4 trillion valuation target, and separate $26 billion private raise are supported by the provided sources.
+  biz: story #9 ok in 68s
+  up #10 draft 1: Groq GPT-OSS: PASS - All numeric and descriptive claims about the Nikkei rise and tech‑led Wall Street surge are directly stated in the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and descriptive claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide's claims regarding the Nikkei 225's 2.6% rise to 60,279.37 and the attribution to a technology-led surge on Wall Street lifting sentiment are directly supported by the provided sources.
+  up: story #10 ok in 163s
+  r1 #3 draft 1: Groq GPT-OSS: PASS - All statements about the rate increase to 2.5% and potential further hikes are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources, which confirm the Bank of Canada raised rates to 2.5% last month and indicated that further hikes might be needed.
+  r1: story #3 ok in 8s
+  r2 #21 draft 1: Groq GPT-OSS: PASS - All factual claims about China's trade surplus exceeding $1 trillion in October are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - The slide's claim that China's trade surplus topped $1 trillion in October is directly supported by multiple sources stating the surplus surpassed or topped $1 trillion as of October.
+  r2: story #21 ok in 3s
+  r3 #14 draft 1: Groq GPT-OSS: PASS - All factual claims about Goldman Sachs, Citi, and the $270 million commitment are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources regarding the $270 million commitment by a bank group including Goldman Sachs and Citi to a stablecoin venture.
+  r3: story #14 ok in 4s
+  r3 #6 draft 1: Groq GPT-OSS: PASS - Gold's >2% drop, Dow's ~250‑point fall, and October CPI topping forecasts are all stated in the cited articles. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide's claims regarding the CPI, Dow drop, and Gold plunge are directly supported by the BigGo Finance source, which states 'Dow Falls Nearly 250 Points, Gold Plunges Over 2%' and 'U.S. October C
+  r3: story #6 ok in 3s
+  r3 #13 draft 1: Groq GPT-OSS: FAIL - Sources say Bitcoin slipped below $74,000 or fell to $73,000, not that it fell below $73,000
+  r3 #13 draft 2: Groq GPT-OSS: PASS - Bitcoin's drop to $73,000 and the hotter‑than‑expected US inflation are both confirmed by the cited articles. | Groq GPT-OSS 20B: PASS - The slide’s claim that Bitcoin fell to $73,000 after hotter‑than‑expected US inflation is supported by both The Block and NewsBytes sources. | Groq Qwen: PASS - The claim that Bitcoin fell to $73,000 after hotter than expected US inflation is directly supported by the NewsBytes source, and the context of the drop is consistent with The Block's report on CPI d
+  r3: story #13 ok in 7s
+no story passed the checks for the r3 slide; nothing published
