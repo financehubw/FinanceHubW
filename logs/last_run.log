@@ -1,3 +1,9 @@
+=== run 2026-11-10T20:59:15Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+89/171 sources returned news, 741 recent items
+215 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-10T13:02:48Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1492,9 +1498,3 @@ https://economictimes.indiatimes.com/markets/us-stocks/news/german-bond-yields-r
   written by Gemini
   Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times source.
   Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the rise in German bond yields, the 10-year Bund yield moving from a two-month low, and the attribution to oil prices and US midterm elections are directly supported by th
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All factual claims in the post are directly supported by the provided source.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-511ea4668e67
-done: 1 post(s) this run
