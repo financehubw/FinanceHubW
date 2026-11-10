@@ -703,6 +703,19 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "clip_jfk62_taxcut.mp4",
+   "title": "JFK explains his tax cut plan (1962 footage)",
+   "date": "2026-11-10T16:17:34Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/U-9joXvQYkc",
+    "Instagram": "18064113515796446",
+    "Facebook": "29268155749519073"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
