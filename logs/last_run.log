@@ -1,3 +1,127 @@
+=== run 2026-11-10T13:02:48Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+109/171 sources returned news, 1061 recent items
+268 new trusted stories, posting up to 3 this run
+---
+🇺🇸 BITCOIN FALLS TO $74,000 AHEAD OF US INFLATION REPORT
+
+📌 Bitcoin fell to $74,000 and gold dropped to $4,078 before US inflation news.
+📊 $BTC: $74,000
+
+📍 US · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 2 sources
+https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, price levels, and timing (Bitcoin $74,000, gold $4,078 ahead of US CPI) are directly confirmed by the cited CoinDesk and SunCrypto sources.
+  Groq GPT-OSS 20B: FAIL - The post incorrectly states there are 2 sources, while the provided sources list three.
+  -> blocked by fact-check
+---
+🌐 GOLD PRICES FALL AFTER US FED REMARKS
+
+📌 Gold fell up to 1% to $4,117.94 an ounce following comments from the US Fed.
+📊 Gold: $4,117.94 (-0.5%)
+💡 Gold often drops when interest rates are expected to stay high.
+
+📍 Global · 📰 Moneyweb · ✅ 6 sources
+https://www.moneyweb.co.za/mineweb/gold-drops-as-traders-look-to-inflation-data-after-fed-remarks/
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that gold fell "up to 1%" is not supported; sources report a maximum drop of about 0.8%.
+  -> blocked by fact-check
+---
+🇺🇸 NVIDIA SHAREHOLDERS SUE CEO OVER ALLEGED SPY AFFAIR
+
+📌 Investors sued $NVDA and its CEO for hiding risks about an alleged spy affair.
+#Nvidia
+
+📍 US · 📰 The Globe and Mail · ✅ 7 sources
+https://www.theglobeandmail.com/world/video-who-is-alice-huang-the-chinese-businesswoman-tied-to-nvidias-ceo/
+  written by Gemini
+  Groq GPT-OSS: FAIL - The Globe and Mail source cited does not report a shareholder lawsuit, so the claim isn’t supported by the listed source
+  -> blocked by fact-check
+---
+🇺🇸 GOLD FALLS 0.61% AHEAD OF US CPI DATA
+
+📌 Spot gold fell 0.61% as investors wait for US CPI (prices data).
+📊 Spot Gold: -0.61%
+💡 Inflation data shows how fast everyday prices are rising.
+#Gold
+
+📍 US · 📰 The Financial Express · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiywFBVV95cUxNUTdMNUJBdThJNTZEZkJ1bnh6WVdmeWRzYkFlOHFxaU9DbmZSS0lNTlg2ZHcwSzZqSEJRa3pNbFR2R01FdnhzVlhkMWNUYXVKMmhHcjBEMklvMnpIXzFsZmVmU094YUc3N1A5QnM3RkJaQmM5LWxOVHNKUy0tY2tRdU1GNkYtY1pJNk1NMV96emt3WlE1Vk03TzNzcUJNMUQ5VFR1TmRaVHdxYnhDbkwwclR0UUxfZkZRTUl0UHdWNUdHOGljVnFtQUJNTdIB0gFBVV95cUxQanZrTV85MWRvdTc4c3R6VEl5eEczb2w3SktSYmtUT0N0ZFhCUEp1d28tdnpqMlB2ek1LdTF5MFA5bnZiR2R6Y2UzOTROc193MmtmUG1zM3dENnVWTVVtS3lwNnpsWW4wMjI4QTZaS1RDR3Z5Q1BqUjRMR0hTV3I0ZDFSRlV2Z2NDSHA5NTRBakhyTTdaQTNNWFVQdmhuVFpydVJhY05fcDBEYUZNSVZiYVoyektxUnY1QTgtR3pvR1J4VXJ5THdUNzVxRHJUVzFKYVE?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The location tag 📍 US does not match the source The Financial Express, which is an Indian publication
+  -> blocked by fact-check
+---
+🇺🇸 FED'S WALLER BACKS BIGGER RATE HIKE IN DECEMBER
+
+📌 US Fed official Waller says interest rates could rise by 0.5% in December.
+📊 December Hike: Up to 0.5%
+
+📍 US · 📰 MarketWatch.com · ✅ 16 sources
+https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the MarketWatch source.
+  Groq GPT-OSS 20B: FAIL - The claim that the post cites 16 sources is unsupported by the provided list.
+  -> blocked by fact-check
+---
+🇺🇸 FED OFFICIAL RAISES PROSPECT OF 0.5% RATE HIKE
+
+📌 A Fed official discussed raising interest rates by 0.5 percentage points.
+📊 Rate hike proposed: 0.5%
+💡 Higher interest rates usually make loans more expensive.
+#Fed
+
+📍 US · 📰 MarketWatch.com
+https://www.marketwatch.com/story/nvidia-couldnt-derail-the-stock-markets-rally-hot-inflation-might-8a572024?mod=mw_rss_topstories
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the MarketWatch source.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims, including the 0.5% rate hike prospect, the source attribution, and the location, are directly supported by the provided source text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-4d20efc12b98
+---
+🇺🇸 ANTHROPIC PREPARES FOR HUGE $64.4 BILLION IPO
+
+📌 Anthropic plans an IPO (first stock sale) to raise $64.4 billion.
+📊 Anthropic IPO target: $64.4 billion
+💡 An IPO lets public investors buy shares in a private company.
+
+📍 US · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus/articleshow/135711347.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the $64.4 billion IPO target and source attribution are directly supported.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the company, the amount ($64.4 billion), the nature of the event (IPO), and the source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-cfd0d703a2ee
+---
+🌐 WORLD SHARES RISE AS TECH STOCKS GAIN
+
+📌 Global shares rose after tech stocks gained on Wall Street.
+💡 Rising stock prices usually reflect market confidence.
+#Stocks
+
+📍 Global · 📰 Reuters · ✅ 9 sources
+https://news.google.com/rss/articles/CBMingFBVV95cUxQSmFWYndqejEyTkh3dEFJMVZnUS1JblU2dDBFWDdBREJkelV5NXBneTRMdkVFQXBTQ284UXU5bjF1RWZ5NWFPTjBKek90OXpScVlnSEZVT09kajZ0UW55bUZEd0lyUTl4VUhYYl96U0NoODVXWW9vSDZFM29RUDZkMHZrNklZN0hVSGVPRGpzeE9oMmZNaTdFWHQtTTNmUQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that global shares rose is not supported by the cited Reuters article, which discusses TSX futures, not worldwide market gains.
+  -> blocked by fact-check
+---
+🇺🇸 FED OFFICIAL CALLS FOR MORE INTEREST RATE HIKES
+
+📌 A US central bank official called for more interest rate hikes.
+💡 Higher rates usually make loans and borrowing more expensive.
+#Fed
+
+📍 US · 📰 Yahoo Finance · ✅ 2 sources
+https://news.google.com/rss/articles/CBMinAFBVV95cUxQXzIzdl81cm00MHV0YnBEOXRjdWxnU3haVDV6eXhIZjgzT2FrRHMyeEpzSldLQU5peFdEWXpHektIUzU2cDh1a2NFc1l3c29iS1V5azhhVF81N3FvVk9BX0pQMm5WSGJWZ3VKMy1yRWlTV29sMFl1ZmJWNFlES00yT1NacEVmYmpOY0lhMTlXemFUN1NJTFpIclZUeXQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Yahoo Finance and Business Times articles.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Yahoo Finance article and the explanation is accurate.
+  Groq Qwen: PASS - The post accurately reflects the sources which report that a US central bank official (Waller/Fed governor) called for more rate hikes, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-2ea5eab6de9f
+done: 3 post(s) this run
 === run 2026-11-10T02:58:39Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1374,127 +1498,3 @@ https://economictimes.indiatimes.com/markets/us-stocks/news/german-bond-yields-r
 published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-511ea4668e67
 done: 1 post(s) this run
-=== run 2026-11-03T02:45:41Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
-89/171 sources returned news, 887 recent items
-220 new trusted stories, posting up to 2 this run
----
-🌐 GOLD FALLS BELOW $4,000 ON FED RATE HIKE BETS
-
-📌 Gold prices fell below $4,000 as inflation and oil prices raised Fed rate hike bets.
-📊 Gold: Below $4,000
-
-📍 Global · 📰 FXEmpire · ✅ 2 sources
-https://news.google.com/rss/articles/CBMikAFBVV95cUxQbmczQTNqYlpxMmhIY3h2clhNRzJrYXNucFRGendfUDJaTjNacy0wMDlCNGlTQXNsdlJlZzlRZW9PenoyTDhUSUlPeGhsQTJaRklsV2F5OVlINHB6N0EyS1FxV3g1Nk1Pd2xJS3ZmSFZLR1ZrTVVjcXNOT2hPYkVMbWYzWU9mZzhaWDRyZTg5T3E?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about gold falling below $4,000 and the link to inflation, oil prices, and Fed rate‑hike bets are directly supported by the cited FXEmpire and BW Businessworld articles.
-  Groq GPT-OSS 20B: FAIL - Source name does not match all cited sources
-  -> blocked by fact-check
----
-🌐 US DOLLAR WEAKENS AS OIL PRICES FALL
-
-📌 The US dollar fell as oil prices dropped. Australia prepares its rate decision.
-💡 Lower oil prices often help reduce everyday fuel and transport costs.
-#Dollar
-
-📍 Global · 📰 Economic Times · ✅ 7 sources
-https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-under-pressure-as-oil-prices-slump-australia-rate-decision-awaited/articleshow/135478890.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Economic Times article
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the dollar's movement, oil price drop, and Australia's rate decision are supported by the sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-0732e19cf29e
----
-🇰🇷 KOSPI DROPS 3.5% ON NASDAQ WEAKNESS
-
-📌 South Korea's Kospi index dropped 3.5% following weakness in US tech stocks.
-📊 Kospi: -3.5%
-
-📍 South Korea · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-on-softer-oil-us-midterm-elections-in-focus/articleshow/135478813.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim about the KOSPI drop is sourced from NDTV Profit, not the Economic Times as indicated
-  -> blocked by fact-check
----
-🌐 🔄 UPDATE: OIL DROPS TO $104 AS US-IRAN TALKS EASE SUPPLY FEARS
-
-📌 Global oil prices fell near $104 per barrel as US-Iran deal hopes grew.
-📊 Brent crude: $104 per barrel (-8%)
-
-📍 Global · 📰 NDTV Profit · ✅ 6 sources
-https://news.google.com/rss/articles/CBMiiAJBVV95cUxQNGt5MFBsTFJQQkdEdlU3Ymt4ZklDV0JWUmc5VkpLSEhDS0FfX05jSGNKYUpGYTB5Y3F2cHlPaEFmalppTkhIcnN3Tk9vWU1WNzNNZFFmTVJLS25LWEVGX0sxLTktb01FLUJ1ZjYzQnBMRXJmSGNla19qVTc5OEc3eWdYekpTQlBrX01GdjEwZFFEWnpuS1NJa3pBdDhDNnZwcDB3bE5QQnFBOTU2ZDhSdEtDOWtGTk03dkFlekZnT3lKSERwVkliLVpzQmgtUWlxd25qSDNPUmJXb3BNOUViaklpUVdUVnZLNjRIYmZkT2t3RnhMYmtNemhLR2htOHR6RTk3RFNfcUzSAZACQVVfeXFMTmEzRkJqTktjS25zbFY5ZzhINE1CUGRXbl9sWG9ZQmFDQWZob1dldUxySG52TVpWdTJWUlI4U0lUSHJmal96LTJpZkRObXk2NDZBcjZNdlpBcWZUZDlLRnpQNXFCSVJ1c2I1bTlzQkctdW8yTDJWczI4WUZWd3FrVHVNTmw3VzZwcXlxeV8yRXMyTGM2ejJWUGhZMFcxbVJlTmVVXzJDUUZ5U2I3b0x5UHlLOTlXOFpiT2hRYTNsTDVfSG5KZ3lXYWtKNkRvajdwMkVzcDJZNEhIUldldzBnNmRudDJtVXNWcUZ3SXN2WHBMYU5VV2ZpTTg4aDJjM0YtVmdmS3FDTkxlcWpFS21VRXU?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The 📍 location says Global, but the source NDTV Profit is an Indian outlet, so the place tag does not match the source
-  -> blocked by fact-check
----
-🇮🇳 GIFT NIFTY RISES 0.65% SIGNALING A HIGHER OPEN FOR INDIA
-
-📌 Gift Nifty rose nearly 150 points or 0.65% to 23,553.
-📊 GIFT Nifty: 23,553 (+0.65%)
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-3-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-taiwan-cues-11793666426237.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, percentages, and interpretation are directly supported by the Mint source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
-  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: FAIL - (plain-text verdict)
-  -> blocked by fact-check
----
-🇮🇳 SENSEX SURGES OVER 1,200 POINTS
-
-📌 Indian stock markets jumped as oil prices dropped and big companies gained.
-📊 Sensex: +1,200 pts
-💡 Stock market gains often boost retirement funds and investor wealth.
-#Nifty
-
-📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/stocks/news/sensex-surges-over-1200-points-nifty-reclaims-23400-as-ril-leads-rally/articleshow/135478423.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post states Sensex gained exactly +1,200 points, but the source reports it rose by more than 1,200 points.
-  -> blocked by fact-check
----
-🌐 NORTH KOREA DENIES $6.3B BINANCE HACK
-
-📌 North Korea rejected US claims that it stole $6.3 billion in cryptocurrency from Binance.
-📊 $BTC: $6.3B stolen
-#Crypto
-
-📍 Global · 📰 Mint · ✅ 8 sources
-https://www.livemint.com/market/north-korea-denies-role-in-6-3-billion-binance-crypto-heist-11793662674891.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post specifies the stolen amount as Bitcoin ($BTC), but sources only state $6.3 billion in cryptocurrency, not specifically Bitcoin.
-  -> blocked by fact-check
----
-🇺🇸 APPLE REPORTS RECORD REVENUE
-
-📌 Apple earned $30.71bn in revenue for its latest quarter.
-📊 $AAPL: $30.71bn
-#Apple
-
-📍 US · 📰 The Guardian · ✅ 9 sources
-https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source reports $30.71 bn revenue but does not describe it as a record, making that claim unsupported
-  -> blocked by fact-check
----
-🌍 OIL PRICES RISE AFTER REPORT OF US STRIKE ON IRAN
-
-📌 Oil prices jumped after reports said the US struck Iran's Qeshm Island.
-💡 Higher oil prices usually make fuel and transport costlier.
-
-📍 Middle East · 📰 The Straits Times World News · ✅ 8 sources
-https://www.straitstimes.com/business/oil-rises-after-report-of-us-strike-on-irans-qeshm-island
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the oil price rise, the US strike on Qeshm Island, and the source attribution are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-super-vl:free returned an empty reply)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-b4081a02e584
-done: 2 post(s) this run
-=== run 2026-11-02T20:29:37Z
