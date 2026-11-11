@@ -1,3 +1,11 @@
 /home/runner/work/FinanceHubW/FinanceHubW/social/news_short.py:27: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   now = dt.datetime.utcnow()
-news short: no strong story today
+news short: OPEC oil output nears pre-war level (today's money news)
+rendering news_20261111
+  ElevenLabs unavailable (ElevenLabs 401: {"detail":{"type":"invalid_request","code":"quota_exceeded","message":"This request exceeds your quota of 10000. You have 23 credits remaining, while 26 credits are required for this request.","status); using the free voice for the rest of this run
+  voice retry 1: No audio was received. Please verify that your parameters are correct.
+  -> news_20261111.mp4 | OPEC oil output nears pre-war level (today's money news)
+[vost#0:0/rawvideo @ 0x55f39b574b80] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x55f39b576380] Error muxing a packet
+[out#0/rawvideo @ 0x55f39b576380] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x55f39b576380] Error closing file: Broken pipe
