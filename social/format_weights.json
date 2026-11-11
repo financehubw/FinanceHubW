@@ -1,49 +1,49 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "weights": {
-  "lesson": 0.62,
-  "data": 0.4,
-  "story": 0.89,
-  "micro": 1.86,
   "clip": 4.0,
+  "micro": 1.73,
+  "lesson": 0.61,
+  "data": 0.4,
+  "story": 0.83,
   "news": 1.0
  },
  "table": {
+  "clip": {
+   "shorts": 9,
+   "median_views": 1826,
+   "mean_views": 2710.0,
+   "median_watch_pct": 89.6
+  },
+  "micro": {
+   "shorts": 5,
+   "median_views": 126,
+   "mean_views": 114.2,
+   "median_watch_pct": 101.5
+  },
   "lesson": {
    "shorts": 22,
    "median_views": 41.0,
-   "mean_views": 137.9,
-   "median_watch_pct": 67.65
+   "mean_views": 138.7,
+   "median_watch_pct": 67.1
   },
   "data": {
    "shorts": 4,
    "median_views": 22.0,
-   "mean_views": 73.0,
+   "mean_views": 73.2,
    "median_watch_pct": 52.85
   },
   "story": {
-   "shorts": 8,
-   "median_views": 75.0,
-   "mean_views": 98.8,
+   "shorts": 9,
+   "median_views": 69,
+   "mean_views": 93.7,
    "median_watch_pct": 59.15
-  },
-  "micro": {
-   "shorts": 4,
-   "median_views": 135.5,
-   "mean_views": 121.5,
-   "median_watch_pct": 101.9
-  },
-  "clip": {
-   "shorts": 7,
-   "median_views": 2037,
-   "mean_views": 2931.3,
-   "median_watch_pct": 90.9
   },
   "news": {
    "shorts": 3,
-   "median_views": 84,
-   "mean_views": 70.3,
-   "median_watch_pct": 56.3
+   "median_views": 85,
+   "mean_views": 70.7,
+   "median_watch_pct": 59.2
   }
  }
 }
