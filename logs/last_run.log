@@ -1,3 +1,87 @@
+=== run 2026-11-11T02:15:44Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+91/171 sources returned news, 847 recent items
+198 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US DOLLAR RISES AS FED SIGNALS POSSIBLE RATE HIKES
+
+📌 The US dollar rose as Federal Reserve officials warned of ongoing inflation risks.
+
+📍 US · 📰 Economic Times · ✅ 4 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation/articleshow/135722346.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims “✅ 4 sources,” which isn’t directly supported by the cited articles
+  -> blocked by fact-check
+---
+🇺🇸 DOW FALLS 162 POINTS ON US INFLATION CONCERNS
+
+📌 The Dow dropped 162 points as rising inflation fueled worries over further rate hikes.
+📊 Dow: -162 points
+
+📍 US · 📰 Invezz · ✅ 4 sources
+https://news.google.com/rss/articles/CBMisgFBVV95cUxOV3NhRlhtc1g5alEzbjhNVTNrMW5keUdGNy1iOTRzTXJVQ1NQMnU4d3BLMFdaMlRfX0dnY1RwUEM5WTkzcWFsZjFHdjJ3MlpGLTRaMWRkbUZZdzFvekQzc0lOSDdaU2d5SllwUVV5UW1Hb2w1a1BSV1htajJGYkxwM2Y1UEJCc1JQbTYtTWpjSFRmbjRtN0ZhUkp5ejRqUnU5YkZsSGVpVVNOc2lYTzRQdThR?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about the Dow falling 162 points due to inflation concerns and the source/place match the Invezz article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the Dow's 162-point drop and the cause (inflation/rate hike fears), and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-29dd66da6ab5
+---
+🇺🇸 WALL STREET FALLS AS HIGH INFLATION STOKES RATE FEARS
+
+📌 US stocks fell after high inflation data raised worries about central bank rates.
+
+📍 US · 📰 Reuters · ✅ 4 sources
+https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93Snp4anhJNG12LW9YNXUxbEtPWk1kcXZuTV92OFphMnpkb3NYSEIzQktiTFcxZ3I4ZmFsY1JsWlpwQmFmM24wcFU3aUlOc2poMmRwM3Q5YzRXUi1yRzdIRE1kTFI3TEE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Wall Street falling due to high inflation and rate worries are directly supported by the Reuters source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
+  Groq Qwen: PASS - The post accurately reflects the sources' reporting that US stocks fell due to high inflation data and rate concerns, with correct location and source attribution.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-1fa3146c3fca
+---
+🇺🇸 🔄 UPDATE: FED'S PAULSON CALLS FOR GRADUAL RATE HIKES
+
+📌 Fed official Paulson called for gradual rate hikes (interest rate increases).
+
+📍 US · 📰 The Business Times · ✅ 4 sources
+https://news.google.com/rss/articles/CBMizAFBVV95cUxPSG9Mb29LbzA2M3Z2S2JucUVXbGN1MDdrdVp5b3FKX0ViMFQtSDNZTUpKMGd6dkVMTU1CenVMdjZselRFMGdSbXdKQ0dvREU5NlBZUGpHMk5Zd3Vaa19FYmxLVzVNeXRoZmR3R0VrN3hNYm9DQkh0aVpqMVNGOFNlMjRIZURmcWRQZTVqS0F2Q2ZJdkVwdkE4SFBHWU9leTVnVUN3cHo4OV9iUUw0eHhCOGlqdjc3SmdPUmRYbVJvdzhLTjFtcUgtaDJnOE8?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Business Times article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding Fed official Paulson calling for gradual rate hikes, and the location and source attribution are correct.
+skip (off-topic or nothing new): Won rises to 1342.4 per dollar as Fed officials flag larger rate hikes
+---
+🇺🇸 US INFLATION BEATS FORECASTS
+
+📌 US inflation came in higher than expected. Treasury yields surged.
+💡 Higher yields usually mean higher borrowing costs for everyone.
+#Fed
+
+📍 US · 📰 The Financial Express · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi6AFBVV95cUxNV0ZUT3ZwdVFTb2xZTmJxSjV5UTBGel9jWUtZazd1NzRCV1QzLXZqMzdQTFMzWjU3QkxoR1VzbEZXRTJ6ZUxhY1d2VzRQa0FjTDVXUjh3ajBzYTd1cWZkQno4Rnc4aUNQdFM4ZlFWMzg2WWkyR29raHh0U2xjRkNiaVlsd0s1R1B2VG5IMVRIc2JBb2RoR2k0ZmFGcl95d1I5LVlHRTVYWjJQSC0yMTFHQktfUU9RZzVVVnItaDg5amRlNkx4OV9SallVanlxa0NJZmJtdTV4RVV3LVZQN1pxRWNLUmJyMEQ30gHvAUFVX3lxTE9QUm5rdjZfYWhUemdWRHpYVGZtenZia2pQTG93OGlsamJidXVXcjdFLTZhYXpNX3Ezbnhvbk1haGRGWFBTWDg1aG9tYXVyZ2RzT3kwTm54N1hqLXRqckZfdlVjTHpkUVJldDRscGJ5YWVkaHNmaEg5d2lKaXFkNlJ1b0VXN2ZlNGNMYTFUS1ViS2syUDJqNWF1dWItYXl6dFRJcmZsRTVSWURobnBONzJaSms1Tl9QTHprX3o2VlZpYnpFOFh2NXYwWDlYSWQ1VmFhemlkZm5XSFdHcUN3MlVuV094WERtSUtmbTdDbXhF?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about inflation beating forecasts and yields surging are confirmed by the cited Financial Express article.
+  Groq GPT-OSS 20B: FAIL - The claim about having 2 sources is unsupported by the listed sources.
+  -> blocked by fact-check
+---
+🇺🇸 GOLD PRICES HOLD NEAR ONE-WEEK LOW
+
+📌 Gold rose 0.2% to $4,039.07 per ounce after strong US inflation data.
+📊 Gold: $4,039.07 (+0.2%)
+💡 Higher rates usually make gold less attractive compared to cash.
+#Gold
+
+📍 US · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/commodities/news/gold-holds-near-one-week-low-as-hot-us-inflation-boosts-fed-hike-bets/articleshow/135722357.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the price, percentage change, and context are directly supported by the source, and the general explanation is accurate.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-b9375cd7d279
+done: 3 post(s) this run
 === run 2026-11-10T20:59:15Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1414,87 +1498,3 @@ daily cap: 12, room left in the last 24h: 9
 
 📍 Canada · 📰 Reuters · ✅ 7 sources
 https://news.google.com/rss/articles/CBMivwFBVV95cUxNSHk0SGlxNVlMQ01uTXM0WFRidzIxWmo3LVhpajVZa2N1TXNfanJkZU1qTWQ1X2tkYS1uVUp1TXViVFY4cVY3Ukk5NDdLOS1jTi12MmZ4elVVaFJfcllfQTg3OG8wbUZHdV81aWxGX2pzVHBCWW9uQ1pNT2hUempQWUdpM3BOUmtNSUduQkRCNHhhamZ0YmZmUlpqNzQ3VHZ6TmhQMGhvU3cxSm5KRHRwdWZIaG1wbWVwd25EU2dudw?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - Post claims "✅ 7 sources" but only six sources are listed
-  -> blocked by fact-check
----
-🇺🇸 DEMOCRATS LEAD POLLS AHEAD OF US MIDTERM ELECTIONS
-
-📌 Public polls put Democrats ahead as the US midterm elections begin.
-💡 Election results often shape government policies, taxes, and spending.
-#Markets
-
-📍 US · 📰 Mint · ✅ 3 sources
-https://www.livemint.com/market/stock-market-news/us-midterm-election-results-2026-date-today-what-trumps-loss-mean-for-gold-sensex-nifty-global-markets-us-bonds-11793715305962.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that Democrats lead as the midterms begin isn’t directly supported and the post lists only Mint as the source despite citing three sources
-  -> blocked by fact-check
----
-🇺🇸 US STOCKS RISE AS TECH SHARES GAIN
-
-📌 Tech gains pushed US stock indexes higher ahead of midterm election results.
-💡 Rising stock markets often show growing confidence among investors.
-#Stocks
-
-📍 US · 📰 Reuters · ✅ 3 sources
-https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about tech‑driven US index gains ahead of midterms are confirmed by the Reuters source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Reuters article and other sources, and the general explanation is accurate.
-  Groq Qwen: PASS - All factual claims regarding the rise in US stocks driven by tech gains ahead of midterm results are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-e20a10c6bc82
----
-🌐 BINANCE TRACES $6.3B HACK TO FAKE JOB INTERVIEWS
-
-📌 Binance says hackers stole $6.3 billion using fake job offers to trick staff.
-📊 Stolen funds: $6.3 billion
-#Crypto
-
-📍 Global · 📰 The Block · ✅ 12 sources
-https://www.theblock.co/news/business/2026-11-03-binance-hack-incident-report-north-korea-fake-job-interview-ai-tool-432406
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (amount, method, source attribution) are directly supported by the cited The Block article.
-  Groq GPT-OSS 20B: FAIL - The post claims 12 sources, but only six are listed, which is unsupported.
-  -> blocked by fact-check
----
-🌐 OIL PRICES FALL FOR A SECOND DAY
-
-📌 Crude oil prices dropped for a second day on hopes of US-Iran diplomatic talks.
-💡 Lower oil prices usually lead to cheaper fuel and energy costs.
-
-📍 Global · 📰 International: Top News And Analysis · ✅ 4 sources
-https://www.cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The provided CNBC link reports oil prices climbing, not falling, so the source does not support the claim of a second‑day price drop
-  -> blocked by fact-check
----
-🇺🇸 US APPROVES STOCK PERPETUAL FUTURES FOR FIRST TIME
-
-📌 US regulators allowed perpetual futures (trading contracts with no end date) on stocks.
-
-📍 US · 📰 The Block · ✅ 9 sources
-https://www.theblock.co/news/regulation/2026-11-03-cftc-approves-individual-stock-perpetual-futures-trading-in-us-for-first-time-432422
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about US regulators approving perpetual futures on individual stocks for the first time are directly supported by the cited The Block article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the CFTC approval of individual stock perpetual futures in the US for the first time are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-993e5edfc1ee
-done: 2 post(s) this run
-=== run 2026-11-03T10:00:48Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 10
-35/171 sources returned news, 271 recent items
-143 new trusted stories, posting up to 1 this run
----
-🇩🇪 GERMAN BOND YIELDS RISE AS OIL PRICES REBOUND
-
-📌 German bond yields (returns on government debt) rose as oil prices climbed.
-📊 10-Yr Bund Yield: Up from 2-month low
-
-📍 Germany · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/us-stocks/news/german-bond-yields-rise-as-oil-climbs-ahead-of-us-midterm-elections/articleshow/135490769.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times source.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
