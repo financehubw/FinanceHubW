@@ -1,36 +1,16 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-104/171 sources returned news, 1128 recent items
-  big: rejected: big_stat_l1 must be 1-26 characters (it is 27); big_stat_l2 must be 1-28 characters (it is 32); big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or 
+102/171 sources returned news, 1090 recent items
   big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: rejected: cover_dek must be 1-80 characters (it is 82)
-  big: story #4 failed in 5s
-  big #16 draft 1: Groq GPT-OSS: PASS - All factual statements about Brent falling below $90, the $89.70 price, first time since August, and Trump’s de‑escalation signals are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the price drop to $89.70, the timing (first time since August), and the cause (Trump's de-escalation signals) are supported by the provided sources.
-  big: story #16 ok in 3s
-  pol: rejected: these numbers are not in the source: .5
-  pol: rejected: these numbers are not in the source: .5
-  pol: rejected: these numbers are not in the source: .5
-  pol: story #2 failed in 4s
-  pol: rejected: pol_body must be 1-170 characters (it is 171); pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: story #9 failed in 118s
-  pol #15 draft 1: Groq GPT-OSS: PASS - All valuation, raise amount, and company details are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the valuation, amount to be raised, timing, and company identity are supported by the provided sources.
-  pol: story #15 ok in 66s
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz #9 draft 2: Groq GPT-OSS: PASS - All factual statements about the IPO, Nasdaq listing, $1.4 trillion target valuation, and $26 billion private raise are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the IPO plan, Nasdaq listing, $1.4 trillion valuation target, and separate $26 billion private raise are supported by the provided sources.
-  biz: story #9 ok in 68s
-  up #10 draft 1: Groq GPT-OSS: PASS - All numeric and descriptive claims about the Nikkei rise and tech‑led Wall Street surge are directly stated in the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and descriptive claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide's claims regarding the Nikkei 225's 2.6% rise to 60,279.37 and the attribution to a technology-led surge on Wall Street lifting sentiment are directly supported by the provided sources.
-  up: story #10 ok in 163s
-  r1 #3 draft 1: Groq GPT-OSS: PASS - All statements about the rate increase to 2.5% and potential further hikes are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources, which confirm the Bank of Canada raised rates to 2.5% last month and indicated that further hikes might be needed.
-  r1: story #3 ok in 8s
-  r2 #21 draft 1: Groq GPT-OSS: PASS - All factual claims about China's trade surplus exceeding $1 trillion in October are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - The slide's claim that China's trade surplus topped $1 trillion in October is directly supported by multiple sources stating the surplus surpassed or topped $1 trillion as of October.
-  r2: story #21 ok in 3s
-  r3 #14 draft 1: Groq GPT-OSS: PASS - All factual claims about Goldman Sachs, Citi, and the $270 million commitment are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources regarding the $270 million commitment by a bank group including Goldman Sachs and Citi to a stablecoin venture.
-  r3: story #14 ok in 4s
-  r3 #6 draft 1: Groq GPT-OSS: PASS - Gold's >2% drop, Dow's ~250‑point fall, and October CPI topping forecasts are all stated in the cited articles. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide's claims regarding the CPI, Dow drop, and Gold plunge are directly supported by the BigGo Finance source, which states 'Dow Falls Nearly 250 Points, Gold Plunges Over 2%' and 'U.S. October C
-  r3: story #6 ok in 3s
-  r3 #13 draft 1: Groq GPT-OSS: FAIL - Sources say Bitcoin slipped below $74,000 or fell to $73,000, not that it fell below $73,000
-  r3 #13 draft 2: Groq GPT-OSS: PASS - Bitcoin's drop to $73,000 and the hotter‑than‑expected US inflation are both confirmed by the cited articles. | Groq GPT-OSS 20B: PASS - The slide’s claim that Bitcoin fell to $73,000 after hotter‑than‑expected US inflation is supported by both The Block and NewsBytes sources. | Groq Qwen: PASS - The claim that Bitcoin fell to $73,000 after hotter than expected US inflation is directly supported by the NewsBytes source, and the context of the drop is consistent with The Block's report on CPI d
-  r3: story #13 ok in 7s
-no story passed the checks for the r3 slide; nothing published
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); these numbers are not in the source: 0
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: story #25 failed in 208s
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: story #11 failed in 58s
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: rejected: these numbers are not in the source: 100
+  big: story #39 failed in 86s
+no story passed the checks for the big slide; nothing published
