@@ -1,3 +1,76 @@
+=== run 2026-11-11T09:50:41Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+104/171 sources returned news, 1014 recent items
+re-check of earlier post: 4 fail / 1 pass
+224 new trusted stories, posting up to 1 this run
+---
+🇺🇸 🔄 UPDATE: US DOLLAR GAINS, YEN FALLS NEAR 6-WEEK LOW
+
+📌 The US dollar stayed strong after hot inflation data, pushing the yen to a 6-week low.
+
+📍 US · 📰 Investing.com Australia · ✅ 3 sources
+https://news.google.com/rss/articles/CBMitwFBVV95cUxQYzRHVnBGSkczRnlKTlRaUldKUUxQS192RG1FWXF6YmZDTkpnVTMyX2dpeHhTRkVja2c5OEktWlBhRGluN2RubWpzVGQ3RWxuRXhONWp6UHdVTzRsVUt0S2c5ZVloNGtfVmpydi1mT0RzMlV5Tmp3RjdCNDJFdUcxd2Nqa1pZTWN1OWFZeG1CekxSaXB6UFJucnMybEhYZGVPWDJzQUFIVE5VenRCSHNiSW1MZTRFLTg?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about the dollar's strength and yen's 6‑week low are directly supported by the Investing.com Australia article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Investing.com Australia article.
+  Groq Qwen: PASS - All factual claims regarding the dollar's strength, the yen's 6-week low, and the cause (hot inflation data) are directly supported by the source headlines, and the location and source attribution mat
+---
+🇺🇸 US INFLATION FEARS SPARK BETS ON FED RATE HIKE
+
+📌 US inflation is heating up again, stoking bets on a Fed rate hike in December.
+
+📍 US · 📰 Vietnam.vn · ✅ 2 sources
+https://news.google.com/rss/articles/CBMingFBVV95cUxObVhBak9QbGtmODFHaFFCLXU2UTVIUWIwVHMwYTdnR05BY3cxWXlUbTA5ZzZhUVoxNThrWW91S1dlajhIdlN0MkhSMEhoVDItUmtySjRtSkJjZ0I3UDlZUnlMNm9SZDVZYTFocDd6WFAxRkljUElLVWFKMFpXRFdGQTc0TFhXeERIeHI5M0lZZUVjMkNhUFZ0d01OdDNsZw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about US inflation rising and market betting on a December Fed hike are directly confirmed by the Vietnam.vn source.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
+  Groq Qwen: FAIL - The post claims there are 2 sources, but only one unique source (Vietnam.vn) is provided in the list, and the second entry is a duplicate.
+  -> blocked by fact-check
+skip (off-topic or nothing new): US Inflation Keeps Rising Amid Iran War, AI
+---
+🌐 GOLD RISES DESPITE RATE HIKE FEARS
+
+📌 Gold prices went up globally even though people expect higher interest rates.
+💡 Higher interest rates usually make safe investments like gold less attractive.
+
+📍 Global · 📰 The Financial Express · ✅ 3 sources
+https://news.google.com/rss/articles/CBMi4wFBVV95cUxPX0JjWE9ROC1EOHlnRHNrYXJfdzNFWFgtT2hqM041enJqakVWaGpqVU5pVDBIeHBjUzhxQVZQT2FwVm9IYUhFdkN6QnY0bFdaQXlIUU1XclNHSTVhRmx2X3ZBMWpxWk9FaGFIOGJVNnJoSVdTUFgydE1jdVBZeXBwcXdtTk95YnFwSkNfeHRtOVFWSkV6eGd0M0k5NThWM1czUTZXdDdRV1BIazQ5VWdjS2oycFpnUzJ6SkxhOV9qNVlUXzJiVWgwdmszMkt5YW1UOGU3c2xKWkhDOGVVeVRvV2drSdIB4wFBVV95cUxPX0JjWE9ROC1EOHlnRHNrYXJfdzNFWFgtT2hqM041enJqakVWaGpqVU5pVDBIeHBjUzhxQVZQT2FwVm9IYUhFdkN6QnY0bFdaQXlIUU1XclNHSTVhRmx2X3ZBMWpxWk9FaGFIOGJVNnJoSVdTUFgydE1jdVBZeXBwcXdtTk95YnFwSkNfeHRtOVFWSkV6eGd0M0k5NThWM1czUTZXdDdRV1BIazQ5VWdjS2oycFpnUzJ6SkxhOV9qNVlUXzJiVWgwdmszMkt5YW1UOGU3c2xKWkhDOGVVeVRvV2drSQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about gold rising globally despite rate‑hike expectations are supported by the cited Financial Express article, and the general explanation about rates and gold is correct.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources, but the provided list contains 6 entries (with duplicates), so the source count claim is unsupported.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Why Bitcoin, Nasdaq, AI Stocks, and Chips Move Together? The Liquidity Machine Explained
+---
+🌏 ASIAN MARKETS RISE
+
+📌 Asian and global stock markets rose due to high demand for AI computer chips.
+💡 Stronger stock markets can grow retirement savings and pensions.
+#Markets
+
+📍 Asia · 📰 The Globe and Mail · ✅ 11 sources
+https://news.google.com/rss/articles/CBMiigJBVV95cUxPaWQwbzFfU3hrbDRIRmtZQnlyVHZURlFhOURob3l3NzZBdXdRM1R0SXZmWkVqZWRiWG10LUdlWmlmN25hRHFSVzYxQ3NueG9KVUxBWVUycmY1aW9TTHpRamNDZFE2LVBtQURnQkFSTWFXYjlpLXlLenMtYlR4c3FBTlQ1amNnM2RBV0JocEFxanRZWFZnYVVMRnZfcmU4WGNVcXZ4YlM3cVBJVGRydktyd1hEbUI0NXlVWTFyQmMxaXZrNmF4QXBUVUZYT1hlQnVyaFo4WXhNNkxUMVlWTDVOdGVmM1dpU01OSGE0eWFhV29GOEtYT0FIREhCNTNBMkdoR1lUMC15SzBWUQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The 📍 location 'Asia' does not match the source The Globe and Mail, which is not an Asian outlet
+  -> blocked by fact-check
+---
+🇺🇸 GOLDMAN EXPECTS MARCH FED RATE HIKE
+
+📌 Goldman Sachs now expects a rate hike (a central bank raising borrowing costs) in March.
+💡 Higher rates usually make loans costlier.
+#Fed
+
+📍 US · 📰 Yahoo Finance Singapore · ✅ 2 sources
+https://news.google.com/rss/articles/CBMigwFBVV95cUxOaEFuYkh0Z1dCVFlfbXpzblNnUFBSczNUTURCVDBEWlM2MXJvY0hpaEhZWEJ5b3IyeThZbmVVc1pIY0ZjRGF5LXhoNWZCSUQyU09RekZFMl91UkM3WFRPYVhHQjhRSVNwelNHY0J0RXZRRTN3TUNITklMdjduUjFmSnE1cw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding Goldman Sachs' forecast for a March Fed rate hike, and the location and source attribution are correct.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All claims match the source headline (Goldman added a March Fed rate hike to its forecast), the US/Fed attribution and Yahoo Finance Singapore source are correct, and the 💡 line is a general, non-pred
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-1d1260bdc2b6
+done: 1 post(s) this run
 === run 2026-11-11T02:15:44Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1425,76 +1498,3 @@ https://www.aljazeera.com/economy/2026/11/4/us-markets-rise-as-democrats-sweep-m
   Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Al Jazeera article.
   Groq Qwen: PASS - All factual claims regarding the market rise, the Democratic victory in midterms, and the source attribution are directly supported by the provided sources.
 published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-1e930f0ccbd9
-done: 3 post(s) this run
-=== run 2026-11-04T07:04:36Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-102/171 sources returned news, 1017 recent items
-259 new trusted stories, posting up to 3 this run
----
-🇮🇳 INDIAN RUPEE RISES 14 PAISE TO 94.61 AGAINST US DOLLAR
-
-📌 The Indian rupee rose 14 paise to 94.61 against the US dollar in early trade.
-📊 Sensex: +435.10 points
-
-📍 India · 📰 Economic Times · ✅ 7 sources
-https://economictimes.indiatimes.com/markets/forex/rupee-rises-14-paise-to-94-61-against-us-dollar-in-early-trade/articleshow/135524906.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, market moves, and source attribution are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the rupee's movement, the specific rate, the Sensex gain, the location, and the source attribution are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - (plain-text verdict)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-b23f4af42c63
----
-🇮🇳 INDIA STOCKS FALL FROM DAY HIGH
-
-📌 Sensex drops over 500 points and Nifty falls below 23,800 after a four-day rise.
-📊 Sensex: -540 pts
-
-📍 India · 📰 Moneycontrol.com · ✅ 4 sources
-https://news.google.com/rss/articles/CBMijAJBVV95cUxNbFVTdkF3elYtMTNETkZEXzhVS2ZzMWl5VmFHVGRQUTFFd3JvYm82MVJqM0hYa1JMWTU2Rm40a2JlRFY2cU1TdGVCdWRtVEJPeUxaOGRucWlnY1p0YnlsT211Y09SamdLOEpQNzVYb1BxTjVwLVdXRHN1RjV4QURfV0ZsaXJwc3ctNHhQbzM0eXRMdTB0ZktzRHpSVUlnZjVCc1pSU0JuX0F3RmJXMWpxMFdwblhyNkdYRHhZYV9LRmlpSkpYOVNHMk1tOGM1THNZU29tcjE2S085ZC1QZkhPRUJ6TnVUZkMxU1JZdHNnRFladmw3YVB2RzJxME5Hdmt2ZmpPYThJRURDUnhJ0gGSAkFVX3lxTE5scUhpVWNxN2ZzNEZmMGRTSEEwbWxOYU5QaGRWcEM0QjBMQmN4dDIyWUlBVnZYaTZFT3dVRDI4YUhtWUdkeWxQZktzdjNiaXNlU0E5cExpUzR3QjU5UWJsbzlzU1JqY0JDc2Jaem83Z3ktUnZuTUNNUlcwbG53QjVHbGJaTWRXSWsxdVFkUTBPQXpyQVQ0MGlhSXJENlFMeEdMSW42Uy1yZUZRZXlrcWxlRVRIR3oydTdiMlRQeFF1TGRyMGZyVjZRR28yZHZGYVBnNjltWFdCalNLeWNiWXRXSkFRNVAzQi1aWTVrTjB1T2k5d2JVRW9MOWYxY3Q4b2JVQW0zR0hMNjFpckN1NDZCN0E?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, market directions, and context (500‑point drop, Nifty <23,800, four‑day rally) are confirmed by the Moneycontrol source
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: PASS - All factual claims regarding the Sensex drop (540 pts), Nifty level (<23,800), and the context (profit booking after a four-day rise) are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unavailable (RuntimeError: nvidia/nemotron-3.5-super-vl:free returned an empty reply)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-6f87b28da8fd
----
-🇮🇳 GOLD AND SILVER PRICES DECLINE IN INDIA
-
-📌 Retail prices for gold and silver dropped across major Indian cities ahead of festivals.
-💡 Lower metal prices can reduce the cost of buying jewelry and coins.
-#Gold
-
-📍 India · 📰 Mint · ✅ 10 sources
-https://www.livemint.com/money/personal-finance/gold-silver-prices-today-4-nov-check-24k-22k-gold-999-silver-rates-in-delhi-mumbai-kolkata-ahead-of-dhanteras-11793762831871.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about price declines and retail drops across Indian cities ahead of festivals are directly supported by the Mint source.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - The post accurately reflects the source's report that gold and silver prices declined in India on November 4 ahead of Dhanteras, and the general explanation provided is factually correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-5edb4979bf5f
-done: 3 post(s) this run
-=== run 2026-11-03T23:37:24Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
-98/171 sources returned news, 766 recent items
-196 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-03T18:02:51Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-100/171 sources returned news, 1020 recent items
-262 new trusted stories, posting up to 2 this run
----
-🇨🇦 BANK OF CANADA: GOVT SPENDING NOT HURTING INFLATION FIGHT
-
-📌 The central bank chief says government spending is not making inflation worse.
-
-📍 Canada · 📰 Reuters · ✅ 7 sources
-https://news.google.com/rss/articles/CBMivwFBVV95cUxNSHk0SGlxNVlMQ01uTXM0WFRidzIxWmo3LVhpajVZa2N1TXNfanJkZU1qTWQ1X2tkYS1uVUp1TXViVFY4cVY3Ukk5NDdLOS1jTi12MmZ4elVVaFJfcllfQTg3OG8wbUZHdV81aWxGX2pzVHBCWW9uQ1pNT2hUempQWUdpM3BOUmtNSUduQkRCNHhhamZ0YmZmUlpqNzQ3VHZ6TmhQMGhvU3cxSm5KRHRwdWZIaG1wbWVwd25EU2dudw?oc=5
