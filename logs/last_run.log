@@ -1,3 +1,96 @@
+=== run 2026-11-11T18:02:51Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+96/171 sources returned news, 904 recent items
+229 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US STOCKS RISE ON AI SPENDING
+
+📌 US stock markets went up after strong results from CoreWeave eased worries about AI costs.
+📊 S&P 500: +1%
+💡 Higher stock values usually grow retirement and savings accounts.
+
+📍 US · 📰 Economic Times · ✅ 4 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-as-coreweave-lifts-ai-trade/articleshow/135741336.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source reports the S&P 500 rose "over 1%", not exactly "+1%" as claimed.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Gold slides 2% as hot US CPI boosts dollar and cements December Fed hike bets
+skip (off-topic or nothing new): Gold Rate Today In Meerut, Check Live 22 And 24 Carat Gold Price
+skip (off-topic or nothing new): Silver defies rising yields, holds above $52 as inflation stays hot
+skip (off-topic or nothing new): US Inflation Pushes Fed Toward Further Interest Rate Hikes
+skip (off-topic or nothing new): ICE and OKX Set Nov. 23 Tokenized Stock Launch After 67 Companies Opt Out
+---
+🇮🇳 RUPEE HITS SEVEN-MONTH HIGH
+
+📌 The rupee reached 93.69 against the US dollar.
+📊 Rupee: 93.69
+💡 Stronger currency can make imported goods cheaper.
+#Rupee
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
+https://www.thehindubusinessline.com/markets/forex/rupee-closes-at-seven-month-high-of-9369-as-fpi-inflows-lower-crude-prices-boost-sentiment/article71689839.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The source name listed ("Latest Share Market News, Sensex, Nifty") does not match the actual source (The Hindu BusinessLine).
+  -> blocked by fact-check
+---
+🌐 OPEC OIL OUTPUT NEARS PRE-WAR LEVEL
+
+📌 OPEC+ oil production rose to 41.23 million barrels per day in October.
+📊 41.23M barrels/day
+#Oil
+
+📍 Global · 📰 The Globe and Mail · ✅ 4 sources
+https://www.theglobeandmail.com/business/article-opec-oil-output-in-october-saudi-arabia/
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Globe and Mail source.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - The production figure (41.23 million barrels per day) and the month (October) are directly supported by the sources, and the source attribution matches.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-76fe2aae42c8
+skip (off-topic or nothing new): BTC to INR: Bitcoin Price in Indian Rupee
+---
+🇺🇸 US INFLATION RISES MORE THAN EXPECTED
+
+📌 Prices went up faster than expected in October, causing worry at the central bank.
+
+📍 US · 📰 International: Top News And Analysis · ✅ 3 sources
+https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about October CPI rising more than expected and causing Fed concern are directly supported by the source.
+  Groq GPT-OSS 20B: FAIL - The post misidentifies the source and location; it lists "International: Top News And Analysis" for a CNBC article, which is inaccurate.
+  -> blocked by fact-check
+---
+🇪🇺 DEUTSCHE BANK LAUNCHES CRYPTO STORAGE
+
+📌 The bank now lets companies store and transfer Bitcoin and other digital coins safely.
+#Crypto
+
+📍 Europe · 📰 Cointelegraph.com News · ✅ 3 sources
+https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Deutsche Bank's crypto custody launch are directly supported by the Cointelegraph source
+  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources, but the listed references include five distinct sources, making that claim unsupported.
+  -> blocked by fact-check
+---
+🇺🇸 NASDAQ RISES OVER 300 POINTS
+
+📌 The Nasdaq index goes up 1.4% as tech stocks rebound.
+📊 Nasdaq: +300 pts (+1.4%)
+📊 $NVDA
+💡 Broader stock indexes often track major tech share movements.
+#Nasdaq
+
+📍 US · 📰 The Financial Express · ✅ 2 sources
+https://news.google.com/rss/articles/CBMixgFBVV95cUxOMDZJZG11amhDWjZQaTY5MjQ0OVhMUy13UUI0MHhKNkNNRzk5OHM5VVgzcWtMZ3E1Wm9DMWZxel9rd29VVUo3MUx2WnlBNjRVb0dJcnhYTE1pWE51MXRxWFZTNWp5THRqZ0ZOQUVoU1o0SC0xQ1NlYnNZaV9yQUFhUUFSWVFoTjJIUHNJVFBVVVpjVU1kc0F2Nnl1U0ZFWHpZSkhzQnVxUUgzWmwtaGVfSUhSTk5YS0ZSbFN1MWNQLURCelFWUFHSAcwBQVVfeXFMTWdBRUhpblQ0U2M2bHg2OGpvdVdrU0JzYjkzaHpzVFcwZm13WkQtQkpTOGVwRl9zbE1kaXhtNEZhbU9aT1d2X0xwei1YN0RLM0tJZEZySTNkMDlWME5iZGpaUE1BdUttNUh0UG1zNlc5cWVYRm03Z0NHUk5YQldnb1R5dWFkSk9ZZDdMRWhKNGtOdWY2ZVVfTzllN3BVY2Vyclk2Y1dlRnlCVlUtVE5Cd1RrTVM1WEJNNTVCMTlOY08zODNFTEd5aTNIejV2?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numeric and descriptive claims are directly supported by the cited articles.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the Nasdaq's rise of over 300 points and 1.4%, the involvement of Nvidia, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-4f1886fdc98c
+done: 2 post(s) this run
 === run 2026-11-11T09:50:41Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1405,96 +1498,3 @@ daily cap: 12, room left in the last 24h: 6
 
 📌 US stocks surged with the Dow jumping 1,500 points after elections, while oil fell.
 📊 Dow Jones: +1,500 points
-
-📍 US · 📰 The Washington Post · ✅ 11 sources
-https://news.google.com/rss/articles/CBMisgFBVV95cUxPUnRkLUd3SEJnVkQzeHdYM1E1VUVfcGhHblh1bVp1dTIyTEprN3FQMFZ2b0dFUkVGMzliWmMzUU1VZDVISlNIRG9CMmxuNG1xS2ZjdnF6V2FNcUc1V1B6SG1ZU1B5QUFBQThBY0tPbjBKXzRoSHhNX2hDOGJpQlJ4YjZXWW1FSkVYZUxpcm95aklvSFBiLWxYMk1xYW9vM2kybG5FbmFfVjBfNDdLYXF5NW5R?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - No source confirms the Dow jumped exactly 1,500 points; the claim is unsupported or exaggerated.
-  -> blocked by fact-check
----
-🇺🇸 BITCOIN PASSES $80,000
-
-📌 Bitcoin rose over 5% to pass $80,000 for the first time since a major exchange hack.
-📊 $BTC: $80,000
-#Crypto
-
-📍 US · 📰 CryptoSlate · ✅ 2 sources
-https://cryptoslate.com/bitcoin-rockets-above-80000-for-first-time-since-binance-hack-despite-democrats-sweep-but-a-historical-crash-looms/
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about price, percentage rise, first time since Binance hack, and source details are directly supported by the CryptoSlate article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited source.
-  Groq Qwen: PASS - All factual claims regarding the price rise, percentage increase, and context are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-e3738938c2b7
-done: 1 post(s) this run
-=== run 2026-11-04T16:34:17Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
-109/171 sources returned news, 1035 recent items
-282 new trusted stories, posting up to 3 this run
----
-🇺🇸 US STOCKS JUMP AFTER ELECTION RESULTS
-
-📌 US stocks jumped following the recent election results.
-💡 Higher stock prices can boost the value of retirement savings.
-#USStocks
-
-📍 US · 📰 Analytics Insight · ✅ 2 sources
-https://news.google.com/rss/articles/CBMitwFBVV95cUxNSHlodVhZWkJHMXR5R09zRzNicFh4aUQyRnpMa254ZTZ0cF81NGxnRjRyeDE4N2ttRTFUbi1JRm5lX09HbV9zZzFTWVNENncwN0IzN2ZMbXJiLXdMYmVxSzdabGd2Zm9xRmplRHk0OG5oY28zMzZhV2ljNkI3ak42UXFnWGVDMXpjQjR6Ulk0SWloU19VOU9hbkFlZm1ERUxYZ3M5UEVMVHc0UkdEY25uVmxWR3QySEHSAcQBQVVfeXFMUGRiUk1wNlZUbkZvNDhHZzJTUmNKQzhEZ1dGajBDYmtxQ3NZSnhhSTdCZUxkanhyQV95RUtXbm1kRDg3Ui1qX0t5Qk1EVEhFcFBGbnBnN3VqR0g3QXMtZ0xoZnNUM0NycmlXalF0WHdtdFluSHVoZFVYTWtJd2tYdjZWWUxlUHZpcmQ3dG12T0Rwczloajd1UGtYajNaZHJQcFVJUzVwZ2FoZWxxTjVYeVFBaU85N0FFRXpxQW5vdWVZOU9LQg?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about US stocks jumping after the election are confirmed by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The post lists only Analytics Insight as the source, but two sources are cited.
-  -> blocked by fact-check
----
-🇺🇸 US STOCKS RISE AFTER DEMOCRATS WIN CONGRESS
-
-📌 US stocks and clean energy shares rose after Democrats won the midterm elections.
-
-📍 US · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-dow-jones-soars-1000-points-at-open-as-democrats-win-congress-data-center-stocks-slide/articleshow/135542698.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about US stocks and clean energy rising after Democrats' win are directly supported by the Economic Times article
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the stock market rise, Democratic victory, and specific sector movements (clean energy up, data center/AI down) are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-22b8e70dfa09
----
-🇺🇸 US STOCKS AND BITCOIN SURGE AFTER VOTE
-
-📌 The Dow jumped over 1,000 points and Bitcoin climbed toward $80,500 after election results.
-📊 Dow: +1,178 pts (+2.3%)
-
-📍 US · 📰 Mint · ✅ 11 sources
-https://www.livemint.com/market/stock-market-news/us-market-nasdaq-dow-ai-stocks-after-us-midterm-election-results-11793804138598.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, percentages, and Bitcoin price are directly supported by the cited Mint and Cointelegraph sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Mint article and other sources.
-  Groq Qwen: PASS - All factual claims regarding the Dow's gain, Bitcoin's price, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-d31c6bad234c
----
-🇺🇸 US STOCKS RISE AND DOLLAR FALLS AFTER MIDTERM VOTE
-
-📌 US shares and bonds rose while the dollar fell. The Dow Jones index jumped 2%.
-📊 Dow Jones: +2%
-
-📍 US · 📰 The Guardian · ✅ 3 sources
-https://www.theguardian.com/business/2026/nov/04/us-dollar-slides-democrats-midterm-election-win-growth-fears
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (US stocks up, dollar down, Dow +2%) are directly supported by the Guardian article.
-  Groq GPT-OSS 20B: FAIL - The post incorrectly states that bonds rose, while the source reports bond yields fell.
-  -> blocked by fact-check
----
-🇺🇸 US STOCKS RISE AFTER DEMOCRATS WIN MIDTERMS
-
-📌 US stock markets opened higher as Democrats won key midterm election seats.
-💡 Clear political results often lower uncertainty in financial markets.
-#USMarkets
-
-📍 US · 📰 Al Jazeera · ✅ 4 sources
-https://www.aljazeera.com/economy/2026/11/4/us-markets-rise-as-democrats-sweep-midterm-elections?traffic_source=rss
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly backed by the cited Al Jazeera and other sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Al Jazeera article.
-  Groq Qwen: PASS - All factual claims regarding the market rise, the Democratic victory in midterms, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
