@@ -1,3 +1,9 @@
+=== run 2026-11-12T00:57:44Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+95/171 sources returned news, 741 recent items
+183 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-11T18:02:51Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1492,9 +1498,3 @@ done: 2 post(s) this run
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
 89/171 sources returned news, 781 recent items
-186 new trusted stories, posting up to 1 this run
----
-🇺🇸 US STOCKS SURGE AS DOW SOARS 1,500 POINTS
-
-📌 US stocks surged with the Dow jumping 1,500 points after elections, while oil fell.
-📊 Dow Jones: +1,500 points
