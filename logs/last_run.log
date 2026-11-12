@@ -1,3 +1,9 @@
+=== run 2026-11-12T23:49:40Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+98/171 sources returned news, 722 recent items
+170 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-12T18:37:52Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1492,9 +1498,3 @@ published to: website, Instagram Story
 ---
 🇬🇧 BANK OF ENGLAND RAISES INTEREST RATE TO 4%
 
-📌 The Bank of England raised its main interest rate to 4% to curb rising prices.
-📊 UK Interest Rate: 4%
-
-📍 UK · 📰 The Globe and Mail · ✅ 37 sources
-https://www.theglobeandmail.com/business/article-bank-of-england-raises-interest-rates-inflation/
-  written by Gemini
