@@ -1,0 +1,53 @@
+{
+ "id": "news_20261112",
+ "title": "Fed to skip rate vote in October 2027 (today's money news)",
+ "thumb": "*TODAY:* Fed to skip rate vote in October 2027",
+ "thumb_photo": "federal reserve building",
+ "thumb_tag": "NEWS",
+ "caption": "The US Fed will not vote on interest rates at its October 2027 meeting.\nVoting meetings: 7\nCentral bank interest rates influence borrowing costs for everyday loans.",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "US,  CNBC,  5 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. Fed to skip rate vote in October 2027.",
+   "chat": "Fed to skip rate vote in October 2027."
+  },
+  {
+   "say": "The US Fed will not vote on interest rates at its October 2027 meeting.",
+   "photo": "federal reserve building",
+   "clip": {
+    "kicker": "US",
+    "year": "12 Nov",
+    "text": "Fed to skip rate vote in October 2027"
+   }
+  },
+  {
+   "say": "Voting meetings: 7.",
+   "photo": "federal reserve building",
+   "big": "7",
+   "sub": "Voting meetings"
+  },
+  {
+   "say": "Why it matters. Central bank interest rates influence borrowing costs for everyday loans.",
+   "slide": [
+    "Central bank interest rates influence borrowing costs for everyday loans."
+   ]
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}
