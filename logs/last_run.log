@@ -1,3 +1,127 @@
+=== run 2026-11-12T10:12:43Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 10
+108/171 sources returned news, 1094 recent items
+238 new trusted stories, posting up to 3 this run
+---
+🌐 BITCOIN FALLS BELOW $74,000
+
+📌 Bitcoin fell 0.4% to $73,344.71 as overall crypto prices dropped.
+📊 $BTC: $73,344.71 (-0.4%)
+📊 Crypto market: $2.43 trillion (-0.78%)
+#Crypto
+
+📍 Global · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/market/cryptocurrency/bitcoin-slips-below-74000-mark-experts-explain-factors-influence-cryptocurrency-markets-week-us-inflation-risk-investors-11794473906813.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 2 sources" but only one distinct source (Livemint) is provided.
+  -> blocked by fact-check
+---
+🇺🇸 US DOLLAR HITS NEAR 19-MONTH HIGH
+
+📌 The US Dollar rose above 103 to near a 19-month high on rate hike bets.
+📊 Dollar Index: Above 103
+💡 A stronger dollar usually makes imported goods cheaper for US buyers.
+
+📍 US · 📰 FXStreet · ✅ 7 sources
+https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlBlZlltbUg5M3p6dmkxMjlPU1EwaHdWc0Y3VTBPMmhUMllwb1J6QnY4NHhRUGdWZVhoVGdRLUpQU3pxMERxS09yS0tpbU1FM1FiNy1TUnR6ZGxQQ0JmMk0tM1BaLTlZMGFTbXlONVdicFpNYzEzQmpabHpKbkFjSjc4OEFxaDdJTU40MVA1NU8yMTB4Q2ZETXl4Q0N3WFR0eGx2dC1qT0c2akRzbUtEWUpBT25zQkN6ekE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly backed by the cited FXStreet/TradingKey sources and the general explanation is correct.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 7 sources, but only six are listed, so that factual claim is unsupported.
+  -> blocked by fact-check
+---
+🇪🇺 EUROPE'S STOXX 600 INDEX HITS RECORD HIGH
+
+📌 Europe's STOXX 600 stock index hit an all-time high on strong company profits.
+💡 Higher stock indexes usually reflect solid business growth.
+#Europe
+
+📍 Europe · 📰 Reuters · ✅ 7 sources
+https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb2lhYU41THN2eG9LQ3BhakNHMERZZEhUaG05elhtaVFsT3EwczI1QWxtM21uVGFEVUpYR2FkYnlUejJrYzUwRVdfR19SRXFQN1VuQmNmNXluOWVRNUNzdXlrSTRlekpJWDJETF80RTJ6a19VN1BNOFBKbThGYnBmWGdLSktleXdBZEtTMGNOYV9Rc1lVN01TNDhPVXJ6QkxtOGlUaG5FQm1TekNQU2VvV2JwSXhNdmdfT1l3?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 7 sources" but only six sources are listed.
+  -> blocked by fact-check
+---
+🇮🇳 RBI PLANS NEW RULES FOR PRIVATE EQUITY LENDERS
+
+📌 India's central bank plans to limit private equity control of non-bank lenders.
+
+📍 India · 📰 Economic Times · ✅ 5 sources
+https://economictimes.indiatimes.com/news/economy/finance/rbi-plans-curbs-on-private-equity-firms-controlling-stakes-in-multiple-non-bank-lenders-report/articleshow/135763029.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about RBI's planned limits on private equity control of NBFCs, location, source, and number of sources are directly supported.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding the RBI's plan to limit private equity control of non-bank lenders are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6efcfd8dd8b5
+---
+🌏 ASIAN BUYERS TURN TO AFRICAN AND BRAZILIAN OIL
+
+📌 Asian refiners are buying more oil from Africa and Brazil as shipping rates drop.
+💡 Lower shipping costs usually help keep import prices down.
+#Oil
+
+📍 Asia · 📰 Oilprice.com · ✅ 3 sources
+https://oilprice.com/Latest-Energy-News/World-News/Asian-Oil-Buyers-Turn-to-Africa-and-Brazil-as-Tanker-Rates-Plunge.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Asian buyers shifting to African/Brazilian oil due to lower shipping rates are supported, and the general explanation about lower costs is accurate.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
+  Groq Qwen: FAIL - The post claims buyers are turning to Africa and Brazil 'as shipping rates drop,' but the source specifies that rates for shipping out of the Persian Gulf remain near historic highs, while only South 
+  -> blocked by fact-check
+---
+🇪🇺 ZEALAND PHARMA REPORTS Q3 RESULTS
+
+📌 Zealand Pharma published its results for the third quarter of 2026.
+#Earnings
+
+📍 Europe · 📰 The Courier-Journal · ✅ 7 sources
+https://news.google.com/rss/articles/CBMi7wJBVV95cUxNVjBYdU00LU84a0ZLVFpQRHhWbHhqbGxXdHVqdlM5S3lfNE0wTkFrVW9Tb2dITVRtODlRLWhHUkI4T280X0FrY1d0ODdUam9jM1RCRjdHMTR6eGRlVWZhbVFrUUNRd2FaLXVMTlhKRW91UVYzU25HcFNnQlpKbUJCem1GcjJhWk9KeDNTOTFRN0ZlVUlMSHZuSlFOQUx6OTFRSGYyMW95TUxIYjZxZXl3OGl0TUh5bmYyUFhlN21Vd3B6enlIb04weU9nR0IzcVRld0RkLTQyaXdnWEwtVzNJb0FpeERlcGVSQUhmX1BDc0FMMXlnSXd0cksxUXB0MnRnRlJTSVZSdl9vZk9aNjk1OVMzeTQ3STRjbFV2Z0tpUVZpOGZCZ1hVT2M0WU54UUxmYk1OcFEtcmZPUXgwV0JnUlc1cnpBY001czYxM3Q4cDltZ1g0ekRrV2JDTzhwVmV0LUNWbGxGdUxSVktyMkQ0?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The cited Courier-Journal source discusses Caledonia Mining, not Zealand Pharma’s Q3 2026 results
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN BONDS STAY STABLE AHEAD OF INFLATION DATA
+
+📌 Indian government bonds stayed steady while traders wait for upcoming inflation data.
+💡 Inflation figures often influence central bank decisions on interest rates.
+
+📍 India · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/bonds/indian-bonds-drift-as-us-debt-rout-saps-oil-relief-before-cpi/articleshow/135758028.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims in the post are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the stability of Indian bonds, the anticipation of inflation data, and the source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f30c410473ab
+---
+🇺🇸 NVIDIA BOARD WEIGHS OUSTING CEO JENSEN HUANG
+
+📌 Nvidia shares fell nearly 10% as its board weighs removing CEO Jensen Huang.
+📊 $NVDA: Plunges almost 10%
+
+📍 US · 📰 Business · ✅ 5 sources
+https://www.euronews.com/2026/11/12/nvidia-board-weighs-jensen-huangs-future-as-reports-emerge-of-second-affair
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about board consideration and ~10% share drop are directly supported by the listed sources
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: FAIL - The source states the second affair was with an executive at the chip giant (Nvidia), whereas the draft incorrectly attributes the affair to an executive at 'Singapore-based data centre company Megasp
+  -> blocked by fact-check
+---
+🌏 ASIAN STOCKS SLIP AS NVIDIA WEIGHS ON TECH
+
+📌 Asian stock markets fell as Nvidia's struggles dragged down AI shares.
+💡 Weakness in big tech stocks can affect overall market returns.
+#Stocks
+
+📍 Asia · 📰 The Washington Post · ✅ 7 sources
+https://news.google.com/rss/articles/CBMi0AFBVV95cUxNLUlqdXlpWFV3cXNia0JRZnVlbUtMOGRaMk5uU3dpME5ib3Y2N3Q1bjNKcllyUXBPbzc3cm1neXdMWG5jbjl4aFRBY2kwYlNXSXpJVFV3TWN5MjhwUFVEb3pGMldySThYVXUxZ2xLVmhJY0gtU2VGN3hGaldTelNyWmw2ZUtwaEM0UTZVMDJ4b3FQZ2lsN0szUWJaTll3YVBhNVZZcTlwZm9ZRmNfUGp0VlZORFh2Q0p6aW5zRy1waXlSajNBYzljZkl6WXY2R09q?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Washington Post article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Washington Post source and the explanation is a general, widely accepted effect.
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding Asian stocks slipping due to Nvidia's impact on AI shares, and the source attribution matches.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-58c937f0f55a
+done: 3 post(s) this run
 === run 2026-11-12T00:57:44Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1374,127 +1498,3 @@ https://news.google.com/rss/articles/CBMinAFBVV95cUxPQlB2Q1M3aHY0UjIwVUczU09aRnV
 ---
 🇺🇸 US DOLLAR FALLS AFTER ELECTION
 
-📌 The US dollar dropped against other currencies after US midterm election results.
-💡 A weaker currency can make imported goods costlier for local buyers.
-#Forex
-
-📍 US · 📰 Economic Times · ✅ 9 sources
-https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-edges-lower-as-us-election-outcome-cheers-global-markets/articleshow/135555751.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 9 sources" but only six distinct sources are listed, so the source count is unsupported.
-  -> blocked by fact-check
----
-🇯🇵 JAPAN CENTRAL BANK WEIGHS MORE RATE HIKES
-
-📌 Japan's central bank discussed raising interest rates (the cost of borrowing money) more.
-💡 Higher rates usually make loans costlier.
-#Japan
-
-📍 Japan · 📰 The Business Times · ✅ 6 sources
-https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQ3JyT1d5M1liZlNuRjJsZ1ZEMnFJQWprM2dscXhuNXR3M0loUDE5WkhWZUpiVHo1SlZ4NXVIcXFGMm0tWHc2NTBVSTVLX1hIM2RHb2pvSkpvUDRzM3Nad2JJeXg4WlhXQ1NuWWxadG5TOG1Kd0hpbWhYYTlBejluNUlHdVZxbGNTeEtJRFlnRERnbmdRb2YwbXFNb18tNnlKU0ItSTdBZDkwcjgxaEc5WEt3UDN0Ykt3NjNOUHNnc091QlloUThtQTBHYWp4SktJQWlWZTBLX0JQM1Viak1nVg?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the cited Business Times and Reuters articles.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Business Times article and the general explanation is accurate.
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the Bank of Japan debating further rate hikes, and the general explanation of higher rates is correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-d7cc270da0aa
-skip (off-topic or nothing new): Stock Market Today: Gift Nifty, Oil Prices To Gold Rate; Five Key Factors That May Drive Sensex, Nifty 50 On November 5
----
-🌐 GOLD PRICES RISE AGAIN
-
-📌 Gold prices went up after a weak US dollar and upcoming jobs data.
-💡 Lower currencies often push metal prices up.
-#Gold
-
-📍 Global · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/markets/commodities/news/gold-rises-after-biggest-daily-gain-since-august-with-us-payrolls-in-focus/articleshow/135555727.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about gold rising due to a weak dollar and upcoming jobs data are supported by the Economic Times article, and the general explanation is accurate.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the rise in gold prices, the weak US dollar, and the focus on upcoming jobs data are directly supported by the source text.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All factual claims in the post are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f267701a7ebb
----
-🇺🇸 US STOCKS ADD $1.2 TRILLION
-
-📌 US stocks added $1.2 trillion in market value after Democrats won control of Congress.
-📊 Dow: +3%
-💡 Stock market gains can boost the value of retirement accounts and pensions.
-
-📍 US · 📰 Nikkei Asia · ✅ 3 sources
-https://asia.nikkei.com/politics/u.s.-midterm-elections/democrats-win-control-of-congress-in-sharp-rebuke-to-trump
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and factual statements are directly supported by the cited ET NOW and Nikkei Asia articles.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the $1.2 trillion market cap increase, the 3% Dow rally, and the political context are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: FAIL - (plain-text verdict)
-  -> blocked by fact-check
----
-🇰🇷 SOUTH KOREA POSTS RECORD $61.5B SURPLUS
-
-📌 South Korea made a record $61.5 billion surplus in September from selling computer chips.
-📊 Surplus: $61.5B
-
-📍 South Korea · 📰 Cnbc Tv18 · ✅ 5 sources
-https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOWVoQVM2YUNNRi16NklwS2FRQUVHMC1CeFRUY2Z5TWVNNlFiQ3dwVnhhM0p3dEtaWjRPRXdsaUVjZHppZUFXNDNlM3plSHdCSmJsUTZyd19RbFZ1T3hONG5zZGZMV1UxR0IyaTYtTjJyeHJNNXoydldUVTRXOG9yLWdmb0RhRkQ0U2s1c01IWXE2bU1DdG9FTEl1Qm5EWU0tc1JHU29aSTVtZGFpdnpCQ2lMLWZ3ajN2RGE5TWhNS0FqaW1CNllBSHJncjVOeU9k0gHWAUFVX3lxTE1XQ29kQnNpaUQtanZxOHZQeExKUVNlcEhSNzUzcXlwdER5dDg1TVB4bUVOQWNfSmc4Q0d0YW9Fc0lVV2ZWVF83UTF4ZEE5ODVxQkVvS0lGekpENlZFWnhFVEY0Y2M3ZEJ1ZDNtcV9fMXV2UFlrNW5vSnFYSkY5TjVOb0xsdG4zQ0xVUkJfblcyZzJvX0NiT3F6Y1V6LVQzOEJhdXBXUTlTUnhWbkdHSzlLNUdFazNLM3U1THE1V2dDeURqV3dLc0c4T0pQQjc2a0JqX0diMUE?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 5 sources" but six sources are listed, making the source count inaccurate.
-  -> blocked by fact-check
----
-🇺🇸 OIL AND DATA CENTRE STOCKS FALL AFTER US MIDTERMS
-
-📌 Shares in oil and data centre companies dropped following the US midterm elections.
-
-📍 US · 📰 Reuters · ✅ 4 sources
-https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 4 sources" but the listed sources total five entries, so the numeric claim is unsupported
-  -> blocked by fact-check
----
-🇺🇸 DOW SURGES NEARLY 1,600 POINTS AFTER US ELECTIONS
-
-📌 The Dow Jones Industrial Average rose by 1,600 points following the US elections.
-📊 Dow: +1,600 points
-#Stocks
-
-📍 US · 📰 Stocktwits · ✅ 2 sources
-https://news.google.com/rss/articles/CBMi9AFBVV95cUxPa0ZDdDFWUVo5eHRmdXlpZkhHeFpsQ1ZKM2RjSWRPMUhLcDhHNFFjajZUTFRRRTRadFljY0pTUnZyVzkyb2tvZ3lWOW4tVDhIXzBoU3FxX0lmQTJTUWhrdS1WN1ByZ1hQUGdQMDh5d3pqYkVBNE52VFNKVVRZcnNvekpTMmNDSkJVMmI1R3NVaERTMmhadFQ0UWdFZHI4ZXkwTTBRYl9PZ1FBSXE0NVhpdG5jUFMwLS0tNUQ3MWl0M0NrWVJBWkNhdV9TWDc5aGVGeFpCQjROaDZSUEFvZ0Q5cnVaSHRoaXdHVmxRYjVsZnlBc2tM?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - One cited source says the Dow fell ~200 points, contradicting the claim of a 1,600‑point rise
-  -> blocked by fact-check
----
-🇺🇸 US STOCKS RISE AS TECH SHARES CLIMB
-
-📌 The S&P 500 and Nasdaq indexes rose as tech stocks gained and oil prices fell.
-📊 $SPX: +1.23%
-💡 Rising stock markets can reflect investor confidence in the economy.
-#Stocks
-
-📍 US · 📰 NDTV Profit
-https://news.google.com/rss/articles/CBMi0AFBVV95cUxOV2N0UENsajQ0QlRHOVpCWTN1Nkpic1ZKOG5scV82MzZ5WE5Sa0UtWkxYVVhwaHd6Ulc2QzhEQlBRZzBHYlhGMFBpeU5KcklrVkFMaWt0aGFLR2NoYnFFNFFyTEVfTllzdjBnQUF6X01XVnQtMGNsZjNZaXBSam44bVI1ZmxfRmQ0eGIzdWcycllkWG50SzYyazU5RVBuRWFleWVlWVFsUDQ3WTJkREtsSDMyQVhFbVNXRGlCTktBSXUya0dFUXNpU09iLTZnNE9V0gHYAUFVX3lxTE9iVkdvRERSN2JlRVhPT0tNM0hhdVVaS19KdVpTazFLMHNoeEx6aXJOV2g2SlNQTi00R0pWOWVja09DYTBrYkcyNElvTnpyTjZxUlhlWlhES091cjJTUTJRTWpHanNOWGt0dGFDclprTHhZUFdiVG1pV0xzVGx0eE1xTU5tNzJGSXBWOGY2QkdrOEs3NlRZdVcySGFralhYSUpYOEh1R1FyY0gxMDRuZE9vN19DVDVpWUJQbWxEU3JTaHdIemxOUHJoaW8xaHZjUW9uQnhRbjNXdA?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims, including the +1.23% S&P 500 rise, Nasdaq gain, tech stock lift, and oil price drop, are directly supported by the NDTV Profit article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: FAIL - The specific percentage gain of +1.23% for the S&P 500 is not provided in the source text.
-  -> blocked by fact-check
----
-🇺🇸 GOLD PRICE RISES ABOVE $4,100
-
-📌 Gold prices climbed past $4,100 following the U.S. election results.
-📊 Gold: $4,100+
-💡 Gold is often seen as a safe place to store value when markets are uncertain.
-#Gold
-
-📍 US · 📰 Bloomberg.com · ✅ 4 sources
-https://news.google.com/rss/articles/CBMiswFBVV95cUxNVVJrRWVPZ19DM1pLb3UzNEtBc0hseHNtMUY4RTRTRDdMb3Fnb19MM200Q05YNG8yN1VFYURtNjdqTE1EQUgxZG41R3ZQa0t3Z2JpQjFYUEY4VVlhLVk2dzR0dmhaaWdlUmdINE9Cb1cwRVdpbHJNTGZsejlmYkluVmdOSEZEVEpudmFZNENkZzFWSnFELUViV2NNTGUzUHBuMU9Wa3dpclhyZ2hPVUJTVGV4cw?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - Bloomberg source only confirms gold above $4,000, not above $4,100 as claimed
-  -> blocked by fact-check
-done: 2 post(s) this run
-=== run 2026-11-04T22:10:31Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-89/171 sources returned news, 781 recent items
