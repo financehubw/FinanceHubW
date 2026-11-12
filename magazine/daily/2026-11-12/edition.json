@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "THE AMERICAS",
+   "text": "Sales of built housing units fell to 3.75m in October, down 8.8% from last year."
+  },
+  {
+   "name": "ASIA",
+   "text": "The Japanese yen dropped near 160 against the US dollar."
+  },
+  {
+   "name": "MIDDLE EAST",
+   "text": "OPEC+ oil output rebounded by 2.04 million barrels per day amid tanker rates hitting a record."
+  }
+ ],
+ "story_ids": [
+  6,
+  34,
+  28,
+  20,
+  14,
+  38,
+  32
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 6,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 34,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 28,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 20,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 14,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 38,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 32,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "The bitcoin drop",
+ "cover_dek": "Digital currency slid as a technology executive stepped down.",
+ "big_headline": "Bitcoin fell to $71,200 after Nvidia chief executive Jensen Huang resigned.",
+ "big_body": "Crypto positions worth $750 million were liquidated, meaning forced sales occurred. MSCI also confirmed Strategy's removal from its index.",
+ "big_stat": "$71,200",
+ "big_stat_l1": "Bitcoin fell to this low",
+ "big_stat_l2": "after tech stocks tumbled",
+ "pol_headline": "Treasury bill auction results",
+ "pol_body": "Competitive bids received for 91-day treasury bills reached an amount of 27,046.800 crore rupees. Competitive bids accepted amounted to 7,600.000 crore rupees.",
+ "pol_stat": "5.8681%",
+ "pol_stat_l1": "yield to maturity for",
+ "pol_stat_l2": "91-day treasury bills",
+ "biz_headline": "Car prices drive debt",
+ "biz_body": "The cost of a new vehicle in the US climbed to a record high, pushing American drivers deeper into debt as loan rates stay high.",
+ "biz_stats": [
+  {
+   "value": "$51,109",
+   "name": "New vehicle",
+   "note": "average price"
+  },
+  {
+   "value": "+2.1%",
+   "name": "Transaction",
+   "note": "rose in October"
+  }
+ ],
+ "up_headline": "Customers gain access to bitcoin",
+ "up_body": "Israel Discount Bank allows eligible customers aged 18 and older to buy, hold and sell bitcoin and ether in its app starting on 26 November.",
+ "cover_photo": "tanker",
+ "big_photo": "servers",
+ "pol_photo": "fed",
+ "biz_photo": "dollars",
+ "up_photo": "atm",
+ "sources_used": [
+  "Altcoin Buzz",
+  "BW Businessworld",
+  "Bitcoin Magazine",
+  "CoinMarketCap",
+  "Cointelegraph.com News",
+  "Crude Oil Prices Today",
+  "Kursiv Media Узбекистан",
+  "Nikkei Asia"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−0.3%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,596."
+   },
+   {
+    "chg": "−2.8%",
+    "color": "#B4280E",
+    "text": "<strong>Gold</strong> fell to about $3,888 an ounce."
+   },
+   {
+    "chg": "−3.4%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $71,442."
+   }
+  ]
+ },
+ "status": "draft"
+}

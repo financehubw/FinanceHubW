@@ -1,16 +1,35 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-102/171 sources returned news, 1090 recent items
+112/171 sources returned news, 1115 recent items
   big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); these numbers are not in the source: 0
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: story #25 failed in 208s
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: story #11 failed in 58s
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: rejected: these numbers are not in the source: 100
-  big: story #39 failed in 86s
-no story passed the checks for the big slide; nothing published
+  big #6 draft 2: Groq GPT-OSS: PASS - All factual statements (price, resignation, liquidation amount, MSCI removal) are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All numerical, name, and event claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the price drop to $71,200, Jensen Huang's resignation, the $750 million in liquidations, and MSCI's confirmation of Strategy's removal are supported by the provided source
+  big: story #6 ok in 149s
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); these numbers are not in the source: 0
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); these numbers are not in the source: 0
+  pol: story #4 failed in 164s
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); this repeats the big story (bitcoin, crypto, million, strategy); it must be a dif
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: story #29 failed in 136s
+  pol #34 draft 1: Groq GPT-OSS: PASS - All figures and yield match the RBI auction result data. | Groq GPT-OSS 20B: PASS - All numerical and factual claims match the RBI source data. | Groq Qwen: PASS - All figures for competitive bids received, accepted, and yield to maturity for 91-day treasury bills match the source data exactly.
+  pol: story #34 ok in 4s
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story (bitcoin, currency, digital, million); it must be a different story
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story (bitcoin, currency, digital, strategy); it must be a different story
+  biz: rejected: biz_body must be 1-130 characters (it is 134); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story (bitcoin, currency, digital, strate
+  biz: story #29 failed in 8s
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the b
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the b
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the b
+  biz: story #23 failed in 12s
+  biz #28 draft 1: Groq GPT-OSS: PASS - All specific figures and statements about record price $51,109, 2.1% rise in October, and high loan rates are confirmed by the source. | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - All factual claims regarding the record price of $51,109, the 2.1% rise in October, and the context of high loan rates are supported by the source text.
+  biz: story #28 ok in 4s
+  up #20 draft 1: Groq GPT-OSS: PASS - All claims about eligibility, age, assets, app access, and start date are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - (plain-text verdict)
+  up: story #20 ok in 7s
+  r1 #14 draft 1: Groq GPT-OSS: PASS - All numbers and statements about October sales of built units (3.75 million, down 8.8%) are directly supported by the cited Guardian article. | Groq GPT-OSS 20B: PASS - The slide’s claim matches the Guardian source exactly. | Groq Qwen: PASS - The slide's claims regarding the sales figure (3.75m), the month (October), and the year-over-year decline (8.8%) are directly supported by the Guardian source.
+  r1: story #14 ok in 4s
+  r2 #38 draft 1: Groq GPT-OSS: PASS - The slide's claim that the yen dropped near 160 per dollar is directly supported by the Nikkei Asia article. | Groq GPT-OSS 20B: PASS - The slide’s claim that the yen fell near 160 against the dollar is directly supported by the Nikkei Asia source stating the yen was down near 160. | Groq Qwen: PASS - The slide's claim that the yen dropped near 160 against the US dollar is directly supported by the source headline stating the yen was down near 160.
+  r2: story #38 ok in 4s
+  r3 #32 draft 1: Groq GPT-OSS: PASS - All factual claims (2.04 million bpd rebound and record tanker rates) are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - The slide’s factual statements about OPEC+ output rebounding 2.04 million bpd and tanker rates hitting a record are directly supported by the cited Businessworld and Kursiv Media articles. | Groq Qwen: PASS - The slide accurately reflects the headlines and key facts (2.04 million bpd rebound, record tanker rates) provided in the sources.
+  r3: story #32 ok in 6s
+Draft ready for review: magazine/daily/2026-11-12/edition.json (not published)
