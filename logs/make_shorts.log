@@ -1,33 +1,56 @@
-rendering whatif_gld_2004
-  -> whatif_gld_2004.mp4 | $1,000 in gold in 2004 is now worth this
-rendering whatif_qqq_1999
-  ElevenLabs unavailable (ElevenLabs 401: {"detail":{"type":"invalid_request","code":"quota_exceeded","message":"This request exceeds your quota of 10000. You have 23 credits remaining, while 32 credits are required for this request.","status); using the free voice for the rest of this run
-  voice retry 1: No audio was received. Please verify that your parameters are correct.
-  voice retry 2: No audio was received. Please verify that your parameters are correct.
-  -> whatif_qqq_1999.mp4 | $1,000 in the Nasdaq 100 in 1999 is now worth this
-rendering whatif_spy_1993
-  -> whatif_spy_1993.mp4 | $1,000 in the S&P 500 in 1993 is now worth this
-[vost#0:0/rawvideo @ 0x563d8b837180] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x563d8b7a4dc0] Error muxing a packet
-[vost#0:0/rawvideo @ 0x55ecfb0d0d40] Error submitting a packet to the muxer: Broken pipe
-[vost#0:0/rawvideo @ 0x555a09bc6cc0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x55ecfb079c00] Error muxing a packet
-[out#0/rawvideo @ 0x555a09b3fa40] Error muxing a packet
-[out#0/rawvideo @ 0x555a09b3fa40] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x555a09b3fa40] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x55ecfb079c00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x55ecfb079c00] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x557d7b4cb500] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x557d7b477d00] Error muxing a packet
-[vost#0:0/rawvideo @ 0x558a6ee19ac0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x558a6ee19f00] Error muxing a packet
-[out#0/rawvideo @ 0x558a6ee19f00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x558a6ee19f00] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x563d8b7a4dc0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x563d8b7a4dc0] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x559d2fc485c0] Error submitting a packet to the muxer: Broken pipe
-[out#0/rawvideo @ 0x559d2fbf4dc0] Error muxing a packet
-[out#0/rawvideo @ 0x557d7b477d00] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x557d7b477d00] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x559d2fbf4dc0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x559d2fbf4dc0] Error closing file: Broken pipe
+rendering monthly_qqq_1999
+  ElevenLabs unavailable (ElevenLabs 401: {"detail":{"type":"invalid_request","code":"quota_exceeded","message":"This request exceeds your quota of 10000. You have 23 credits remaining, while 34 credits are required for this request.","status); using the free voice for the rest of this run
+  -> monthly_qqq_1999.mp4 | $100 a month into the Nasdaq 100 since 1999 is now worth this
+rendering whatif_btcusd_2015
+  -> whatif_btcusd_2015.mp4 | $1,000 in Bitcoin in 2015 is now worth this
+rendering whatif_ethusd_2017
+  -> whatif_ethusd_2017.mp4 | $1,000 in Ethereum in 2017 is now worth this
+[vost#0:0/rawvideo @ 0x5dba72187580] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5dba7217a940] Error muxing a packet
+[out#0/rawvideo @ 0x5dba7217a940] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5dba7217a940] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x613259057540] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6132590571c0] Error muxing a packet
+[out#0/rawvideo @ 0x6132590571c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6132590571c0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x589ca8424d00] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x589ca8424780] Error muxing a packet
+[out#0/rawvideo @ 0x589ca8424780] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x589ca8424780] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5dba7217a940] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5dba7217a940] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x576a8ad8eb80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x576a8ad8e600] Error muxing a packet
+[out#0/rawvideo @ 0x576a8ad8e600] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x576a8ad8e600] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5a345948c240] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5a345943d940] Error muxing a packet
+[out#0/rawvideo @ 0x5a345943d940] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a345943d940] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5d76771935c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5d7677193240] Error muxing a packet
+[out#0/rawvideo @ 0x5d7677193240] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5d7677193240] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x6132590571c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x6132590571c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x589ca8424780] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x589ca8424780] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x576a8ad8e600] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x576a8ad8e600] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5d7677193240] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5d7677193240] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x5a31746355c0] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5a3174635240] Error muxing a packet
+[out#0/rawvideo @ 0x5a3174635240] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a3174635240] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5a3174635240] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5a3174635240] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5a345943d940] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5a345943d940] Error closing file: Broken pipe
