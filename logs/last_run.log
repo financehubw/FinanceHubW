@@ -1,3 +1,78 @@
+=== run 2026-11-12T18:37:52Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+104/171 sources returned news, 956 recent items
+226 new trusted stories, posting up to 3 this run
+---
+🇺🇸 BREAKING: NVIDIA CEO JENSEN HUANG STEPS DOWN
+
+📌 Nvidia CEO Jensen Huang stepped down, dragging down AI and US tech stocks.
+💡 Major leadership changes at top firms can cause wider stock market swings.
+#Nvidia
+
+📍 US · 📰 Economic Times · ✅ 4 sources
+https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-lower-after-nvidia-ceo-steps-down/articleshow/135773944.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited Economic Times article.
+  Groq GPT-OSS 20B: FAIL - CEO did not step down
+  -> blocked by fact-check
+---
+🇺🇸 FED TO SKIP RATE VOTE IN OCTOBER 2027
+
+📌 The US Fed will not vote on interest rates at its October 2027 meeting.
+📊 Voting meetings: 7
+💡 Central bank interest rates influence borrowing costs for everyday loans.
+#Fed
+
+📍 US · 📰 CNBC · ✅ 5 sources
+https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMGdNQ09FSWdFaDlmMHlXQmJCNWEzb3N5MExxM0RlOHFDREEwQzdGbWpxTWpsQTVlWkpIV04yWVN1YXEzWGVwaVpLVTgtUVZvUThnWDgtVlVVZm4tMElkZHdaSjhBdDFIV1U4T2MxNmVaZFdPYy1CdnBON0N6WTZ3ei1xekg3b25FUmw3OEdZVS1XMHlmLUY1WXVIeEpoNHJuVFFlc0xDNlpGZUo1WXJlVnJTdVZXcW1fZmdjcVl6ZXZPUEk?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims are directly supported by the cited CNBC source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the Fed's October 2027 meeting, the number of voting meetings, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-036e2fa702f3
+---
+🌐 ARCH LENDING LAUNCHES BITCOIN LOAN REFINANCING
+
+📌 Arch Lending launched Bitcoin loan refinancing, targeting 1 point lower rates.
+📊 Target rate cut: 1 percentage point
+
+📍 Global · 📰 Crypto News · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiakFVX3lxTE9lclhHR3JkbnJSUDFHZVNNWmR1MXJZcTA0RkFGcmgydmZKYWtPRWg2cTk1S0RlR1NhTFIwajczeUlFZjY5VHhaSnJaX2tpSlNaSExSMmUzM29DS0NJRXZXQ2N2VGdtM1FWOVE?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post lists the location as Global, but the sources do not specify a global scope for the launch.
+  -> blocked by fact-check
+---
+🇺🇸 US DOLLAR HITS 19-MONTH HIGH
+
+📌 The US dollar rose to a 19-month high as expectations for higher interest rates grew.
+📊 US Dollar: 19-month high
+
+📍 US · 📰 Economies.com · ✅ 4 sources
+https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeUhsa1NKWG5SeHNjcEpJMlRVY2tzRUROaFVSOUVpWjZkZ19La01fV2xvekZHU1ZsdHZSZ1l5UlJtSnh0YW1KVzhJMWlXU1ZhR3BFRjZzV2hBUEdGY1NpelNhTTZocU40MFJaYjBSN19VZktTMzFidVFKdlREYkJQVnZOMHI2a0QyWVpDaUlOWU9EU3JLM3VlNGN0MXhTMl9PdEZoc3pTbjg2Mk1oc0t3TldCVFRQaEtZbXdMUVRqQ2RUd1FEX3dnQkwxbnZQQ2JoTWc?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about a 19‑month high and rate‑hike expectations are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the US dollar hitting a 19-month high due to rising interest rate expectations are directly supported by the provided sources, and the location and source attribution are 
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f9016f774b2c
+---
+🇬🇧 UK FTSE 100 RISES AS UK ECONOMY GROWS
+
+📌 The main UK stock index rose following UK economic growth and earnings reports.
+💡 Economic growth usually shows a healthy environment for businesses.
+#UK
+
+📍 UK · 📰 Yahoo Finance UK · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiekFVX3lxTFA2SzNUUzl0U0VaMnBrWk1YUlJ3VWR6YXgxTFdSdGhMR2RpVXJFNnFnNm5reWZDaHZXQjZ2Q1NzZ1RhUzNLT1dLY05GMEFyOWd6LTVFcGd3Z3JLcTlkcTM1SmxlcjFRSW00NzdCSjFNeWp5TjZOYWxDZlhR?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about FTSE 100 rising due to UK GDP growth and earnings are supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Yahoo Finance UK article.
+  Groq Qwen: PASS - All factual claims regarding the FTSE 100 rise, UK GDP growth, and earnings reports are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-c4f17fa95a2f
+done: 3 post(s) this run
 === run 2026-11-12T10:12:43Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 10
@@ -1423,78 +1498,3 @@ published to: website, Instagram Story
 📍 UK · 📰 The Globe and Mail · ✅ 37 sources
 https://www.theglobeandmail.com/business/article-bank-of-england-raises-interest-rates-inflation/
   written by Gemini
-  Groq GPT-OSS: PASS - All claims about the BoE raising its rate to 4% and the context are directly supported by the listed sources.
-  Groq GPT-OSS 20B: FAIL - The claim that the article cites 37 sources is not supported by the listed sources.
-  -> blocked by fact-check
----
-🇬🇧 POUND HITS HIGHEST LEVEL SINCE 2016 BREXIT VOTE
-
-📌 The British pound reached its highest level since the Brexit referendum in 2016.
-💡 A stronger currency usually makes buying foreign goods cheaper.
-#Pound
-
-📍 UK · 📰 The Guardian · ✅ 10 sources
-https://news.google.com/rss/articles/CBMinAFBVV95cUxPU3ZSSzdsT2tObE9rWWFNLVhtZTdRSnFyMEdVTmhLS2cyOS1TVy1VbWdCdVVOT0hkWlJPUC1kUElISVI4dlNVZW1RcVZ6VWN5bnpPX3pja3ZBYnZWSzdnU01ZZjJwcFFldmFJeU1tMXVyS3kyMGtjX05OYzlPZHBBVktJazJhaDRjWkVMcVJZX1g4VkdkQ3o0aW4zN1U?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Guardian source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Guardian source and the explanation is a general, widely accepted fact.
-  Groq Qwen: PASS - All factual claims regarding the pound's performance, the reference to the 2016 Brexit vote, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-cba97d73abf3
----
-🇮🇳 SENSEX JUMPS OVER 2,000 POINTS
-
-📌 The Indian stock market rose sharply, with the Sensex gaining 2,009 points.
-📊 Sensex: 80,000+ (approx)
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 5 sources
-https://www.thehindubusinessline.com/markets/nifty-crosses-24500-sensex-gains-2070-points-as-crude-extends-slide-bajaj-finance-leads-rally/article71669217.ece
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that the Sensex is around 80,000+ is not directly supported by the cited sources
-  -> blocked by fact-check
----
-🇮🇳 SENSEX JUMPS OVER 2,000 POINTS
-
-📌 The Indian stock market rose for the sixth day in a row, gaining 2,009 points.
-📊 Sensex: +2,009 points
-
-📍 India · 📰 Fortune India · ✅ 6 sources
-https://news.google.com/rss/articles/CBMiygFBVV95cUxON2d6aFBLODVVZU9QSFY4MTZFcUtFLWt1RkZnX0I1X1pKWjNDY1QwRG95eFRSY290ZVlUeVd2eVNuamRsVmdBY3AySXRTSE9PVHR4d1BpMGtZcWF1MndOV1k1OFdMRHV6MmdzVWY2RTM5Tk8zN21rdEQ0U3pKdTkzU2NzaFB5eHdHUHFFOHB2REV1UldYa0VCbkVzVjJGaXNZcklPUjhvMjZYdUFnV1pxWkhEdW9MM0hoYXF2U2VrSVh0bjZINm5HV3NR0gHXAUFVX3lxTE9OMXk4endVY3dHLWpaUU94cnlWb0xJM01vb2NMR2lEWS11c0FBWWVGZWZhai1tSFNZQ2Q0dWtvaURKR0JvQVI3anlYeWpZVlNpRmd6eWZvSWJxSTAxUDRVcHhsaUJfcEJFTk5lNUlIcVFzdGdjWEJXVFBmaHVOUVpFS05UMGNHLTZhTnYyVHhkdlFzOGFzYl9rdWdHQTlnSmtSWXYyN2ZWVVVRU1hUc0NKLV83a2JrMm1XaFRTdUotSlVKcF9IMUZoZkFsRVZBQk0ycjAyekxj?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims (2,009‑point rise, sixth consecutive gain, Indian market) are confirmed by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the 2,009-point rise, the sixth consecutive day of gains, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-a01f223e44ce
-done: 3 post(s) this run
-=== run 2026-11-05T02:50:05Z
-228 new trusted stories, posting up to 3 this run
----
-🇺🇸 US MIDTERM ELECTION RESULTS IMPACT INDIAN MARKETS
-
-📌 Experts look at how US election results may affect Indian stocks and oil.
-💡 A weaker dollar and lower oil prices usually help lower inflation.
-#US
-
-📍 US · 📰 Mint · ✅ 8 sources
-https://www.livemint.com/market/stock-market-news/us-midterm-election-results-2026-impact-what-trumps-loss-mean-for-sensex-nifty-gold-silver-rates-experts-views-11793838614653.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The 💡 explanation is incorrect: a weaker dollar typically does not help lower inflation.
-  -> blocked by fact-check
----
-🌐 OIL PRICES DROP BELOW $94 AS WAR FEARS EASE
-
-📌 Oil prices fell about 8% to below $94 as US-Iran war fears eased.
-📊 Crude oil: Below $94
-💡 Lower oil prices usually help reduce fuel costs for consumers.
-#Oil
-
-📍 Global · 📰 Bloomberg.com · ✅ 7 sources
-https://news.google.com/rss/articles/CBMinAFBVV95cUxPQlB2Q1M3aHY0UjIwVUczU09aRnVsVDhTSDVncElSMGVwRDE0a3lPLUNXbVN0R25iZHZkOXRtMkg5QTZ5VFNTRi1uTDZfd3pfVlZqUFEyaHZ6R0RPSDltbmRRdWMxbC1JcEV4UGxiYmFESjJWb1QtSkhaNW5kWlF1WkJHenZDLXJZdjJDWjYxcGsxd1RXMHI3N0R1a0Q?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the 8% drop, price below $94, and war‑fear easing are directly supported by the Bloomberg source.
-  Groq GPT-OSS 20B: FAIL - Percentage drop not supported by all sources
-  -> blocked by fact-check
----
-🇺🇸 US DOLLAR FALLS AFTER ELECTION
-
