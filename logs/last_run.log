@@ -1,3 +1,67 @@
+=== run 2026-11-13T16:43:47Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+97/171 sources returned news, 972 recent items
+224 new trusted stories, posting up to 3 this run
+---
+🇺🇸 FED SAYS MORE RATE HIKES MAY BE NEEDED
+
+📌 A US central bank official says interest rates may need to go up again soon.
+💡 Higher rates usually make borrowing money costlier.
+#Fed
+
+📍 US · 📰 Crypto News · ✅ 5 sources
+https://news.google.com/rss/articles/CBMimwFBVV95cUxOU2pnRllENGliM0ZfVTBWYm45RV9FYkhWQ3pyNHFXRGhOOHdrRGxXNFh4eU52dHBFOElFSHNVN2Q4SkNwZGNjajdGMzBKOFUtWmxTci1IZDduQTZiVHpTR0s3dndvdkxYRU92R2lCQVFrY1dCM2U5S0RLMnptVjFUa2F4aE83dkFNR3RMRGo4REtDajZFMnN3c0dTaw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims are directly supported by the listed sources
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
+  Groq Qwen: PASS - The post accurately reflects the sources regarding Fed official Collins warning that more rate hikes may be needed, and the general explanation of higher rates is correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-92c93ff56624
+---
+🇪🇺 BOND YIELDS JUMP ON RATE HIKE BETS
+
+📌 German and US bond yields are heading for their biggest weekly rises in months.
+💡 Higher bond yields usually make borrowing costs go up for everyone.
+#Bonds
+
+📍 Europe · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/bonds/german-yields-set-for-biggest-weekly-rise-in-two-months/articleshow/135804160.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that US bond yields are heading for their biggest weekly rise in months is not directly supported; the source says the biggest weekly jump is in two years.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Bessent, Fed's Goolsbee divided on role of energy shock in inflation
+---
+🇺🇸 BOFA PREDICTS JANUARY 2027 FED HIKE
+
+📌 Bank of America now expects the Fed to raise interest rates in January 2027.
+💡 Higher rates usually make loans costlier.
+#Fed
+
+📍 US · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/markets/us-stocks/news/bofa-adds-january-fed-hike-to-forecast-says-quarterly-pace-no-longer-enough/articleshow/135808910.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Economic Times and bloomingbit sources
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source and the general statement is accurate.
+  Groq Qwen: PASS - All factual claims regarding Bank of America's forecast for a January 2027 Fed hike are supported by the sources, and the source attribution matches.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-55369b98634f
+---
+🇺🇸 FED OFFICIAL WARNS OF RISING DEMAND
+
+📌 A top US central bank official says strong demand, partly from AI, is pushing prices up.
+💡 Higher inflation can keep borrowing costs high for everyone.
+#Fed
+
+📍 US · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/us-stocks/news/chicago-feds-goolsbee-says-on-cnbc-the-fed-needs-to-guard-against-demand-overheating/articleshow/135807011.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported or are general, widely accepted explanations.
+  Groq Qwen: PASS - All factual claims regarding the official (Goolsbee), the cause of inflation (AI demand), and the source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-4b8141087182
+done: 3 post(s) this run
 === run 2026-11-13T07:19:27Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1434,67 +1498,3 @@ skip (off-topic or nothing new): 'It wasn't Republicans, it was Dumocrats': Trum
 
 📌 Gold prices rose 0.4% as markets wait for US jobs data.
 📊 Gold: +0.4%
-💡 Lower interest rates often make gold more attractive.
-#Gold
-
-📍 Global · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-weekly-gain-as-markets-await-us-payrolls-data/articleshow/135590413.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the source and the general explanation is correct.
-  Groq GPT-OSS 20B: FAIL - The 💡 line about lower rates making gold attractive is not directly supported by the source.
-  -> blocked by fact-check
----
-🇮🇳 NIFTY SET TO FALL AT OPEN
-
-📌 The Nifty index is expected to drop by about 170 points when the market opens.
-📊 Nifty: -170 points
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
-https://www.thehindubusinessline.com/markets/nifty-may-lose-around-170-points-at-open-after-sharp-rally/article71672643.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (expected 170‑point drop, location, source name) are directly supported by the cited BusinessLine article.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All factual claims in the post are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-173d833afefe
----
-🇺🇸 NASDAQ DROPS $2.5 TRILLION
-
-📌 Wall Street loses $2.5 trillion in market value during its worst crash in 18 months.
-📊 Market value lost: $2.5 trillion
-
-📍 US · 📰 Firstpost · ✅ 3 sources
-https://news.google.com/rss/articles/CBMimAFBVV95cUxNMC15YjNWam9Qa3JRR2V0Tld6bUJjRjdXZHpobUF0SkJ3RGxpTkJPaEhmYVVQZWdfOGxud2kwQm5HMlBDbjIyMk1jYl9sc09sbGlzaHQ3TzVONkZvMUwyejlPTVZuLWhCYTVHMWw5Qjk5cmdrMVpyLXZvUmg5a0UzOVlvcllWZExOaDdFY0xhTVN4S3RZUFcyYtIBmAFBVV95cUxNMC15YjNWam9Qa3JRR2V0Tld6bUJjRjdXZHpobUF0SkJ3RGxpTkJPaEhmYVVQZWdfOGxud2kwQm5HMlBDbjIyMk1jYl9sc09sbGlzaHQ3TzVONkZvMUwyejlPTVZuLWhCYTVHMWw5Qjk5cmdrMVpyLXZvUmg5a0UzOVlvcllWZExOaDdFY0xhTVN4S3RZUFcyYg?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (loss amount, crash timeframe, location, source) are directly supported by the cited articles.
-  Groq GPT-OSS 20B: FAIL - Claim that Nasdaq dropped $2.5 trillion is not supported by the cited sources.
-  -> blocked by fact-check
----
-🌏 ASIAN STOCKS CRASH
-
-📌 South Korea's Kospi dropped up to 9% following big losses in tech shares in the US.
-📊 Kospi: -9%
-💡 Stock market drops can reduce the value of retirement savings and investments.
-#Markets
-
-📍 Asia · 📰 Mint · ✅ 5 sources
-https://www.livemint.com/market/stock-market-news/asian-markets-today-south-koreas-kospi-crashes-8-plunges-below-5-000-whats-behind-the-selloff-11793930297845.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, percentages, and context are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: FAIL - (plain-text verdict)
-  -> blocked by fact-check
----
-🇯🇵 NIKKEI DROPS OVER 6%
-
-📌 Japan's main stock index fell over 6 percent following drops in US markets.
-📊 Nikkei 225: -6%
-💡 Lower stock values reduce the worth of retirement funds and investments.
-#Nikkei
-
-📍 Japan · 📰 The Japan Times · ✅ 5 sources
-https://news.google.com/rss/articles/CBMiekFVX3lxTE1reG1aWkcybVF6b0Q1RmFuUl9nSjFDS0Z1NlRDeDBjZ3ZacGZOSGxLZDY4Ykt1VEpUZTVTUE45QUkzcjc1R1BTTDUzU1Nka2xYN2hVLUc3QjQyRC05N2N2NnlIS0lHaVA2ekp3alNzWGQ0NnhOMXNxdlVB?oc=5
