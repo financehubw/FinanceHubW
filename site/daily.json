@@ -48,6 +48,13 @@
    "title": "US jobs report",
    "summary": "The U.S. added 165,000 jobs in October as the unemployment rate slipped.",
    "slides": 7
+  },
+  {
+   "date": "2026-11-13",
+   "label": "Fri 13 Nov 2026",
+   "title": "US producer prices",
+   "summary": "Wholesale prices climbed in October at their highest annual rate in four years.",
+   "slides": 7
   }
  ]
 }

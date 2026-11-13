@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "LATIN AMERICA",
+   "text": "The Chile peso, the currency of Chile, hit a 19-month low as copper dropped."
+  },
+  {
+   "name": "ASIA",
+   "text": "Japan's Metaplanet moved to a $170M loss despite higher revenue."
+  },
+  {
+   "name": "MIDDLE EAST",
+   "text": "As Gulf exports recover, global oil demand is forecast to fall by 2.7 million bpd this year."
+  }
+ ],
+ "story_ids": [
+  2,
+  4,
+  21,
+  20,
+  13,
+  23,
+  17
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 2,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 4,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 21,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 20,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 13,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 23,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 17,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "US producer prices",
+ "cover_dek": "Wholesale prices climbed in October at their highest annual rate in four years.",
+ "big_headline": "Wholesale prices in the US rose 0.3% in October, reaching a 6.5% annual rate.",
+ "big_body": "Wholesale producer prices rose 0.3% in October. The annual rate is the highest in nearly four years. Dow Jones expected a 0.4% increase.",
+ "big_stat": "6.5%",
+ "big_stat_l1": "Annual wholesale prices",
+ "big_stat_l2": "rose at this rate",
+ "pol_headline": "Bitcoin falls to $68,000",
+ "pol_body": "Bitcoin fell to $68,000. A total of $798 million in crypto positions was liquidated over four hours, including $718.5 million in long positions.",
+ "pol_stat": "$68,000",
+ "pol_stat_l1": "the price of bitcoin",
+ "pol_stat_l2": "after recent market jitters",
+ "biz_headline": "Germany plans €4bn buyout",
+ "biz_body": "Germany plans to buy a one-third stake in Urenco, a uranium enrichment firm, for up to €4 billion. Britain asked for it.",
+ "biz_stats": [
+  {
+   "value": "€4bn",
+   "name": "Max buyout cost",
+   "note": "for Urenco stake"
+  },
+  {
+   "value": "€4bn",
+   "name": "Budget set-aside",
+   "note": "for 2027 budget"
+  }
+ ],
+ "up_headline": "Stelco recalls 175 Hamilton workers",
+ "up_body": "Stelco will recall 175 laid-off workers in Hamilton on Dec. 1 with retroactive pay. The company will restart plant finishing lines.",
+ "cover_photo": "dollars",
+ "big_photo": "supermarket",
+ "pol_photo": "whitehouse",
+ "biz_photo": "euro",
+ "up_photo": "factory",
+ "sources_used": [
+  "All News",
+  "Business Standard",
+  "CTV News",
+  "CoinDesk",
+  "CoinDesk: Bitcoin, Ethereum, Crypto News",
+  "Cointelegraph.com News",
+  "Crude Oil Prices Today",
+  "Economy"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−0.5%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,552."
+   },
+   {
+    "chg": "−0.2%",
+    "color": "#B4280E",
+    "text": "<strong>Gold</strong> fell to about $3,877 an ounce."
+   },
+   {
+    "chg": "−3.4%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $68,950."
+   }
+  ]
+ },
+ "status": "published"
+}
