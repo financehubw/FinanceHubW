@@ -1,0 +1,47 @@
+{
+ "id": "news_20261113",
+ "title": "Fed says more rate hikes May be needed (today's money news)",
+ "thumb": "*TODAY:* Fed says more rate hikes May be needed",
+ "thumb_photo": "cryptocurrency",
+ "thumb_tag": "NEWS",
+ "caption": "A US central bank official says interest rates may need to go up again soon.\n\nHigher rates usually make borrowing money costlier.",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "US,  Crypto News,  5 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. Fed says more rate hikes May be needed.",
+   "chat": "Fed says more rate hikes May be needed."
+  },
+  {
+   "say": "A US central bank official says interest rates may need to go up again soon.",
+   "photo": "cryptocurrency",
+   "clip": {
+    "kicker": "US",
+    "year": "13 Nov",
+    "text": "Fed says more rate hikes May be needed"
+   }
+  },
+  {
+   "say": "Why it matters. Higher rates usually make borrowing money costlier.",
+   "slide": [
+    "Higher rates usually make borrowing money costlier."
+   ]
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}
