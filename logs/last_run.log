@@ -1,3 +1,95 @@
+=== run 2026-11-13T07:19:27Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+99/171 sources returned news, 922 recent items
+210 new trusted stories, posting up to 3 this run
+---
+🌐 BITCOIN SLIDES BELOW $70,000
+
+📌 Bitcoin dropped 4.4% to $68,297 amid rising inflation worries.
+📊 $BTC: $68,297 (-4.4%)
+💡 Inflation worries often reduce investor appetite for risky assets.
+#Crypto
+
+📍 Global · 📰 Moneyweb · ✅ 9 sources
+https://www.moneyweb.co.za/moneyweb-crypto/bitcoin/bitcoin-slides-below-70-000-as-inflation-concerns-hurt-crypto/
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and contextual claims are directly supported by the Moneyweb source.
+  Groq GPT-OSS 20B: FAIL - Source count and location do not match the listed sources.
+  -> blocked by fact-check
+---
+🇮🇳 RBI MAY RAISE INTEREST RATES BY 0.25% IN DECEMBER
+
+📌 ICICI Bank expects India's central bank to raise interest rates by 0.25% in December.
+📊 Expected rate hike: 0.25%
+
+📍 India · 📰 Economic Times · ✅ 5 sources
+https://economictimes.indiatimes.com/news/economy/indicators/food-inflation-to-stay-elevated-icici-bank-sees-25-bps-rbi-rate-hike-in-december/articleshow/135789519.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about a 0.25% RBI rate hike in December and ICICI Bank's expectation are directly supported by the cited Economic Times article and other listed sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the 25 bps (0.25%) rate hike expectation by ICICI Bank for December are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-38e4f7ed44d2
+---
+🇮🇳 INDIAN STOCKS FALL AS SENSEX AND NIFTY SLIP
+
+📌 India's Sensex fell up to 289 points and Nifty slipped near 25,200.
+📊 Nifty: ~25,200
+💡 Falling stock markets can lower the value of personal investments.
+
+📍 India · 📰 NDTV Profit · ✅ 4 sources
+https://news.google.com/rss/articles/CBMickFVX3lxTE8xVWhRc1lydXNhZjJSREw0VlJKSTRIbUxQejRMLXlrbDFla2F6azZJd1l5eUUyM3hYaVlLT1hvNjdlMU5rVWQzUTh3azUzaF9nUlNMSjk5MTBrN3pyVXgwaEpScnR4RU02SDVXVGs3Tm9QQQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Sensex falling up to 289 points and Nifty near 25,200 are supported by the listed sources, and the general explanation is correct.
+  Groq GPT-OSS 20B: FAIL - The claim that the post cites four sources is unsupported, as only one source is listed.
+  -> blocked by fact-check
+---
+🌐 BITCOIN FALLS BELOW $69,000
+
+📌 Bitcoin's price dropped below $69,000 as investors pulled money out of crypto funds.
+📊 $BTC: $69,000
+#Crypto
+
+📍 Global · 📰 Cointelegraph.com News · ✅ 6 sources
+https://cointelegraph.com/markets/bitcoin-falls-below-70k-crypto-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post lists BTC at $69,000, but sources only say Bitcoin fell below $69,000, not that it was exactly $69,000.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Niveshak Shivir to be held on November 17, 2026 at New Delhi
+---
+🇺🇸 NVIDIA SHARES FALL 14 PERCENT
+
+📌 Nvidia shares dropped 14 percent after its CEO stepped down.
+📊 $NVDA: -14%
+#Tech
+
+📍 US · 📰 Business · ✅ 2 sources
+https://www.scmp.com/business/banking-finance/article/3374294/nvidias-plunge-life-policy-record-5-figures-investors-are-watching
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about a 14% drop and CEO resignation are directly confirmed by the SCMP source.
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: PASS - The post accurately reflects the source's claim that Nvidia shares fell 14 percent after CEO Jensen Huang stepped down, and the location and source attribution are correct.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: SKIP - unavailable (RuntimeError: liquid/lfm-3-1.7b:free returned an empty reply)
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-bb2896ac0c8a
+---
+🇮🇳 BOFA RAISES INDIA GDP GROWTH FORECAST
+
+📌 Bank of America raised India's Q2FY27 GDP growth forecast to 7.7 percent.
+📊 GDP forecast: 7.7%
+💡 Faster economic growth usually means more jobs and business activity.
+
+📍 India · 📰 The Financial Express
+https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaTB1VS02LVJfTER0SE5TeGh5cHZXb3EtLW1vTGFGdC1rb1BwX2xPUTBhYTRORENkeGhGbXY2LXhnLWtoSjhNR1ZQSHp2MUIwcjQtZ1JuVExjSnItY3ktYmJzdXpyY3h2MWJnT1NCTHB6VUlYbUh2eFQ2SFFuQVF4V2U0Zzh1ekE4M0xjcWFoaUhualJUQkxrczVrdWdpSVZxZmNiUTlOZEVDTnNsOGY5cHZLMHJRYXpjdGF1R09pNldZcG9JSXp6b1ZBaE1mMTV5dnfSAdgBQVVfeXFMT2hDV1ZCUjlXaDU5SHJ3cE9nSktERmZQaVFOY3YwMXRjajBrcXhrQWZMU3VOb3dBdE1jQ1dWQkVtbGVGX19xZG10OTVoYUdiMFdBMEN4SHk4X1Q3aGNqU0FhazZxb0hWaWx4NGJCbEsyazItcjg0cTVrV050SmY1bVFvczlDbXJPaG5BV0twbUpVSmowNU1XQVNJdE5Lb29NLWY5aE5FdnBqeDh6clVOXzBHTWhTVWJrNG16Y2RnYUNxRmN3ZVhIUU9aRWFmUnBLcjFQaGpLcFJJ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the 7.7% forecast and source are directly supported.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the entity, forecast value, period, and source are directly supported by the provided source headline.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-fed4fc590678
+done: 3 post(s) this run
 === run 2026-11-12T23:49:40Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1406,95 +1498,3 @@ https://www.livemint.com/market/stock-market-news/asian-markets-today-south-kore
 
 📍 Japan · 📰 The Japan Times · ✅ 5 sources
 https://news.google.com/rss/articles/CBMiekFVX3lxTE1reG1aWkcybVF6b0Q1RmFuUl9nSjFDS0Z1NlRDeDBjZ3ZacGZOSGxLZDY4Ykt1VEpUZTVTUE45QUkzcjc1R1BTTDUzU1Nka2xYN2hVLUc3QjQyRC05N2N2NnlIS0lHaVA2ekp3alNzWGQ0NnhOMXNxdlVB?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post states Nikkei fell -6%, but the source reports a drop of more than 7%.
-  -> blocked by fact-check
-skip (off-topic or nothing new): China's YMTC Puts IPO on Hold Amid Global AI Sell-Off
----
-🇮🇳 INDIA STOCKS SET FOR PULLBACK AFTER RALLY
-
-📌 Foreign investors bought 150 billion rupees in Indian stocks, the most in nearly six years.
-📊 Inflow: 150B rupees ($1.6B)
-
-📍 India · 📰 Mint · ✅ 3 sources
-https://www.livemint.com/market/indian-stocks-set-for-pullback-after-sharp-rally-on-oil-slide-foreign-inflows-11793932289845.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the 150 billion rupee foreign inflow and its six‑year high are directly supported by the Mint article.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources, but four are listed.
-  -> blocked by fact-check
----
-🇯🇵 NIKKEI DROPS OVER 6%
-
-📌 Japan's main stock index fell heavily right after the market opened.
-📊 Nikkei: -6%
-💡 Lower stock values can reduce retirement and investment savings.
-#Japan
-
-📍 Japan · 📰 Yahoo Finance · ✅ 12 sources
-https://news.google.com/rss/articles/CBMirgFBVV95cUxNLTE2eW8xa2dBWi1xUl9UOENrX2NHSTRtT29YM2cwVkFfeDhhelh2YlRfd1NrWEFubE1ZbjBLOXhyYUYteUE4c3ZhVTlZTXpvMUdrT1BTS0lRVjd2Y29MTGRxZTJtNC01UG9pSHlDWHNSVkk1WUk2SEpUQXVablJvNGdiczMwVy1Wcmg0akJrZnRtc2RwRXg0WjB6NzdWVzVTMlZkZ2FQWEhRMjBnNkE?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post states a 6% drop, but the source says the Nikkei fell "more than 6%"
-  -> blocked by fact-check
-done: 1 post(s) this run
-=== run 2026-11-05T21:12:41Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-91/171 sources returned news, 833 recent items
-207 new trusted stories, posting up to 1 this run
----
-🇪🇺 GREECE APPROVES 10% TAX ON CRYPTO GAINS
-
-📌 Greece passed a 10% tax on crypto profits, exempting the first €500.
-📊 Tax rate: 10%
-
-📍 Europe · 📰 Bitcoin Magazine · ✅ 4 sources
-https://bitcoinmagazine.com/news/greece-approves-10-crypto-gains-tax
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The claim that there are 4 sources is not supported by the provided sources.
-  -> blocked by fact-check
----
-🇬🇧 BANK OF ENGLAND RAISES RATES TO 4%
-
-📌 The UK central bank raised its main rate from 3.75% to 4%.
-📊 UK base rate: 4%
-📊 MPC vote: 8-1
-💡 Higher rates usually make loans and mortgages costlier.
-#UK
-
-📍 UK · 📰 The Guardian · ✅ 5 sources
-https://www.theguardian.com/business/2026/nov/05/bank-of-england-raises-interest-rates-first-increase-for-more-than-three-years
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Guardian source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Guardian source.
-  Groq Qwen: PASS - All factual claims regarding the rate change, vote count, and source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-2a37ca4f50d7
-done: 1 post(s) this run
-=== run 2026-11-05T12:52:58Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-107/171 sources returned news, 1133 recent items
-300 new trusted stories, posting up to 3 this run
----
-🇮🇳 SENSEX SURGES OVER 2,000 POINTS
-
-📌 Indian stock markets jumped sharply as crude oil prices declined.
-📊 Sensex: +2,000 pts
-📊 Nifty: 24,400+
-💡 Lower oil prices can reduce costs for the country.
-#Sensex
-
-📍 India · 📰 Firstpost · ✅ 4 sources
-https://news.google.com/rss/articles/CBMixAFBVV95cUxQVWZhWHlSWkVEeUt4QmhsTWZIbmVJbDZkM2Z0Zjl3M2lKVkFvSXNiVHVpMXdMUW1pWHRGMGxERUExQXVkNjViUTBZejVrdXpUU3dhZTVUWXZicUVyQzIxMlNZM3IxelFFYjg1S1VvMGFNRF9QMHQxSkRiejRNQk9OcHl4SjZnWGRiMVF6anl3dzFHQ2NtQXR2WVJVV25kVFpOUW1maHAtQ21iOGo2ZG5XV3JpRmpFaVNwS1pyWGhmVi1ZMTFG0gHKAUFVX3lxTE9nOVRoWFFIbWpGMXBISEp6YXh0eUZaX1RkUERXZlp1Z0JZNDROdU5iUHNDdkxKWG9TUW5ja3pORmRPRmEtcFFEWVhhNVo5NHdkMExpb2h2SkQzZ2pxUU9hSWJpdExLX1pqMkxPN2tGUmgwMWJxWWdLY3Q2RWQzZjFLYWEwTUJLS2tTcHdIdTBEaV80X2F1YlN1UUNQc0VvOFpqc2REb3NJWjJhR1podldQRVlFVGhEWjlyTXNFVmpjaGQ5ZENLbjlIemc?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the Sensex rise, Nifty level, oil price impact, and location are directly supported by the cited sources
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
-  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - (plain-text verdict)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-3a1866b5e17f
----
-🇬🇧 BANK OF ENGLAND RAISES INTEREST RATE TO 4%
-
