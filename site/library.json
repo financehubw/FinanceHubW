@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "type": "daily",
+   "date": "2026-11-13",
+   "label": "Fri 13 Nov 2026",
+   "title": "US producer prices",
+   "summary": "Wholesale prices climbed in October at their highest annual rate in four years.",
+   "base": "media/daily/2026-11-13/",
+   "first": 1,
+   "slides": 7
+  },
+  {
    "type": "briefing",
    "date": "2026-11-12",
    "label": "Thu 12 Nov 2026",
