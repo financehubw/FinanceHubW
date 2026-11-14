@@ -1,3 +1,25 @@
+=== run 2026-11-14T07:04:05Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+86/171 sources returned news, 620 recent items
+160 new trusted stories, posting up to 1 this run
+---
+🇧🇩 GOLD PRICES FALL FOR FIFTH TIME IN BANGLADESH
+
+📌 Gold prices in Bangladesh fell by Tk 2,217 per bhari for the fifth straight drop.
+📊 Gold drop: Tk 2,217 per bhari
+
+📍 Bangladesh · 📰 Views Bangladesh · ✅ 6 sources
+https://news.google.com/rss/articles/CBMijwFBVV95cUxPLVVnM1ViLU5qenJiTkc2MHZrdkZNOUY0VWEwZC05YlU1V192d19LNy04c05jV3FxeDJSQXBLZFBFM0FuRHdjODBSS1FiN2VRX2xXekdacWtZU2Z4VzdZT3VZS3VJSmRmVzhSS3NNeWQ3b001VmhLRWNnWldEcUhmVDRFWjUzNkhta3Fqb1JvZw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (amount, unit, fifth consecutive drop, location) are directly supported by the listed sources
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the price drop amount, direction, and frequency are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - The Tk 2,217 per bhari drop and fifth consecutive decline in Bangladesh are directly supported by the listed sources, and the place and source name match.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-5d1e26db33cf
+done: 1 post(s) this run
 === run 2026-11-13T23:48:43Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1476,25 +1498,3 @@ https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-holds-yen-g
 ---
 🌏 ASIAN STOCKS DROP AS AI TECH SELLOFF DEEPENS
 
-📌 Asian shares fell sharply following a tech selloff, led by Kospi dropping 8.8%.
-📊 Kospi Index: -8.8%
-
-📍 Asia · 📰 Economic Times · ✅ 9 sources
-https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-join-us-selloff-as-ai-slump-deepens/articleshow/135589759.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements, including the 8.8% Kospi drop, are directly supported by the cited Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: SKIP - unavailable (HTTP 404: {"error":{"message":"The model `qwen/qwen3-32b` does not exist or you do not have access to it.","type":"invalid_request_error","code":"mode)
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: FAIL - (plain-text verdict)
-  -> blocked by fact-check
----
-🇯🇵 JAPAN TO SPEND CENTRAL BANK ETF SALES ON GROWTH
-
-📌 Japan's PM says money from central bank ETF (fund) sales will go to economic growth.
-
-📍 Japan · 📰 Bloomberg.com · ✅ 5 sources
-https://news.google.com/rss/articles/CBMitAFBVV95cUxNQWtiMndOTmkwV1RUeHBqaEZFbkhHWEhMb2VGcnA5ZXJGcHVPSlkzcXBiWk9UdDBJQWt5QnBGc1ZWWHM0RlRXNjJtUXlLcW1wM1JxS3FEMF9ncVlUWjhJa1gwODU2MGxwRlExVUpRbDA1U0REV21Ja2tQYVJkM3BtQmplZ2xlUTZ1NXdKWHJEY2QwelI1a09LV05xdms4R3FlN3o1R2JwNjlhMFZBaHJxRXhmT1o?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post attributes the statement to Japan's PM, but sources cite Minister Takaichi, not the prime minister.
-  -> blocked by fact-check

@@ -1,6 +1,15 @@
 {
  "items": [
   {
+   "type": "briefing",
+   "date": "2026-11-13",
+   "label": "Fri 13 Nov 2026",
+   "title": "Daily briefing · 4 stories",
+   "base": "media/digests/2026-11-13-daily-1794639845/",
+   "first": 0,
+   "slides": 6
+  },
+  {
    "type": "daily",
    "date": "2026-11-13",
    "label": "Fri 13 Nov 2026",
