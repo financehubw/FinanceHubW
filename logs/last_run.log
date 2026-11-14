@@ -1,3 +1,9 @@
+=== run 2026-11-14T20:54:33Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+61/171 sources returned news, 444 recent items
+108 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-14T15:20:15Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1492,9 +1498,3 @@ https://news.google.com/rss/articles/CBMidkFVX3lxTFA0NUZwSGtqOTZodFcwS3ZIdG4waHN
   Groq GPT-OSS: FAIL - The post claims "5 sources" but the listed sources amount to more than five (including duplicates) and the count is not supported.
   -> blocked by fact-check
 ---
-🌐 CRYPTO ETFS LOSE $530 MILLION IN ONE DAY
-
-📌 Investors pulled $530 million from Bitcoin and Ethereum funds in a single day.
-📊 $BTC: $75,000
-
-📍 Global · 📰 CryptoSlate · ✅ 2 sources
