@@ -890,6 +890,18 @@
    "failed": [],
    "errors": {},
    "format": "clip"
+  },
+  {
+   "file": "vs_amzn_wmt_2010.mp4",
+   "title": "Amazon vs Walmart: $1,000 in 2010, who wins?",
+   "date": "2026-11-14T14:02:15Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/2LJp3UL9wKQ",
+    "Instagram": "18642430900045512",
+    "Facebook": "1631199851189633"
+   },
+   "failed": [],
+   "errors": {}
   }
  ]
 }
