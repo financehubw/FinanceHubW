@@ -1,3 +1,50 @@
+=== run 2026-11-15T02:10:03Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+70/171 sources returned news, 491 recent items
+105 new trusted stories, posting up to 1 this run
+---
+🌐 BITCOIN DROPS TO $63,000 AS US DOLLAR STRENGTHENS
+
+📌 Hot inflation data and expected Fed rate hikes pushed bitcoin down to about $63,000.
+📊 $BTC: ~$63,000
+
+📍 Global · 📰 WSJ · ✅ 2 sources
+https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3EzbUZLMzVNX1JTTVVjTVYwOVhoR0JQMXlRWjh3WjA3OGlfRkhvek43Qk90UW1jeWVDOWZMa2djT0JlSnhoRUh3SXBtbWpRQ1Q5SkNJbnVhZHR5X2NsWTFLT0w4TG4tOEdXQlBVdG91RGp1aWFtNkxJN3NZYktEN1dRWWU3LWQ3MTJ3SjNKejBkc1Zsb3JTV3Myd2t5SnZEeHRaZQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The bitcoin price claim is not supported by the WSJ source cited; it comes from a different outlet, so the post misattributes the factual claim.
+  -> blocked by fact-check
+---
+🌐 BITCOIN FALLS 6.6% AS INVESTORS WITHDRAW $1.07 BILLION
+
+📌 Bitcoin fell 6.6% as $1.07 billion was pulled from crypto funds.
+📊 $BTC: -6.6%
+💡 Higher interest rates usually make risky assets less popular.
+
+📍 Global · 📰 CryptoTicker.io · ✅ 2 sources
+https://news.google.com/rss/articles/CBMihwFBVV95cUxNZzgwS1JGNm5YWWZrb0hQcHo2dk5oamtjNXBfLXpJaWs2WGo0U1Vmb1M0dk1qY19iWkRkaEJ6c1dvOTNxWWFfSGdhZ2s0R1lBWXR5aDZrcGNlZ2ZEV1ZWNDZMV0lQNHVFcUVtT3ZDQ3Q2YWNjb0h0N25fNjZUTnNuOEFzOWNKdEE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and factual statements are directly supported by the CryptoTicker.io source.
+  Groq GPT-OSS 20B: PASS - All numerical and factual claims match the cited CryptoTicker.io article, and the general statement about higher rates and risky assets is accurate.
+  Groq Qwen: FAIL - The source states $1.07bn in ETF outflows, but the post claims $1.07 billion was pulled from 'crypto funds' generally, which is a specific attribution not supported by the provided text that specifies
+  -> blocked by fact-check
+---
+🌐 ETHEREUM AND XRP FALL IN CRYPTO MARKET SELLOFF
+
+📌 Ethereum dropped 10.37% today while XRP fell 18% over the past week.
+📊 $ETH: -10.37%
+💡 Price drops mean digital asset holdings lose value.
+#Crypto
+
+📍 Global · 📰 Cryptonews.net · ✅ 4 sources
+https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uUHZKaGRzVld3clNsNE9NalRzV1U5cU5oWXJTWmw2T3lEVTkzcHdNTXZBdXhvLWphY3Bvc3FFLVY3ZjMxbDB4MTZfNXd6RnE3X1FKdnFrbzZqYVk?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numeric and factual claims are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the percentage drops for Ethereum and XRP are directly supported by the provided source headlines, and the general explanation is accurate.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-938f7daae72a
+done: 1 post(s) this run
 === run 2026-11-14T20:54:33Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1451,50 +1498,3 @@ https://www.thehindubusinessline.com/markets/sensex-reclaims-80000-after-march-n
 
 📌 Nasdaq futures rose after a tech selloff, while Dow futures fell 475 points.
 📊 Dow futures: -475 points
-#USMarkets
-
-📍 US · 📰 Economic Times · ✅ 4 sources
-https://news.google.com/rss/articles/CBMi6gJBVV95cUxQdjVrNnVWaTZtSnBTWjNNZ2FITmRVLWplOFpJQmlEOGZ5MjcyclZQNWpERmZXU2dKbko3ZXRnMnZ1LTJaSmpIWFg5MzN0dTgwOWU1UXVXVGw4WTEtWkJLWUdKX1dEVDNOc3dyWDFIY21TVVF3M0dwVFZjaUVWandJV2JkeHRUdEVQSkhLSFdDQTlNR3hsWXByVTExVmE1Q3UxQ0FfRzJfaUpRdlFLRV9MblY1VkxVTFlxY2drUWw5dkNhT0s3T1JPTEFpZy1zMXMzZHQ5eGJkV1lpX0ZxWjNXcUJJam1Yc05KU3dsVkh0MXh6OHF3RmNFQW1mS1ZQaGNwSjJLNkVtMzg5SDhqRzR5U1ZOaTZzWUtQSnozWlNCVWo3QXB3ZlRvenlmc21EQVBOU1o3bVYyOTRKVGR3WWxoOTFpdU12VkF5cjEzc2VXR0Y3QjRxUVlEQTZrbjh3aV9YSE9BRnJYbTVvd9IB7wJBVV95cUxNQVFjOTVjUUFsa19Pa01tM3JOcE5VTWdhdWZ1bWhrcXRIUnFwdl93OEFKY2R6RG5PdXRBdi1iaHhLVmdZTFpLd0Z3aDBLb0dqUk55SWgwQkNlVGN3T196ZVJYMTRucHotWXJBalN2UlgtYklNNC13RmVnMHc1aTVEV0tfaFNNc3dXYmdIXzhjMDAwSGNVU2MwZ0l3a0lqM29Fd0VWSlJEaG8tOURjanlKUVprcFhWLW5rbnloWElaMkdZaXRZTW5JZ1Nkc043UURXbklEb2pLTWZNVHlnb0Jsb1diUzRZelFpN0VQWkl1eWJBTXlqLUtBSUFZdDhQeWlTelRhSC12Y3M5UXhfSTBPcURlTDhHQkU4QmZFMTJ3QXM4aGZwbi1OOVVCZVdkNUV1c0RaMFhjWC1ucTVtNkR2X2tHXzJUNTZsSFdPaDFFUU9yZzd5MFJDandhVHE4RllrY3h5Vi1RWW1GT2l0NFFN?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about Nasdaq futures rising and Dow futures falling 475 points are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The claim that there are 4 sources is unsupported, as only one source is listed.
-  -> blocked by fact-check
----
-🇮🇳 INDIAN RUPEE RISES TO 93.89 AGAINST US DOLLAR
-
-📌 The Indian rupee gained 52 paise to close at 93.89 against the US dollar.
-📊 USD/INR: 93.89
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 6 sources
-https://www.thehindubusinessline.com/markets/forex/rupee-surges-52-points-to-close-at-9389-against-us-dollar/article71673987.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (rate, gain of 52 paise, closing level, location) are directly supported by the cited source.
-  Groq GPT-OSS 20B: FAIL - Source name does not match the cited article
-  -> blocked by fact-check
----
-🇮🇳 GOLD AND SILVER PRICES FALL ON DHANTERAS
-
-📌 Gold fell 1.18% to ₹1,42,401 per 10 grams while silver dropped 1.24%.
-📊 Gold: ₹1,42,401 per 10g (-1.18%)
-
-📍 India · 📰 Mint · ✅ 4 sources
-https://www.livemint.com/market/stock-market-news/dhanteras-2026-gold-silver-rates-today-how-much-do-precious-metals-cost-today-check-mcx-price-outlook-11793955217848.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, percentages, location, and source attribution are directly supported by the Mint article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
-  Groq Qwen: PASS - All factual claims regarding price changes, specific values, and the event context are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-04ca2e72f0ae
----
-🇬🇧 UK FTSE 100 DROPS AS GLOBAL TECH SELL-OFF SPREADS
-
-📌 The UK main stock index fell after a global drop in tech shares.
-💡 Market drops can affect the value of pensions and savings.
-#FTSE
-
-📍 UK · 📰 UK Investor Magazine · ✅ 5 sources
-https://news.google.com/rss/articles/CBMidkFVX3lxTFA0NUZwSGtqOTZodFcwS3ZIdG4waHNkSk9hcFAtb3M2b3BIeG5qVE1jMnBDdmF3d1ZTcXFIRTRZU2dzR0JNRjJ3R3JTYzZ1UHRKajRPUHMxbVpkNU84cnFjMzVWczlXN0M2cVpzWEhiMzhPMl90U2c?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "5 sources" but the listed sources amount to more than five (including duplicates) and the count is not supported.
-  -> blocked by fact-check
----
