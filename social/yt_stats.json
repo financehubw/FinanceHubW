@@ -1,16 +1,16 @@
 {
  "channel": {
-  "viewCount": "35626",
+  "viewCount": "35754",
   "subscriberCount": "21",
   "hiddenSubscriberCount": false,
-  "videoCount": "70"
+  "videoCount": "75"
  },
  "analytics": "ok",
  "traffic_sources": {
-  "SHORTS": 30719,
-  "YT_SEARCH": 729,
-  "YT_OTHER_PAGE": 689,
-  "YT_CHANNEL": 43,
+  "SHORTS": 32538,
+  "YT_SEARCH": 792,
+  "YT_OTHER_PAGE": 726,
+  "YT_CHANNEL": 56,
   "SUBSCRIBER": 16,
   "EXT_URL": 10,
   "NO_LINK_OTHER": 2,
@@ -19,12 +19,12 @@
   "RELATED_VIDEO": 0
  },
  "countries": {
-  "US": 21103,
-  "CA": 1688,
-  "GB": 1384,
-  "AU": 688,
-  "DE": 569,
-  "IN": 488,
+  "US": 22425,
+  "CA": 1772,
+  "GB": 1448,
+  "AU": 713,
+  "DE": 604,
+  "IN": 523,
   "NL": 376,
   "IE": 233,
   "SE": 127,
@@ -616,7 +616,7 @@
    "posted": "2026-11-07T18:32:06Z",
    "title": "A secretary secretly built $9 million | Money Stories #8 #Shorts",
    "duration": "PT27S",
-   "views": 154,
+   "views": 157,
    "likes": 1,
    "comments": 1,
    "avg_view_pct": 45.1,
@@ -630,7 +630,7 @@
    "posted": "2026-11-07T22:32:03Z",
    "title": "Fed Chair Warsh: \"We own\" the 2% inflation target #Shorts",
    "duration": "PT19S",
-   "views": 1849,
+   "views": 1857,
    "likes": 9,
    "comments": 1,
    "avg_view_pct": 88.5,
@@ -658,7 +658,7 @@
    "posted": "2026-11-08T14:03:04Z",
    "title": "Reagan warned about a $1 trillion US debt in 1982 #Shorts",
    "duration": "PT17S",
-   "views": 9654,
+   "views": 9662,
    "likes": 63,
    "comments": 20,
    "avg_view_pct": 110.3,
@@ -714,7 +714,7 @@
    "posted": "2026-11-09T09:32:50Z",
    "title": "When oil prices quadrupled in 1973 (real 1975 film) #Shorts",
    "duration": "PT20S",
-   "views": 1250,
+   "views": 1248,
    "likes": 17,
    "comments": 1,
    "avg_view_pct": 88.4,
@@ -742,10 +742,10 @@
    "posted": "2026-11-09T16:17:22Z",
    "title": "FDR's first speech as president, during the 1933 bank panic #Shorts",
    "duration": "PT29S",
-   "views": 1384,
+   "views": 1387,
    "likes": 22,
    "comments": 1,
-   "avg_view_pct": 55.0,
+   "avg_view_pct": 54.9,
    "avg_view_sec": 15,
    "subs_gained": 2,
    "shares": 0
@@ -770,10 +770,10 @@
    "posted": "2026-11-10T09:32:11Z",
    "title": "Reagan explains inflation in 14 seconds (1981) #Shorts",
    "duration": "PT15S",
-   "views": 1115,
+   "views": 1118,
    "likes": 9,
    "comments": 2,
-   "avg_view_pct": 86.9,
+   "avg_view_pct": 87.3,
    "avg_view_sec": 13,
    "subs_gained": 0,
    "shares": 0
@@ -784,7 +784,7 @@
    "posted": "2026-11-10T14:11:11Z",
    "title": "How much a day blows $10,000 a year? #Shorts",
    "duration": "PT22S",
-   "views": 60,
+   "views": 61,
    "likes": 0,
    "comments": 1,
    "avg_view_pct": 48.8,
@@ -798,7 +798,7 @@
    "posted": "2026-11-10T16:17:34Z",
    "title": "JFK explains his tax cut plan (1962 footage) #Shorts",
    "duration": "PT28S",
-   "views": 1047,
+   "views": 1051,
    "likes": 14,
    "comments": 2,
    "avg_view_pct": 80.4,
@@ -812,10 +812,10 @@
    "posted": "2026-11-10T18:32:36Z",
    "title": "A 158-year-old bank collapsed in one weekend | Money Stories #10 #Shorts",
    "duration": "PT30S",
-   "views": 30,
+   "views": 29,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 16.9,
+   "avg_view_pct": 17.0,
    "avg_view_sec": 5,
    "subs_gained": 0,
    "shares": 0
@@ -826,11 +826,11 @@
    "posted": "2026-11-10T22:33:59Z",
    "title": "Prices in 1947: a gallon of paint cost $2.98 #Shorts",
    "duration": "PT17S",
-   "views": 331,
+   "views": 328,
    "likes": 1,
    "comments": 1,
-   "avg_view_pct": 64.4,
-   "avg_view_sec": 10,
+   "avg_view_pct": 67.0,
+   "avg_view_sec": 11,
    "subs_gained": 0,
    "shares": 0
   },
@@ -868,9 +868,13 @@
    "posted": "2026-11-12T09:32:14Z",
    "title": "Reagan, 1982: \"Markets will go up and they will come down\" #Shorts",
    "duration": "PT11S",
-   "views": 494,
+   "views": 522,
    "likes": 3,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 100.2,
+   "avg_view_sec": 11,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "XBmTRh1J0zU",
@@ -880,7 +884,11 @@
    "duration": "PT27S",
    "views": 26,
    "likes": 1,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 41.0,
+   "avg_view_sec": 11,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "mxM_MXFUDFI",
@@ -888,9 +896,13 @@
    "posted": "2026-11-12T16:17:43Z",
    "title": "Reagan on the night his father lost his job (Great Depression) #Shorts",
    "duration": "PT19S",
-   "views": 1282,
+   "views": 1295,
    "likes": 16,
-   "comments": 2
+   "comments": 2,
+   "avg_view_pct": 83.2,
+   "avg_view_sec": 15,
+   "subs_gained": 0,
+   "shares": 1
   },
   {
    "id": "xwAo9DVueJw",
@@ -898,9 +910,13 @@
    "posted": "2026-11-12T18:34:14Z",
    "title": "Real estate vs stocks: $10,000 in 2010, who won? #Shorts",
    "duration": "PT31S",
-   "views": 82,
+   "views": 90,
    "likes": 2,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 57.4,
+   "avg_view_sec": 17,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "h06trBkfycA",
@@ -908,9 +924,13 @@
    "posted": "2026-11-12T22:32:46Z",
    "title": "Fed to skip rate vote in October 2027 (today's money news) #Shorts",
    "duration": "PT21S",
-   "views": 34,
+   "views": 49,
    "likes": 2,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 49.7,
+   "avg_view_sec": 10,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "-dB0U05_Nm0",
@@ -918,7 +938,7 @@
    "posted": "2026-11-13T09:32:47Z",
    "title": "What a $1,000 bank loan cost in 1947 #Shorts",
    "duration": "PT27S",
-   "views": 1266,
+   "views": 1306,
    "likes": 13,
    "comments": 1
   },
@@ -928,7 +948,7 @@
    "posted": "2026-11-13T14:02:16Z",
    "title": "Start at 25 or 35? The 10-year gap | Compound Interest #3 #Shorts",
    "duration": "PT24S",
-   "views": 33,
+   "views": 43,
    "likes": 0,
    "comments": 1
   },
@@ -938,8 +958,8 @@
    "posted": "2026-11-13T16:16:59Z",
    "title": "Reagan's famous \"allowance\" line about government spending (1981) #Shorts",
    "duration": "PT11S",
-   "views": 174,
-   "likes": 2,
+   "views": 268,
+   "likes": 5,
    "comments": 1
   },
   {
@@ -948,7 +968,57 @@
    "posted": "2026-11-13T18:32:24Z",
    "title": "3 money mistakes in your 30s that are hard to undo #Shorts",
    "duration": "PT25S",
-   "views": 28,
+   "views": 58,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "CFSjBDy_91w",
+   "file": "clip_bonds41.mp4",
+   "posted": "2026-11-14T09:32:59Z",
+   "title": "\"The best investment in the world\": 1941 US savings bonds #Shorts",
+   "duration": "PT13S",
+   "views": 324,
+   "likes": 3,
+   "comments": 1
+  },
+  {
+   "id": "2LJp3UL9wKQ",
+   "file": "vs_amzn_wmt_2010.mp4",
+   "posted": "2026-11-14T14:02:15Z",
+   "title": "Amazon vs Walmart: $1,000 in 2010, who wins? #Shorts",
+   "duration": "PT19S",
+   "views": 77,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "id": "w6VlTSNxGpI",
+   "file": "clip_fomc_20200315_1.mp4",
+   "posted": "2026-11-14T16:17:48Z",
+   "title": "Powell, Mar 2020: Economic outlook depends on virus spread #Shorts",
+   "duration": "PT34S",
+   "views": 148,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "id": "nlyrpYNHYWM",
+   "file": "mistakes_40s.mp4",
+   "posted": "2026-11-14T18:33:26Z",
+   "title": "3 money mistakes in your 40s you can still fix #Shorts",
+   "duration": "PT31S",
+   "views": 61,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "id": "0jwpQesVFlA",
+   "file": "clip_fomc_20200315_2.mp4",
+   "posted": "2026-11-14T22:33:20Z",
+   "title": "Powell, Mar 2020: Conduct monetary policy independently #Shorts",
+   "duration": "PT41S",
+   "views": 41,
    "likes": 0,
    "comments": 1
   }
