@@ -965,6 +965,18 @@
    "failed": [],
    "errors": {},
    "format": "clip"
+  },
+  {
+   "file": "one_thousand_fifty_years.mp4",
+   "title": "What $1,000 becomes in 50 years",
+   "date": "2026-11-15T16:17:39Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/HRij5YllozU",
+    "Instagram": "18188566915412119",
+    "Facebook": "1704817241269081"
+   },
+   "failed": [],
+   "errors": {}
   }
  ]
 }
