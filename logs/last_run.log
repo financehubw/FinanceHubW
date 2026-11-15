@@ -1,3 +1,9 @@
+=== run 2026-11-15T23:06:21Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+80/171 sources returned news, 576 recent items
+125 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-15T17:26:45Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1492,9 +1498,3 @@ https://news.google.com/rss/articles/CBMisgFBVV95cUxQVjJLVnduc2JIaUlJVEtFZ2htWWZ
   written by Gemini
   Groq GPT-OSS: PASS - All numbers, year, company count, and location are directly supported by the cited sources.
   Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the amount (Rs 2.23 lakh crore), number of companies (375), period (Samvat 2082), and location (India) are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-d9a8156a4608
-done: 2 post(s) this run
-=== run 2026-11-07T00:16:05Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
