@@ -1,3 +1,38 @@
+=== run 2026-11-15T09:53:25Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+76/171 sources returned news, 579 recent items
+130 new trusted stories, posting up to 2 this run
+---
+🇮🇳 INDIAN STOCKS GAINED LAST WEEK
+
+📌 Sensex rose 564.43 points (0.69%) and Nifty climbed 113.95 points (0.45%) last week.
+📊 Sensex: +564.43 (+0.69%)
+#Sensex
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
+https://www.thehindubusinessline.com/markets/wpi-inflation-crude-oil-prices-and-fii-activity-to-steer-stock-markets-this-week/article71704397.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All figures and statements are directly supported by the cited BusinessLine article.
+  Groq GPT-OSS 20B: PASS - All claims match the cited BusinessLine article.
+  Groq Qwen: PASS - All factual claims regarding the Sensex and Nifty performance (points and percentages) are directly supported by the source text, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-99abfde26857
+---
+🇮🇳 GOLD PRICES FALL OVER ₹6,611 IN THREE DAYS
+
+📌 Gold prices in Meerut plunged over ₹6,611 in 3 days, slipping below ₹1.36 lakh.
+📊 3-day drop: Over ₹6,611
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/money/gold-rate-up-city-meerut-sees-major-crash-price-plunges-over-rs-6611-in-just-3-days-slips-below-rs-1-36-lakh-mark-silver-11794721026951.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the gold price drop in Meerut are directly supported by the Mint article
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
+  Groq Qwen: PASS - All factual claims regarding the location (Meerut, India), the magnitude of the drop (₹6,611), the timeframe (3 days), and the resulting price level (below ₹1.36 lakh) are directly supported by the Mi
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-59f07f3d293d
+done: 2 post(s) this run
 === run 2026-11-15T02:10:03Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1463,38 +1498,3 @@ https://www.livemint.com/market/stock-market-news/dhanteras-diwali-gold-beats-st
   Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source and the explanation is a general, widely accepted statement.
   Groq Qwen: PASS - The claim that the Nifty 50 is set to finish the year down about 3.24% is directly supported by the Mint source, and the location and source attribution are correct.
 published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-fcad6a53fc63
-done: 1 post(s) this run
-=== run 2026-11-06T12:30:51Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
-101/171 sources returned news, 1075 recent items
-264 new trusted stories, posting up to 3 this run
----
-🇭🇰 HKEX POSTS RECORD NINE-MONTH EARNINGS
-
-📌 Hong Kong's exchange operator reported record earnings for the first nine months.
-💡 Strong exchange earnings usually reflect active stock trading by investors.
-
-📍 Hong Kong · 📰 Stock Titan · ✅ 3 sources
-https://news.google.com/rss/articles/CBMiygFBVV95cUxPeTZlYTFabk9WSDJYUUlybUFMaWN3N0V5TzlYck4tLXRRWVNST19UV282V2RvRUhQV3F6dVR3LXh1a0FNXzRVajN3eDZaNEVNMGlfTm9FNWNrMC1zQUVGcjl5TlI3TEVsdHNnb0lsVk5IamE3eG5jamhIQzFNeGJGX3E1MW8yNEt6UlMwekt5RjdlRmhNbWd1LWp4ZHBHRDBBRGstZkNBQjcxRHdlbkxMRU81cnFHM1hsVm9RcFY3TXBNY1JvT1VKbTRn?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post attributes the HKEX record earnings claim to Stock Titan, but the supporting source is chinadailyhk, causing a source mismatch
-  -> blocked by fact-check
----
-🇮🇳 INDIAN STOCKS SURGE AS SENSEX JUMPS 1,718 POINTS
-
-📌 Indian stock markets jumped today, with the main Sensex index gaining 1,718 points.
-📊 Sensex: +1,718 pts
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 9 sources
-https://www.thehindubusinessline.com/markets/sensex-reclaims-80000-after-march-nifty-tops-24700-despite-global-tech-rout/article71673442.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims (Sensex +1,718 points, Indian market surge) are directly supported by the listed sources.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 9 sources, but only six are listed, which is unsupported.
-  -> blocked by fact-check
----
-🇺🇸 US FUTURES MIXED AS NASDAQ REBOUNDS
-
-📌 Nasdaq futures rose after a tech selloff, while Dow futures fell 475 points.
-📊 Dow futures: -475 points
