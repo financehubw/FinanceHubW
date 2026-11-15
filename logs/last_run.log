@@ -1,3 +1,39 @@
+=== run 2026-11-15T17:26:45Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+82/171 sources returned news, 587 recent items
+149 new trusted stories, posting up to 2 this run
+---
+🇺🇸 MICHAEL SAYLOR HINTS AT MORE BITCOIN PURCHASES
+
+📌 Michael Saylor suggested his firm may buy more Bitcoin as prices fall.
+💡 Big corporate buys can signal strong confidence in the crypto market.
+#Bitcoin
+
+📍 US · 📰 Bitcoin News · ✅ 2 sources
+https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVNqU0gyNGxYelJ4dHdlb3QwcGpSSlV4bFEyMmpLN0M4ZzFFVHVyd2tVdllTcFJGVzVUNk5xRnlfOU9jaHZCU0dpYVpGSDdXbWluTjExeHpvSzNaNGpCcXFvM01qRGNhV1JXN2NaMFJoN3VlN3ItYnB5LTMwQzVnTzA1X0w2Y3BfYU9GSnh5bng3LUVNMU9PUC1vNWVrTFlnU19F?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about Saylor's hint to buy more Bitcoin amid price declines are supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Bitcoin News article and the general explanation is accurate.
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding Michael Saylor's hints at further Bitcoin purchases by Strategy during a price slide, and the general explanation is valid.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-401e8bbbe060
+---
+🇮🇳 RBI RATE HIKE IN DECEMBER APPEARS CERTAIN
+
+📌 High inflation makes a December interest rate hike by the RBI likely.
+💡 Higher rates usually make home and car loans more expensive.
+#RBI
+
+📍 India · 📰 Business Standard
+https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTGxzbkRiZXplSlZSVHpWc1A5Wnc1X0J3NHBJc2FJejdhcHVpZFE3WXo4MnVtSF9VMFdtaEpDSFFLeUR5RGZkNTV1NGhLWXAxOGxUNlRnSmFNNnpBb1dPT1diWU8yU3UzeUlHcGtBWFpYRHMzY0t5TEp3ZTVVSjhZcS1Yd0dHT3FMOW54SnhJbDRKOW1fT2NrVVBrcjFZblNKRUhyZTM3TDR3enQwQnNVZS1pV1lVVmRZUExhSXpMLUw5STVNQ295dTUzaVJQbEE4c0h3RVVacnRROVUx0gHiAUFVX3lxTE01bTJ2d2gwYm1RN0ZTeE5iTHVlSG5pXzBLUDBKY3dBZkdHa1ozSnF1V3FUT1FHR2tweDU3Ymk1NkZyZ3BJV0w3NF9HRjZEV3A4bjEzX0JlQk5wTjVucEdLV2dnQmsxeTU2dzVSQlcwakpYZV83aUFqc1Q4VzlIMjFPQmprNzFvVzA0dkRVYkstUHUtR1c5ODNzZDRXZk5RaG4xQXRvcDBTR0tiOGl1akN0Q3ZnTzZaeU5ZaFJxT2xGbEU4VGxBbFFfNVI2eUREeHo1Mjc1THdIZlBVYkdRR0JwY3c?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements are directly supported by the Business Standard article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Business Standard source.
+  Groq Qwen: PASS - The post accurately reflects the source headline regarding the likelihood of an RBI rate hike in December due to high inflation, and the general explanation of loan costs is correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-9a18a7c41233
+done: 2 post(s) this run
 === run 2026-11-15T09:53:25Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1462,39 +1498,3 @@ published to: website, Instagram Story
 done: 2 post(s) this run
 === run 2026-11-07T00:16:05Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
-78/171 sources returned news, 675 recent items
-156 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-06T19:40:34Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
-91/171 sources returned news, 789 recent items
-202 new trusted stories, posting up to 1 this run
----
-🇺🇸 FED OFFICIAL SAYS MORE RATE HIKES LIKELY NEEDED
-
-📌 Fed official Mary Daly says more rate hikes are likely needed to lower inflation.
-💡 Higher rates (cost of borrowing) usually make loans more expensive.
-#Fed
-
-📍 US · 📰 CNBC · ✅ 8 sources
-https://news.google.com/rss/articles/CBMiekFVX3lxTE83d09fT01uTmdIZ09Wb0pDYWg4VU5rRTF3MWstQ25hU2dDM011N3k3cVBzRFFOeGtuTjVSMHJVcy1zb25qY0Q4NERLSUIxN3JUN2tUbEZoZ2FLbVBDajRHUFktYVEtOTZ2cWxlX21NbF8xd1JxN25GNkNn0gF_QVVfeXFMUFM0YzVQazV4YXplRlQzdkpaM3ZtTGNVdlU3OG83N1o1ZmhtVFVGaEdvOC1WckhzNEQwNXdLb0hBQWptVjJuOVdNV2hrM0lCbmQzWk1veVdQTnJjbEZJRXJuZXByelRRWHJoakE1UktiTV90Zl90R1M1OHBBTXYxZw?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim of "✅ 8 sources" is not supported by the listed six sources
-  -> blocked by fact-check
----
-🇮🇳 INDIAN NIFTY 50 INDEX ENDS YEAR DOWN 3.24%
-
-📌 The Nifty 50 index is set to finish the year down about 3.24%.
-📊 Nifty 50: -3.24%
-💡 Lower stock returns usually mean smaller gains for investors.
-#Nifty
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/stock-market-news/dhanteras-diwali-gold-beats-stocks-or-nifty-takes-the-lead-gold-vs-nifty-50-returns-in-samvat-2082-compared-11793983947279.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (3.24% decline, India location, Mint source) are directly supported by the article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source and the explanation is a general, widely accepted statement.
-  Groq Qwen: PASS - The claim that the Nifty 50 is set to finish the year down about 3.24% is directly supported by the Mint source, and the location and source attribution are correct.
-published to: website, Instagram Story
