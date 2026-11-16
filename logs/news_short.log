@@ -1,15 +1,3 @@
 /home/runner/work/FinanceHubW/FinanceHubW/social/news_short.py:27: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   now = dt.datetime.utcnow()
-news short: Fed says more rate hikes May be needed (today's money news)
-rendering news_20261113
-  ElevenLabs unavailable (ElevenLabs 401: {"detail":{"type":"invalid_request","code":"quota_exceeded","message":"This request exceeds your quota of 10000. You have 23 credits remaining, while 28 credits are required for this request.","status); using the free voice for the rest of this run
-  voice retry 1: No audio was received. Please verify that your parameters are correct.
-  voice retry 1: No audio was received. Please verify that your parameters are correct.
-  -> news_20261113.mp4 | Fed says more rate hikes May be needed (today's money news)
-[vost#0:0/rawvideo @ 0x59d324e4f800] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x59d324e4f480] Error muxing a packet
-[out#0/rawvideo @ 0x59d324e4f480] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x59d324e4f480] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x59d324e4f480] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x59d324e4f480] Error closing file: Broken pipe
+news short: no strong story today
