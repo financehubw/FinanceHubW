@@ -1,28 +1,20 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-105/171 sources returned news, 1115 recent items
-  big #2 draft 1: Groq GPT-OSS: PASS - All numeric and factual statements are directly supported by the cited sources | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the 0.3% monthly rise, 6.5% annual rate, four-year high, and Dow Jones consensus of 0.4% are directly supported by the provided sources.
-  big: story #2 ok in 14s
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: these numbers are not in the source: 50
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: story #11 failed in 93s
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); this repeats the big story (nearly, their, years); it must be a different story
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); this repeats the big story (nearly, their, years); it must be a different story
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); this repeats the big story (nearly, their, years); it must be a different story
-  pol: story #25 failed in 56s
-  pol #4 draft 1: Groq GPT-OSS: PASS - All price and liquidation figures are directly stated in the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and factual claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the price drop to $68,000 and the specific liquidation figures ($798 million total, $718.5 million long) are directly supported by the provided sources.
-  pol: story #4 ok in 42s
-  biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz #21 draft 2: Groq GPT-OSS: PASS - All factual claims about the €4 bn buyout, one‑third Urenco stake, Britain’s request, and the €4 bn budget set‑aside are supported by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the €4bn cost, one-third stake, Urenco target, British request, and 2027 budget set-aside are supported by the source text.
-  biz: story #21 ok in 49s
-  up #20 draft 1: Groq GPT-OSS: PASS - All claims about recalling 175 Hamilton workers on Dec 1, retroactive pay, and restarting finishing lines are confirmed by the listed sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - All factual claims regarding the number of workers, location, date, retroactive pay, and plant restart are supported by the provided sources.
-  up: story #20 ok in 23s
-  r1 #13 draft 1: Groq GPT-OSS: PASS - All sources confirm the Chile peso reached a 19‑month low linked to falling copper prices. | Groq GPT-OSS 20B: PASS - The slide accurately reflects the reported 19‑month low of the Chile peso linked to falling copper prices, as stated in the cited sources. | Groq Qwen: PASS - The slide's claims about the Chile peso hitting a 19-month low due to copper dropping are directly supported by the source headlines.
-  r1: story #13 ok in 23s
-  r2 #23 draft 1: Groq GPT-OSS: PASS - All claims about Metaplanet's $170M loss, higher revenue and operating profit, and its Japanese location are confirmed by the cited sources. | Groq GPT-OSS 20B: FAIL - The slide claims higher operating profit, but the sources indicate operating profit declined, not increased.
-  r2 #23 draft 2: Groq GPT-OSS: PASS - All claims (Japanese company Metaplanet, $170M loss, higher revenue) are supported by the cited articles. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the source information regarding Metaplanet's $170M loss and higher revenue.
-  r2: story #23 ok in 143s
-  r3 #17 draft 1: Groq GPT-OSS: PASS - All claims about Gulf export recovery and a 2.7 million bpd demand drop are directly supported by the cited IEA reports. | Groq GPT-OSS 20B: PASS - The slide’s claim that global oil demand is forecast to fall by 2.7 million bpd this year is directly supported by the Globe and Mail source, and the mention of Gulf exports recovering is also corrobo | Groq Qwen: PASS - The slide's claims regarding the recovery of Gulf exports and the forecast 2.7 million bpd fall in global oil demand are directly supported by the provided sources.
-  r3: story #17 ok in 64s
-Draft ready for review: magazine/daily/2026-11-13/edition.json (not published)
+78/171 sources returned news, 837 recent items
+  big #1 draft 1: Groq GPT-OSS: PASS - All numerical and factual statements are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and factual statements are directly supported by the cited sources. | Groq Qwen: PASS - All numerical data, index names, and contextual reasons for the market movement are accurately supported by the provided sources.
+  big: story #1 ok in 31s
+  pol #12 draft 1: Groq GPT-OSS: PASS - All factual claims are directly supported by the City AM source. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the City AM source. | Groq Qwen: PASS - All factual claims regarding the 5% borrowing cost, the two-year gilt, the Monday date, and the trader bets on three rate hikes before April are supported by the City AM source.
+  pol: story #12 ok in 24s
+  biz #36 draft 1: Groq GPT-OSS: PASS - All factual statements about the SFO charging eight people, the £251 m collapse figure and the £237 m Ponzi scheme are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and factual claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the agency, number of charges, firm name, and specific monetary figures are supported by the sources.
+  biz: story #36 ok in 33s
+  up: rejected: this repeats the big story (ahead, anthropic, fall, ipo); it must be a different story
+  up #3 draft 2: Groq GPT-OSS: PASS - All claims about Trump-Xi-Putin diplomacy affecting markets and Bitcoin's key week are supported by the cited Cryptonews article. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: FAIL - The slide claims diplomacy 'shakes' markets, but the sources describe a 'slump' or 'fall' in stocks, and the slide's framing of a 'key week for the price of Bitcoin' is not explicitly supported as a f
+  up: rejected: this repeats the big story (ahead, anthropic, nvidia); it must be a different story
+  up: story #3 ok in 64s
+  r1 #25 draft 1: Groq GPT-OSS: PASS - All claims about SoftBank, Rakuten, and record‑high Japan retail bond issuance are supported by the cited Nikkei Asia article. | Groq GPT-OSS 20B: PASS - All claims are supported by the source. | Groq Qwen: PASS - The slide text accurately reflects the headline and factual claims provided in the sources.
+  r1: story #25 ok in 9s
+  r2 #34 draft 1: Groq GPT-OSS: PASS - The slide accurately states that ESMA published its 2025 sanctions report, as confirmed by the source. | Groq GPT-OSS 20B: PASS - The slide accurately states that ESMA published its report on sanctions imposed in 2025, which is confirmed by the source. | Groq Qwen: PASS - The slide accurately reflects the source text, which confirms that ESMA, the EU's financial markets regulator, published its report on sanctions imposed in 2025.
+  r2: story #34 ok in 28s
+  r3 #17 draft 1: Groq GPT-OSS: PASS - The slide's claim that U.S. crude oil fell to $85 a barrel due to recovering Middle East exports is explicitly stated in the source titles. | Groq GPT-OSS 20B: PASS - The slide’s claims about U.S. crude oil falling to $85 a barrel and the influence of recovering Middle East exports are directly supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the headline and content of the provided sources regarding the price decline and the reason for it.
+  r3: story #17 ok in 13s
+Draft ready for review: magazine/daily/2026-11-16/edition.json (not published)

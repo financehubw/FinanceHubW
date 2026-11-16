@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "ASIA-PACIFIC",
+   "text": "SoftBank and Rakuten pushed Japan retail bond issuance to a record high."
+  },
+  {
+   "name": "EUROPE",
+   "text": "ESMA, the EU's financial regulator, published its report on sanctions imposed in 2025."
+  },
+  {
+   "name": "THE AMERICAS",
+   "text": "U.S. crude oil declined to $85 a barrel on recovering Middle East exports."
+  }
+ ],
+ "story_ids": [
+  1,
+  12,
+  36,
+  3,
+  25,
+  34,
+  17
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 1,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 12,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 36,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 3,
+   "free_checkers": "Groq Qwen: FAIL - The slide claims diplomacy 'shakes' markets, but the sources describe a 'slump' or 'fall' in stocks, and the slide's framing of a 'key week for the price of Bitcoin' is not explicitly supported as a f"
+  },
+  {
+   "slot": "r1",
+   "story": 25,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 34,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 17,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "US stocks fall",
+ "cover_dek": "US stocks closed sharply lower ahead of Nvidia results and an Anthropic IPO.",
+ "big_headline": "US stocks closed sharply lower ahead of Nvidia results and an Anthropic IPO.",
+ "big_body": "The Dow Jones index fell 739.38 points, or 1.41%. The Nasdaq Composite lost 626.51 points, or 2.49%, to 24,509.76.",
+ "big_stat": "2.49%",
+ "big_stat_l1": "The Nasdaq index",
+ "big_stat_l2": "fell by this percentage",
+ "pol_headline": "Borrowing costs climb",
+ "pol_body": "Traders bet the Bank of England will increase interest rates three more times before April. Government borrowing costs passed five per cent on Monday.",
+ "pol_stat": "5%",
+ "pol_stat_l1": "what the UK government",
+ "pol_stat_l2": "pays to borrow for two years",
+ "biz_headline": "UK fraud agency charges eight",
+ "biz_body": "The Serious Fraud Office, an anti-fraud agency, charged eight people over a fraud scheme at a collapsed investment firm.",
+ "biz_stats": [
+  {
+   "value": "£251m",
+   "name": "LCF collapse",
+   "note": "firm failure sum"
+  },
+  {
+   "value": "£237m",
+   "name": "Ponzi scheme",
+   "note": "alleged fraud sum"
+  }
+ ],
+ "up_headline": "Diplomacy shakes financial markets",
+ "up_body": "Trump-Xi-Putin diplomacy shakes markets in a key week for the price of Bitcoin.",
+ "cover_photo": "nyse",
+ "big_photo": "chips",
+ "pol_photo": "boe",
+ "biz_photo": "london",
+ "up_photo": "servers",
+ "sources_used": [
+  "AFP.com",
+  "Bloomberg.com",
+  "City AM",
+  "ESMA",
+  "Finance",
+  "International: Top News And Analysis",
+  "Markets",
+  "News"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−1.9%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,417."
+   },
+   {
+    "chg": "−0.7%",
+    "color": "#B4280E",
+    "text": "<strong>Gold</strong> fell to about $3,859 an ounce."
+   },
+   {
+    "chg": "−0.1%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $65,264."
+   }
+  ]
+ },
+ "status": "draft"
+}
