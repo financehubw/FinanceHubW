@@ -1,56 +1,17 @@
-rendering monthly_qqq_1999
-  ElevenLabs unavailable (ElevenLabs 401: {"detail":{"type":"invalid_request","code":"quota_exceeded","message":"This request exceeds your quota of 10000. You have 23 credits remaining, while 34 credits are required for this request.","status); using the free voice for the rest of this run
-  -> monthly_qqq_1999.mp4 | $100 a month into the Nasdaq 100 since 1999 is now worth this
-rendering whatif_btcusd_2015
-  -> whatif_btcusd_2015.mp4 | $1,000 in Bitcoin in 2015 is now worth this
-rendering whatif_ethusd_2017
-  -> whatif_ethusd_2017.mp4 | $1,000 in Ethereum in 2017 is now worth this
-[vost#0:0/rawvideo @ 0x5dba72187580] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5dba7217a940] Error muxing a packet
-[out#0/rawvideo @ 0x5dba7217a940] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5dba7217a940] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x613259057540] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x6132590571c0] Error muxing a packet
-[out#0/rawvideo @ 0x6132590571c0] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x6132590571c0] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x589ca8424d00] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x589ca8424780] Error muxing a packet
-[out#0/rawvideo @ 0x589ca8424780] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x589ca8424780] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x5dba7217a940] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5dba7217a940] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x576a8ad8eb80] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x576a8ad8e600] Error muxing a packet
-[out#0/rawvideo @ 0x576a8ad8e600] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x576a8ad8e600] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5a345948c240] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5a345943d940] Error muxing a packet
-[out#0/rawvideo @ 0x5a345943d940] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5a345943d940] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5d76771935c0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5d7677193240] Error muxing a packet
-[out#0/rawvideo @ 0x5d7677193240] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5d7677193240] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x6132590571c0] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x6132590571c0] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x589ca8424780] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x589ca8424780] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x576a8ad8e600] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x576a8ad8e600] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x5d7677193240] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5d7677193240] Error closing file: Broken pipe
-[vost#0:0/rawvideo @ 0x5a31746355c0] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5a3174635240] Error muxing a packet
-[out#0/rawvideo @ 0x5a3174635240] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5a3174635240] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x5a3174635240] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5a3174635240] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x5a345943d940] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5a345943d940] Error closing file: Broken pipe
+rendering whatif_asml_2010
+  ElevenLabs unavailable (ElevenLabs 401: {"detail":{"type":"invalid_request","code":"quota_exceeded","message":"This request exceeds your quota of 10000. You have 3 credits remaining, while 18 credits are required for this request.","status"); using the free voice for the rest of this run
+  voice retry 1: No audio was received. Please verify that your parameters are correct.
+  voice retry 2: No audio was received. Please verify that your parameters are correct.
+  voice retry 3: No audio was received. Please verify that your parameters are correct.
+Traceback (most recent call last):
+  File "/home/runner/work/FinanceHubW/FinanceHubW/social/shorts_factory.py", line 768, in <module>
+    main()
+  File "/home/runner/work/FinanceHubW/FinanceHubW/social/shorts_factory.py", line 761, in main
+    entry = render(path)
+            ^^^^^^^^^^^^
+  File "/home/runner/work/FinanceHubW/FinanceHubW/social/shorts_factory.py", line 620, in render
+    words = speak(sc["say"], mp3)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/FinanceHubW/FinanceHubW/social/shorts_factory.py", line 397, in speak
+    raise RuntimeError("voice failed")
+RuntimeError: voice failed
