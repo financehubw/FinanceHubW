@@ -1,3 +1,9 @@
+=== run 2026-11-16T18:51:03Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 10
+103/171 sources returned news, 912 recent items
+220 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-16T07:15:32Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1492,9 +1498,3 @@ daily cap: 12, room left in the last 24h: 9
 📌 Gold prices in Pakistan stayed unchanged today at Rs 429,136 per tola.
 📊 Gold: Rs 429,136 per tola
 #Gold
-
-📍 Pakistan · 📰 Investify · ✅ 6 sources
-https://news.google.com/rss/articles/CBMinAFBVV95cUxOc1c1WTB6NzNybV9kTlo0TTVudzV0dlFVYllMWUpMQ0kxdDRYMngwTHk0YU5QdmJGLVByOXh3cEVHVDVCTEhDakQ1ZFByakRTMHg4ekVzRnZhSEdZa0QzeXZ6TmZ4RjN1M3NZRW9TMnZlTDVZUmZZb05FWERheE9OSTFBdzdQczN4TGUwSWFNa2NLZno5RGxkWkl6OS0?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All stated facts about the unchanged gold price of Rs 429,136 per tola in Pakistan are confirmed by the cited sources.
-  Groq GPT-OSS 20B: FAIL - Business Today source does not support the claim about Pakistan gold price.
