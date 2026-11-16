@@ -1,17 +1,17 @@
 {
  "channel": {
-  "viewCount": "35754",
+  "viewCount": "36870",
   "subscriberCount": "21",
   "hiddenSubscriberCount": false,
-  "videoCount": "75"
+  "videoCount": "81"
  },
  "analytics": "ok",
  "traffic_sources": {
-  "SHORTS": 32538,
-  "YT_SEARCH": 792,
-  "YT_OTHER_PAGE": 726,
-  "YT_CHANNEL": 56,
-  "SUBSCRIBER": 16,
+  "SHORTS": 34199,
+  "YT_SEARCH": 873,
+  "YT_OTHER_PAGE": 760,
+  "YT_CHANNEL": 57,
+  "SUBSCRIBER": 21,
   "EXT_URL": 10,
   "NO_LINK_OTHER": 2,
   "PLAYLIST": 1,
@@ -19,12 +19,12 @@
   "RELATED_VIDEO": 0
  },
  "countries": {
-  "US": 22425,
-  "CA": 1772,
-  "GB": 1448,
-  "AU": 713,
-  "DE": 604,
-  "IN": 523,
+  "US": 23730,
+  "CA": 1829,
+  "GB": 1497,
+  "AU": 741,
+  "DE": 625,
+  "IN": 559,
   "NL": 376,
   "IE": 233,
   "SE": 127,
@@ -602,7 +602,7 @@
    "posted": "2026-11-07T15:14:51Z",
    "title": "Gold was $33 an ounce in 1933 (real newsreel) #Shorts",
    "duration": "PT15S",
-   "views": 2296,
+   "views": 2298,
    "likes": 27,
    "comments": 3,
    "avg_view_pct": 81.7,
@@ -633,7 +633,7 @@
    "views": 1857,
    "likes": 9,
    "comments": 1,
-   "avg_view_pct": 88.5,
+   "avg_view_pct": 89.0,
    "avg_view_sec": 16,
    "subs_gained": 1,
    "shares": 0
@@ -658,7 +658,7 @@
    "posted": "2026-11-08T14:03:04Z",
    "title": "Reagan warned about a $1 trillion US debt in 1982 #Shorts",
    "duration": "PT17S",
-   "views": 9662,
+   "views": 9681,
    "likes": 63,
    "comments": 20,
    "avg_view_pct": 110.3,
@@ -675,8 +675,8 @@
    "views": 147,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 54.4,
-   "avg_view_sec": 17,
+   "avg_view_pct": 63.3,
+   "avg_view_sec": 20,
    "subs_gained": 0,
    "shares": 0
   },
@@ -770,10 +770,10 @@
    "posted": "2026-11-10T09:32:11Z",
    "title": "Reagan explains inflation in 14 seconds (1981) #Shorts",
    "duration": "PT15S",
-   "views": 1118,
+   "views": 1117,
    "likes": 9,
    "comments": 2,
-   "avg_view_pct": 87.3,
+   "avg_view_pct": 87.2,
    "avg_view_sec": 13,
    "subs_gained": 0,
    "shares": 0
@@ -784,7 +784,7 @@
    "posted": "2026-11-10T14:11:11Z",
    "title": "How much a day blows $10,000 a year? #Shorts",
    "duration": "PT22S",
-   "views": 61,
+   "views": 60,
    "likes": 0,
    "comments": 1,
    "avg_view_pct": 48.8,
@@ -798,13 +798,13 @@
    "posted": "2026-11-10T16:17:34Z",
    "title": "JFK explains his tax cut plan (1962 footage) #Shorts",
    "duration": "PT28S",
-   "views": 1051,
+   "views": 1052,
    "likes": 14,
    "comments": 2,
-   "avg_view_pct": 80.4,
+   "avg_view_pct": 80.6,
    "avg_view_sec": 22,
    "subs_gained": 1,
-   "shares": 2
+   "shares": 3
   },
   {
    "id": "_0reUDS6vM4",
@@ -812,7 +812,7 @@
    "posted": "2026-11-10T18:32:36Z",
    "title": "A 158-year-old bank collapsed in one weekend | Money Stories #10 #Shorts",
    "duration": "PT30S",
-   "views": 29,
+   "views": 30,
    "likes": 0,
    "comments": 1,
    "avg_view_pct": 17.0,
@@ -854,7 +854,7 @@
    "posted": "2026-11-11T22:32:20Z",
    "title": "OPEC oil output nears pre-war level (today's money news) #Shorts",
    "duration": "PT14S",
-   "views": 31,
+   "views": 30,
    "likes": 1,
    "comments": 1,
    "avg_view_pct": 51.3,
@@ -868,11 +868,11 @@
    "posted": "2026-11-12T09:32:14Z",
    "title": "Reagan, 1982: \"Markets will go up and they will come down\" #Shorts",
    "duration": "PT11S",
-   "views": 522,
+   "views": 528,
    "likes": 3,
    "comments": 1,
-   "avg_view_pct": 100.2,
-   "avg_view_sec": 11,
+   "avg_view_pct": 97.2,
+   "avg_view_sec": 10,
    "subs_gained": 0,
    "shares": 0
   },
@@ -885,8 +885,8 @@
    "views": 26,
    "likes": 1,
    "comments": 1,
-   "avg_view_pct": 41.0,
-   "avg_view_sec": 11,
+   "avg_view_pct": 38.2,
+   "avg_view_sec": 10,
    "subs_gained": 0,
    "shares": 0
   },
@@ -896,10 +896,10 @@
    "posted": "2026-11-12T16:17:43Z",
    "title": "Reagan on the night his father lost his job (Great Depression) #Shorts",
    "duration": "PT19S",
-   "views": 1295,
+   "views": 1344,
    "likes": 16,
    "comments": 2,
-   "avg_view_pct": 83.2,
+   "avg_view_pct": 84.0,
    "avg_view_sec": 15,
    "subs_gained": 0,
    "shares": 1
@@ -913,7 +913,7 @@
    "views": 90,
    "likes": 2,
    "comments": 1,
-   "avg_view_pct": 57.4,
+   "avg_view_pct": 57.1,
    "avg_view_sec": 17,
    "subs_gained": 0,
    "shares": 0
@@ -927,7 +927,7 @@
    "views": 49,
    "likes": 2,
    "comments": 1,
-   "avg_view_pct": 49.7,
+   "avg_view_pct": 50.3,
    "avg_view_sec": 10,
    "subs_gained": 0,
    "shares": 0
@@ -938,9 +938,13 @@
    "posted": "2026-11-13T09:32:47Z",
    "title": "What a $1,000 bank loan cost in 1947 #Shorts",
    "duration": "PT27S",
-   "views": 1306,
+   "views": 1392,
    "likes": 13,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 85.9,
+   "avg_view_sec": 23,
+   "subs_gained": 1,
+   "shares": 0
   },
   {
    "id": "fI2aN7uRhfg",
@@ -948,9 +952,13 @@
    "posted": "2026-11-13T14:02:16Z",
    "title": "Start at 25 or 35? The 10-year gap | Compound Interest #3 #Shorts",
    "duration": "PT24S",
-   "views": 43,
+   "views": 48,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 63.3,
+   "avg_view_sec": 15,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "T47fznQt5Io",
@@ -958,9 +966,13 @@
    "posted": "2026-11-13T16:16:59Z",
    "title": "Reagan's famous \"allowance\" line about government spending (1981) #Shorts",
    "duration": "PT11S",
-   "views": 268,
+   "views": 330,
    "likes": 5,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 82.8,
+   "avg_view_sec": 9,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "t49Uwn-ldvI",
@@ -968,9 +980,13 @@
    "posted": "2026-11-13T18:32:24Z",
    "title": "3 money mistakes in your 30s that are hard to undo #Shorts",
    "duration": "PT25S",
-   "views": 58,
+   "views": 64,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 40.3,
+   "avg_view_sec": 10,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "CFSjBDy_91w",
@@ -978,8 +994,8 @@
    "posted": "2026-11-14T09:32:59Z",
    "title": "\"The best investment in the world\": 1941 US savings bonds #Shorts",
    "duration": "PT13S",
-   "views": 324,
-   "likes": 3,
+   "views": 388,
+   "likes": 4,
    "comments": 1
   },
   {
@@ -988,7 +1004,7 @@
    "posted": "2026-11-14T14:02:15Z",
    "title": "Amazon vs Walmart: $1,000 in 2010, who wins? #Shorts",
    "duration": "PT19S",
-   "views": 77,
+   "views": 96,
    "likes": 1,
    "comments": 1
   },
@@ -998,7 +1014,7 @@
    "posted": "2026-11-14T16:17:48Z",
    "title": "Powell, Mar 2020: Economic outlook depends on virus spread #Shorts",
    "duration": "PT34S",
-   "views": 148,
+   "views": 241,
    "likes": 1,
    "comments": 1
   },
@@ -1008,7 +1024,7 @@
    "posted": "2026-11-14T18:33:26Z",
    "title": "3 money mistakes in your 40s you can still fix #Shorts",
    "duration": "PT31S",
-   "views": 61,
+   "views": 91,
    "likes": 1,
    "comments": 1
   },
@@ -1018,7 +1034,57 @@
    "posted": "2026-11-14T22:33:20Z",
    "title": "Powell, Mar 2020: Conduct monetary policy independently #Shorts",
    "duration": "PT41S",
-   "views": 41,
+   "views": 96,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "tcO1pHYsX9U",
+   "file": "doubling_17x.mp4",
+   "posted": "2026-11-15T09:33:02Z",
+   "title": "How your money could grow 17x #Shorts",
+   "duration": "PT22S",
+   "views": 30,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "riuZMPaOess",
+   "file": "clip_fomc_20220615_1.mp4",
+   "posted": "2026-11-15T14:02:34Z",
+   "title": "Powell, Jun 2022: We're not trying to induce a recession #Shorts",
+   "duration": "PT30S",
+   "views": 1049,
+   "likes": 6,
+   "comments": 1
+  },
+  {
+   "id": "HRij5YllozU",
+   "file": "one_thousand_fifty_years.mp4",
+   "posted": "2026-11-15T16:17:39Z",
+   "title": "What $1,000 becomes in 50 years #Shorts",
+   "duration": "PT19S",
+   "views": 65,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "Kgn4jKFFiCA",
+   "file": "clip_fomc_20220615_2.mp4",
+   "posted": "2026-11-15T18:32:28Z",
+   "title": "Powell, Jun 2022: Failing to lower inflation is not an option #Shorts",
+   "duration": "PT35S",
+   "views": 958,
+   "likes": 6,
+   "comments": 1
+  },
+  {
+   "id": "bUaPEjNSdqk",
+   "file": "race_brands_2010.mp4",
+   "posted": "2026-11-15T22:32:14Z",
+   "title": "$1,000 in each since 2010: who wins? #Shorts",
+   "duration": "PT21S",
+   "views": 83,
    "likes": 0,
    "comments": 1
   }
