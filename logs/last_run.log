@@ -1,3 +1,79 @@
+=== run 2026-11-16T07:15:32Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+96/171 sources returned news, 960 recent items
+201 new trusted stories, posting up to 2 this run
+---
+🌐 STOCKS FALL AS INVESTORS AWAIT NVIDIA EARNINGS
+
+📌 Stocks dropped in Asia and worldwide as traders waited for Nvidia results.
+💡 Falling stock markets can reduce the value of investment funds.
+#Stocks
+
+📍 Global · 📰 Business · ✅ 7 sources
+https://www.euronews.com/2026/11/16/stocks-extend-losses-as-traders-await-nvidia-earnings-and-anthropic-ipo
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about stock declines and awaiting Nvidia earnings are confirmed by the Euronews article, and the general explanation is accurate.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
+  Groq Qwen: FAIL - The post claims stocks dropped 'worldwide,' but the sources only explicitly support declines in Asia and overnight markets, without confirming a global drop.
+  -> blocked by fact-check
+---
+🇮🇳 🔄 UPDATE: INDIAN STOCKS RALLY IN EARLY TRADE
+
+📌 Indian shares rose as the Sensex jumped 420 points in morning trade.
+📊 $Sensex: +420 points
+💡 Lower crude oil prices usually help reduce costs for businesses.
+
+📍 India · 📰 The Hindu · ✅ 4 sources
+https://news.google.com/rss/articles/CBMizAFBVV95cUxOVFhsNHVIZkRrWnBIQzlxOXFnaHVtemx3R3NCMDUyNzVXU2FwcHdwOVdRSGZQYjJOZzJ1c1BjTTNTdl9zd0hfLWtFNDNtTWJpbnZNR0hrLU1WenMtd2hkNk15VlQzVGlfZ1lrUXBGTDEzRnJCampjYy1SQ3A1dzVCZzNqRnlSRE52NjhuMlhtbUx6VXVyZFZ3N1JfU3I1Vkk0c244bnRpWExaa1lGOXJqMmlHUzNaXzExQmZJb3JJSVU4UzdjczA3QWFhQXrSAdMBQVVfeXFMTlhTX3pmMUJuLWM1UlN0Q2Q0Z1hFTkZISmFiQWdoVXJQbkN2OUpYMDRLXzlrWVVMc2U1Ny1mLUxoRmk3MlZvamFOTV9OZHFPM1ZyZnZhbDlMSzRJNG9OOHE5S19wWDQzdklOY2tDZ0U4VFVRay1lRWFOcEVxSnBGMEtHQ0hlRlg1d0JtZkVUc1V0eGR2c2RLcjBJOUJaYnRRaWVLR3VIWkxOTWZ4NkpWLUNwamJHNmdiNUxGdl90UmNhSHBZdVVqWHhYWVh3bk80MXc3SQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - Sensex +420 points and rally are confirmed by the listed sources, and the general note on crude prices is accurate.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims, including the specific 420-point Sensex gain and the context of lower crude oil prices, are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All claims (Sensex +420 points in morning trade, Indian shares rising, lower crude) are directly supported by the source headlines, the place/source labels match, and the 💡 line is a correct general e
+---
+🌏 ASIAN CHIP STOCKS DROP AHEAD OF NVIDIA EARNINGS
+
+📌 Asian chip stocks fell, with South Korea's Kospi down 2.6% and Japan's Nikkei down 2%.
+📊 Kospi: -2.6%
+
+📍 Asia · 📰 Bloomberg.com · ✅ 6 sources
+https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmRRVXFPS1V5SllmWC10cU9wblRCS1BaOGxBaXZLZ29PclFjZkZnQWd6T010SUFhSVdBQ0ZYLWw5Qno2TDhzSDE4RHBlUUVoaU9DZEdYSmphMjdUUFFiR1JrVmhsSUhkZmNfSkgwQzhXQkFlRWMwU1NIX0VHNUZSZFNrcFhxZWRjTDFSWmItemxuSE8zbXp1ZFBnV0JKVC11ekZoSnhPTzZhZFlPdEttb2V3WjA?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (stock declines and context) are directly supported by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The claim that there are 6 sources is unsupported; only five sources are listed.
+  -> blocked by fact-check
+---
+🌐 ASIAN SHARES AND US FUTURES FALL BEFORE NVIDIA EARNINGS
+
+📌 Asian stocks and US futures fell as investors wait for $NVDA earnings.
+💡 Earnings from major tech firms often drive wider market movements.
+#Nvidia
+
+📍 Global · 📰 FXEmpire · ✅ 4 sources
+https://news.google.com/rss/articles/CBMirgFBVV95cUxNVDFhNEp6VXhxcGFxclBtSGdSSFFDUzdrZVRXYUZmTEpsSVQ2WmxZcHU2ekpTS01HeEFZYjFzM0w3S05oTkpkdE5yVmhaT1lMaHozV2NDdHM4c0F0R1l5VWZobHgtcXd5Y01VRldVWldKcTVaQkxmcVozS24zaFA1M1Y3bzJleEIyM3ZZa0psRW9lRFFsOUFCSGhyeWpvZEg5cnFqZVlWRDlRTWJ2MVE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about Asian shares, US futures falling, and Nvidia earnings are confirmed by the cited sources, and the general explanation is accurate.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
+  Groq Qwen: PASS - The factual claims regarding the fall in Asian shares and US futures ahead of Nvidia earnings are directly supported by the provided sources, and the general explanation is accurate.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-7a0ac871b797
+---
+🇮🇳 INDIA WHOLESALE INFLATION RISES TO 12.29% IN OCTOBER
+
+📌 India's wholesale prices rose 12.29% year-on-year in October as fuel costs surged.
+📊 WPI Inflation: 12.29%
+
+📍 India · 📰 Fortune India · ✅ 5 sources
+https://news.google.com/rss/articles/CBMipAFBVV95cUxNd25wdEV2cXJrZUNEalJsRFVKcWx4dG1IWUlCYk1EeFJmWjJlV05DQUJwM3M2NHAzS2NtWXd1MkFCbUtvWDFMb3o3V1p0NEVSU0g4a2s1WnVLS3dEb3RvSGtRNXM1V3BGWU5DUHVXTzJ2eWRibk0yZHJtU2VZREZHbDdHNmI3elYxbFFvaXQzNjNoQXJMU2hSV1VLY2IyM0dvcjhGTNIBsgFBVV95cUxQcXFSNGhGVHhNZk81YW5lQ0d1TzJ2anhCU0taYi1FMF9XOTkzYXQtelJtVkU3ZE8zcEJqZG1sMzZNaWhBNFlqY2tEblJRWE5RS2Y3Nmp6SmpUX0dpTG8tMG4zRndtM0VsYnF4VDdndURXLTB2djBRd0xuRDZJVnF5VS1WaEVkVV9TLXVpWmRFU2o3blpSbUxfaldJY1JnRU54c2M3SnVJeGFLcDR0cERka19B?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All figures, dates, and context are directly supported by the cited Fortune India source
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the 12.29% WPI inflation rise in India for October and the surge in fuel costs are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-cb75911c5793
+done: 2 post(s) this run
 === run 2026-11-15T23:06:21Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1422,79 +1498,3 @@ https://news.google.com/rss/articles/CBMinAFBVV95cUxOc1c1WTB6NzNybV9kTlo0TTVudzV
   written by Gemini
   Groq GPT-OSS: PASS - All stated facts about the unchanged gold price of Rs 429,136 per tola in Pakistan are confirmed by the cited sources.
   Groq GPT-OSS 20B: FAIL - Business Today source does not support the claim about Pakistan gold price.
-  -> blocked by fact-check
----
-🇮🇳 INDIAN STOCKS RALLY FOR SEVEN SESSIONS
-
-📌 Indian stock markets had a sharp seven-session rally.
-💡 Rising stock markets generally boost investment values.
-#Nifty
-
-📍 India · 📰 Mint
-https://www.livemint.com/market/stock-market-news/from-diwali-2025-to-diwali-2026-how-sensex-nifty-50-rupee-crude-oil-changed-in-samvat-2082-what-lies-ahead-11794043761591.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about a seven-session rally are directly supported by the Mint source.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - The claim of a sharp seven-session rally is directly supported by the source, and the general explanation is accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-863996b042ac
----
-🇮🇳 COCA-COLA INDIA BOTTLER FILES FOR IPO
-
-📌 Coca-Cola's Indian bottler filed papers to sell 99.75 crore shares in an IPO.
-📊 Shares offered: 99.75 crore
-
-📍 India · 📰 Moneycontrol.com · ✅ 11 sources
-https://news.google.com/rss/articles/CBMi8gFBVV95cUxQSm9qZ2lyTUtsQTNZQjdON1ZhZktQVnpJQ3l2c2JpVEMtZEhoVzZJVmppX2R6azcyZ3NXMl91Q1h1Q1VGM00xXzdCaE15dVV3LTBueUtsZVQwem5PUmFrZWRjT1ZCZmFQeGwyUDlnSU8tTUlmdTlvRUpyaUlRMWRjX0RJb3lOTUVQdmZUVi1fTXNlSzUyU09mSlgtbkh3dHk0MWREOWpTN21QeENKNEFBU3RiRHRQcU1vT1AtelRtajJrcXQzcmUxZU9Vc0ZxU0kwYnFlZzhuSUI3T2VCWGtweXNTZkw2bDhRQ1A1OFZfb293UdIB9wFBVV95cUxPcjJWYlhRMHJuNHJSaVJJVnZLWExaQnd1Q2Fsd1duaV9WUjhRbm5iVEhpTVZNb204ZVB4RzhULXdyY2VLUXliMWxHU0UyQnNpVC1fWGt5QmtPN21uNEZoV25CMkpuZXlzQTFTaEhFYmdZWkNUWHNvcTFJN21SajZHNWlrYzhXTUJoV0hkcjhNM1djMkdIUDgwLWZEcGZzR3VZSUFuUElQbWJWUUZOaFdRWXRMSzBUVjAyaDhmSXgyTDJCTkZTY1NwMktLd0ZTT1lDY053WEZYbXMtTWU4TXBwRkQxTEVPd2F0ck00R21iWktHeEZDaHpv?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about the IPO filing and share count are directly supported by the cited Moneycontrol.com sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Moneycontrol source.
-  Groq Qwen: PASS - All factual claims regarding the entity, share count (99.75 crore), location, and source are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-61f07cdaecea
-done: 2 post(s) this run
-=== run 2026-11-07T06:34:10Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 8
-80/171 sources returned news, 628 recent items
-155 new trusted stories, posting up to 2 this run
----
-🇮🇳 GOLD AND SILVER PRICES RISE IN INDIA
-
-📌 Gold and silver prices edged higher across Indian cities today.
-💡 Buying gold and silver jewellery becomes slightly more expensive.
-#Gold
-
-📍 India · 📰 Economic Times · ✅ 3 sources
-https://news.google.com/rss/articles/CBMi7AJBVV95cUxQdUMyNDUxYm1KLUpJV2NaSDREa05NU3huS2IxN0J0VEVXMUZ1T1ZZc3NVN0FFY0xCWkVSWW9wZWJ5MzFtVzJ1eVNnZXVDZDA3RXZLbnlfaTBPXzBrOUZuMk1IUFU0MTNlZVlWUzY1U2s5bC1YMlF5Unc3Zmt3ekpQRTFJeFA3X0JFNDl1MjNUMnNuWkpFcVpRZllhVHA2MmtQS1hJM3NFRC0zaDl2U3JQYndOQzlIQ3RkOW90UkZ3Y0kzRmNPNXhBZ2hvblBsczA5MGFpVzd2NDduRVU2THdJR1g0cVRJZzQzZURBcjVqUE1uYzE2aWc3dE9wdnZQUEZHTzVqS09xVlBZVnpmTUFibWZrT0lZOHo1bE00THdWVGRIRmpqQlExYkRUMVJ3TzZ2MXk5NHdoQkRlWjVxWXNjNGhLTDZZalVaSlc5bVliVWMtSkFwbEhoVmNVMWFIa0IwdW4yazM4S0NPcVdi0gHyAkFVX3lxTE5ZeWhSUll3bFc5OE10U2ZPWXF4WVhoWDJPY2JnSHQxLW81ZDZETk9sVGtpNlNGVVpxaDI5UTJYYmI4SnVhTU9pT2Q3SFlKTnRkaWs3MS1veGQ4Z2VFX1JheS1lcUJaTy1GYjFkN2RCanhrWW9wUmdUTHBvaDdjbHZacExsblB4S3kydWhHUW8zWTNHOUhiakEyU1ZsRWtNTExuRDhKTXdpTVZUV2czQXZlYVhkc1lQX0U2ZzQ3TjFKTmt2TEt4NFpSZEpGSjFZZWtBcFJWT2ZIZkNJd1JOalY2aVlJcWpUR2FtOTByaUc0ekZlY0QzN3g3dEJIbm12MndNZ1FQaXJmeWpnV3p4TTBZRUJ3eXNVZ1BXTXo5VXhyQVFzSzJZWXp1Q19LTEdDcHpjanRidTlVT0xiclJHVzN1ZFg3eVBoWFB1elVQUktldFY1a3VZNVdmbGdGbV92R2FhWTBKMUpVSjJnNFR4V3JlSFE?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All price‑rise claims are directly supported by the three cited sources.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources but only lists one, which is unsupported.
-  -> blocked by fact-check
----
-🇺🇸 US ADDS 165,000 JOBS, PUSHING DOLLAR UP AND GOLD DOWN
-
-📌 The US added 165,000 jobs last month, beating expectations and lifting the dollar.
-📊 US jobs added: 165,000
-
-📍 US · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/markets/commodities/news/gold-drops-as-strong-us-payrolls-boost-dollar-yields/articleshow/135626183.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All job, dollar, and gold figures are directly supported by the Economic Times articles.
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: PASS - All factual claims regarding the 165,000 jobs added, the dollar's rise, and gold's decline are directly supported by the provided sources, and the location and source attribution are correct.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All factual claims in the post (165,000 jobs added, beating expectations, dollar up, gold down) are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-c02edbb34697
----
-🇮🇳 INDIAN IPOS RAISE RECORD RS 2.23 LAKH CRORE
-
-📌 375 companies raised a record Rs 2.23 lakh crore in Indian IPOs during Samvat 2082.
-📊 IPO Amount: Rs 2.23 lakh crore
-
-📍 India · 📰 Lokmat Times · ✅ 4 sources
-https://news.google.com/rss/articles/CBMisgFBVV95cUxQVjJLVnduc2JIaUlJVEtFZ2htWWZ5dVQ2LTl1SGtUTlo3VFN5X2ZWQXE1WEpySnc0VlhBNlVnd1hfOEEtVEpDem5jeEZrcTlaMW8tVmZfYXkxb0tKM2VVQk92a29hdnFEZkpoM29GUlpYOEVUTDNkTjN0aXpXbEJCYnptOURaR1ltckZoXzhSTjVlUHZmUUliM2pvMzF1ZUptTlk1X2pQM3pFd3ZKX2VkVW530gG3AUFVX3lxTFBvYm51VnhXSExOQnFVU2g2MjhLNWgxTThlQ0p4bjQxVjBfS083Mkl6WUx6X1AxRVNVbjFLc01WTUZkOXdRanlnSzBncjJ3UElmemhWTnlmTmNGbThBdzZWMzg4VWJJZnh3a21jZEZoUVM0ZVdlUHN3a3NxalNXaFczQTVvTU1STjB6QnpIUGFfOVR0eVZRS2kwT1pOYTljRDNIc3U0U24yRkdUSVF4SnUwQzNtWmhwQQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, year, company count, and location are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
