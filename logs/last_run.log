@@ -1,3 +1,10 @@
+=== run 2026-11-17T22:38:21Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+82/171 sources returned news, 692 recent items
+re-check of earlier post: 5 fail / 0 pass
+179 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-17T13:55:28Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 10
@@ -1491,10 +1498,3 @@ https://www.livemint.com/market/stock-market-news/muhurat-trading-time-2026-nse-
 📌 Indian stock markets logged their worst Samvat returns in 15 years.
 💡 Lower stock market returns generally mean slower growth for investments.
 
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/stock-market-news/nifty-sensex-worst-samvat-returns-15-years-equity-investors-samvat-2083-11793888291373.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the Mint article and the general explanation is accurate.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Mint source.
-  Groq Qwen: PASS - The factual claims regarding the worst Samvat returns in 15 years for Indian stocks are directly supported by the source headlines, and the general explanation is accurate.
----
