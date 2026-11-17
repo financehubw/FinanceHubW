@@ -1,3 +1,95 @@
+=== run 2026-11-17T13:55:28Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 10
+104/171 sources returned news, 1068 recent items
+284 new trusted stories, posting up to 3 this run
+---
+🇮🇳 INDIAN BONDS SURGE ON OIL DROP
+
+📌 Indian government bonds rallied as falling oil prices eased interest rate fears.
+📊 Yield: 7.2528%
+
+📍 India · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/markets/bonds/indian-bonds-surge-after-oil-slide-eases-aggressive-rate-hike-concerns/articleshow/135924727.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements in the post are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: FAIL - The claim that there are 2 sources is incorrect; the post lists three sources.
+  -> blocked by fact-check
+---
+🇺🇸 FED OFFICIAL SAYS RATE HIKES LIKELY NEEDED
+
+📌 A US central bank official says several rate hikes (increases in borrowing costs) may be needed by spring.
+📊 Four more rate hikes expected
+
+📍 US · 📰 Bloomberg.com · ✅ 10 sources
+https://news.google.com/rss/articles/CBMisgFBVV95cUxPSkZydFlvcVY4NVJKN2hQbkdROU1adjRJNGVSaVNvTmRlQVBZUzJQMmFLaFhWemtURVFqNDNVd1NTT2ZFQ0V6VDdpLUdYcEhUdGlxNXh3dWQ0TFdJVjM4aDZONzkzd0xiSTliSVhKWkFlSnNDWmhxOEpYbDNLdFhPRjhoY19KRnNreTNZOXV4TTNtNnB5M1E3V1dUSGtJMlJYLUtVUnRzMWk5VlN1UVduZnVR?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (official’s comment, timing, number of hikes, location, source) are directly supported by the cited Bloomberg and other articles.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the official (Musalem), the entity (Fed/St. Louis Fed), the specific number of hikes (four/several), and the timeline (by spring) are directly supported by the provided so
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-abab68821041
+skip (off-topic or nothing new): Investors look to Nvidia's earnings and Anthropic's IPO to refresh the tech rally
+---
+🇮🇳 INDIA STOCKS HIT 9-MONTH HIGH
+
+📌 Sensex and Nifty hit their highest levels since February, led by banking stocks.
+📊 Sensex: 82,532.19 (+0.52%)
+
+📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
+https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-17th-november-2026/article71708442.ece
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the Sensex/Nifty levels, dates, percentages, and banking stock leadership are directly supported by the cited sources
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: FAIL - The source states Nifty closed at 25,387.40, which contradicts the claim in the source title and potentially the post's implication that it topped 25,500, and the post omits the specific Nifty closing
+  -> blocked by fact-check
+skip (off-topic or nothing new): What to watch in Nvidia’s first earnings report since Huang’s resignation
+---
+🇮🇳 SENSEX JUMPS 750 POINTS AS BANK STOCKS RALLY
+
+📌 The Indian stock market rose significantly, led by gains in banking shares.
+📊 Sensex: +750 points
+
+📍 India · 📰 theopenpress.in · ✅ 2 sources
+https://news.google.com/rss/articles/CBMilgFBVV95cUxPSmRZX1RHbncxYXRqb3lYelE5TUZkaEtJOFAxZmh2dGZjSFRzZzN4R2l4bGNaakVRV3Y4Q09iUUpqLTdGSVF3LUQ1NGRHcTBsTjdfX3cyZnRCaGpueTJJczZhOW9BUWloODZIWlFKOUxXYUhacl9yYVFSM2NpRmpfVE5jU2xXVW5Cc0VId2xIVkdVZC1aZ1E?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (750‑point Sensex rise, bank stock rally, India location, source name) are directly supported by the cited article
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: FAIL - The post claims the source is 'theopenpress.in' and lists '2 sources', but the provided source list includes 'The Eastern Herald' which reports a different figure (700 points) and is not cited in the 
+  -> blocked by fact-check
+---
+🌐 BITCOIN HOLDS NEAR $65,000
+
+📌 Bitcoin stayed near $65,000 following a monthly price drop of 21 percent.
+📊 $BTC: $65,000
+#Crypto
+
+📍 Global · 📰 Economic Times
+https://news.google.com/rss/articles/CBMinwJBVV95cUxOSHdpN1cxUmtBbzhDaTQ3dVZnWFJoSVpaMlEtNVJsY0JLODRjQjVJZWlqQWxqZkpINHZ1Yl9HWHAzcjg0cGxrZ0VYYVZ1VGVCRnpUNDNnT1NnU0hDS2s0dWV0MnFmUFBJYXlWU0hscG1KX28tODFsdUdMMGVDZG8tLU1NaTNQekZkOVF0ZXAxZ2ItaHh1Mm5pM0RsNEdfVE5zTGs1RnZCTFo1bm0xXy0tU0ZvR1BjbUgyTWNrVWkwSjhfZWNTaS1jcG5VamxtRjllR1JlYVJVeHJZRVMzNGRQamhjQjBOZDBSYnVnSWJhNFRyMGo1MElhRVh5M1FsS2pCcmFSTTZkMXptQklqaW96VXdhNW10NmY4b3Z5ckhic9IBpAJBVV95cUxQMjY0cHRENTZWa0cxcm96TE4wYnpXUUNSazlHSEtZcGk5M2MyOXVTVm52VTRqTEJZQWNESVgyZkxHRUJZdXQwSEFZZHFXeDYyTzNHR0dUMmlTelJPdDRDR3M0dFFBVVE0QXpfdVd5d3pyWVJIR0dzVmhzLWNDUzZCZkFLM3d3VVdOM3NKUzdVVXZBV3RkM2l4cXhjbzR0anMyN3NmeVVuNkN5TU4yR2hxQ1JnOVFENzF1c1ktdV81cUZKQ2FWWUw4Nk51MGhjVUVUbnI2UGFUQThFT0lTa0RxZXhrcnJJX3F4LWJ5QXQtVXNOcDhfbkVfblc5TzFVMFFncTZxWFhKVldzUDdxVDdLbGN2bS1VWGUxZml6RjhrWTRUVUhY?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about Bitcoin price and 21% monthly drop are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source.
+  Groq Qwen: PASS - The post accurately reflects the source headline regarding Bitcoin's price near $65,000 and the 21% monthly drop, with correct attribution to The Economic Times.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-5c9ecc30320a
+---
+🇺🇸 WALL STREET STABILIZES
+
+📌 US stocks steady after a selloff in tech shares ahead of Nvidia's earnings report.
+💡 Market drops can reduce the value of retirement accounts and investments.
+#Stocks
+
+📍 US · 📰 The Killeen Daily Herald · ✅ 5 sources
+https://news.google.com/rss/articles/CBMi2wFBVV95cUxPT0QxSkp4OUExOXI3YnJNeHkzY3AxNXJydW9YZW5aaE9BSm02WmF3TXdKMWNGeVlTVXA5aUdRVWJ0NjJkakFTRDhvdi0wQzcxeF9fTFRVdDBWNHh2RTdYbjFmX1dybmRmSXlGbkI5YUVrdnZjNEpEQTlaNTVRanFVNDNja0hzZjFkUnlLckNNLXBBY2lwUVZ0czJ6VXF3T1ZMV2ktNDY1Skh2Wml3S0d2RWhTSVpGb3pqcGZJbEFFcFhMVFkzbkRlMFM4TEhUaloxcnJkVW12UGRLSG8?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims are directly supported by the cited sources and the general explanation is accurate.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding Wall Street stabilizing after an AI/tech selloff ahead of Nvidia earnings, and the source attribution matches.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - The post's claims (US stocks steady/stabilizing after an AI/tech selloff ahead of Nvidia earnings) match the source headlines, the place and source name are correct, and the 💡 line is a general, accur
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d63989cc3965
+done: 3 post(s) this run
 === run 2026-11-17T03:10:43Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 10
@@ -1406,95 +1498,3 @@ https://www.livemint.com/market/stock-market-news/nifty-sensex-worst-samvat-retu
   Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the Mint source.
   Groq Qwen: PASS - The factual claims regarding the worst Samvat returns in 15 years for Indian stocks are directly supported by the source headlines, and the general explanation is accurate.
 ---
-🇮🇳 BROKERS SHARE STOCK PICKS FOR DIWALI MUHURAT TRADING
-
-📌 Brokers released top stock picks for the special Diwali Muhurat trading session.
-#Nifty
-
-📍 India · 📰 Mint · ✅ 3 sources
-https://www.livemint.com/market/stock-market-news/diwali-muhurat-trading-2026-top-3-samvat-2083-stock-picks-under-rs-100-suzlon-nhpc-south-bank-by-sumeet-bagadia-11794109482297.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about brokers releasing Diwali Muhurat stock picks are directly supported by the Mint source.
-  Groq GPT-OSS 20B: FAIL - Number of sources claim not supported by list.
-  -> blocked by fact-check
----
-🌐 GLOBAL INFLATION DATA TO DRIVE GOLD AND SILVER
-
-📌 Investors watch upcoming global inflation data and US-Iran tensions.
-
-📍 Global · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
-https://www.thehindubusinessline.com/markets/gold-silver-outlook-hinges-on-us-iran-tensions-global-inflation-data-next-week/article71680614.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about upcoming global inflation data and US‑Iran tensions influencing gold and silver are directly supported by the cited sources.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - The post accurately reflects the sources' focus on global inflation data and US-Iran tensions as key drivers for gold and silver, with matching location and source attribution.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All claims in the post—that global inflation data and US-Iran tensions are key drivers for gold and silver—are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-2ce6327b7eff
----
-🌐 BITCOIN STAYS BELOW $76K AS BINANCE CLOSES EU SERVICES
-
-📌 Binance is closing services in Europe, keeping Bitcoin under $76,000.
-📊 $BTC: Below $76,000
-
-📍 Global · 📰 Yahoo Finance · ✅ 3 sources
-https://news.google.com/rss/articles/CBMinAFBVV95cUxQTXNJODEtQ2tFSVhQUWkzY255dG9kMEdRYWRtaC00MW1TXzFKQmR4U0NxaUEta2pwOTRKMGsteldTQ2VPSy1kTkJJMG1ybDB1TkpLT3oyc2VzVW9tOE9vTXdfN0RUdW5vZUdlTmNuUGEzdWRxYW5EdW9aTEVYWi1SMjA4QWVlWDdkVHRvRjQ1ZHNQSkRlYXJZS21KVE8?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that Binance’s EU closure is “keeping Bitcoin under $76,000” adds unsupported causation not stated in the source.
-  -> blocked by fact-check
----
-🇮🇳 NIFTY 50 RISES 8.58% IN 7-DAY WINNING STREAK
-
-📌 India's Nifty 50 index gained 8.58% last week after seven straight days of rises.
-📊 $NIFTY50: +8.58% last week
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/stock-market-news/muhurat-trading-2026-today-nifty-50s-7-day-bull-streak-sets-the-stage-for-samvat-2083-what-should-investors-expect-11794109496766.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and descriptive claims about the Nifty 50's 8.58% gain over a seven‑day streak are directly supported by the Mint article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
-  Groq Qwen: PASS - The post accurately reflects the source's claim that the Nifty 50 rose for seven straight sessions and gained 8.58% last week, with correct attribution to India and Mint.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f270d798ab4a
----
-🇮🇳 INDIA HOSTS SPECIAL DIWALI STOCK TRADING SESSION
-
-📌 Indian stock markets hold a special Diwali session today after gaining in 8 of last 10 years.
-📊 10-year record: Gains in 8 sessions
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/stock-market-news/muhurat-trading-last-10-years-data-nifty-50-bank-nifty-sensex-what-history-tells-amid-special-diwali-session-today-11794111665133.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the Diwali special session and 8 gains in the past 10 years are directly supported by the Livemint source.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited Mint article.
-  Groq Qwen: PASS - All factual claims regarding the location, source, event date, and historical performance statistics (gains in 8 of the last 10 years) are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-c32f4aab719e
-done: 3 post(s) this run
-=== run 2026-11-07T23:52:59Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
-67/171 sources returned news, 417 recent items
-100 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-07T19:05:29Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
-78/171 sources returned news, 541 recent items
-151 new trusted stories, posting up to 1 this run
----
-🇺🇸 BERKSHIRE HATHAWAY DOUBLES BUYBACKS AS PROFITS FALL
-
-📌 Berkshire Hathaway more than doubled share buybacks in Q3 as total profits declined.
-
-📍 US · 📰 International: Top News And Analysis · ✅ 6 sources
-https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The 📍 location is listed as US but the source is labeled International, so the place does not match the source.
-  -> blocked by fact-check
----
-🇺🇸 ODDS OF DECEMBER FED RATE HIKE JUMP TO 77%
-
-📌 US added 165,000 jobs in October, pushing the chances of a December rate hike to 77%.
-📊 December hike odds: 77%
