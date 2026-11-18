@@ -1,0 +1,132 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "EUROPE",
+   "text": "Inflation, the rate at which prices for goods and services increase, rose to 3.6 per cent."
+  },
+  {
+   "name": "ASIA-PACIFIC",
+   "text": "Australia's unemployment rate is expected to remain at 4.7%."
+  },
+  {
+   "name": "MIDDLE EAST",
+   "text": "Binance obtained a $6.5 billion freezing order from an Abu Dhabi court to recover stolen crypto."
+  }
+ ],
+ "story_ids": [
+  28,
+  36,
+  29,
+  2,
+  8,
+  22,
+  11
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 28,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 36,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 29,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 2,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 8,
+   "free_checkers": "Groq GPT-OSS: FAIL - The sources report UK inflation at 3.6%, not Europe-wide inflation."
+  },
+  {
+   "slot": "r2",
+   "story": 22,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 40,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 11,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "The Anthropic IPO",
+ "cover_dek": "A massive share sale is set to happen despite a sell-off in technology stocks.",
+ "big_headline": "Anthropic is set for a record-breaking $90bn share sale on Thursday.",
+ "big_body": "The maker of the Claude chatbot prepares to make its Nasdaq stock market debut at a valuation of around $1.4 trillion.",
+ "big_stat": "$1.4tn",
+ "big_stat_l1": "The company valuation",
+ "big_stat_l2": "for the AI giant",
+ "pol_headline": "Energy bills forecast",
+ "pol_body": "Energy bills across Great Britain are predicted to reach £2,166 a year for the typical household from January.",
+ "pol_stat": "26%",
+ "pol_stat_l1": "how much energy bills",
+ "pol_stat_l2": "in Great Britain may rise",
+ "biz_headline": "BAE Systems plans job cuts",
+ "biz_body": "The British defence giant will cut jobs in its head office and air sector, which designs combat technologies and jets.",
+ "biz_stats": [
+  {
+   "value": "1,070",
+   "name": "Jobs",
+   "note": "to be cut"
+  },
+  {
+   "value": "1,000+",
+   "name": "Total cuts",
+   "note": "planned by firm"
+  }
+ ],
+ "up_headline": "Bitcoin price nears $64,000",
+ "up_body": "Bitcoin trades near $64,000 as a Federal Reserve official suggests a half-point rate hike, which is an increase in the cost of borrowing.",
+ "cover_photo": "servers",
+ "big_photo": "hurricane",
+ "pol_photo": "fed",
+ "biz_photo": "jet",
+ "up_photo": "nyse",
+ "sources_used": [
+  "Bitcoin Magazine",
+  "BusinessCloud",
+  "City AM",
+  "Cointelegraph.com News",
+  "FXStreet",
+  "ITVX",
+  "Largs and Millport News",
+  "Mint"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−0.2%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,329."
+   },
+   {
+    "chg": "−3.4%",
+    "color": "#B4280E",
+    "text": "<strong>Gold</strong> fell to about $3,733 an ounce."
+   },
+   {
+    "chg": "−3.7%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $62,487."
+   }
+  ]
+ },
+ "status": "draft"
+}
