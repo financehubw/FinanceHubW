@@ -1,16 +1,16 @@
 {
  "channel": {
-  "viewCount": "39343",
+  "viewCount": "39407",
   "subscriberCount": "21",
   "hiddenSubscriberCount": false,
-  "videoCount": "84"
+  "videoCount": "88"
  },
  "analytics": "ok",
  "traffic_sources": {
-  "SHORTS": 35217,
-  "YT_SEARCH": 931,
-  "YT_OTHER_PAGE": 785,
-  "YT_CHANNEL": 58,
+  "SHORTS": 37640,
+  "YT_SEARCH": 994,
+  "YT_OTHER_PAGE": 819,
+  "YT_CHANNEL": 59,
   "SUBSCRIBER": 21,
   "EXT_URL": 10,
   "NO_LINK_OTHER": 2,
@@ -19,14 +19,14 @@
   "RELATED_VIDEO": 0
  },
  "countries": {
-  "US": 24345,
-  "CA": 1875,
-  "GB": 1536,
+  "US": 26359,
+  "CA": 1961,
+  "GB": 1601,
   "AU": 780,
-  "DE": 625,
+  "DE": 649,
   "IN": 559,
   "NL": 376,
-  "IE": 233,
+  "IE": 264,
   "SE": 127,
   "ZA": 113,
   "BE": 99,
@@ -577,7 +577,7 @@
    "views": 242,
    "likes": 4,
    "comments": 1,
-   "avg_view_pct": 49.0,
+   "avg_view_pct": 48.4,
    "avg_view_sec": 13,
    "subs_gained": 1,
    "shares": 0
@@ -664,7 +664,7 @@
    "avg_view_pct": 110.3,
    "avg_view_sec": 18,
    "subs_gained": 3,
-   "shares": 19
+   "shares": 20
   },
   {
    "id": "lFeNNxqha8A",
@@ -798,7 +798,7 @@
    "posted": "2026-11-10T16:17:34Z",
    "title": "JFK explains his tax cut plan (1962 footage) #Shorts",
    "duration": "PT28S",
-   "views": 1059,
+   "views": 1061,
    "likes": 14,
    "comments": 2,
    "avg_view_pct": 80.9,
@@ -871,7 +871,7 @@
    "views": 530,
    "likes": 3,
    "comments": 1,
-   "avg_view_pct": 97.3,
+   "avg_view_pct": 97.5,
    "avg_view_sec": 10,
    "subs_gained": 0,
    "shares": 0
@@ -910,7 +910,7 @@
    "posted": "2026-11-12T18:34:14Z",
    "title": "Real estate vs stocks: $10,000 in 2010, who won? #Shorts",
    "duration": "PT31S",
-   "views": 88,
+   "views": 91,
    "likes": 2,
    "comments": 1,
    "avg_view_pct": 57.1,
@@ -938,10 +938,10 @@
    "posted": "2026-11-13T09:32:47Z",
    "title": "What a $1,000 bank loan cost in 1947 #Shorts",
    "duration": "PT27S",
-   "views": 1394,
+   "views": 1395,
    "likes": 13,
    "comments": 1,
-   "avg_view_pct": 86.1,
+   "avg_view_pct": 86.9,
    "avg_view_sec": 23,
    "subs_gained": 1,
    "shares": 0
@@ -966,10 +966,10 @@
    "posted": "2026-11-13T16:16:59Z",
    "title": "Reagan's famous \"allowance\" line about government spending (1981) #Shorts",
    "duration": "PT11S",
-   "views": 339,
+   "views": 340,
    "likes": 5,
    "comments": 1,
-   "avg_view_pct": 87.3,
+   "avg_view_pct": 87.5,
    "avg_view_sec": 9,
    "subs_gained": 0,
    "shares": 0
@@ -980,7 +980,7 @@
    "posted": "2026-11-13T18:32:24Z",
    "title": "3 money mistakes in your 30s that are hard to undo #Shorts",
    "duration": "PT25S",
-   "views": 64,
+   "views": 63,
    "likes": 0,
    "comments": 1,
    "avg_view_pct": 46.7,
@@ -997,7 +997,7 @@
    "views": 389,
    "likes": 4,
    "comments": 1,
-   "avg_view_pct": 81.1,
+   "avg_view_pct": 79.0,
    "avg_view_sec": 10,
    "subs_gained": 0,
    "shares": 0
@@ -1008,10 +1008,10 @@
    "posted": "2026-11-14T14:02:15Z",
    "title": "Amazon vs Walmart: $1,000 in 2010, who wins? #Shorts",
    "duration": "PT19S",
-   "views": 98,
+   "views": 99,
    "likes": 1,
    "comments": 1,
-   "avg_view_pct": 47.8,
+   "avg_view_pct": 48.5,
    "avg_view_sec": 9,
    "subs_gained": 0,
    "shares": 0
@@ -1025,7 +1025,7 @@
    "views": 254,
    "likes": 1,
    "comments": 1,
-   "avg_view_pct": 29.5,
+   "avg_view_pct": 29.4,
    "avg_view_sec": 10,
    "subs_gained": 0,
    "shares": 0
@@ -1036,11 +1036,11 @@
    "posted": "2026-11-14T18:33:26Z",
    "title": "3 money mistakes in your 40s you can still fix #Shorts",
    "duration": "PT31S",
-   "views": 92,
+   "views": 93,
    "likes": 1,
    "comments": 1,
-   "avg_view_pct": 83.3,
-   "avg_view_sec": 25,
+   "avg_view_pct": 84.8,
+   "avg_view_sec": 26,
    "subs_gained": 0,
    "shares": 0
   },
@@ -1050,11 +1050,11 @@
    "posted": "2026-11-14T22:33:20Z",
    "title": "Powell, Mar 2020: Conduct monetary policy independently #Shorts",
    "duration": "PT41S",
-   "views": 104,
+   "views": 107,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 20.5,
-   "avg_view_sec": 8,
+   "avg_view_pct": 23.7,
+   "avg_view_sec": 9,
    "subs_gained": 0,
    "shares": 0
   },
@@ -1066,7 +1066,11 @@
    "duration": "PT22S",
    "views": 30,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 27.3,
+   "avg_view_sec": 6,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "riuZMPaOess",
@@ -1074,9 +1078,13 @@
    "posted": "2026-11-15T14:02:34Z",
    "title": "Powell, Jun 2022: We're not trying to induce a recession #Shorts",
    "duration": "PT30S",
-   "views": 1067,
+   "views": 1085,
    "likes": 6,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 44.2,
+   "avg_view_sec": 13,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "HRij5YllozU",
@@ -1086,7 +1094,11 @@
    "duration": "PT19S",
    "views": 79,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 56.1,
+   "avg_view_sec": 10,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "Kgn4jKFFiCA",
@@ -1094,9 +1106,13 @@
    "posted": "2026-11-15T18:32:28Z",
    "title": "Powell, Jun 2022: Failing to lower inflation is not an option #Shorts",
    "duration": "PT35S",
-   "views": 973,
+   "views": 989,
    "likes": 6,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 38.4,
+   "avg_view_sec": 13,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "bUaPEjNSdqk",
@@ -1106,7 +1122,11 @@
    "duration": "PT21S",
    "views": 86,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 65.8,
+   "avg_view_sec": 13,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "Q93s3qrgHD0",
@@ -1114,7 +1134,7 @@
    "posted": "2026-11-16T09:32:44Z",
    "title": "Powell, Mar 2023: Is the banking system sound after recent stress? #Shorts",
    "duration": "PT20S",
-   "views": 7,
+   "views": 8,
    "likes": 0,
    "comments": 1
   },
@@ -1135,6 +1155,46 @@
    "title": "Powell, Mar 2023: Have deposit flows stabilized across lenders? #Shorts",
    "duration": "PT21S",
    "views": 0,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "mRH1tk5s11s",
+   "file": "rule_of_72_global.mp4",
+   "posted": "2026-11-17T09:32:29Z",
+   "title": "The one-second trick that tells you when your money doubles #Shorts",
+   "duration": "PT23S",
+   "views": 0,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "fJgniGe5Tus",
+   "file": "clip_fomc_20240918_1.mp4",
+   "posted": "2026-11-17T16:17:11Z",
+   "title": "Powell, Sep 2024: Why a half-point rate cut now? #Shorts",
+   "duration": "PT21S",
+   "views": 321,
+   "likes": 1,
+   "comments": 1
+  },
+  {
+   "id": "LKqWxZIVv3A",
+   "file": "dollar_1970.mp4",
+   "posted": "2026-11-17T18:33:00Z",
+   "title": "The dollar lost 85% since 1970 #Shorts",
+   "duration": "PT17S",
+   "views": 73,
+   "likes": 0,
+   "comments": 3
+  },
+  {
+   "id": "umrF7U8jrfQ",
+   "file": "news_20261117.mp4",
+   "posted": "2026-11-17T22:32:13Z",
+   "title": "Fed official says rate hikes likely needed (today's money news) #Shorts",
+   "duration": "PT14S",
+   "views": 7,
    "likes": 0,
    "comments": 1
   }
