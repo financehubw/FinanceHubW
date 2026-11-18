@@ -1,3 +1,92 @@
+=== run 2026-11-18T03:53:42Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+--- special
+⏱️ 60-second market recaps, every day.
+
+Watch FinanceHubW Shorts on YouTube 👇
+https://www.youtube.com/@FinanceHubW
+published to: website, Instagram Story
+95/171 sources returned news, 780 recent items
+192 new trusted stories, posting up to 3 this run
+---
+🇺🇸 DOLLAR NEAR 19-MONTH HIGH
+
+📌 The US dollar stays strong near a 19-month high after positive economic data.
+📊 $BTC
+📊 $ETH
+💡 A stronger currency can make imported goods cheaper for buyers.
+#Currency
+
+📍 US · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-holds-near-19-month-high-as-data-supports-case-for-us-rate-hikes/articleshow/135945560.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about the dollar's 19‑month high, positive data, and Bitcoin/Ether movement are confirmed by the Economic Times article.
+  Groq GPT-OSS 20B: FAIL - The claim that there are 3 sources is not directly supported by the provided source list, which lists five items.
+  -> blocked by fact-check
+---
+🇺🇸 GOLD HITS ONE-YEAR LOW
+
+📌 Gold prices drop below $3,800 due to a strong dollar and interest rate outlooks.
+📊 Gold: <$3,800
+#Gold
+
+📍 US · 📰 Reuters · ✅ 5 sources
+https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVlk2MG4xbDV2emVoNk9vRVhTcTlRbkZLMDgwMjBMTEdVeXFDV21zX0NVdmF0YzQzRDZ4TkowaDJQQlZlTDBsbm9BWHFXNXpYZzVVejAtTGRZTTFHRjV4dllJV0ZxVzVvbVJCN1lxdk50NXVaNkRxTGJQbDYyZjhNNElTUElOWVU0eW0ySnBRMndSU1ZrTGE4ZlNMdDk0UXVmUjZLSEVfQlc?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about gold falling below $3,800, hitting a one‑year low, and being driven by a strong dollar and US rate outlook are confirmed by the Reuters article and other cited sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the price drop below $3,800, the one-year low status, and the causes (strong dollar, rate outlook) are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - The post's claims (gold below $3,800, lowest in over a year, driven by a firm dollar and US rate outlook) match the Reuters/CNBC/BigGo headlines, and the location, source, and count are consistent.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-146ba2bcddc8
+---
+🇺🇸 GOLD HITS ONE-YEAR LOW
+
+📌 Gold prices dropped to their lowest level in over a year as the US dollar grew stronger.
+📊 US Treasury Yield: 5%
+💡 Higher rates usually make loans costlier
+#Gold
+
+📍 US · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/markets/commodities/news/gold-hits-over-one-year-low-ahead-of-fed-minutes/articleshow/135945512.cms
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post states the US Treasury Yield is exactly 5%, but the source only says it breached 5% (i.e., was above 5%).
+  -> blocked by fact-check
+---
+🇯🇵 BANK OF JAPAN PLANS TO KEEP RAISING INTEREST RATES
+
+📌 The head of Japan's central bank said interest rates should keep going up.
+📊 Inflation goal: 2%
+
+📍 Japan · 📰 The Straits Times World News · ✅ 5 sources
+https://www.straitstimes.com/business/bank-of-japan-governor-says-central-bank-should-keep-raising-rates
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about the BOJ governor's intent to keep raising rates and the 2% inflation goal are directly supported by the cited sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the BOJ governor's stance on raising rates and the 2% inflation target are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - The post accurately reflects the sources: the BOJ governor said the central bank should keep raising rates, the 2% inflation goal matches 'anchoring underlying inflation around 2%', and the place, sou
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-aa52a4008f2c
+---
+🇰🇷 SOUTH KOREA HOUSEHOLD DEBT HITS RECORD
+
+📌 South Korea household debt hit a record 2,030.5 trillion won in Q3, with growth slowing.
+📊 Debt: 2,030.5T Won
+
+📍 South Korea · 📰 Yonhap News Agency · ✅ 5 sources
+https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TTldMS0tUNzFhZWY0V0FUVVBOX3dqLUJmMlFEcnhia01xczQwclpta0E2Zm9pMEZPaHpEUHpSWmwybXhuZ3Jlal9HUDF2emc3RURuWFlNQVNkdw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about South Korea's Q3 household debt amount and slowing growth are directly supported by the cited sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the record debt amount (2,030.5 trillion won), the quarter (Q3), the trend (growth slowing), and the source attribution are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All claims (South Korea, record 2,030.5 trillion won household debt in Q3, slowing growth) are directly supported by the cited sources, and the place and source name match.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f9a66b4218cb
+done: 4 post(s) this run
 === run 2026-11-17T22:38:21Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1409,92 +1498,3 @@ done: 1 post(s) this run
 === run 2026-11-08T13:51:45Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
-79/171 sources returned news, 577 recent items
-138 new trusted stories, posting up to 2 this run
-skip (off-topic or nothing new): Gold, Silver Outlook: Inflation Data And Geopolitical Tensions Likely To Drive Prices This Week
----
-🇮🇳 INDIAN STOCKS FALL, ENDING 8-YEAR DIWALI WINNING STREAK
-
-📌 Indian stock markets ended lower in Diwali trading, breaking an 8-year streak.
-📊 $HDFCBANK: ₹784.50 (-0.32%)
-
-📍 India · 📰 Mint · ✅ 7 sources
-https://www.livemint.com/market/stock-market-news/diwali-muhurat-trading-2026-why-hdfc-bank-shares-a-talking-point-today-amid-samvat-2083-despite-13-monthly-rally-11794130829551.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the market decline, 8‑year streak, and HDFC Bank price/percentage are directly supported by the cited Mint article and other sources
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: FAIL - The source states the stock had risen 13.32% in the past week, but the draft implies a 13-monthly rally (or misattributes the 13% figure to a monthly period not supported by the text which specifies '
-  -> blocked by fact-check
----
-🇮🇳 INDIAN STOCKS FALL IN MUHURAT TRADING FOR 1ST TIME SINCE 2017
-
-📌 India's Sensex and Nifty closed lower in Muhurat trading for the 1st time since 2017.
-📊 Diwali session loss: 8th time in 30 years
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/stock-market-news/muhurat-trading-2026-samvat-2082-ends-samvat-2083-begins-sensex-nifty-end-in-red-first-time-after-2017-reasons-11794130754040.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the first negative Muhurat close since 2017 and the eighth loss in 30 years are directly supported by the Mint articles.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the cited Mint sources.
-  Groq Qwen: PASS - All factual claims regarding the first negative close since 2017 and the 8th time in 30 years are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-db226dae0fc7
----
-🇮🇳 SEBI LAUNCHES NEW MARKET SETTLEMENT RULES FOR 2026
-
-📌 SEBI (India market regulator) made its new 2026 dispute settlement rules active.
-💡 It allows market rule cases to be settled faster without long legal battles.
-
-📍 India · 📰 SEBI · 🏛️ Official
-https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/commencement-of-sebi-settlement-of-administrative-and-civil-proceedings-regulations-2026_105680.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that the rules specifically allow "market rule cases" to be settled faster is not directly stated in the source, which refers to settlement of administrative and civil proceedings generally.
-  -> blocked by fact-check
----
-🇮🇳 INDIAN RUPEE TRADES AGAINST US DOLLAR
-
-📌 Reports show mixed moves for the Indian rupee against the US dollar.
-#Rupee
-
-📍 India · 📰 Day · ✅ 2 sources
-https://news.google.com/rss/articles/CBMivgFBVV95cUxQUXA2cVF6QlZjX1V6MmpBbXM0Um9XUTR0UHJsR1V3cUNnMUxNVmtRbkd2Mldzd2xhV1RfWjRhSEZ4R3dlUEF0bG1JcVdQU1plZnJMN2pvOVV0YUJiYi01aDVYbm5vTm10blMyVGZSOGtldW01bkFTVGdsN2Y5ZDdEVmluZEY5N3RuOFhJSzlBakl2eEt4a2dmVTRaM3ZRMzJDTE1jVzQ2MnAwZG9NejZCYlJQYkMwWE5vVTFuMjl3?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source name 📰 "Day" does not exactly match the listed sources (Mid-Day and News On AIR).
-  -> blocked by fact-check
----
-🇮🇳 FOREIGN INVESTORS BUY ₹46,000 CRORE OF INDIAN STOCKS
-
-📌 Foreign investors put ₹45,970 crore into Indian stocks in November.
-📊 Foreign inflows: ₹45,970 crore
-
-📍 India · 📰 Mint
-https://www.livemint.com/market/stock-market-news/global-ai-sell-off-turns-into-indias-gain-as-fpis-pump-rs-46-000-crore-in-5-sessions-will-the-buying-spree-sustain-11794135940793.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and contextual claims are directly supported by the Mint article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint article.
-  Groq Qwen: PASS - All factual claims regarding the amount (₹45,970 crore), timeframe (November), entity (Foreign investors/FPIs), and source attribution are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-d1c511cfd271
-done: 2 post(s) this run
-=== run 2026-11-08T06:40:02Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-73/171 sources returned news, 497 recent items
-126 new trusted stories, posting up to 3 this run
----
-🇮🇳 INDIAN STOCKS HOLD SPECIAL DIWALI TRADING TODAY
-
-📌 Indian stock markets hold a special Diwali trading session today from 2:20 pm.
-📊 $NIFTY: Above 25,000
-
-📍 India · 📰 Mint · ✅ 8 sources
-https://www.livemint.com/market/stock-market-news/muhurat-trading-time-2026-nse-bse-to-hold-special-diwali-trading-session-today-check-market-open-timings-11794105055102.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim of "✅ 8 sources" is not supported by the listed six sources.
-  -> blocked by fact-check
----
-🇮🇳 🔄 UPDATE: INDIAN STOCKS POST WORST SAMVAT RETURNS IN 15 YEARS
-
-📌 Indian stock markets logged their worst Samvat returns in 15 years.
-💡 Lower stock market returns generally mean slower growth for investments.
-
