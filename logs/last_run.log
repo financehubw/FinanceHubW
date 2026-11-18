@@ -1,3 +1,24 @@
+=== run 2026-11-18T22:16:35Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 5
+78/171 sources returned news, 729 recent items
+170 new trusted stories, posting up to 1 this run
+---
+🇺🇸 US STOCKS END MIXED
+
+📌 The Dow fell 566 points after Nvidia results and Fed signals.
+📊 Dow: 50,193 (-1.1%)
+#Fed
+
+📍 US · 📰 The Straits Times World News · ✅ 6 sources
+https://www.straitstimes.com/business/companies-markets/wall-street-ends-mixed-after-nvidia-earnings-fed-minutes
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and attributions are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding the Dow's point drop, percentage change, closing value, and the cited sources are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6ca241dab3d6
+done: 1 post(s) this run
 === run 2026-11-18T13:26:18Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 5
@@ -1477,24 +1498,3 @@ published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-e7bb5f0078bf
 skip (off-topic or nothing new): Will a Federal Reserve Interest Rate Hike Trigger a Recession? Here's What History Says.
 done: 2 post(s) this run
-=== run 2026-11-09T07:12:13Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-99/171 sources returned news, 965 recent items
-224 new trusted stories, posting up to 3 this run
----
-🇨🇳 CHINA PAUSES 24% EXTRA TAX ON US GOODS FOR 2 MONTHS
-
-📌 China put a 24% extra tax on US goods on hold for two months, keeping a 10% rate.
-📊 US tariff pause: 2 months
-
-📍 China · 📰 The Straits Times · ✅ 12 sources
-https://news.google.com/rss/articles/CBMiywFBVV95cUxOTGJUS1B5VEpTVEVEUmpaTUVmRXNpb3ljNF8waHVsZjNCTU9lejRaTGo1ZjJ3V3l0VzBtOEJtWFRxTVhjOEhocGtVdnRUdDVTWjFua0daMXNSVjZGRlJCX2RUR1lPSzBpYk9QaXJ5dHVId0t5ZE85TTN5TXlVX2Z6TGhqZ1d2eDFtUmN0R1hLZHZQT09MbEEtSFMwSHFLZE5QcDhGV3lheXVWS3FYdEctSU5yREJwdU13bm1XQzNJQTVhSEsxT2sxZDdQYw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the 24% tariff pause, two‑month duration, and retained 10% rate are directly confirmed by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the 24% tariff suspension, the 10% retained rate, the two-month duration, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-7005e9efdfc4
----
-🇮🇳 INDIAN RUPEE RISES 24 PAISE AGAINST US DOLLAR
