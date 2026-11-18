@@ -1,3 +1,111 @@
+=== run 2026-11-18T13:26:18Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 5
+104/171 sources returned news, 1110 recent items
+re-check of earlier post: 5 fail / 0 pass
+264 new trusted stories, posting up to 3 this run
+---
+🇮🇳 SENSEX FALLS 500 POINTS
+
+📌 Indian stock markets drop as investors sell shares to lock in recent gains.
+📊 Sensex: -500 pts
+💡 Stock market drops can reduce the value of retirement savings and investments.
+#Nifty
+
+📍 India · 📰 NewsDrum · ✅ 8 sources
+https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVUQxSWIyeEgxbG55cHRQSjh5WXFkczRLTm42SXl5SU5tNTNQaENhRGtkWUxSV292a0UzdHZPdGl4cEc2Vmx6TF9Fdi1YLWJMdzdwMS1XZ1J4S0FMSlVmSEh2d3lFbTNDbW9pYnZRZHRyQ1daSlgzOTVSWHpvTk8zQnBiMXIwRlRyRi1kX2lWRFBHRnVMUVp2TFk0dUFDTWN6NThvQlFObDdQM1JDaFowcjlhMVR1X0VISGFn0gG7AUFVX3lxTE5VRDFJYjJ4SDFsbnlwdFBKOHlZcWRzNEtObjZJeXlJTm01M1BoQ2FEa2RZTFJXb3ZrRTN0dk90aXhwRzZWbHpMX0V2LVgtYkx3N3AxLVdnUnhLQUxKVWZISHZ3eUVtM0Ntb2lidlFkdHJDV1pKWDM5NVJYem9OTzNCcGIxcjBGVHJGLWRfaVZEUEdGdUxRWnZMWTR1QUNNY3o1OG9CUU5sN1AzUkNoWjByOWExVHVfRUhIYWc?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six source entries are provided.
+  -> blocked by fact-check
+skip (off-topic or nothing new): Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike
+---
+🇺🇸 BITCOIN OUTPACES GOLD
+
+📌 Bitcoin falls less than gold as markets price in a December rate hike.
+📊 $BTC
+
+📍 US · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 4 sources
+https://www.coindesk.com/markets/2026/11/18/bitcoin-outpaces-gold-even-as-both-assets-tumble-ahead-of-a-likely-fed-rate-hike
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about Bitcoin outpacing gold, falling less, and markets pricing in a December Fed hike are directly supported by the listed sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
+  Groq Qwen: FAIL - (plain-text verdict)
+  -> blocked by fact-check
+---
+🇮🇳 GOLDMAN SACHS SETS NIFTY TARGET AT 28,500
+
+📌 Goldman Sachs sets a Nifty target of 28,500 and expects three more RBI rate hikes.
+📊 Nifty: 28,500
+💡 Higher rates usually make loans costlier.
+#Nifty
+
+📍 India · 📰 Fortune India · ✅ 3 sources
+https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTjFxcHNOOWxLdTNBdm55ckRBZk1nY091MmFlaXR5UzdaOFlEOFlZR1hzSEtlMDRtWGhJWXZSS3pJWFBndEFlRGNjMG9JMUJ5NjNXanhxM2tNV2hDR21SVDFIYlZrMG5zTVNCcHpocWFsRkVYVGNyMnFpYlc3UE0tdTVnbkVNai10RWxzTEJoQ3pzc2ViQm45d2VYZVZJQ0dqX3dlS1pkZU1MVlpVZnlLcXlvaHg3NHN6STdGZFR4T1kzcmRNWWFxNkZEaUdaZm9fbVHSAd8BQVVfeXFMTTcyVUhETHZvdDhMc2cxbjBNYXdPd25yendNY2t3UjVCVFRhdmE5ZjA1R09VMjY5WkdtWnpxenI2Z2JlNVR4S3Zqb2RBQ2dnUFlZYkozVWdUNDdNU1ZWVW1lbUpqd3pILWkxRThwdHpFTnByM3ZJMTJ1UjNxMHBrLWNKSXN1Ukpua19kVFRMY01XeklwcDljQ1pqZnI3V3RxaUhaN25Jam4wbFVGQUtJbjFTOW5Nd3pMOVVLUG9MY1pZZGc1U2pha0t2cWxqSGtsaElGcU05WE10TU1aY3BCWQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post attributes the Nifty target and three RBI hikes to Fortune India, but those claims are only found in Business Today and other outlets, not in the cited Fortune India source.
+  -> blocked by fact-check
+---
+🇮🇳 RUPEE ENDS FLAT AFTER 7-MONTH HIGH
+
+📌 The Indian rupee closed flat at 93.44 after touching a seven-month high.
+📊 Rupee: 93.44
+💡 A stronger dollar can make imported goods costlier for everyone.
+#Rupee
+
+📍 India · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-ends-flat-after-hitting-seven-month-high-as-firmer-dollar-offsets-inflows/articleshow/135959732.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical, directional, and source claims are directly supported by the cited articles.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the rupee's closing rate, the seven-month high, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-7a0e5c9029ed
+---
+🇬🇧 UK INFLATION RISES TO 3.6%
+
+📌 UK inflation (the speed prices rise at) ticked up to 3.6% in October.
+📊 Inflation: 3.6%
+💡 Higher inflation usually means everyday living costs go up.
+#Inflation
+
+📍 UK · 📰 Business · ✅ 5 sources
+https://www.euronews.com/2026/11/18/uk-inflation-rises-to-36-as-petrol-and-diesel-prices-climb
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about 3.6% October UK inflation are confirmed by the cited Euronews article
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the inflation rate (3.6%), the month (October), the direction (rise), and the location (UK) are directly supported by the sources, and the general explanation is accurate.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-06867a5a5322
+---
+🇨🇦 TSX FUTURES SLIP
+
+📌 Stock futures drop as gold and oil prices fall.
+📊 $NVDA
+💡 Lower commodity prices can slow down overall economic growth.
+#TSX
+
+📍 Canada · 📰 Investing.com Canada · ✅ 4 sources
+https://news.google.com/rss/articles/CBMiwgFBVV95cUxNb2xuRmVhV1RJZXR3ZFQ5RzBSNjRGYWNTQU42bWl2MjVxY1JtaHo0V0NxU1dVdjJLQ2ktM0NlcWRKSFBpR1dLZ1FuOE5oMUVNbE00NThlZUxoLWJuODQwZEhZTUNnNGJIR3NYQTRDbnBBVWZ6T09YVGNyQy1VZjBZUWI2NHl4WHZDZjJxV0FIdmFwM2RVUFBUMmg3azdIb24xM0N3LXdPV1VPSUFhLWJMMUJKZlhlRk5XTVI5MXV4Q2Jodw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims are directly supported by the source and the general explanation is accurate.
+  Groq GPT-OSS 20B: FAIL - Unsupported or incorrect explanation in 💡 line.
+  -> blocked by fact-check
+---
+🇮🇳 RBI MAY RAISE RATES BY 0.75%
+
+📌 Goldman Sachs expects India's central bank to raise key rates by 0.75% by mid-2027.
+💡 Higher rates usually make loans costlier.
+#RBI
+
+📍 India · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/news/economy/policy/rbi-may-hike-interest-rates-by-75-basis-points-by-q2-of-next-year-goldman-sachs/articleshow/135959983.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited Economic Times and Business Standard sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
+  Groq Qwen: PASS - All factual claims regarding the 0.75% rate hike prediction by Goldman Sachs for mid-2027 (Q2 CY27) are supported by the sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-e0c1536622b6
+done: 3 post(s) this run
 === run 2026-11-18T03:53:42Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1390,111 +1498,3 @@ published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-7005e9efdfc4
 ---
 🇮🇳 INDIAN RUPEE RISES 24 PAISE AGAINST US DOLLAR
-
-📌 The Indian rupee strengthened 24 paise to 93.74 against the US dollar in early trade.
-📊 USD/INR: 93.74
-
-📍 India · 📰 Business Standard · ✅ 11 sources
-https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc053cHNiTTd6N0VYamdSTHZFYmJBa0QzcTJEV1NBa2l0MkVJTDVVYnZnWlNFNnFWbF9kbGVsdkdHeXlFR2NRX3haNFpkUzBLcjBwdExIZXc1Q3p0bXJ0cU9aYWpzeXJnUW9FOHJKeDJWSlc5Y2RxQ3NkcjVCZl9HU2pGNndwRHpRaS1kRzUwcjdmaUZuUXE3SEJCYzBhUE9fN0dJc1U3aU14Zk84ejVlczJRTXpVN1ZJd0EzN2hJbF9OSFczVFlYbmpwajZmd3BNazMzVmVwRllCUG_SAeABQVVfeXFMUGwxaVZMbU41MWs5clNoUlVoNnZWU0FEeFF6UFYzS3c3NzBzZkpjd195a25jTnZuaC05YVhXaHVzV0dJWUFtN2ljR0VXeS1QQmtkbUNjS2p6eDkwcUlKdDdNRHI2YnhYRmNKa0ZDd1lOd19lVWd1eW9uOGVpdm5pREpWYXZkRnl2M0ZvM1hRcWt1YUhpWWxfYWZ3alFDYnFrMi1JbklpRjVrc1l0SEd0VjZRUHp0R0lnNnd5U0MxcmMyVE5jS1VMb3hzSXowT014cmpoSDVKanFGVTEya2NQRjU?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The rupee rise claim is not directly supported by the cited Business Standard article and the post incorrectly states there are 11 sources
-  -> blocked by fact-check
----
-🇮🇳 CITI SEES NIFTY REACHING 28,000 BY END OF 2027
-
-📌 Citi expects India's Nifty 50 index to reach 28,000 points by the end of 2027.
-📊 $NIFTY target: 28,000
-💡 Lower oil prices usually help reduce inflation.
-
-📍 India · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/markets/stocks/news/citi-bullish-on-indian-equities-sees-nifty-at-28000-by-end-2027/articleshow/135671094.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Economic Times source.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources, but five distinct sources are listed.
-  -> blocked by fact-check
----
-🌏 ASIAN STOCKS RISE AS MARKET FEARS EASE
-
-📌 Asian stocks bounced back today, with Japan's Nikkei index up 2.5%.
-📊 Nikkei: +2.5%
-
-📍 Asia · 📰 The Straits Times World News · ✅ 4 sources
-https://www.straitstimes.com/business/asian-stocks-steady-as-ai-mideast-jitters-recede-dollar-firm-on-fed-bets
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the Nikkei rise and market bounce are directly supported by the cited Straits Times article.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the Nikkei's 2.5% rise and the general market bounce are directly supported by the sources, and the location and source attribution are correct.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unavailable (HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"xingchen-agi/xing4.0-29b-a4b:free is temporarily rate-limited up)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-2699ad30a35a
----
-🇮🇳 GOLD AND SILVER RETAIL RATES UPDATED ON NOV 9
-
-📌 Jewelers across India published updated daily retail prices for gold and silver.
-💡 Precious metal prices change daily based on global market demand.
-#Gold
-
-📍 India · 📰 Mint · ✅ 4 sources
-https://www.livemint.com/money/personal-finance/gold-silver-prices-today-9-november-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11794188827441.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims are directly supported by the Mint article and are accurate.
-  Groq GPT-OSS 20B: FAIL - The claim that jewelers across India published updated daily retail prices is not directly supported by the Mint article, which only lists rates for Delhi, Mumbai, and Kolkata, and the post’s assertio
-  -> blocked by fact-check
----
-🌐 STOCKS TRADE FLAT AS INVESTORS WATCH US-IRAN TALKS
-
-📌 Indian and UK stock markets stayed flat as investors tracked US-Iran talks.
-
-📍 Global · 📰 Dalal Street Investment Journal · ✅ 2 sources
-https://news.google.com/rss/articles/CBMizwFBVV95cUxONnRleHUwOVVvel9WNTZsYXVOUkd4T0dBeWVXY3RzaDAta0o2M0Y0dFdHd3pObFdGRi1fTTRBUWREdjRyTlEwX0NvQktvazNkcV91UDNPNkxQUjd1TU1UbmNwbHQtdWdBajlEQ2hhNHZqZzY4Nk54YTU3UFlwa3ZhZWlBMzFPV19zbW1FMC1McWpXV012cC1jRmRuVGRCWWNSazNFeWp1LVZKSEg1YkVQU0RsV1lMZzczVG5TVDk0cTVQOEx5WHR4ZmRRMno5N1E?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post lists only Dalal Street Investment Journal as the source, but the UK market flat claim relies on a separate marketscreener.com source, so the source name does not match all cited sources.
-  -> blocked by fact-check
----
-🌐 CRYPTO MARKET DROPS AS BITCOIN AND ETHEREUM FALL
-
-📌 The crypto market is down today as major coins like Bitcoin and Ethereum fell.
-💡 Market drops mean the overall value of cryptocurrencies has fallen.
-#Crypto
-
-📍 Global · 📰 Crypto News · ✅ 2 sources
-https://news.google.com/rss/articles/CBMihwFBVV95cUxNam8yWV9mS0w1czZOOFBHWFFrZ2Z4TGZ5b0h4emd0aFpKUFN1azV2bjVLbjZ6QUhtcm1EVHVGNV9OZFNXU1luck1iR0VrREZrUVgtUjRIRXVlS29IOW54Zm5jVl9PX0I1dHRTaXdqMVlrdmV3MVFRS2luLXhGM0NUSVpDOVFsWFk?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about Bitcoin and Ethereum falling and the market dropping are directly supported by the cited Crypto News articles.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Crypto News articles.
-  Groq Qwen: PASS - The factual claims that the crypto market is down and Bitcoin and Ethereum fell are directly supported by the source headlines, and the general explanation is accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-933742521392
-done: 3 post(s) this run
-=== run 2026-11-08T23:57:19Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-83/171 sources returned news, 565 recent items
-129 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-08T19:03:17Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-82/171 sources returned news, 542 recent items
-135 new trusted stories, posting up to 1 this run
-skip (off-topic or nothing new): This is what a weekly shop looks like for seven households in 2026
----
-🌐 VITALIK BUTERIN CALLS ETH A STORE OF VALUE
-
-📌 Vitalik Buterin says Ethereum ($ETH) should be seen as a store of value.
-💡 A store of value is an asset expected to keep its worth over time.
-#Crypto
-
-📍 Global · 📰 The Block · ✅ 4 sources
-https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited source.
-  Groq Qwen: PASS - The post accurately reflects the source headlines and content regarding Vitalik Buterin's statement on Ethereum as a store of value, with correct attribution and location.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-2a989ff2499a
-done: 1 post(s) this run
-=== run 2026-11-08T13:51:45Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 8
