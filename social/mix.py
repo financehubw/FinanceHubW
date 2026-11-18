@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 WEIGHTS = ROOT / "social" / "format_weights.json"
+DOMINANT = 2.0                # weight ratio that lets a category post twice in a row
 DEFAULT = {"clip": 2.0, "micro": 1.2, "story": 1.0, "lesson": 1.0, "data": 0.6}   # clip: first one hit ~30x the median
 
 
@@ -47,7 +48,12 @@ def pick(ready: list[dict], log: list[dict], queue: dict[str, dict]) -> dict | N
         cats.setdefault(category(it), []).append(it)
     recent = [category(queue.get(p["file"], {"file": p["file"], "title": p.get("title", "")})) for p in log[-6:]]
     last = recent[-1] if recent else None
-    choices = [c for c in cats if c != last] or list(cats)
+    twice = len(recent) >= 2 and recent[-1] == recent[-2]
+    others = [w.get(c, 1.0) for c in cats if c != last]
+    dominant = last in cats and others and w.get(last, 1.0) >= DOMINANT * max(others)
+    # never the same category twice in a row, EXCEPT a category that clearly wins (2x+ every other ready one,
+    # e.g. real footage at ~20x the views): it may run twice, never three times, so the feed still varies
+    choices = [c for c in cats if c != last or (dominant and not twice)] or list(cats)
     total = sum(w.get(c, 1.0) for c in choices) or 1.0
     n = len(recent) + 1
 

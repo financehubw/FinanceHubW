@@ -682,6 +682,10 @@ def spec_from_pick(key: str, info: dict, p: dict, k: int) -> str:
     return sid
 
 
+CLIP_STOCK = 8      # unposted clips to keep ready (the posting mix now uses ~3 a day)
+MINE_PER_RUN = 2    # sources mined per daily run when below stock (2 clips each)
+
+
 def auto() -> None:
     done = load(DONE, {"sources": []})
     reg = load(REGISTRY, {})
@@ -706,9 +710,13 @@ def auto() -> None:
     q = load(QUEUE, {"items": []})["items"]
     posted = {p["file"] for p in load(ROOT / "social" / "posted.json", {"posted": []})["posted"]}
     waiting = [i for i in q if i.get("format") == "clip" and i["file"] not in posted]
-    if len(waiting) < 3:   # keep a small stock of history clips: mine the next source in the list
+    for _ in range(MINE_PER_RUN):   # keep a stock of history clips: real footage is the channel's best format
+        if len(waiting) + len(made) >= CLIP_STOCK:
+            break
         nxt = next((k for k, v in reg.items() if v.get("mine", True) and k not in done["sources"]
                     and v["kind"] != "brightcove"), None)
+        if not nxt:
+            print("no unmined history sources left: add more to social/clip_sources.json"); break
         if nxt:
             doc = load(SRC_DIR / f"{nxt}.json", None) or scout(nxt)
             picks = pick_moments(doc, 2, reg[nxt].get("speaker", "the narrator"))
