@@ -1,0 +1,53 @@
+{
+ "id": "news_20261118",
+ "title": "UK inflation rises to 3.6% (today's money news)",
+ "thumb": "*TODAY:* UK inflation rises to 3.6%",
+ "thumb_photo": "london city skyline",
+ "thumb_tag": "NEWS",
+ "caption": "UK inflation (the speed prices rise at) ticked up to 3.6% in October.\nInflation: 3.6%\nHigher inflation usually means everyday living costs go up.",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "UK,  Business,  5 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. UK inflation rises to 3.6%.",
+   "chat": "UK inflation rises to 3.6%."
+  },
+  {
+   "say": "UK inflation (the speed prices rise at) ticked up to 3.6% in October.",
+   "photo": "london city skyline",
+   "clip": {
+    "kicker": "UK",
+    "year": "18 Nov",
+    "text": "UK inflation rises to 3.6%"
+   }
+  },
+  {
+   "say": "Inflation: 3.6%.",
+   "photo": "london city skyline",
+   "big": "3.6%",
+   "sub": "Inflation"
+  },
+  {
+   "say": "Why it matters. Higher inflation usually means everyday living costs go up.",
+   "slide": [
+    "Higher inflation usually means everyday living costs go up."
+   ]
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}
