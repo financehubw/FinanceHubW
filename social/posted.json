@@ -1127,6 +1127,18 @@
    "failed": [],
    "errors": {},
    "format": "clip"
+  },
+  {
+   "file": "coffee_million.mp4",
+   "title": "Your coffee could cost you nearly $1 million",
+   "date": "2026-11-18T18:32:10Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/C8Zm-LiVFoI",
+    "Instagram": "18350372371248621",
+    "Facebook": "1467696095470365"
+   },
+   "failed": [],
+   "errors": {}
   }
  ]
 }
