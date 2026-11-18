@@ -603,6 +603,33 @@ def draw_caption(img: Image.Image, group: list[dict], t: float) -> None:
         x += d.textlength(wtxt + " ", font=f)
 
 
+# ------------------------------------------------------------------ camera
+BEAT = 2.4                                   # seconds between punch-ins: faceless Shorts that hold viewers change the picture every 2-3 s
+PUNCH = (1.00, 1.07, 1.03, 1.08)             # zoom per beat (cycled). Max 1.08: headlines fill W-120 px, more would clip them
+FOCUS = (0.50, 0.56, 0.42, 0.58)             # where each beat looks (share of frame height): card ~0.4, big number ~0.56
+
+
+def camera(local: float, dur: float, prog: float, loop: bool = False) -> tuple[float, float]:
+    """(zoom, focus y) for a still scene at `local` seconds in: a pop-in at the cut, then a quick eased
+    punch-in every BEAT seconds (the jump-zoom edit), plus the old slow drift so the frame never freezes.
+    A scene shorter than ~1.5 beats keeps a single framing (no punch right before a cut); loops never punch,
+    so the last frame still matches the first."""
+    pop = min(1.0, local / 0.22)
+    drift = 0.035 * prog
+    if loop or dur < BEAT * 1.5:
+        return 1.0 + drift - 0.05 * (1 - pop), 0.5
+    k = int(local // BEAT)
+    if k and dur - k * BEAT < 0.8:           # don't start a new beat in the last 0.8 s of the scene
+        k -= 1
+    into = local - k * BEAT
+    e = 1.0 if k == 0 else min(1.0, into / 0.14)
+    e = 1 - (1 - e) ** 3                     # fast ease-out: reads as a cut, not a slow zoom
+    prev = k - 1 if k else 0
+    z = PUNCH[prev % len(PUNCH)] + (PUNCH[k % len(PUNCH)] - PUNCH[prev % len(PUNCH)]) * e
+    fy = FOCUS[prev % len(FOCUS)] + (FOCUS[k % len(FOCUS)] - FOCUS[prev % len(FOCUS)]) * e
+    return z + drift - 0.05 * (1 - pop), fy
+
+
 # ------------------------------------------------------------------ assembly
 def render(script_path: Path) -> dict:
     spec = json.loads(script_path.read_text(encoding="utf-8"))
@@ -694,14 +721,14 @@ def render(script_path: Path) -> dict:
             i = next((j for j, s in enumerate(timeline) if s["start"] <= t < s["end"]), len(timeline) - 1)
             s = timeline[i]
             prog = (t - s["start"]) / max(0.1, s["end"] - s["start"])
-            pop = min(1.0, (t - s["start"]) / 0.22)
-            scale = 1.0 + 0.035 * prog - 0.05 * (1 - pop)
+            scale, fy = camera(t - s["start"], s["end"] - s["start"], prog, bool(spec.get("loop")))
             base = bases[i]
             if abs(scale - 1) > 0.002:
                 sw, sh = int(W * scale), int(H * scale)
                 big = base.resize((sw, sh), Image.BILINEAR)
                 if scale >= 1:
-                    frame = big.crop(((sw - W) // 2, (sh - H) // 2, (sw - W) // 2 + W, (sh - H) // 2 + H))
+                    oy = int(min(max(0, fy * sh - H / 2), sh - H))       # punch in towards the card / big number
+                    frame = big.crop(((sw - W) // 2, oy, (sw - W) // 2 + W, oy + H))
                 else:
                     frame = PAPER_IMG.copy(); frame.paste(big, ((W - sw) // 2, (H - sh) // 2))
             else:
