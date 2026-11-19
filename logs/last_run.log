@@ -1,3 +1,9 @@
+=== run 2026-11-19T22:24:22Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+88/171 sources returned news, 809 recent items
+203 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-19T13:53:23Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1492,9 +1498,3 @@ https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the
 📌 A Fed official discussed raising interest rates by 0.5 percentage points.
 📊 Rate hike proposed: 0.5%
 💡 Higher interest rates usually make loans more expensive.
-#Fed
-
-📍 US · 📰 MarketWatch.com
-https://www.marketwatch.com/story/nvidia-couldnt-derail-the-stock-markets-rally-hot-inflation-might-8a572024?mod=mw_rss_topstories
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the MarketWatch source.
