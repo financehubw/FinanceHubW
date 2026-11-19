@@ -1,41 +1,40 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-107/171 sources returned news, 1076 recent items
-  big #28 draft 1: Groq GPT-OSS: PASS - All factual claims about the $90bn share sale, $1.4tn valuation, Nasdaq debut, and tech stock sell‑off are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the $90bn raise, $1.4tn valuation, Nasdaq debut, Thursday timing, and context of the tech sell-off are supported by the sources.
-  big: story #28 ok in 4s
-  pol: rejected: these numbers are not in the source: 100
-  pol: rejected: these numbers are not in the source: 100
-  pol: rejected: these numbers are not in the source: 100
-  pol: story #3 failed in 3s
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: pol_stat must be 1-7 characters (it is 11)
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: story #19 failed in 6s
+105/171 sources returned news, 1035 recent items
+  big #6 draft 1: Groq GPT-OSS: PASS - All factual claims are directly supported by the provided sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the IPO price, amount raised, opening performance, and Nvidia's market trend are supported by the provided sources.
+  big: story #6 ok in 33s
   pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
   pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
   pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: story #11 failed in 8s
-  pol #36 draft 1: Groq GPT-OSS: PASS - Both the predicted £2,166 annual bill and the 26% rise are directly stated in the Guardian source. | Groq GPT-OSS 20B: PASS - All numerical and factual claims match the Guardian source. | Groq Qwen: PASS - The slide's claims regarding the £2,166 forecast, 26% rise, and January start date are directly supported by the Guardian source.
-  pol: story #36 ok in 2s
-  biz: rejected: biz_stats needs exactly two figures
-  biz #29 draft 2: Groq GPT-OSS: FAIL - The timing claim 'announced today' is not directly supported by the provided sources.
-  biz #29 draft 3: Groq GPT-OSS: PASS - All claims about BAE's planned job cuts, locations, and numbers are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and factual claims are directly supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the company, the number of jobs to be cut (1,070), the total scale (over 1,000), and the specific sectors affected are directly supported by the City AM source.
-  biz: story #29 ok in 10s
-  up: rejected: this repeats the big story (anthropic, chatbot, claude, company); it must be a different story
-  up: rejected: this repeats the big story (debut, ipo, market); it must be a different story
-  up: rejected: this repeats the big story (anthropic, chatbot, claude, company); it must be a different story
-  up: story #9 failed in 181s
-  up #2 draft 1: Groq GPT-OSS: PASS - The slide's claims about Bitcoin near $64,000 and a Fed official suggesting a half-point hike are supported by the cited articles. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources regarding Bitcoin trading near $64,000 and a Federal Reserve official (Waller) suggesting a half-point rate hike, with the definition of the hike being factua
-  up: story #2 ok in 2s
-  r1 #8 draft 1: Groq GPT-OSS: FAIL - The sources report UK inflation at 3.6%, not Europe-wide inflation.
-  r1 #8 draft 2: Groq GPT-OSS: FAIL - The sources report UK inflation at 3.6%, not Europe-wide inflation.
-  r1 #8 draft 3: Groq GPT-OSS: FAIL - The sources report UK inflation at 3.6%, not Europe-wide inflation.
-  r1: story #8 ok in 4s
-  r2 #22 draft 1: Groq GPT-OSS: PASS - Sources confirm the unemployment rate is expected to stay at 4.7% and that this level is a five‑year high. | Groq GPT-OSS 20B: FAIL - Australia’s unemployment rate of 4.7% is not a five‑year high; the rate peaked at 5.0% in 2018.
-  r2 #22 draft 2: Groq GPT-OSS: PASS - All factual statements about Australia's unemployment rate staying at 4.7% are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - The claim that Australia's unemployment rate is expected to remain at 4.7% is directly supported by the source from tmgm.com.
-  r2: story #22 ok in 6s
-  r3 #40 draft 1: Groq GPT-OSS: PASS - The source confirms Indonesia raised its key interest rate and the rupiah hit a record low. | Groq GPT-OSS 20B: PASS - All claims are supported by the source. | Groq Qwen: PASS - The slide accurately reflects the source headline regarding Indonesia raising its key interest rate while the rupiah hit a record low.
-  r3: story #40 ok in 9s
-  r3 #11 draft 1: Groq GPT-OSS: PASS - All claims about Binance obtaining a $6.5 billion freezing order from an Abu Dhabi court to recover stolen crypto are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by at least one source. | Groq Qwen: PASS - The slide's claim that Binance obtained a $6.5 billion freezing order from an Abu Dhabi court to recover stolen crypto is directly supported by multiple sources, including The Block and Cointelegraph.
-  r3: story #11 ok in 4s
-Draft ready for review: magazine/daily/2026-11-18/edition.json (not published)
+  pol: story #10 failed in 137s
+  pol: rejected: this repeats the big story ($83, 34%, anthropic, debut); it must be a different story
+  pol #3 draft 2: Groq GPT-OSS: PASS - All claims about four brokerages, price target gains of 51%–87%, and the 87% upside are directly supported by the Mint source. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide's claims regarding the number of brokerages (four), the implied gain range (51% to 87%), and the highest potential gain (87%) are directly supported by the Mint source.
+  pol: story #3 ok in 47s
+  biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: story #15 failed in 92s
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story ($83, anthropic, claude, debut); it must be a different story
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story ($83, anthropic, debut, priced); it must be a different story
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story ($81bn, $83, anthropic, debut); it must be a different story
+  biz: story #13 failed in 155s
+  biz: rejected: this repeats the big story (anthropic, debut, made); it must be a different story
+  biz #8 draft 2: Groq GPT-OSS: PASS - All factual claims about mixed Asian markets, Nikkei +0.7%, Hang Seng +0.1%, and Taiwan Taiex falling are supported by the Mint source. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the direction and percentage changes of the Nikkei, Hang Seng, and Taiex are supported by the Mint source.
+  biz: story #8 ok in 57s
+  up #31 draft 1: Groq GPT-OSS: PASS - All factual statements about the November 30, 2026 registration deadline for crypto firms are supported by the cited BusinessDay and Business News Nigeria articles. | Groq GPT-OSS 20B: PASS - The slide accurately reflects the sources, which state that Nigerian crypto exchanges and VASPs must register with the NRS by November 30, 2026. | Groq Qwen: PASS - The slide accurately reflects the source text regarding the November 30, 2026 deadline for crypto exchanges and VASPs to register with the NRS in Nigeria.
+  up: story #31 ok in 16s
+  r1 #39 draft 1: Groq GPT-OSS: PASS - All factual statements about the Canadian dollar's recent decline and its level of 69.88 U.S. cents on Thursday are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - The slide’s claim about the Canadian dollar trading around 69.88 cents U.S. as of Thursday is directly supported by the Globe and Mail source. | Groq Qwen: PASS - The slide accurately reflects the source text regarding the Canadian dollar's recent decline and its trading level of 69.88 cents U.S. as of Thursday.
+  r1: story #39 ok in 24s
+  r2 #35 draft 1: Groq GPT-OSS: PASS - The Bloomberg article reports that Greene blamed loose BOE policy, the UK central bank, for the inflation miss. | Groq GPT-OSS 20B: PASS - The Bloomberg article confirms Greene blamed loose BOE policy for the inflation miss. | Groq Qwen: PASS - The slide accurately reflects the source headline stating that Greene blamed loose BOE policy for an inflation miss, and the definition of the BOE as the UK central bank is factually correct.
+  r2: story #35 ok in 38s
+  r3 #11 draft 1: Groq GPT-OSS: PASS - All factual claims about gold dropping 2% to a one-year low are directly supported by the cited sources. | Groq GPT-OSS 20B: FAIL - Cannot verify the claim that gold dropped 2% to an over one‑year low based on the provided sources.
+  r3 #11 draft 2: Groq GPT-OSS: FAIL - The sources confirm a 2% gold drop and dollar boost, but do not specify the drop was limited to the Americas
+  r3 #11 draft 3: Groq GPT-OSS: PASS - All factual claims about gold dropping 2% to a one-year low are directly supported by the cited sources. | Groq GPT-OSS 20B: FAIL - Cannot verify the claim that gold dropped 2% to an over one‑year low based on the provided sources.
+  r3: story #11 ok in 87s
+  r3: rejected: region text must be 1-100 characters
+  r3: rejected: region text must be 1-100 characters
+  r3: rejected: region text must be 1-100 characters
+  r3: story #2 failed in 2s
+  r3 #20 draft 1: Groq GPT-OSS: PASS - All factual claims about US institutional holdings reaching a record 356,491 BTC are supported by the cited Bitcoin Magazine source. | Groq GPT-OSS 20B: PASS - The slide’s claim that U.S. institutional holdings in spot bitcoin ETFs reached a record 356,491 BTC is directly supported by the Bitcoin Magazine source. | Groq Qwen: PASS - The slide's claim that US institutional holdings in spot bitcoin ETPs rose to a record 356,491 BTC is directly supported by the source text.
+  r3: story #20 ok in 2s
+no story passed the checks for the r3 slide; nothing published
