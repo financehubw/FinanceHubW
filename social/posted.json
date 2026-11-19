@@ -1189,6 +1189,19 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "clip_reagan_trade_2.mp4",
+   "title": "President Ronald Reagan: 1987 speech on how tariffs hurt markets",
+   "date": "2026-11-19T18:33:15Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/f3qAnUogcyY",
+    "Instagram": "18258648541309228",
+    "Facebook": "1709210217477044"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
