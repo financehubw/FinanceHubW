@@ -1,3 +1,61 @@
+=== run 2026-11-19T03:57:11Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 4
+--- special
+📺 Markets moving fast? Get the full breakdown in minutes on our YouTube.
+
+Daily Shorts + deep dives on stocks, crypto and policy 👇
+https://www.youtube.com/@FinanceHubW
+published to: website, Instagram Story
+95/171 sources returned news, 828 recent items
+200 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US DOLLAR HOVERS NEAR 19-MONTH HIGH
+
+📌 The US dollar traded near a 19-month high after Federal Reserve comments.
+📊 US dollar: Near 19-month high
+
+📍 US · 📰 Economic Times · ✅ 5 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-hovers-near-19-month-high-aussie-falls-after-soft-jobs-data/articleshow/135975502.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times source
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding the US dollar's position and the cause (Fed comments) are directly supported by the sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-c454443302a9
+---
+🇮🇳 INDIAN MARKETS SET FOR SUBDUED OPENING
+
+📌 Weak global signals and a lower GIFT Nifty point to a muted start on Thursday.
+#Nifty
+
+📍 India · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-coal-india-jio-financial-nalco-bharat-forge-sky-gold-dalmia-bharat-and-7-others-in-focus-11795052380903.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about weak global cues, lower GIFT Nifty and a subdued Indian market opening on Thursday are directly supported by the Livemint article.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited Mint article.
+  Groq Qwen: PASS - All factual claims regarding market sentiment, GIFT Nifty direction, day of the week, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-2c27c267ab76
+skip (off-topic or nothing new): Gold recovers from one-year low as markets assess Fed rate outlook
+---
+🇺🇸 CRYPTO FEAR RISES ON RATE HIKE
+
+📌 Cryptocurrencies stay low as a US interest rate hike looks likely in December.
+💡 Higher rates usually make borrowing costlier and riskier assets less popular.
+#Crypto
+
+📍 US · 📰 CryptoRank · ✅ 2 sources
+https://news.google.com/rss/articles/CBMilAFBVV95cUxOWnJpLTQ5bVhocWFZZE5pSXVnZGZGNVdNemJWMTFZTjV0bmxWT0c2V3IxNXF5WkNMUzdiS1BteDhFWWpoY1dtMjd1LXpHR3FtalNZaFE0SkhQRW1aUkd1SHVRYUdpbTNOcjdNLWdPMEh0NWlTSXFMTWd2YWlmNFozNjVzMkdkNHFxcFh1RjZoMmJRZ1N0?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about low crypto prices and a likely December US rate hike are supported by the cited sources, and the general explanation is accurate.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - The post accurately reflects the sources' reporting on crypto market sentiment (fear/subdued) and the likelihood of a December US rate hike, with the general explanation being factually correct.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All claims match the sources: crypto subdued/low, December US rate hike likely, fear at extreme levels, and the 💡 line is a correct general explanation; place, source name, and 2-source count are accu
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6a6b236c1b01
+done: 4 post(s) this run
 === run 2026-11-18T22:16:35Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 5
@@ -1440,61 +1498,3 @@ skip (off-topic or nothing new): Ethereum Price Slips Against Bitcoin as ETH/BTC
 ---
 🇺🇸 MORGAN STANLEY BUYS VINYL EQUITY
 
-📌 Morgan Stanley bought Vinyl Equity to handle more IPO (when a company sells shares to the public first time) work.
-📊 Morgan Stanley: +4%
-#StockMarket
-
-📍 US · 📰 Yahoo Finance · ✅ 5 sources
-https://news.google.com/rss/articles/CBMitwFBVV95cUxPd3QtdF93VHl1TWc5TUttOUZ3UXB3aDZtZERvRTJUdVJFSFZseTdpM1Z3RFo2SUhvTTJzNkNYbW9TaEhyNExwbGloZXdiSTFmbUZpcEY1XzgtcWJzN2YwWnVQMnJDOHNlZGhfZ3A1V1RBT3g2WHFuTEtheGx2OWcwOHBucmQtam1lX0dWS0M5WWJYQ2Rla080QVY3ZTltMUlWNFo4YUdlY3Bpa1Z2cUpDMGxxVzNEMlE?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the listed sources
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: PASS - All factual claims regarding the acquisition, the rationale (IPO work), and the specific stock price increase (+4%) are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: FAIL - (plain-text verdict)
-  -> blocked by fact-check
-skip (off-topic or nothing new): Fed ‘going to have little patience with inflation’: Russell Investments By Investing.com
----
-🇺🇸 U.S. INFLATION REMAINS HIGH
-
-📌 Prices in the U.S. are still rising fast. The central bank plans to raise borrowing costs soon.
-💡 Higher rates usually make loans costlier
-#Fed
-
-📍 US · 📰 MarketWatch.com
-https://www.marketwatch.com/story/hot-u-s-inflation-hasnt-cooled-off-rising-consumer-prices-to-keep-fed-rate-hike-on-track-926c44b0?mod=mw_rss_topstories
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about ongoing U.S. inflation, rising prices, and the Fed's likely rate hike are directly supported by the MarketWatch article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the MarketWatch article and the explanation is a widely accepted general fact.
-  Groq Qwen: PASS - All factual claims regarding high inflation, the Fed's plan to raise rates, and the source attribution are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-c63ed0cf2e1b
-skip (off-topic or nothing new): Upcoming IPO: Veritas Finance gets Sebi nod to launch public issue – Top things for investors
----
-🇺🇸 NVIDIA SHARES FALL AFTER SPY PROBE
-
-📌 Nvidia shares dropped after its board opened an investigation into CEO Jensen Huang.
-📊 $NVDA
-💡 Lower stock prices can reduce the value of retirement accounts and funds.
-
-📍 US · 📰 BBC News · ✅ 8 sources
-https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 8 sources" but only six sources are provided, so that factual claim is unsupported.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Fed should move policy 'with care' as it responds to inflation, Barkin says
----
-🇺🇸 PNC BANK TESTS USDC PAYMENTS FOR FIRMS
-
-📌 PNC Bank now lets big business clients accept stablecoin (cryptocurrency pegged to a real currency) payments.
-
-📍 US · 📰 The Block · ✅ 4 sources
-https://www.theblock.co/news/business/2026-11-09-coinbase-pnc-bank-expand-partnership-with-usdc-payments-corporate-clients-436466
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about PNC testing USDC payments for corporate clients, the US location, and source attribution are directly supported by the listed sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
-  Groq Qwen: PASS - All factual claims regarding PNC Bank's pilot of USDC payments for corporate clients are supported by the sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-e7bb5f0078bf
-skip (off-topic or nothing new): Will a Federal Reserve Interest Rate Hike Trigger a Recession? Here's What History Says.
-done: 2 post(s) this run
