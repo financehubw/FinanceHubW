@@ -1,3 +1,105 @@
+=== run 2026-11-19T13:53:23Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+105/171 sources returned news, 1054 recent items
+245 new trusted stories, posting up to 3 this run
+---
+🇺🇸 ANTHROPIC RAISES RECORD $81BN IN STOCK DEBUT
+
+📌 AI firm Anthropic raised $81 billion in a record stock market debut.
+📊 Money raised: $81 billion
+💡 Going public lets a company sell shares to everyday investors.
+
+📍 US · 📰 BBC News · ✅ 10 sources
+https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that Anthropic raised $81 billion in its stock debut is not supported by the cited sources and is factually incorrect.
+  -> blocked by fact-check
+---
+🌐 BITCOIN HOLDS ABOVE $63,750
+
+📌 Bitcoin stays above $63,750 despite rising worries about interest rates.
+📊 $BTC: $63,750
+#Crypto
+
+📍 Global · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 3 sources
+https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about Bitcoin price and Fed rate concerns are directly supported by the CoinDesk article.
+  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources, but the listed sources include four distinct references.
+  -> blocked by fact-check
+---
+🇬🇧 ANTHROPIC LAUNCHES RECORD $300M UK SHARE SALE
+
+📌 British retail investors bought $300m of Anthropic shares ahead of its public market debut.
+📊 UK retail sales: $300m
+
+📍 UK · 📰 Mint · ✅ 13 sources
+https://www.livemint.com/money/personal-finance/anthropic-ipo-groww-opens-pre-order-facility-ahead-of-nasdaq-debut-heres-how-indian-investors-can-buy-shares-11795087602853.html
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post includes unsupported claims (e.g., UK retail sales $300m) and mismatched source attribution (Mint article about Indian investors, not UK retail investors).
+  -> blocked by fact-check
+skip (off-topic or nothing new): Should Holders of iShares 20+ Year Treasury Bond ETF (NASDAQ:TLT) Be Concerned by a 5.07% Ten Year and 5.41% Thirty Year Yield?
+skip (off-topic or nothing new): Tech stocks rise as Anthropic to start trading after record IPO
+skip (off-topic or nothing new): Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut
+---
+🇮🇳 SENSEX SURGES NEARLY 1,000 POINTS
+
+📌 Indian stock markets jumped, adding ₹5.53 lakh crore in wealth as Nifty crossed 25,500.
+📊 Sensex: +990 pts
+
+📍 India · 📰 DhanamOnline · ✅ 5 sources
+https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQTB2MVN5SEg2Q2RLeGF2NWl5eFBRd05YZHBiT0F0VGNaeTI1X1FCYVloN1VSSHltQmVjMERjRWFLdFBmR0VQZTdyT2VobzExMmoxbVNxSWNrc1VGYkR2RmRLRDhXV29mcDNuMlUzdWV5MnR1aVJ6d1JIOUNkOGRZblpqeGoxaEJZclBqcUo5VGdVdUxweko0TGJSSThUWGRZVEl2dlhoX085Q1hwWTdsLXBpWGFyOE0wQUlVYmo0RUVGYjdBNV9MbFpfYWZHOUlzNE43VHp3dUdCTHV4bG5pS2JJNG3SAeQBQVVfeXFMTkEwdjFTeUhINkNkS3hhdjVpeXhQUXdOWGRwYk9BdFRjWnkyNV9RQmFZaDdVUkh5bUJlYzBEY0VhS3RQZkdFUGU3ck9laG8xMTJqMW1TcUlja3NVRmJEdkZkS0Q4V1dvZnAzbjJVM3VleTJ0dWlSendSSDlDZDhkWW5aanhqMWhCWXJQanFKOVRnVXVMcHpKNExiUkk4VFhkWVRJdnZYaF9POUNYcFk3bC1waVhhcjhNMEFJVWJqNEVFRmI3QTVfTGxaX2FmRzlJczRON1R6d3VHQkx1eGxuaUtiSTRt?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the Sensex gain, Nifty level, and wealth addition are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-43a46e229c1b
+skip (off-topic or nothing new): Fed minutes name the AI buildout as a reason more rate hikes are coming
+skip (off-topic or nothing new): US stock market today: Anthropic IPO share price hits $83 as Dow, S&P 500 and Nasdaq futures rise; when do
+---
+🇮🇳 NLC INDIA RENEWABLES FILES FOR IPO
+
+📌 NLC India Renewables filed papers to launch an initial public offering (selling shares to the public for the first time) worth Rs 3,300 crore.
+
+📍 India · 📰 Moneycontrol.com · ✅ 4 sources
+https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWFVSYVQtRi0zcW9uUHlwWUNWakQ4Z2NXRzR3ZzhCQnZ5OFBsRlc1UjhyMTJIRXY3ZVRmeVF1SE13OVNaT0RLaDVsbnY1YW55NXh2ZjlnSThnX25uUlA0U2hMREp1TmUxcFhPYzc4M3lDYWpBU1hFS2dyVm9ieW1oWjVFZTNlN2lnbEttenEtOVdDRVhyU0JFZXFrUHBNUHhNOEw5aGx2aXhfU3BZRTloajVpQzgyOEVJM2tUOHd5YWhaSUcxdW1aWDZpQjVMT0g0a0J6bXloZDRiWkNrNU9xRVFn0gHnAUFVX3lxTE1nQUxGbVFMMm9iVUlwMmhFUktENjNDaGU5bmxsM3ptdlJBNDdpeERTTENRUU5QUjdnNmhXQlJyZjFBbnZHaklkeExrdWMtVVBFQXRHU1pta0o2OVV4QUY2MlFDeUdMNXFueVduaG4yYl9lV1N4Y1EwVEVkSG5tTHBkcjZzb0pUY2xzQlpRaExhMzBlY3hNZXhjTlQ5SnJNUnF5TWFoZDFJeTZuV0laXy1rT1MyLVhXejRsSnFxeDI0ZVBJMGpZdlE0MkdDQm1nZm16OUFObjZHRk01SXVhT3lhck1tOUVyUQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (IPO filing, amount Rs 3,300 crore, location India, source Moneycontrol.com) are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the company name, action (filing for IPO), amount (Rs 3,300 crore), location, and source are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-3b26a3cfbf6c
+---
+🌐 GOLD PRICES FALL FOR EIGHT DAYS
+
+📌 Gold prices dropped in an eight-day losing streak as US rate fears grew.
+#Gold
+
+📍 Global · 📰 Free Press Journal · ✅ 2 sources
+https://news.google.com/rss/articles/CBMitgFBVV95cUxNbVA0MTVIR2F5QkNCckViRkUwcE9wbXFMb091RmdNbzJPUWhjam9yZEp2c1d2NkZxYjZkeXdDa2tKckNVdG9yN2RyT2R6WXhielJTWmFMcHZ1dDgxUW9mblpPUkZYcjZyLWRhdzdDT3p3R21KaWpKTDBHUDJyOXVtZ1Y1SF9XOFUtdGdsRVZLNkVYbzdhWWhvYjBkeTUwS3VwZEJCb0lOWGx2NVBNR2p4UGFTaWxwd9IBuwFBVV95cUxQRWlGa1ZrNFZCeVlPamlDZ3J5NXhmbmY0ZmlsMElRM3cwU1Y1UFFuNmhObDVtazltUmZySVQ1Tk9ZcHNDN1Q3bjZtYVM3YjgwV3pJM3h3MDkwZXZMMGJmamFOc2R3WUJiaWtqVTlPMWoyMFgzQlZaenZMNXgwSE9FWTV4c1I4VHNUVzBlNjlPcXFValMtUzI0VDFNb0FZLXplSmZhSVNDd0ozalY5QWRxZ3dsMFdhNkNkcGdB?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about an eight‑day gold price decline and US rate‑hike fears are directly confirmed by the cited articles.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - The claim of an eight-day losing streak is supported by the Rediff source, and the attribution to US rate fears is supported by the Free Press Journal source.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: FAIL - The location 'Global' is not supported by the provided sources.
+  -> blocked by fact-check
+---
+🇺🇸 FED MINTUES WARN AI MAY BOOST INFLATION
+
+📌 US central bank notes say artificial intelligence could drive up prices.
+💡 Higher inflation usually keeps borrowing costs high for everyone.
+#Fed
+
+📍 US · 📰 Hindustan Times · ✅ 2 sources
+https://news.google.com/rss/articles/CBMiggJBVV95cUxPOU1qMGxDcnlJbjg4eEJzbU82Z1pWSndxeUJSMXlPR1pRVmVMRlZUSUFfSFNlRU42RUxna3RPTUtuM1RURURWZlVaZHBmOFJPTVJDdU1KeWJYZUdhb0dLMmE5U2w1NzlPRWx1QjNNNUNvMUdnQ3JkblRhTXVuNnJEdnJZcWpZLUtJY3RPbWlZWURFNm5SV29QbkFQbTVqMTZTcWdOaVE4Wl9Rck9tYXIzOFQ2ZnlMZm5BY2d4YmtsZTBneXY3a3lGMHZTLU9kbjFKRC1ySlJtTkxqX2pSVnJfc29odEd0czVvRlJmNXVJcjJ6RjMtSHl5NGJJYnFfOGlwdUHSAYcCQVVfeXFMTXRtYTJOalJZLWhaaDFhUFJGdFh6d0xTV1VCcDV3amU0eUNYV0RFVWpjT01jTXZZOUxQbk91Y1MzanhvUmxQeVI5blN2LU9XVzU3UXRTS1VObjdJZ2xpNHlHMG03UlY2U1hwZGphbmREQlBsWm0tSnlDczZESU1GX3ZfaW5aSG1XU3FOWVk5c0F4U0hIQ3J3S3pVSmZra2ZSNk1FbTdZaGs3a3FGa2NlTmMydms4aTVlZE1IUEhXMEtMYm5jUDhYTVBnUmhDLW9QdGp4S19yNUt6NnZGdkhWeXJnUnFLV3NkTExINllKcWxZX2hMVzVfeDI5bUQ3ejRyMTFYWjNhSWM?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the Hindustan Times article.
+  Groq GPT-OSS 20B: FAIL - (plain-text verdict)
+  -> blocked by fact-check
+done: 2 post(s) this run
 === run 2026-11-19T03:57:11Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 4
@@ -1396,105 +1498,3 @@ https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the
 https://www.marketwatch.com/story/nvidia-couldnt-derail-the-stock-markets-rally-hot-inflation-might-8a572024?mod=mw_rss_topstories
   written by Gemini
   Groq GPT-OSS: PASS - All statements are directly supported by the MarketWatch source.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - All factual claims, including the 0.5% rate hike prospect, the source attribution, and the location, are directly supported by the provided source text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-4d20efc12b98
----
-🇺🇸 ANTHROPIC PREPARES FOR HUGE $64.4 BILLION IPO
-
-📌 Anthropic plans an IPO (first stock sale) to raise $64.4 billion.
-📊 Anthropic IPO target: $64.4 billion
-💡 An IPO lets public investors buy shares in a private company.
-
-📍 US · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-futures-slip-with-nvidia-woes-anthropic-ipo-in-focus/articleshow/135711347.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the $64.4 billion IPO target and source attribution are directly supported.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the company, the amount ($64.4 billion), the nature of the event (IPO), and the source attribution are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-cfd0d703a2ee
----
-🌐 WORLD SHARES RISE AS TECH STOCKS GAIN
-
-📌 Global shares rose after tech stocks gained on Wall Street.
-💡 Rising stock prices usually reflect market confidence.
-#Stocks
-
-📍 Global · 📰 Reuters · ✅ 9 sources
-https://news.google.com/rss/articles/CBMingFBVV95cUxQSmFWYndqejEyTkh3dEFJMVZnUS1JblU2dDBFWDdBREJkelV5NXBneTRMdkVFQXBTQ284UXU5bjF1RWZ5NWFPTjBKek90OXpScVlnSEZVT09kajZ0UW55bUZEd0lyUTl4VUhYYl96U0NoODVXWW9vSDZFM29RUDZkMHZrNklZN0hVSGVPRGpzeE9oMmZNaTdFWHQtTTNmUQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that global shares rose is not supported by the cited Reuters article, which discusses TSX futures, not worldwide market gains.
-  -> blocked by fact-check
----
-🇺🇸 FED OFFICIAL CALLS FOR MORE INTEREST RATE HIKES
-
-📌 A US central bank official called for more interest rate hikes.
-💡 Higher rates usually make loans and borrowing more expensive.
-#Fed
-
-📍 US · 📰 Yahoo Finance · ✅ 2 sources
-https://news.google.com/rss/articles/CBMinAFBVV95cUxQXzIzdl81cm00MHV0YnBEOXRjdWxnU3haVDV6eXhIZjgzT2FrRHMyeEpzSldLQU5peFdEWXpHektIUzU2cDh1a2NFc1l3c29iS1V5azhhVF81N3FvVk9BX0pQMm5WSGJWZ3VKMy1yRWlTV29sMFl1ZmJWNFlES00yT1NacEVmYmpOY0lhMTlXemFUN1NJTFpIclZUeXQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Yahoo Finance and Business Times articles.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Yahoo Finance article and the explanation is accurate.
-  Groq Qwen: PASS - The post accurately reflects the sources which report that a US central bank official (Waller/Fed governor) called for more rate hikes, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-2ea5eab6de9f
-done: 3 post(s) this run
-=== run 2026-11-10T02:58:39Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
-92/171 sources returned news, 794 recent items
-185 new trusted stories, posting up to 1 this run
----
-🌏 ASIAN TECH STOCKS RALLY AS SOFTBANK JUMPS 11%
-
-📌 Asian tech stocks gained as oil prices fell and SoftBank jumped 11%.
-📊 SoftBank: +11%
-💡 Lower oil prices often help reduce costs for businesses.
-#Tech
-
-📍 Asia · 📰 Yahoo Finance UK · ✅ 5 sources
-https://news.google.com/rss/articles/CBMigwFBVV95cUxPMHFacU50YVJCbE5CaW5xYURweVBOT05BREtFSG5yN1VILUJUdmJqb3BPWm5WeTF0TkRCcVFjLU91a2RKRnNLcGlOLUhBT0lqSzBySV96Yk93UHhrV0Z4aHcxekk1SXBjUGl6elVnMUJ5bEptLWd4R3dwS1JSdlpRaDZnNA?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the 11% SoftBank jump, Asian tech rally, and falling oil prices are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the Asian tech stock rally, SoftBank's 11% surge, and the impact of falling oil prices are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-d4a201bfaf51
-done: 1 post(s) this run
-=== run 2026-11-09T19:09:46Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-100/171 sources returned news, 960 recent items
-245 new trusted stories, posting up to 3 this run
----
-🇺🇸 US STOCKS REBOUND AS NASDAQ JUMPS OVER 3%
-
-📌 US stocks rose on Monday, with the Nasdaq jumping over 3% despite a drop in Nvidia.
-📊 Nasdaq: +3%
-
-📍 US · 📰 Mint · ✅ 3 sources
-https://www.livemint.com/market/stock-market-news/wall-street-bounces-back-from-ai-sell-off-nasdaq-rallies-over-3-but-nvidia-plunges-9-on-jensen-huang-controversy-11794238373887.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims Nasdaq rose exactly +3%, but the source only reports it rose over 3%.
-  -> blocked by fact-check
----
-🇺🇸 UNITED STATES OIL FUND REPORTS Q3 EARNINGS
-
-📌 United States Oil Fund released its earnings report for the third quarter.
-#Oil
-
-📍 US · 📰 marketscreener.com · ✅ 4 sources
-https://news.google.com/rss/articles/CBMi5wFBVV95cUxOaDA4MFZsWVBZWnJkS2JzdGtSQXMwRm5mUmxYYjFsLWxMNUUtQ0l5bzJCOG5mRGJ3bnVXRHpNeElOQjhHYWZBbmVFci16aEtuTHRlS1ZlbXZvVmR5VTVuNEIzTEhvbTZ4RXdwMHJ1ZFpycWZnQnBWZUp2WUVvMFlkOUN2RXZZbzAtbkJCbUtYcFgxakVZQzhOd1FDZTZsQmhIXzhqTHVFWlpucVdLajdkYzJ5WWFwU2VZR3ltdHRsdTlPelF3N2hsZzZEcWdWNlZ3dmVsNFRjSkxPMGZ0WHVHWFVCeC1DZVE?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - The post only states that the United States Oil Fund released its Q3 earnings report, which is directly confirmed by the cited marketscreener.com article.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 4 sources, but lists 6, which is unsupported.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Oil prices and bond yields no longer moving together
-skip (off-topic or nothing new): Ethereum Price Slips Against Bitcoin as ETH/BTC Breakout Fails
----
-🇺🇸 MORGAN STANLEY BUYS VINYL EQUITY
-
