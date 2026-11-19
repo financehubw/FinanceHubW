@@ -4200,6 +4200,144 @@
    "sources": [
     "Ethereum price history, Yahoo Finance (split-adjusted), at render time"
    ]
+  },
+  {
+   "file": "monthly_nvo_2015.mp4",
+   "title": "$100 a month into Novo Nordisk since 2015 is now worth this",
+   "caption": "$100 every month into Novo Nordisk since 2015.\nToday that would be worth about $16,043 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Novo Nordisk since 2015 = *$16,043*",
+   "thumb_photo": "pharmacy medicine",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-19",
+   "sources": [
+    "Novo Nordisk price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_asml_2010.mp4",
+   "title": "$1,000 in ASML in 2010 is now worth this",
+   "caption": "In 2010, ASML was making chip machines.\n$1,000 in it then would be worth about $30,997 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with ASML in 2010? 👇",
+   "thumb": "$1,000 in ASML 2010 = *$30,997*",
+   "thumb_photo": "semiconductor machine",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-19",
+   "sources": [
+    "ASML price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_lly_2015.mp4",
+   "title": "$1,000 in Eli Lilly in 2015 is now worth this",
+   "caption": "In 2015, Eli Lilly was an old drug maker.\n$1,000 in it then would be worth about $19,737 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Eli Lilly in 2015? 👇",
+   "thumb": "$1,000 in Eli Lilly 2015 = *$19,737*",
+   "thumb_photo": "medicine pills",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-19",
+   "sources": [
+    "Eli Lilly price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_nvo_2015.mp4",
+   "title": "$1,000 in Novo Nordisk in 2015 is now worth this",
+   "caption": "In 2015, Novo Nordisk was a diabetes drug maker.\n$1,000 in it then would be worth about $1,856 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Novo Nordisk in 2015? 👇",
+   "thumb": "$1,000 in Novo Nordisk 2015 = *$1,856*",
+   "thumb_photo": "pharmacy medicine",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-19",
+   "sources": [
+    "Novo Nordisk price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_tsm_2010.mp4",
+   "title": "$1,000 in TSMC in 2010 is now worth this",
+   "caption": "In 2010, TSMC was making other companies' chips.\n$1,000 in it then would be worth about $31,314 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with TSMC in 2010? 👇",
+   "thumb": "$1,000 in TSMC 2010 = *$31,314*",
+   "thumb_photo": "chip factory",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-19",
+   "sources": [
+    "TSMC price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_wmt_1990.mp4",
+   "title": "$1,000 in Walmart in 1990 is now worth this",
+   "caption": "In 1990, Walmart was a discount store.\n$1,000 in it then would be worth about $64,862 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Walmart in 1990? 👇",
+   "thumb": "$1,000 in Walmart 1990 = *$64,862*",
+   "thumb_photo": "supermarket",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-19",
+   "sources": [
+    "Walmart price history, Yahoo Finance (split-adjusted), at render time"
+   ]
   }
  ]
 }

@@ -1,17 +1,104 @@
+rendering monthly_nvo_2015
+  -> monthly_nvo_2015.mp4 | $100 a month into Novo Nordisk since 2015 is now worth this
 rendering whatif_asml_2010
-  ElevenLabs unavailable (ElevenLabs 401: {"detail":{"type":"invalid_request","code":"quota_exceeded","message":"This request exceeds your quota of 10000. You have 3 credits remaining, while 18 credits are required for this request.","status"); using the free voice for the rest of this run
-  voice retry 1: No audio was received. Please verify that your parameters are correct.
-  voice retry 2: No audio was received. Please verify that your parameters are correct.
-  voice retry 3: No audio was received. Please verify that your parameters are correct.
-Traceback (most recent call last):
-  File "/home/runner/work/FinanceHubW/FinanceHubW/social/shorts_factory.py", line 768, in <module>
-    main()
-  File "/home/runner/work/FinanceHubW/FinanceHubW/social/shorts_factory.py", line 761, in main
-    entry = render(path)
-            ^^^^^^^^^^^^
-  File "/home/runner/work/FinanceHubW/FinanceHubW/social/shorts_factory.py", line 620, in render
-    words = speak(sc["say"], mp3)
-            ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/FinanceHubW/FinanceHubW/social/shorts_factory.py", line 397, in speak
-    raise RuntimeError("voice failed")
-RuntimeError: voice failed
+photo (_pixabay, dollar bills): cannot identify image file <_io.BytesIO object at 0x7445fbdc4d60>
+  -> whatif_asml_2010.mp4 | $1,000 in ASML in 2010 is now worth this
+rendering whatif_lly_2015
+  -> whatif_lly_2015.mp4 | $1,000 in Eli Lilly in 2015 is now worth this
+rendering whatif_nvo_2015
+  -> whatif_nvo_2015.mp4 | $1,000 in Novo Nordisk in 2015 is now worth this
+rendering whatif_tsm_2010
+  -> whatif_tsm_2010.mp4 | $1,000 in TSMC in 2010 is now worth this
+rendering whatif_wmt_1990
+  -> whatif_wmt_1990.mp4 | $1,000 in Walmart in 1990 is now worth this
+[vost#0:0/rawvideo @ 0x63359a384bc0] [vost#0:0/rawvideo @ 0x56e1a70fa180] [vost#0:0/rawvideo @ 0x62020403be80] Error submitting a packet to the muxer: Broken pipe
+Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x63359a39da80] [out#0/rawvideo @ 0x62020403b900] Error submitting a packet to the muxer: Broken pipe
+Error muxing a packet
+Error muxing a packet
+[out#0/rawvideo @ 0x62020403b900] [out#0/rawvideo @ 0x63359a39da80] Task finished with error code: -32 (Broken pipe)
+Task finished with error code: -32 (Broken pipe)
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x56e1a70db2c0] Error muxing a packet
+[vost#0:0/rawvideo @ 0x62c325e7d680] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x56e1a70db2c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x63359a39da80] [out#0/rawvideo @ 0x62020403b900]     Last message repeated 1 times
+Terminating thread with return code -32 (Broken pipe)
+Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x62c325e0f2c0] Error muxing a packet
+[out#0/rawvideo @ 0x62c325e0f2c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x56e1a70db2c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x62c325e0f2c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x62020403b900] [out#0/rawvideo @ 0x63359a39da80] Error writing trailer: Broken pipe
+Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x63359a39da80] [out#0/rawvideo @ 0x62020403b900] Error closing file: Broken pipe
+Error closing file: Broken pipe
+[out#0/rawvideo @ 0x56e1a70db2c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x56e1a70db2c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x62c325e0f2c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x62c325e0f2c0] Error closing file: Broken pipe
+[vost#0:0/rawvideo @ 0x6337f6294080] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6337f6293d00] Error muxing a packet
+[out#0/rawvideo @ 0x6337f6293d00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6337f6293d00] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x596f7cb6bd80] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x596f7cb6ba00] Error muxing a packet
+[out#0/rawvideo @ 0x596f7cb6ba00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x596f7cb6ba00] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5f814c23e180] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5f814c248500] Error muxing a packet
+[out#0/rawvideo @ 0x5f814c248500] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5f814c248500] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x6249b7236240] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x6249b71bfe00] Error muxing a packet
+[out#0/rawvideo @ 0x6249b71bfe00] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x6249b71bfe00] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5c5068f5b600] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5c5068f4ea80] Error muxing a packet
+[out#0/rawvideo @ 0x5c5068f4ea80] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c5068f4ea80] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5ced447b0940] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5ced447b05c0] Error muxing a packet
+[out#0/rawvideo @ 0x5ced447b05c0] Task finished with error code: -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x633f83276140] Error submitting a packet to the muxer: Broken pipe
+[out#0/rawvideo @ 0x5ced447b05c0] Terminating thread with return code -32 (Broken pipe)
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x633f83275dc0] Error muxing a packet
+[out#0/rawvideo @ 0x633f83275dc0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x633f83275dc0] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5d01119af580] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5d01119af200] Error muxing a packet
+[out#0/rawvideo @ 0x5d01119af200] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5d01119af200] Terminating thread with return code -32 (Broken pipe)
+[vost#0:0/rawvideo @ 0x5b6aa59bf580] Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x5b6aa59f32c0] Error muxing a packet
+[out#0/rawvideo @ 0x5b6aa59f32c0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b6aa59f32c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5b6aa59f32c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5b6aa59f32c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x6337f6293d00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x6337f6293d00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x596f7cb6ba00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x596f7cb6ba00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5c5068f4ea80] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5c5068f4ea80] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5f814c248500] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5f814c248500] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5d01119af200] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5d01119af200] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x6249b71bfe00] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x6249b71bfe00] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5ced447b05c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5ced447b05c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x633f83275dc0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x633f83275dc0] Error closing file: Broken pipe
