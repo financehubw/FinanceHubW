@@ -1,3 +1,116 @@
+=== run 2026-11-20T03:52:52Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+--- special
+📊 Tweets give you the headline. YouTube gives you the why.
+
+Subscribe to FinanceHubW for daily market explainers 👇
+https://www.youtube.com/@FinanceHubW
+published to: website, Instagram Story
+78/171 sources returned news, 720 recent items
+192 new trusted stories, posting up to 3 this run
+---
+🇯🇵 JAPAN INFLATION RISES IN OCTOBER
+
+📌 Japan's core inflation picked up in October, raising expectations for a rate hike.
+
+📍 Japan · 📰 The Straits Times World News · ✅ 9 sources
+https://www.straitstimes.com/business/japans-core-inflation-accelerates-in-october-cementing-rate-hike-expectations
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post claims "✅ 9 sources" but only five distinct sources are listed, so the source count is unsupported.
+  -> blocked by fact-check
+---
+🌐 GOLD HEADS FOR WORST WEEK SINCE MARCH
+
+📌 Gold is on track to fall about 7% this week as the US dollar gains strength.
+📊 Weekly decline: About 7%
+
+📍 Global · 📰 Economic Times · ✅ 9 sources
+https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-worst-week-since-march-as-rate-hike-expectations-grow/articleshow/136009768.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and context about a ~7% weekly gold decline and a stronger US dollar are directly supported by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The claim that the post cites 9 sources is unsupported by the listed sources.
+  -> blocked by fact-check
+---
+🇺🇸 US STOCK FUTURES FALL AFTER ANTHROPIC DEBUT
+
+📌 US stock futures fell despite a record market debut by AI company Anthropic.
+💡 Falling stock futures usually mean markets may open lower.
+#Stocks
+
+📍 US · 📰 Benzinga · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRkVrV2RSSGRDZjJlUmNZQW15b056ZG9XMElyUncwUlp3LTJKMUN4ZnJCUkxxQml2QUNna0VIRTduT0lPVXIzTVlLTTJWTGJWSGZPdjFwb093MDltM2NNVTVzTExKRWdKaEZ1YnRkbWdMRFJHem5FUFdyamt6OVFzdi1zbGJnVXpkaURCOTBIZEQzMnpxT3lUVjdyU05RU2k3Z0x2NGQtY1dmNEZyYnZ2TjJMNEZTQTZvWlh5ZkxjcFY?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that Anthropic's IPO was a "record market debut" is not directly supported by the cited sources
+  -> blocked by fact-check
+---
+🌐 US DOLLAR NEAR 19-MONTH HIGH
+
+📌 The US dollar stayed near a 19-month high as investors sought safe assets.
+📊 US Dollar: Near 19-month high
+💡 A strong dollar usually makes imported goods more expensive.
+
+📍 Global · 📰 Economic Times · ✅ 4 sources
+https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-near-19-month-peak-as-ai-jitters-sap-risk-appetite/articleshow/136009931.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article and the general explanation is correct.
+  Groq GPT-OSS 20B: FAIL - The explanation that a strong dollar makes imported goods more expensive is incorrect; it actually makes imports cheaper for U.S. consumers.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN BONDS OFFER HIGHER YIELDS THAN STOCKS
+
+📌 India's 10-year bond yield (return) is 7.27%, beating stock yield of 5.3%.
+📊 10-Year Bond Yield: 7.27%
+
+📍 India · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/markets/stocks/news/indias-stock-rally-faces-valuation-test-as-bond-allure-grows/articleshow/136010605.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers and comparisons are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Economic Times article.
+  Groq Qwen: PASS - All factual claims regarding the 10-year bond yield (7.27%) and stock earnings yield (5.3%) are directly supported by the sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-029e0f94db9e
+---
+🇮🇳 FOREIGN FUNDS POUR $12.21B INTO INDIAN STOCKS
+
+📌 Foreign investors put a record $12.21 billion into Indian shares this month.
+📊 Foreign inflows: $12.21 billion
+
+📍 India · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/market/indian-stocks-seen-falling-from-nine-month-highs-asia-market-rout-deepens-11795143190742.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All monetary and record inflow claims are directly supported by the Mint article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Mint article.
+  Groq Qwen: PASS - The post accurately reflects the source's claim of record monthly foreign inflows worth $12.21 billion into Indian stocks, with correct attribution to Mint and India.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-15550fb6453e
+---
+🇮🇳 GIFT NIFTY DROPS 200 PTS AFTER US MARKETS SLUMP
+
+📌 GIFT Nifty dropped over 200 points after the US Nasdaq fell 2.3%.
+📊 GIFT Nifty: -200 pts
+
+📍 India · 📰 The Financial Express · ✅ 5 sources
+https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYktMTmJFa3R2SWgySlpJYjVwRDI0aktfVDNFaEd4bUsxNThPcjdEYVVwakhaOGk5bzZiSVNRRm1IbHBsdjgzaDdrWUF3VC15bTFOSUlpcnpJQ0gxOUNQWGc2MHhKc3B1bWtMTmJJWkdMVUNZNnJIMWRtV1NrNHBINWktSGw5YV9KaEVrakFvelplTjRoUlFhSHAwR0JqMDZITWlTY0JLMnFXTFpvcm1VNFFCOFpfT3F6SENlX0R5dnl0clNBbnl0YjZIbk9iSUhmek9DcVhqWk1Ybjd3dDFVa2xvVHhfdlBkTDhqZ2xYQlRJM1pITGhRZNIB_wFBVV95cUxNZGZabkk0bXp1U3lvaTNnbDdmRWhkZlFndHZRME9rVXEwNG5kVU04ejIyUWE5OXhEdDJ0dUVlYVdxWVpLZUlsYXRVY3ZxbGt5VUVLUzNEX1B0QzNBLUFFbWNBWTBWVEVGOUpNMk5vbWxhSlduUjlXM2ljUmRWTml2Z016WnpkS0xrelJwWlVJYldNZXNfanV2bi10cWtMd0JENHRkWVc5YXQzQVJUYm9HOHNRTW1xWWRwcHRKX0NKd0U5WFN2VXpkYzUxcXFCWkRoblBmYWRUdnpwc1dtc19VTGx3ODVIcUd5bl9qYWV0TjlxWkQ4dFl3eVBGTkJ2Um8?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The Financial Express source cites a ~2% US market drop and does not specify a 200‑point GIFT Nifty fall, so the numeric claims are unsupported.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS SET TO OPEN LOWER TODAY
+
+📌 Sensex and Nifty face a lower start after reaching 9-month highs.
+💡 A lower market start often leads to early drops in stock prices.
+#Nifty
+
+📍 India · 📰 Mint · ✅ 5 sources
+https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-coal-india-paytm-ashoka-buildcon-hexaware-tech-jk-cement-acme-solar-5-others-in-fo-11795140323116.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the lower opening, nine‑month highs, and source details are directly supported by the Mint article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
+  Groq Qwen: PASS - All factual claims regarding the market direction, indices, and source attribution are directly supported by the provided Mint source.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-ad95042435c4
+done: 4 post(s) this run
 === run 2026-11-19T22:24:22Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1385,116 +1498,3 @@ published to: website, Instagram Story
 📌 Fed official Paulson called for gradual rate hikes (interest rate increases).
 
 📍 US · 📰 The Business Times · ✅ 4 sources
-https://news.google.com/rss/articles/CBMizAFBVV95cUxPSG9Mb29LbzA2M3Z2S2JucUVXbGN1MDdrdVp5b3FKX0ViMFQtSDNZTUpKMGd6dkVMTU1CenVMdjZselRFMGdSbXdKQ0dvREU5NlBZUGpHMk5Zd3Vaa19FYmxLVzVNeXRoZmR3R0VrN3hNYm9DQkh0aVpqMVNGOFNlMjRIZURmcWRQZTVqS0F2Q2ZJdkVwdkE4SFBHWU9leTVnVUN3cHo4OV9iUUw0eHhCOGlqdjc3SmdPUmRYbVJvdzhLTjFtcUgtaDJnOE8?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Business Times article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding Fed official Paulson calling for gradual rate hikes, and the location and source attribution are correct.
-skip (off-topic or nothing new): Won rises to 1342.4 per dollar as Fed officials flag larger rate hikes
----
-🇺🇸 US INFLATION BEATS FORECASTS
-
-📌 US inflation came in higher than expected. Treasury yields surged.
-💡 Higher yields usually mean higher borrowing costs for everyone.
-#Fed
-
-📍 US · 📰 The Financial Express · ✅ 2 sources
-https://news.google.com/rss/articles/CBMi6AFBVV95cUxNV0ZUT3ZwdVFTb2xZTmJxSjV5UTBGel9jWUtZazd1NzRCV1QzLXZqMzdQTFMzWjU3QkxoR1VzbEZXRTJ6ZUxhY1d2VzRQa0FjTDVXUjh3ajBzYTd1cWZkQno4Rnc4aUNQdFM4ZlFWMzg2WWkyR29raHh0U2xjRkNiaVlsd0s1R1B2VG5IMVRIc2JBb2RoR2k0ZmFGcl95d1I5LVlHRTVYWjJQSC0yMTFHQktfUU9RZzVVVnItaDg5amRlNkx4OV9SallVanlxa0NJZmJtdTV4RVV3LVZQN1pxRWNLUmJyMEQ30gHvAUFVX3lxTE9QUm5rdjZfYWhUemdWRHpYVGZtenZia2pQTG93OGlsamJidXVXcjdFLTZhYXpNX3Ezbnhvbk1haGRGWFBTWDg1aG9tYXVyZ2RzT3kwTm54N1hqLXRqckZfdlVjTHpkUVJldDRscGJ5YWVkaHNmaEg5d2lKaXFkNlJ1b0VXN2ZlNGNMYTFUS1ViS2syUDJqNWF1dWItYXl6dFRJcmZsRTVSWURobnBONzJaSms1Tl9QTHprX3o2VlZpYnpFOFh2NXYwWDlYSWQ1VmFhemlkZm5XSFdHcUN3MlVuV094WERtSUtmbTdDbXhF?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about inflation beating forecasts and yields surging are confirmed by the cited Financial Express article.
-  Groq GPT-OSS 20B: FAIL - The claim about having 2 sources is unsupported by the listed sources.
-  -> blocked by fact-check
----
-🇺🇸 GOLD PRICES HOLD NEAR ONE-WEEK LOW
-
-📌 Gold rose 0.2% to $4,039.07 per ounce after strong US inflation data.
-📊 Gold: $4,039.07 (+0.2%)
-💡 Higher rates usually make gold less attractive compared to cash.
-#Gold
-
-📍 US · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/commodities/news/gold-holds-near-one-week-low-as-hot-us-inflation-boosts-fed-hike-bets/articleshow/135722357.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the price, percentage change, and context are directly supported by the source, and the general explanation is accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-b9375cd7d279
-done: 3 post(s) this run
-=== run 2026-11-10T20:59:15Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 8
-89/171 sources returned news, 741 recent items
-215 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-10T13:02:48Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-109/171 sources returned news, 1061 recent items
-268 new trusted stories, posting up to 3 this run
----
-🇺🇸 BITCOIN FALLS TO $74,000 AHEAD OF US INFLATION REPORT
-
-📌 Bitcoin fell to $74,000 and gold dropped to $4,078 before US inflation news.
-📊 $BTC: $74,000
-
-📍 US · 📰 CoinDesk: Bitcoin, Ethereum, Crypto News · ✅ 2 sources
-https://www.coindesk.com/markets/2026/11/10/live-news-traders-price-in-fed-rate-hike-for-december-as-bitcoin-and-gold-retreat
-  written by Gemini
-  Groq GPT-OSS: PASS - All numbers, price levels, and timing (Bitcoin $74,000, gold $4,078 ahead of US CPI) are directly confirmed by the cited CoinDesk and SunCrypto sources.
-  Groq GPT-OSS 20B: FAIL - The post incorrectly states there are 2 sources, while the provided sources list three.
-  -> blocked by fact-check
----
-🌐 GOLD PRICES FALL AFTER US FED REMARKS
-
-📌 Gold fell up to 1% to $4,117.94 an ounce following comments from the US Fed.
-📊 Gold: $4,117.94 (-0.5%)
-💡 Gold often drops when interest rates are expected to stay high.
-
-📍 Global · 📰 Moneyweb · ✅ 6 sources
-https://www.moneyweb.co.za/mineweb/gold-drops-as-traders-look-to-inflation-data-after-fed-remarks/
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that gold fell "up to 1%" is not supported; sources report a maximum drop of about 0.8%.
-  -> blocked by fact-check
----
-🇺🇸 NVIDIA SHAREHOLDERS SUE CEO OVER ALLEGED SPY AFFAIR
-
-📌 Investors sued $NVDA and its CEO for hiding risks about an alleged spy affair.
-#Nvidia
-
-📍 US · 📰 The Globe and Mail · ✅ 7 sources
-https://www.theglobeandmail.com/world/video-who-is-alice-huang-the-chinese-businesswoman-tied-to-nvidias-ceo/
-  written by Gemini
-  Groq GPT-OSS: FAIL - The Globe and Mail source cited does not report a shareholder lawsuit, so the claim isn’t supported by the listed source
-  -> blocked by fact-check
----
-🇺🇸 GOLD FALLS 0.61% AHEAD OF US CPI DATA
-
-📌 Spot gold fell 0.61% as investors wait for US CPI (prices data).
-📊 Spot Gold: -0.61%
-💡 Inflation data shows how fast everyday prices are rising.
-#Gold
-
-📍 US · 📰 The Financial Express · ✅ 3 sources
-https://news.google.com/rss/articles/CBMiywFBVV95cUxNUTdMNUJBdThJNTZEZkJ1bnh6WVdmeWRzYkFlOHFxaU9DbmZSS0lNTlg2ZHcwSzZqSEJRa3pNbFR2R01FdnhzVlhkMWNUYXVKMmhHcjBEMklvMnpIXzFsZmVmU094YUc3N1A5QnM3RkJaQmM5LWxOVHNKUy0tY2tRdU1GNkYtY1pJNk1NMV96emt3WlE1Vk03TzNzcUJNMUQ5VFR1TmRaVHdxYnhDbkwwclR0UUxfZkZRTUl0UHdWNUdHOGljVnFtQUJNTdIB0gFBVV95cUxQanZrTV85MWRvdTc4c3R6VEl5eEczb2w3SktSYmtUT0N0ZFhCUEp1d28tdnpqMlB2ek1LdTF5MFA5bnZiR2R6Y2UzOTROc193MmtmUG1zM3dENnVWTVVtS3lwNnpsWW4wMjI4QTZaS1RDR3Z5Q1BqUjRMR0hTV3I0ZDFSRlV2Z2NDSHA5NTRBakhyTTdaQTNNWFVQdmhuVFpydVJhY05fcDBEYUZNSVZiYVoyektxUnY1QTgtR3pvR1J4VXJ5THdUNzVxRHJUVzFKYVE?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The location tag 📍 US does not match the source The Financial Express, which is an Indian publication
-  -> blocked by fact-check
----
-🇺🇸 FED'S WALLER BACKS BIGGER RATE HIKE IN DECEMBER
-
-📌 US Fed official Waller says interest rates could rise by 0.5% in December.
-📊 December Hike: Up to 0.5%
-
-📍 US · 📰 MarketWatch.com · ✅ 16 sources
-https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the MarketWatch source.
-  Groq GPT-OSS 20B: FAIL - The claim that the post cites 16 sources is unsupported by the provided list.
-  -> blocked by fact-check
----
-🇺🇸 FED OFFICIAL RAISES PROSPECT OF 0.5% RATE HIKE
-
-📌 A Fed official discussed raising interest rates by 0.5 percentage points.
-📊 Rate hike proposed: 0.5%
-💡 Higher interest rates usually make loans more expensive.

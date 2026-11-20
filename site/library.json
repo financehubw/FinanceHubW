@@ -2,6 +2,15 @@
  "items": [
   {
    "type": "briefing",
+   "date": "2026-11-19",
+   "label": "Thu 19 Nov 2026",
+   "title": "Daily briefing · 5 stories",
+   "base": "media/digests/2026-11-19-daily-1795146775/",
+   "first": 0,
+   "slides": 7
+  },
+  {
+   "type": "briefing",
    "date": "2026-11-18",
    "label": "Wed 18 Nov 2026",
    "title": "Daily briefing · 7 stories",
