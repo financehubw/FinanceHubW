@@ -1,3 +1,48 @@
+=== run 2026-11-20T13:34:19Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+91/171 sources returned news, 996 recent items
+252 new trusted stories, posting up to 2 this run
+---
+🇺🇸 US STOCK FUTURES FALL ON AI SPENDING CONCERNS
+
+📌 US stock futures fell over 2% as worries about big AI spending continued.
+📊 US Stock Futures: -2%
+
+📍 US · 📰 Moneyweb · ✅ 11 sources
+https://www.moneyweb.co.za/news/ai/us-stock-futures-fall-as-anthropic-ipo-fails-to-quell-ai-worries/
+  written by Gemini
+  Groq GPT-OSS: FAIL - Exact -2% figure and "11 sources" claim are not supported by the cited Moneyweb article
+  -> blocked by fact-check
+---
+🌐 GOLD FACES WORST WEEK IN EIGHT MONTHS
+
+📌 Gold fell in its worst week in 8 months as bets on US rate hikes grew.
+📊 Gold: Worst week in 8 months
+
+📍 Global · 📰 CoinCodex · ✅ 2 sources
+https://news.google.com/rss/articles/CBMivAFBVV95cUxPZzdXVG9iYzYwekZCTi1lNG5wNGpWRmZEVnhPdHdsYjFmNXNYU0NITDBKcXQyUURqdmNwX1NpczFtT2x2Nmx1ZFVTbk5iSTZqU2hvNjJZWndVYjVTWlhwRm9ZbjhXbUVxc3B1cWNLcDZhYjhsTkNyRnI5ZDNLSFBDcmtmRVlvbmtlOFhxTXk2bFpGMF9ySE5ubXo0cHdYOEF2bXBvR2NCaVpYRWJybXIzaWRaOGdRU1lqMG5NUg?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (worst week in 8 months, gold fell, US rate‑hike bets) are directly supported by the two cited sources.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the worst week in 8 months, the cause (US rate hike bets), and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-7c84213b7040
+---
+🇺🇸 ANTHROPIC SHARES SURGE 34% IN RECORD NASDAQ IPO
+
+📌 AI firm Anthropic launched on the Nasdaq stock market, with shares jumping 34%.
+📊 Anthropic debut: +34%
+
+📍 US · 📰 Mint · ✅ 4 sources
+https://www.livemint.com/market/stock-market-news/missed-anthropics-record-ipo-shares-cool-off-after-nasdaq-debut-heres-how-indians-can-invest-11795176413482.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the 34% surge, record IPO, Nasdaq launch, and source attribution are directly supported by the Livemint article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the 34% surge, Nasdaq debut, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-ae00f7e89fe2
+done: 2 post(s) this run
 === run 2026-11-20T03:52:52Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1453,48 +1498,3 @@ done: 1 post(s) this run
 === run 2026-11-11T02:15:44Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
-91/171 sources returned news, 847 recent items
-198 new trusted stories, posting up to 3 this run
----
-🇺🇸 US DOLLAR RISES AS FED SIGNALS POSSIBLE RATE HIKES
-
-📌 The US dollar rose as Federal Reserve officials warned of ongoing inflation risks.
-
-📍 US · 📰 Economic Times · ✅ 4 sources
-https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation/articleshow/135722346.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims “✅ 4 sources,” which isn’t directly supported by the cited articles
-  -> blocked by fact-check
----
-🇺🇸 DOW FALLS 162 POINTS ON US INFLATION CONCERNS
-
-📌 The Dow dropped 162 points as rising inflation fueled worries over further rate hikes.
-📊 Dow: -162 points
-
-📍 US · 📰 Invezz · ✅ 4 sources
-https://news.google.com/rss/articles/CBMisgFBVV95cUxOV3NhRlhtc1g5alEzbjhNVTNrMW5keUdGNy1iOTRzTXJVQ1NQMnU4d3BLMFdaMlRfX0dnY1RwUEM5WTkzcWFsZjFHdjJ3MlpGLTRaMWRkbUZZdzFvekQzc0lOSDdaU2d5SllwUVV5UW1Hb2w1a1BSV1htajJGYkxwM2Y1UEJCc1JQbTYtTWpjSFRmbjRtN0ZhUkp5ejRqUnU5YkZsSGVpVVNOc2lYTzRQdThR?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about the Dow falling 162 points due to inflation concerns and the source/place match the Invezz article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the Dow's 162-point drop and the cause (inflation/rate hike fears), and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-29dd66da6ab5
----
-🇺🇸 WALL STREET FALLS AS HIGH INFLATION STOKES RATE FEARS
-
-📌 US stocks fell after high inflation data raised worries about central bank rates.
-
-📍 US · 📰 Reuters · ✅ 4 sources
-https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93Snp4anhJNG12LW9YNXUxbEtPWk1kcXZuTV92OFphMnpkb3NYSEIzQktiTFcxZ3I4ZmFsY1JsWlpwQmFmM24wcFU3aUlOc2poMmRwM3Q5YzRXUi1yRzdIRE1kTFI3TEE?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about Wall Street falling due to high inflation and rate worries are directly supported by the Reuters source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
-  Groq Qwen: PASS - The post accurately reflects the sources' reporting that US stocks fell due to high inflation data and rate concerns, with correct location and source attribution.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-1fa3146c3fca
----
-🇺🇸 🔄 UPDATE: FED'S PAULSON CALLS FOR GRADUAL RATE HIKES
-
-📌 Fed official Paulson called for gradual rate hikes (interest rate increases).
-
-📍 US · 📰 The Business Times · ✅ 4 sources
