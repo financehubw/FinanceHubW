@@ -1,3 +1,9 @@
+=== run 2026-11-20T21:56:42Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+89/171 sources returned news, 740 recent items
+167 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-20T13:34:19Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1492,9 +1498,3 @@ https://news.google.com/rss/articles/CBMigwFBVV95cUxOaEFuYkh0Z1dCVFlfbXpzblNnUFB
   Groq Qwen: PASS - The post accurately reflects the source headlines regarding Goldman Sachs' forecast for a March Fed rate hike, and the location and source attribution are correct.
   Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
   OpenRouter: PASS - All claims match the source headline (Goldman added a March Fed rate hike to its forecast), the US/Fed attribution and Yahoo Finance Singapore source are correct, and the 💡 line is a general, non-pred
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-1d1260bdc2b6
-done: 1 post(s) this run
-=== run 2026-11-11T02:15:44Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 8
