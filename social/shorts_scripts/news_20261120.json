@@ -1,0 +1,47 @@
+{
+ "id": "news_20261120",
+ "title": "Anthropic shares surge 34% in record nasdaq IPO (today's money news)",
+ "thumb": "*TODAY:* Anthropic shares surge 34% in record nas",
+ "thumb_photo": "wall street new york",
+ "thumb_tag": "NEWS",
+ "caption": "AI firm Anthropic launched on the Nasdaq stock market, with shares jumping 34%.\nAnthropic debut: +34%",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "US,  Mint,  4 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. Anthropic shares surge 34% in record nasdaq IPO.",
+   "chat": "Anthropic shares surge 34% in record nasdaq IPO."
+  },
+  {
+   "say": "AI firm Anthropic launched on the Nasdaq stock market, with shares jumping 34%.",
+   "photo": "wall street new york",
+   "clip": {
+    "kicker": "US",
+    "year": "20 Nov",
+    "text": "Anthropic shares surge 34% in record nasdaq IPO"
+   }
+  },
+  {
+   "say": "Anthropic debut: +34%.",
+   "photo": "wall street new york",
+   "big": "+34%",
+   "sub": "Anthropic debut"
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}
