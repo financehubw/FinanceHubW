@@ -1,40 +1,58 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-105/171 sources returned news, 1035 recent items
-  big #6 draft 1: Groq GPT-OSS: PASS - All factual claims are directly supported by the provided sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the IPO price, amount raised, opening performance, and Nvidia's market trend are supported by the provided sources.
-  big: story #6 ok in 33s
+103/171 sources returned news, 1051 recent items
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: rejected: these numbers are not in the source: 0
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: story #3 failed in 96s
+  big #1 draft 1: Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Bitcoin Magazine and CryptoSlate sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the price drop, specific figures, timing, and market context are directly supported by the provided sources.
+  big: story #1 ok in 22s
+  pol: rejected: pol_stat must be 1-7 characters (it is 0); pol_stat_l1 must be 1-26 characters (it is 0); pol_stat_l2 must be 1-30 characters (it is 0); pol_stat must be a meaningful figure with a unit, like $100+, 5
+  pol: rejected: these numbers are not in the source: 0
+  pol: rejected: pol_stat must be 1-7 characters (it is 0); pol_stat_l1 must be 1-26 characters (it is 0); pol_stat_l2 must be 1-30 characters (it is 0); pol_stat must be a meaningful figure with a unit, like $100+, 5
+  pol: story #14 failed in 99s
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); this repeats the big story (below, bitcoin, price); it must be a different story
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); this repeats the big story (below, bitcoin, price); it must be a different story
   pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  pol: story #13 failed in 79s
+  pol: rejected: this repeats the big story (anthropic, fell, friday, shares); it must be a different story
+  pol: rejected: this repeats the big story (anthropic, friday, shares); it must be a different story
+  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); this repeats the big story (anthropic, fell, friday, shares); it must be a differ
+  pol: story #29 failed in 67s
   pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: story #10 failed in 137s
-  pol: rejected: this repeats the big story ($83, 34%, anthropic, debut); it must be a different story
-  pol #3 draft 2: Groq GPT-OSS: PASS - All claims about four brokerages, price target gains of 51%–87%, and the 87% upside are directly supported by the Mint source. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources. | Groq Qwen: PASS - The slide's claims regarding the number of brokerages (four), the implied gain range (51% to 87%), and the highest potential gain (87%) are directly supported by the Mint source.
-  pol: story #3 ok in 47s
+  pol #20 draft 2: Groq GPT-OSS: PASS - All claims about Ark buying ~1 million Anthropic shares for $90 M and trimming Ethereum and Solana holdings are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the purchase amount, share count, and trimming of specific holdings are supported by the provided sources.
+  pol: story #20 ok in 81s
+  biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story (000, below, bitcoin, fell); it must be a dif
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story (000, below, bitcoin, fell); it must be a different story; these numbers are not i
+  biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story (below, bitcoin, fell, price); it must be a d
+  biz: story #13 failed in 65s
+  biz: rejected: biz_stats value must be 1-7 characters; this repeats the big story (anthropic, below, friday, shares); it must be a different story
+  biz: rejected: this repeats the big story (anthropic, friday, price, shares); it must be a different story
+  biz: rejected: this repeats the big story (anthropic, below, fell, friday); it must be a different story
+  biz: story #29 failed in 2s
   biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
   biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: story #15 failed in 92s
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story ($83, anthropic, claude, debut); it must be a different story
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story ($83, anthropic, debut, priced); it must be a different story
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story ($81bn, $83, anthropic, debut); it must be a different story
-  biz: story #13 failed in 155s
-  biz: rejected: this repeats the big story (anthropic, debut, made); it must be a different story
-  biz #8 draft 2: Groq GPT-OSS: PASS - All factual claims about mixed Asian markets, Nikkei +0.7%, Hang Seng +0.1%, and Taiwan Taiex falling are supported by the Mint source. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the direction and percentage changes of the Nikkei, Hang Seng, and Taiex are supported by the Mint source.
-  biz: story #8 ok in 57s
-  up #31 draft 1: Groq GPT-OSS: PASS - All factual statements about the November 30, 2026 registration deadline for crypto firms are supported by the cited BusinessDay and Business News Nigeria articles. | Groq GPT-OSS 20B: PASS - The slide accurately reflects the sources, which state that Nigerian crypto exchanges and VASPs must register with the NRS by November 30, 2026. | Groq Qwen: PASS - The slide accurately reflects the source text regarding the November 30, 2026 deadline for crypto exchanges and VASPs to register with the NRS in Nigeria.
-  up: story #31 ok in 16s
-  r1 #39 draft 1: Groq GPT-OSS: PASS - All factual statements about the Canadian dollar's recent decline and its level of 69.88 U.S. cents on Thursday are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - The slide’s claim about the Canadian dollar trading around 69.88 cents U.S. as of Thursday is directly supported by the Globe and Mail source. | Groq Qwen: PASS - The slide accurately reflects the source text regarding the Canadian dollar's recent decline and its trading level of 69.88 cents U.S. as of Thursday.
-  r1: story #39 ok in 24s
-  r2 #35 draft 1: Groq GPT-OSS: PASS - The Bloomberg article reports that Greene blamed loose BOE policy, the UK central bank, for the inflation miss. | Groq GPT-OSS 20B: PASS - The Bloomberg article confirms Greene blamed loose BOE policy for the inflation miss. | Groq Qwen: PASS - The slide accurately reflects the source headline stating that Greene blamed loose BOE policy for an inflation miss, and the definition of the BOE as the UK central bank is factually correct.
-  r2: story #35 ok in 38s
-  r3 #11 draft 1: Groq GPT-OSS: PASS - All factual claims about gold dropping 2% to a one-year low are directly supported by the cited sources. | Groq GPT-OSS 20B: FAIL - Cannot verify the claim that gold dropped 2% to an over one‑year low based on the provided sources.
-  r3 #11 draft 2: Groq GPT-OSS: FAIL - The sources confirm a 2% gold drop and dollar boost, but do not specify the drop was limited to the Americas
-  r3 #11 draft 3: Groq GPT-OSS: PASS - All factual claims about gold dropping 2% to a one-year low are directly supported by the cited sources. | Groq GPT-OSS 20B: FAIL - Cannot verify the claim that gold dropped 2% to an over one‑year low based on the provided sources.
-  r3: story #11 ok in 87s
-  r3: rejected: region text must be 1-100 characters
-  r3: rejected: region text must be 1-100 characters
-  r3: rejected: region text must be 1-100 characters
-  r3: story #2 failed in 2s
-  r3 #20 draft 1: Groq GPT-OSS: PASS - All factual claims about US institutional holdings reaching a record 356,491 BTC are supported by the cited Bitcoin Magazine source. | Groq GPT-OSS 20B: PASS - The slide’s claim that U.S. institutional holdings in spot bitcoin ETFs reached a record 356,491 BTC is directly supported by the Bitcoin Magazine source. | Groq Qwen: PASS - The slide's claim that US institutional holdings in spot bitcoin ETPs rose to a record 356,491 BTC is directly supported by the source text.
-  r3: story #20 ok in 2s
-no story passed the checks for the r3 slide; nothing published
+  biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: story #19 failed in 2s
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: story #21 failed in 2s
+  biz: rejected: biz_stats needs exactly two figures
+  biz #2 draft 2: Groq GPT-OSS: PASS - All numeric and contextual claims about a up‑to‑7.5% plunge in gold and silver ETFs on Nov 20 are confirmed by the Mint source. | Groq GPT-OSS 20B: PASS - All numerical and factual statements are directly supported by the Mint source. | Groq Qwen: PASS - The slide's claims regarding the 7.5% drop in gold and silver funds and the cause being rate-hike concerns are directly supported by the Mint source.
+  biz: story #2 ok in 4s
+  up #33 draft 1: Groq GPT-OSS: PASS - All claims about ECB and other authorities seeking industry members for a tokenisation standards group are supported by the source. | Groq GPT-OSS 20B: PASS - All claims are supported by the source. | Groq Qwen: PASS - The slide accurately summarizes the source's claim that the ECB and other authorities are seeking industry members to join a group for tokenisation standards.
+  up: story #33 ok in 3s
+  r1: rejected: this repeats the big story (anthropic, slid, stocks); it must be a different story
+  r1 #12 draft 2: Groq GPT-OSS: PASS - All factual statements about Anthropic's $81.3 billion record IPO are supported by the sources. | Groq GPT-OSS 20B: PASS - The slide’s claim that Anthropic’s IPO was US$81.3 billion and a record is directly supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources, which state that Anthropic had a record US$81.3 billion IPO.
+  r1: story #12 ok in 136s
+  r2: rejected: region text must be 1-100 characters
+  r2: rejected: region text must be 1-100 characters
+  r2 #5 draft 3: Groq GPT-OSS: PASS - All factual statements about Trump threatening a tax on U.S. companies building AI data centres abroad are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - The claim that Trump threatened a tax on U.S. companies building AI data centres abroad is supported by multiple cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources' reports that Trump threatened a tax on U.S. companies building AI data centres abroad.
+  r2: story #5 ok in 3s
+  r2 #37 draft 1: Groq GPT-OSS: PASS - The sources state gold was heading for its worst week since March, matching the slide claim. | Groq GPT-OSS 20B: PASS - The slide’s claim that gold prices moved toward their worst week since March is directly supported by the cited Bloomberg and TipRanks articles. | Groq Qwen: PASS - The slide's claim that gold prices moved toward their worst week since March is directly supported by the headlines in the provided sources.
+  r2: story #37 ok in 2s
+  r2: rejected: region text must be 1-100 characters
+  r2 #19 draft 2: Groq GPT-OSS: PASS - All claims about the SEC charging Backward Hat Capital with $560 million fraud are supported by the cited sources. | Groq GPT-OSS 20B: PASS - The slide’s claim matches the SEC press release and Crypto News article, which both state that the SEC charged Backward Hat Capital with a $560 million fraud. | Groq Qwen: PASS - The slide accurately reflects the sources, which confirm the SEC charged Backward Hat Capital with $560 million in fraud.
+  r2: story #19 ok in 3s
+no story passed the checks for the r2 slide; nothing published
