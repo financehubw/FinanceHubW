@@ -1,17 +1,17 @@
 {
  "channel": {
-  "viewCount": "40878",
-  "subscriberCount": "21",
+  "viewCount": "42817",
+  "subscriberCount": "22",
   "hiddenSubscriberCount": false,
-  "videoCount": "93"
+  "videoCount": "98"
  },
  "analytics": "ok",
  "traffic_sources": {
-  "SHORTS": 37565,
-  "YT_SEARCH": 1044,
-  "YT_OTHER_PAGE": 692,
+  "SHORTS": 37992,
+  "YT_SEARCH": 1060,
+  "YT_OTHER_PAGE": 693,
   "YT_CHANNEL": 60,
-  "SUBSCRIBER": 22,
+  "SUBSCRIBER": 23,
   "EXT_URL": 11,
   "NO_LINK_OTHER": 1,
   "PLAYLIST": 1,
@@ -19,7 +19,7 @@
   "RELATED_VIDEO": 0
  },
  "countries": {
-  "US": 26393,
+  "US": 26809,
   "CA": 1974,
   "GB": 1601,
   "AU": 780,
@@ -266,7 +266,7 @@
    "posted": "2026-10-22T14:17:20Z",
    "title": "The 100 trillion dollar banknote #Shorts",
    "duration": "PT17S",
-   "views": 24,
+   "views": 25,
    "likes": 1,
    "comments": 1,
    "avg_view_pct": 111.4,
@@ -588,7 +588,7 @@
    "posted": "2026-11-07T11:33:08Z",
    "title": "$7 a day could become $661,889 #Shorts",
    "duration": "PT10S",
-   "views": 206,
+   "views": 207,
    "likes": 0,
    "comments": 1,
    "avg_view_pct": 100.5,
@@ -602,7 +602,7 @@
    "posted": "2026-11-07T15:14:51Z",
    "title": "Gold was $33 an ounce in 1933 (real newsreel) #Shorts",
    "duration": "PT15S",
-   "views": 2298,
+   "views": 2300,
    "likes": 27,
    "comments": 3,
    "avg_view_pct": 81.7,
@@ -658,7 +658,7 @@
    "posted": "2026-11-08T14:03:04Z",
    "title": "Reagan warned about a $1 trillion US debt in 1982 #Shorts",
    "duration": "PT17S",
-   "views": 9691,
+   "views": 9699,
    "likes": 63,
    "comments": 20,
    "avg_view_pct": 110.3,
@@ -742,7 +742,7 @@
    "posted": "2026-11-09T16:17:22Z",
    "title": "FDR's first speech as president, during the 1933 bank panic #Shorts",
    "duration": "PT29S",
-   "views": 1389,
+   "views": 1390,
    "likes": 22,
    "comments": 1,
    "avg_view_pct": 54.8,
@@ -896,7 +896,7 @@
    "posted": "2026-11-12T16:17:43Z",
    "title": "Reagan on the night his father lost his job (Great Depression) #Shorts",
    "duration": "PT19S",
-   "views": 1357,
+   "views": 1359,
    "likes": 16,
    "comments": 2,
    "avg_view_pct": 84.7,
@@ -913,8 +913,8 @@
    "views": 91,
    "likes": 2,
    "comments": 1,
-   "avg_view_pct": 57.1,
-   "avg_view_sec": 17,
+   "avg_view_pct": 59.2,
+   "avg_view_sec": 18,
    "subs_gained": 0,
    "shares": 0
   },
@@ -941,7 +941,7 @@
    "views": 1396,
    "likes": 13,
    "comments": 1,
-   "avg_view_pct": 86.9,
+   "avg_view_pct": 86.8,
    "avg_view_sec": 23,
    "subs_gained": 1,
    "shares": 0
@@ -966,10 +966,10 @@
    "posted": "2026-11-13T16:16:59Z",
    "title": "Reagan's famous \"allowance\" line about government spending (1981) #Shorts",
    "duration": "PT11S",
-   "views": 340,
+   "views": 341,
    "likes": 5,
    "comments": 1,
-   "avg_view_pct": 90.6,
+   "avg_view_pct": 90,
    "avg_view_sec": 9,
    "subs_gained": 0,
    "shares": 0
@@ -1039,8 +1039,8 @@
    "views": 87,
    "likes": 1,
    "comments": 1,
-   "avg_view_pct": 84.8,
-   "avg_view_sec": 26,
+   "avg_view_pct": 79.2,
+   "avg_view_sec": 24,
    "subs_gained": 0,
    "shares": 0
   },
@@ -1053,7 +1053,7 @@
    "views": 103,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 23.3,
+   "avg_view_pct": 22.7,
    "avg_view_sec": 9,
    "subs_gained": 0,
    "shares": 0
@@ -1078,7 +1078,7 @@
    "posted": "2026-11-15T14:02:34Z",
    "title": "Powell, Jun 2022: We're not trying to induce a recession #Shorts",
    "duration": "PT30S",
-   "views": 1088,
+   "views": 1084,
    "likes": 6,
    "comments": 1,
    "avg_view_pct": 44.0,
@@ -1092,10 +1092,10 @@
    "posted": "2026-11-15T16:17:39Z",
    "title": "What $1,000 becomes in 50 years #Shorts",
    "duration": "PT19S",
-   "views": 81,
+   "views": 82,
    "likes": 0,
    "comments": 1,
-   "avg_view_pct": 56.1,
+   "avg_view_pct": 54.1,
    "avg_view_sec": 10,
    "subs_gained": 0,
    "shares": 0
@@ -1109,7 +1109,7 @@
    "views": 987,
    "likes": 6,
    "comments": 1,
-   "avg_view_pct": 38.4,
+   "avg_view_pct": 38.2,
    "avg_view_sec": 13,
    "subs_gained": 0,
    "shares": 0
@@ -1120,7 +1120,7 @@
    "posted": "2026-11-15T22:32:14Z",
    "title": "$1,000 in each since 2010: who wins? #Shorts",
    "duration": "PT21S",
-   "views": 86,
+   "views": 81,
    "likes": 0,
    "comments": 1,
    "avg_view_pct": 65.8,
@@ -1178,7 +1178,11 @@
    "duration": "PT23S",
    "views": 2,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 0,
+   "avg_view_sec": 0,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "fJgniGe5Tus",
@@ -1186,9 +1190,13 @@
    "posted": "2026-11-17T16:17:11Z",
    "title": "Powell, Sep 2024: Why a half-point rate cut now? #Shorts",
    "duration": "PT21S",
-   "views": 354,
+   "views": 357,
    "likes": 2,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 60.4,
+   "avg_view_sec": 12,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "LKqWxZIVv3A",
@@ -1198,7 +1206,11 @@
    "duration": "PT17S",
    "views": 94,
    "likes": 1,
-   "comments": 3
+   "comments": 3,
+   "avg_view_pct": 73.1,
+   "avg_view_sec": 12,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "umrF7U8jrfQ",
@@ -1206,9 +1218,13 @@
    "posted": "2026-11-17T22:32:13Z",
    "title": "Fed official says rate hikes likely needed (today's money news) #Shorts",
    "duration": "PT14S",
-   "views": 9,
+   "views": 10,
    "likes": 0,
-   "comments": 1
+   "comments": 1,
+   "avg_view_pct": 87.7,
+   "avg_view_sec": 12,
+   "subs_gained": 0,
+   "shares": 0
   },
   {
    "id": "mGqqtqysuDc",
@@ -1216,7 +1232,7 @@
    "posted": "2026-11-18T09:32:57Z",
    "title": "Powell, Sep 2024: Is a half-point cut the new normal? #Shorts",
    "duration": "PT20S",
-   "views": 987,
+   "views": 989,
    "likes": 3,
    "comments": 1
   },
@@ -1236,9 +1252,9 @@
    "posted": "2026-11-18T16:16:51Z",
    "title": "President Reagan, 1985: Did tax rate cuts trigger the economic expansion? #Shorts",
    "duration": "PT24S",
-   "views": 180,
-   "likes": 7,
-   "comments": 1
+   "views": 652,
+   "likes": 9,
+   "comments": 2
   },
   {
    "id": "C8Zm-LiVFoI",
@@ -1256,9 +1272,59 @@
    "posted": "2026-11-18T22:32:33Z",
    "title": "UK inflation rises to 3.6% (today's money news) #Shorts",
    "duration": "PT20S",
-   "views": 11,
+   "views": 13,
    "likes": 0,
    "comments": 1
+  },
+  {
+   "id": "gGEIA_b5DOE",
+   "file": "clip_reagan_1985_tax_2.mp4",
+   "posted": "2026-11-19T09:32:34Z",
+   "title": "President Reagan, 1985: Why are tax system free rides ending? #Shorts",
+   "duration": "PT20S",
+   "views": 1081,
+   "likes": 23,
+   "comments": 3
+  },
+  {
+   "id": "7hVcj52Y9nw",
+   "file": "clip_reagan_trade_1.mp4",
+   "posted": "2026-11-19T14:02:44Z",
+   "title": "President Ronald Reagan: 1987 warning on tariffs and trade wars #Shorts",
+   "duration": "PT21S",
+   "views": 326,
+   "likes": 4,
+   "comments": 5
+  },
+  {
+   "id": "almkdxfCoZE",
+   "file": "vs_gld_spy_2000.mp4",
+   "posted": "2026-11-19T16:19:42Z",
+   "title": "Gold vs the S&P 500: $1,000 in 2000, who wins? #Shorts",
+   "duration": "PT21S",
+   "views": 46,
+   "likes": 0,
+   "comments": 1
+  },
+  {
+   "id": "f3qAnUogcyY",
+   "file": "clip_reagan_trade_2.mp4",
+   "posted": "2026-11-19T18:33:15Z",
+   "title": "President Ronald Reagan: 1987 speech on how tariffs hurt markets #Shorts",
+   "duration": "PT19S",
+   "views": 562,
+   "likes": 11,
+   "comments": 6
+  },
+  {
+   "id": "OFZ9UPC9SPQ",
+   "file": "clip_obama_2009_joint_1.mp4",
+   "posted": "2026-11-19T22:33:44Z",
+   "title": "Obama, 2009: Why must we restart lending during the crisis? #Shorts",
+   "duration": "PT23S",
+   "views": 943,
+   "likes": 11,
+   "comments": 4
   }
  ]
 }
