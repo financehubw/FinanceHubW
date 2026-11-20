@@ -1253,6 +1253,18 @@
    "failed": [],
    "errors": {},
    "format": "clip"
+  },
+  {
+   "file": "vs_googl_meta_2013.mp4",
+   "title": "Google vs Meta: $1,000 in 2013, who wins?",
+   "date": "2026-11-20T18:32:03Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/emtp1zxd_g0",
+    "Instagram": "18028454093941199",
+    "Facebook": "1459941175657745"
+   },
+   "failed": [],
+   "errors": {}
   }
  ]
 }
