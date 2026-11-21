@@ -1,3 +1,9 @@
+=== run 2026-11-21T20:39:37Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+65/171 sources returned news, 487 recent items
+120 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-21T12:57:53Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1492,9 +1498,3 @@ skip (off-topic or nothing new): BTC to INR: Bitcoin Price in Indian Rupee
 📍 US · 📰 International: Top News And Analysis · ✅ 3 sources
 https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html
   written by Gemini
-  Groq GPT-OSS: PASS - All claims about October CPI rising more than expected and causing Fed concern are directly supported by the source.
-  Groq GPT-OSS 20B: FAIL - The post misidentifies the source and location; it lists "International: Top News And Analysis" for a CNBC article, which is inaccurate.
-  -> blocked by fact-check
----
-🇪🇺 DEUTSCHE BANK LAUNCHES CRYPTO STORAGE
-
