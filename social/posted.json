@@ -1303,6 +1303,18 @@
    "failed": [],
    "errors": {},
    "format": "clip"
+  },
+  {
+   "file": "whatif_amd_2016.mp4",
+   "title": "$1,000 in AMD in 2016 is now worth this",
+   "date": "2026-11-21T16:17:07Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/mCngp94mPmk",
+    "Instagram": "18150731785563119",
+    "Facebook": "999831462624956"
+   },
+   "failed": [],
+   "errors": {}
   }
  ]
 }
