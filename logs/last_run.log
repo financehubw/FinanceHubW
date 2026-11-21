@@ -1,3 +1,77 @@
+=== run 2026-11-21T03:30:11Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+79/171 sources returned news, 606 recent items
+139 new trusted stories, posting up to 3 this run
+---
+🇺🇸 TRUMP CRITICIZES US FED, CITES INDIA'S 7% GROWTH
+
+📌 Trump urged the US Fed to cut interest rates, citing India's 7% growth.
+📊 India GDP growth: 7%
+
+📍 US · 📰 Moneycontrol.com · ✅ 16 sources
+https://news.google.com/rss/articles/CBMi1wFBVV95cUxPd0pvSE82Mk5vRHRsQkRSWFNlbmZKMEw0Y2ZUTWNKSF9WU3luaS1sLWpwdW4yYy1qTThxUjVaR2JCbWg5b1RBZHJQQ2xPZ1J2dVU1UTZRUWl5X3cwUkZES2E0Sl9hclhrN2JRUldwWHlIVmdSWG8yS2pJTTZsWnJtS0szV0xqdFFIZ28xTEo5SE02eVdjWGFCb1Q1bldTbnJlLXlVLU9jeHQ3SFlzRWJIbVhPQmswbjFMb2lyLVlUYkNpdl9CaVpVNzJRVXU5M2tZRThwRmZTUdIB4AFBVV95cUxOWndmSG9BbVZEUVRmdHdTWkJmN0M3b1QtczZHOUlqdGhCanB5QzlhbE8yNGpnYmtfLXhYZURGN29UeFVaNndRd1V2NEhYUFoyNHRKYnNja3lSM2VuX1RIa0d0ZDE1LWp4NU5XY2FRS3F0NVJzWUM5YWIxbFpROEw1TTdhbHBSQ1hndnV0VlcySW5jWGNVS1Q5ckdac1pKVm56MTlWMkNnMXhVY3c5SzdNWkFlbzJoblo1dl8yU19jeC15ekdxb0VuQUppOUVVVFhDRS13V3BuNnBVbGpKcmpVZg?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about Trump urging Fed cuts and India's 7% growth are directly supported by the Moneycontrol.com source.
+  Groq GPT-OSS 20B: FAIL - Unsupported claim about 16 sources
+  -> blocked by fact-check
+---
+🇺🇸 NASDAQ DROPS 5.6% IN WORST WEEK SINCE 2020
+
+📌 Investors sold tech and AI stocks, driving the Nasdaq down 5.6% this week.
+📊 Nasdaq 100: -5.6%
+
+📍 US · 📰 Mint · ✅ 8 sources
+https://news.google.com/rss/articles/CBMikwJBVV95cUxNcFpCRXpoMkpkb2RxN2tRZzI2S204MElNNWUxQnBQOG9iblZPRV9tQV9BbmhpRlJha2gtS0RHZ0JiUnBjLUlvMlk5QWszcXpVcjZCR2dyTTdBc2REY3JRZjNkWjlmVWptdW9uN2VIUlNZRTMwRmJQRGJ1TzZsY2E5RGZCdFhJaGNheWpKWHNHMWlCVm8tWVFqTkFqbTZnMHk4SGZLWUpManQ0MWFPUXNSMjZJdmhzdHYyNUJ1ZUlBTGlTdkVtaEdGb0lwQkpUTTUxVXpFdW1BbFVlYTZzdkZPTklWN1NJcEN2UlI2aTM1WlZOTXZ2UjFLZGhsUkV3d3praG81ZlhoNWc2NmxQVGtqeTYyONIBmAJBVV95cUxOZXBWRUlFckFhYnUwUGtPcG1sUkJHMThRbUUwV01pLW1zNmhTMFFlT1JCNjZLSzVrYVlzc2JDbTR5THJ1VFNoRzlucEQ1Y3VxTG9hN2VUeDU4QlFiUmFhdDdwZ2RrYWRJMUdNU04yYnIzME9RYzNUck9WQ012OWtsa2NIRC1WazBlVW5vQUVSdGtyVVQzVVllV0JLRlBSU2tOeS1ZWHZ6cW1xLV9iOXpBZ0hTRXBQbzhkYmktZnJqLUE5eFFKdkJEM2h6V3RycUhiMHEwV0E4VWoyZ3pVM1JiU2pMWDR6LWI0ejdQTGZJT1RSNEVYUHpPMHlMRVRHY2k5RFBiWVhLQWtmVHVJYXdDZ0o1cENqMVNn?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim of "✅ 8 sources" is unsupported; only six sources are listed.
+  -> blocked by fact-check
+---
+🇺🇸 WALL STREET FALLS AS AI STOCKS PLUNGE
+
+📌 US stock markets fell sharply as investors sold off AI stocks.
+💡 Stock market drops can reduce the value of retirement savings.
+#WallStreet
+
+📍 US · 📰 Moneycontrol.com · ✅ 4 sources
+https://news.google.com/rss/articles/CBMizwFBVV95cUxQVWJWWjNwWUpEVm9XR0FZamt3Q0N3SlllWDZnOEEyeHEyVVhYOHVMY2J6NzVfNS1qLTRjcXI5RmlhYmc3bXRTVWNseGFVY2JLWDJ4TlFtWmdnQUJpaEgtU3R4cEhHU3hCWGpIdEtONlZLUUJ2al9NTHZTLWREMklPX1k2SktCWEdVM3k1UEw0dV9jb2xiOGVfZTJmX0cxYlg1eG1rY01vZ0JTZWQ4ZEZBaHM4WGNxX3hWRFllTzk3MGhGWFNwTFdvR3FXRzBCX1XSAdQBQVVfeXFMTm43cmJYNmNPdGYwNkpuSnhhXzREVnhTbERkVDJMRF9KOTEzZnF0cmU0djZXUmh6a0NvWXdBdDAyRlRmTWdfSUY2YU45YmtJeU9fak04ZEo0LU5QOTFQM0VZaTQzbnQ4N1pnOW85Z28yUm42b2FXYUpuZkx5RFlGN1V2Tk9OZHJ6bHU4MG90WFZNblNXRk1KNXhISVJwNExTbkptcGl1QS04N1Z2cmVISUlCYTVZLTlMMEFJODF3bUotbmlLZmdCNlN4U21xdGl5bWtxcFI?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims are directly supported by the Moneycontrol.com article and general knowledge.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: PASS - All factual claims regarding the US market decline and AI stock selloff are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-1665d1f4b782
+---
+🇮🇳 SENSEX AND NIFTY REACH 9-MONTH HIGHS
+
+📌 Sensex and Nifty hit 9-month highs after 4 weeks of record foreign buying.
+📊 $SENSEX: 9-month high
+💡 Strong foreign buying often signals high investor confidence in the market.
+
+📍 India · 📰 Moneycontrol.com
+https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWEQtNTFaLUQySENabXVVVm9hYWRhdWZxVVlMS1o5ZzVOOFp4SHJFbWU1clpsVTNmMWtsc0NjSEdJcE5uSE9EQ2hudkxRbnBUN3VvZ1BwTktCNnVQdFIxSFVKWnU1ajF3bFVSMUZLSGU2cXZ1Yk94VGtPZTByWXFwMExlTG1rN2NRRC1OYnpRbGlmdzh4QnVMZ3JaTW44bi1meDZER3RtV3VTeWpCejUtam1tY2JtQnRnU0ltN09LenNJamNwOW9teHBZdU54WUROSlFFY1FBOVh3aFlL0gHiAUFVX3lxTE9NTW96UUF1N1J3eTJpbXRXeHA2bVlKSlpneGtUajFBTFNvN3BOenlSMWJuT09GQnFRbVR0Qk1rTTY2a2tTTzBKVlh3TmNtZzNnRUVpNmd3YzUyQ194d2lxa1Q2UXpuSXFyZE81eXRJNkJJaUxxc0c1MUdxZG53Yk5FOTdBeVotN3RyelJsTU5EQUdseXBrTWIwNzBwaVhWOUctT1F5XzN6V2p4RUJ6aXFVVVhXMVRFQXFoeldmeG1BUXhBZmM2OTVLQVN3MFBDRVY3NWFQU3JqbmtCY0FEVU9LUWc?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the Moneycontrol source.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the 9-month highs, 4 weeks of gains, and record FII buying are directly supported by the source headline, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f19e97477e4f
+---
+🇻🇳 VIETNAM GOLD PRICES DROP TO LOWEST LEVEL OF THE YEAR
+
+📌 Vietnam's local gold prices fell to their lowest level of the year.
+💡 Lower gold prices can make buying gold cheaper for consumers.
+#Gold
+
+📍 Vietnam · 📰 The Star · ✅ 2 sources
+https://news.google.com/rss/articles/CBMiwgFBVV95cUxORTNCMnJPd3hYa0pIZXBnT3VWY0dkUHZhanlfVkRUbXlTTjlKaF9VR3BLczlXV2NQbGZnS2V4QjFvbGYtMUp3RnZFcElZTlZZbHNlTHl1ZjI2YTcyZ2tNdTE3cU5pU1RtMFNocnlFdi0yNS1SUFhJT0Z4aWpDZ21CTWUyWWpiWFdHTGxuQ1lOa3hMYzNfVENXbzcyR0JoeFJmVFlfNHhpUFhDa1BMSnBfRHYtNzY3Qjc4THYxZllSbGVNZw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
+  Groq Qwen: PASS - The factual claims regarding Vietnam's gold prices falling to the lowest level of the year are directly supported by both sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-81dfef00b39b
+done: 3 post(s) this run
 === run 2026-11-20T21:56:42Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1424,77 +1498,3 @@ https://news.google.com/rss/articles/CBMixgFBVV95cUxOMDZJZG11amhDWjZQaTY5MjQ0OVh
   written by Gemini
   Groq GPT-OSS: PASS - All numeric and descriptive claims are directly supported by the cited articles.
   Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the Nasdaq's rise of over 300 points and 1.4%, the involvement of Nvidia, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-4f1886fdc98c
-done: 2 post(s) this run
-=== run 2026-11-11T09:50:41Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-104/171 sources returned news, 1014 recent items
-re-check of earlier post: 4 fail / 1 pass
-224 new trusted stories, posting up to 1 this run
----
-🇺🇸 🔄 UPDATE: US DOLLAR GAINS, YEN FALLS NEAR 6-WEEK LOW
-
-📌 The US dollar stayed strong after hot inflation data, pushing the yen to a 6-week low.
-
-📍 US · 📰 Investing.com Australia · ✅ 3 sources
-https://news.google.com/rss/articles/CBMitwFBVV95cUxQYzRHVnBGSkczRnlKTlRaUldKUUxQS192RG1FWXF6YmZDTkpnVTMyX2dpeHhTRkVja2c5OEktWlBhRGluN2RubWpzVGQ3RWxuRXhONWp6UHdVTzRsVUt0S2c5ZVloNGtfVmpydi1mT0RzMlV5Tmp3RjdCNDJFdUcxd2Nqa1pZTWN1OWFZeG1CekxSaXB6UFJucnMybEhYZGVPWDJzQUFIVE5VenRCSHNiSW1MZTRFLTg?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about the dollar's strength and yen's 6‑week low are directly supported by the Investing.com Australia article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Investing.com Australia article.
-  Groq Qwen: PASS - All factual claims regarding the dollar's strength, the yen's 6-week low, and the cause (hot inflation data) are directly supported by the source headlines, and the location and source attribution mat
----
-🇺🇸 US INFLATION FEARS SPARK BETS ON FED RATE HIKE
-
-📌 US inflation is heating up again, stoking bets on a Fed rate hike in December.
-
-📍 US · 📰 Vietnam.vn · ✅ 2 sources
-https://news.google.com/rss/articles/CBMingFBVV95cUxObVhBak9QbGtmODFHaFFCLXU2UTVIUWIwVHMwYTdnR05BY3cxWXlUbTA5ZzZhUVoxNThrWW91S1dlajhIdlN0MkhSMEhoVDItUmtySjRtSkJjZ0I3UDlZUnlMNm9SZDVZYTFocDd6WFAxRkljUElLVWFKMFpXRFdGQTc0TFhXeERIeHI5M0lZZUVjMkNhUFZ0d01OdDNsZw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about US inflation rising and market betting on a December Fed hike are directly confirmed by the Vietnam.vn source.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources.
-  Groq Qwen: FAIL - The post claims there are 2 sources, but only one unique source (Vietnam.vn) is provided in the list, and the second entry is a duplicate.
-  -> blocked by fact-check
-skip (off-topic or nothing new): US Inflation Keeps Rising Amid Iran War, AI
----
-🌐 GOLD RISES DESPITE RATE HIKE FEARS
-
-📌 Gold prices went up globally even though people expect higher interest rates.
-💡 Higher interest rates usually make safe investments like gold less attractive.
-
-📍 Global · 📰 The Financial Express · ✅ 3 sources
-https://news.google.com/rss/articles/CBMi4wFBVV95cUxPX0JjWE9ROC1EOHlnRHNrYXJfdzNFWFgtT2hqM041enJqakVWaGpqVU5pVDBIeHBjUzhxQVZQT2FwVm9IYUhFdkN6QnY0bFdaQXlIUU1XclNHSTVhRmx2X3ZBMWpxWk9FaGFIOGJVNnJoSVdTUFgydE1jdVBZeXBwcXdtTk95YnFwSkNfeHRtOVFWSkV6eGd0M0k5NThWM1czUTZXdDdRV1BIazQ5VWdjS2oycFpnUzJ6SkxhOV9qNVlUXzJiVWgwdmszMkt5YW1UOGU3c2xKWkhDOGVVeVRvV2drSdIB4wFBVV95cUxPX0JjWE9ROC1EOHlnRHNrYXJfdzNFWFgtT2hqM041enJqakVWaGpqVU5pVDBIeHBjUzhxQVZQT2FwVm9IYUhFdkN6QnY0bFdaQXlIUU1XclNHSTVhRmx2X3ZBMWpxWk9FaGFIOGJVNnJoSVdTUFgydE1jdVBZeXBwcXdtTk95YnFwSkNfeHRtOVFWSkV6eGd0M0k5NThWM1czUTZXdDdRV1BIazQ5VWdjS2oycFpnUzJ6SkxhOV9qNVlUXzJiVWgwdmszMkt5YW1UOGU3c2xKWkhDOGVVeVRvV2drSQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about gold rising globally despite rate‑hike expectations are supported by the cited Financial Express article, and the general explanation about rates and gold is correct.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources, but the provided list contains 6 entries (with duplicates), so the source count claim is unsupported.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Why Bitcoin, Nasdaq, AI Stocks, and Chips Move Together? The Liquidity Machine Explained
----
-🌏 ASIAN MARKETS RISE
-
-📌 Asian and global stock markets rose due to high demand for AI computer chips.
-💡 Stronger stock markets can grow retirement savings and pensions.
-#Markets
-
-📍 Asia · 📰 The Globe and Mail · ✅ 11 sources
-https://news.google.com/rss/articles/CBMiigJBVV95cUxPaWQwbzFfU3hrbDRIRmtZQnlyVHZURlFhOURob3l3NzZBdXdRM1R0SXZmWkVqZWRiWG10LUdlWmlmN25hRHFSVzYxQ3NueG9KVUxBWVUycmY1aW9TTHpRamNDZFE2LVBtQURnQkFSTWFXYjlpLXlLenMtYlR4c3FBTlQ1amNnM2RBV0JocEFxanRZWFZnYVVMRnZfcmU4WGNVcXZ4YlM3cVBJVGRydktyd1hEbUI0NXlVWTFyQmMxaXZrNmF4QXBUVUZYT1hlQnVyaFo4WXhNNkxUMVlWTDVOdGVmM1dpU01OSGE0eWFhV29GOEtYT0FIREhCNTNBMkdoR1lUMC15SzBWUQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The 📍 location 'Asia' does not match the source The Globe and Mail, which is not an Asian outlet
-  -> blocked by fact-check
----
-🇺🇸 GOLDMAN EXPECTS MARCH FED RATE HIKE
-
-📌 Goldman Sachs now expects a rate hike (a central bank raising borrowing costs) in March.
-💡 Higher rates usually make loans costlier.
-#Fed
-
-📍 US · 📰 Yahoo Finance Singapore · ✅ 2 sources
-https://news.google.com/rss/articles/CBMigwFBVV95cUxOaEFuYkh0Z1dCVFlfbXpzblNnUFBSczNUTURCVDBEWlM2MXJvY0hpaEhZWEJ5b3IyeThZbmVVc1pIY0ZjRGF5LXhoNWZCSUQyU09RekZFMl91UkM3WFRPYVhHQjhRSVNwelNHY0J0RXZRRTN3TUNITklMdjduUjFmSnE1cw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding Goldman Sachs' forecast for a March Fed rate hike, and the location and source attribution are correct.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All claims match the source headline (Goldman added a March Fed rate hike to its forecast), the US/Fed attribution and Yahoo Finance Singapore source are correct, and the 💡 line is a general, non-pred
