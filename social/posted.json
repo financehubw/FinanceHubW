@@ -1315,6 +1315,22 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "clip_fomc_20220921_1.mp4",
+   "title": "Powell, Sep 2022: There is no painless way to lower inflation",
+   "date": "2026-11-21T18:31:22Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/w0aZ7Sz8NKQ",
+    "Facebook": "1453168009647712"
+   },
+   "failed": [
+    "Instagram"
+   ],
+   "errors": {
+    "Instagram": "Instagram could not process the video: Error: Media upload has failed with error code 2207077"
+   },
+   "format": "clip"
   }
  ]
 }
