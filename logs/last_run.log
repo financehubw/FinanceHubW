@@ -1,3 +1,26 @@
+=== run 2026-11-21T12:57:53Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+78/171 sources returned news, 678 recent items
+157 new trusted stories, posting up to 1 this run
+---
+🌐 GOLD PRICES FALL NEARLY 10% IN A WEEK
+
+📌 Gold prices fell nearly 10% in one week to a 14-month low.
+📊 Gold: -10% in a week
+📊 Level: 14-month low
+💡 Lower prices can make buying gold cheaper for shoppers.
+#Gold
+
+📍 Global · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/money/personal-finance/gold-prices-crash-nearly-10-in-a-week-mega-reasons-behind-massive-yellow-metal-rate-fall-list-11795249539231.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and descriptive claims are directly confirmed by the Mint article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source and the general explanation is accurate.
+  Groq Qwen: PASS - The post accurately reflects the Mint source regarding the 10% weekly drop and 14-month low, and the general explanation is valid.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-c5b3d6784f2e
+done: 1 post(s) this run
 === run 2026-11-21T03:30:11Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1475,26 +1498,3 @@ https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-
 ---
 🇪🇺 DEUTSCHE BANK LAUNCHES CRYPTO STORAGE
 
-📌 The bank now lets companies store and transfer Bitcoin and other digital coins safely.
-#Crypto
-
-📍 Europe · 📰 Cointelegraph.com News · ✅ 3 sources
-https://cointelegraph.com/news/deutsche-bank-debuts-digital-asset-custody-services-eu?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about Deutsche Bank's crypto custody launch are directly supported by the Cointelegraph source
-  Groq GPT-OSS 20B: FAIL - The post claims there are 3 sources, but the listed references include five distinct sources, making that claim unsupported.
-  -> blocked by fact-check
----
-🇺🇸 NASDAQ RISES OVER 300 POINTS
-
-📌 The Nasdaq index goes up 1.4% as tech stocks rebound.
-📊 Nasdaq: +300 pts (+1.4%)
-📊 $NVDA
-💡 Broader stock indexes often track major tech share movements.
-#Nasdaq
-
-📍 US · 📰 The Financial Express · ✅ 2 sources
-https://news.google.com/rss/articles/CBMixgFBVV95cUxOMDZJZG11amhDWjZQaTY5MjQ0OVhMUy13UUI0MHhKNkNNRzk5OHM5VVgzcWtMZ3E1Wm9DMWZxel9rd29VVUo3MUx2WnlBNjRVb0dJcnhYTE1pWE51MXRxWFZTNWp5THRqZ0ZOQUVoU1o0SC0xQ1NlYnNZaV9yQUFhUUFSWVFoTjJIUHNJVFBVVVpjVU1kc0F2Nnl1U0ZFWHpZSkhzQnVxUUgzWmwtaGVfSUhSTk5YS0ZSbFN1MWNQLURCelFWUFHSAcwBQVVfeXFMTWdBRUhpblQ0U2M2bHg2OGpvdVdrU0JzYjkzaHpzVFcwZm13WkQtQkpTOGVwRl9zbE1kaXhtNEZhbU9aT1d2X0xwei1YN0RLM0tJZEZySTNkMDlWME5iZGpaUE1BdUttNUh0UG1zNlc5cWVYRm03Z0NHUk5YQldnb1R5dWFkSk9ZZDdMRWhKNGtOdWY2ZVVfTzllN3BVY2Vyclk2Y1dlRnlCVlUtVE5Cd1RrTVM1WEJNNTVCMTlOY08zODNFTEd5aTNIejV2?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numeric and descriptive claims are directly supported by the cited articles.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
