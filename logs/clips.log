@@ -1,1 +1,2366 @@
-clips made: 0
+scout bernanke_lecture_2: Chairman Bernanke's College Lecture Series- The Federal Reserve and the Financial Crisis, Part 2.webm | {'width': 1280, 'height': 720, 'duration': 4681.827}
+  commons: date=2012-03-22 | license=Public domain | The Federal Reserve after World War II
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[0;93m2026-11-22 20:40:03.598332908 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  [    8.4-    9.9] Okay, let's go ahead and get started.
+  [   10.2-   14.8] I would like to welcome the students back for our second lecture today, as well as our
+  [   14.8-   15.2] faculty.
+  [   15.7-   18.2] I know we have some new guests and friends that are here today.
+  [   18.4-   19.4] You are in for a treat.
+  [   19.8-   22.8] If it's anything like it was Tuesday, this will be another great session.
+  [   23.2-   24.8] Without further ado, Chairman Bernanke.
+  [   29.7-   30.6] Thank you very much.
+  [   30.9-   31.5] You came back.
+  [   33.3-   33.8] That's good news.
+  [   35.1-   38.5] As you know, today is the second of four lectures
+  [   38.5-   41.2] on the financial crisis in the Federal Reserve.
+  [   43.5-   48.0] I, as I said, I think it's much, it's very helpful to try
+  [   48.0-   52.9] to put the recent crisis and the ongoing recovery
+  [   52.9-   54.8] into a historical context.
+  [   55.0-   58.5] And so last time we talked about the origins
+  [   58.5-   61.4] of central banking going back to Bank of England
+  [   61.4-   67.5] and the debates of the 19th century, the origins of the Federal Reserve, and the
+  [   67.5-   71.2] Federal Reserve's first great challenge, which was the Great Depression of the
+  [   71.2-   77.0] 1930s. And we drew some lessons from the 1930s that will come back and be
+  [   77.0-   85.3] relevant as we discuss more recent events. Today I'm going to pick up the
+  [   85.3-   94.4] history after World War II, talking about some important episodes after the war. But
+  [   94.4-   99.9] I will be getting in today to the beginnings of the crisis. And so the latter part of today's
+  [   99.9-  109.8] lecture and all of next week will be about the crisis. Now, as we go along, I just want
+  [  109.8-  119.4] But make sure you keep your eye on the ball, thematically speaking, the two basic ideas,
+  [  119.6-  127.3] the two basic missions of a central bank are first, macroeconomic stability, maintaining
+  [  127.9-  130.6] stable growth and keeping inflation low and stable.
+  [  131.9-  137.8] And of course, as you know, the principal policy tool for maintaining macroeconomic
+  [  137.8-  139.2] of financial stability is monetary policy.
+  [  139.5-  146.2] In normal times, the Fed or other central banks will use open market operations,
+  [  146.3-  151.0] purchases and sales of securities in markets to move interest rates up or down,
+  [  151.2-  155.1] and in doing so, try to create a more stable macroeconomic environment.
+  [  155.6-  159.4] So that's an important part of any central bank's mission.
+  [  159.9-  162.9] The other part of its mission, though, is financial stability.
+  [  163.5-  166.8] The central banks are focused on trying to ensure
+  [  166.8-  169.3] that the financial system is functioning properly,
+  [  169.7-  172.8] and in particular that they want to prevent, if possible,
+  [  173.0-  174.9] and if not, to mitigate the effects
+  [  174.9-  177.5] of a financial crisis or a financial panic.
+  [  178.0-  179.6] And we talked last time about the lender
+  [  179.6-  181.1] of last resort function, the notion
+  [  181.1-  185.6] that in a financial panic, a central bank can follow Badget's
+  [  185.6-  188.9] rule of lending freely against good collateral
+  [  188.9-  192.6] at a penalty rate, and that by providing short-term credit
+  [  192.6-  198.0] at two financial institutions, a central bank can offset the effects of a run
+  [  198.0-  202.8] or a panic and the accompanying damage to the financial system and the economy.
+  [  204.1-  207.0] But let's move ahead and talk a little bit about the history.
+  [  209.2-  216.4] We left off at World War II, which ended the depression, which led to a sharp drop
+  [  216.4-  219.9] in unemployment as people were put to work building munitions
+  [  219.9-  222.7] and serving the home front.
+  [  224.2-  229.0] Now, one of the aspects of wars that economists pay attention to is how wars get financed.
+  [  229.7-  232.9] And normally wars are financed very substantially by borrowing.
+  [  233.7-  235.4] And this was not a surprise.
+  [  236.0-  240.4] U.S. national debt was built up quite substantially during World War II to pay for the war.
+  [  241.1-  245.1] And the Fed, in cooperation with the Treasury,
+  [  246.4-  253.9] used its ability to manage interest rates, to keep interest rates low, so as to make it cheaper
+  [  253.9-  259.9] for the government to finance World War II. So that was the role of the Fed during the war.
+  [  260.6-  267.3] Now, after the war ended, the debt was still there. The government was still worried about
+  [  267.3-  273.5] paying the interest on the national debt, which was at a very high level. And so there was
+  [  273.5-  279.3] So there's considerable pressure on the Fed to keep interest rates low, even after the war.
+  [  279.9-  283.3] But there was a drawback to that, which is that if you keep interest rates low,
+  [  283.4-  289.2] even as an economy is growing and recovering, you're risking an overheating economy, you're risking inflation.
+  [  291.5-  298.7] So by 1951, the Fed was very concerned about inflation prospects in the United States.
+  [  298.7-  306.4] And after a series of complex negotiations, the Treasury agreed to end the arrangement
+  [  306.4-  311.8] and let the Fed set interest rates independently as needed to achieve economic stability.
+  [  312.5-  317.4] And that agreement was called the Fed-Treasury Accord of 1951 and it was very important
+  [  317.4-  321.7] because it was the first clear acknowledgment by the government
+  [  321.7-  327.0] that the Federal Reserve should be allowed to operate on an independent basis.
+  [  327.6-  331.7] And today, around the world, there's, you know, a very strong consensus
+  [  331.7-  336.1] that central banks that operate independently will deliver better results
+  [  336.1-  338.2] than those which are dominated by the government.
+  [  338.9-  344.4] In particular, a central bank which is independent can ignore short-term political pressures,
+  [  344.6-  347.8] for example, to pump up the economy before an election.
+  [  348.2-  353.6] And in doing so, it can take a much longer perspective and get better results.
+  [  353.6-  355.5] And the evidence for this is quite strong.
+  [  355.9-  358.4] And as a result, major central banks
+  [  358.4-  360.6] around the world are typically independent,
+  [  360.6-  365.2] which means that they make their decisions irrespective
+  [  365.2-  367.5] of short-term political pressures.
+  [  369.9-  375.3] Now, in the 1950s and the 1960s, the primary concern
+  [  375.3-  379.4] of the Fed was macroeconomic stability.
+  [  380.6-  382.4] You see a picture there of the chairman,
+  [  382.6-  383.4] William Machezny Martin.
+  [  383.4-  392.4] Martin. He was chairman from 1951 to 1970, 19 years. He was the leader of the Fed. Chairman
+  [  392.4-  397.3] Greenspan's term ended at 18 years, six months. He unfortunately didn't break the record.
+  [  397.4-  403.3] I know he was very disappointed about that. But in that case, we had two Federal Reserve
+  [  403.3-  409.2] chairman who between them accounted for more than 37 years of leadership at the Fed during
+  [  409.2-  415.4] the post-war period. Now monetary policy during the 50s and early 60s was relatively simple.
+  [  415.9-  420.9] The economy was growing again as after World War I, after World War II, the U.S. economy
+  [  420.9-  430.0] was dominant. The fears about a renewed depression had not come true and as a result a lot of
+  [  430.0-  434.2] growth was occurring. What the Fed tried to do basically was follow what's called
+  [  434.2-  438.9] a lean against the wind monetary policy which means that when the economy is growing quickly
+  [  438.9-  442.9] or perhaps too quickly, the Fed tightens to try to restrain overheating.
+  [  443.3-  445.2] And when the economy is growing more slowly,
+  [  445.9-  449.9] the Fed lowers interest rates, creates some expansionary stimulus
+  [  451.4-  455.5] in order to avoid a recession.
+  [  457.8-  463.6] William Chesney Martin was very attentive to the risks of inflation.
+  [  464.3-  467.1] He's having a quote there from him, inflation is a thief in the night.
+  [  467.9-  471.7] And he tried, through this leading against the wind policy,
+  [  471.9-  475.5] to keep inflation and growth stable.
+  [  476.0-  482.2] And indeed, despite the fact that the 50s were perhaps more tumultuous than you might think,
+  [  483.3-  487.4] there were after all, there was after all a serious war in Korea.
+  [  487.8-  490.1] There were a couple of recessions during that decade.
+  [  490.2-  494.6] Nevertheless, it was basically a productive and prosperous decade
+  [  494.6-  501.4] as the economy went back to civilian operations after the end of World War II.
+  [  503.4-  510.5] However, as usual, things were not to remain completely trouble-free. Starting
+  [  510.5-  513.7] in the mid-1960s, for a variety of reasons which I'll talk about, monetary
+  [  513.7-  522.1] policy became too easy. And after a period of time, and given the Fed didn't
+  [  522.1-  526.3] change its policy stance, this easy monetary policy led
+  [  526.3-  529.4] to a surge in inflation and inflation expectations.
+  [  529.6-  532.5] And on the right, you see a graph of inflation.
+  [  532.7-  536.4] You can see from 1960 to 64, inflation averaged only
+  [  536.4-  537.8] a little over 1% a year.
+  [  538.3-  542.0] It picked up during the Vietnam period, 65 to 69,
+  [  542.6-  544.5] even higher in the early 70s.
+  [  544.8-  548.8] But by the end of the 70s, the CPI inflation rate
+  [  549.3-  550.8] peaked at about 13%.
+  [  550.8-  553.9] So you can see inflation was a growing problem starting
+  [  553.9-  556.5] in the mid-60s and into the 70s.
+  [  557.8-  562.7] So an important question is, you know, why was monetary policy
+  [  562.7-  570.1] so easy as to allow inflation to become a problem in the 70s?
+  [  572.0-  577.1] Well, one issue was really a technical issue which was
+  [  577.1-  581.1] that monetary policy makers became too optimistic
+  [  581.1-  583.5] about how hot the economy could run
+  [  583.5-  585.0] without generating inflation pressures.
+  [  585.6-  587.9] There was a general view that unemployment could be kept
+  [  587.9-  590.0] at the low level, like 3 or 4 percent.
+  [  590.5-  593.1] And by keeping inflation a little bit higher,
+  [  593.4-  595.6] you would be able to get that better performance,
+  [  595.8-  597.5] that higher employment level.
+  [  598.0-  601.6] And again, in the prosperity of the 50s and the early 60s,
+  [  601.6-  605.0] the Fed began to follow that approach.
+  [  605.0-  614.7] there was actually quite a subtle issue here which was that economic theory and practice
+  [  614.7-  621.5] in the 50s and early 60s suggested that there was a permanent trade-off between inflation
+  [  621.5-  627.8] and employment. The notion being that if we could just keep inflation a little bit above normal,
+  [  628.2-  632.8] that we could get permanent increases in employment, permanent reductions in unemployment.
+  [  632.8-  636.8] And that was the view that was taken by many economists during that time.
+  [  637.9-  642.5] It was actually Milton Friedman, the famous monetary economist who wrote in the mid-60s,
+  [  642.6-  645.2] quite prophetically, that this was going to cause trouble.
+  [  645.6-  651.2] And he argued that increase in inflation may give you a little bit of a bump up in employment.
+  [  651.4-  655.8] It might cause unemployment to fall for a while, but at best that's going to be a transitory effect.
+  [  657.7-  659.9] The analogy might be to a candy bar.
+  [  659.9-  663.7] If you take a candy bar in the short run, it gives you a little bit of a burst of energy,
+  [  663.7-  665.4] but after a while, it just makes you fat.
+  [  666.9-  669.0] So monetary policy was analogous to that.
+  [  670.9-  675.8] And Friedman argued, and he turned out to be quite prescient, that attempts to keep
+  [  675.8-  680.3] unemployment too low through monetary policy were going to end up creating inflation.
+  [  682.1-  686.9] So that doctrinal issue was one reason why monetary policy was too easy.
+  [  687.6-  691.5] There are also debates still today about whether
+  [  691.5-  693.6] or not there were political pressures put on the Fed.
+  [  694.4-  698.3] After all, this was a period of, again, of government deficits
+  [  698.3-  700.2] as the government was trying to deal with Vietnam,
+  [  700.3-  701.7] was trying to deal with the Great Society.
+  [  703.5-  708.0] And that may have also influenced the Fed's behavior.
+  [  711.8-  716.2] Now, the Fed, obviously, you can't have sustained inflation
+  [  716.2-  718.4] without monetary policy being too easy.
+  [  718.4-  720.8] Another famous quote from Milton Friedman is
+  [  720.8-  722.6] that inflation is always and everywhere,
+  [  722.7-  723.6] a monetary phenomenon.
+  [  724.6-  727.1] Nevertheless, there were a bunch of exacerbating factors
+  [  727.1-  729.1] that made the problem worse and made it more difficult
+  [  729.1-  732.0] for the Fed to offset the increase in inflation.
+  [  732.7-  738.4] First, there were a number of shocks to the prices of oil
+  [  738.4-  738.9] and food.
+  [  741.1-  746.6] A very striking example was in 1973, in October of 1973,
+  [  746.6-  750.2] The Yom Kippur War in the Middle East broke out.
+  [  751.1-  754.9] In retaliation to US support of Israel,
+  [  755.8-  759.5] the OPEC, the Organization of Petroleum Exporting Countries,
+  [  760.9-  766.4] found some cartel power, put an embargo on oil exports.
+  [  767.1-  771.7] And in a short period of time, in the early 1970s,
+  [  771.8-  773.9] the price of oil almost quadrupled.
+  [  774.4-  776.3] So a very sharp increase in oil prices
+  [  776.3-  783.3] and that's in gas prices, people were lining up at gas stations
+  [  783.3-  784.8] to make sure their gas tanks were full.
+  [  785.5-  787.5] There was a system of even odd rationing.
+  [  787.6-  790.7] If your license plate was even, you could only go on Tuesdays
+  [  790.7-  792.0] and Thursdays to the gas station.
+  [  792.0-  794.0] If it was odd, you could go on Mondays and Wednesdays.
+  [  794.6-  797.6] So it was a very serious issue and there's a lot of unhappiness,
+  [  797.6-  802.2] obviously, about gas prices then as there is, of course, today as well.
+  [  803.9-  811.5] Fiscal policy, I also mentioned, fiscal policy was overall too loose during the late 60s
+  [  811.5-  817.5] and early 70s, the Vietnam War and other government programs increased government spending
+  [  817.5-  822.8] and increased deficits, which put additional pressure on the capacity of the economy.
+  [  823.7-  829.2] Now, another element that I just mentioned briefly is wage price controls.
+  [  829.9-  833.4] When inflation got up to about 5 percent in the early 70s,
+  [  833.5-  837.2] President Nixon introduced wage price controls.
+  [  837.3-  840.3] That is a series of laws which forbade firms
+  [  841.0-  841.9] from raising their prices.
+  [  842.7-  844.8] There were exceptions and there were all kinds of boards
+  [  844.8-  848.6] that tried to find exceptions and it was basically a very
+  [  848.6-  849.7] unsuccessful policy.
+  [  849.8-  852.4] On the one hand, by, as you know,
+  [  852.8-  855.3] prices are the thermostat of an economy.
+  [  855.5-  857.8] They are the mechanism by which an economy functions.
+  [  857.8-  862.1] So, putting controls on wages and prices meant that there were shortages
+  [  862.1-  864.2] and all kinds of other problems throughout the economy.
+  [  864.9-  871.0] But, in addition, again, as Milton Friedman put it, this was like dealing
+  [  871.0-  874.5] with a overheating furnace by breaking the thermostat.
+  [  874.7-  878.2] I mean, the fundamental problem was the fact
+  [  878.2-  885.3] that there was too much aggregate demand driving up prices and simply putting-passing a law
+  [  885.3-  888.7] which as people couldn't raise prices doesn't address the underlying problem
+  [  888.7-  892.5] of excessive monetary ease and excessive demand.
+  [  893.1-  896.9] So the wage price controls kept inflation artificially low for a couple of years,
+  [  897.0-  899.7] made it harder for the Fed to figure out what was going on.
+  [  900.0-  903.9] And when the wage price controls finally collapsed in disarray because they were creating
+  [  903.9-  911.8] so much, so many problems in the economy, inflation surged as like a spring
+  [  911.8-  914.5] that was released at the end of the wage price controls.
+  [  915.8-  921.4] So, there were a lot of reasons supporting the increase in inflation.
+  [  922.5-  927.4] I think a general lesson here is a picture of Arthur Burns, who was the chairman of the
+  [  927.4-  932.8] Fed during the 1970s, and the quote is, in a rapidly changing world, the opportunities
+  [  932.8-  935.8] for making mistakes are legion, which is certainly true.
+  [  937.3-  943.0] I think one way to think about this whole episode is that after World War II and the
+  [  943.0-  946.0] and the conquest of the Depression and the prosperity
+  [  946.0-  950.1] that they saw, economists and policymakers became a little bit
+  [  950.1-  951.6] too confident about their ability
+  [  952.1-  954.4] to keep the economy on an even keel.
+  [  955.2-  960.1] And there was the term fine-tuning, the notion that the Fed
+  [  960.1-  961.9] and other fiscal policy
+  [  961.9-  964.6] and other government policies could keep the economy more
+  [  964.6-  968.8] or less perfectly on course and not worry about bumps
+  [  968.8-  970.5] and wiggles in the economy.
+  [  970.5-  974.3] I mean, that turned out to be too optimistic, too hubristic.
+  [  975.3-  979.3] And we learned that collectively during the 70s
+  [  979.3-  981.9] when the efforts of policymakers
+  [  982.6-  985.6] resulted not in the lower unemployment rate, which
+  [  985.6-  988.9] was the original goal, but instead a higher and very
+  [  988.9-  990.7] sharp increase in inflation.
+  [  992.7-  995.4] So I think one of the themes here is that,
+  [  995.9-  998.2] and this probably applies in any complex endeavor,
+  [  998.2- 1000.0] that a little humility never hurts.
+  [ 1002.6- 1006.3] Now, there was a reaction to the increase in inflation
+  [ 1006.3- 1009.6] in the 70s, and the key person
+  [ 1009.6- 1015.6] in this period is Chairman Paul Volcker, who remains
+  [ 1015.6- 1018.2] to this day an influential figure
+  [ 1018.2- 1019.9] in economic policy discussions.
+  [ 1022.7- 1025.9] To deal with double digit inflation,
+  [ 1025.9- 1032.7] I should say first that President Carter, whose re-election was under serious threat
+  [ 1032.7- 1037.8] by the poor performance of the U.S. economy, appointed Paul Volcker to be the new chairman
+  [ 1037.8- 1046.7] of the Fed, and in part he did so because President Carter thought that Volcker was a tough central
+  [ 1046.7- 1049.7] banker who would do what was necessary to get inflation under control.
+  [ 1049.7- 1054.4] And Paul Volcker, who stands 6'8 and smokes a big cigar,
+  [ 1054.6- 1058.2] certainly created an impression of somebody who's
+  [ 1058.2- 1059.8] willing to take strong action.
+  [ 1060.2- 1062.0] And perhaps it wasn't a total coincidence.
+  [ 1064.1- 1067.0] So Paul Volcker came into office.
+  [ 1068.3- 1071.4] He was only in office for a few months
+  [ 1072.0- 1077.2] when he determined that strong action was needed
+  [ 1077.2- 1078.6] to address the inflation problem.
+  [ 1078.6- 1084.2] And in October of 1979, he and the Federal Open Market Committee,
+  [ 1084.3- 1089.4] the policymaking committee of the Fed instituted a strong break in the way
+  [ 1089.4- 1092.4] that monetary policy was managed.
+  [ 1093.8- 1097.8] It's not really necessary to go into the details of what that break was and how it worked.
+  [ 1098.0- 1105.3] Basically, what it did was allow the Fed to raise interest rates quite sharply.
+  [ 1105.3- 1110.8] And, again, as you know, raising interest rates slows the economy
+  [ 1110.8- 1114.0] and brings inflation pressures down.
+  [ 1115.6- 1117.7] As Paul Wilker said, to break the inflation cycle,
+  [ 1117.7- 1121.1] we must have credible and disciplined monetary policy.
+  [ 1123.0- 1125.0] And it worked.
+  [ 1126.0- 1128.3] In the years after this program began,
+  [ 1128.8- 1130.3] inflation fell quite sharply.
+  [ 1130.4- 1135.8] You can see from 1980 to 1983, inflation fell from about 12
+  [ 1135.8- 1138.7] over 13% all the way down to about 3%.
+  [ 1138.7- 1141.7] So a relatively quick decline in inflation
+  [ 1143.2- 1146.9] that offset the problems of the late 70s.
+  [ 1147.6- 1150.5] So in that respect, the policies of the 80s
+  [ 1150.5- 1151.9] were quite successful.
+  [ 1152.2- 1154.3] They achieved their objective of bringing inflation
+  [ 1154.8- 1155.6] under control.
+  [ 1157.0- 1158.6] However, nothing is free.
+  [ 1159.8- 1164.1] And one of the effects of these policies
+  [ 1169.7- 1175.8] I do remember, vaguely, in-I just got out of graduate school, about 81, 82.
+  [ 1176.6- 1182.0] And I do remember looking at the possibility of buying a home and being informed
+  [ 1182.0- 1185.0] that the mortgage rate for a 30-year mortgage was 18.5 percent.
+  [ 1186.7- 1188.8] So interest rates were quite high.
+  [ 1188.9- 1194.0] And as you might expect, that brought down a lot of interest rates.
+  [ 1194.0- 1197.0] economic activity and affected inflation as well.
+  [ 1197.8- 1201.2] So if you look at the graph, you see this is the unemployment rate.
+  [ 1201.9- 1205.2] The high interest rates which were necessary to bring
+  [ 1205.2- 1207.6] down inflation also caused a very sharp recession.
+  [ 1208.3- 1212.7] And in fact, the unemployment rate in 1982 was almost 11 percent,
+  [ 1213.1- 1216.0] even higher than we saw in the most recent recession.
+  [ 1216.6- 1219.7] So there was definitely a very negative side effect
+  [ 1219.7- 1222.4] from Volcker's activities.
+  [ 1224.7- 1228.3] Now, I think an interesting aspect of this is
+  [ 1228.3- 1230.8] that the political pressures you can imagine on the Fed
+  [ 1230.8- 1233.2] and on Chairman Volcker was intense.
+  [ 1235.0- 1240.2] During this period, it was a common practice to mail
+  [ 1240.2- 1242.8] to the Fed bits of two-by-fours.
+  [ 1243.4- 1245.7] And on the two-by-fours, it would say stop killing
+  [ 1245.7- 1249.3] construction or save the farmer or whatever it might be
+  [ 1249.3- 1251.3] because the high interest rates were having very negative
+  [ 1252.2- 1257.2] And I have a few of these on my desk just to remind my, you know,
+  [ 1260.0- 1263.4] that inflation is a concern and that we always have
+  [ 1263.4- 1265.5] to pay attention to price stability.
+  [ 1266.1- 1269.8] But this is also an example of why independence is important.
+  [ 1270.8- 1273.1] If Paul Volcker had been to be reelected,
+  [ 1273.3- 1276.1] perhaps he wouldn't have been able to sustain this policy.
+  [ 1277.0- 1280.1] But instead, he maintained an independent monetary policy.
+  [ 1280.1- 1284.1] He received at least sufficient support from President Reagan
+  [ 1284.1- 1286.6] and from the Congress, and he was able to carry
+  [ 1286.6- 1289.3] through the policy, which again succeeded
+  [ 1289.9- 1291.8] in bringing inflation down.
+  [ 1297.4- 1300.3] Now, during the 70s, obviously,
+  [ 1300.3- 1302.1] output and inflation were very volatile.
+  [ 1302.2- 1303.7] We saw how much inflation moved around.
+  [ 1303.8- 1306.4] We saw that there was, I didn't mention,
+  [ 1306.5- 1309.8] but there was a pretty sharp recession also in 1973 to 75
+  [ 1310.3- 1312.5] after the OPEC embargo.
+  [ 1313.8- 1319.5] And then, of course, there was more volatility in the early 80s as Volcker brought down inflation
+  [ 1319.5- 1322.4] and as the economy went into recession.
+  [ 1325.0- 1331.6] Now, Paul Volcker left the chairmanship in 1987 and he was replaced by Alan Greenspan
+  [ 1332.4- 1338.3] who again held the position for almost 19 years from 1987.
+  [ 1339.4- 1344.0] As the quote suggests, one of the important accomplishments of Greenspan through most
+  [ 1344.0- 1347.2] of his tenure was achieving greater economic stability.
+  [ 1347.8- 1351.6] As he says, greater economic stability has been key to impressive growth
+  [ 1351.6- 1353.3] and standards of living in the United States.
+  [ 1354.5- 1358.4] So, in fact, there was so much improvement in the stability of the economy
+  [ 1359.0- 1363.0] that the period has come to be known as the Great Moderation,
+  [ 1364.0- 1367.6] as opposed to the great stagflation of the 70s or the Great Depression
+  [ 1367.6- 1369.1] of the 1930s.
+  [ 1369.7- 1372.5] Now this was a very real and striking phenomenon,
+  [ 1372.9- 1373.7] the great moderation.
+  [ 1374.7- 1377.0] The first picture here shows you the variability
+  [ 1377.0- 1379.2] of real GDP growth.
+  [ 1379.9- 1385.1] So the graph covers the period from 1950 all the way up
+  [ 1385.1- 1386.4] essentially to the present.
+  [ 1389.0- 1391.7] The line just shows you quarterly growth rates
+  [ 1391.7- 1392.2] in GDP.
+  [ 1392.2- 1399.0] So, a sharp line, a sharp peak shows an increase in GDP growth.
+  [ 1399.3- 1402.8] A negative decline shows a fall in GDP growth.
+  [ 1402.9- 1403.8] These are quarterly numbers.
+  [ 1404.4- 1407.3] And so, you can see the bounciness, you know,
+  [ 1407.4- 1411.0] periods of growth followed by periods of slower growth.
+  [ 1411.9- 1416.8] The yellow bar is a one standard deviation band.
+  [ 1416.9- 1419.8] Essentially, it's a measure of the average volatility
+  [ 1419.8- 1427.9] of GDP growth quarter to quarter during the period between 1950 and 1986, or 1985, I guess.
+  [ 1429.0- 1432.8] And you can see that GDP growth was pretty variable throughout the entire period.
+  [ 1433.0- 1434.5] There's a lot of volatility in the economy.
+  [ 1434.7- 1439.8] There were a number of recessions, including the severe ones in 1973 and 1981.
+  [ 1441.9- 1448.2] Now amazingly, starting from about 1986, look at what happens to GDP variability between
+  [ 1448.2- 1451.8] 1986 and 2007 or so.
+  [ 1453.2- 1456.0] The variability from quarter to quarter is much less.
+  [ 1457.2- 1459.7] And the blue line shows the average variability
+  [ 1459.7- 1462.5] of one state of deviation band for GDP growth
+  [ 1462.5- 1463.8] in this latter period.
+  [ 1463.9- 1466.5] And it's just very striking how much more stable
+  [ 1466.5- 1470.0] the economy was over this 20 or so year period.
+  [ 1471.3- 1474.8] This was true not only for real GDP growth,
+  [ 1475.0- 1476.4] it was also true for inflation.
+  [ 1477.1- 1482.6] So, again, it's the same picture, basically, the line, the vertical line in the middle
+  [ 1482.6- 1487.3] of the graph splits the time period from pre-1986 and post-1986.
+  [ 1490.2- 1496.2] The graph shows inflation quarter by quarter, as measured by the consumer price index.
+  [ 1496.2- 1503.6] Again, the TAN bar shows one standard deviation,
+  [ 1505.2- 1509.6] average volatility of inflation in the pre-1986 period.
+  [ 1509.7- 1512.5] You can see the huge spikes in inflation in the 70s.
+  [ 1513.4- 1519.8] And then in post-86, you see much more stable, much lower volatility.
+  [ 1520.4- 1524.2] So both growth and inflation were much more stable.
+  [ 1524.2- 1527.6] and a really quite remarkable to a quite remarkable extent
+  [ 1527.6- 1531.3] and something that economists commented on quite frequently.
+  [ 1532.2- 1534.1] So that was so-called great moderation.
+  [ 1535.6- 1539.7] Now, why? Why was the economy so much more stable
+  [ 1540.6- 1545.6] between the mid-80s and the mid-2000s?
+  [ 1546.8- 1548.8] Well, there's lots of research on it,
+  [ 1548.9- 1550.1] a lot of issues, a lot of papers.
+  [ 1550.1- 1553.3] I think there's a good bit of evidence
+  [ 1553.3- 1556.8] that monetary policy played a role
+  [ 1556.8- 1559.0] in creating better stability.
+  [ 1560.3- 1564.0] In particular, Volcker's contribution was,
+  [ 1564.4- 1569.0] even though his short-term efforts to bring down inflation
+  [ 1569.0- 1572.2] in the early 80s led to a high recession,
+  [ 1572.4- 1574.7] led to a lot of pain, there was a payoff.
+  [ 1574.9- 1578.0] And that payoff was an economy which was much more stable,
+  [ 1578.0- 1581.6] with low stable inflation, more stable monetary policy,
+  [ 1582.2- 1584.9] more confidence on the part of business people
+  [ 1584.9- 1588.1] and households, and that contributed very importantly
+  [ 1588.1- 1591.8] to broader stability.
+  [ 1592.4- 1595.7] So you remember that the Friedman pointed
+  [ 1595.7- 1598.7] out that there was no long-term trade-off between inflation
+  [ 1598.7- 1601.6] and unemployment by keeping inflation a little higher.
+  [ 1601.8- 1603.3] You couldn't permanently lower unemployment.
+  [ 1604.2- 1605.8] But in a different sense, which is true,
+  [ 1605.8- 1608.5] But in a different sense, low and stable inflation
+  [ 1608.5- 1612.4] over a long period of time does make an economy more stable
+  [ 1612.4- 1619.4] and supports healthy growth in productivity
+  [ 1619.4- 1620.9] and economic activity.
+  [ 1621.5- 1624.6] So low inflation is obviously a very good thing to have.
+  [ 1625.0- 1630.3] And the reduction in inflation that occurred in the 80s
+  [ 1630.3- 1632.0] was really a global phenomenon.
+  [ 1632.2- 1634.6] A lot of countries had inflation problems in the 80s.
+  [ 1634.6- 1639.8] But all around the world, even developing countries brought
+  [ 1639.8- 1641.4] down their inflation rates quite considerably,
+  [ 1641.5- 1645.2] and that has been a positive for economic growth
+  [ 1645.2- 1647.5] and stability since the mid-'80s.
+  [ 1648.6- 1652.3] Now, not all of the great moderation was caused
+  [ 1652.3- 1653.4] by monetary policy.
+  [ 1653.6- 1657.0] There are other factors, no doubt, playing a role.
+  [ 1657.7- 1659.5] I mentioned just general structural change
+  [ 1659.5- 1660.2] in the economy.
+  [ 1660.2- 1666.1] an example would be that, over time, firms have learned how
+  [ 1666.1- 1668.2] to manage their inventories much more effectively.
+  [ 1669.3- 1674.9] The practice of so-called just-in-time inventory management is a practice whereby,
+  [ 1675.1- 1677.6] instead of having large stocks of inventories on hand,
+  [ 1678.2- 1683.1] firms only acquire inputs when they need them to produce.
+  [ 1683.9- 1685.9] And without large stocks of inventories in hand,
+  [ 1686.0- 1689.8] that reduces an important source of fluctuations in the economy
+  [ 1689.8- 1693.2] because if demand slows down and you have a big inventory,
+  [ 1693.3- 1695.4] then you don't do any more production for quite a while
+  [ 1695.4- 1697.6] until you run down that inventory.
+  [ 1697.9- 1701.4] But improved management inventories is just an example
+  [ 1701.4- 1704.6] and many others could be cited of better business practices
+  [ 1704.6- 1706.4] and other factors in the economy
+  [ 1706.4- 1708.2] that made things more stable.
+  [ 1708.8- 1713.6] And it may also just be the case that there was better luck,
+  [ 1713.8- 1716.0] that we had fewer oil price shocks
+  [ 1716.0- 1717.7] and other things happening.
+  [ 1717.7- 1722.2] And that, too, may have contributed to the great moderation.
+  [ 1722.4- 1726.0] But as those previous pictures showed, I hope it's clear
+  [ 1726.0- 1733.5] that it was quite a striking change in the way the economy operated after the mid-'80s.
+  [ 1735.7- 1740.3] Okay, now, this takes us up, then, into the mid-'2000s.
+  [ 1740.3- 1748.0] And so now, finally, we can begin to talk
+  [ 1748.0- 1751.7] about financial stress and recent developments.
+  [ 1752.2- 1755.3] Now, just a final word about the great moderation.
+  [ 1756.2- 1758.1] One of the other aspects of that period is
+  [ 1758.1- 1761.3] that there weren't any big damaging financial crises
+  [ 1761.3- 1762.2] in the United States.
+  [ 1762.5- 1764.5] There was a stock market crash in 1987,
+  [ 1764.5- 1766.2] but it didn't do much damage.
+  [ 1766.2- 1771.9] which a more significant event was the boom and bust
+  [ 1771.9- 1774.9] in the dot-com stocks in the late 1990s.
+  [ 1776.0- 1779.5] And that touched off a mild recession in 2001.
+  [ 1780.2- 1783.9] But, you know, one of the inferences that people took away
+  [ 1783.9- 1786.7] from the Great Moderation was not only was the economy more
+  [ 1786.7- 1789.8] stable, but the financial system seemed more stable as well.
+  [ 1790.3- 1793.6] And as a result, financial stability policies got
+  [ 1793.6- 1796.8] to some extent, during this period.
+  [ 1798.5- 1804.0] Well, let's turn now finally to the prelude to the financial crisis.
+  [ 1805.9- 1808.9] And what I'll do today is just talk about some
+  [ 1808.9- 1813.2] of the initiating, triggering events, particularly the housing bubble,
+  [ 1813.8- 1818.2] and again, as I said, next-we'll get next week into more details
+  [ 1818.2- 1823.1] about what happened during the crisis and the Federal Reserve's response.
+  [ 1824.1- 1828.3] One of the key events that led, ultimately,
+  [ 1828.6- 1833.7] to the recent crisis was a big increase in house prices.
+  [ 1834.3- 1839.9] So the graph on the right shows prices
+  [ 1839.9- 1845.5] of existing single-family homes where January 2000 is indexed
+  [ 1845.5- 1846.3] to be 100.
+  [ 1848.5- 1851.0] From the late 1990s until early 2006,
+  [ 1851.0- 1856.4] and the six house prices across the country increased by about 130 percent.
+  [ 1856.5- 1861.6] You can see that line going straight up, a very sharp increase in home prices.
+  [ 1862.3- 1866.0] And as I'll discuss, at the same time that was happening or perhaps a little bit later
+  [ 1866.0- 1871.7] in the process, the lending standards for new mortgages to buy homes were deteriorating.
+  [ 1874.5- 1880.4] Now, clearly, a big part of what was happening to create the housing bubble
+  [ 1880.4- 1883.9] or the increase in housing prices was psychology.
+  [ 1886.7- 1889.9] After all, the late 90s was a period, as you know, again,
+  [ 1890.0- 1892.1] of a lot of optimism about tech stocks
+  [ 1892.1- 1894.1] and stock market more generally.
+  [ 1894.7- 1897.8] And some of that optimism, some of that psychology,
+  [ 1897.8- 1901.3] no doubt, fed over into the housing market.
+  [ 1901.9- 1903.3] So there was an increasing sense
+  [ 1903.3- 1905.7] that house prices would keep rising
+  [ 1906.2- 1910.0] and that housing was a can't lose investment.
+  [ 1912.5- 1916.4] I lived in California for a while and earlier than this,
+  [ 1916.4- 1919.4] but it was a period during which house prices were rising
+  [ 1919.4- 1921.3] and everybody, all everybody ever talked about it,
+  [ 1921.4- 1922.6] at cocktail parties was, you know,
+  [ 1922.9- 1924.0] what's your house price now
+  [ 1924.0- 1926.1] and how much money are you making on your home
+  [ 1926.1- 1928.9] and it kind of made working kind of unnecessary
+  [ 1928.9- 1930.7] because all you had to do was keep checking
+  [ 1930.7- 1931.5] the real estate listings.
+  [ 1932.8- 1935.9] So there was a lot of excitement and enthusiasm about the fact
+  [ 1935.9- 1937.0] that house prices were going up
+  [ 1937.0- 1938.0] and making everybody rich.
+  [ 1938.0- 1944.3] At the same time that this was happening, the standards
+  [ 1944.3- 1949.1] for underwriting new mortgages were getting worse and worse,
+  [ 1949.3- 1951.6] which in turn was bringing more and more people
+  [ 1951.6- 1954.1] into the housing market and pushing
+  [ 1954.1- 1956.1] up prices even further.
+  [ 1959.3- 1962.4] So let's talk a bit about mortgage quality and what happened.
+  [ 1964.0- 1968.8] Prior to the early 2000s, home buyers were typically asked
+  [ 1968.8- 1972.1] to make a significant down payment, 10 percent, 15 percent,
+  [ 1972.3- 1974.6] maybe 20 percent of the home price.
+  [ 1975.2- 1977.6] And, of course, they had to document their finances,
+  [ 1977.9- 1981.4] their income, their assets, and so on in great detail
+  [ 1981.4- 1984.6] to persuade the bank to make them a loan,
+  [ 1984.7- 1989.3] which in many cases might be, you know,
+  [ 1989.4- 1991.7] four or five times their annual salary.
+  [ 1993.6- 1997.9] Unfortunately, as house prices rose, many lenders began
+  [ 1997.9- 2000.7] and to offer mortgages to less-qualified borrowers,
+  [ 2001.8- 2003.2] so-called non-prime mortgages.
+  [ 2003.9- 2006.5] And these mortgages often required little or no down payment
+  [ 2006.5- 2007.7] and little or no documentation.
+  [ 2008.1- 2010.2] Now, I say non-prime instead of subprime.
+  [ 2010.7- 2013.7] Subprime mortgages were the lowest-quality mortgages
+  [ 2013.7- 2016.3] in terms of the credit of the borrowers,
+  [ 2016.6- 2018.2] but there were other mortgages
+  [ 2018.2- 2019.9] that were below so-called prime mortgages,
+  [ 2020.0- 2022.0] so-called ALT-A and other types of mortgages
+  [ 2022.0- 2025.3] that were also not up to the traditional standards
+  [ 2025.3- 2026.4] of credit underwriting.
+  [ 2026.4- 2032.7] So I say non-prime, but what was happening again was that essentially that lenders,
+  [ 2032.9- 2038.7] mortgage lenders were moving further down the credit spectrum, lending to more
+  [ 2038.7- 2043.5] and more people whose credit was less stellar.
+  [ 2045.4- 2047.4] You can see this in a number of different ways.
+  [ 2048.7- 2055.6] On the left side of this picture is the share,
+  [ 2055.6- 2058.1] the percentage of mortgage originations,
+  [ 2058.2- 2061.8] that is new mortgages created that were nonprime,
+  [ 2062.1- 2064.1] that is either subprime or ALT-A
+  [ 2064.1- 2067.6] or some other lower quality mortgage.
+  [ 2067.7- 2070.4] And you can see the very sharp increase particularly
+  [ 2070.4- 2072.8] in the middle of the 2000s.
+  [ 2072.9- 2077.7] In 2006, almost a third of all mortgages
+  [ 2077.7- 2080.1] that were originated were nonprime.
+  [ 2081.6- 2084.1] Another indicator of the deterioration
+  [ 2084.1- 2087.7] of mortgage quality and the right figure is the percent
+  [ 2087.7- 2090.6] of non-prime loans with low or no documentation.
+  [ 2091.5- 2093.0] Now, if you think about this, this is kind of perverse.
+  [ 2093.2- 2097.7] If you're going to loan, make a loan to somebody whose credit is shaky,
+  [ 2097.9- 2101.9] who doesn't have a down payment and maybe their FICO score is low and so on,
+  [ 2101.9- 2104.1] you think you would want to ask them even more questions
+  [ 2104.6- 2107.2] about their income and their prospects.
+  [ 2107.4- 2109.2] But, in fact, it went the other way.
+  [ 2109.2- 2116.5] And as you can see that by 2007, 60% of non-prime loans had little
+  [ 2116.5- 2124.4] or no documentation to describe the credit worthiness of the borrower.
+  [ 2125.0- 2128.5] So there was clearly an ongoing deterioration of mortgage quality.
+  [ 2130.3- 2133.3] Now, this situation couldn't go on forever.
+  [ 2135.5- 2138.8] This picture shows the house shows, sorry,
+  [ 2138.9- 2141.3] this picture shows the debt service ratio.
+  [ 2142.0- 2147.1] As house prices went up and up and up, the amount of income
+  [ 2147.6- 2149.5] or the share of income being spent
+  [ 2149.5- 2151.5] on your monthly mortgage payment went up.
+  [ 2152.4- 2158.4] And as you can see, eventually the mortgage payments became
+  [ 2161.5- 2165.7] of personal disposable income, finally reaching the point
+  [ 2165.7- 2171.3] that the cost of home ownership was high enough
+  [ 2171.3- 2174.7] that it began, finally, to dampen the demand for new houses.
+  [ 2175.4- 2180.9] And as we see, that mortgage- that service ratio collapsed going
+  [ 2180.9- 2183.2] after that, basically because interest rates came down.
+  [ 2183.4- 2186.9] But the main point here is that high interest rates- sorry,
+  [ 2186.9- 2194.2] high payments on mortgages finally meant
+  [ 2194.2- 2197.9] that there were no longer new borrowers,
+  [ 2198.1- 2203.1] new home purchasers, and so house prices burst, bubble burst.
+  [ 2203.6- 2207.4] Here's a picture of home prices.
+  [ 2208.5- 2211.9] You can see again the sharp increase from the late 90s
+  [ 2211.9- 2218.2] up until about 2006, but from 2006 until today,
+  [ 2218.8- 2221.8] house prices have fallen more than 30 percent.
+  [ 2221.8- 2224.7] So there's been a very sharp decline in home prices
+  [ 2224.7- 2225.5] across the country.
+  [ 2226.3- 2227.9] Now, one comment about this picture.
+  [ 2228.4- 2229.9] If you look at this picture, you might say to yourself,
+  [ 2230.0- 2231.8] oh, my gosh, we have a long way to go
+  [ 2232.3- 2237.1] because, as you can see, house prices today are still a good
+  [ 2237.1- 2240.2] bit above where they were 15 years ago.
+  [ 2240.2- 2244.7] But remember, these prices are in dollar or nominal terms.
+  [ 2244.7- 2246.1] There's no adjustment for inflation.
+  [ 2246.7- 2249.5] So even if there was just 2 percent inflation a year,
+  [ 2250.9- 2255.2] over a period of 15 years, that would raise prices by 30 or 40 percent.
+  [ 2255.8- 2261.4] So if you adjust this for inflation, you get that house prices now are coming much closer
+  [ 2261.4- 2264.1] to where they were before the beginning of the bubble.
+  [ 2269.2- 2273.9] Now, the house price collapse had some significant consequences.
+  [ 2275.4- 2281.3] One consequence is that many people who had felt rich
+  [ 2281.3- 2283.9] because their home values had gone up and they had a lot
+  [ 2283.9- 2287.7] of equity, suddenly they found themselves underwater,
+  [ 2287.8- 2291.1] which means that their mortgage, the amount of money they owed,
+  [ 2291.8- 2294.0] was greater than the value of their home.
+  [ 2294.8- 2296.7] So this is a negative equity.
+  [ 2297.2- 2302.5] So this is an upside-down situation where the borrower is,
+  [ 2302.5- 2308.5] in fact, has negative wealth or negative equity in the home.
+  [ 2308.6- 2313.9] And you can see that starting in 2007, the number of mortgages
+  [ 2313.9- 2317.8] that were in negative equity grew very sharply.
+  [ 2318.6- 2322.0] Currently, there are about 12 or 13 million mortgages out of a total
+  [ 2322.0- 2327.8] of about 55 million or so in the United States, so roughly 20 to 25 percent
+  [ 2327.8- 2330.8] of all mortgages are now currently under water.
+  [ 2331.4- 2336.9] So that's a very big change from the situation we saw before.
+  [ 2337.9- 2343.8] At the same time, given the decline in house prices, given the fact that a lot
+  [ 2343.8- 2351.6] of people borrowed more than they could afford, the decline in house prices also led
+  [ 2351.6- 2355.7] to a big increase in mortgage delinquencies, people not paying on time,
+  [ 2355.7- 2362.0] And ultimately, the bank taking over the property, and let's call it a foreclosure,
+  [ 2362.3- 2365.4] and then reselling the property to somebody else.
+  [ 2366.1- 2367.8] So this is mortgage delinquencies.
+  [ 2368.5- 2376.8] You can see that in 2009, there were more than 5 million mortgages in delinquency,
+  [ 2377.4- 2379.9] which is about, again, almost 10% of all mortgages.
+  [ 2380.3- 2384.4] So a very, very high rate of delinquencies.
+  [ 2386.9- 2390.0] Now, of course, what we just looked at was the effects
+  [ 2390.0- 2391.7] of the house price bust on the borrowers
+  [ 2391.7- 2394.3] and on the homeowners, and those are quite serious.
+  [ 2394.8- 2396.3] But, of course, there's another side to this,
+  [ 2396.3- 2398.5] which is the lenders, the people who made the loans.
+  [ 2400.1- 2403.2] And, obviously, with something close to 10 percent
+  [ 2403.2- 2406.8] of mortgages in delinquency, banks and other holders
+  [ 2406.8- 2410.0] of mortgage-related securities suffered sizable losses,
+  [ 2410.0- 2412.7] and that proved to be an important trigger
+  [ 2412.7- 2414.3] of the crisis.
+  [ 2415.7- 2419.4] Now, there's an interesting question here.
+  [ 2421.7- 2427.3] In 1999, 2000, 2001, we had a big increase in stock prices,
+  [ 2428.0- 2432.9] including but not only dot-com or tech bubble prices.
+  [ 2433.8- 2439.1] And that, those prices fell very sharply in 2000, 2001,
+  [ 2440.0- 2443.0] and a lot of paper wealth was destroyed by that.
+  [ 2443.8- 2448.1] And, in fact, the amount of paper wealth destroyed by the decline in dot-com
+  [ 2448.1- 2451.1] and other stock prices was not radically different from the amount
+  [ 2451.1- 2454.1] of wealth destroyed by the housing boom and bust.
+  [ 2455.2- 2463.7] And yet, as you know, the dot-com bust led only to a mild recession.
+  [ 2464.5- 2468.6] The 2001 recession went from, I believe, March to November of 2001.
+  [ 2468.7- 2470.6] It was only an eight-month recession.
+  [ 2472.2- 2476.8] Unemployment rose, but it was not anything nearly so dramatic
+  [ 2476.8- 2478.6] as in the 80s or more recently.
+  [ 2481.0- 2485.4] And so, here we had a big boom and bust in an asset price,
+  [ 2485.4- 2489.1] but without too much real serious or lasting damage
+  [ 2489.1- 2491.0] to the financial system or the economy.
+  [ 2492.5- 2497.0] Now, in the recent case, we had a housing boom and bust.
+  [ 2498.8- 2502.4] If we were looking back at 2001, we would suggest, we would think that, well,
+  [ 2502.4- 2506.1] that's going to cause a slowdown in the economy, but probably it won't be that serious.
+  [ 2507.7- 2512.9] And, you know, that was one of the views that we were discussing in the Fed in 2006,
+  [ 2513.0- 2516.9] as we saw house prices decline, might this, might not look like,
+  [ 2517.2- 2521.9] might this be like, more like the 2001 episode than something different.
+  [ 2522.7- 2526.9] And yet, of course, as we know, the decline in house prices had a much bigger impact
+  [ 2531.5- 2535.3] And I think, to understand that, it's important to make the distinction
+  [ 2536.7- 2538.3] between triggers and vulnerabilities.
+  [ 2540.7- 2544.2] The decline in house prices and the mortgage losses were a trigger.
+  [ 2545.6- 2550.0] They, to put it, use another metaphor, it was a match thrown on kindling.
+  [ 2551.5- 2555.7] But there would not have been a conflagration unless there was a lot of dry tinder around.
+  [ 2556.3- 2556.9] And in this case, it was a match thrown on kindling.
+  [ 2564.2- 2571.2] In other words, there were weaknesses in the financial system that were-that made-that
+  [ 2571.2- 2576.3] transformed what might otherwise have been a modest recession into a much more severe
+  [ 2577.3- 2577.9] crisis.
+  [ 2578.9- 2580.4] Now, what were those vulnerabilities?
+  [ 2580.7- 2585.5] Why-what was it about the financial system of the United States and of other countries
+  [ 2585.5- 2586.3] as well?
+  [ 2586.3- 2586.9] What was it about the financial system of the United States and of other countries as
+  [ 2586.9- 2592.1] that transformed the housing boom and bust into, again,
+  [ 2592.2- 2595.1] a much more serious crisis.
+  [ 2596.5- 2599.5] Again, we'll talk about this in much more detail next week,
+  [ 2599.8- 2602.7] but just to preview, there were vulnerabilities
+  [ 2602.7- 2605.7] in both the private sector of our financial system
+  [ 2605.7- 2606.9] and also in the public sector.
+  [ 2607.7- 2611.3] On the private sector, many borrowers and lenders took
+  [ 2611.3- 2613.3] on too much debt, too much leverage.
+  [ 2614.0- 2615.7] And one reason they might have done that is
+  [ 2615.7- 2617.0] because of the great moderation.
+  [ 2617.2- 2620.4] There's 20 years of relatively calm economic
+  [ 2620.4- 2622.7] and financial conditions, and people became more confident,
+  [ 2623.1- 2624.9] more willing to take on more debt.
+  [ 2625.5- 2627.5] The problem with taking on too much debt is
+  [ 2627.5- 2633.1] that if you don't have much margin, if the value of your asset goes down,
+  [ 2633.1- 2635.3] like you have value of your house, then pretty soon you find
+  [ 2635.3- 2637.6] that you have an asset which is worth less
+  [ 2637.6- 2638.7] than the amount of money you borrowed.
+  [ 2640.3- 2645.3] A second problem, a very important problem was
+  [ 2645.3- 2648.7] that throughout this period financial contracts,
+  [ 2648.8- 2650.6] financial transactions were becoming more
+  [ 2650.6- 2654.1] and more complex in ways which I'll describe.
+  [ 2654.7- 2657.7] But the ability of banks and other financial institutions
+  [ 2658.1- 2663.6] to monitor and measure and manage those risks was not
+  [ 2663.6- 2664.1] keeping up.
+  [ 2664.1- 2670.1] that is they were, they, their IT systems, their resources they devoted
+  [ 2670.1- 2672.6] to risk management were insufficient for them
+  [ 2672.6- 2677.4] to understand fully what risks they were actually taking and how big the risks were.
+  [ 2678.1- 2683.2] So if you had asked a bank in 2006, well suppose house prices fall 20%,
+  [ 2683.2- 2688.5] they probably would have greatly underestimated the impact of that on their balance sheet
+  [ 2688.5- 2693.1] because they didn't have the capacity to measure accurately
+  [ 2693.1- 2696.2] or completely the risks that they were facing.
+  [ 2698.1- 2700.1] The third problem, which I'll come back to again,
+  [ 2700.1- 2702.0] is the funding side.
+  [ 2703.5- 2707.6] Financial firms in a variety of contexts relied very heavily
+  [ 2707.6- 2709.7] on short-term funding like commercial paper
+  [ 2709.7- 2715.1] which can have a duration as short as one day or most
+  [ 2715.1- 2717.2] of it is less than 90 days.
+  [ 2718.2- 2721.8] So like the banks in the 19th century that were relying
+  [ 2721.8- 2725.3] on deposits and making loans, they had essentially
+  [ 2725.3- 2727.2] on the liability side of their balance sheet,
+  [ 2727.2- 2732.8] they had a very short-term liquid form of liability,
+  [ 2732.8- 2736.3] which as we'll see was subject to runs in the same way
+  [ 2736.3- 2739.6] that deposits were subject to runs in the 19th century.
+  [ 2742.2- 2745.6] A final private sector vulnerability was the use
+  [ 2745.6- 2747.0] of exotic financial instruments,
+  [ 2747.6- 2749.4] complex derivatives and so on.
+  [ 2750.7- 2753.0] An example of this was the credit default swaps
+  [ 2753.0- 2756.8] to the company that's employed by the AIG Financial Products Company,
+  [ 2757.7- 2763.6] AIG used the credit default swaps essentially to sell insurance to investors
+  [ 2763.6- 2768.2] on the complex financial instruments that the investors held.
+  [ 2768.7- 2771.6] So basically, what AIG was promising was that if you lose any money
+  [ 2771.6- 2774.1] on these collateralized debt obligations
+  [ 2774.1- 2776.4] or whatever these things are, we'll make good.
+  [ 2777.3- 2778.9] As long as the economy was doing well,
+  [ 2778.9- 2780.4] and the financial system was doing well,
+  [ 2780.4- 2784.9] And they were just collecting the premiums on this insurance essentially, and there was no problem.
+  [ 2785.1- 2791.1] But once things went bad, they're being on one side of all these bets meant that they were exposed
+  [ 2791.1- 2795.3] to enormous losses, which had, as we'll see, very serious consequences.
+  [ 2796.2- 2802.2] So those are some of the problems that occurred on the, in the private sector.
+  [ 2802.8- 2805.9] Let me talk a little bit about the public sector.
+  [ 2806.9- 2809.6] There were also serious problems there as well.
+  [ 2811.7- 2817.9] First, the financial regulatory structure had been changed,
+  [ 2817.9- 2818.9] of course, a number of times.
+  [ 2819.1- 2821.2] And basically, it was the same structure
+  [ 2821.2- 2824.8] that had been created in the 1930s during the Depression.
+  [ 2825.4- 2826.9] And in particular, it didn't keep up
+  [ 2826.9- 2829.0] with all kinds of changes in the structure
+  [ 2829.0- 2829.9] of the financial system.
+  [ 2830.9- 2832.6] One aspect of that was that there
+  [ 2832.6- 2835.8] were many important financial firms that didn't really
+  [ 2835.8- 2839.3] have any serious, comprehensive supervision
+  [ 2839.3- 2841.1] by any financial regulator.
+  [ 2841.7- 2845.7] So an example of this was AIG, which was an insurance company.
+  [ 2846.4- 2848.3] The insurance regulators looked primarily
+  [ 2848.3- 2850.1] at the insurance products they sold.
+  [ 2851.1- 2854.0] The Office of Thrift Supervision looked at,
+  [ 2854.3- 2858.0] primarily at the thrift, the small bank that they owned.
+  [ 2858.8- 2860.4] But nobody was really looking carefully
+  [ 2860.4- 2864.3] at this CDS problem that I was just describing.
+  [ 2865.8- 2868.2] Another category of firms that didn't have much oversight
+  [ 2868.2- 2874.6] where investment banks like Lehman Brothers and Bear Stearns and Merrill Lynch,
+  [ 2875.3- 2878.0] there was no statutory oversight of those firms.
+  [ 2878.4- 2882.8] They had a voluntary agreement with the SEC for oversight,
+  [ 2882.8- 2886.1] but there really was not comprehensive oversight of those firms.
+  [ 2887.1- 2891.6] And as I'll talk about, another group of firms was the government-sponsored enterprises,
+  [ 2891.8- 2894.7] Fannie and Freddie, which did have supervisors, did have regulators,
+  [ 2894.9- 2897.8] but for reasons I'll explain was very, very inadequate.
+  [ 2897.8- 2902.7] So there, the regulatory structure had lots of holes in it and there were many important firms
+  [ 2902.7- 2907.0] that proved important during the crisis that didn't have good oversight.
+  [ 2908.6- 2914.2] There were also, even where the laws provided for regulation and supervision,
+  [ 2915.3- 2918.5] there were often, it often wasn't done as well as it should have been.
+  [ 2919.2- 2924.7] And while this was true across a whole range of agencies and parts of the government,
+  [ 2924.9- 2927.7] let me, since I'm the Fed chairman, let me talk about the Fed.
+  [ 2929.2- 2933.5] The Fed made mistakes in supervision and regulation.
+  [ 2934.0- 2941.3] I think, too, I would point out one would be in our supervision of banks
+  [ 2941.3- 2945.2] and bank holding companies, we didn't press hard enough
+  [ 2945.2- 2946.9] on this issue of measuring your risks.
+  [ 2947.8- 2950.8] I mentioned before that a lot of banks simply didn't have the capacity
+  [ 2950.8- 2954.1] to thoroughly understand the risks that they were taking.
+  [ 2957.9- 2960.7] to develop that capacity, and if they didn't develop
+  [ 2960.7- 2962.6] that capacity, should have restricted their ability
+  [ 2962.6- 2964.6] to take these risky positions.
+  [ 2965.3- 2969.8] I think the Fed and other bank supervisors didn't press hard
+  [ 2969.8- 2971.5] enough on this, and that turned
+  [ 2971.5- 2973.2] out to be obviously a serious problem.
+  [ 2974.2- 2977.2] Another area where the Fed, I think,
+  [ 2977.9- 2980.3] performed poorly was in consumer protection.
+  [ 2981.2- 2984.0] The Fed had some authorities to, you know,
+  [ 2985.4- 2991.3] to mortgage borrowers that would have, if used effectively,
+  [ 2991.8- 2995.3] would have reduced at least some of the bad lending
+  [ 2995.3- 2999.7] that occurred during the latter part of the housing bubble.
+  [ 3001.6- 3004.2] But for a variety of reasons, that wasn't done,
+  [ 3004.7- 3006.4] not nearly to the extent it should have been.
+  [ 3008.4- 3013.3] In 2007, when I became Chairman, we did undertake some
+  [ 3013.3- 3020.3] of these protections, but that was obviously too late to avoid the crisis.
+  [ 3021.2- 3028.4] So where there were authorities and powers, they weren't always effectively used.
+  [ 3028.8- 3031.6] And that obviously led to some weaknesses.
+  [ 3032.7- 3038.7] And then a final, perhaps more subtle point, the way our regulatory system is set up,
+  [ 3042.5- 3046.2] Individual agencies like the Fed or like the OCC
+  [ 3046.2- 3049.4] or the Office of Thrift Supervision typically had
+  [ 3049.4- 3052.1] as a responsibility just a specific set of firms.
+  [ 3052.9- 3055.1] So the Office of Thrift Supervision was only responsible
+  [ 3055.1- 3057.7] for thrifts and similar institutions.
+  [ 3060.6- 3064.2] Unfortunately, the problems that arose during the crisis were
+  [ 3064.2- 3065.4] much broader based on that.
+  [ 3065.4- 3069.2] They transcended any single firm or small group of firms.
+  [ 3069.3- 3071.3] They transcended the whole system.
+  [ 3072.4- 3075.9] And so essentially what was missing here was attention,
+  [ 3076.9- 3079.4] enough attention being paid to things
+  [ 3079.4- 3081.2] that could affect the system as a whole,
+  [ 3081.6- 3083.3] as opposed to just individual firms.
+  [ 3083.9- 3086.8] And so nobody was really in charge of looking
+  [ 3086.8- 3090.4] to see whether there were problems related
+  [ 3090.4- 3093.3] to the overall financial system or the relationship
+  [ 3093.3- 3095.3] between different markets and different firms.
+  [ 3095.4- 3099.4] that could create stress, or even a crisis.
+  [ 3099.8- 3101.3] So those were some of the vulnerabilities
+  [ 3101.8- 3103.0] in the public sector.
+  [ 3103.3- 3107.2] And we're going to come back to, we're going to come back
+  [ 3107.2- 3110.2] to these vulnerabilities and how they played out next week.
+  [ 3112.4- 3116.3] Let me conclude here by talking about a controversial topic,
+  [ 3116.3- 3120.8] which is another aspect, which is the role of monetary policy.
+  [ 3122.8- 3126.3] Now, many people have argued that another contributor
+  [ 3126.3- 3129.7] to the housing bubble was the fact
+  [ 3129.7- 3132.4] that the Fed kept interest rates low in the early part
+  [ 3132.4- 3138.5] of the 2000s following the recession of 2001.
+  [ 3139.0- 3141.6] So when the economy got very weak
+  [ 3141.6- 3144.8] and there was very slow job growth in 2001 and subsequently,
+  [ 3145.0- 3146.6] and when inflation fell very low,
+  [ 3147.0- 3148.3] the Fed cut interest rates
+  [ 3148.3- 3151.5] and in 2003 the federal funds rate got down to 1 percent.
+  [ 3152.9- 3158.1] And there are people who argue that this was one of the reasons that house prices went
+  [ 3158.1- 3162.5] up as much as they did, and, in fact, it is true that low interest rates,
+  [ 3162.6- 3166.6] one of the purposes of low interest rates that the monetary policy achieves is
+  [ 3167.1- 3171.4] to increase the demand for housing and thereby to strengthen the economy.
+  [ 3172.9- 3177.7] Now, as I say, this is very controversial, but it's also very important not only
+  [ 3177.7- 3182.2] because we want to understand the crisis, but because going forward,
+  [ 3182.7- 3186.0] we want to think about, you know, what, you know, what should we take into account
+  [ 3186.0- 3187.2] when we look at monetary policy?
+  [ 3187.2- 3190.6] To what extent should we be thinking about things like housing bubbles
+  [ 3190.6- 3192.4] when we make monetary policy?
+  [ 3193.3- 3199.9] Now, we've looked at this in great detail inside the Fed, and there's been a lot
+  [ 3199.9- 3205.0] of research outside the Fed, and let me just warn you that there's no consensus on this,
+  [ 3205.0- 3209.5] And you'll probably hear different points of view, but the evidence that I've seen
+  [ 3209.5- 3212.3] and that we've done within the Fed suggests
+  [ 3212.3- 3216.5] that monetary policy did not play an important role
+  [ 3216.5- 3219.2] in raising house prices during the upswing.
+  [ 3219.7- 3222.5] And let me just talk a little bit about some of the evidence on this question.
+  [ 3224.6- 3228.3] One piece of evidence is the international comparison.
+  [ 3229.2- 3232.3] People don't appreciate that the United States, the boom and bust
+  [ 3232.3- 3235.1] in the United States was not unique.
+  [ 3235.5- 3238.5] Many, many countries around the world had booms and busts
+  [ 3238.5- 3243.5] in house prices and those booms and busts were not very closely related
+  [ 3243.5- 3246.2] to the monetary policies of those particular countries.
+  [ 3246.8- 3253.5] For example, the United Kingdom had a house price boom that was as big
+  [ 3253.5- 3255.0] or bigger than that in the United States
+  [ 3255.0- 3258.2] but monetary policy was much tighter in the UK
+  [ 3258.2- 3259.3] than it was in the United States.
+  [ 3259.3- 3260.6] And so, there's a bit of a puzzle
+  [ 3261.0- 3263.2] for the monetary theory of the house boom.
+  [ 3264.5- 3268.0] Another example, which is not on the slide, as you know,
+  [ 3268.3- 3271.7] Germany and Spain are both share the euro.
+  [ 3272.2- 3273.9] So, they have the same central bank,
+  [ 3274.1- 3276.2] the European Central Bank, the same monetary policy.
+  [ 3277.1- 3279.8] Germany's house prices remain absolutely flat throughout the
+  [ 3279.8- 3280.5] entire crisis.
+  [ 3281.2- 3284.3] Spain had an enormous house price increase considerably
+  [ 3284.3- 3285.8] larger than that in the United States.
+  [ 3285.8- 3291.0] So the cross-national evidence raises at least some concerns.
+  [ 3292.7- 3294.8] The second issue is the size of the bubble.
+  [ 3295.9- 3297.6] It's true that changes in interest rates
+  [ 3297.6- 3300.0] and mortgage rates should affect house prices and demand
+  [ 3300.0- 3301.0] for homes, as I said.
+  [ 3301.7- 3304.6] And there is a lot of history, a lot of evidence to look
+  [ 3304.6- 3306.7] at that over a long period of time.
+  [ 3307.3- 3310.6] But when you look at the, how much interest rates changed,
+  [ 3310.7- 3313.1] including mortgage rates, and how much house prices moved,
+  [ 3314.5- 3317.4] Based on historical relationships, you can only explain a very,
+  [ 3317.6- 3319.9] very small part of the increase in house prices.
+  [ 3320.0- 3323.2] In other words, the increase in house prices was way too large
+  [ 3323.2- 3325.6] to be explained by the relatively small change
+  [ 3325.6- 3329.2] in interest rates associated with monetary policy
+  [ 3329.2- 3332.0] in the early part of the 2000s.
+  [ 3333.2- 3337.3] The final, the final piece of evidence I would raise is the
+  [ 3337.3- 3338.3] timing of the bubble.
+  [ 3340.2- 3343.1] Robert Schiller, an economist who was well known
+  [ 3343.1- 3346.4] for his work on bubbles, including the housing bubble,
+  [ 3347.4- 3351.2] argued that the housing bubble began in 1998, which,
+  [ 3351.2- 3353.2] of course, is well before the 2001 recession
+  [ 3353.2- 3362.1] and before the cut in Federal Reserve interest rates.
+  [ 3362.5- 3365.1] Moreover, house prices rose very sharply
+  [ 3365.1- 3367.5] after the tightening began in 2004.
+  [ 3367.8- 3370.3] So the timing doesn't line up particularly well.
+  [ 3370.3- 3373.8] Now, what the timing does suggest might be a couple
+  [ 3373.8- 3375.2] of other possible explanations.
+  [ 3375.4- 3379.9] One is, obviously, 98 was right in the middle of the tech bubble,
+  [ 3380.0- 3384.1] the tech boom, and it could be that, again,
+  [ 3384.3- 3388.7] the same psychological optimism, the same mentality
+  [ 3388.7- 3391.1] that was feeding stock prices may have been feeding
+  [ 3391.1- 3392.2] house prices as well.
+  [ 3393.3- 3397.6] Another possibility is that, that's been pointed out by a number
+  [ 3397.6- 3402.0] of economists is that in the late 90s,
+  [ 3402.0- 3404.9] there was a very serious financial crisis called the
+  [ 3404.9- 3409.2] Asian financial crisis that hit a number of Asian countries
+  [ 3409.2- 3411.3] and other emerging market economies as well.
+  [ 3412.3- 3416.0] And one, after that crisis was tamed, one response was
+  [ 3416.0- 3418.0] that many countries, emerging market countries,
+  [ 3418.0- 3420.1] began to accumulate large amounts of reserves,
+  [ 3420.3- 3423.1] which meant they had to acquire safe dollar assets.
+  [ 3423.6- 3427.3] So there was a big increase in the demand for assets
+  [ 3427.3- 3432.8] including mortgages that came from abroad as countries decided they need
+  [ 3432.8- 3435.8] to acquire more dollar assets to serve as reserves.
+  [ 3437.4- 3441.3] I think, interestingly, probably the strongest correlation across countries
+  [ 3442.3- 3446.8] that you can find to house price increases is capital inflows, the amount of money coming
+  [ 3446.8- 3453.0] in to buy mortgages and other safer, or at least perceived to be safe assets.
+  [ 3453.5- 3457.2] And that timing would also fit with the 98 or so beginning.
+  [ 3459.0- 3461.8] So those are some arguments against the view
+  [ 3461.8- 3464.7] that the monetary policy was a big source, an important source.
+  [ 3465.6- 3468.7] But I emphasize economists continue to debate this issue,
+  [ 3469.3- 3474.5] and it's a very important issue because going forward,
+  [ 3474.6- 3477.4] we also have to think about the implications
+  [ 3477.4- 3479.1] of our low interest rates on the economy
+  [ 3479.1- 3480.3] and on the financial system.
+  [ 3480.7- 3484.0] And in particular, currently, just out of caution,
+  [ 3484.0- 3493.1] And we're doing a lot of financial oversight and a lot of regulatory oversight to make sure
+  [ 3493.1- 3497.2] that at least do the best we can to ensure that nothing is getting unbalanced
+  [ 3497.2- 3498.4] in the financial system.
+  [ 3499.9- 3503.7] Here are a few references just to take with you if you want to get into this more.
+  [ 3504.0- 3508.2] The bottom one is a speech I gave a couple years ago which summarizes some of the evidence.
+  [ 3509.5- 3513.3] My speech is based very heavily on the second paper which is the result
+  [ 3513.3- 3515.4] of all the internal Federal Reserve research.
+  [ 3516.5- 3520.7] There's a paper there by Carmen Reinhardt and Vincent Reinhardt which makes the point
+  [ 3520.7- 3526.8] that interest rates didn't move enough to move house prices and they also make the point
+  [ 3526.8- 3532.5] about capital inflows and then Kenneth Kuttner is a recent survey which comes
+  [ 3532.5- 3536.3] to conclusion again that there was no connection.
+  [ 3536.6- 3539.9] But again, I emphasize that this is something that continues to be debated.
+  [ 3541.4- 3543.7] Well, what were the consequences of the crisis?
+  [ 3543.8- 3545.6] We'll talk more about the crisis next time,
+  [ 3545.7- 3549.8] but the economic consequences were severe.
+  [ 3550.9- 3552.6] Here's a measure of financial stress.
+  [ 3553.0- 3558.1] It's just an index which combines a variety of financial indicators that indicate
+  [ 3558.1- 3559.9] that the financial system is under great stress.
+  [ 3560.0- 3564.4] And you can see what happened in 2008, 2009.
+  [ 3565.3- 3567.9] Sharp increase in financial stress in the financial markets.
+  [ 3568.9- 3572.6] Stock market plunged and we've been talking
+  [ 3572.6- 3577.8] about the first decline there where it says 2000,
+  [ 3578.1- 3579.9] the 2001 recession.
+  [ 3580.9- 3586.3] That was the very large decline in tech stocks,
+  [ 3586.7- 3588.5] but notice the decline in the stock market
+  [ 3588.5- 3590.4] in the more recent recession was even bigger
+  [ 3590.4- 3592.9] than the one in 2000, 2001.
+  [ 3594.9- 3595.9] Here's home construction.
+  [ 3596.2- 3597.8] You can see the very sharp decline there.
+  [ 3598.8- 3602.4] Home construction fell before the recession because, of course,
+  [ 3602.4- 3605.3] it was a trigger of the crisis, but looking to the right,
+  [ 3605.3- 3608.3] you can see it still hasn't really begun to recover.
+  [ 3610.2- 3615.2] And then finally, unemployment rose very sharply, peaked around 10 percent
+  [ 3615.8- 3619.6] and has currently fallen down to about 8.3 percent.
+  [ 3621.1- 3625.1] So in the next two lectures, we're going to get into the crisis in more detail,
+  [ 3625.1- 3629.3] about how the housing boom and bust and the vulnerabilities
+  [ 3629.3- 3633.1] in the financial system led to the worst financial crisis
+  [ 3633.1- 3635.8] at least since the Great Depression and possibly even worse
+  [ 3635.8- 3639.3] than in the Depression and how the Fed responded to that crisis.
+  [ 3639.8- 3642.8] And then in lecture four, we'll talk about the recession,
+  [ 3643.4- 3645.1] recovery, and the aftermath,
+  [ 3645.2- 3647.4] and again the policy responses there.
+  [ 3648.8- 3653.2] So that's what I wanted to cover today,
+  [ 3653.2- 3657.1] and we do have a few minutes and I'd be happy to take questions, yeah.
+  [ 3667.7- 3674.7] In the previous lecture we discussed that the depression, it seemed that policy was
+  [ 3674.7- 3681.3] tightened too early and that led to a double dip and then today we were discussing that
+  [ 3681.3- 3685.0] policy in the 70s was too slow to tighten.
+  [ 3685.9- 3691.5] And how do we know when the right time is, and is there a right time or does it vary
+  [ 3691.5- 3692.1] all the time?
+  [ 3693.1- 3693.2] CHAIRMAN BERNANKE.
+  [ 3693.2- 3700.9] Well, it's challenging, and that's certainly one of the reasons that, you know, we have
+  [ 3700.9- 3706.9] so many economists and models and everything, you know, we can use to try to figure out
+  [ 3706.9- 3711.5] what the appropriate moment is to tighten or to ease policy, and it's not an easy thing.
+  [ 3711.5- 3715.3] and forecasting is not very accurate, and so we have
+  [ 3715.3- 3717.2] to provisionally keep looking at what's happening
+  [ 3717.2- 3718.9] and making adjustments as we go along.
+  [ 3719.6- 3722.6] The 70s was particularly difficult because at
+  [ 3722.6- 3727.1] that time inflation expectations were not at all tied down.
+  [ 3728.0- 3732.9] One thing that happened then was that if gas prices went
+  [ 3732.9- 3736.5] up then people began to expect higher inflation
+  [ 3737.1- 3739.5] and then they began to go and demand higher wages
+  [ 3739.5- 3744.0] to compensate for the higher prices, but then of course higher wages would feed
+  [ 3744.0- 3748.1] through to higher prices and so on and so on, and that in turn was a result of
+  [ 3748.1- 3751.0] the fact that everybody expected inflation to go up, nobody had any
+  [ 3751.0- 3754.0] confidence that the Fed or the government in general would keep
+  [ 3754.0- 3758.7] inflation low and stable. Now a very different situation now fortunately, and
+  [ 3758.7- 3763.4] this owes a lot to Paul Volcker and to Chairman Greenspan as well, is that
+  [ 3763.4- 3766.4] after a long period of low inflation most people are pretty comfortable that
+  [ 3766.4- 3769.9] of inflation will stay reasonably low, give it with-despite the fact
+  [ 3769.9- 3773.3] that there are ups and downs, you know, with gas prices and so on.
+  [ 3773.6- 3779.2] And that helps a lot because with inflation staying low, the Fed has more leeway.
+  [ 3781.1- 3787.9] If policy is easy for a period, that's not necessarily going to feed into a wage price spiral
+  [ 3787.9- 3790.4] that will create a much bigger inflation problem down the road.
+  [ 3790.8- 3793.7] So keeping inflation expectations low and stable is, in fact,
+  [ 3793.7- 3797.3] one of the great accomplishments of Chairman Volcker
+  [ 3797.3- 3800.0] and Chairman Greenspan and an important objective
+  [ 3800.0- 3802.1] of central banks around the world.
+  [ 3802.6- 3804.4] So the environment changes over time.
+  [ 3804.5- 3807.9] It's a difficult task, but the 70s was particularly difficult
+  [ 3807.9- 3812.7] because at that time with expectations so volatile,
+  [ 3814.2- 3816.7] any kind of inflation pressure from gas prices
+  [ 3816.7- 3819.7] wherever quickly fed into wage demands
+  [ 3819.7- 3821.5] and into other prices.
+  [ 3821.6- 3823.1] So it was a much more difficult situation.
+  [ 3824.3- 3833.8] Hi, my name is Jonathan Cohen.
+  [ 3834.1- 3840.1] So I had a question about the low interest rate monetary policy that you mentioned in
+  [ 3840.1- 3846.3] the early 2000s and how your view with all the different research that was conducted
+  [ 3846.7- 3852.3] is that it didn't spark the drop in housing that we had.
+  [ 3853.2- 3859.8] So if, as in your role as Fed Chairman, if you were Chairman now, do you think that
+  [ 3859.8- 3860.6] It was the right-
+  [ 3860.6- 3860.9] I'm chairman now.
+  [ 3861.1- 3861.3] Yeah.
+  [ 3861.8- 3862.2] Sorry.
+  [ 3862.4- 3870.4] If you were chairman in 2001, would you have kept rates that low, or if not, do you think
+  [ 3870.4- 3874.9] it was the correct thing to do, although it didn't-although you don't think it affected
+  [ 3875.8- 3877.0] the housing crisis?
+  [ 3878.5- 3883.0] The very first, I believe, yes, the very first speech-I was a governor of the Fed
+  [ 3883.0- 3883.6] during that time.
+  [ 3883.6- 3888.2] I was on the Fed board during that time, and the very first speech I wrote when
+  [ 3888.2- 3892.9] I became a governor in 2002 was about bubbles
+  [ 3892.9- 3894.9] and financial supervision and regulation.
+  [ 3895.5- 3898.9] And the theme of my speech was use the right tool for the job.
+  [ 3899.5- 3904.8] The problem with tying interest rate policy to perceived bubbles
+  [ 3904.8- 3907.9] and asset prices is it's like using a sledgehammer
+  [ 3907.9- 3911.2] to, you know, kill a mosquito.
+  [ 3911.5- 3914.4] I mean, the problem is housing is only one part of the economy.
+  [ 3914.4- 3919.1] If an interest rates are dedicated to achieving overall economic stability.
+  [ 3919.6- 3925.0] So, we estimate that in order to have stopped the increase in house prices,
+  [ 3925.2- 3928.5] interest rates would have been, had been raised very dramatically in a period
+  [ 3928.5- 3931.7] where the economy was very weak, unemployment was still above normal,
+  [ 3932.2- 3934.0] inflation was falling down towards zero.
+  [ 3934.6- 3941.8] And so, the right generally speaking, the right way to use monetary policy is
+  [ 3941.8- 3944.0] to achieve overall macroeconomic stability.
+  [ 3944.0- 3946.9] And that doesn't mean you should ignore financial imbalances.
+  [ 3947.0- 3949.9] And I think what we could have done,
+  [ 3950.2- 3952.0] the Federal Reserve could have done, would have been
+  [ 3952.0- 3953.6] to have been more aggressive on the supervisory
+  [ 3953.6- 3956.2] and regulatory side to make sure, for example,
+  [ 3956.3- 3958.2] that the mortgages that were being made were of better
+  [ 3958.2- 3961.1] quality and that firms were appropriately monitoring their
+  [ 3961.1- 3961.9] risks and so on.
+  [ 3962.0- 3963.6] So I think the first line
+  [ 3963.6- 3966.6] of defense should be regulation and supervision.
+  [ 3968.5- 3971.1] Now, I think one of the lessons I talked
+  [ 3971.1- 3973.8] about today was not to be too sure of anything.
+  [ 3975.5- 3980.8] And for that reason, I think we should never rule out the possibility that if all
+  [ 3980.8- 3986.2] of our regulatory and other types of interventions don't achieve the stability
+  [ 3986.2- 3991.5] in the financial system we want, that as a last resort, monetary policy might, you know,
+  [ 3991.6- 3993.7] be modified to some extent to deal with that.
+  [ 3994.1- 3999.0] But again, because monetary policy is such a blunt tool which affects all asset prices
+  [ 3999.0- 4003.7] and affects the entire economy, if you can get a focused laser, you know,
+  [ 4003.7- 4005.8] you know, type of tool, that's going to be much better
+  [ 4005.8- 4006.2] for everybody.
+  [ 4007.5- 4007.9] Yeah.
+  [ 4010.4- 4012.9] At the end of the lecture, you mentioned the role
+  [ 4012.9- 4015.9] that global imbalances played in fueling the housing bubble.
+  [ 4016.6- 4019.0] So doesn't the current monetary and fiscal policy
+  [ 4019.0- 4020.8] that focuses on boosting consumption
+  [ 4020.8- 4024.8] in the United States from borrowing more,
+  [ 4025.0- 4027.1] doesn't that kind of lead us down the same road
+  [ 4027.1- 4030.7] of overconsumption from borrowing that we had
+  [ 4030.7- 4032.5] that got us into the crisis in the first place?
+  [ 4033.6- 4037.4] Well, first of all, the-we'd like to get a better balance in general.
+  [ 4038.2- 4041.4] So monetary policy stimulates capital formation as well.
+  [ 4042.6- 4044.3] It also tends to promote exports.
+  [ 4045.9- 4049.4] So we would like to get overall, over time, we'd like to get a better balance
+  [ 4049.4- 4052.8] of consumption, investment, and exports, as well as government spending.
+  [ 4052.8- 4055.1] Those are the main components of final demand.
+  [ 4055.3- 4058.7] So monetary policy is consistent with a better balance.
+  [ 4059.8- 4063.9] But that being said, you know, we are now way below where we were before the crisis.
+  [ 4064.2- 4066.3] Consumer spending has not, you know, recovered.
+  [ 4066.6- 4069.5] It's still quite weak relative to where it was before the crisis.
+  [ 4070.0- 4071.9] Private debt has come down quite a bit.
+  [ 4072.3- 4074.3] And, importantly, you mentioned the global imbalances.
+  [ 4074.3- 4076.3] So we're talking about the current account imbalance
+  [ 4076.3- 4078.3] or the trade deficit that the U.S. has.
+  [ 4079.2- 4080.8] It has come down quite significantly.
+  [ 4081.6- 4085.1] So all those things have moved, you know, if anything,
+  [ 4085.1- 4089.7] in some sense too far in the short run because we lack a source
+  [ 4089.7- 4091.8] of demand to keep the economy growing.
+  [ 4092.4- 4098.5] Now, again, I agree that just as every country needs
+  [ 4098.5- 4101.3] to have an appropriate balance of consumption, capital formation,
+  [ 4101.5- 4104.4] exports, and government spending, and that's an important task
+  [ 4104.4- 4109.2] for us going forward, but right now, in terms of debt
+  [ 4109.2- 4111.9] and consumption and so on, we're still, you know,
+  [ 4111.9- 4115.2] way low relative to the pattern before the crisis.
+  [ 4123.0- 4128.4] My name is Alexander Akul, and the latter part of your lecture was about monetary policy
+  [ 4128.4- 4134.3] in the 2000s after the dot-com bubble and how interest rates were kept low, of course.
+  [ 4135.5- 4139.8] You argue that that wasn't a trigger to the increase in rising, the increase in house
+  [ 4139.8- 4146.6] prices, but to look at from another point of view, could, what's your take on the
+  [ 4146.6- 4152.1] that the low interest rates cause private investors and banks
+  [ 4152.1- 4156.5] to make riskier trades because of the low interest rates
+  [ 4156.5- 4158.9] at the time and how that could have also been a trigger
+  [ 4158.9- 4159.9] to the crisis?
+  [ 4160.9- 4162.9] Well, that's a good question, and I think there is some effect
+  [ 4162.9- 4165.0] of low interest rates on risk-taking.
+  [ 4165.6- 4167.4] But once again, very similar
+  [ 4167.4- 4169.1] to the previous question, it's an issue
+  [ 4169.1- 4170.2] of getting the right balance.
+  [ 4171.8- 4174.1] You know, during a recession, generally speaking,
+  [ 4174.1- 4178.3] on-on most dimensions, investors become very cautious.
+  [ 4178.6- 4181.8] That's certainly where they've been for much of the recent past.
+  [ 4182.0- 4185.2] And so, again, you want to get an appropriate balance
+  [ 4185.2- 4187.7] between the amount of risk being taken, not too much,
+  [ 4187.9- 4190.9] not too little, and-but once again,
+  [ 4190.9- 4194.9] this is yet another reason why financial supervision
+  [ 4194.9- 4196.7] and regulation needs to be playing a role.
+  [ 4197.4- 4200.3] That's-particularly with institutions, large institutions,
+  [ 4202.4- 4206.7] We need to be looking directly at those firms and making sure
+  [ 4206.7- 4209.1] that they are managing their risks appropriately.
+  [ 4209.4- 4211.7] So, again, it's a question, what's the right tool for the job?
+  [ 4212.3- 4213.3] I should go over on this side.
+  [ 4213.4- 4213.9] Mr. Lippman.
+  [ 4217.4- 4217.6] All right.
+  [ 4217.9- 4218.2] Daniel Lippman.
+  [ 4218.8- 4222.9] The slides on the housing bubble like show how clearly one thing led
+  [ 4222.9- 4226.8] to another like rising prices and then eventually like a fall.
+  [ 4227.3- 4229.9] When you were observing the economy in the 2000s,
+  [ 4230.0- 4233.2] what did you think would happen like to the rising prices?
+  [ 4233.2- 4238.8] house prices and the housing bubble, did you think that it would eventually lead to a recession?
+  [ 4239.6- 4248.3] Because I know there's a book called The Big Short where some investors were very prescient in shorting that.
+  [ 4248.6- 4249.7] What's your take on that?
+  [ 4251.0- 4261.5] Well, as I tried to argue, the decline in house prices itself, by itself, was not obviously a major threat.
+  [ 4261.5- 4267.8] when I was a-when I was the chief-I was the-I was the head of the chairman-I was the chairman
+  [ 4267.8- 4274.3] of the Council of Economic Advisers for President Bush, and in 2005, we did a analysis for him
+  [ 4274.3- 4275.9] of what would happen if house prices came down.
+  [ 4276.2- 4278.4] And what we concluded was, well, we'd have a recession,
+  [ 4279.0- 4283.8] but we didn't anticipate that-the financial crisis, we didn't anticipate that the decline
+  [ 4283.8- 4286.0] in house prices would have such a broad-based effect
+  [ 4286.0- 4287.9] on the stability of the financial system.
+  [ 4288.4- 4292.8] When I became chairman in 2006, house prices were already declining.
+  [ 4293.6- 4297.3] And in my two weeks after I became chairman, I gave a testimony
+  [ 4297.3- 4301.4] where I said house prices are falling, that's going to have negative impacts in the economy
+  [ 4301.4- 4303.7] and we're not sure of all the consequences and so on.
+  [ 4304.1- 4309.7] So the fact that house prices might come down, you know, that was always a possibility.
+  [ 4310.8- 4317.8] The really hard thing, at least in my view, to anticipate fully was that the effects
+  [ 4317.8- 4321.3] of the decline in house prices would be so much more severe than the sort
+  [ 4321.3- 4324.9] of similar decline in dot-com stocks.
+  [ 4325.5- 4329.1] And again, the reason, as I'll get into more next time, is the ways
+  [ 4329.1- 4332.1] in which the decline in house prices affected mortgages,
+  [ 4332.4- 4336.7] affected the soundness of the financial system and created a panic which,
+  [ 4336.8- 4339.3] in turn, led to the instability of the financial system.
+  [ 4339.3- 4342.0] So it was that whole chain of events that was critical.
+  [ 4342.2- 4343.9] It was not just decline in house prices.
+  [ 4343.9- 4344.8] It was the whole chain.
+  [ 4346.3- 4355.1] My name is Miles McGreevy. Amidst the dispersion of cheap credit in the years preceding the
+  [ 4355.1- 4359.9] housing crisis, there was a bipartisan push for American homeownership, originally spearheaded
+  [ 4359.9- 4364.0] by President Clinton and later carried on by George W. Bush. To what degree could it
+  [ 4364.0- 4367.8] be argued that aggressive government policies supporting increased lending during this
+  [ 4367.8- 4371.4] period contributed to the eventual erosion of credit standards on behalf of the mortgage
+  [ 4371.4- 4371.9] originators?
+  [ 4371.9- 4374.8] That's a very good question, another controversial question.
+  [ 4376.0- 4380.5] Certainly, there was some pressure to increase home ownership.
+  [ 4380.8- 4384.3] There was the American Dream aspect of owning a home and so on.
+  [ 4384.4- 4386.7] Home ownership rose during this period.
+  [ 4387.7- 4390.8] But I think to put it all in the government is probably wrong in this case.
+  [ 4391.8- 4398.5] Most of the worst loans were made by private sector lenders and then sold
+  [ 4398.5- 4401.6] to private sector, through private sector securitizations.
+  [ 4401.6- 4404.4] That is, they didn't touch Fannie and Freddie, for example.
+  [ 4404.5- 4405.8] They went directly to investors.
+  [ 4406.8- 4410.5] Fannie and Freddie did acquire some subprime mortgages,
+  [ 4410.6- 4412.8] but actually that was a little bit later in the process rather
+  [ 4412.8- 4414.0] than at the beginning of the process.
+  [ 4414.5- 4417.4] So I think there was some of this going on everywhere,
+  [ 4417.8- 4419.8] but clearly the private sector, you know,
+  [ 4419.8- 4423.1] without any encouragement from the government was a big player
+  [ 4423.1- 4427.7] in the decline in mortgage underwriting and in the selling
+  [ 4427.7- 4431.1] of packaged mortgages to private investors.
+  [ 4432.6- 4433.1] Yeah.
+  [ 4436.6- 4440.6] So, I think one of the hallmarks of the Fed under your leadership has been your commitment
+  [ 4440.6- 4444.6] to transparency, and I think, you know, we're all benefits of that in the room here.
+  [ 4445.1- 4451.5] But I'm wondering whether you think perhaps too much transparency could actually damage
+  [ 4452.2- 4455.9] credibility of a central bank, with you sort of get things wrong, I guess.
+  [ 4456.5- 4456.8] Okay.
+  [ 4456.8- 4459.7] So you're a little bit off topic here because we didn't get to transparency today.
+  [ 4460.2- 4463.1] But just generally, I think, I agree,
+  [ 4463.2- 4464.5] a transparency is very important.
+  [ 4466.0- 4467.9] It's important for at least a couple of reasons.
+  [ 4468.0- 4470.2] One is I talked already about the importance
+  [ 4470.2- 4471.9] of a central bank being independent.
+  [ 4472.0- 4473.1] So there is one linkage there.
+  [ 4474.1- 4475.9] But if a central bank is independent
+  [ 4477.3- 4480.0] and making important decisions which affect everybody,
+  [ 4480.5- 4482.1] then obviously it's got to be accountable.
+  [ 4482.7- 4484.7] People have to understand what it's doing,
+  [ 4484.8- 4487.0] why it's doing it, what, you know,
+  [ 4487.0- 4488.2] what's the basis of its decisions.
+  [ 4488.2- 4491.4] And so for democratic accountability, I think it's important
+  [ 4491.4- 4492.9] for the central bank to be transparent.
+  [ 4493.1- 4497.7] And I testify all the time, I give speeches, I have all kinds
+  [ 4497.7- 4499.7] of town halls and other kinds of meetings like this.
+  [ 4499.8- 4502.1] And I think it's very important for me at press conferences,
+  [ 4502.4- 4503.2] I think it's very important for me
+  [ 4503.2- 4505.0] to explain what we're doing and why we're doing it.
+  [ 4505.1- 4507.2] So that's one reason for transparency.
+  [ 4508.1- 4512.8] The other is that over time there's been increased
+  [ 4512.8- 4516.0] understanding that for most of the time transparency can make
+  [ 4516.0- 4517.5] monetary policy work better.
+  [ 4517.5- 4521.2] So, for example, if the Federal Reserve communicates
+  [ 4522.2- 4528.1] that its future actions will be X or Y and conveys
+  [ 4528.1- 4532.0] that information to the markets, the markets may respond
+  [ 4532.0- 4534.6] to that by building those expectations into interest rates
+  [ 4534.6- 4536.7] and may have a more powerful effect in the economy.
+  [ 4537.2- 4539.9] So, communication also reduces uncertainty
+  [ 4539.9- 4544.0] and helps increase the impact of monetary policy
+  [ 4544.0- 4544.9] in financial markets.
+  [ 4545.2- 4546.6] I have time only for one more.
+  [ 4547.5- 4547.9] Yes.
+  [ 4556.8- 4557.7] Thank you, Mr. Chairman.
+  [ 4558.2- 4559.4] My name is Jay Murchandani.
+  [ 4560.1- 4563.2] And my question is in regards to price stability and inflation expectations.
+  [ 4563.5- 4567.9] You mentioned the importance of that in macroeconomic stability and long-run economic growth.
+  [ 4568.4- 4572.0] And given the massive amounts of liquidity that's been pumped into the market recently,
+  [ 4572.2- 4575.6] how has the Fed been able to maintain inflation expectations so low?
+  [ 4576.6- 4578.1] So we're going to have to come back.
+  [ 4578.2- 4581.3] Let me ask for us to try to stick with the particular topic.
+  [ 4581.6- 4584.9] On the last day, we'll be talking about current monetary policy.
+  [ 4584.9- 4585.9] and we'll have plenty of opportunities.
+  [ 4586.4- 4589.4] But let me just answer it just in the following very brief way,
+  [ 4589.4- 4594.2] which is that I think we owe something to our predecessors
+  [ 4594.2- 4596.8] in this respect, Chairman Volcker in particular,
+  [ 4597.4- 4599.3] and also Chairman Greenspan, you know,
+  [ 4599.3- 4601.3] got inflation down low and kept it there.
+  [ 4602.1- 4605.4] And people get used to what they see, right?
+  [ 4605.5- 4608.5] And in a world in which inflation remains low,
+  [ 4609.3- 4612.2] you know, year after year, people are going to become more
+  [ 4612.2- 4614.3] and more confident that the central bank, the Fed,
+  [ 4614.3- 4618.3] or whoever will meet its mandate of keeping inflation low.
+  [ 4618.4- 4621.2] And so it has been very striking
+  [ 4621.2- 4623.9] that even though we've had movements in oil prices
+  [ 4623.9- 4627.2] and other shocks to the economy, a deep recession,
+  [ 4627.4- 4629.2] a financial crisis, everything, throughout most
+  [ 4629.2- 4633.4] of the period inflation expectations have been very well
+  [ 4633.4- 4636.9] tied down to about the 2 percent range
+  [ 4636.9- 4638.8] that the Fed is trying to hit.
+  [ 4639.9- 4642.9] Thanks. And next week we'll go into more into the crisis.
+  [ 4643.3- 4643.9] Thank you very much.
+  [ 4650.4- 4653.8] Okay, well this has certainly exceeded my expectations and we're grateful that you
+  [ 4653.8- 4658.6] stayed all the way to two o'clock yet again. As with Tuesday, I know that there
+  [ 4658.6- 4662.4] are still pent up questions students that you have and so why don't you send
+  [ 4662.4- 4666.3] one or two questions to the Blackboard site so we can capture them so we can
+  [ 4666.3- 4669.3] talk about them not next week but the following week when we have our
+  [ 4669.3- 4672.6] discussions. Have a great weekend everybody, we will see you next week.
+  pick 328-354s: Bernanke on *independent* central banks
+  pick 1177-1197s: Bernanke recalls *18.5%* mortgage rates
+  pick 2091-2124s: Bernanke on *no-doc* mortgage loans
+clip: clip_bernanke_lecture_2_1
+  -> clip_bernanke_lecture_2_1.mp4 | Fed Chair Bernanke: Why central banks must remain independent
+clip: clip_bernanke_lecture_2_2
+  -> clip_bernanke_lecture_2_2.mp4 | Fed Chair Bernanke: Mortgage rates reached 18.5 percent in the 1980s
+clip: clip_bernanke_lecture_2_3
+  -> clip_bernanke_lecture_2_3.mp4 | Fed Chair Bernanke: Mortgage standards collapsed leading into 2008
+scout bernanke_lecture_3: Chairman Bernanke's College Lecture Series, The Federal Reserve and the Financial Crisis, Part 3.webm | {'width': 1280, 'height': 720, 'duration': 4417.6}
+  commons: date=2012-03-27 | license=Public domain | The Federal Reserve's Response to the Financial Crisis
+Transcript: http://www.federalreserve.gov/files/chairman-bernanke-lecture3-20120327.pdf
+  [    3.4-    4.6] Hello, welcome back.
+  [    7.7-   10.9] So, Professor Ford says today we want to talk
+  [   10.9-   13.6] about the Federal Reserve's response to the financial crisis.
+  [   15.2-   17.4] Now, let me, in the last couple of lectures,
+  [   17.6-   21.1] I've mentioned a key theme of the lectures
+  [   21.1-   24.8] which is the two main responsibilities of central banks,
+  [   25.3-   28.4] financial stability and economic stability.
+  [   28.6-   30.4] Let me turn it around just a bit and talk
+  [   30.4-   33.5] about the two main tools for financial stability,
+  [   33.5-   36.8] the main tool that central banks have is lender of last resort powers.
+  [   37.0-   40.6] By providing short-term liquidity to financial institutions
+  [   40.6-   46.0] for placing lost funding, central banks, as they have for now a number
+  [   46.0-   49.2] of centuries, can help calm a financial panic.
+  [   49.9-   53.5] For economic stability, the principal tool is monetary policy.
+  [   54.0-   55.1] Of course, in normal times,
+  [   55.1-   58.1] that involves adjusting the level of short-term interest rates.
+  [   59.1-   62.6] Now, today, I'm going to be focusing primarily on the intense phase
+  [   62.6-   68.0] of the financial crisis in 2008-2009, and so I'll be focusing primarily
+  [   68.0-   70.8] on the lender of last resort function of the central bank.
+  [   71.4-   74.1] I'll come back to monetary policy in the final lecture when we talk
+  [   74.1-   75.9] about the aftermath and the recovery.
+  [   78.3-   83.4] Now, last time, this is just a repeat from last time, I talked about some
+  [   83.4-   88.3] of the vulnerabilities in the financial system that transformed the decline
+  [   88.3-   94.3] in housing prices, which by itself seemed no more threatening than the decline
+  [   94.3-   99.7] in dot-com stock prices, but because of these vulnerabilities,
+  [   99.9-  105.2] that decline in housing prices led to, obviously, a very severe crisis.
+  [  105.7-  109.1] The vulnerabilities I talked about last time were private sector vulnerabilities,
+  [  109.8-  116.3] including the excessive debt taken on, perhaps because of the period of the great moderation.
+  [  116.9-  120.5] Very importantly, the banks' inability to monitor their own risks,
+  [  121.9-  125.3] excessive reliance on short-term funding, which as a bank
+  [  125.3-  129.4] in the 19th century would tell you makes it vulnerable to a run
+  [  129.4-  133.0] as short-term funding is pulled away, and increased use
+  [  133.0-  135.5] of exotic financial instruments like credit default swaps
+  [  135.5-  138.7] and others that concentrated risk in particular companies
+  [  138.7-  139.8] or in particular markets.
+  [  140.4-  141.7] So that was the private sector.
+  [  141.8-  143.5] The public sector had its own vulnerabilities,
+  [  144.1-  146.1] including gaps in the regulatory structure
+  [  146.1-  149.0] important firms and markets did not have adequate oversight.
+  [  149.7-  153.0] Where there was adequate oversight, at least in law,
+  [  153.4-  155.0] sometimes the supervisors
+  [  155.0-  157.1] and regulators didn't do a good enough job.
+  [  157.5-  159.9] For example, there wasn't enough attention paid
+  [  159.9-  164.4] to enforcing banks to do a better job of monitoring
+  [  164.4-  165.9] and managing their risks.
+  [  166.7-  171.9] And finally, an important gap that we've really begun to look
+  [  171.9-  173.9] at since the crisis is
+  [  173.9-  176.9] that with individual agencies looking at different parts
+  [  176.9-  179.6] of the system, there was not enough attention being paid
+  [  179.6-  182.1] to the stability of the financial system taken
+  [  182.1-  182.7] as a whole.
+  [  184.8-  186.3] Let me talk just a moment more
+  [  186.3-  189.2] about another important public sector vulnerability
+  [  189.8-  192.9] and these were the so-called government sponsored
+  [  192.9-  194.7] enterprises, Fannie Mae and Freddie Mac.
+  [  195.7-  198.1] Now, Fannie Mae and Freddie Mac are nominally private
+  [  198.1-  200.8] corporations, they have shareholders and a board,
+  [  201.3-  204.1] but they were established by Congress in support
+  [  204.1-  205.6] of the housing industry and they're known
+  [  205.6-  208.8] as government-sponsored enterprises or GSEs.
+  [  209.4-  214.2] Now Fannie and Freddie, as they're called, don't make mortgages.
+  [  214.3-  216.7] You can't go to Fannie's headquarters and get a mortgage.
+  [  216.8-  222.3] What they do instead is they are the middleman, so to speak,
+  [  222.6-  224.4] between the originator of the mortgage
+  [  224.4-  226.2] and the ultimate holder of the mortgage.
+  [  226.5-  228.7] So if you're a bank and you make a mortgage loan,
+  [  229.2-  231.4] if you like, you can take the mortgage that you made
+  [  231.4-  233.7] and you can sell it to Fannie or Freddie.
+  [  233.7-  239.2] They will in turn take all the mortgages that they collect, put them together into mortgage-backed
+  [  239.2-  241.1] securities, so-called MBS.
+  [  241.8-  247.1] So mortgage-backed securities is just a security which is a combination of hundreds or thousands
+  [  247.1-  252.5] of underlying mortgages, and then sell that to the investors.
+  [  253.2-  258.6] That's a process called securitization, and Fannie and Freddie pioneered this basic approach
+  [  258.6-  260.5] to getting funding for mortgages.
+  [  260.5-  263.5] In particular, the GSEs, Fannie and Freddie,
+  [  264.0-  266.8] when they sell their mortgage-backed securities,
+  [  266.9-  269.5] they provide guarantees against credit loss.
+  [  269.6-  274.7] So if mortgages go bad, Fannie and Freddie make the investor whole.
+  [  276.4-  280.7] Now, Fannie and Freddie were permitted to operate with inadequate capital.
+  [  282.2-  285.5] So in particular, they were at risk in a bad situation where there were a lot
+  [  285.5-  288.5] of mortgage losses, they didn't have enough capital to pay off,
+  [  288.5-  290.9] made good those guarantees that they had promised.
+  [  291.6-  295.8] And while many aspects of the financial crisis were not well anticipated, this one was.
+  [  296.3-  301.4] And going back for at least a decade before the crisis, the Fed and many other people,
+  [  301.4-  306.2] you know, said that the Fannie and Freddie just didn't have enough capital
+  [  306.2-  311.2] and that they were, in fact, a danger to the stability of the financial system.
+  [  312.0-  315.2] What made the situation even somewhat worse was that Fannie and Freddie,
+  [  315.2-  318.5] besides selling these mortgage-backed securities
+  [  318.5-  320.6] to investors, they also purchased
+  [  320.6-  323.1] on their own account large amounts
+  [  323.1-  326.1] of mortgage-backed securities, both their own and some
+  [  326.1-  328.1] that were issued by the private sector.
+  [  329.9-  333.7] So they made profits from holding those mortgages,
+  [  333.8-  335.9] but again, that created an additional to the extent
+  [  335.9-  339.2] that those mortgages were not insured or protected.
+  [  339.6-  342.0] They were vulnerable to losses, and again,
+  [  342.0-  345.4] and without enough capital, they were at risk.
+  [  347.0-  350.6] Now, an important trigger, and I'll come back to all these issues, but an important trigger
+  [  350.6-  353.6] that I talked about a little bit last time, I'm going to say a little bit more about it.
+  [  353.9-  358.1] Again, it wasn't just the house price boom and bust, but it was the mortgage products
+  [  358.1-  363.1] and practices that went along with the house price movements that was particularly damaging.
+  [  365.4-  369.4] There were a lot of exotic mortgages, by which I mean sort of nonstandard, you know,
+  [  369.4-  372.1] standard mortgages, 30-year prime, fixed-rate mortgage.
+  [  372.5-  374.6] There are all different other kinds of mortgages being offered
+  [  374.6-  377.9] and often to people with weaker credit.
+  [  379.7-  384.1] Now, one feature that many of these mortgages had was that in order for them
+  [  384.1-  389.6] to be repaid, you had to have ongoing increases in house prices.
+  [  390.4-  397.3] So, for example, you might be a mortgage borrower who would buy an adjustable rate mortgage,
+  [  397.3-  400.9] and arm, where the initial interest rate was, say, 1 percent,
+  [  401.3-  402.9] which meant that you could afford the payment
+  [  402.9-  404.5] for the first year or two.
+  [  406.2-  409.1] Now, after two years, the mortgage might go up to 3 percent,
+  [  409.2-  411.8] and after four years, 5 percent, and then higher and higher.
+  [  412.3-  417.0] So in order to avoid that, you had to, at some point,
+  [  417.2-  418.9] refinance into a more standard mortgage.
+  [  419.0-  423.1] And as long as house prices were going up, creating equity
+  [  423.1-  425.6] for homeowners, then it was possible to do that refinance.
+  [  425.6-  431.0] But once home prices stopped rising, and by 2006, they were already declining quite sharply,
+  [  432.4-  436.3] borrowers were finding themselves, rather than having billing equity,
+  [  436.4-  438.9] they found themselves underwater, they couldn't refinance,
+  [  439.2-  445.9] and they found themselves stuck with these increasing payments on their mortgages.
+  [  447.7-  449.9] Here's some examples of bad mortgage practices.
+  [  450.0-  451.1] I won't go through all of them.
+  [  451.8-  455.9] But they all have the characteristic, take, for example,
+  [  456.0-  457.4] the second one, an option arm.
+  [  457.9-  459.5] That's an adjustable rate mortgage,
+  [  459.9-  462.1] and the option is the borrower's option
+  [  462.1-  463.5] to vary how much they pay.
+  [  463.9-  465.3] They could pay less than the full amount,
+  [  465.3-  466.9] and what they didn't pay just got rolled back
+  [  466.9-  467.5] into the mortgage.
+  [  468.2-  470.6] So most of these mortgages had the feature
+  [  470.6-  474.2] that they reduced monthly payments, at least early
+  [  474.2-  475.9] in the mortgage, but allowed mortgage payments
+  [  475.9-  477.4] to rise over time.
+  [  477.8-  479.7] The other aspect of bad mortgage practices
+  [  479.7-  486.5] like no-doc loans, for example, was that there was very little underwriting,
+  [  486.7-  491.9] which means very little analysis to make sure that the borrower was creditworthy
+  [  491.9-  494.3] and was able to make the payments on the mortgage.
+  [  495.6-  500.9] Here's some advertisements from the period that can illustrate some of the issues.
+  [  501.6-  502.9] I like the one on the right.
+  [  504.3-  505.9] We took the name of the company off.
+  [  507.5-  510.0] But let's look at the features that they're offering here.
+  [  510.1-  511.6] One percent low start rate.
+  [  512.1-  514.1] Start rate, that's what you pay the first year.
+  [  514.2-  515.5] We don't tell you about the next year.
+  [  516.3-  518.9] Stated income, that means you tell us what your income is,
+  [  518.9-  520.9] we write it down, that's all the checking we do.
+  [  521.8-  523.8] No documentation, well that's evident.
+  [  524.5-  527.2] A hundred percent finance, no down payment in other words.
+  [  528.3-  530.6] Interest only loans, which means that you pay the interest
+  [  530.6-  532.1] but you don't have to pay any principal back.
+  [  533.0-  535.4] And debt consolidation, this was an interesting thing
+  [  535.4-  538.6] which meant that you could go to the mortgage company and say, well,
+  [  538.7-  542.4] not only do I want to borrow money to buy the house, but I want to add
+  [  542.4-  544.5] in all my credit card debt and everything else I owe and put
+  [  544.5-  547.7] that into one big mortgage payment and, you know,
+  [  547.7-  549.8] and I'll pay for that with the 1 percent start rate.
+  [  550.1-  552.1] So you can see that there are obviously some very
+  [  553.2-  554.5] problematic practices here.
+  [  555.3-  559.1] So now the mortgage companies and banks and savings and loans
+  [  559.1-  560.6] and a variety of other different kinds
+  [  560.6-  563.8] of institutions made these mortgages, but where did they go?
+  [  565.7-  571.2] Now, some of them were kept on the balance sheet of the mortgage originator, but many
+  [  571.2-  578.7] or most of these exotic or subprime mortgages were packaged in securities and sold off into
+  [  578.7-  579.2] the market.
+  [  581.3-  585.1] So for example, some of these securities were relatively simple.
+  [  585.6-  589.4] If the mortgages were sold to Fannie and Freddie, and they had to meet Fannie and
+  [  589.4-  591.2] Freddie's underwriting standards,
+  [  592.2-  593.6] Freddie and Freddie would combine them
+  [  593.6-  595.3] into mortgage-backed securities
+  [  595.3-  598.2] and sell them with a guarantee, as I described before.
+  [  598.3-  599.8] And those were relatively simple securities
+  [  599.8-  602.8] that were made up of basically just hundreds
+  [  602.8-  604.3] or thousands of underlying mortgages.
+  [  605.5-  607.0] But some of the securities that were created
+  [  607.0-  609.5] were very complex and very hard to understand.
+  [  610.0-  612.1] An example would be a collateralized debt obligation,
+  [  612.2-  613.0] or a CDO.
+  [  614.4-  617.7] This would often be a security to combine mortgages
+  [  617.7-  623.6] and other kinds of, uh, types of debt together in one package and it could be sliced in different
+  [  623.6-  628.6] ways so that, uh, you would sell to one investor, uh, the most safe part of the security and
+  [  628.6-  630.6] to another investor the most risky part of the security.
+  [  630.9-  633.5] So they were very complicated, took a lot of analysis.
+  [  634.6-  639.6] Now one reason that, um, many investors are willing to buy these securities were because
+  [  639.6-  645.0] they had the comfort of the rating agencies, um, whose job it is to rate the quality
+  [  645.0-  648.9] of bonds and other securities giving AAA ratings to many
+  [  648.9-  650.7] of these securities essentially saying that they're very,
+  [  650.7-  653.9] very safe and therefore you don't have to worry
+  [  653.9-  656.2] about the credit risk of these securities.
+  [  657.6-  659.7] So again, many of the securities were sold
+  [  659.7-  663.6] to investors including pension funds, insurance companies,
+  [  664.2-  668.6] foreign banks, even in some cases wealthy individuals.
+  [  669.5-  671.5] But also the financial institutions
+  [  671.5-  677.2] that either made these loans or created these securities often retain some of them as well.
+  [  678.5-  683.4] For example, sometimes they would create an accounting fiction, an off-balance sheet vehicle
+  [  684.0-  689.8] which would hold these securities and finance itself by cheap short-term funding
+  [  689.8-  694.2] like commercial paper. So some of these securities went to investors, some of them stayed
+  [  694.2-  699.9] with the financial institutions themselves. In addition, we had companies like AIG that were
+  [  699.9-  703.6] selling insurance, they were using various kinds
+  [  703.6-  706.5] of credit derivatives to basically to say, well,
+  [  707.2-  710.4] pay us a premium and if the mortgages
+  [  710.4-  712.2] in your mortgage backed security go bad,
+  [  712.3-  714.3] we'll make you good, we'll make you whole
+  [  714.3-  717.5] and that makes it triple A rated.
+  [  719.0-  723.9] Of course, these practices made the underlying securities
+  [  724.5-  728.8] no better and what they basically did was they created a situation
+  [  728.8-  732.0] where risks could be spread throughout the system.
+  [  733.4-  737.2] So here's a little bit of a diagram showing how a subprime mortgage
+  [  737.2-  741.8] securitization might work. On the left, where it's the box says low quality
+  [  741.8-  748.7] mortgages, you might have a mortgage company or a thrift company making the
+  [  748.7-  753.4] loans. Thrift company or the mortgage company doesn't care too much about the
+  [  753.4-  757.6] quality of the loan because they're going to sell it anyway. So they take
+  [  757.6-  763.1] the mortgages and they sell them to large financial firms who take those mortgages
+  [  763.1-  768.5] and maybe other securities as well, combine them into a security
+  [  768.5-  773.9] which is essentially an amalgamation of all the underlying mortgages and other securities.
+  [  774.8-  778.8] Now, the financial firm that created the security might negotiate
+  [  778.8-  782.4] with the credit rating agency to say, well, what do we have to do to get a AAA rating?
+  [  782.8-  785.3] And there would be negotiations and discussions, and in the end,
+  [  789.0-  794.1] The financial firm would then take the security could cut it up in different ways
+  [  794.1-  798.1] or just sell it as it is, sell it to investors like a pension fund
+  [  798.1-  803.9] or some other type of investor, but in addition, again, financial firms kept many
+  [  803.9-  809.1] of these securities on their own books or in related investment vehicles.
+  [  810.1-  813.9] And finally, you had over here on the right, you had credit insurers like AIG
+  [  813.9-  815.2] and other mortgage insurance companies, and you had a lot of credit insurance companies
+  [  815.2-  818.5] companies that for a fee provided insurance
+  [  818.5-  822.2] in case the underlying mortgages went bad.
+  [  822.4-  824.3] So this is kind of the basic structure.
+  [  824.6-  827.5] In actuality, I've seen some diagrams
+  [  827.5-  832.1] of the complete flowchart, and they're incredibly complex.
+  [  833.3-  835.0] This is a very simplified version,
+  [  835.0-  837.1] but the basic idea is here.
+  [  838.7-  840.9] OK, now remember, what is a crisis?
+  [  840.9-  846.9] A crisis or a financial panic occurs when you have any kind
+  [  846.9-  853.9] of financial institution, think of a bank, which has illiquid assets like long-term loans,
+  [  854.0-  858.5] for example, but liquid short-term liabilities like deposits.
+  [  859.2-  864.9] And in a classic bank panic, if bank depositors lose faith in the quality
+  [  864.9-  867.4] of the assets held by the bank, they run, pull out their money.
+  [  868.2-  874.1] The bank can't pay off everybody because they can't change their loans into cash fast enough.
+  [  874.6-  877.6] And so the run on the bank is self-fulfilling.
+  [  877.8-  882.5] The bank will either fail or it will have to dump all of its long-term assets quickly
+  [  882.5-  883.9] on the market and take big losses.
+  [  884.7-  890.1] So that's what a panic basically is in the context, say, of a banking system.
+  [  890.2-  895.0] Well, the crisis of 2008, 2009 was basically a classic financial panic
+  [  895.0-  898.2] but in a different institutional setting, not in the bank setting,
+  [  898.4-  900.5] but in a broader financial market setting.
+  [  901.1-  906.5] So, in particular, as house prices fell in 2006 and 2007,
+  [  907.2-  910.0] for the reasons I described as when house prices falling,
+  [  910.7-  915.0] people who borrowed on a subprime mortgage were not able
+  [  915.0-  917.2] to make the payments, which was increasingly evident that more
+  [  917.2-  919.5] and more of them were going to be delinquent or default,
+  [  920.7-  925.0] And that was going to impose losses on the financial firms,
+  [  925.1-  926.6] the investment vehicles they created
+  [  926.6-  928.6] and also on credit insurers like AIG.
+  [  930.7-  935.5] Unfortunately, the securities were so complex and the monitoring
+  [  935.5-  939.8] of the financial firms of their own risks was not sufficiently strong
+  [  940.3-  942.8] that there was, it wasn't just the losses.
+  [  943.3-  945.5] I mean, I think a very striking fact is
+  [  945.5-  948.2] that if you took all the subprime mortgages in the United States
+  [  948.2-  950.9] and put them all together and assume they were all worthless.
+  [  951.6-  955.2] The total losses to the financial system would be about the size
+  [  955.2-  956.4] of one bad day in the stock market.
+  [  956.8-  957.7] They just weren't that big.
+  [  958.4-  961.8] But what was the problem was, was that they were distributed
+  [  961.8-  964.0] throughout different securities and different places
+  [  964.5-  967.3] and nobody really knew where they were
+  [  967.3-  968.8] and who was going to bear the losses.
+  [  969.5-  971.5] So there was a lot of uncertainty created
+  [  971.5-  973.4] in the financial markets.
+  [  974.0-  977.0] And as a result, wherever you had short-term funding,
+  [  977.0-  979.7] whether it was commercial paper or other types of short-term funding.
+  [  981.6-  984.5] We had all kinds of funding that was not deposit insured.
+  [  984.6-  986.9] It was so-called wholesale funding.
+  [  987.1-  990.5] It came from investors and other financial firms.
+  [  991.9-  995.8] Whenever there was a doubt about a firm, just like in a standard bank run,
+  [  996.4- 1002.0] the investors, the lenders, the counter parties would pull back their money quickly
+  [ 1002.0- 1005.6] because the same reason that a depositor would pull their money out of a bank
+  [ 1005.6- 1007.3] that was thought to be having trouble.
+  [ 1008.0- 1013.2] So there was a whole series of runs which generated huge pressures on key financial firms
+  [ 1013.2- 1016.5] as they lost their funding and were forced to sell their assets quickly
+  [ 1017.1- 1020.2] and many important financial markets were badly disrupted.
+  [ 1022.5- 1029.5] Now, in the depression of the 30s, there were thousands of bank failures but the great,
+  [ 1029.6- 1033.0] almost all of the banks that failed in the 30s, at least in the United States,
+  [ 1035.4- 1037.9] And there were some larger banks that failed in Europe.
+  [ 1038.9- 1042.7] The difference in 2008 was there were many small banks
+  [ 1042.7- 1047.8] that failed in the United States, but there were also intense pressures on quite a few
+  [ 1047.8- 1050.6] of the largest financial institutions in the United States.
+  [ 1051.1- 1054.2] And the next two pages are just a short list of some of the firms
+  [ 1054.2- 1055.6] that came under intense pressure.
+  [ 1056.3- 1060.7] Bear Stearns, which is a broker dealer, came under very intense pressure
+  [ 1060.7- 1065.0] in the short-term funding markets in March of 2008.
+  [ 1065.8- 1071.6] It was sold to J.P. Morgan with Fed assistance in March.
+  [ 1073.8- 1076.7] Things calmed down a bit after that, and over the summer,
+  [ 1076.7- 1080.0] there was some hope that the financial crisis would moderate.
+  [ 1080.5- 1083.4] But then in the late summer, things really began to pick up.
+  [ 1084.7- 1089.2] In September 7th of 2008, Fannie and Freddie clearly were insolvent.
+  [ 1089.2- 1091.8] They didn't have enough capital to pay the losses
+  [ 1091.8- 1093.8] on their mortgage guarantees.
+  [ 1094.8- 1098.4] The Federal Reserve worked with the Fannie and Freddie's regulator
+  [ 1098.4- 1101.9] and with the Treasury to determine the size of the shortfall.
+  [ 1102.7- 1104.9] And over the weekend, the Treasury
+  [ 1104.9- 1108.4] with the Fed's assistance came in and took those firms
+  [ 1108.4- 1110.9] and put them into a form of limited bankruptcy
+  [ 1110.9- 1111.9] called conservatorship.
+  [ 1112.8- 1116.8] At the same time, the Treasury got authorization from Congress
+  [ 1116.8- 1120.8] to guarantee all of the Fannie and Freddie obligations.
+  [ 1121.1- 1125.0] And so if you held a Fannie and Freddie mortgage-backed security,
+  [ 1125.3- 1128.5] the company itself was now sort of in a partial bankruptcy,
+  [ 1128.9- 1130.5] but the U.S. government now guaranteed.
+  [ 1130.9- 1133.4] So that protected those investors.
+  [ 1133.9- 1138.2] That had to be done or else it would have been an enormous intensification of the crisis
+  [ 1138.2- 1142.7] because investors all over the world held literally hundreds
+  [ 1142.7- 1145.5] and billions of those securities.
+  [ 1147.2- 1150.6] Famously, in the middle of September, Lehman Brothers, a broker-dealer,
+  [ 1150.7- 1151.9] and I'll talk more about this.
+  [ 1152.0- 1156.9] I have a case study on this coming up, had severe losses.
+  [ 1157.1- 1158.7] It came under great pressure.
+  [ 1158.8- 1162.9] It couldn't find either anybody to buy it or to provide capital for it.
+  [ 1162.9- 1165.2] And so on September 15th, it filed for bankruptcy.
+  [ 1166.2- 1169.0] On the same day, Merrill Lynch, another big broker-dealer,
+  [ 1169.0- 1171.7] was acquired by the Bank of America, again,
+  [ 1171.7- 1177.3] in basically saving the firm from potential collapse.
+  [ 1179.4- 1183.1] On September 16th, the next day, AIG,
+  [ 1183.3- 1186.9] with the largest multi-dimensional insurance
+  [ 1186.9- 1190.5] company in the world, had, which remember,
+  [ 1190.7- 1193.6] had been selling the credit insurance,
+  [ 1194.2- 1200.3] came under enormous attack from the people demanding cash,
+  [ 1200.3- 1203.4] either through margin requirements or through short-term funding.
+  [ 1205.0- 1207.9] The Fed provided emergency liquidity assistance for AIG
+  [ 1208.6- 1210.0] and prevented the firm from failing.
+  [ 1210.5- 1211.8] Again, I'll come back to this as well.
+  [ 1212.7- 1214.9] Washington Mutual was one of the biggest thrift companies,
+  [ 1215.1- 1217.3] a big provider of subprime mortgages.
+  [ 1217.8- 1220.8] It was closed by regulators later in September.
+  [ 1221.4- 1224.3] After parts of the company were taken off,
+  [ 1224.7- 1226.5] JP Morgan acquired this company as well.
+  [ 1227.9- 1231.1] October 3rd, Wachovia, one of the five biggest banks in the United States,
+  [ 1232.7- 1234.8] again came under a serious pressure.
+  [ 1235.2- 1238.9] It was acquired by Wells Fargo, another large mortgage provider.
+  [ 1239.5- 1244.2] So this just gives you some sense of, these are some of the, all these firms I'm talking
+  [ 1244.2- 1247.6] about were among the top 10 or 15 financial firms in the United States
+  [ 1247.6- 1249.1] and similar things were happening in Europe.
+  [ 1249.2- 1252.5] So this was not a situation where only small banks were being affected.
+  [ 1252.7- 1254.1] I mean, that was a problem too, of course.
+  [ 1254.1- 1260.0] But here we had the biggest, largest, most complex international financial institutions
+  [ 1260.0- 1261.8] at the brink of failure.
+  [ 1263.9- 1268.0] Now, the lessons from the Great Depression going back are two.
+  [ 1268.9- 1271.0] First, you remember the Fed did not do enough
+  [ 1271.0- 1274.2] to stabilize the banking system in the 1930s.
+  [ 1274.2- 1277.3] And so the lesson there is that in a financial panic,
+  [ 1277.9- 1283.2] the central bank has to lend freely, according to Badgett's rules, to halt runs
+  [ 1283.2- 1285.8] and to try to stabilize the financial system.
+  [ 1286.6- 1288.4] And the second lesson of the Great Depression,
+  [ 1288.6- 1290.8] the Fed did not do enough to prevent deflation
+  [ 1290.8- 1293.5] and contraction of the money supply.
+  [ 1294.0- 1296.4] So the second lesson of the Great Depression is you need
+  [ 1296.4- 1298.8] to have accommodative monetary policy
+  [ 1298.8- 1304.2] to help the economy avoid a deep depression.
+  [ 1305.9- 1309.0] So in the heating those lessons, the Federal Reserve
+  [ 1309.0- 1311.4] and the Federal Government did take vigorous actions
+  [ 1311.4- 1312.7] to stop the financial panic.
+  [ 1313.2- 1318.2] I worked with other agencies and worked internationally
+  [ 1318.2- 1320.1] with foreign central banks and governments.
+  [ 1321.8- 1329.4] Now, one aspect of the crisis that I think maybe doesn't get quite enough attention is the fact
+  [ 1329.4- 1333.8] that this really was first of all a global crisis, in particular Europe as well
+  [ 1333.8- 1337.3] as the U.S. was suffering very severely from the crisis.
+  [ 1337.8- 1342.1] But it was also a very impressive example of international cooperation.
+  [ 1342.1- 1349.1] And one particular date that I've singled out here is October 10th, 2008, as it happened on that day,
+  [ 1349.3- 1355.2] there was a previously scheduled meeting of the G7 industrial countries that happened to take
+  [ 1355.2- 1362.9] place here in Washington. The G7 are the seven largest industrial countries, and the central
+  [ 1362.9- 1368.5] bank governors and the finance ministers of those seven countries came and met in Washington.
+  [ 1368.5- 1375.5] Now, I'll tell you a deep dark secret, which is that these big high profile international meetings are usually a terrible bore
+  [ 1376.5- 1383.3] because much of the work is done in advance by the staff and we have a discussion,
+  [ 1383.5- 1390.3] but there's a communique which has been written already by the staff and it's simply fairly routine in most cases.
+  [ 1390.9- 1392.5] This was not one of those boring meetings.
+  [ 1393.2- 1398.9] We essentially tore up the agenda and we sat down and we talked about what are we going to do,
+  [ 1399.1- 1402.2] how are we going to work together to stop this crisis
+  [ 1402.2- 1405.4] which was threatening the global financial system.
+  [ 1407.0- 1411.8] And in the end, we came up with a statement that was written from scratch based actually
+  [ 1411.8- 1415.2] on some Fed proposals and was circulated.
+  [ 1415.6- 1419.2] And there were a number of principles and statements involved in that,
+  [ 1419.2- 1422.4] But among those were, first, that we were going to work together
+  [ 1422.4- 1426.5] to prevent the failure of any more systemically important financial institutions.
+  [ 1426.6- 1428.3] This was after Lehman Brothers had failed.
+  [ 1429.4- 1432.7] We were going to make sure that banks and other financial institutions had access
+  [ 1432.7- 1436.4] to funding from central banks and capital from governments.
+  [ 1437.1- 1440.6] We were going to work to restore depositor confidence and investor confidence,
+  [ 1441.0- 1445.1] and then we were going to cooperate as much as possible to normalize credit markets.
+  [ 1445.9- 1451.5] So this was a global agreement, and subsequent to this agreement just
+  [ 1451.5- 1454.3] in the following week, the UK was the first
+  [ 1454.3- 1458.1] to announce a comprehensive program to stabilize its banking system.
+  [ 1458.6- 1463.4] The U.S. announced major steps to put capital into our banks and so on.
+  [ 1463.4- 1466.9] So a lot really happened in just the next couple of days after this meeting.
+  [ 1467.9- 1472.7] Now, just to show you that this worked, this shows you,
+  [ 1472.7- 1477.5] This graph shows you the interest rate charged on loans between banks.
+  [ 1478.0- 1479.4] This is the inner bank interest rate.
+  [ 1479.8- 1484.1] So, if bank A lends to bank B overnight, this is the interest rate that was charged.
+  [ 1484.9- 1486.9] Now, normally the interest, the overnight interest rate
+  [ 1486.9- 1495.3] between banks is extremely low, way less than 1%, because banks, you know,
+  [ 1495.3- 1497.9] they need some place to park their money overnight and they have a lot of confidence
+  [ 1497.9- 1500.8] that it's safe to lend to another large bank overnight.
+  [ 1500.8- 1508.6] Well, as you can see, starting in 2007, banks lost confidence in each other and that's shown
+  [ 1508.6- 1513.3] by the increase in the rates they charged to each other to make loans.
+  [ 1513.5- 1521.2] So, for example, in 2007, you begin to see the pressures as house prices began to fall
+  [ 1521.2- 1526.0] and there were increasing concerns about the quality of the mortgage securities
+  [ 1526.0- 1527.5] and the quality of the firms.
+  [ 1529.0- 1533.4] In March of 2008, you can see another little peak there which is around Bear Stearns
+  [ 1533.4- 1536.6] and that was a, it doesn't look like much I guess in comparison
+  [ 1536.6- 1538.5] but that was a pretty tough period.
+  [ 1538.6- 1544.9] It was a period of quite sharp movements in financial markets and in funding markets.
+  [ 1545.4- 1547.7] Now look what happened when Bear Stearns happened.
+  [ 1548.2- 1552.1] There was just an enormous spike in these interbank market rates
+  [ 1553.3- 1556.7] and probably not much lending was taking place even at those high rates.
+  [ 1556.7- 1561.0] What this was indicative of was that suddenly there was no trust whatsoever even
+  [ 1561.0- 1565.8] between the largest financial institutions because nobody knew who was going to be next,
+  [ 1566.0- 1570.5] who was going to be, who was going to fail, who was going to come under funding pressure.
+  [ 1572.6- 1575.1] But look what happened after the international announcements.
+  [ 1576.1- 1583.4] Within a few days, you began to see a reduction in the pressure and by the end of the year,
+  [ 1583.4- 1585.5] in early January, there was an enormous improvement
+  [ 1585.5- 1589.0] in the funding pressures in the banking system.
+  [ 1589.1- 1591.0] So this, I think, is a great example
+  [ 1591.0- 1593.9] of international cooperation and illustrates the point
+  [ 1595.4- 1597.7] that this was not just a U.S. phenomenon.
+  [ 1597.9- 1599.0] It was not just U.S. policy.
+  [ 1599.1- 1600.2] It was not just the Federal Reserve.
+  [ 1600.3- 1604.1] It really was a global cooperative effort,
+  [ 1604.1- 1606.9] particularly between the United States and Europe.
+  [ 1609.3- 1611.4] Now, the Fed played an important role, however,
+  [ 1612.0- 1614.8] in providing liquidity and making sure
+  [ 1614.8- 1617.1] that the panic was controlled.
+  [ 1617.7- 1619.8] Let me just talk briefly about this in general
+  [ 1619.8- 1623.2] and then I'll do two case studies that will illustrate some
+  [ 1623.2- 1624.6] of the issues.
+  [ 1625.4- 1628.7] Now, the Federal Reserve has a facility called the discount
+  [ 1628.7- 1631.5] window which it uses routinely
+  [ 1631.5- 1633.6] to provide short-term funding to banks.
+  [ 1633.9- 1636.0] Maybe a bank just finds itself short of funding
+  [ 1636.0- 1636.9] at the end of the day.
+  [ 1637.4- 1638.6] It wants to borrow overnight.
+  [ 1639.6- 1642.5] It has collateral with the Fed based on that collateral.
+  [ 1642.5- 1645.5] It can borrow overnight at what's called the discount rate,
+  [ 1645.5- 1647.2] which is the interest rate that the Fed charges.
+  [ 1647.8- 1653.5] So the discount window which allows the Fed to lend to banks is always there,
+  [ 1653.5- 1660.0] is always operative, no extraordinary steps were needed to lend to banks.
+  [ 1660.0- 1661.2] The Fed always lends to banks.
+  [ 1661.8- 1668.8] We did make some modifications in order to reassure banks about the availability of credit
+  [ 1668.8- 1673.2] and to get more liquidity into the system,
+  [ 1674.0- 1676.5] we extended the maturity discount window loans
+  [ 1676.5- 1677.9] which were normally overnight loans.
+  [ 1678.0- 1680.7] We made them longer term and we had auctions
+  [ 1680.7- 1683.3] of discount window funds where firms bid
+  [ 1683.3- 1684.7] on how much they would pay.
+  [ 1685.2- 1687.7] And the idea there was by having a fixed amount
+  [ 1687.7- 1690.0] that we were auctioning, we would at least assure ourselves
+  [ 1690.0- 1691.8] that we got a lot of cash into the system.
+  [ 1692.7- 1694.8] Anyway, the point here is that the discount window
+  [ 1694.8- 1696.9] which is the Fed's usual lender
+  [ 1696.9- 1701.8] of last resort facility lending to banks was operative and we used it aggressively
+  [ 1701.8- 1707.2] to make sure that banks had access to cash to try to calm the panic.
+  [ 1708.7- 1712.3] But our financial system is a lot more complicated than the one that existed
+  [ 1712.3- 1715.3] when the Fed was created in 1913.
+  [ 1715.7- 1720.7] We have many other different kinds of financial institutions and markets now.
+  [ 1721.3- 1725.5] And as I said, the crisis was like an old-time bank crisis,
+  [ 1725.5- 1728.5] but it was appearing in all different kinds of firms
+  [ 1728.5- 1730.5] and different kinds of institutional context.
+  [ 1731.1- 1733.2] So the Fed had to go beyond the discount window.
+  [ 1733.4- 1735.4] We had to create a whole bunch of other programs,
+  [ 1736.2- 1739.2] special liquidity and credit facilities that allowed us
+  [ 1739.2- 1741.8] to make loans to other kinds of financial institutions,
+  [ 1742.1- 1745.5] again, on the badged principle that providing liquidity
+  [ 1745.5- 1747.5] to firms that are suffering from loss
+  [ 1747.5- 1750.1] of funding is the best way to calm a panic.
+  [ 1750.8- 1754.4] Now, all these loans were secured by collateral.
+  [ 1755.2- 1758.1] We weren't taking chances with taxpayer money and I'll talk
+  [ 1758.1- 1765.0] about that when we come back, but the cash was going not just
+  [ 1765.0- 1767.2] to banks but more broadly into the system.
+  [ 1768.5- 1771.0] Again, the purpose of this was to enhance the stability
+  [ 1771.0- 1775.8] of the financial system and get the credit flows moving again.
+  [ 1776.6- 1779.1] And just to emphasize, this is the traditional lender
+  [ 1779.1- 1781.1] of last resort function of central banks that has been
+  [ 1781.1- 1782.5] around for hundreds of years.
+  [ 1782.5- 1784.9] What was different was that it took place
+  [ 1785.3- 1787.6] in a different institutional context
+  [ 1787.6- 1790.0] than just the traditional banking context.
+  [ 1792.1- 1793.7] Here are some of the institutions and markets
+  [ 1793.7- 1797.4] that we addressed through our special programs.
+  [ 1797.7- 1799.7] Banks, of course, were covered by the discount window,
+  [ 1800.4- 1803.5] but another class of financial institutions, broker dealers,
+  [ 1804.3- 1806.1] which are financial firms that deal in securities
+  [ 1806.1- 1809.2] and derivatives, were also facing very serious problems.
+  [ 1809.4- 1812.0] That included Bear Stearns and Lehman Brothers,
+  [ 1812.0- 1816.6] and others, Meryl Lynch, Goldman Sachs, Morgan Stanley, and others.
+  [ 1818.4- 1826.1] And we provided cash or short-term lending to those firms on a collateralized basis as
+  [ 1826.1- 1826.4] well.
+  [ 1827.4- 1833.1] As I'll talk about, commercial paper borrowers received assistance, as did many market funds.
+  [ 1833.6- 1834.2] I'll come back.
+  [ 1834.3- 1836.1] I'm going to do a little case study on those two.
+  [ 1837.2- 1839.3] And finally, the asset-backed securities market.
+  [ 1839.3- 1846.7] In the modern economy, modern financial system, a lot of the funding that you get for not just mortgages
+  [ 1846.7- 1852.2] but auto loans, credit cards, all different kinds of consumer credit are funded
+  [ 1852.2- 1853.7] through the securitization process.
+  [ 1854.0- 1860.2] That is, a bank might take all of its credit card receivables, bundle them together
+  [ 1860.2- 1863.7] into a security and then sell them in the market to investors,
+  [ 1863.8- 1866.8] much the same way that mortgages were sold.
+  [ 1866.8- 1868.8] And that's called the asset-backed securities market.
+  [ 1869.2- 1872.2] The asset-backed securities market pretty much dried up during the crisis,
+  [ 1872.7- 1877.2] and the Fed created some new liquidity programs to help get it started again,
+  [ 1877.2- 1878.7] which we were successful in doing.
+  [ 1879.6- 1884.2] Now, I should mention that while the bank's lending
+  [ 1884.2- 1887.3] through the discount window was totally standard lending
+  [ 1887.3- 1890.2] through the normal discount window, these other types
+  [ 1890.2- 1894.3] of lending required us to invoke emergency authorities.
+  [ 1894.3- 1899.8] There is a clause in the Federal Reserve Act called 13-3,
+  [ 1900.1- 1904.8] which says that under unusual and exit circumstances,
+  [ 1904.9- 1908.3] basically in an emergency, the Fed can lend to other types
+  [ 1909.3- 1911.9] of entities other than just banks.
+  [ 1912.5- 1914.7] And this authority had not been used
+  [ 1914.7- 1916.3] by the Fed since the 1930s.
+  [ 1916.5- 1919.6] But in this particular case, with all these other problems
+  [ 1919.6- 1921.1] emerging in different institutions
+  [ 1921.1- 1925.0] and different markets, we invoked this authority and used it
+  [ 1925.0- 1928.3] to help stabilize a variety of different markets.
+  [ 1929.6- 1932.0] So let me give you just a little bit of a case study here
+  [ 1932.0- 1934.6] that will help you understand, you know, what we did
+  [ 1934.6- 1936.4] and how it helped the economy.
+  [ 1937.7- 1940.2] So I want to talk a little bit here about money market funds.
+  [ 1941.3- 1945.2] Now money market funds are basically investment funds
+  [ 1946.4- 1948.0] in which you can buy shares
+  [ 1948.0- 1953.4] and the money market funds take your money invested in short-term liquid assets.
+  [ 1954.2- 1959.2] Money market funds historically have almost always maintained a $1 share price.
+  [ 1960.0- 1963.8] So they're very much like a bank actually and they're used frequently
+  [ 1963.8- 1968.1] by institutional investors like pension funds.
+  [ 1968.9- 1974.9] So a pension fund with $30 million in cash probably wouldn't put that into a bank
+  [ 1974.9- 1977.2] because that much money is not insured.
+  [ 1977.4- 1979.3] There's a limit to how much deposit insurance covered.
+  [ 1980.1- 1982.9] So what a pension fund might do instead of putting the cash
+  [ 1982.9- 1985.3] in a bank would be to put the money into a money market fund
+  [ 1985.9- 1990.3] which promises one dollar for each dollar put in plus a little bit
+  [ 1990.3- 1995.8] of interest on top and invest in very short-term, safe, liquid types assets.
+  [ 1995.9- 2001.1] And so it's a pretty good way to manage your cash
+  [ 2001.1- 2003.9] if you're an institutional investor of some kind.
+  [ 2003.9- 2010.2] So this diagram just shows investors putting their money into money market funds.
+  [ 2012.7- 2015.3] Now, as I said, money market shares are not insured.
+  [ 2015.6- 2020.6] They do not have deposit insurance, but the investors who put their money
+  [ 2020.6- 2025.8] into a money market fund expect that they can take their money out at any time, dollar for dollar.
+  [ 2026.1- 2029.1] So they treat it like a bank account, basically.
+  [ 2030.3- 2034.2] The money market funds, in turn, have to invest in something and they tend to invest
+  [ 2034.2- 2037.6] in safe short-term assets like commercial paper.
+  [ 2041.1- 2046.4] Commercial paper is a short-term debt instrument issued typically by corporations,
+  [ 2047.1- 2050.0] short-term in that it's 90 days or less typically.
+  [ 2051.7- 2054.1] A non-financial corporation might issue commercial paper
+  [ 2054.1- 2057.3] to allow it to manage its cash flows.
+  [ 2057.5- 2061.4] It might need some short-term money to meet its payroll or to cover its inventories.
+  [ 2061.4- 2067.2] So ordinary manufacturing companies like GM
+  [ 2067.2- 2071.7] or Caterpillar would issue a commercial paper to get cash
+  [ 2071.7- 2074.3] to manage their daily operations.
+  [ 2075.3- 2077.3] Financial corporations, including banks,
+  [ 2077.4- 2079.9] would also issue commercial paper to get funds
+  [ 2079.9- 2084.3] that they can then use to manage their liquidity positions
+  [ 2084.3- 2088.2] and they can use again to make loans to the private economy.
+  [ 2089.6- 2094.1] So here's the picture a little bit more completely, and the left again,
+  [ 2094.3- 2098.4] you see the investor investing their excess cash in a money market fund.
+  [ 2099.5- 2104.5] The money market fund buys commercial paper which is basically a funding source
+  [ 2104.5- 2110.4] for both non-financial businesses like manufacturers and for financial companies
+  [ 2110.4- 2114.0] who would lend it on to other borrowers.
+  [ 2114.0- 2120.8] Okay, so now, what happened to this very nice arrangement?
+  [ 2121.8- 2128.8] Well, Lehman Brothers was created a huge shockwave, as I'll describe.
+  [ 2129.1- 2130.8] Lehman Brothers was an investment bank.
+  [ 2131.4- 2133.2] It was a global financial services firm.
+  [ 2134.0- 2137.4] It was not a bank, so it was not overseen by the Fed.
+  [ 2137.6- 2140.0] It was an investment company.
+  [ 2141.9- 2143.9] It held lots of securities.
+  [ 2144.2- 2146.1] It did a lot of business in the securities markets.
+  [ 2147.1- 2149.3] It could not take deposits, not being a bank.
+  [ 2149.4- 2153.9] Instead, it funded itself in short-term funding markets,
+  [ 2153.9- 2155.3] including the commercial paper market.
+  [ 2157.4- 2159.5] Lehman invested heavily in mortgage-related securities
+  [ 2159.5- 2162.5] and also in commercial real estate during the 2000s.
+  [ 2164.6- 2167.6] Now, as we know, as house prices fell and delinquencies
+  [ 2167.6- 2172.1] on mortgages rose, Lehman's financial position got worse
+  [ 2172.7- 2174.2] and they were also losing lots of money
+  [ 2174.2- 2175.3] in their commercial real estate.
+  [ 2175.7- 2177.4] So Lehman was becoming insolvent.
+  [ 2177.4- 2183.4] It was losing money in all of its investments, and it was coming under a lot of pressure.
+  [ 2185.3- 2187.4] And indeed, as Lehman's creditors lost confidence,
+  [ 2187.6- 2190.3] they started withdrawing funding from Lehman.
+  [ 2190.6- 2195.2] For example, investors refused to roll over Lehman's commercial paper,
+  [ 2195.9- 2199.7] and other business partners said, well, we're not going to do business with you anymore
+  [ 2199.7- 2201.4] because we're afraid you're not going to be here next week.
+  [ 2203.0- 2206.4] So Lehman was increasingly losing money
+  [ 2206.4- 2209.0] and increasingly finding itself unable to fund itself,
+  [ 2209.8- 2212.0] it tried with Federal Reserve and Treasury help
+  [ 2212.0- 2214.6] to either find somebody willing to put more capital
+  [ 2214.6- 2216.4] into the firm or to acquire the firm.
+  [ 2216.7- 2218.5] It was unable to do that.
+  [ 2219.5- 2222.4] So on September 15th, as I mentioned, it filed for bankruptcy.
+  [ 2222.8- 2225.0] This was an enormous shock
+  [ 2225.0- 2228.7] that affected the whole global financial system.
+  [ 2230.2- 2234.2] Now, in particular, one of the many implications
+  [ 2234.2- 2238.2] of the failure of Lehman Brothers was in the money market funds.
+  [ 2239.7- 2244.1] There was one particular fairly large money market fund
+  [ 2244.1- 2247.8] that held among its other assets commercial paper issued by Lehman.
+  [ 2248.3- 2251.7] And when Lehman failed, that commercial paper was either worthless
+  [ 2251.7- 2254.5] or at least completely illiquid for a long time.
+  [ 2255.2- 2260.8] And so suddenly this money market fund could no longer pay off its depositors
+  [ 2260.8- 2262.5] at a dollar per share.
+  [ 2263.0- 2264.0] It had lost money.
+  [ 2265.3- 2269.4] Now, suppose you're an investor in a money market fund, and you know that if you go there
+  [ 2269.4- 2272.7] and ask for a dollar back, you can get it, but you also know
+  [ 2272.7- 2275.2] that they don't have enough money there to pay everybody off a dollar.
+  [ 2275.8- 2276.7] What are you going to do?
+  [ 2278.5- 2281.5] Same thing that a 19th century bank depositor would do if they heard
+  [ 2281.5- 2282.6] that their bank had lost money.
+  [ 2284.4- 2288.9] So, investors in this fund and then in other money market funds began to pull
+  [ 2288.9- 2291.6] out their money just like a standard bank run.
+  [ 2293.4- 2297.5] And I'll show you the data on that in just a second, but we had a very intense bank run,
+  [ 2298.1- 2303.4] or in this case, a money market fund run, in which investors in these funds began to pull
+  [ 2303.4- 2304.8] out their money just as quick as they could.
+  [ 2306.4- 2309.5] Now, the Fed and the Treasury responded very quickly to the situation.
+  [ 2309.7- 2313.3] The Treasury provided a temporary guarantee, which said that, you know,
+  [ 2313.4- 2317.8] we guarantee that you'll get your money back if you just don't pull it out right now.
+  [ 2318.4- 2324.9] And the Fed created a backstop liquidity program under which we lent money to banks who,
+  [ 2325.0- 2330.3] in turn, use that money to buy some of the assets of the money market funds.
+  [ 2330.5- 2333.5] And that gave the money market funds the liquidity that they needed
+  [ 2333.5- 2338.5] to pay off their depositors and help to calm the panic.
+  [ 2339.2- 2342.0] And just to show you a sense of what was happening here,
+  [ 2342.6- 2348.2] This is the money outflows from the money market funds.
+  [ 2348.8- 2350.5] This is a $2 trillion industry.
+  [ 2350.9- 2352.1] This is daily data.
+  [ 2352.8- 2354.3] So you see the Lehman bankruptcy.
+  [ 2355.7- 2361.0] A couple days later, you see the money market fund breaking the
+  [ 2361.0- 2362.5] buck, which meant that it was unable
+  [ 2362.5- 2365.5] to pay its investors a dollar a share.
+  [ 2366.3- 2368.2] Following that announcement, you can see that
+  [ 2368.2- 2374.1] for about two days there, about $100 billion a day was flowing out of these funds.
+  [ 2375.5- 2379.6] Within two days, the Treasury announced a guarantee program, the Fed came
+  [ 2379.6- 2383.5] in to support the liquidity of these funds.
+  [ 2384.1- 2386.0] And as you can see, the run ended pretty quickly.
+  [ 2386.7- 2392.5] So, absolutely classic, classic bank run, classic response, providing liquidity
+  [ 2392.5- 2398.3] to help the institution being run provide the cash
+  [ 2398.3- 2402.1] to its investors providing guarantees
+  [ 2402.1- 2405.6] and that successfully ending the run.
+  [ 2407.9- 2409.4] But that wasn't the end of the story
+  [ 2409.4- 2412.1] because remember the money market funds were also holding
+  [ 2413.0- 2414.1] commercial paper.
+  [ 2414.5- 2418.6] And as they began to face runs, they in turn began
+  [ 2418.6- 2420.6] to dump commercial paper as quickly as they could.
+  [ 2421.4- 2425.1] And as a result, the commercial paper market went into shock.
+  [ 2426.9- 2430.5] This is a really nice example of how financial crises can spread
+  [ 2430.5- 2431.3] in all different directions.
+  [ 2431.5- 2432.8] So we had Lehman failing.
+  [ 2433.8- 2437.1] That in turn called money market funds to experience a run.
+  [ 2437.5- 2439.9] And that in turn led to a shock in the commercial paper market.
+  [ 2440.1- 2441.7] So everything is connected to everything else.
+  [ 2442.9- 2447.7] And it's really hard to try to keep the system stable.
+  [ 2449.5- 2453.3] So there was, as the money market funds withdrew
+  [ 2453.3- 2458.2] from the commercial paper market, there was a sharp increase
+  [ 2458.2- 2462.9] in rates in the commercial paper market, and lenders were unwilling to lend
+  [ 2462.9- 2466.2] for more than maybe one day to commercial paper borrowers,
+  [ 2466.3- 2472.3] which in turn affected the ability of those companies to function
+  [ 2472.3- 2474.9] and the ability of those financial institutions to fund themselves.
+  [ 2474.9- 2477.9] Once again, the Federal Reserve responding in the way
+  [ 2477.9- 2479.9] that Badgett would have had us respond,
+  [ 2480.7- 2482.4] established special programs.
+  [ 2483.4- 2485.5] Basically, we stood as backstop lenders.
+  [ 2485.6- 2488.7] We said, make your loans to these companies
+  [ 2488.7- 2491.7] and we'll be here ready to backstop you
+  [ 2491.7- 2496.2] if there's a problem rolling over these funds.
+  [ 2496.7- 2500.2] And that restored confidence in the commercial paper market.
+  [ 2500.2- 2502.8] And there's the picture here.
+  [ 2504.9- 2506.6] This is commercial paper rates.
+  [ 2507.7- 2510.8] Again, and once again, you can see the panic phenomenon,
+  [ 2511.5- 2518.1] a sharp, sharp increase in rates, which really understates the pressure
+  [ 2518.1- 2521.3] because it doesn't also include the fact that for many companies,
+  [ 2521.8- 2524.2] there was no price at which they could get funding.
+  [ 2524.7- 2528.6] Or if they got funding, it was for only overnight or very short-term periods.
+  [ 2529.8- 2533.7] The Fed's actions restored confidence in that market
+  [ 2533.7- 2536.8] and you can see the response rates came back
+  [ 2536.8- 2539.1] down in the beginning of 2009.
+  [ 2541.8- 2544.9] Okay, one other type of activity
+  [ 2544.9- 2547.6] which is the last thing I want to cover.
+  [ 2550.3- 2551.9] So a lot of what I've been talking
+  [ 2551.9- 2553.5] about is probably stuff you didn't hear too much
+  [ 2553.5- 2554.6] about when you're reading the papers.
+  [ 2554.7- 2556.6] You know, it was working with these critical markets
+  [ 2556.6- 2562.3] and working with these, providing broad-based liquidity
+  [ 2562.3- 2565.4] to financial institutions to try to bring the panic under control.
+  [ 2566.3- 2573.9] But we also, the Fed and the Treasury also got involved in trying to address problems
+  [ 2573.9- 2576.7] with some individual critical institutions.
+  [ 2578.2- 2580.7] In March of 2008, as I mentioned before,
+  [ 2581.4- 2584.9] a Fed loan facilitated the takeover of Bear Stearns
+  [ 2584.9- 2587.7] by JPMorgan Chase avoiding a failure of that firm.
+  [ 2589.6- 2593.7] The reason we undertook that action was first that we-at the time,
+  [ 2593.8- 2598.3] the financial markets were quite stressed and we were fearful
+  [ 2598.3- 2601.1] that the collapse of Bear Stearns would greatly add to that stress
+  [ 2601.1- 2603.8] and perhaps set off a full-fledged financial panic.
+  [ 2604.9- 2610.0] Moreover, it was our judgment at least that Bear Stearns was solvent,
+  [ 2610.4- 2612.0] at least J.P. Morgan thought so.
+  [ 2612.1- 2616.3] They were willing to buy the firm and to guarantee its obligations.
+  [ 2618.4- 2623.7] So that by lending to Bear Stearns, we were consistent
+  [ 2623.7- 2625.8] with the proposition that we should be making loans
+  [ 2625.8- 2628.0] that are likely to be paid back.
+  [ 2628.4- 2629.8] And we felt that we were well-secured
+  [ 2629.8- 2630.9] in making the loan that we did.
+  [ 2633.0- 2637.3] In a second example, in October 2008, as I'm sure you all know,
+  [ 2637.8- 2639.8] AIG was very, very close to failure.
+  [ 2640.3- 2642.8] This, again, was the largest insurance company,
+  [ 2643.2- 2644.8] perhaps among the largest in the world.
+  [ 2644.8- 2647.3] Let me just talk a bit about that case.
+  [ 2649.3- 2650.8] AIG was a complicated company.
+  [ 2651.0- 2654.7] It was, on the one hand, a multinational financial services company
+  [ 2654.7- 2658.3] with many constituent parts, including a number of insurance companies,
+  [ 2658.9- 2663.1] global insurance companies, but it had a part of the company,
+  [ 2663.1- 2668.6] which was called AIG Financial Products, that was involved in all kinds of exotic derivatives
+  [ 2668.6- 2672.8] and other types of financial activities, including, as I mentioned before,
+  [ 2672.8- 2677.5] the loans, sorry, the credit insurance that it was selling
+  [ 2677.5- 2682.3] to the owners of mortgage-backed securities.
+  [ 2682.9- 2685.8] So when the mortgage-backed securities started going bad,
+  [ 2685.9- 2688.4] it became evident that AIG was in big trouble
+  [ 2689.0- 2692.5] and its counterparties began demanding cash or refusing
+  [ 2692.5- 2695.8] to fund AIG and it was coming under tremendous pressure.
+  [ 2696.4- 2697.5] Now, the failure of AIG
+  [ 2697.5- 2700.1] in our estimation would have been basically the end.
+  [ 2700.1- 2703.5] It was interacting with so many different firms.
+  [ 2703.6- 2708.0] It was so interconnected with both the U.S.
+  [ 2708.0- 2710.9] and the European financial systems, global banks.
+  [ 2712.7- 2715.4] We were quite concerned that if AIG went bankrupt
+  [ 2715.4- 2719.1] that we would not be able to control the crisis any further.
+  [ 2719.9- 2723.7] Now, fortunately, from the perspective of lender
+  [ 2723.7- 2727.7] of last resort theory, AIG has taken a lot of losses
+  [ 2727.7- 2731.5] and its financial products division, but underlying that,
+  [ 2731.9- 2734.8] those losses, was the world's largest insurance company.
+  [ 2734.9- 2737.1] So it had lots and lots of perfectly good assets.
+  [ 2737.6- 2740.5] And as a result, it had collateral which it could offer
+  [ 2740.5- 2743.1] to the Fed to allow us to make a loan
+  [ 2743.1- 2745.6] to provide the liquidity it needed to stay afloat.
+  [ 2746.8- 2752.7] And so to prevent the collapse of AIG, we used AIG assets
+  [ 2752.7- 2757.3] as collateral and loaned AIG 85 billion dollars.
+  [ 2758.2- 2759.9] Obviously, a fairly serious amount of money.
+  [ 2760.8- 2764.6] Later, the Treasury provided additional assistance to keep AIG afloat.
+  [ 2765.6- 2769.7] And again, while it was highly controversial, it was both, we thought,
+  [ 2769.8- 2774.0] legitimate in terms of lender of last resort theory because it was a collateralized loan
+  [ 2774.0- 2778.1] and the Fed has, in fact, been fully paid back, and secondly,
+  [ 2778.1- 2782.3] because it was a critical element in the global financial system.
+  [ 2784.5- 2786.2] Over time, as I said, AIG has stabilized.
+  [ 2786.5- 2788.1] It has repaid the Fed with interest.
+  [ 2788.9- 2792.7] The Treasury still owns a majority share of its stock,
+  [ 2794.0- 2799.2] but it has, AIG has been paying back the Treasury as well.
+  [ 2799.5- 2800.8] It's been in the process of doing that.
+  [ 2803.0- 2808.3] Now, I'd like to emphasize that what we had to do with Bear Stearns
+  [ 2808.3- 2813.6] and AIG is obviously not a recipe for future crisis management.
+  [ 2813.6- 2823.2] This is, first of all, it was a very difficult and in many ways distasteful intervention
+  [ 2823.7- 2827.5] that we had to do on the grounds that we needed to do
+  [ 2827.5- 2829.3] that to prevent the system from collapsing.
+  [ 2830.0- 2834.5] But clearly, it is something fundamentally wrong with a system
+  [ 2834.5- 2836.5] in which some companies are, quote, too big to fail.
+  [ 2838.7- 2842.5] If a company is so big that it knows that it's going to get bailed out,
+  [ 2842.5- 2846.6] Even putting aside the fairness of that, it's not at all fair to other companies,
+  [ 2846.7- 2851.3] but even beyond that, obviously they have an incentive to take big risks.
+  [ 2851.5- 2854.0] They say, well, we'll take big risks, heads I win, tails you lose.
+  [ 2854.6- 2857.1] If the risks pay off, we make plenty of money,
+  [ 2857.1- 2859.5] and if they don't pay off, the government will save us.
+  [ 2859.9- 2863.6] That's too big to fail, and that's a situation which we, you know, cannot tolerate.
+  [ 2864.2- 2870.6] So as I'll describe more next time, the problem we had in September
+  [ 2870.6- 2877.5] of 2008 was we really didn't have any tool, legal tools, policy tools that allowed us
+  [ 2877.5- 2883.2] to let Lehman Brothers and AIG and these other firms go bankrupt in a way
+  [ 2883.2- 2888.2] that would not have incredible damage, create incredible damage on the rest of the system.
+  [ 2888.7- 2893.6] And therefore, we chose the lesser of two evils and prevented AIG from failing.
+  [ 2894.5- 2898.6] But that being said, going forward, we wanted to be sure that this never happens again.
+  [ 2898.6- 2905.7] And we want to be sure that the system has changed so that if a large systemically critical firm
+  [ 2905.7- 2909.3] like AIG comes under this kind of pressure in the future,
+  [ 2909.8- 2914.4] that there will be a safe way to let it fail so that it can fail and the consequences
+  [ 2914.4- 2920.0] of its mistakes can be borne by its management shareholders and predators.
+  [ 2921.0- 2924.0] But in doing so, it doesn't bring down the whole financial system.
+  [ 2924.0- 2928.6] And I'll talk more next time about the progress we've made collectively
+  [ 2929.6- 2937.0] in instituting a system that will, I hope, eventually, at least, end too big to fail.
+  [ 2938.6- 2942.3] So finally, let me just say a couple words about the consequences of the crisis.
+  [ 2943.1- 2948.3] We did stop the meltdown.
+  [ 2948.5- 2952.5] We avoided what would have been, I think, a collapse of the global financial system.
+  [ 2953.2- 2957.3] That was obviously a good thing, but to give you a sense,
+  [ 2957.5- 2960.3] one thing that I was always sure of,
+  [ 2960.3- 2962.6] and I think the Federal Reserve was always sure of,
+  [ 2962.6- 2967.9] was that the collapse of some of these big financial firms was going
+  [ 2967.9- 2969.9] to have very serious collateral consequences.
+  [ 2970.7- 2975.6] There were people arguing, even as late as September of 2008,
+  [ 2975.9- 2978.1] well, why don't you just let the firms collapse, you know?
+  [ 2978.2- 2980.3] There's not going to, you know, a system can take care of it.
+  [ 2980.5- 2981.7] Bankruptcy, we have bankruptcy code.
+  [ 2981.7- 2983.3] Why don't you let them fail?
+  [ 2985.0- 2986.9] And, you know, we never thought
+  [ 2986.9- 2988.7] that that was really a good option.
+  [ 2990.0- 2991.6] Particularly if the whole system had collapsed,
+  [ 2991.8- 2994.9] we would have had extraordinarily serious
+  [ 2994.9- 2999.3] consequences as it was even though we prevented the total
+  [ 2999.3- 3001.4] meltdown, there was still obviously, as you know,
+  [ 3002.2- 3006.2] very serious collateral impact on not just the U.S. economy
+  [ 3006.2- 3007.5] but the global economy as well.
+  [ 3008.4- 3009.7] So following the crisis,
+  [ 3009.7- 3015.8] Even though the crisis was brought under control, the U.S. economy and much
+  [ 3015.8- 3018.2] of the global economy went into a sharp recession.
+  [ 3019.0- 3022.8] In the United States, GDP fell by more than 5%, which is a quite deep recession.
+  [ 3024.5- 3025.4] There's some other statistics.
+  [ 3025.6- 3029.4] Eight and a half million people lost their jobs, and unemployment rose to 10%,
+  [ 3029.4- 3032.4] so very consequential impact.
+  [ 3034.1- 3037.7] And as I said, this was not just a U.S. situation.
+  [ 3038.4- 3041.9] The U.S. recession was, in fact, kind of an average recession.
+  [ 3042.1- 3045.0] There were many countries around the world that had worse declines,
+  [ 3045.7- 3047.8] particularly those that depended on international trade.
+  [ 3049.0- 3050.6] So it was a global slowdown.
+  [ 3051.6- 3055.4] And as all this was happening, fears of the Great Depression,
+  [ 3055.7- 3059.0] the second 1930s depression, were very real.
+  [ 3063.1- 3068.3] So nevertheless, the Great Depression was much worse than the recent recession.
+  [ 3068.3- 3074.0] And I think the view is increasingly gaining acceptance
+  [ 3074.0- 3076.5] that without the forceful policy response
+  [ 3077.1- 3081.1] that stabilized the financial system in 2008 and early 2009,
+  [ 3081.9- 3084.4] we could have had a much worse outcome in the economy.
+  [ 3085.6- 3087.5] Here's a couple of indicators just to close
+  [ 3087.5- 3089.3] with a couple of graphs here.
+  [ 3090.0- 3092.4] So this, I think this is an interesting graph.
+  [ 3092.5- 3094.5] This shows the stock market.
+  [ 3095.3- 3099.3] The blue line starts in August 1929, which is the peak
+  [ 3099.7- 3101.6] of the stock market before the Great Depression.
+  [ 3102.3- 3105.5] The red line is the more recent stock prices.
+  [ 3105.6- 3107.5] It starts in October of 2007.
+  [ 3110.5- 3115.9] And then the graph shows you the evolution of stock prices
+  [ 3115.9- 3117.5] in the Depression period in the blue
+  [ 3118.1- 3121.1] and in the more recent period in the red.
+  [ 3121.8- 3123.7] And the thing which is pretty striking here is
+  [ 3123.7- 3128.1] that for the first 15 or 16 months, stock prices
+  [ 3128.1- 3133.1] in the United States behaved pretty much in this crisis
+  [ 3133.1- 3135.9] as they did in 1929, in 1930.
+  [ 3137.0- 3140.1] But about 15 or 16 months into the recent crisis,
+  [ 3140.6- 3144.9] which would have placed it in early 2009, about the time
+  [ 3144.9- 3147.3] that the financial crisis was stabilizing,
+  [ 3147.3- 3147.9] look what happened.
+  [ 3148.8- 3151.1] In the Depression era, the stock prices kept falling
+  [ 3151.1- 3154.9] And as I mentioned, in the end, stock prices lost 85 percent
+  [ 3154.9- 3155.5] of their value.
+  [ 3157.0- 3160.1] In the United States, by contrast, stock prices recovered
+  [ 3160.1- 3164.8] and began a long recovery, and they now are more than double
+  [ 3164.8- 3167.3] where they were three years ago.
+  [ 3168.5- 3171.1] This is industrial production, the measure of output.
+  [ 3171.6- 3174.2] Again, the red is the more recent data.
+  [ 3174.4- 3177.0] The blue is the depression era data.
+  [ 3178.3- 3179.2] You can see in this case
+  [ 3179.2- 3184.7] that the fall in industrial production was not quite as severe, quite as fast as in the
+  [ 3184.7- 3190.1] Depression, but you get the same basic phenomenon that about 15 or 16 months into the episode,
+  [ 3190.5- 3196.3] about the time that the financial crisis was brought under control, industrial production
+  [ 3196.3- 3203.0] bottomed out and began a period of steady recovery, whereas in the Depression the collapse
+  [ 3203.0- 3205.4] continued for several more years.
+  [ 3206.7- 3213.3] Okay, so that is a very rapid overview of the crisis of 08-09.
+  [ 3214.7- 3218.2] In lecture 4, we'll talk about the aftermath, the recession,
+  [ 3218.4- 3220.6] how did monetary policy respond to the recession,
+  [ 3221.3- 3223.8] why has the recovery been relatively sluggish,
+  [ 3224.7- 3226.9] what has happened to financial regulation to try
+  [ 3226.9- 3228.5] to make sure this never happens again,
+  [ 3229.1- 3232.2] and what lessons has the Fed taken from this experience?
+  [ 3232.2- 3233.3] Okay.
+  [ 3236.9- 3237.6] Questions?
+  [ 3238.8- 3239.0] Yes.
+  [ 3249.4- 3250.4] Hello, Chairman Bernanke.
+  [ 3250.8- 3255.8] My name is Yuki Wu, and in both this class and last class, you mentioned about the increasing
+  [ 3255.8- 3258.4] assurance of exotic and subprime mortgages.
+  [ 3260.1- 3266.5] So why do you think these financial institutions are willing to lend such mortgages bear so
+  [ 3266.5- 3269.3] much risk to even poor credit borrowers?
+  [ 3269.3- 3274.3] And do you think if they have forcing the decreased pricing
+  [ 3274.3- 3276.7] in the housing market, will this do the same thing?
+  [ 3277.0- 3277.3] Thank you.
+  [ 3278.2- 3279.4] So, there were a couple of reasons.
+  [ 3281.4- 3287.1] One reason was simply the fact that firms were probably too
+  [ 3287.1- 3288.8] confident about house price increases.
+  [ 3289.1- 3291.2] It said, well, house prices are likely to keep rising.
+  [ 3293.0- 3295.2] And in a world in which house prices are rising,
+  [ 3295.3- 3298.0] these aren't such bad products because people can afford
+  [ 3298.0- 3301.8] to pay, you know, for a year, but then they can refinance
+  [ 3301.8- 3304.2] to something more stable and this might be a way
+  [ 3304.2- 3305.4] to get people into housing.
+  [ 3306.7- 3308.6] But, of course, the risk was
+  [ 3308.6- 3309.9] that house prices wouldn't keep rising
+  [ 3309.9- 3311.6] and, of course, that's ultimately what happened.
+  [ 3312.3- 3317.8] The other aspect of this was that the demand
+  [ 3317.8- 3322.2] for securitized products grew very substantially
+  [ 3322.2- 3323.6] during this period.
+  [ 3324.5- 3328.8] In part, there was a large international demand
+  [ 3328.8- 3332.9] from Europe and from Asia for high quality assets.
+  [ 3333.9- 3338.5] And the ever clever U.S. financial firms figured
+  [ 3338.5- 3341.5] out that they could take a variety of different kinds
+  [ 3341.5- 3345.6] of underlying credits, whether it be subprime mortgages
+  [ 3345.6- 3347.7] or whatever, and through the miracles
+  [ 3347.7- 3350.3] of financial engineering, they could create from that
+  [ 3350.3- 3353.3] at least some securities that would be high quality.
+  [ 3353.3- 3356.6] It would be rated AAA in which they could then sell abroad
+  [ 3356.6- 3357.6] to other investors.
+  [ 3358.2- 3359.6] Unfortunately, that sometimes left them
+  [ 3359.6- 3362.5] with the remaining bad pieces which they kept
+  [ 3362.5- 3364.8] or sold to some other financial firm.
+  [ 3365.4- 3368.0] So there were trends in the financial markets, I think,
+  [ 3368.3- 3372.2] including overconfidence about their ability
+  [ 3372.2- 3375.5] to manage those risks, a belief
+  [ 3375.5- 3377.5] that house prices would probably keep rising,
+  [ 3378.4- 3382.6] a sense that they could, even after they made those mortgages,
+  [ 3382.6- 3386.2] they could then sell them off to somebody else and that that other person
+  [ 3386.2- 3390.2] or other investor would be willing to acquire them.
+  [ 3390.3- 3392.9] It was a big demand for, quote, safe assets.
+  [ 3393.6- 3399.4] For all those reasons, it was a, actually a very profitable activity while it lasted
+  [ 3399.4- 3404.3] and only when it, when the house prices began to fall, did it become a big loser.
+  [ 3407.0- 3412.4] Yeah. Yuki, do you have to, oh, sorry.
+  [ 3416.8- 3418.8] Mr. Chairman, my name is Samir Iqbal.
+  [ 3419.8- 3423.2] We were talking about how one of the major things the Fed had to do was figure out how
+  [ 3423.2- 3425.0] to get liquidity flowing again in the markets.
+  [ 3425.8- 3430.2] And that kind of reminds me of the Volcker Rule because, as I understand it, the Volcker
+  [ 3430.2- 3434.6] Rule, of course, bans prop trading by investment banks, but it also leaves gray areas for
+  [ 3434.6- 3438.1] principal trades, which, as I understand it, are very important for market makers to
+  [ 3438.1- 3440.4] create markets and find liquidity.
+  [ 3441.0- 3442.5] So I'm wondering what you think about that.
+  [ 3442.6- 3444.0] Doesn't that seem kind of counterintuitive?
+  [ 3445.3- 3448.3] Well, the Volcker Rule is a part
+  [ 3448.3- 3450.8] of the Dodd-Frank Financial Regulatory Reform
+  [ 3450.8- 3453.7] that I'll be talking about in more detail on Thursday
+  [ 3454.4- 3457.1] and which the Fed and other agencies are tasked
+  [ 3457.1- 3458.8] with implementing.
+  [ 3459.6- 3461.7] The purpose of the Volcker Rule, as you said,
+  [ 3461.8- 3465.7] is to reduce the risk of financial institutions
+  [ 3465.7- 3468.2] by preventing banks and their affiliates
+  [ 3468.2- 3470.2] from doing, quote, proprietary trading,
+  [ 3470.3- 3473.0] which means doing short-term trading on their own account,
+  [ 3473.0- 3474.8] So, from taking those kinds of risks.
+  [ 3475.3- 3480.4] Now, the law recognizes that there are legitimate exceptions
+  [ 3480.4- 3485.7] to for why banks might want to acquire short-term securities.
+  [ 3485.8- 3488.5] And those include, for example, hedging against risk.
+  [ 3489.5- 3493.3] But one particular exception is to make markets,
+  [ 3494.0- 3497.1] to serve as intermediaries who buy and sell in order
+  [ 3497.1- 3499.4] to create liquidity in a particular market.
+  [ 3500.4- 3502.5] And that's exempted from the vocal rule.
+  [ 3502.5- 3508.3] And one of the challenges of implementing this rule is trying to figure out how to set a set
+  [ 3508.3- 3515.1] of standards that allows the so-called exempted or legitimate activities like market making
+  [ 3515.1- 3519.5] and hedging while ruling out the proprietary trading.
+  [ 3519.6- 3522.5] And that's obviously very difficult and we're working on that.
+  [ 3522.7- 3525.6] We're, you know, we've put out a rule, we've gotten thousands of comments,
+  [ 3525.7- 3528.5] we're looking at that trying to figure out how best to do that.
+  [ 3528.5- 3532.7] But, you know, the point you raise is that liquidity in markets is important.
+  [ 3535.3- 3541.4] During the crisis, it was a much worse problem than just a little bit lack of trading volume.
+  [ 3542.7- 3547.3] You had big financial institutions unable to fund themselves,
+  [ 3547.6- 3554.3] unable to find the funding to support their asset positions, the assets that they held,
+  [ 3554.8- 3560.9] which left them with one of two possibilities, either defaulting,
+  [ 3561.0- 3566.0] because they didn't have enough funding, or the tack that many of them took,
+  [ 3566.1- 3570.0] which was to start selling off assets as quickly as possible, which in turn spread
+  [ 3570.0- 3575.5] to panic, because if there's a huge seller's market for, say, commercial real estate bonds,
+  [ 3576.9- 3579.6] that's going to drive the price down very sharply, and then anybody else
+  [ 3579.6- 3583.3] who was holding those bonds finds their financial position being eroded,
+  [ 3583.3- 3584.9] and that creates pressure on them.
+  [ 3585.4- 3589.4] So one of the-I didn't use the word contagion in my discussion.
+  [ 3590.1- 3596.1] Contagion, just as in an illness context, is the spreading of panic,
+  [ 3596.3- 3599.6] the spreading of fear from one market, from one institution to another.
+  [ 3600.6- 3605.1] And contagion was a major problem in many financial panics, but certainly in this one.
+  [ 3605.4- 3610.4] And that was one of the mechanisms that led the funding pressures
+  [ 3610.4- 3612.1] to jump from firm to firm.
+  [ 3613.1- 3616.8] and created such a broad-based problem.
+  [ 3623.5- 3624.8] Daniel, anybody have?
+  [ 3628.6- 3630.7] Mr. Chairman, my name is Daniel Wright,
+  [ 3630.8- 3632.1] and I had a question specifically.
+  [ 3634.1- 3634.9] I'm sorry.
+  [ 3636.2- 3636.9] There we go.
+  [ 3637.6- 3640.3] My name is Daniel Wright, and I had a question specifically
+  [ 3640.3- 3644.4] about global collaboration during the financial crisis.
+  [ 3644.9- 3647.3] You talked about the G7 in 2008,
+  [ 3647.3- 3653.7] specifically as we saw multi-national corporations begin to be on the brink of failure,
+  [ 3654.2- 3661.4] what pressures came from the international community when the decision to say bail out AIG was being debated?
+  [ 3663.0- 3667.0] Well, there weren't any real pressures. Everything was happening too fast.
+  [ 3668.1- 3675.0] I think, in fact, you know, one area where collaboration was not as good
+  [ 3675.0- 3680.3] as we would like was exactly dealing with some of these multinational firms.
+  [ 3680.4- 3683.0] For example, there were problems between the U.K.
+  [ 3683.1- 3687.1] and U.S. over Lehman Brothers' failure, for example, and inconsistencies which caused problems
+  [ 3687.1- 3690.5] for some of the creditors of Lehman.
+  [ 3691.2- 3695.5] So, one of the things that we're trying to do
+  [ 3695.5- 3699.4] under the Dodd-Frank financial reform legislation, which includes,
+  [ 3699.4- 3702.6] as I mentioned before, includes provisions
+  [ 3702.6- 3706.9] for safely allowing large financial firms to fail.
+  [ 3707.5- 3710.0] Well, one of the complexities there is that many of the firms
+  [ 3710.0- 3713.4] that this would be applied to are multinational firms,
+  [ 3713.6- 3715.2] maybe not just two or three countries,
+  [ 3715.5- 3717.1] maybe dozens of countries.
+  [ 3717.1- 3722.3] And so, collaboration with other countries in figuring
+  [ 3722.3- 3723.8] out how we would work together
+  [ 3723.8- 3727.2] to help a large multinational firm fail as safely as possible
+  [ 3727.2- 3730.4] as part of what's going on now as we work internationally.
+  [ 3731.7- 3734.3] We tried during the crisis to cooperate
+  [ 3734.3- 3735.8] and in mostly ad hoc way.
+  [ 3735.9- 3738.4] I mean, we were in touch with regulators in the UK
+  [ 3738.4- 3742.5] and elsewhere, but given the time frames and the lack
+  [ 3742.5- 3748.5] of preparation, you know, we didn't do as much as we would be able
+  [ 3748.5- 3750.3] to do with a lot more lead time.
+  [ 3750.9- 3754.4] So that was, I think that was a weakness of international collaboration.
+  [ 3756.1- 3762.0] For the most part though, countries cooperated in dealing with the financial institutions
+  [ 3762.0- 3763.4] that were based in their own countries.
+  [ 3763.6- 3768.1] AIG was an American company and we dealt with that, whereas a company like Dexia,
+  [ 3768.1- 3772.3] which was a European company, was dealt with by the Europeans.
+  [ 3775.1- 3780.4] Also, there was a lot of cooperation between central banks and I may have a chance
+  [ 3780.4- 3789.9] to say a bit more about this, but there were a lot of European banks that used dollars
+  [ 3789.9- 3792.8] that needed dollar funding as opposed to Euro funding.
+  [ 3793.8- 3797.0] They used dollar funding both because they held dollar assets,
+  [ 3797.0- 3803.6] debts, they made dollar loans, they made loans to support trade, which is often done in dollars,
+  [ 3803.7- 3804.5] so they needed dollars.
+  [ 3805.2- 3810.4] The European Central Bank can't provide dollars, so what we did was what was called a swap
+  [ 3810.4- 3815.4] where we gave the European Central Bank dollars, they gave us euros, they took the dollars
+  [ 3815.4- 3820.6] we gave them and lent them, on their own recognizance, to European banks taking off
+  [ 3820.6- 3825.4] the dollar funding pressure and easing dollar funding pressures around the world.
+  [ 3825.4- 3830.2] So, those swaps, which are still in existence now because of the recent issues
+  [ 3830.2- 3835.3] in Europe, were an important example of collaboration.
+  [ 3835.5- 3840.3] We also, in October of 2008, right before, right as this crisis was intensifying,
+  [ 3841.1- 3845.2] the Federal Reserve and I think five other central banks all announced interest rate cuts
+  [ 3845.2- 3848.5] on the same day, so we coordinated even our monetary policy.
+  [ 3850.1- 3852.5] But, so we did our best to coordinate.
+  [ 3852.5- 3858.9] There were some areas where like working on multinational firms where, you know,
+  [ 3859.3- 3862.8] a lot more preparation was needed and we are still working
+  [ 3862.8- 3864.8] on those things cooperatively today.
+  [ 3869.9- 3871.3] My name is Noah Wibbit.
+  [ 3872.0- 3876.2] I was wondering if you could elaborate on the off-balance sheet vehicles
+  [ 3876.2- 3882.4] that were being used and sort of why they were allowed to, you know,
+  [ 3882.4- 3885.5] keep that much information off their books?
+  [ 3886.6- 3890.2] Well, it has to do with accounting rules, basically.
+  [ 3890.7- 3894.3] You create this separate vehicle,
+  [ 3895.7- 3898.9] and the bank might have substantial interest
+  [ 3898.9- 3899.6] in that vehicle.
+  [ 3900.0- 3902.7] It might, for example, have a partial ownership.
+  [ 3903.3- 3906.8] It might have some promises to provide credit support
+  [ 3906.8- 3909.6] if it goes bad or liquidity support if it needs cash.
+  [ 3909.6- 3915.9] But it doesn't have, under the rules that existed at the time, if the amount of control
+  [ 3915.9- 3919.4] that the bank had on this off-balance sheet vehicle was sufficiently limited,
+  [ 3919.9- 3926.5] then according to the accounting rules, it could treat it as a separate organization,
+  [ 3926.8- 3928.7] so to speak, not part of its own balance sheet.
+  [ 3930.2- 3935.4] And that allowed the banks to get away with somewhat less capital, for example,
+  [ 3935.5- 3939.5] than they would have had to carry if they had all these assets on their own balance sheet.
+  [ 3939.6- 3946.2] Now, one of the many good developments since the crisis is that these rules have been reworked,
+  [ 3947.0- 3950.2] and many of the off-balance sheet vehicles
+  [ 3950.2- 3956.5] that existed during the-before the crisis would no longer be allowed.
+  [ 3956.6- 3958.9] They would have to be consolidated, which means they would have to be brought back
+  [ 3958.9- 3961.8] onto the balance sheet, made part of the bank's balance sheet,
+  [ 3962.1- 3964.0] have appropriate capital, and so on.
+  [ 3964.3- 3966.4] So those practices are not completely gone,
+  [ 3966.4- 3971.3] but the accounting rules have greatly toughened up the situation and circumstances
+  [ 3971.3- 3973.9] under which a bank can put something off its balance sheet
+  [ 3973.9- 3975.8] into a separate investment vehicle.
+  [ 3977.1- 3977.5] Max?
+  [ 3984.0- 3984.8] Thank you, Mr. Chairman.
+  [ 3985.8- 3989.4] You mentioned several large firms that came under pressure in 2008
+  [ 3989.4- 3992.8] and also the Fed's doctrine, if you'll, of too big to fail.
+  [ 3993.8- 3998.9] My question was, where do you draw the line between bailing out a bank
+  [ 3998.9- 4000.4] and allowing it to fail?
+  [ 4000.4- 4004.7] Is it arbitrary or is there some sort of methodology that the Fed goes by?
+  [ 4005.0- 4006.1] Oh, that's a great question.
+  [ 4006.6- 4010.7] So first of all, I want to resist that word doctrine a little bit.
+  [ 4012.0- 4017.5] These firms proved to be too big to fail in the context of a global financial crisis.
+  [ 4018.1- 4023.9] That was a judgment we made at the time based on their size, their complexity, their interconnectedness,
+  [ 4024.1- 4024.8] and so on.
+  [ 4024.8- 4026.9] It was not something that we ever thought was a good thing.
+  [ 4029.9- 4035.7] And one of the, again, one of the main goals of the financial reform is to get rid of it
+  [ 4035.7- 4041.2] because it's bad for the system, it's bad for the firms, it's unfair in many ways
+  [ 4043.0- 4045.6] and it would be a great accomplishment to get rid of too big to fail.
+  [ 4045.7- 4049.7] So it's not something that we advocate or support in any way and we were just forced
+  [ 4049.7- 4055.0] into a situation where we were having to choose the least bad of a number of different options.
+  [ 4058.6- 4059.9] Now, it's a good question.
+  [ 4060.1- 4066.1] I mean, I think in the case of the, of the, during the crisis,
+  [ 4066.1- 4072.8] you know, we had basically had to make judgments on a case by case basis
+  [ 4072.8- 4074.7] and we were trying to be as conservative as possible.
+  [ 4075.8- 4078.8] I think in the case certainly of AIG, there was really not much doubt in our minds.
+  [ 4079.0- 4083.3] This was a case where action was necessary if at all possible.
+  [ 4084.5- 4088.3] Lehman Brothers was, in itself, probably too big to fail in the sense
+  [ 4088.3- 4092.8] that its failure had enormous negative impacts
+  [ 4092.8- 4094.2] on the global financial system.
+  [ 4094.3- 4099.7] But there we were helpless because it was essentially an insolvent firm.
+  [ 4099.9- 4103.6] It didn't have enough collateral to borrow from the Fed.
+  [ 4104.0- 4107.6] We can't put capital into a firm that's insolvent.
+  [ 4108.4- 4111.3] This was before the TARP or anything else that provided capital
+  [ 4111.3- 4113.0] that the Treasury could use.
+  [ 4113.3- 4116.1] So we really just had no legal way to do it.
+  [ 4116.3- 4119.4] I think if we could have avoided that, we would have done so.
+  [ 4121.4- 4125.8] So it was somewhat ad hoc, I think, although the cases, the two cases where we intervened,
+  [ 4126.1- 4133.5] Bear Stearns and in AIG I think the case was pretty clear, given not only the firms themselves
+  [ 4133.5- 4140.3] but also the context, the environment that was going on at the same time.
+  [ 4140.3- 4147.2] Now, interestingly, we've had to get much more into this issue since the crisis
+  [ 4147.2- 4152.1] because there are a number of different rules and regulations which actually require the Fed
+  [ 4152.1- 4154.2] and other regulatory agencies to make some determination
+  [ 4154.8- 4157.5] about how systemically critical a firm is.
+  [ 4157.6- 4162.2] For example, the new Basel III capital requirements require the largest,
+  [ 4162.4- 4164.8] most systemically critical firms to have a capital surcharge.
+  [ 4164.9- 4168.8] They have to hold more capital than firms which aren't as systemically critical.
+  [ 4168.8- 4174.8] And as part of that process, the international bank regulators have worked together to try
+  [ 4174.8- 4181.1] and set up a set of criteria relating to size, complexity, interconnecting this derivatives,
+  [ 4181.8- 4185.7] a whole bunch of criteria that help determine, you know,
+  [ 4185.7- 4188.1] how much capital, extra capital they have to hold.
+  [ 4189.0- 4192.5] Likewise, the Fed now, when it approves a merger of two banks,
+  [ 4192.5- 4199.9] It has to evaluate whether the merger creates a systemically more dangerous situation.
+  [ 4201.1- 4209.7] So we have worked hard and we have put out criteria that describes some of the variety
+  [ 4209.7- 4213.6] of criteria including some numerical thresholds that we look at to try to figure
+  [ 4213.6- 4220.5] out if a merger creates a systemically critical firm, which if it does,
+  [ 4220.5- 4223.1] we're not supposed to allow that merger to happen.
+  [ 4225.1- 4227.9] So the science of doing this is progressing.
+  [ 4228.2- 4229.9] It's still very, in its infancy.
+  [ 4230.8- 4234.9] But again, in the crisis, our actual interventions were
+  [ 4234.9- 4239.1] limited to, well, the principal interventions were Bear Stearns
+  [ 4239.1- 4242.0] and AIG along with other agencies.
+  [ 4242.3- 4245.2] We also provided assistance to a couple of other institutions
+  [ 4245.2- 4246.7] but nothing nearly to the extent
+  [ 4246.7- 4254.6] that the AIG situation involved, but we are looking very seriously at this,
+  [ 4254.6- 4259.7] and indeed, now that the Fed has become much more focused on financial stability,
+  [ 4259.9- 4264.0] we're, you know, we have a whole division of people working on various metrics,
+  [ 4264.2- 4269.0] various indicators, both to try to identify risks to the system and also to try
+  [ 4269.0- 4275.9] to identify firms that need to be, you know, particularly carefully supervised
+  [ 4275.9- 4280.9] and maybe hold extra capital because of their potential risks that they bring to the system.
+  [ 4285.6- 4286.4] Thank you, Mr. Chairman.
+  [ 4286.6- 4287.5] My name is David Palomaroy.
+  [ 4288.1- 4291.8] One vulnerability that you mentioned was that the credit rating agencies were assigning
+  [ 4291.8- 4297.3] AAA ratings to securities that carried much more risk than perhaps a AAA rating might warrant.
+  [ 4298.3- 4305.1] It seems like the incentives would be aligned for the buyers to seek out ratings that
+  [ 4305.1- 4308.0] were more accurate because they would be taking on more risk.
+  [ 4308.0- 4312.9] Was there a systemic problem as far as how incentives were aligned within the credit ratings
+  [ 4312.9- 4316.8] system that allowed this these faulty ratings to propagate throughout the system?
+  [ 4317.2- 4321.2] Yeah, there were some incentive problems and you identify one of them, which is that
+  [ 4321.8- 4323.7] you would think somehow that
+  [ 4323.7- 4329.3] Instead of the seller of the security being the one who hires and pays the credit raider
+  [ 4329.3- 4336.5] you would think that it would be in the interest of the buyers who after all the ones bearing the risk to band together somehow and
+  [ 4336.5- 4340.9] to pay the credit raider to give them the best opinion they can
+  [ 4340.9- 4344.6] about what the credit quality is of the security.
+  [ 4345.1- 4348.1] Unfortunately, that model doesn't seem to work.
+  [ 4348.3- 4350.7] There are very few examples of any that I know of it where it works.
+  [ 4350.8- 4353.4] And the problem is what economists call the free rider problem.
+  [ 4354.0- 4362.0] Basically, if five investors get together and pay standard and pours
+  [ 4362.0- 4366.3] to rate a particular issuance, unless they can keep that completely secret,
+  [ 4366.9- 4369.2] Anybody else can find out, you know, what the rating was
+  [ 4369.2- 4371.9] and then they can basically take advantage of that
+  [ 4371.9- 4375.4] without the having to pay, having to be part
+  [ 4375.4- 4376.6] of the consortium to pay.
+  [ 4377.0- 4378.5] So there have been a lot of ideas out there
+  [ 4378.5- 4381.2] about how you can restructure the payment system
+  [ 4381.2- 4385.4] to create better incentives for credit raters.
+  [ 4386.7- 4390.1] But it is a challenging problem because, again,
+  [ 4390.4- 4392.6] this obvious, quote, obvious solution
+  [ 4392.6- 4396.6] of having the investors pay only works
+  [ 4396.6- 4399.9] if the investors collectively can share the cost
+  [ 4400.6- 4402.2] and somehow keep that information
+  [ 4402.2- 4405.3] from being spread among other investors.
+  [ 4406.2- 4407.9] Okay. Two o'clock.
+  [ 4408.2- 4411.4] I'll see you on Thursday to talk about the aftermath
+  [ 4411.4- 4412.0] of the crisis.
+  [ 4412.2- 4412.6] Thank you.
+  pick 946-973s: Ben Bernanke on total *subprime losses*
+  pick 2265-2292s: Ben Bernanke on modern *bank runs*
+  pick 2830-2864s: Ben Bernanke on *too big to fail*
+clip: clip_bernanke_lecture_3_1
+  -> clip_bernanke_lecture_3_1.mp4 | Bernanke: Why subprime mortgage losses sparked a market panic
+clip: clip_bernanke_lecture_3_2
+  -> clip_bernanke_lecture_3_2.mp4 | Bernanke: How money market funds suffered a classic bank run
+clip: clip_bernanke_lecture_3_3
+  -> clip_bernanke_lecture_3_3.mp4 | Bernanke: Why too big to fail creates massive risk

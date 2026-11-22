@@ -4361,6 +4361,156 @@
    "sources": [
     "Walmart price history, Yahoo Finance (split-adjusted), at render time"
    ]
+  },
+  {
+   "file": "clip_bernanke_lecture_2_1.mp4",
+   "title": "Fed Chair Bernanke: Why central banks must remain independent",
+   "caption": "Former Fed Chair Ben Bernanke highlighted the historical significance of central bank independence from political influence. He explained that independence allows policy makers to focus on long-term economic stability rather than short-term election cycles.\n\nFootage: Federal Reserve Board (public domain), via Wikimedia Commons.",
+   "tags": [
+    "#Bernanke",
+    "#FederalReserve",
+    "#Economics",
+    "#Inflation",
+    "#Finance"
+   ],
+   "comment": "Do you think central banks should remain independent of political influence?",
+   "thumb": "*independent* central banks",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-22",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_bernanke_lecture_2_2.mp4",
+   "title": "Fed Chair Bernanke: Mortgage rates reached 18.5 percent in the 1980s",
+   "caption": "Ben Bernanke recalled his personal experience shopping for a home in the early 1980s during Paul Volcker's tenure at the Fed. Severe rate hikes pushed 30-year fixed mortgage rates to 18.5% to suppress high inflation.\n\nFootage: Federal Reserve Board (public domain), via Wikimedia Commons.",
+   "tags": [
+    "#Bernanke",
+    "#MortgageRates",
+    "#HousingMarket",
+    "#FedHistory",
+    "#Economy"
+   ],
+   "comment": "How would an 18.5% mortgage rate impact today's housing market?",
+   "thumb": "*18.5%* mortgage rates",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-22",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_bernanke_lecture_2_3.mp4",
+   "title": "Fed Chair Bernanke: Mortgage standards collapsed leading into 2008",
+   "caption": "Ben Bernanke detailed the severe decline in underwriting standards prior to the 2008 financial crisis. He noted that by 2007, 60% of non-prime mortgages were issued with little to no financial documentation.\n\nFootage: Federal Reserve Board (public domain), via Wikimedia Commons.",
+   "tags": [
+    "#Bernanke",
+    "#2008Crisis",
+    "#HousingBubble",
+    "#Mortgages",
+    "#Finance"
+   ],
+   "comment": "Were lax lending standards the primary cause of the 2008 housing crash?",
+   "thumb": "*no-doc* mortgages",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-22",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_bernanke_lecture_3_1.mp4",
+   "title": "Bernanke: Why subprime mortgage losses sparked a market panic",
+   "caption": "Former Fed Chair Ben Bernanke explains that total subprime mortgage losses were relatively small compared to daily stock market fluctuations. However, widespread uncertainty over where those toxic assets were held triggered a systemic panic.\n\nFootage: Federal Reserve Board (public domain), via Wikimedia Commons.",
+   "tags": [
+    "#Bernanke",
+    "#FinancialCrisis",
+    "#Subprime",
+    "#Fed",
+    "#Economics"
+   ],
+   "comment": "Did you realize subprime mortgage losses were relatively small before the panic spread?",
+   "thumb": "Subprime *losses* explained",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-22",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_bernanke_lecture_3_2.mp4",
+   "title": "Bernanke: How money market funds suffered a classic bank run",
+   "caption": "Ben Bernanke outlines how the collapse of Lehman Brothers caused money market funds to break the buck. Nervous investors panicked and rushed to withdraw cash just like 19th-century bank depositors.\n\nFootage: Federal Reserve Board (public domain), via Wikimedia Commons.",
+   "tags": [
+    "#Bernanke",
+    "#BankRun",
+    "#FinancialCrisis",
+    "#LehmanBrothers",
+    "#Investing"
+   ],
+   "comment": "Have you ever used a money market fund assuming it was completely risk-free?",
+   "thumb": "Modern *bank run*",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-22",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
+  },
+  {
+   "file": "clip_bernanke_lecture_3_3.mp4",
+   "title": "Bernanke: Why too big to fail creates massive risk",
+   "caption": "Ben Bernanke argues that implicit government bailouts distort financial incentives by encouraging mega-firms to take extreme risks. He warns that a system allowing 'too big to fail' institutions cannot be tolerated.\n\nFootage: Federal Reserve Board (public domain), via Wikimedia Commons.",
+   "tags": [
+    "#Bernanke",
+    "#Bailouts",
+    "#TooBigToFail",
+    "#Banking",
+    "#Economy"
+   ],
+   "comment": "Do you think modern megabanks are still too big to fail?",
+   "thumb": "Too *big* to fail",
+   "thumb_photo": "",
+   "thumb_tag": "FED HISTORY",
+   "ai_voice": false,
+   "voice": "none",
+   "made": "2026-11-22",
+   "sources": [
+    "Footage: Federal Reserve Board (public domain), via Wikimedia Commons."
+   ],
+   "format": "clip",
+   "series": "Fed Watch",
+   "ig_trial": true
   }
  ]
 }
