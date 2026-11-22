@@ -1,3 +1,50 @@
+=== run 2026-11-22T18:01:11Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+79/171 sources returned news, 585 recent items
+148 new trusted stories, posting up to 1 this run
+---
+🇺🇸 S&P 500 AND DOW FALL INTO A CORRECTION
+
+📌 A drop in $NVDA dragged the S&P 500 and Dow into a correction (a 10% drop).
+💡 Stock market falls can reduce the value of investment and savings accounts.
+#Nasdaq
+
+📍 US · 📰 The Motley Fool · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi4AJBVV95cUxOejN6QzBKa0w3SEFZdHV2aWNuSWNDcS00SWpwZ0c1OVhTZ3VGRTAyaWFaSzRWYnpVYVhCMmZjeURhY2R4VW1zNDNwU3VlWWxNVkVEZ05pNEdUNy1IWTBJU1M5MlNpTGRTMHBjZVZZSGdGdDktQUlkaC1NNUdLVE0xNWJUd2txNnJmWWg0Tl9kQ0ZmaW10T3g2QUlnX0tWZjBkUXlnZ2otQnZaZThnNDdmbjJDSXdzQlRMb2syTXIwS1l6OU4wbEhlSHc3TnVqdjRuVThSQ1d0Rm56V3lvQ0RWR1pBMU16eV9TVUV1Rm5QWEpFNEdrRVhTdjJ0bllfQmJ6bkRQbmh6TzRnNGdBakpYNzZiSDlGZERDX1hVdGNNWldmdGpXcjdRSWt4T0xURmJ3TVhxX295dTJldC1FenRxMVFjOGtPSkxDbGpDV0MxaXFhVFl0eVltcXExWGRJak5Z?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post asserts a 10% correction and that the indices have already fallen into it, which the cited sources do not explicitly confirm.
+  -> blocked by fact-check
+---
+🌐 ONLY 5% OF CRYPTOCURRENCIES ARE RISING
+
+📌 Only 5% of cryptocurrencies are gaining value as interest rate hike fears grow.
+📊 Crypto gainers: 5%
+
+📍 Global · 📰 BeInCrypto · ✅ 2 sources
+https://news.google.com/rss/articles/CBMie0FVX3lxTE5FWVE2LTdiaGMwZHNITXp4aDNUZ21wQlJfM3RuM3dxNGxmNURNWWFDaV9STUJLaEJtS010ZHV1bFBDUXFoMERvMDA2R1NXYjVudzJqcE9jU3NqMWYtMEVjRjJCNldwTHpXR3BDZEdsZmROaTUxY3RRNFVxNA?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (5% rise, Fed rate hike fears, global scope) are directly supported by the BeInCrypto article.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: FAIL - The post claims 2 sources support the claim, but only one source (BeInCrypto) actually reports on cryptocurrency performance; the other source (FXEmpire) is about gold prices.
+  -> blocked by fact-check
+---
+🌐 METAL PRICES DROP TO MULTI-MONTH LOWS
+
+📌 Gold hit near a 14-month low as prices for major metals dropped.
+📊 Gold: Near 14-month low
+💡 Lower metal prices can reduce production costs for companies.
+#Gold
+
+📍 Global · 📰 Mint
+https://www.livemint.com/market/commodities/gold-silver-copper-aluminium-platinum-to-zinc-why-are-metal-prices-crashing-to-multi-month-lows-key-reasons-11795357679178.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about gold's 14‑month low and metal price drops are confirmed by the Mint article, and the general explanation is accurate.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the 14-month low for gold and the general drop in metal prices are directly supported by the source, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-e9d2270654d9
+done: 1 post(s) this run
 === run 2026-11-22T10:15:05Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1451,50 +1498,3 @@ https://news.google.com/rss/articles/CBMi7wJBVV95cUxNVjBYdU00LU84a0ZLVFpQRHhWbHh
 
 📌 Indian government bonds stayed steady while traders wait for upcoming inflation data.
 💡 Inflation figures often influence central bank decisions on interest rates.
-
-📍 India · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/bonds/indian-bonds-drift-as-us-debt-rout-saps-oil-relief-before-cpi/articleshow/135758028.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims in the post are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the stability of Indian bonds, the anticipation of inflation data, and the source attribution are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f30c410473ab
----
-🇺🇸 NVIDIA BOARD WEIGHS OUSTING CEO JENSEN HUANG
-
-📌 Nvidia shares fell nearly 10% as its board weighs removing CEO Jensen Huang.
-📊 $NVDA: Plunges almost 10%
-
-📍 US · 📰 Business · ✅ 5 sources
-https://www.euronews.com/2026/11/12/nvidia-board-weighs-jensen-huangs-future-as-reports-emerge-of-second-affair
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about board consideration and ~10% share drop are directly supported by the listed sources
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: FAIL - The source states the second affair was with an executive at the chip giant (Nvidia), whereas the draft incorrectly attributes the affair to an executive at 'Singapore-based data centre company Megasp
-  -> blocked by fact-check
----
-🌏 ASIAN STOCKS SLIP AS NVIDIA WEIGHS ON TECH
-
-📌 Asian stock markets fell as Nvidia's struggles dragged down AI shares.
-💡 Weakness in big tech stocks can affect overall market returns.
-#Stocks
-
-📍 Asia · 📰 The Washington Post · ✅ 7 sources
-https://news.google.com/rss/articles/CBMi0AFBVV95cUxNLUlqdXlpWFV3cXNia0JRZnVlbUtMOGRaMk5uU3dpME5ib3Y2N3Q1bjNKcllyUXBPbzc3cm1neXdMWG5jbjl4aFRBY2kwYlNXSXpJVFV3TWN5MjhwUFVEb3pGMldySThYVXUxZ2xLVmhJY0gtU2VGN3hGaldTelNyWmw2ZUtwaEM0UTZVMDJ4b3FQZ2lsN0szUWJaTll3YVBhNVZZcTlwZm9ZRmNfUGp0VlZORFh2Q0p6aW5zRy1waXlSajNBYzljZkl6WXY2R09q?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Washington Post article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Washington Post source and the explanation is a general, widely accepted effect.
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding Asian stocks slipping due to Nvidia's impact on AI shares, and the source attribution matches.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-58c937f0f55a
-done: 3 post(s) this run
-=== run 2026-11-12T00:57:44Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-95/171 sources returned news, 741 recent items
-183 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-11T18:02:51Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 8
