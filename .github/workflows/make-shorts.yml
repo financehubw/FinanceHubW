@@ -28,8 +28,15 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng >/dev/null
       - run: pip install -q requests pillow numpy scipy yfinance edge-tts
+      - name: Free open-source voice (Kokoro, CPU-only torch)
+        continue-on-error: true            # if this fails the Short still gets the Edge voice
+        run: pip install -q torch --index-url https://download.pytorch.org/whl/cpu && pip install -q kokoro soundfile
+      - uses: actions/cache@v4             # keep the ~330 MB voice model between runs
+        with:
+          path: ~/.cache/huggingface
+          key: kokoro-82m-v1
       - name: Write this week's scripts (6 new formats + 6 what-ifs)
         if: github.event_name == 'schedule' || inputs.only == ''
         run: python social/formats.py 6 && python social/whatif.py 3

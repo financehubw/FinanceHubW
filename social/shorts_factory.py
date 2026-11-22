@@ -380,15 +380,56 @@ def _eleven(text: str, mp3: Path) -> list[dict]:
     return words
 
 
+KOKORO_VOICE = os.environ.get("KOKORO_VOICE") or "am_michael"   # deep, calm US male narrator (closest to "Brian")
+_KOKORO = [None, True]                                            # [pipeline, still usable]
+
+
+def _kokoro(text: str, mp3: Path) -> list[dict]:
+    """Kokoro-82M (Apache-2.0, open source): a studio-quality voice that runs free on the CPU, no account, no credits.
+    Same word timings as the other voices, so the captions stay in sync."""
+    import numpy as np
+    import soundfile as sf
+    if _KOKORO[0] is None:
+        from kokoro import KPipeline
+        _KOKORO[0] = KPipeline(lang_code="a", repo_id="hexgrad/Kokoro-82M")
+    return _kokoro_join(_KOKORO[0](text, voice=KOKORO_VOICE, speed=1.04), mp3, np, sf)
+
+
+def _kokoro_join(chunks, mp3: Path, np, sf, sr: int = 24000) -> list[dict]:
+    """Glue Kokoro's sentence chunks into one track; shift each chunk's word times by the audio before it."""
+    audio, words, off = [], [], 0.0
+    for r in chunks:
+        a = r.audio.numpy() if hasattr(r.audio, "numpy") else np.asarray(r.audio)
+        for tk in (r.tokens or []):
+            w = (tk.text or "").strip(".,!?;:\"")
+            if w and tk.start_ts is not None and tk.end_ts is not None:
+                words.append({"t": off + float(tk.start_ts), "d": max(0.05, float(tk.end_ts) - float(tk.start_ts)), "w": w})
+        audio.append(a)
+        off += len(a) / sr
+    if not audio or not words:
+        raise RuntimeError("Kokoro returned no speech")
+    wav = mp3.with_suffix(".kokoro.wav")
+    sf.write(str(wav), np.concatenate(audio), sr)
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(wav), "-b:a", "160k", str(mp3)], check=True)
+    wav.unlink(missing_ok=True)
+    return words
+
+
 def speak(text: str, mp3: Path) -> list[dict]:
-    """ElevenLabs studio voice when ELEVENLABS_API_KEY is set (falls back to the free voice if its
-    monthly credits run out, so a Short is never blocked)."""
+    """Voices in order: ElevenLabs studio voice while its monthly credits last, then Kokoro (open source, free,
+    runs on the CPU), then the free Edge voice. Any failure moves on to the next one, so a Short is never blocked."""
     if os.environ.get("ELEVENLABS_API_KEY") and _ELEVEN_OK[0]:
         try:
             return _eleven(text, mp3)
         except Exception as e:  # noqa: BLE001
-            print(f"  ElevenLabs unavailable ({e}); using the free voice for the rest of this run")
+            print(f"  ElevenLabs unavailable ({e}); using the free voices for the rest of this run")
             _ELEVEN_OK[0] = False
+    if _KOKORO[1] and os.environ.get("KOKORO", "1") != "0":
+        try:
+            return _kokoro(text, mp3)
+        except Exception as e:  # noqa: BLE001
+            print(f"  Kokoro unavailable ({str(e)[:160]}); using the Edge voice for the rest of this run")
+            _KOKORO[1] = False
     for attempt in range(3):
         try:
             return asyncio.run(_speak(text, mp3))
