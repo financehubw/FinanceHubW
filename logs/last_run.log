@@ -1,3 +1,39 @@
+=== run 2026-11-22T02:37:57Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+72/171 sources returned news, 478 recent items
+112 new trusted stories, posting up to 2 this run
+---
+🇮🇳 INDIAN BANKS TO CLOSE ON FIVE DAYS NEXT WEEK
+
+📌 SBI, HDFC, ICICI, and other lenders will shut branches for five days across regions.
+📊 Closed days: 5 days
+
+📍 India · 📰 Mint · ✅ 3 sources
+https://www.livemint.com/money/bank-holidays-next-week-sbi-hdfc-icici-axis-branches-closed-these-five-days-23-30-november-check-city-dates-rbi-calendar-11795311812498.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the banks, number of closure days, dates, and source attribution are directly supported by the cited Mint article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Mint article and corroborated by other sources.
+  Groq Qwen: PASS - All factual claims regarding the banks, the number of closure days, the date range, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-208f463f5e21
+---
+🌐 BITCOIN REBOUNDS ABOVE $60,000 AFTER TWO-YEAR LOW
+
+📌 Bitcoin jumped over 8% to climb back above $60,000 after hitting a two-year low.
+📊 $BTC: Rebounded over 8% above $60,000
+
+📍 Global · 📰 Chosunbiz · ✅ 3 sources
+https://news.google.com/rss/articles/CBMigAFBVV95cUxNRmtObzlxU2RSZGNvMjB0aHAwelRrZHFVVlhFcWJQWk82aWJjTzZuSThjRHpxdlkzbEsxMUtWN1FRbm9HUGI0amtwS1NDQWVvbmNTNEVNR3Q1dk1uV29lb09PWG1ranlhUzVsSlVpS29acklla0VTLUduRHk3S1pqS9IBlAFBVV95cUxQd25sbjh4VTc2UG5tRUhZUFI2V1otOThGa0lUVTYzdDRLbmJoUEFTcld0ZmtpRFI3RER3X0Q1WkZTd1hTMHA4OWk5M2EtSGpYdFdpdC1JVTVwWnZ2NU0zclR1WmlqMUFkZzlycDNaZ3BPeG80cDY2QjRKckx1N0UwWEx3NjFsdFNHNjN5b3NYbVE5bmsx?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and descriptions are directly supported by the cited sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: PASS - All factual claims regarding the price rebound, percentage increase, and two-year low are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All claims (over 8% rebound, above $60,000, two-year low, direction, Global, Chosunbiz, 3 distinct sources) are directly supported by the sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-0d5fd3390000
+done: 2 post(s) this run
 === run 2026-11-21T20:39:37Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1462,39 +1498,3 @@ skip (off-topic or nothing new): US Inflation Pushes Fed Toward Further Interest
 skip (off-topic or nothing new): ICE and OKX Set Nov. 23 Tokenized Stock Launch After 67 Companies Opt Out
 ---
 🇮🇳 RUPEE HITS SEVEN-MONTH HIGH
-
-📌 The rupee reached 93.69 against the US dollar.
-📊 Rupee: 93.69
-💡 Stronger currency can make imported goods cheaper.
-#Rupee
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
-https://www.thehindubusinessline.com/markets/forex/rupee-closes-at-seven-month-high-of-9369-as-fpi-inflows-lower-crude-prices-boost-sentiment/article71689839.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The source name listed ("Latest Share Market News, Sensex, Nifty") does not match the actual source (The Hindu BusinessLine).
-  -> blocked by fact-check
----
-🌐 OPEC OIL OUTPUT NEARS PRE-WAR LEVEL
-
-📌 OPEC+ oil production rose to 41.23 million barrels per day in October.
-📊 41.23M barrels/day
-#Oil
-
-📍 Global · 📰 The Globe and Mail · ✅ 4 sources
-https://www.theglobeandmail.com/business/article-opec-oil-output-in-october-saudi-arabia/
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Globe and Mail source.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited sources.
-  Groq Qwen: PASS - The production figure (41.23 million barrels per day) and the month (October) are directly supported by the sources, and the source attribution matches.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-76fe2aae42c8
-skip (off-topic or nothing new): BTC to INR: Bitcoin Price in Indian Rupee
----
-🇺🇸 US INFLATION RISES MORE THAN EXPECTED
-
-📌 Prices went up faster than expected in October, causing worry at the central bank.
-
-📍 US · 📰 International: Top News And Analysis · ✅ 3 sources
-https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html
-  written by Gemini
