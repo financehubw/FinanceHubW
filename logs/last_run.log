@@ -1,3 +1,24 @@
+=== run 2026-11-22T10:15:05Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+21/171 sources returned news, 136 recent items
+91 new trusted stories, posting up to 1 this run
+---
+🌐 GOLD PRICE FALLS FOR 5TH DAY IN BIGGEST DROP SINCE MARCH
+
+📌 Gold prices fell for 5 straight days in their largest weekly decline since March.
+💡 Higher interest rates can make holding gold less attractive to investors.
+#Gold
+
+📍 Global · 📰 Mint
+https://www.livemint.com/market/commodities/what-is-future-of-gold-rates-price-crash-continues-as-ai-selloff-fed-rate-hike-concerns-weigh-on-investors-sentiment-11795325490076.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about the five‑day decline and biggest weekly drop since March are confirmed by the Mint article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the 5-day decline, the magnitude of the drop since March, and the source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-3835bdbb9334
+done: 1 post(s) this run
 === run 2026-11-22T02:37:57Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1477,24 +1498,3 @@ done: 0 post(s) this run
 === run 2026-11-11T18:02:51Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
-96/171 sources returned news, 904 recent items
-229 new trusted stories, posting up to 3 this run
----
-🇺🇸 US STOCKS RISE ON AI SPENDING
-
-📌 US stock markets went up after strong results from CoreWeave eased worries about AI costs.
-📊 S&P 500: +1%
-💡 Higher stock values usually grow retirement and savings accounts.
-
-📍 US · 📰 Economic Times · ✅ 4 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-higher-as-coreweave-lifts-ai-trade/articleshow/135741336.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source reports the S&P 500 rose "over 1%", not exactly "+1%" as claimed.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Gold slides 2% as hot US CPI boosts dollar and cements December Fed hike bets
-skip (off-topic or nothing new): Gold Rate Today In Meerut, Check Live 22 And 24 Carat Gold Price
-skip (off-topic or nothing new): Silver defies rising yields, holds above $52 as inflation stays hot
-skip (off-topic or nothing new): US Inflation Pushes Fed Toward Further Interest Rate Hikes
-skip (off-topic or nothing new): ICE and OKX Set Nov. 23 Tokenized Stock Launch After 67 Companies Opt Out
----
-🇮🇳 RUPEE HITS SEVEN-MONTH HIGH
