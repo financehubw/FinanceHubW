@@ -330,5 +330,89 @@
   "series": "Fed Watch",
   "moments": 3,
   "pick_hint": "A 2012 lecture on the 2008 financial crisis: prefer clear, surprising explanations of the crash, bank runs, bailouts and housing. Put 'Bernanke' in the title."
+ },
+ "auto_senate_banking_committee_hearing_on_silicon_valley_bank_coll": {
+  "kind": "commons",
+  "title": "Senate Banking Committee Hearing on Silicon Valley Bank Collapse.webm",
+  "date": "2023-03-28",
+  "credit": "Public domain, via Wikimedia Commons",
+  "speaker": "a senator or witness",
+  "tag": "IN CONGRESS",
+  "series": "Money in Congress",
+  "moments": 2,
+  "discovered": "Senate Banking Committee hearing",
+  "pick_hint": "Prefer short, surprising, self-contained statements about money, prices, banks, debt or markets. Name the real speaker in the title."
+ },
+ "auto_oversight_of_federal_financial_management_part_2": {
+  "kind": "commons",
+  "title": "Oversight of Federal Financial Management (Part 2).webm",
+  "date": "2016-11-30",
+  "credit": "Public domain, via Wikimedia Commons",
+  "speaker": "a member of Congress or witness",
+  "tag": "IN CONGRESS",
+  "series": "Money in Congress",
+  "moments": 2,
+  "discovered": "House Financial Services Committee hearing",
+  "pick_hint": "Prefer short, surprising, self-contained statements about money, prices, banks, debt or markets. Name the real speaker in the title."
+ },
+ "auto_federal_reserve_chair_testifies_on_monetary_policy_report_ju": {
+  "kind": "commons",
+  "title": "Federal Reserve Chair Testifies on Monetary Policy Report - July 9, 2024.webm",
+  "date": "2024-07-09",
+  "credit": "Public domain, via Wikimedia Commons",
+  "speaker": "the Fed chair",
+  "tag": "FED HISTORY",
+  "series": "Fed Watch",
+  "moments": 2,
+  "discovered": "Federal Reserve chair testimony Congress",
+  "pick_hint": "Prefer short, surprising, self-contained statements about money, prices, banks, debt or markets. Name the real speaker in the title."
+ },
+ "auto_secretary_pompeo_hosts_an_interagency_press_event_on_iran_sn": {
+  "kind": "commons",
+  "title": "Secretary Pompeo Hosts an Interagency Press Event on Iran Snapback Sanctions-VIZ6wesmXFY.webm",
+  "date": "2020-09-21",
+  "credit": "Public domain, via Wikimedia Commons",
+  "speaker": "the Treasury Secretary",
+  "tag": "TREASURY",
+  "series": "Money in Congress",
+  "moments": 2,
+  "discovered": "Secretary of the Treasury remarks",
+  "pick_hint": "Prefer short, surprising, self-contained statements about money, prices, banks, debt or markets. Name the real speaker in the title."
+ },
+ "auto_securities_and_exchange_commission_chair_gary_gensler_testif": {
+  "kind": "commons",
+  "title": "Securities and Exchange Commission Chair Gary Gensler Testifies On Oversight Hearing - September 12, 2023.webm",
+  "date": "2023-09-12",
+  "credit": "Public domain, via Wikimedia Commons",
+  "speaker": "the SEC chair",
+  "tag": "MARKETS",
+  "series": "Money in Congress",
+  "moments": 2,
+  "discovered": "Securities and Exchange Commission chair",
+  "pick_hint": "Prefer short, surprising, self-contained statements about money, prices, banks, debt or markets. Name the real speaker in the title."
+ },
+ "auto_senator_vance_rebukes_fdic_chair_gruenberg": {
+  "kind": "commons",
+  "title": "Senator Vance Rebukes FDIC Chair Gruenberg.webm",
+  "date": "2024-05-16",
+  "credit": "Public domain, via Wikimedia Commons",
+  "speaker": "the FDIC",
+  "tag": "BANKS",
+  "series": "Fed Watch",
+  "moments": 2,
+  "discovered": "Federal Deposit Insurance Corporation",
+  "pick_hint": "Prefer short, surprising, self-contained statements about money, prices, banks, debt or markets. Name the real speaker in the title."
+ },
+ "auto_senator_vance_questions_cfpb_director_on_regulatory_failures": {
+  "kind": "commons",
+  "title": "Senator Vance Questions CFPB Director On Regulatory Failures Prior To Silicon Valley Bank Collapse.webm",
+  "date": "2023-06-13",
+  "credit": "Public domain, via Wikimedia Commons",
+  "speaker": "the CFPB",
+  "tag": "YOUR MONEY",
+  "series": "Fed Watch",
+  "moments": 2,
+  "discovered": "Consumer Financial Protection Bureau",
+  "pick_hint": "Prefer short, surprising, self-contained statements about money, prices, banks, debt or markets. Name the real speaker in the title."
  }
 }
