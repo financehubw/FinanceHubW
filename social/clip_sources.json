@@ -308,5 +308,27 @@
   "tag": "MONEY HISTORY",
   "moments": 2,
   "pick_hint": "A vintage film about credit and borrowing: prefer moments about interest, debt traps and old prices."
+ },
+ "bernanke_lecture_2": {
+  "kind": "commons",
+  "title": "Chairman Bernanke's College Lecture Series- The Federal Reserve and the Financial Crisis, Part 2.webm",
+  "date": "Mar 2012",
+  "credit": "Federal Reserve Board (public domain), via Wikimedia Commons",
+  "speaker": "Fed Chair Ben Bernanke",
+  "tag": "FED HISTORY",
+  "series": "Fed Watch",
+  "moments": 3,
+  "pick_hint": "A 2012 lecture on the 2008 financial crisis: prefer clear, surprising explanations of the crash, bank runs, bailouts and housing. Put 'Bernanke' in the title."
+ },
+ "bernanke_lecture_3": {
+  "kind": "commons",
+  "title": "Chairman Bernanke's College Lecture Series, The Federal Reserve and the Financial Crisis, Part 3.webm",
+  "date": "Mar 2012",
+  "credit": "Federal Reserve Board (public domain), via Wikimedia Commons",
+  "speaker": "Fed Chair Ben Bernanke",
+  "tag": "FED HISTORY",
+  "series": "Fed Watch",
+  "moments": 3,
+  "pick_hint": "A 2012 lecture on the 2008 financial crisis: prefer clear, surprising explanations of the crash, bank runs, bailouts and housing. Put 'Bernanke' in the title."
  }
 }
