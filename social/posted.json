@@ -1332,6 +1332,19 @@
     "Instagram": "Instagram could not process the video: Error: Media upload has failed with error code 2207077"
    },
    "format": "clip"
+  },
+  {
+   "file": "clip_fomc_20220921_2.mp4",
+   "title": "Powell, Sep 2022: Higher rates and slower growth cause economic pain",
+   "date": "2026-11-22T09:32:31Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/O4OsaIPp9y0",
+    "Instagram": "17936450574419108",
+    "Facebook": "1173773328851784"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
