@@ -377,7 +377,8 @@
   "series": "Money in Congress",
   "moments": 2,
   "discovered": "Secretary of the Treasury remarks",
-  "pick_hint": "Prefer short, surprising, self-contained statements about money, prices, banks, debt or markets. Name the real speaker in the title."
+  "pick_hint": "Prefer short, surprising, self-contained statements about money, prices, banks, debt or markets. Name the real speaker in the title.",
+  "mine": false
  },
  "auto_securities_and_exchange_commission_chair_gary_gensler_testif": {
   "kind": "commons",
