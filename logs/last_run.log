@@ -1,3 +1,9 @@
+=== run 2026-11-22T23:46:27Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+75/171 sources returned news, 534 recent items
+116 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-22T18:01:11Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1492,9 +1498,3 @@ https://oilprice.com/Latest-Energy-News/World-News/Asian-Oil-Buyers-Turn-to-Afri
 https://news.google.com/rss/articles/CBMi7wJBVV95cUxNVjBYdU00LU84a0ZLVFpQRHhWbHhqbGxXdHVqdlM5S3lfNE0wTkFrVW9Tb2dITVRtODlRLWhHUkI4T280X0FrY1d0ODdUam9jM1RCRjdHMTR6eGRlVWZhbVFrUUNRd2FaLXVMTlhKRW91UVYzU25HcFNnQlpKbUJCem1GcjJhWk9KeDNTOTFRN0ZlVUlMSHZuSlFOQUx6OTFRSGYyMW95TUxIYjZxZXl3OGl0TUh5bmYyUFhlN21Vd3B6enlIb04weU9nR0IzcVRld0RkLTQyaXdnWEwtVzNJb0FpeERlcGVSQUhmX1BDc0FMMXlnSXd0cksxUXB0MnRnRlJTSVZSdl9vZk9aNjk1OVMzeTQ3STRjbFV2Z0tpUVZpOGZCZ1hVT2M0WU54UUxmYk1OcFEtcmZPUXgwV0JnUlc1cnpBY001czYxM3Q4cDltZ1g0ekRrV2JDTzhwVmV0LUNWbGxGdUxSVktyMkQ0?oc=5
   written by Gemini
   Groq GPT-OSS: FAIL - The cited Courier-Journal source discusses Caledonia Mining, not Zealand Pharma’s Q3 2026 results
-  -> blocked by fact-check
----
-🇮🇳 INDIAN BONDS STAY STABLE AHEAD OF INFLATION DATA
-
-📌 Indian government bonds stayed steady while traders wait for upcoming inflation data.
-💡 Inflation figures often influence central bank decisions on interest rates.
