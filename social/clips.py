@@ -294,8 +294,14 @@ def draw_caption(img: Image.Image, group: list[dict], t: float, y: int) -> None:
     x = (W - width(f)) / 2
     for g, wtxt in zip(group, words):
         on = g["t"] <= t < g["t"] + g["d"] + 0.1
-        d.text((x, y), wtxt, font=f, fill=AMBER if on else WHITE, stroke_width=7, stroke_fill=(0, 0, 0))
-        x += d.textlength(wtxt, font=f) + d.textlength(" ", font=f) + sp
+        wf = f
+        if on:   # the spoken word pops: bigger for its first 0.12 s, then settles a little larger than the rest
+            pop = 1.18 if t - g["t"] < 0.12 else 1.08
+            wf = font(BOLD, int(f.size * pop))
+        w0, w1 = d.textlength(wtxt, font=f), d.textlength(wtxt, font=wf)
+        d.text((x - (w1 - w0) / 2, y - (wf.size - f.size) / 2), wtxt, font=wf, fill=AMBER if on else WHITE,
+               stroke_width=7, stroke_fill=(0, 0, 0))
+        x += w0 + d.textlength(" ", font=f) + sp
 
 
 def draw_context(img: Image.Image, text: str, y: int, a: float) -> None:
@@ -698,8 +704,62 @@ CLIP_STOCK = 8      # unposted clips to keep ready (the posting mix now uses ~3 
 MINE_PER_RUN = 2    # sources mined per daily run when below stock (2 clips each)
 
 
+# ------------------------------------------------------------------ finding new public-domain footage by itself
+DISCOVER = [   # (search, speaker hint, tag, series): US government works only, so every clip is free to reuse
+    ("Senate Banking Committee hearing", "a senator or witness", "IN CONGRESS", "Money in Congress"),
+    ("House Financial Services Committee hearing", "a member of Congress or witness", "IN CONGRESS", "Money in Congress"),
+    ("Federal Reserve chair testimony Congress", "the Fed chair", "FED HISTORY", "Fed Watch"),
+    ("Secretary of the Treasury remarks", "the Treasury Secretary", "TREASURY", "Money in Congress"),
+    ("Securities and Exchange Commission chair", "the SEC chair", "MARKETS", "Money in Congress"),
+    ("Federal Deposit Insurance Corporation", "the FDIC", "BANKS", "Fed Watch"),
+    ("Consumer Financial Protection Bureau", "the CFPB", "YOUR MONEY", "Fed Watch"),
+    ("president speech economy inflation", "the President", "PRESIDENTS", "Presidents on Money"),
+]
+PD_OK = re.compile(r"public domain|PD-USGov|PD-US|CC0", re.I)
+
+
+def discover(limit: int = 4) -> list[str]:
+    """Search Wikimedia Commons for public-domain US government videos about money and add them as sources."""
+    reg, added = load(REGISTRY, {}), []
+    have = {v.get("title") for v in reg.values()}
+    for q, speaker, tag, series in DISCOVER:
+        if len(added) >= limit:
+            break
+        try:
+            hits = requests.get("https://commons.wikimedia.org/w/api.php", headers=UA, timeout=60, params={
+                "action": "query", "list": "search", "srnamespace": 6, "srlimit": 15, "format": "json",
+                "srsearch": f"{q} filetype:video"}).json()["query"]["search"]
+        except (requests.RequestException, KeyError, ValueError) as e:
+            print("discover failed:", q, e); continue
+        for h in hits:
+            title = h["title"].removeprefix("File:")
+            if title in have or not title.lower().endswith((".webm", ".ogv", ".mp4")):
+                continue
+            try:
+                meta = commons_file(title)
+            except (requests.RequestException, KeyError, StopIteration):
+                continue
+            if not PD_OK.search(meta["license"]):
+                continue
+            key = "auto_" + re.sub(r"[^a-z0-9]+", "_", title.lower().rsplit(".", 1)[0])[:60].strip("_")
+            reg[key] = {"kind": "commons", "title": title, "date": meta["date"][:20],
+                        "credit": f"{meta['license']}, via Wikimedia Commons", "speaker": speaker, "tag": tag,
+                        "series": series, "moments": 2, "discovered": q,
+                        "pick_hint": "Prefer short, surprising, self-contained statements about money, prices, "
+                                     "banks, debt or markets. Name the real speaker in the title."}
+            have.add(title); added.append(key)
+            print("discovered:", key, "|", meta["license"])
+            break   # one per search keeps the mix varied
+    save(REGISTRY, reg)
+    return added
+
+
 def auto() -> None:
     done = load(DONE, {"sources": []})
+    left = [k for k, v in load(REGISTRY, {}).items() if v.get("mine", True) and k not in done["sources"]
+            and v["kind"] != "brightcove"]
+    if len(left) < 6:   # running low on unmined footage: go find more
+        discover()
     reg = load(REGISTRY, {})
     made = []
     try:
@@ -776,5 +836,7 @@ if __name__ == "__main__":
             if ids and k not in done["sources"]:
                 done["sources"].append(k)
             save(DONE, done)
-    elif cmd not in ("scout", "make", "campaigns"):
+    elif cmd == "discover":
+        discover(int(args[0]) if args else 4)
+    elif cmd not in ("scout", "make", "campaigns", "discover"):
         auto()
