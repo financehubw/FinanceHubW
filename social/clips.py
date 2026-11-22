@@ -127,6 +127,12 @@ def media_for(key: str, info: dict) -> Path:
             subprocess.run(["yt-dlp", "-q", "-f", "best[height<=720]/best", "-o", str(out),
                             FED_PLAYER.format(info["id"])], check=True)
         return out
+    if kind == "gdrive":   # campaign source files are usually shared Google Drive links
+        out = CACHE / f"{key}.mp4"
+        if not out.exists():
+            out.parent.mkdir(parents=True, exist_ok=True)
+            subprocess.run(["gdown", "--fuzzy", "-q", info["url"], "-O", str(out)], check=True)
+        return out
     if kind == "url":
         return download(info["url"], CACHE / f"{key}{Path(info['url']).suffix or '.mp4'}")
     raise ValueError(f"unknown source kind {kind}")
@@ -509,6 +515,12 @@ def render(spec_id: str) -> dict:
              "thumb_photo": "", "thumb_tag": spec.get("tag", "MONEY HISTORY"), "ai_voice": False, "voice": "none",
              "made": dt.date.today().isoformat(), "sources": [credit_line], "format": "clip",
              "series": spec.get("series", "Money History, in Real Footage"), "ig_trial": True}
+    camp = info.get("campaign")
+    if camp:   # paid clipping campaign: its required credit and hashtags, and a record for payout submission
+        entry.update({"format": "campaign", "campaign": camp["name"], "ig_trial": False,
+                      "series": "Podcast Clips",
+                      "caption": spec["caption"].rstrip() + "\n\n" + camp.get("credit", credit_line),
+                      "tags": (camp.get("hashtags") or []) + spec["tags"][:3]})
     return entry
 
 
@@ -733,7 +745,25 @@ if __name__ == "__main__":
             scout(k)
     elif cmd == "make":
         make(args)
-    elif cmd == "mine":   # let the AI pick the best moments from these sources, then render them
+    elif cmd == "campaigns":   # register every campaign source, then mine the ones not done yet
+        reg, done = load(REGISTRY, {}), load(DONE, {"sources": []})
+        keys = []
+        for c in load(ROOT / "social" / "campaigns.json", {}).get("campaigns", []):
+            for n, s in enumerate(c.get("sources", []), 1):
+                k = "camp_" + re.sub(r"\W+", "_", c["name"].lower()).strip("_") + f"_{n}"
+                reg[k] = {"kind": "gdrive" if "drive.google" in s["url"] else "url", "url": s["url"], "date": s.get("date", ""),
+                          "credit": c.get("credit", c["name"]), "speaker": c.get("speaker", "the host"),
+                          "title": s.get("title", c["name"]), "tag": "PODCAST", "moments": c.get("moments", 3),
+                          "campaign": {"name": c["name"], "credit": c.get("credit", ""), "hashtags": c.get("hashtags", [])},
+                          "pick_hint": "A podcast episode: pick money moments with a strong opinion, number or story. " + c.get("hint", "")}
+                if k not in done["sources"]:
+                    keys.append(k)
+        save(REGISTRY, reg)
+        print("campaign sources to clip:", keys or "none (add campaigns to social/campaigns.json)")
+        sys.argv = [sys.argv[0], "mine", *keys]
+        if keys:
+            cmd, args = "mine", keys
+    if cmd == "mine":   # let the AI pick the best moments from these sources, then render them
         reg, done = load(REGISTRY, {}), load(DONE, {"sources": []})
         for k in args:
             info = reg[k]
@@ -746,5 +776,5 @@ if __name__ == "__main__":
             if ids and k not in done["sources"]:
                 done["sources"].append(k)
             save(DONE, done)
-    else:
+    elif cmd not in ("scout", "make", "campaigns"):
         auto()

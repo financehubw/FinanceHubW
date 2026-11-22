@@ -1,0 +1,21 @@
+{
+ "_how": "Add a joined Content Rewards campaign here, then run: gh workflow run clips.yml -f mode=campaigns. Each source becomes clips that post in the normal rotation; posted links land in social/campaign_posts.json for payout submission.",
+ "campaigns": [],
+ "_example": {
+  "name": "Example Podcast",
+  "brief": "https://contentrewards.com/...",
+  "credit": "Clip from Example Podcast (@example), used with permission via Content Rewards.",
+  "hashtags": [
+   "#examplepodcast"
+  ],
+  "speaker": "the host",
+  "moments": 3,
+  "sources": [
+   {
+    "url": "https://drive.google.com/file/d/FILE_ID/view",
+    "date": "Nov 2026",
+    "title": "Episode 12"
+   }
+  ]
+ }
+}

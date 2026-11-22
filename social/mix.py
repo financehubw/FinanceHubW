@@ -12,11 +12,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WEIGHTS = ROOT / "social" / "format_weights.json"
 DOMINANT = 2.0                # weight ratio that lets a category post twice in a row
-DEFAULT = {"clip": 2.0, "micro": 1.2, "story": 1.0, "lesson": 1.0, "data": 0.6}   # clip: first one hit ~30x the median
+DEFAULT = {"campaign": 2.0, "clip": 2.0, "micro": 1.2, "story": 1.0, "lesson": 1.0, "data": 0.6}   # clip: first one hit ~30x the median
 
 
 def category(item: dict) -> str:
     f, tag, title = item.get("file", ""), item.get("thumb_tag", ""), item.get("title", "")
+    if item.get("format") == "campaign":
+        return "campaign"
     if item.get("format") == "clip" or f.startswith("clip_"):
         return "clip"
     if item.get("format") == "micro" or item.get("loop") or f.startswith("loop_"):

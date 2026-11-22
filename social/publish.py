@@ -438,6 +438,12 @@ def main() -> None:
                               **({"format": item["format"]} if item.get("format") else {}),
                               **({"ig_trial": True} if item.get("ig_trial") and "Instagram" in results else {})})
         POSTED.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
+        if item.get("campaign"):   # links to submit on Content Rewards for payment
+            cp = ROOT / "social" / "campaign_posts.json"
+            c = load(cp, {"posts": []})
+            c["posts"].append({"campaign": item["campaign"], "file": item["file"], "date": log["posted"][-1]["date"],
+                               "links": results, "submitted": False})
+            cp.write_text(json.dumps(c, indent=1), encoding="utf-8")
     if failed and not results:
         sys.exit("every platform failed")
 
