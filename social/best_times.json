@@ -1,17 +1,17 @@
 {
  "times": {
-  "short": "14:00",
+  "short": "15:00",
   "briefing_morning": "02:30",
-  "briefing_evening": "12:30",
-  "short_midday": "09:30"
+  "briefing_evening": "13:00",
+  "short_midday": "07:30"
  },
  "notes": {
   "status": "ok",
-  "short": "46 posts over 8 hours",
-  "briefing_morning": "21 posts over 7 hours",
-  "briefing_evening": "testing 12:30 UTC this week (0 posts so far)",
+  "short": "60 posts over 7 hours; moved to 15h UTC (median reach 294)",
+  "briefing_morning": "17 posts over 7 hours",
+  "briefing_evening": "testing 13:00 UTC this week (0 posts so far)",
   "media_seen": 100,
-  "short_midday": "17 posts over 4 hours"
+  "short_midday": "testing 07:30 UTC this week (15 posts so far)"
  },
- "updated": "2026-11-15T13:51Z"
+ "updated": "2026-11-22T14:28Z"
 }
