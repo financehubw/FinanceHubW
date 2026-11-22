@@ -81,6 +81,7 @@ jobs:
         run: |
           mkdir -p logs
           python social/clips.py ${{ inputs.mode || 'auto' }} ${{ inputs.args }} 2>&1 | tee logs/clips.log
+          [ "${{ inputs.mode || 'auto' }}" = "auto" ] && python social/clips.py campaigns 2>&1 | tee -a logs/clips.log || true
       - name: Save
         if: always()
         run: |
