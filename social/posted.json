@@ -1421,6 +1421,18 @@
    "failed": [],
    "errors": {},
    "format": "clip"
+  },
+  {
+   "file": "whatif_dis_1990.mp4",
+   "title": "$1,000 in Disney in 1990 is now worth this",
+   "date": "2026-11-23T18:32:51Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/7m1AzPnHXp0",
+    "Instagram": "18099579494673357",
+    "Facebook": "1155298026985151"
+   },
+   "failed": [],
+   "errors": {}
   }
  ]
 }
