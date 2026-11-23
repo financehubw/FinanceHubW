@@ -1,3 +1,102 @@
+=== run 2026-11-23T08:12:59Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 10
+99/171 sources returned news, 1062 recent items
+224 new trusted stories, posting up to 3 this run
+---
+🇮🇳 INDIAN STOCK MARKET DROPS 1% ON PROFIT-TAKING
+
+📌 India's Sensex and Nifty fell over 1% as investors sold shares to lock in gains.
+📊 Sensex: -1.1%
+
+📍 India · 📰 Mint · ✅ 5 sources
+https://www.livemint.com/market/stock-market-news/bull-vs-bear-why-is-stock-market-down-today-sensex-nifty-succumb-to-profit-booking-plunge-nearly-1-top-3-reasons-11795411485763.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and descriptions are directly supported by the cited Mint and other listed sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
+  Groq Qwen: PASS - All factual claims regarding the 1.1% drop, profit-taking, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-988101825b73
+---
+🇮🇳 NEW CPI DATA SERIES TO REDUCE INFLATION SWINGS: RBI
+
+📌 An RBI official said new CPI (price index) data will lower inflation swings.
+
+📍 India · 📰 Fortune India · ✅ 3 sources
+https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbnBaakxJZEdMcm1wSzFIcGVLekQ4SmF5dW4tZWdDTG9GVXc0ZjJ4S2FFQTVhSnJFYlliVWdwUXczbngzRm1xdExobUdPMklWQlp4bDRMTlZuTmtKUlVlZkcwQTlOMTRPYzVqc1l2cl9QRFdSSl9kX1RtVThkRUNScThzQlljQmpNX2pQclZEeGdnS3k5SDFKZ2JDd3U2T3RTdkN1eVBTVHRNVVJwVXB0VzBXN3dYc3M4a29pQ1hBNHphbGNJdjRiQXhnRTRGVmJFTnFaQndfOEo3NWhzaTV4RUVpN21LMDjSAfQBQVVfeXFMTllYZkxCaWVwTWVOSU9wQnJiN1BrUVBMcFg0d2lyc3FrY3RvczYtS015Q0lxVDh1T29TSVQ4dzByMnFRdmxIWDZOcGQxWkxOZE9XQUozQ29BdFRGTDAyLTUtZDhyZkYxbFRLVnlFYlgxbXZ5UjI2c3FvUkxvMDl0T1c3QXFsRnpVNE1qY3JNVHBSOW5JR0VEa2NKU1NEWHlNZ0t0NUstRVJjQ2NVTHdKdHdWUkNqWmdSYm1qMkYxekFtdFRReGxJd0l6Yk1sbXdkalN6V0F5THNsbGo0YWJNc244Rm9VTFZkSGp4WjdEOTJjQUNySQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the new CPI series reducing inflation volatility are directly supported by the cited Fortune India and other sources.
+  Groq GPT-OSS 20B: FAIL - The post claims 3 sources, but 4 are listed.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN MARKETS DROP AS SENSEX FALLS 1,000 POINTS
+
+📌 India's Sensex fell over 1,000 points and Nifty dropped below 25,500.
+📊 Sensex: -1,000 pts
+💡 Market drops can reduce the value of stock investments.
+#Sensex
+
+📍 India · 📰 Moneyweb · ✅ 8 sources
+https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-now/market-sell-off-may-not-be-over/
+  written by Gemini
+  Groq GPT-OSS: FAIL - The cited source (Moneyweb) does not support the claim about the Sensex drop
+  -> blocked by fact-check
+---
+🇺🇸 BILL ACKMAN WARNS FED HIKES WILL CAUSE RECESSION
+
+📌 Bill Ackman says a 3% inflation target is realistic and warns against rate hikes.
+📊 Ackman inflation target: 3%
+
+📍 US · 📰 Bitbo · ✅ 2 sources
+https://news.google.com/rss/articles/CBMiYEFVX3lxTFBEVnNFSkZfZ2lSQ0ZZNU1QbkNyY1RjTGJYYmUzSXVxZFk0SWJCdFAxRDBma05MUlVldUs0S3BQaFR1dkR4cEc3UUtSdkxNSFlPUktjcVd1aDRMaWFvXzFrQQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Bitbo and BigGo Finance articles.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: FAIL - The draft claims Ackman warns against rate hikes, but the sources state he warns that *another* rate hike would trigger a recession, implying he may accept the current stance or previous hikes, and th
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN BONDS FALL AS RUPEE WEAKENS
+
+📌 Indian bonds fell as traders took profits and the rupee fell toward 93 per dollar.
+📊 Benchmark yield: 7.2185%
+
+📍 India · 📰 Economic Times · ✅ 3 sources
+https://economictimes.indiatimes.com/markets/bonds/india-bonds-give-up-marginal-opening-gains-as-profit-booking-takes-over/articleshow/136090974.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about bond decline, profit booking, rupee near 93 per dollar, and 7.2185% yield are directly supported by the Economic Times sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the bond decline, profit booking, rupee weakness toward 93, and the specific benchmark yield of 7.2185% are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-ce2680eeaf99
+---
+🇮🇳 INDIAN STOCK MARKET DROPS SHARPLY
+
+📌 Indian stocks crashed today, taking Nifty below 25,600.
+📊 $NIFTY: Below 25,600
+💡 Falling stock prices lower the total value of people's investments.
+#Nifty
+
+📍 India · 📰 Punjab Newsline · ✅ 3 sources
+https://news.google.com/rss/articles/CBMifkFVX3lxTFBZX1hpVHZtVlNnYlFxdHo2TTREeFZwbkdFZlpadTNCQUxqQXRXU1lHRG1qZTNIQXc0Z0syeElkVkQzcnpVbmNYSS1OdkpkWExOVmZ2cGNkSXVOM2o0OTdEdjBIc3J6cXRtcDR0S0lMcFo3cGdZSjRZREtHWUlMQQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly backed by the listed sources
+  Groq GPT-OSS 20B: FAIL - The claim that Nifty fell below 25,600 is not supported by the cited Punjab Newsline source, and the description of a crash is not directly corroborated by that source.
+  -> blocked by fact-check
+---
+🇸🇬 SINGAPORE CORE INFLATION FALLS TO 1.5% IN OCTOBER
+
+📌 Singapore's core inflation (key price index) dropped to 1.5% in October.
+📊 Core inflation: 1.5%
+
+📍 Singapore · 📰 The Straits Times World News · ✅ 6 sources
+https://www.straitstimes.com/business/economy/singapores-core-inflation-eases-to-1-5-in-october
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about Singapore's core inflation falling to 1.5% in October are directly supported by the cited Straits Times article and other sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Straits Times article.
+  Groq Qwen: PASS - All factual claims regarding the location, inflation rate, time period, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6fb913707813
+done: 3 post(s) this run
 === run 2026-11-22T23:46:27Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1399,102 +1498,3 @@ https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeUhsa1NKWG5SeHNjcEpJMlRVY2t
   written by Gemini
   Groq GPT-OSS: PASS - All claims about a 19‑month high and rate‑hike expectations are directly supported by the cited sources.
   Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
-  Groq Qwen: PASS - All factual claims regarding the US dollar hitting a 19-month high due to rising interest rate expectations are directly supported by the provided sources, and the location and source attribution are 
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f9016f774b2c
----
-🇬🇧 UK FTSE 100 RISES AS UK ECONOMY GROWS
-
-📌 The main UK stock index rose following UK economic growth and earnings reports.
-💡 Economic growth usually shows a healthy environment for businesses.
-#UK
-
-📍 UK · 📰 Yahoo Finance UK · ✅ 3 sources
-https://news.google.com/rss/articles/CBMiekFVX3lxTFA2SzNUUzl0U0VaMnBrWk1YUlJ3VWR6YXgxTFdSdGhMR2RpVXJFNnFnNm5reWZDaHZXQjZ2Q1NzZ1RhUzNLT1dLY05GMEFyOWd6LTVFcGd3Z3JLcTlkcTM1SmxlcjFRSW00NzdCSjFNeWp5TjZOYWxDZlhR?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about FTSE 100 rising due to UK GDP growth and earnings are supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Yahoo Finance UK article.
-  Groq Qwen: PASS - All factual claims regarding the FTSE 100 rise, UK GDP growth, and earnings reports are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-c4f17fa95a2f
-done: 3 post(s) this run
-=== run 2026-11-12T10:12:43Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 10
-108/171 sources returned news, 1094 recent items
-238 new trusted stories, posting up to 3 this run
----
-🌐 BITCOIN FALLS BELOW $74,000
-
-📌 Bitcoin fell 0.4% to $73,344.71 as overall crypto prices dropped.
-📊 $BTC: $73,344.71 (-0.4%)
-📊 Crypto market: $2.43 trillion (-0.78%)
-#Crypto
-
-📍 Global · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/market/cryptocurrency/bitcoin-slips-below-74000-mark-experts-explain-factors-influence-cryptocurrency-markets-week-us-inflation-risk-investors-11794473906813.html
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 2 sources" but only one distinct source (Livemint) is provided.
-  -> blocked by fact-check
----
-🇺🇸 US DOLLAR HITS NEAR 19-MONTH HIGH
-
-📌 The US Dollar rose above 103 to near a 19-month high on rate hike bets.
-📊 Dollar Index: Above 103
-💡 A stronger dollar usually makes imported goods cheaper for US buyers.
-
-📍 US · 📰 FXStreet · ✅ 7 sources
-https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlBlZlltbUg5M3p6dmkxMjlPU1EwaHdWc0Y3VTBPMmhUMllwb1J6QnY4NHhRUGdWZVhoVGdRLUpQU3pxMERxS09yS0tpbU1FM1FiNy1TUnR6ZGxQQ0JmMk0tM1BaLTlZMGFTbXlONVdicFpNYzEzQmpabHpKbkFjSjc4OEFxaDdJTU40MVA1NU8yMTB4Q2ZETXl4Q0N3WFR0eGx2dC1qT0c2akRzbUtEWUpBT25zQkN6ekE?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly backed by the cited FXStreet/TradingKey sources and the general explanation is correct.
-  Groq GPT-OSS 20B: FAIL - The post claims there are 7 sources, but only six are listed, so that factual claim is unsupported.
-  -> blocked by fact-check
----
-🇪🇺 EUROPE'S STOXX 600 INDEX HITS RECORD HIGH
-
-📌 Europe's STOXX 600 stock index hit an all-time high on strong company profits.
-💡 Higher stock indexes usually reflect solid business growth.
-#Europe
-
-📍 Europe · 📰 Reuters · ✅ 7 sources
-https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb2lhYU41THN2eG9LQ3BhakNHMERZZEhUaG05elhtaVFsT3EwczI1QWxtM21uVGFEVUpYR2FkYnlUejJrYzUwRVdfR19SRXFQN1VuQmNmNXluOWVRNUNzdXlrSTRlekpJWDJETF80RTJ6a19VN1BNOFBKbThGYnBmWGdLSktleXdBZEtTMGNOYV9Rc1lVN01TNDhPVXJ6QkxtOGlUaG5FQm1TekNQU2VvV2JwSXhNdmdfT1l3?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post claims "✅ 7 sources" but only six sources are listed.
-  -> blocked by fact-check
----
-🇮🇳 RBI PLANS NEW RULES FOR PRIVATE EQUITY LENDERS
-
-📌 India's central bank plans to limit private equity control of non-bank lenders.
-
-📍 India · 📰 Economic Times · ✅ 5 sources
-https://economictimes.indiatimes.com/news/economy/finance/rbi-plans-curbs-on-private-equity-firms-controlling-stakes-in-multiple-non-bank-lenders-report/articleshow/135763029.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about RBI's planned limits on private equity control of NBFCs, location, source, and number of sources are directly supported.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited source.
-  Groq Qwen: PASS - All factual claims regarding the RBI's plan to limit private equity control of non-bank lenders are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-6efcfd8dd8b5
----
-🌏 ASIAN BUYERS TURN TO AFRICAN AND BRAZILIAN OIL
-
-📌 Asian refiners are buying more oil from Africa and Brazil as shipping rates drop.
-💡 Lower shipping costs usually help keep import prices down.
-#Oil
-
-📍 Asia · 📰 Oilprice.com · ✅ 3 sources
-https://oilprice.com/Latest-Energy-News/World-News/Asian-Oil-Buyers-Turn-to-Africa-and-Brazil-as-Tanker-Rates-Plunge.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about Asian buyers shifting to African/Brazilian oil due to lower shipping rates are supported, and the general explanation about lower costs is accurate.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source.
-  Groq Qwen: FAIL - The post claims buyers are turning to Africa and Brazil 'as shipping rates drop,' but the source specifies that rates for shipping out of the Persian Gulf remain near historic highs, while only South 
-  -> blocked by fact-check
----
-🇪🇺 ZEALAND PHARMA REPORTS Q3 RESULTS
-
-📌 Zealand Pharma published its results for the third quarter of 2026.
-#Earnings
-
-📍 Europe · 📰 The Courier-Journal · ✅ 7 sources
-https://news.google.com/rss/articles/CBMi7wJBVV95cUxNVjBYdU00LU84a0ZLVFpQRHhWbHhqbGxXdHVqdlM5S3lfNE0wTkFrVW9Tb2dITVRtODlRLWhHUkI4T280X0FrY1d0ODdUam9jM1RCRjdHMTR6eGRlVWZhbVFrUUNRd2FaLXVMTlhKRW91UVYzU25HcFNnQlpKbUJCem1GcjJhWk9KeDNTOTFRN0ZlVUlMSHZuSlFOQUx6OTFRSGYyMW95TUxIYjZxZXl3OGl0TUh5bmYyUFhlN21Vd3B6enlIb04weU9nR0IzcVRld0RkLTQyaXdnWEwtVzNJb0FpeERlcGVSQUhmX1BDc0FMMXlnSXd0cksxUXB0MnRnRlJTSVZSdl9vZk9aNjk1OVMzeTQ3STRjbFV2Z0tpUVZpOGZCZ1hVT2M0WU54UUxmYk1OcFEtcmZPUXgwV0JnUlc1cnpBY001czYxM3Q4cDltZ1g0ekRrV2JDTzhwVmV0LUNWbGxGdUxSVktyMkQ0?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The cited Courier-Journal source discusses Caledonia Mining, not Zealand Pharma’s Q3 2026 results
