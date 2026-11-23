@@ -4511,6 +4511,75 @@
    "format": "clip",
    "series": "Fed Watch",
    "ig_trial": true
+  },
+  {
+   "file": "monthly_wmt_1990.mp4",
+   "title": "$100 a month into Walmart since 1990 is now worth this",
+   "caption": "$100 every month into Walmart since 1990.\nToday that would be worth about $521,547 (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#sip",
+    "#money",
+    "#stocks",
+    "#finance",
+    "#habits"
+   ],
+   "comment": "Could you put away $100 a month? 👇",
+   "thumb": "$100/month in Walmart since 1990 = *$521,547*",
+   "thumb_photo": "supermarket",
+   "thumb_tag": "MONTHLY HABIT",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-23",
+   "sources": [
+    "Walmart price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_hd_1990.mp4",
+   "title": "$1,000 in Home Depot in 1990 is now worth this",
+   "caption": "In 1990, Home Depot was a hardware store.\n$1,000 in it then would be worth about $184,095 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Home Depot in 1990? 👇",
+   "thumb": "$1,000 in Home Depot 1990 = *$184,095*",
+   "thumb_photo": "hardware tools",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-23",
+   "sources": [
+    "Home Depot price history, Yahoo Finance (split-adjusted), at render time"
+   ]
+  },
+  {
+   "file": "whatif_nflx_2012.mp4",
+   "title": "$1,000 in Netflix in 2012 is now worth this",
+   "caption": "In 2012, Netflix was recovering from a stock crash.\n$1,000 in it then would be worth about $55,669 today (price growth only, no dividends).",
+   "tags": [
+    "#investing",
+    "#stocks",
+    "#money",
+    "#whatif",
+    "#finance",
+    "#compounding"
+   ],
+   "comment": "What would you have done with Netflix in 2012? 👇",
+   "thumb": "$1,000 in Netflix 2012 = *$55,669*",
+   "thumb_photo": "streaming tv",
+   "thumb_tag": "WHAT IF",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-23",
+   "sources": [
+    "Netflix price history, Yahoo Finance (split-adjusted), at render time"
+   ]
   }
  ]
 }
