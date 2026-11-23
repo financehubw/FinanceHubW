@@ -1433,6 +1433,19 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "clip_fdr_gold_1933_1.mp4",
+   "title": "FDR, 1933: U.S. will control the gold value of the dollar",
+   "date": "2026-11-23T20:40:03Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/vPhWDpvTxL0",
+    "Instagram": "17999430216024273",
+    "Facebook": "1668976384600602"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
