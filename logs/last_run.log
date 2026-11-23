@@ -1,3 +1,37 @@
+=== run 2026-11-23T20:31:25Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+91/171 sources returned news, 805 recent items
+186 new trusted stories, posting up to 1 this run
+---
+🇺🇸 JENSEN HUANG RETURNS AS NVIDIA CEO, STOCK SURGES 33%
+
+📌 Nvidia reinstated CEO Jensen Huang, sending its stock up nearly 33%.
+📊 $NVDA: +33%
+💡 Big stock gains in top tech companies can lift broader stock markets.
+
+📍 US · 📰 BBC News · ✅ 12 sources
+https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss
+  written by Gemini
+  Groq GPT-OSS: FAIL - The post states a 33% surge, but the source reports the rise as "nearly 33%", not an exact 33%.
+  -> blocked by fact-check
+---
+🇮🇳 INDIAN STOCKS CRASH AS INVESTORS LOSE OVER RS 5 LAKH CRORE
+
+📌 India's stock market plunged today, with the main Sensex index falling by 1,484 points.
+📊 Sensex: -1,484 pts
+
+📍 India · 📰 Greater Kashmir · ✅ 2 sources
+https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVJYS2N1alBScUE1TXY0QldLMVZobk9UTjNoZGlBR01nbXF3SmpFX0pzWkhnMXFJMV9WRFFLNEpRYllxT1ZJeDZkQ05PSUFHUE9FMFlfUUp3ZGRWVk9FQ2oxcFI1U3IzZzE0c1BtZmhvN1lLbWhYeFd6cUpwblZZZ1lJSUFtZ3lWY3F1Skltb2p4c3dZNjhrYmdpZUliMlRLUFRRSEZ5UdIBrAFBVV95cUxPVm04Y21xWXVXZjdpSXgyb1lOQkxqSVpqaVczSFlnWm1FekhZRmN1dHhvY2hXMmp3S290NEQ2MVU1LXdmdEVaVGxROEJyTi1OVWxaempRUXBUTzVPUTJwd3ZqS2Q5Vlhxc3VPRWpEVXJKN1pJUlotYlpISlJOV1FNLWI2ZF9Kd2pYVEU0LUVXYV9vVHhoYXNlRUhWNnVPNG93MzFjZm5LS3JhTlhK?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and factual statements are directly supported by the cited Greater Kashmir and theopenpress sources
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the Sensex drop of 1,484 points and investor losses of over Rs 5 lakh crore are directly supported by the provided sources, and the location and source attribution are cor
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - The Sensex drop of 1,484 points and investor losses over Rs 5 lakh crore (Rs 5.19 lakh crore) are directly supported by the cited Greater Kashmir and TheOpenPress reports, with correct country and sou
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-158cde7101b2
+done: 1 post(s) this run
 === run 2026-11-23T08:12:59Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 10
@@ -1464,37 +1498,3 @@ https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stoc
 🇺🇸 FED TO SKIP RATE VOTE IN OCTOBER 2027
 
 📌 The US Fed will not vote on interest rates at its October 2027 meeting.
-📊 Voting meetings: 7
-💡 Central bank interest rates influence borrowing costs for everyday loans.
-#Fed
-
-📍 US · 📰 CNBC · ✅ 5 sources
-https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMGdNQ09FSWdFaDlmMHlXQmJCNWEzb3N5MExxM0RlOHFDREEwQzdGbWpxTWpsQTVlWkpIV04yWVN1YXEzWGVwaVpLVTgtUVZvUThnWDgtVlVVZm4tMElkZHdaSjhBdDFIV1U4T2MxNmVaZFdPYy1CdnBON0N6WTZ3ei1xekg3b25FUmw3OEdZVS1XMHlmLUY1WXVIeEpoNHJuVFFlc0xDNlpGZUo1WXJlVnJTdVZXcW1fZmdjcVl6ZXZPUEk?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims are directly supported by the cited CNBC source.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the Fed's October 2027 meeting, the number of voting meetings, and the source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-036e2fa702f3
----
-🌐 ARCH LENDING LAUNCHES BITCOIN LOAN REFINANCING
-
-📌 Arch Lending launched Bitcoin loan refinancing, targeting 1 point lower rates.
-📊 Target rate cut: 1 percentage point
-
-📍 Global · 📰 Crypto News · ✅ 3 sources
-https://news.google.com/rss/articles/CBMiakFVX3lxTE9lclhHR3JkbnJSUDFHZVNNWmR1MXJZcTA0RkFGcmgydmZKYWtPRWg2cTk1S0RlR1NhTFIwajczeUlFZjY5VHhaSnJaX2tpSlNaSExSMmUzM29DS0NJRXZXQ2N2VGdtM1FWOVE?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post lists the location as Global, but the sources do not specify a global scope for the launch.
-  -> blocked by fact-check
----
-🇺🇸 US DOLLAR HITS 19-MONTH HIGH
-
-📌 The US dollar rose to a 19-month high as expectations for higher interest rates grew.
-📊 US Dollar: 19-month high
-
-📍 US · 📰 Economies.com · ✅ 4 sources
-https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeUhsa1NKWG5SeHNjcEpJMlRVY2tzRUROaFVSOUVpWjZkZ19La01fV2xvekZHU1ZsdHZSZ1l5UlJtSnh0YW1KVzhJMWlXU1ZhR3BFRjZzV2hBUEdGY1NpelNhTTZocU40MFJaYjBSN19VZktTMzFidVFKdlREYkJQVnZOMHI2a0QyWVpDaUlOWU9EU3JLM3VlNGN0MXhTMl9PdEZoc3pTbjg2Mk1oc0t3TldCVFRQaEtZbXdMUVRqQ2RUd1FEX3dnQkwxbnZQQ2JoTWc?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about a 19‑month high and rate‑hike expectations are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
