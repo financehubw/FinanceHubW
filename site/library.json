@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "type": "daily",
+   "date": "2026-11-24",
+   "label": "Tue 24 Nov 2026",
+   "title": "Nvidia CEO returns",
+   "summary": "Nvidia shares jumped after its board unanimously reinstated chief Jensen Huang.",
+   "base": "media/daily/2026-11-24/",
+   "first": 1,
+   "slides": 7
+  },
+  {
    "type": "briefing",
    "date": "2026-11-21",
    "label": "Sat 21 Nov 2026",
