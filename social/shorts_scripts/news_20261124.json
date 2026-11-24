@@ -1,0 +1,53 @@
+{
+ "id": "news_20261124",
+ "title": "Gold and silver drop ahead of US inflation data (today's money news)",
+ "thumb": "*TODAY:* Gold and silver drop ahead of US inflati",
+ "thumb_photo": "gold bars",
+ "thumb_tag": "NEWS",
+ "caption": "Gold fell 2% and silver dropped 5.3% ahead of key US inflation data.\nGold: -2%\nHigher interest rate expectations can reduce demand for precious metals.",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "US,  Around Prague,  6 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. Gold and silver drop ahead of US inflation data.",
+   "chat": "Gold and silver drop ahead of US inflation data."
+  },
+  {
+   "say": "Gold fell 2% and silver dropped 5.3% ahead of key US inflation data.",
+   "photo": "gold bars",
+   "clip": {
+    "kicker": "US",
+    "year": "24 Nov",
+    "text": "Gold and silver drop ahead of US inflation data"
+   }
+  },
+  {
+   "say": "Gold: -2%.",
+   "photo": "gold bars",
+   "big": "-2%",
+   "sub": "Gold"
+  },
+  {
+   "say": "Why it matters. Higher interest rate expectations can reduce demand for precious metals.",
+   "slide": [
+    "Higher interest rate expectations can reduce demand for precious metals."
+   ]
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}

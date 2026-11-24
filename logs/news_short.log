@@ -1,3 +1,19 @@
 /home/runner/work/FinanceHubW/FinanceHubW/social/news_short.py:27: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   now = dt.datetime.utcnow()
-news short: no strong story today
+news short: Gold and silver drop ahead of US inflation data (today's money news)
+rendering news_20261124
+  -> news_20261124.mp4 | Gold and silver drop ahead of US inflation data (today's money news)
+[vost#0:0/rawvideo @ 0x60243bfd75c0] [vost#0:0/rawvideo @ 0x5c218c74eb40] Error submitting a packet to the muxer: Broken pipe
+Error submitting a packet to the muxer: Broken pipe
+    Last message repeated 1 times
+    Last message repeated 1 times
+[out#0/rawvideo @ 0x60243bf7d2c0] [out#0/rawvideo @ 0x5c218c74e5c0] Error muxing a packet
+Error muxing a packet
+[out#0/rawvideo @ 0x60243bf7d2c0] [out#0/rawvideo @ 0x5c218c74e5c0] Task finished with error code: -32 (Broken pipe)
+Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c218c74e5c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x60243bf7d2c0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5c218c74e5c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5c218c74e5c0] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x60243bf7d2c0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x60243bf7d2c0] Error closing file: Broken pipe
