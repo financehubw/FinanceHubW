@@ -1471,6 +1471,19 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "clip_fdr_fireside_1935_1.mp4",
+   "title": "President Roosevelt: Relief rolls are declining in 1935",
+   "date": "2026-11-24T18:32:41Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/QCojAkrl1Ts",
+    "Instagram": "18658003255035693",
+    "Facebook": "2907031213000338"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
