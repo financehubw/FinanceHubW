@@ -1,3 +1,55 @@
+=== run 2026-11-24T18:13:17Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+100/171 sources returned news, 977 recent items
+229 new trusted stories, posting up to 3 this run
+---
+🇺🇸 GOLD AND SILVER DROP AHEAD OF US INFLATION DATA
+
+📌 Gold fell 2% and silver dropped 5.3% ahead of key US inflation data.
+📊 Gold: -2%
+💡 Higher interest rate expectations can reduce demand for precious metals.
+
+📍 US · 📰 Around Prague · ✅ 6 sources
+https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTJ2djRDVUgzck5kdU1UOXVTQThfeUtmUkE3WkR6RFBYR1dxVXRqSGdWWFNXUzM1blhWY0d3emE2WElxZmdpYmlxZEd1bW5mdm1sVDdkSzJIbHVhdVlpNmItMWl4U0lMc3RWSUlwSHd1QnF3WW1qU21Xcml2eGNHRlpka3dkYlhidFloN1BPY2c0Nk8tTGVnZDBRUUxvMWowQ3ByNXozSWJjc0hfenJ5cnFwYkk?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - Gold 2% drop and silver 5.3% drop ahead of US inflation data are confirmed by the cited sources
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the percentage drops in gold and silver, the context of US inflation data, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-48b28698b33d
+---
+🇺🇸 ANTHROPIC SHARES FALL BELOW $83 IPO PRICE
+
+📌 Anthropic shares fell 13%, dropping below their $83 initial public price.
+📊 $ANT: Below $83 (-13%)
+
+📍 US · 📰 Economic Times · ✅ 5 sources
+https://news.google.com/rss/articles/CBMivgJBVV95cUxPRkVBdzFfaUI2dk9PSnhoWTJhcEs2N3hDeXRmdzZpV3RxeWFQRFJTcTRmNXBUbnc5aG12d0RFTGhPOUVyUG1ubE5pcHN5UFJuandXOVhiSGpiS3FVaDktQjlfQlpzSFJIMC1kTHBiWFVyWHN4RmQ1TWc5UlpZV09ILUR3ZW94dUpkeTZvRUVLWHlaNHpkdVRvSS1YbWFMRHVEbDFTUUt2VGVMRmkxZWdZSEROSkotM3FCaW90UjA3STZfZzh0S2EzMTJSOTVBYnRsZGRpRnEzblRlZjQyMDl3eGNrN2NMX1MwbE5TcG04TnA0OXV2ODkyZTdWR1N0T2RJQnQ0N1FkcURkb0RwRjBSQWN3N21GUzJYaEo3OUZMUVpOLV9fVmhTaE5GMVpmY1l2WlZvcFBFSmlmSC1UMkHSAbcCQVVfeXFMTnVCaE1oaWliRVRXSkg3Y3dHV1FHOC1EdVN0U3pBZWRUamxuUW5LenUwVFNRbXBSMkFXd25HQnVuV21vMGw2QzdzbkNUWTVxZHB1WUswOGpzQVQ2bEJTdXBWTTJTX3R4S25aT2NRVjhGNENiTGprbEZJQk9LMEFaZk96d0xVUnN1cDE3OXdONzMyamVfQjBmTGZlQm1BOUVpLVJzU1dDeWVMOExKYjFBcWtrNVBvYW5RNkdja2lpckZDWFIxQ25VUVJJNkxFeXAwQW1mYTB5WFNpTjZJTV9Cdnc1djhFLXhiaWhYcksyTnEyM2RFQ042djZ6SWNxOGtGN0ZKQmc2TXl5VU8wb3cxMXdXZ2Jnb0UyelhDd3YySUpQcnNJci1RLTdiQk45cWhGRHRjTThfR28?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (13% drop, below $83 IPO price) are directly supported by the Economic Times source
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding the stock symbol, percentage drop, price level, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-47b81cef59b2
+---
+🇺🇸 NASDAQ AND SP 500 FALL AS NVIDIA AI RALLY FIZZLES
+
+📌 Nasdaq and S&P 500 fell as the Nvidia-led AI stock rally lost momentum.
+💡 When major stock indexes drop, investment accounts can lose value.
+#USMarkets
+
+📍 US · 📰 Reuters · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSTdTSVk1YVg0WC1SRVJKVW1XYTZJbjRhRVctYkNzZHZRcW5TaVE3MVdSd2JfYUNaV3otX1FzR1lxYkwyWWZtbS1ONDdiem9UVUI0ckV6c2tiOEt0TGViNlUxZFdSeDV0aVJ4cjZkSkE5Nk9veE1UTmxad0xxaXhScndGMV9IdWVrNUpOQnY0Y0hXVmpZVFgwbTFQMDZiX0NqdExaejlYMzJnbjg?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Reuters source and the general explanation is accurate.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the market movements and the cause (Nvidia AI rally) are directly supported by the provided sources, and the location and source attribution are correct.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All claims (Nasdaq/S&P 500 fell, Nvidia-led AI rally fizzled, US location, Reuters source, 3 sources) are directly supported, and the 💡 line is a general non-predictive explanation.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-8fb53f89bba0
+done: 3 post(s) this run
 === run 2026-11-24T05:02:49Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1446,55 +1498,3 @@ skip (off-topic or nothing new): Bessent, Fed's Goolsbee divided on role of ener
 📌 Bank of America now expects the Fed to raise interest rates in January 2027.
 💡 Higher rates usually make loans costlier.
 #Fed
-
-📍 US · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/markets/us-stocks/news/bofa-adds-january-fed-hike-to-forecast-says-quarterly-pace-no-longer-enough/articleshow/135808910.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Economic Times and bloomingbit sources
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited source and the general statement is accurate.
-  Groq Qwen: PASS - All factual claims regarding Bank of America's forecast for a January 2027 Fed hike are supported by the sources, and the source attribution matches.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-55369b98634f
----
-🇺🇸 FED OFFICIAL WARNS OF RISING DEMAND
-
-📌 A top US central bank official says strong demand, partly from AI, is pushing prices up.
-💡 Higher inflation can keep borrowing costs high for everyone.
-#Fed
-
-📍 US · 📰 Economic Times
-https://economictimes.indiatimes.com/markets/us-stocks/news/chicago-feds-goolsbee-says-on-cnbc-the-fed-needs-to-guard-against-demand-overheating/articleshow/135807011.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported or are general, widely accepted explanations.
-  Groq Qwen: PASS - All factual claims regarding the official (Goolsbee), the cause of inflation (AI demand), and the source attribution are directly supported by the provided text.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-4b8141087182
-done: 3 post(s) this run
-=== run 2026-11-13T07:19:27Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-99/171 sources returned news, 922 recent items
-210 new trusted stories, posting up to 3 this run
----
-🌐 BITCOIN SLIDES BELOW $70,000
-
-📌 Bitcoin dropped 4.4% to $68,297 amid rising inflation worries.
-📊 $BTC: $68,297 (-4.4%)
-💡 Inflation worries often reduce investor appetite for risky assets.
-#Crypto
-
-📍 Global · 📰 Moneyweb · ✅ 9 sources
-https://www.moneyweb.co.za/moneyweb-crypto/bitcoin/bitcoin-slides-below-70-000-as-inflation-concerns-hurt-crypto/
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and contextual claims are directly supported by the Moneyweb source.
-  Groq GPT-OSS 20B: FAIL - Source count and location do not match the listed sources.
-  -> blocked by fact-check
----
-🇮🇳 RBI MAY RAISE INTEREST RATES BY 0.25% IN DECEMBER
-
-📌 ICICI Bank expects India's central bank to raise interest rates by 0.25% in December.
-📊 Expected rate hike: 0.25%
-
-📍 India · 📰 Economic Times · ✅ 5 sources
-https://economictimes.indiatimes.com/news/economy/indicators/food-inflation-to-stay-elevated-icici-bank-sees-25-bps-rbi-rate-hike-in-december/articleshow/135789519.cms
