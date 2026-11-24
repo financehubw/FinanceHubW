@@ -1459,6 +1459,18 @@
    "failed": [],
    "errors": {},
    "format": "clip"
+  },
+  {
+   "file": "monthly_ko_1990.mp4",
+   "title": "$100 a month into Coca-Cola since 1990 is now worth this",
+   "date": "2026-11-24T15:02:10Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/FgcjOYFwxkc",
+    "Instagram": "18097647548263534",
+    "Facebook": "1029714806841076"
+   },
+   "failed": [],
+   "errors": {}
   }
  ]
 }
