@@ -1,58 +1,23 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-103/171 sources returned news, 1051 recent items
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: rejected: these numbers are not in the source: 0
-  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: story #3 failed in 96s
-  big #1 draft 1: Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Bitcoin Magazine and CryptoSlate sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the price drop, specific figures, timing, and market context are directly supported by the provided sources.
-  big: story #1 ok in 22s
-  pol: rejected: pol_stat must be 1-7 characters (it is 0); pol_stat_l1 must be 1-26 characters (it is 0); pol_stat_l2 must be 1-30 characters (it is 0); pol_stat must be a meaningful figure with a unit, like $100+, 5
-  pol: rejected: these numbers are not in the source: 0
-  pol: rejected: pol_stat must be 1-7 characters (it is 0); pol_stat_l1 must be 1-26 characters (it is 0); pol_stat_l2 must be 1-30 characters (it is 0); pol_stat must be a meaningful figure with a unit, like $100+, 5
-  pol: story #14 failed in 99s
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); this repeats the big story (below, bitcoin, price); it must be a different story
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); this repeats the big story (below, bitcoin, price); it must be a different story
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol: story #13 failed in 79s
-  pol: rejected: this repeats the big story (anthropic, fell, friday, shares); it must be a different story
-  pol: rejected: this repeats the big story (anthropic, friday, shares); it must be a different story
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count); this repeats the big story (anthropic, fell, friday, shares); it must be a differ
-  pol: story #29 failed in 67s
-  pol: rejected: pol_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  pol #20 draft 2: Groq GPT-OSS: PASS - All claims about Ark buying ~1 million Anthropic shares for $90 M and trimming Ethereum and Solana holdings are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the purchase amount, share count, and trimming of specific holdings are supported by the provided sources.
-  pol: story #20 ok in 81s
-  biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story (000, below, bitcoin, fell); it must be a dif
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story (000, below, bitcoin, fell); it must be a different story; these numbers are not i
-  biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); this repeats the big story (below, bitcoin, fell, price); it must be a d
-  biz: story #13 failed in 65s
-  biz: rejected: biz_stats value must be 1-7 characters; this repeats the big story (anthropic, below, friday, shares); it must be a different story
-  biz: rejected: this repeats the big story (anthropic, friday, price, shares); it must be a different story
-  biz: rejected: this repeats the big story (anthropic, below, fell, friday); it must be a different story
-  biz: story #29 failed in 2s
+94/171 sources returned news, 1019 recent items
+  big #9 draft 1: Groq GPT-OSS: PASS - All factual statements about Jensen Huang's reinstatement, Trump's urging, and the >30% share jump are confirmed by the provided sources. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the reinstatement, the unanimous board decision, Trump's urging, and the 30%+ share price jump on Monday are supported by the provided sources.
+  big: story #9 ok in 40s
+  pol #10 draft 1: Groq GPT-OSS: PASS - All factual statements about John Williams' comments on higher rates, inflation target, and 2027 outlook are supported by the cited articles | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding John Williams, the likelihood of higher rates over time, and the confidence in reaching the 2% target in 2027 are directly supported by the provided sources.
+  pol: story #10 ok in 131s
   biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: story #19 failed in 2s
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: story #21 failed in 2s
-  biz: rejected: biz_stats needs exactly two figures
-  biz #2 draft 2: Groq GPT-OSS: PASS - All numeric and contextual claims about a up‑to‑7.5% plunge in gold and silver ETFs on Nov 20 are confirmed by the Mint source. | Groq GPT-OSS 20B: PASS - All numerical and factual statements are directly supported by the Mint source. | Groq Qwen: PASS - The slide's claims regarding the 7.5% drop in gold and silver funds and the cause being rate-hike concerns are directly supported by the Mint source.
-  biz: story #2 ok in 4s
-  up #33 draft 1: Groq GPT-OSS: PASS - All claims about ECB and other authorities seeking industry members for a tokenisation standards group are supported by the source. | Groq GPT-OSS 20B: PASS - All claims are supported by the source. | Groq Qwen: PASS - The slide accurately summarizes the source's claim that the ECB and other authorities are seeking industry members to join a group for tokenisation standards.
-  up: story #33 ok in 3s
-  r1: rejected: this repeats the big story (anthropic, slid, stocks); it must be a different story
-  r1 #12 draft 2: Groq GPT-OSS: PASS - All factual statements about Anthropic's $81.3 billion record IPO are supported by the sources. | Groq GPT-OSS 20B: PASS - The slide’s claim that Anthropic’s IPO was US$81.3 billion and a record is directly supported by the cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources, which state that Anthropic had a record US$81.3 billion IPO.
-  r1: story #12 ok in 136s
-  r2: rejected: region text must be 1-100 characters
-  r2: rejected: region text must be 1-100 characters
-  r2 #5 draft 3: Groq GPT-OSS: PASS - All factual statements about Trump threatening a tax on U.S. companies building AI data centres abroad are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - The claim that Trump threatened a tax on U.S. companies building AI data centres abroad is supported by multiple cited sources. | Groq Qwen: PASS - The slide accurately reflects the sources' reports that Trump threatened a tax on U.S. companies building AI data centres abroad.
-  r2: story #5 ok in 3s
-  r2 #37 draft 1: Groq GPT-OSS: PASS - The sources state gold was heading for its worst week since March, matching the slide claim. | Groq GPT-OSS 20B: PASS - The slide’s claim that gold prices moved toward their worst week since March is directly supported by the cited Bloomberg and TipRanks articles. | Groq Qwen: PASS - The slide's claim that gold prices moved toward their worst week since March is directly supported by the headlines in the provided sources.
-  r2: story #37 ok in 2s
-  r2: rejected: region text must be 1-100 characters
-  r2 #19 draft 2: Groq GPT-OSS: PASS - All claims about the SEC charging Backward Hat Capital with $560 million fraud are supported by the cited sources. | Groq GPT-OSS 20B: PASS - The slide’s claim matches the SEC press release and Crypto News article, which both state that the SEC charged Backward Hat Capital with a $560 million fraud. | Groq Qwen: PASS - The slide accurately reflects the sources, which confirm the SEC charged Backward Hat Capital with $560 million in fraud.
-  r2: story #19 ok in 3s
-no story passed the checks for the r2 slide; nothing published
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: story #21 failed in 258s
+  biz: rejected: this repeats the big story (ceo, huang, jensen, nvidia); it must be a different story
+  biz #16 draft 2: Groq GPT-OSS: PASS - All factual claims about gold above $3,600, Nasdaq up 6.5%, and indices falling 7‑10% last week are directly supported by the provided sources. | Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the provided sources. | Groq Qwen: PASS - All factual claims regarding the Nasdaq's 6.5% rise, the previous week's 7-10% index falls, and gold breaking $3,600 are directly supported by the provided sources.
+  biz: story #16 ok in 33s
+  up #22 draft 1: Groq GPT-OSS: PASS - The claim that Mitek Systems set its Q4FY26 earnings call for December 10, 2026 is directly supported by the scanx.trade source. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the provided sources. | Groq Qwen: PASS - The slide's claim that Mitek Systems set its Q4FY26 earnings call for December 10, 2026 is directly supported by the scanx.trade source.
+  up: story #22 ok in 14s
+  r1 #30 draft 1: Groq GPT-OSS: PASS - Sources confirm Singapore raised its 2026 GDP growth forecast to around 6%. | Groq GPT-OSS 20B: PASS - The slide’s claim that Singapore raised its GDP forecast to around 6% is directly supported by the cited Straits Times articles. | Groq Qwen: PASS - The slide accurately reflects the sources, which state that Singapore raised its GDP growth forecast to around 6%.
+  r1: story #30 ok in 44s
+  r2 #24 draft 1: Groq GPT-OSS: PASS - All claims about a budget surplus forecasted due to $1 billion extra oil revenue are directly supported by the cited articles. | Groq GPT-OSS 20B: PASS - Both sources confirm a $1‑billion oil windfall and a resulting budget surplus for Newfoundland and Labrador. | Groq Qwen: PASS - The slide accurately reflects the sources, which state that Newfoundland and Labrador forecasts a budget surplus due to $1-billion in extra oil revenue.
+  r2: story #24 ok in 44s
+  r3 #37 draft 1: Groq GPT-OSS: PASS - The source explicitly states October 2026 incidents were 52% above the previous high in May 2025, matching the slide. | Groq GPT-OSS 20B: PASS - All claims are supported by the source. | Groq Qwen: PASS - The slide accurately reflects the source text, which states that October 2026 incidents were 52% above the previous high recorded in May 2025.
+  r3: story #37 ok in 118s
+Draft ready for review: magazine/daily/2026-11-24/edition.json (not published)

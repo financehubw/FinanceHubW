@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "ASIA-PACIFIC",
+   "text": "Singapore raised its forecast for GDP, or total economic output, to around 6%."
+  },
+  {
+   "name": "THE AMERICAS",
+   "text": "Newfoundland and Labrador forecasts a budget surplus from $1-billion in extra oil revenue."
+  },
+  {
+   "name": "EUROPE",
+   "text": "UK cyber incidents reported in October 2026 were 52% above the previous high in May 2025."
+  }
+ ],
+ "story_ids": [
+  9,
+  10,
+  16,
+  22,
+  30,
+  24,
+  37
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 9,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 10,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 16,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 22,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 30,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 24,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 37,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "Nvidia CEO returns",
+ "cover_dek": "Nvidia shares jumped after its board unanimously reinstated chief Jensen Huang.",
+ "big_headline": "Nvidia reinstates chief executive Jensen Huang at the urging of Donald Trump.",
+ "big_body": "The board unanimously reinstated Jensen Huang as chief executive officer, or CEO. Shares jumped more than 30% at the start of US trading on Monday.",
+ "big_stat": "30%+",
+ "big_stat_l1": "Nvidia shares jumped",
+ "big_stat_l2": "more than this on Monday",
+ "pol_headline": "Higher rates over time",
+ "pol_body": "US central banker John Williams says higher interest rates are likely over time to address inflation, or price rises. He is confident it will near 2% in 2027.",
+ "pol_stat": "2%",
+ "pol_stat_l1": "the central bank's",
+ "pol_stat_l2": "inflation target",
+ "biz_headline": "Gold breaks above $3,600",
+ "biz_body": "Gold, a precious metal, broke above $3,600. The Nasdaq, a U.S. stock index, rose 6.5%. Indices fell 7% to 10% last week.",
+ "biz_stats": [
+  {
+   "value": "$3,600",
+   "name": "Gold",
+   "note": "precious metal"
+  },
+  {
+   "value": "6.5%",
+   "name": "Nasdaq",
+   "note": "single-day gain"
+  }
+ ],
+ "up_headline": "Mitek Systems sets earnings call",
+ "up_body": "Mitek Systems set its Q4FY26 results earnings call, a meeting to report financial performance, for December 10, 2026.",
+ "cover_photo": "nyse",
+ "big_photo": "chips",
+ "pol_photo": "fed",
+ "biz_photo": "construction",
+ "up_photo": "servers",
+ "sources_used": [
+  "",
+  "All News",
+  "BBC News",
+  "Bloomberg.com",
+  "Business",
+  "FCA",
+  "Finance",
+  "The Globe and Mail"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "+4.7%",
+    "color": "#0B6B3A",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) last closed at 7,237."
+   },
+   {
+    "chg": "+3.1%",
+    "color": "#0B6B3A",
+    "text": "<strong>Gold</strong> trades at about $3,626 an ounce."
+   },
+   {
+    "chg": "+0.0%",
+    "color": "#0B6B3A",
+    "text": "<strong>Bitcoin</strong> trades at about $61,169."
+   }
+  ]
+ },
+ "status": "published"
+}
