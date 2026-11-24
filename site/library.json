@@ -12,6 +12,15 @@
   },
   {
    "type": "briefing",
+   "date": "2026-11-23",
+   "label": "Mon 23 Nov 2026",
+   "title": "Daily briefing · 4 stories",
+   "base": "media/digests/2026-11-23-daily-1795496571/",
+   "first": 0,
+   "slides": 6
+  },
+  {
+   "type": "briefing",
    "date": "2026-11-21",
    "label": "Sat 21 Nov 2026",
    "title": "Daily briefing · 3 stories",

@@ -1,3 +1,96 @@
+=== run 2026-11-24T05:02:49Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 8
+88/171 sources returned news, 797 recent items
+160 new trusted stories, posting up to 3 this run
+---
+🌏 NVIDIA STOCK SOARS 31% AS CEO RETURNS
+
+📌 Nvidia stock rose 31% after CEO Jensen Huang returned, boosting Asian markets.
+📊 $NVDA: +31.5%
+
+📍 Asia · 📰 Mint · ✅ 40 sources
+https://www.livemint.com/market/stock-market-news/asian-markets-follow-wall-street-nikkei-kospi-jump-up-to-8-as-jensen-huang-s-return-sparks-rally-in-ai-stocks-11795485047635.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and factual statements are directly supported by the Mint source.
+  Groq GPT-OSS 20B: FAIL - Unsupported claim about 40 sources
+  -> blocked by fact-check
+---
+🇺🇸 US DOLLAR CLIMBS NEAR 20-MONTH HIGH ON AI PUSH
+
+📌 The US dollar rose near a 20-month high as tech news raised US rate hike bets.
+📊 Dollar: Near 20-month high
+
+📍 US · 📰 Economic Times · ✅ 5 sources
+https://economictimes.indiatimes.com/markets/forex/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets/articleshow/136118031.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the dollar near a 20‑month high and AI‑driven Fed hike bets are directly supported by the Economic Times article and listed sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: FAIL - The draft claims the dollar 'climbs' and is 'near a 20-month high', but the specific FXStreet sources state the Dollar Index 'softens below 104.50', contradicting the direction of movement.
+  -> blocked by fact-check
+---
+🇯🇵 JAPAN BOND YIELDS FALL
+
+📌 The cost for the government to borrow money dropped to a two-week low.
+📊 10-year yield: 2.715%
+📊 Nikkei 225: +5%
+💡 Lower yields often reflect easing worries about rising prices.
+#Japan
+
+📍 Japan · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/bonds/japanese-bond-yields-fall-as-lower-oil-prices-ease-inflation-concerns/articleshow/136118046.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements match the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the 10-year yield, Nikkei 225 movement, and source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-ba01913bb235
+skip (off-topic or nothing new): Gold price in Bangalore today, 24 November Tuesday: Check latest 24K, 22K and 20K gold rates in Silicon Valley of India
+---
+🇮🇳 GOLD AND SILVER PRICES FALL
+
+📌 Gold and silver prices dropped in world markets due to US interest rate worries.
+#Gold
+
+📍 India · 📰 Mint · ✅ 4 sources
+https://www.livemint.com/money/personal-finance/gold-silver-prices-today-24-nov-tuesday-check-24k-22k-gold-999-silver-rates-in-delhi-mumbai-kolkata-and-others-11795491016117.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about price declines and US rate concerns are directly supported by the Mint source.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: PASS - The post accurately reflects the source information regarding the decline in gold and silver prices due to US Fed rate hike concerns, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-3d82ce943292
+skip (off-topic or nothing new): India’s rupee has become an accidental carry star
+---
+🇹🇼 TAIWAN STOCKS JUMP RECORD 3,316 POINTS
+
+📌 Taiwan stocks had their biggest-ever daily point jump, rising over 3,300 points.
+📊 Taiwan stocks: +3,316 points
+
+📍 Taiwan · 📰 Big News Network.com · ✅ 4 sources
+https://news.google.com/rss/articles/CBMiygFBVV95cUxNTmNXTGFGRDNERVZmVWU5RVluS3pfN1Q2NzVBeTJNTkZIMExrTWZ6OUZIY1VPNHZxRnZDcHFqZXFtemFaZUV4dUJ1LWxHSGxQRXdaNTB4elozN0xCS3YxWGx5aDNYRUdtSHl6SW5xb1NwcFFGejlvRVdkZml6N1VobGNuUjRyaFpHS0F0R1ktU0Z3UERNalEtQjRRM3JrN2l4LXI0bW1rSFJyUm0xWlhGTTF6VjhleUVKd1UwS1ZzU1J6b3FZNU9tZE9B?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about the 3,316‑point record rise are directly confirmed by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: FAIL - The post claims a 'daily point jump' and 'biggest-ever daily point jump', but the sources explicitly state it was the 'biggest-ever intraday gain' or 'Largest Intraday Point Gain', which are distinct 
+  -> blocked by fact-check
+---
+🌐 BITCOIN FALLS DESPITE NVIDIA BOOST
+
+📌 Bitcoin fell 1% due to security issues and money leaving funds.
+📊 $BTC (-1%)
+💡 Lower market confidence often makes crypto prices swing more.
+#Crypto
+
+📍 Global · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-fails-to-hold-nvidia-bump-with-crypto-headwinds-in-focus/articleshow/136119619.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the 1% decline, Nvidia context, security issues (Binance hack), and fund outflows (ETF outflows) are directly supported by the source text, and the metadata matches.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-65b9f12f8472
+done: 3 post(s) this run
 === run 2026-11-23T20:31:25Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1405,96 +1498,3 @@ https://www.moneyweb.co.za/moneyweb-crypto/bitcoin/bitcoin-slides-below-70-000-a
 
 📍 India · 📰 Economic Times · ✅ 5 sources
 https://economictimes.indiatimes.com/news/economy/indicators/food-inflation-to-stay-elevated-icici-bank-sees-25-bps-rbi-rate-hike-in-december/articleshow/135789519.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about a 0.25% RBI rate hike in December and ICICI Bank's expectation are directly supported by the cited Economic Times article and other listed sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the 25 bps (0.25%) rate hike expectation by ICICI Bank for December are directly supported by the provided sources, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-38e4f7ed44d2
----
-🇮🇳 INDIAN STOCKS FALL AS SENSEX AND NIFTY SLIP
-
-📌 India's Sensex fell up to 289 points and Nifty slipped near 25,200.
-📊 Nifty: ~25,200
-💡 Falling stock markets can lower the value of personal investments.
-
-📍 India · 📰 NDTV Profit · ✅ 4 sources
-https://news.google.com/rss/articles/CBMickFVX3lxTE8xVWhRc1lydXNhZjJSREw0VlJKSTRIbUxQejRMLXlrbDFla2F6azZJd1l5eUUyM3hYaVlLT1hvNjdlMU5rVWQzUTh3azUzaF9nUlNMSjk5MTBrN3pyVXgwaEpScnR4RU02SDVXVGs3Tm9QQQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about Sensex falling up to 289 points and Nifty near 25,200 are supported by the listed sources, and the general explanation is correct.
-  Groq GPT-OSS 20B: FAIL - The claim that the post cites four sources is unsupported, as only one source is listed.
-  -> blocked by fact-check
----
-🌐 BITCOIN FALLS BELOW $69,000
-
-📌 Bitcoin's price dropped below $69,000 as investors pulled money out of crypto funds.
-📊 $BTC: $69,000
-#Crypto
-
-📍 Global · 📰 Cointelegraph.com News · ✅ 6 sources
-https://cointelegraph.com/markets/bitcoin-falls-below-70k-crypto-extreme-fear?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post lists BTC at $69,000, but sources only say Bitcoin fell below $69,000, not that it was exactly $69,000.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Niveshak Shivir to be held on November 17, 2026 at New Delhi
----
-🇺🇸 NVIDIA SHARES FALL 14 PERCENT
-
-📌 Nvidia shares dropped 14 percent after its CEO stepped down.
-📊 $NVDA: -14%
-#Tech
-
-📍 US · 📰 Business · ✅ 2 sources
-https://www.scmp.com/business/banking-finance/article/3374294/nvidias-plunge-life-policy-record-5-figures-investors-are-watching
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about a 14% drop and CEO resignation are directly confirmed by the SCMP source.
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: PASS - The post accurately reflects the source's claim that Nvidia shares fell 14 percent after CEO Jensen Huang stepped down, and the location and source attribution are correct.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: SKIP - unavailable (RuntimeError: liquid/lfm-3-1.7b:free returned an empty reply)
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-bb2896ac0c8a
----
-🇮🇳 BOFA RAISES INDIA GDP GROWTH FORECAST
-
-📌 Bank of America raised India's Q2FY27 GDP growth forecast to 7.7 percent.
-📊 GDP forecast: 7.7%
-💡 Faster economic growth usually means more jobs and business activity.
-
-📍 India · 📰 The Financial Express
-https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaTB1VS02LVJfTER0SE5TeGh5cHZXb3EtLW1vTGFGdC1rb1BwX2xPUTBhYTRORENkeGhGbXY2LXhnLWtoSjhNR1ZQSHp2MUIwcjQtZ1JuVExjSnItY3ktYmJzdXpyY3h2MWJnT1NCTHB6VUlYbUh2eFQ2SFFuQVF4V2U0Zzh1ekE4M0xjcWFoaUhualJUQkxrczVrdWdpSVZxZmNiUTlOZEVDTnNsOGY5cHZLMHJRYXpjdGF1R09pNldZcG9JSXp6b1ZBaE1mMTV5dnfSAdgBQVVfeXFMT2hDV1ZCUjlXaDU5SHJ3cE9nSktERmZQaVFOY3YwMXRjajBrcXhrQWZMU3VOb3dBdE1jQ1dWQkVtbGVGX19xZG10OTVoYUdiMFdBMEN4SHk4X1Q3aGNqU0FhazZxb0hWaWx4NGJCbEsyazItcjg0cTVrV050SmY1bVFvczlDbXJPaG5BV0twbUpVSmowNU1XQVNJdE5Lb29NLWY5aE5FdnBqeDh6clVOXzBHTWhTVWJrNG16Y2RnYUNxRmN3ZVhIUU9aRWFmUnBLcjFQaGpLcFJJ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims about the 7.7% forecast and source are directly supported.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
-  Groq Qwen: PASS - All factual claims regarding the entity, forecast value, period, and source are directly supported by the provided source headline.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-fed4fc590678
-done: 3 post(s) this run
-=== run 2026-11-12T23:49:40Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-98/171 sources returned news, 722 recent items
-170 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-12T18:37:52Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-104/171 sources returned news, 956 recent items
-226 new trusted stories, posting up to 3 this run
----
-🇺🇸 BREAKING: NVIDIA CEO JENSEN HUANG STEPS DOWN
-
-📌 Nvidia CEO Jensen Huang stepped down, dragging down AI and US tech stocks.
-💡 Major leadership changes at top firms can cause wider stock market swings.
-#Nvidia
-
-📍 US · 📰 Economic Times · ✅ 4 sources
-https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-us-market-opens-lower-after-nvidia-ceo-steps-down/articleshow/135773944.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited Economic Times article.
-  Groq GPT-OSS 20B: FAIL - CEO did not step down
-  -> blocked by fact-check
----
-🇺🇸 FED TO SKIP RATE VOTE IN OCTOBER 2027
-
-📌 The US Fed will not vote on interest rates at its October 2027 meeting.
