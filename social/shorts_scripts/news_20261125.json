@@ -1,0 +1,47 @@
+{
+ "id": "news_20261125",
+ "title": "Nasdaq futures plunge 3% as tech stocks fall (today's money news)",
+ "thumb": "*TODAY:* Nasdaq futures plunge 3% as tech stocks ",
+ "thumb_photo": "wall street new york",
+ "thumb_tag": "NEWS",
+ "caption": "Nasdaq futures fell 3% as tech stocks faced renewed selling pressure.\nNasdaq futures: -3%",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "US,  Yahoo Finance,  4 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. Nasdaq futures plunge 3% as tech stocks fall.",
+   "chat": "Nasdaq futures plunge 3% as tech stocks fall."
+  },
+  {
+   "say": "Nasdaq futures fell 3% as tech stocks faced renewed selling pressure.",
+   "photo": "wall street new york",
+   "clip": {
+    "kicker": "US",
+    "year": "25 Nov",
+    "text": "Nasdaq futures plunge 3% as tech stocks fall"
+   }
+  },
+  {
+   "say": "Nasdaq futures: -3%.",
+   "photo": "wall street new york",
+   "big": "-3%",
+   "sub": "Nasdaq futures"
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}
