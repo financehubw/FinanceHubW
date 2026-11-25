@@ -1,3 +1,32 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-The Daily for 2026-11-24 already exists; nothing to do
+103/171 sources returned news, 1147 recent items
+  big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: rejected: these numbers are not in the source: 0
+  big: rejected: these numbers are not in the source: 0
+  big: story #23 failed in 646s
+  big #1 draft 1: Groq GPT-OSS: PASS - All numeric and factual statements about Nasdaq drop, AI fears, tariffs, and Nvidia's 8.7% decline are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the Nasdaq's decline, Nvidia's 8.7% drop, and the causes (AI fears and tariffs) are supported by the provided sources.
+  big: story #1 ok in 6s
+  pol #2 draft 1: Groq GPT-OSS: PASS - All numbers, inflation rate, acceleration, and December hike certainty are reflected in the cited articles | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the 3.8% inflation rate, the acceleration of inflation, and the certainty of a December rate hike are supported by the provided sources.
+  pol: story #2 ok in 6s
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: story #39 failed in 16s
+  biz: rejected: this repeats the big story (drop, early, stock); it must be a different story
+  biz: rejected: this repeats the big story (fell, market, shares, stock); it must be a different story; these numbers are not in the source: 0
+  biz: rejected: this repeats the big story (drop, early, market, shares); it must be a different story
+  biz: story #35 failed in 7s
+  biz #3 draft 1: Groq GPT-OSS: PASS - All specific figures and statements are backed by the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and factual claims are supported by the cited sources. | Groq Qwen: FAIL - The slide incorrectly attributes the 3.8% PCE price index prediction to Australia, whereas the sources identify it as a US economic indicator.
+  biz: rejected: biz_stats needs exactly two figures
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: story #3 ok in 12s
+  up #4 draft 1: Groq GPT-OSS: PASS - All claims about Franklin Templeton adding the HYPE token to its Crypto Index ETF on Dec. 1 are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the asset manager, token, fund name, date, and action are supported by the sources.
+  up: story #4 ok in 7s
+  r1 #9 draft 1: Groq GPT-OSS: PASS - The Borneo Bulletin source confirms Japan's key services inflation gauge hit a 36‑year high, supporting the slide's claim. | Groq GPT-OSS 20B: PASS - The claim that Japan’s key services inflation gauge reached a 36‑year high is directly supported by the Borneo Bulletin source. | Groq Qwen: PASS - The claim that Japan's key services inflation gauge reached a 36-year high is directly supported by the Borneo Bulletin source.
+  r1: story #9 ok in 5s
+  r2 #36 draft 1: Groq GPT-OSS: PASS - The source confirms the U.S. total active oil and gas rigs stayed at 607. | Groq GPT-OSS 20B: PASS - The slide’s claim that the U.S. active drilling rig count was 607 is directly supported by the cited Oilprice.com article. | Groq Qwen: PASS - The slide accurately reports that the total number of active drilling rigs in the United States stayed at 607, which is directly supported by the source text stating the count 'remains at 607' and 'st
+  r2: story #36 ok in 6s
+  r3 #15 draft 1: Groq GPT-OSS: PASS - The sources confirm Switzerland approved 57 jurisdictions for automatic crypto tax data exchanges starting in 2028. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - The slide's claim that Switzerland approved 57 partner jurisdictions for automatic crypto tax data exchanges is directly supported by both sources.
+  r3: story #15 ok in 5s
+Draft ready for review: magazine/daily/2026-11-25/edition.json (not published)

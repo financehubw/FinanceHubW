@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "ASIA",
+   "text": "Japan's key services inflation gauge, a measure of rising prices, reached a 36-year high."
+  },
+  {
+   "name": "THE AMERICAS",
+   "text": "The total number of active drilling rigs for oil and gas in the United States stayed at 607."
+  },
+  {
+   "name": "EUROPE",
+   "text": "Switzerland approved 57 partner jurisdictions for automatic crypto tax data exchanges."
+  }
+ ],
+ "story_ids": [
+  1,
+  2,
+  3,
+  4,
+  9,
+  36,
+  15
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 1,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 2,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 3,
+   "free_checkers": "Groq Qwen: FAIL - The slide incorrectly attributes the 3.8% PCE price index prediction to Australia, whereas the sources identify it as a US economic indicator."
+  },
+  {
+   "slot": "up",
+   "story": 4,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 9,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 36,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 15,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "The market drop",
+ "cover_dek": "Fears over artificial intelligence and new tariffs pushed shares down in the US.",
+ "big_headline": "The tech-dominated Nasdaq index fell almost 4% in early trading.",
+ "big_body": "Stock prices dropped as investors worried about artificial intelligence, and chip maker Nvidia declined 8.7%.",
+ "big_stat": "8.7%",
+ "big_stat_l1": "Nvidia, a chip maker,",
+ "big_stat_l2": "declined by this amount",
+ "pol_headline": "US inflation accelerates",
+ "pol_body": "US inflation hits 3.8%. This is the rate at which prices rise. A rate increase by the US central bank in December is seen as certain.",
+ "pol_stat": "3.8%",
+ "pol_stat_l1": "the rate at which",
+ "pol_stat_l2": "US prices are rising",
+ "biz_headline": "Australia inflation rises",
+ "biz_body": "Australia's consumer price inflation rose to a specific level in October 2026, marking recent economic changes.",
+ "biz_stats": [
+  {
+   "value": "4.9%",
+   "name": "Australia rate",
+   "note": "reached in October"
+  },
+  {
+   "value": "3.8%",
+   "name": "PCE price index",
+   "note": "predicted level"
+  }
+ ],
+ "up_headline": "Franklin Templeton adds HYPE",
+ "up_body": "The asset manager adds the HYPE token to its Crypto Index ETF, an exchange-traded fund holding multiple digital coins, on Dec. 1.",
+ "cover_photo": "containership",
+ "big_photo": "port",
+ "pol_photo": "fed",
+ "biz_photo": "supermarket",
+ "up_photo": "bitcoin",
+ "sources_used": [
+  "Altcoin Buzz",
+  "BBC News",
+  "Bitcoin Magazine",
+  "Borneo Bulletin",
+  "Breitbart News",
+  "CEO Magazyn",
+  "CoinDesk: Bitcoin, Ethereum, Crypto News",
+  "Cointelegraph.com News"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−0.3%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,183."
+   },
+   {
+    "chg": "+1.3%",
+    "color": "#0B6B3A",
+    "text": "<strong>Gold</strong> rose to about $3,608 an ounce."
+   },
+   {
+    "chg": "+0.8%",
+    "color": "#0B6B3A",
+    "text": "<strong>Bitcoin</strong> trades at about $60,218."
+   }
+  ]
+ },
+ "status": "draft"
+}
