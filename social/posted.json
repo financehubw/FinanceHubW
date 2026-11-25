@@ -1496,6 +1496,19 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "clip_fdr_fireside_1935_2.mp4",
+   "title": "President Roosevelt: Social Security will prevent unemployment in 1935",
+   "date": "2026-11-25T07:32:04Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/9aFY0PgS-bM",
+    "Instagram": "18048959519834389",
+    "Facebook": "1751015099926641"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
