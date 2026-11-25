@@ -1,3 +1,95 @@
+=== run 2026-11-25T14:53:34Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+--- special
+🇮🇳🌍 Nifty, Sensex, Wall Street, crypto and RBI/Fed policy, explained simply.
+
+New videos on FinanceHubW 👇
+https://www.youtube.com/@FinanceHubW
+published to: website, Instagram Story
+94/171 sources returned news, 1077 recent items
+265 new trusted stories, posting up to 3 this run
+---
+🇺🇸 US STOCKS FALL AS TECH STOCKS DROP
+
+📌 Major US stock indexes fell following a sell-off in technology shares.
+💡 Falling stock markets can lower the value of investment funds.
+#Fed
+
+📍 US · 📰 Benzinga · ✅ 3 sources
+https://news.google.com/rss/articles/CBMirwJBVV95cUxNMzFGWHF5OVhuNTdCU2FNeHdKNXdGWklxaXpGMVlDNUp0TVJLbHM4RGZ0aElBbnF6dVJRTVZ5cnFDZ3FRZWg1b3Y4cGNRcWM5MnBROFFkWjBfRThmSmtad0JjcW5HNFRLLXhRLUdCWlRNQ2Q2bU16QjB0Rmg5ejBFSjd5MW04S3M2a00zQzhYbGI0Tkd4Vk9wTXJTUGc5bUZnOHdxNjU3TUJmTnR6NURUbElnZF9pbVduYmNWdFZac0wyTnRVWmVWX2t2ZUVUYVQwWUpuTkdPMEprZ2dEWkxXQ0VCbUdVOEhHNm05bTJaQzRUYzBwWElDbDJocVRrU0czUTVSd1FhQk5sWDZhdkJIZWdtQV90Y0VUU29EZzJsOU9rZGdaQTVnVUFxZ05vdkk?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about US index declines and tech sell‑off are confirmed by the cited Benzinga and related articles, and the general explanation is accurate.
+  Groq GPT-OSS 20B: FAIL - The post claims it has 3 sources and cites only Benzinga, yet the listed sources include Benzinga twice, JournalArta, and theopenpress.in, creating a factual inconsistency.
+  -> blocked by fact-check
+---
+🇺🇸 US INFLATION RISES TO 3.8% IN OCTOBER
+
+📌 US prices grew 3.8% in October from a year ago, up 0.3% in a month.
+📊 PCE Inflation: 3.8%
+
+📍 US · 📰 The Globe and Mail · ✅ 21 sources
+https://www.theglobeandmail.com/business/article-us-inflation-rises-further-in-october-bolstering-odds-of-successive/
+  written by Gemini
+  Groq GPT-OSS: PASS - All numerical and factual statements are directly confirmed by the cited sources.
+  Groq GPT-OSS 20B: FAIL - The claim that the post cites 21 sources is unsupported by the listed references.
+  -> blocked by fact-check
+---
+🇺🇸 NASDAQ FUTURES PLUNGE 3% AS TECH STOCKS FALL
+
+📌 Nasdaq futures fell 3% as tech stocks faced renewed selling pressure.
+📊 Nasdaq futures: -3%
+
+📍 US · 📰 Yahoo Finance · ✅ 4 sources
+https://news.google.com/rss/articles/CBMinAFBVV95cUxOeExwZzNGV3QzT3NIZ1lUOThVQ2xzaHMwOTJfcUprNVRCRjdYNzFVY1V1QmZpQ2F3S09kV2tfTXdiVl9SeDlEby1QUVFlbU42V1E2S0hkMlRDLUc3WmpBbmd1N0NnQU4xNUZvdzdaclgtQldjbG81akhEYTQ5Q2ZxZ19mX2QyeGN6UTFDWlZUaVBrVVF6VlNIRlYxV1g?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All numbers, percentages, and descriptions are directly confirmed by the cited Yahoo Finance and other listed sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the 3% drop in Nasdaq futures and the cause (tech stock selling pressure) are directly supported by the provided sources, and the location and source attribution are corre
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-20b5cafd30dc
+---
+🇺🇸 US INFLATION REMAINS HIGH DESPITE LOWER GAS PRICES
+
+📌 US inflation (rising prices) stayed high even though gas prices dropped.
+💡 High inflation usually makes everyday goods more expensive.
+#Inflation
+
+📍 US · 📰 Yahoo Finance · ✅ 8 sources
+https://news.google.com/rss/articles/CBMipgFBVV95cUxORmkwaFhkVV9rWTd5SnVMWHR1Y25mUkFGVWdNZU4zWDIwSDFJbTRzd0g3enl0T3VteEFvc1dxT3cxeXdycS1ISnJPUVV3TmVtY2pSR1JEWUxVd1BscVpIUmFadGRtZ3pzSUZMZEdhVzdxVkl4SkdaMTFoWkU1emdpWlRzMUpVZXl1eHlSMUJadV9lNjdPVkpjUjJDbUFvTEdFUDE0QzJn?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Yahoo Finance source and the explanation is a widely accepted general fact.
+  Groq Qwen: PASS - All factual claims regarding US inflation remaining high despite lower gas prices are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-67e66ce6b3df
+---
+🇮🇳 FED NEWS WEAKENS RUPEE AND RAISES YIELDS, RBI SAYS
+
+📌 An RBI study shows US Fed signals lead to a weaker Indian rupee and higher yields.
+💡 A weaker currency usually makes imported goods more expensive.
+
+📍 India · 📰 Moneycontrol.com · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi9gFBVV95cUxOc2Z5Vi1hSW5pLVhaXy1FVE1PMFN6T3BMcEpkUkdJekd5ZUJKbUZNSlFJSHQta1hTTEJiVVJUdW5uYkhsQzBNVmJQTTFMSVNSbi1UVGFWWkhvY1lfcmNnMk5zZFJfdzN5R0NMcjhPRW9CYi0yV1NzLWpMcHRDREp1X2hlV1VFM0RGaFpPWktEQmhMSGJablJtU0E4LWplT2hnZE0yOXlXX2R1VFg4eEVnX0NQU194WXd1SDVIWUdSWGozYXAzVW16MFVzWnRCU3NXbFpscnVkeDE3SHFxdzZFTmNfRnAyVlg4ZVppaDE1QzhVZ3ZOWEHSAfsBQVVfeXFMUEdsTXgxdHZTRE1mdS1lZk04R2NkWUFxTlRvTHR2N25GbzdMQk44TDRzWWk5TVVCdDdtal9ncE10empHLWlRNTdtel8ydkROMHgzZ3Vld2NBRlJ3TG5ON2p2OVlkUnV6UFhIdVhIRmYtMXlfX0M0RTZONFFzTUltMW1PMHZva0lOZnJPZFZndWh5Z3JTNHVnUlBkWkozbXVheHlsalZlQnA1UHk3N3J1MExucFlNQ3RQcU5ZTHZpdEdMVWJwV2JHNThXOFNSREE0Z2lRYWNlVDhLVFpzRVVtN080aVFxTkdxRGRWcGc3OG9VWV9acEVmeVd3UFE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly backed by the Moneycontrol and Business Standard articles citing the RBI study.
+  Groq GPT-OSS 20B: FAIL - The claim that there are only 2 sources is incorrect; the article list shows multiple sources.
+  -> blocked by fact-check
+---
+🇺🇸 US Q3 GDP GROWTH REVISED UP TO 4.3%
+
+📌 The US economy grew at a 4.3% annual rate in Q3, up from an earlier 3.4% estimate.
+📊 US Q3 GDP: 4.3% (was 3.4%)
+
+📍 US · 📰 The Globe and Mail · ✅ 5 sources
+https://www.theglobeandmail.com/business/article-us-gdp-growth-third-quarter-2026/
+  written by Gemini
+  Groq GPT-OSS: PASS - All numeric and revision claims are directly confirmed by the cited sources.
+  Groq GPT-OSS 20B: PASS - All stated figures and revisions are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the GDP revision from 3.4% to 4.3% are directly supported by the provided sources, and the location and source attribution are correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-595766a5b502
+done: 4 post(s) this run
 === run 2026-11-25T02:49:07Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1406,95 +1498,3 @@ https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3EzbUZLMzVNX1JTTVVjTVYwOVh
 📌 Bitcoin fell 6.6% as $1.07 billion was pulled from crypto funds.
 📊 $BTC: -6.6%
 💡 Higher interest rates usually make risky assets less popular.
-
-📍 Global · 📰 CryptoTicker.io · ✅ 2 sources
-https://news.google.com/rss/articles/CBMihwFBVV95cUxNZzgwS1JGNm5YWWZrb0hQcHo2dk5oamtjNXBfLXpJaWs2WGo0U1Vmb1M0dk1qY19iWkRkaEJ6c1dvOTNxWWFfSGdhZ2s0R1lBWXR5aDZrcGNlZ2ZEV1ZWNDZMV0lQNHVFcUVtT3ZDQ3Q2YWNjb0h0N25fNjZUTnNuOEFzOWNKdEE?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numerical and factual statements are directly supported by the CryptoTicker.io source.
-  Groq GPT-OSS 20B: PASS - All numerical and factual claims match the cited CryptoTicker.io article, and the general statement about higher rates and risky assets is accurate.
-  Groq Qwen: FAIL - The source states $1.07bn in ETF outflows, but the post claims $1.07 billion was pulled from 'crypto funds' generally, which is a specific attribution not supported by the provided text that specifies
-  -> blocked by fact-check
----
-🌐 ETHEREUM AND XRP FALL IN CRYPTO MARKET SELLOFF
-
-📌 Ethereum dropped 10.37% today while XRP fell 18% over the past week.
-📊 $ETH: -10.37%
-💡 Price drops mean digital asset holdings lose value.
-#Crypto
-
-📍 Global · 📰 Cryptonews.net · ✅ 4 sources
-https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uUHZKaGRzVld3clNsNE9NalRzV1U5cU5oWXJTWmw2T3lEVTkzcHdNTXZBdXhvLWphY3Bvc3FFLVY3ZjMxbDB4MTZfNXd6RnE3X1FKdnFrbzZqYVk?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All numeric and factual claims are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the listed sources.
-  Groq Qwen: PASS - All factual claims regarding the percentage drops for Ethereum and XRP are directly supported by the provided source headlines, and the general explanation is accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-938f7daae72a
-done: 1 post(s) this run
-=== run 2026-11-14T20:54:33Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-61/171 sources returned news, 444 recent items
-108 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-14T15:20:15Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 8
-74/171 sources returned news, 608 recent items
-145 new trusted stories, posting up to 2 this run
----
-🇬🇧 BANK OF ENGLAND SIGNALS MORE INTEREST RATE RISES
-
-📌 The Bank of England expects interest rates (borrowing costs) to rise above 4%.
-📊 UK interest rate: 4%
-
-📍 UK · 📰 The Guardian · ✅ 3 sources
-https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist
-  written by Gemini
-  Groq GPT-OSS: FAIL - The source says rates will rise again but does not explicitly state they will rise above 4%
-  -> blocked by fact-check
----
-🇺🇸 BERKSHIRE SHARES HIT RECORD HIGH AFTER 19% RALLY
-
-📌 Berkshire Hathaway stock jumped 19% in the fourth quarter to hit new record highs.
-📊 $BRK Q4 rally: 19%
-#Berkshire
-
-📍 US · 📰 CNBC · ✅ 4 sources
-https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbUV4NF9lbkt0WEpneTdsTUFfMDE2dklud1lnVnFPR0YtWGNTck9NbUNJZHk2WWtIeERxXzQ5VWdUTzNDNGRnb2Npd3h0SEp2aVc2VmszQ2lXUjVjZ1lrMEtoSTRYdXJFM0d1TnNNV0ROV1R5VFN5RjJoZjgtWlZBM0lsVnpydV82a1BVQmZibTdaNDA0WFpQMklSaHMwZEtmZ0FhSHM3a0VLQXpwTHFBRHVFMWFaRGZ10gG-AUFVX3lxTE0ycGVWQ2xHWWV0U2xFdWpmbkZiWVhMR2tlQy0wNFlvMXZ0ejlHU0IyNE85Yk0wSjdXODRpSTF4MkZJYXpqMTBSRlZFakhHTjdGSXNpcFZKRHVNcWk0YW5EanM4cW1iYU1oR29PVVYyODUwajRjSjZiR0VFdDdlbWZkUXFXanNTby1fYl9hdkFzVHFKUy1lQXZlUkNzRWNENElhUXBfU0Z1NVdpcXZwM0RVRXpTT3BtQy11QnFGc0E?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (19% Q4 rally, record high, US location, CNBC source) are directly supported by the provided sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited CNBC source.
-  Groq Qwen: PASS - All factual claims regarding the 19% rally, record highs, and source attribution are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-9df6afb0948f
----
-🌐 US AND CHINA DISCUSS $30B TARIFF CUTS
-
-📌 US and China discussed $30 billion in mutual tariff (import tax) cuts.
-📊 Proposed tariff cuts: $30 billion
-
-📍 Global · 📰 The Financial Express · ✅ 4 sources
-https://news.google.com/rss/articles/CBMizAFBVV95cUxQVHBqaG9JODNFTkxWUUpEemJuRUVSUHZvc1ZDeTg3cXlwcmZwTHBoUUw5WEwtWm01c3Y1azEycEVCZnlyLXpSYUYyOVJWUFVTclBWQ3dyajY2RmlvTldGRVE2X21PeHZWNndxN2x6c2k1THhsU19lLUE3cUZSUnh4VlZYS2NWcUNKMjVZa1pDRjVvY1ZjZVVqUDlxRUdOWnI1MnhNdTdoY2lscjNIeGhVaXVxZkUzUDFxbFczTkltaGNHV2tkVmRWYTFqSDnSAdMBQVVfeXFMUEY5QjNhTVBSWEZoWnlONXM3QTdjZnJkM2Y0UWdQY0pNeUlRWHpzdTRocmpsOHFidWFkTkl3Z0h1RmQya2VBX05CWllfeFZHYVlnYzFOYmUtRDFadlZFVUwxZzFBLTZhMmpoT0pmczJldFhrZ3I1WUhLSXY3VzJxVE0tQUd0UFl5Y1lRa0NnS2xwSkx1SS1nXzMtWEg0S3VsdG9HaU9XdkhxaFVKaXJrcWRkSlRaTVRYUGlVWEMtOXpvaG55UW9DT28xZGRHejVsSDhxZw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about a $30 billion mutual tariff cut discussion are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - The post accurately reflects the sources regarding the discussion of $30 billion in reciprocal tariff cuts between the US and China, and the metadata matches the provided source.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-8cf63748a298
-done: 2 post(s) this run
-=== run 2026-11-14T07:04:05Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-86/171 sources returned news, 620 recent items
-160 new trusted stories, posting up to 1 this run
----
-🇧🇩 GOLD PRICES FALL FOR FIFTH TIME IN BANGLADESH
-
-📌 Gold prices in Bangladesh fell by Tk 2,217 per bhari for the fifth straight drop.
-📊 Gold drop: Tk 2,217 per bhari
-
-📍 Bangladesh · 📰 Views Bangladesh · ✅ 6 sources
-https://news.google.com/rss/articles/CBMijwFBVV95cUxPLVVnM1ViLU5qenJiTkc2MHZrdkZNOUY0VWEwZC05YlU1V192d19LNy04c05jV3FxeDJSQXBLZFBFM0FuRHdjODBSS1FiN2VRX2xXekdacWtZU2Z4VzdZT3VZS3VJSmRmVzhSS3NNeWQ3b001VmhLRWNnWldEcUhmVDRFWjUzNkhta3Fqb1JvZw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (amount, unit, fifth consecutive drop, location) are directly supported by the listed sources
