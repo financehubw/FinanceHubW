@@ -1,3 +1,55 @@
+=== run 2026-11-25T02:49:07Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+33/171 sources returned news, 194 recent items
+117 new trusted stories, posting up to 3 this run
+---
+🌏 ASIAN MARKETS FALL AS TECH SHARES DROP
+
+📌 Asian tech stocks fell on AI fears, while GIFT Nifty hit 25,725.
+📊 GIFT Nifty: 25,725
+💡 Stock market movements can affect the value of personal investments.
+#Nifty
+
+📍 Asia · 📰 Markets · ✅ 2 sources
+https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited sources
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the provided sources.
+  Groq Qwen: PASS - All factual claims regarding the fall in Asian tech stocks due to AI fears and the specific GIFT Nifty value of 25,725 are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-1cfb81d0b80f
+---
+🇺🇸 MARKETS AWAIT US DATA AS FED RATE BETS REACH 97%
+
+📌 The US dollar stayed steady as traders see a 97% chance of a Fed rate hike.
+📊 Fed rate hike chance: 97%
+
+📍 US · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about the dollar staying steady and a 97% Fed hike probability are directly supported by the Economic Times article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the dollar's stability, the 97% probability of a Fed rate hike, the location, and the source are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-338a018a1646
+---
+🇮🇳 INDIAN SHARES SET TO OPEN HIGHER
+
+📌 Indian stock markets are set for a higher start as oil prices drop.
+📊 GIFT Nifty: 25,738
+💡 Lower oil prices usually help reduce costs for companies and consumers.
+#Nifty
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/market/stock-market-news/indian-shares-may-open-higher-as-foreign-inflows-lower-oil-prices-aid-sentiment-11795573521883.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims (higher start, oil price drop, GIFT Nifty 25,738) are directly supported by the Mint article, and the general explanation about lower oil prices is accurate.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited Mint article.
+  Groq Qwen: PASS - All factual claims including the GIFT Nifty value, market direction, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-dec6dd29deca
+done: 3 post(s) this run
 === run 2026-11-24T18:13:17Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 8
@@ -1446,55 +1498,3 @@ daily cap: 12, room left in the last 24h: 6
 https://news.google.com/rss/articles/CBMijwFBVV95cUxPLVVnM1ViLU5qenJiTkc2MHZrdkZNOUY0VWEwZC05YlU1V192d19LNy04c05jV3FxeDJSQXBLZFBFM0FuRHdjODBSS1FiN2VRX2xXekdacWtZU2Z4VzdZT3VZS3VJSmRmVzhSS3NNeWQ3b001VmhLRWNnWldEcUhmVDRFWjUzNkhta3Fqb1JvZw?oc=5
   written by Gemini
   Groq GPT-OSS: PASS - All factual claims (amount, unit, fifth consecutive drop, location) are directly supported by the listed sources
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the price drop amount, direction, and frequency are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - The Tk 2,217 per bhari drop and fifth consecutive decline in Bangladesh are directly supported by the listed sources, and the place and source name match.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-5d1e26db33cf
-done: 1 post(s) this run
-=== run 2026-11-13T23:48:43Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-88/171 sources returned news, 628 recent items
-147 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-13T16:43:47Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 6
-97/171 sources returned news, 972 recent items
-224 new trusted stories, posting up to 3 this run
----
-🇺🇸 FED SAYS MORE RATE HIKES MAY BE NEEDED
-
-📌 A US central bank official says interest rates may need to go up again soon.
-💡 Higher rates usually make borrowing money costlier.
-#Fed
-
-📍 US · 📰 Crypto News · ✅ 5 sources
-https://news.google.com/rss/articles/CBMimwFBVV95cUxOU2pnRllENGliM0ZfVTBWYm45RV9FYkhWQ3pyNHFXRGhOOHdrRGxXNFh4eU52dHBFOElFSHNVN2Q4SkNwZGNjajdGMzBKOFUtWmxTci1IZDduQTZiVHpTR0s3dndvdkxYRU92R2lCQVFrY1dCM2U5S0RLMnptVjFUa2F4aE83dkFNR3RMRGo4REtDajZFMnN3c0dTaw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims are directly supported by the listed sources
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
-  Groq Qwen: PASS - The post accurately reflects the sources regarding Fed official Collins warning that more rate hikes may be needed, and the general explanation of higher rates is correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-92c93ff56624
----
-🇪🇺 BOND YIELDS JUMP ON RATE HIKE BETS
-
-📌 German and US bond yields are heading for their biggest weekly rises in months.
-💡 Higher bond yields usually make borrowing costs go up for everyone.
-#Bonds
-
-📍 Europe · 📰 Economic Times · ✅ 3 sources
-https://economictimes.indiatimes.com/markets/bonds/german-yields-set-for-biggest-weekly-rise-in-two-months/articleshow/135804160.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The claim that US bond yields are heading for their biggest weekly rise in months is not directly supported; the source says the biggest weekly jump is in two years.
-  -> blocked by fact-check
-skip (off-topic or nothing new): Bessent, Fed's Goolsbee divided on role of energy shock in inflation
----
-🇺🇸 BOFA PREDICTS JANUARY 2027 FED HIKE
-
-📌 Bank of America now expects the Fed to raise interest rates in January 2027.
-💡 Higher rates usually make loans costlier.
-#Fed
