@@ -1546,6 +1546,19 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "clip_understanding_dollar_1953_1.mp4",
+   "title": "1953 film: How does the price of soup change a dollar's value?",
+   "date": "2026-11-26T07:32:55Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/CLNGqxcjc0o",
+    "Instagram": "18160401961520288",
+    "Facebook": "1596197295522173"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
