@@ -1572,6 +1572,18 @@
    "failed": [],
    "errors": {},
    "format": "clip"
+  },
+  {
+   "file": "whatif_mcd_1990.mp4",
+   "title": "$1,000 in McDonald's in 1990 is now worth this",
+   "date": "2026-11-26T18:32:11Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/dp3GZxNrj8o",
+    "Instagram": "17867647737696830",
+    "Facebook": "1409728397648515"
+   },
+   "failed": [],
+   "errors": {}
   }
  ]
 }
