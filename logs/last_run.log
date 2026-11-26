@@ -1,3 +1,51 @@
+=== run 2026-11-26T00:43:41Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 5
+94/171 sources returned news, 774 recent items
+177 new trusted stories, posting up to 2 this run
+---
+🇺🇸 DOW JONES HITS NEW RECORD
+
+📌 The Dow Jones index rose to 50,173.90 as some stock prices climbed.
+📊 Dow Jones: 50,173.90 (+0.31%)
+
+📍 US · 📰 The Straits Times World News · ✅ 2 sources
+https://www.straitstimes.com/business/companies-markets/nasdaq-sp-500-end-down-but-well-off-lows-as-investors-buy-bargains
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that the Dow Jones "hits new record" is not directly supported by the source
+  -> blocked by fact-check
+skip (off-topic or nothing new): Inflation report to provide Fed’s preferred gauge of prices ahead of possible rate hike
+---
+🇦🇺 AUSTRALIAN DOLLAR FALLS
+
+📌 The Australian dollar dropped after inflation came in high.
+💡 Higher inflation makes things cost more for everyone.
+#AUD
+
+📍 Australia · 📰 FXStreet · ✅ 2 sources
+https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd1ZybHlZOVFKb09vOHZqdkFsaTY4OV9wRmotUmpUSmVsNUduSHhFeDQ2a1dLQ1otdXlwWk1MWVJuYmFud3lFbFMzNmtITGNCLVBSUW9LVEVjcG9GdTNYRGpnellXaXpucm1xMTdHb0o5LTdNUWg5WTJVOUg1VlN3aW5jcC1aVHVvVk0tU1k2dWlaMEdLNGQwTDQ4VXVwRi1kSW9nN05uNlZiVUU?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about the AUD drop and high inflation are confirmed by the FXStreet source, and the general explanation is correct.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the FXStreet source and the explanation is a general, widely accepted fact.
+  Groq Qwen: PASS - The post accurately reflects the source headlines regarding the AUD falling due to high inflation (hot CPI), and the general explanation is correct.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-dbf03fa75a77
+---
+🇺🇸 GOLD PRICES FALL ON US INFLATION DATA
+
+📌 Gold prices dropped as new US inflation (rising prices) data came out.
+💡 Higher inflation can lead to higher interest rates (the cost of borrowing money).
+#Gold
+
+📍 US · 📰 Bloomberg
+https://news.google.com/rss/articles/CBMitAFBVV95cUxNWk5iY21FejJMUDVfS2h4ekdoUnQ1RndSalFWS2pkZzJZY1AwSXRnY1otVEdsMUdRVWZJV0NKSUxEM3Boc2VlQXNMMWkweGxJSWVGaFJHcC1qWTk0WTdIbXR0Z3VNQ2N2R054YXZMa1I2eVk4RjU5T09FelF5ZC1KdGJRYnV5bFdvMjJoRzBpMjNoUDkzMDJiTmdvejdOMF85Vy1JZU16eEI1M3VzVlBNa0RyMjk?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the Bloomberg source and the general explanation is correct.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Bloomberg article.
+  Groq Qwen: PASS - The post accurately reflects the source headline regarding gold prices falling due to US inflation data and rate hike bets, with correct location and source attribution.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6c196f4b1609
+done: 2 post(s) this run
 === run 2026-11-25T14:53:34Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1450,51 +1498,3 @@ daily cap: 12, room left in the last 24h: 9
 🇮🇳 INDIAN STOCKS GAINED LAST WEEK
 
 📌 Sensex rose 564.43 points (0.69%) and Nifty climbed 113.95 points (0.45%) last week.
-📊 Sensex: +564.43 (+0.69%)
-#Sensex
-
-📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 2 sources
-https://www.thehindubusinessline.com/markets/wpi-inflation-crude-oil-prices-and-fii-activity-to-steer-stock-markets-this-week/article71704397.ece
-  written by Gemini
-  Groq GPT-OSS: PASS - All figures and statements are directly supported by the cited BusinessLine article.
-  Groq GPT-OSS 20B: PASS - All claims match the cited BusinessLine article.
-  Groq Qwen: PASS - All factual claims regarding the Sensex and Nifty performance (points and percentages) are directly supported by the source text, and the location and source attribution are correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-99abfde26857
----
-🇮🇳 GOLD PRICES FALL OVER ₹6,611 IN THREE DAYS
-
-📌 Gold prices in Meerut plunged over ₹6,611 in 3 days, slipping below ₹1.36 lakh.
-📊 3-day drop: Over ₹6,611
-
-📍 India · 📰 Mint · ✅ 2 sources
-https://www.livemint.com/money/gold-rate-up-city-meerut-sees-major-crash-price-plunges-over-rs-6611-in-just-3-days-slips-below-rs-1-36-lakh-mark-silver-11794721026951.html
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about the gold price drop in Meerut are directly supported by the Mint article
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint source.
-  Groq Qwen: PASS - All factual claims regarding the location (Meerut, India), the magnitude of the drop (₹6,611), the timeframe (3 days), and the resulting price level (below ₹1.36 lakh) are directly supported by the Mi
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-59f07f3d293d
-done: 2 post(s) this run
-=== run 2026-11-15T02:10:03Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-70/171 sources returned news, 491 recent items
-105 new trusted stories, posting up to 1 this run
----
-🌐 BITCOIN DROPS TO $63,000 AS US DOLLAR STRENGTHENS
-
-📌 Hot inflation data and expected Fed rate hikes pushed bitcoin down to about $63,000.
-📊 $BTC: ~$63,000
-
-📍 Global · 📰 WSJ · ✅ 2 sources
-https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3EzbUZLMzVNX1JTTVVjTVYwOVhoR0JQMXlRWjh3WjA3OGlfRkhvek43Qk90UW1jeWVDOWZMa2djT0JlSnhoRUh3SXBtbWpRQ1Q5SkNJbnVhZHR5X2NsWTFLT0w4TG4tOEdXQlBVdG91RGp1aWFtNkxJN3NZYktEN1dRWWU3LWQ3MTJ3SjNKejBkc1Zsb3JTV3Myd2t5SnZEeHRaZQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: FAIL - The bitcoin price claim is not supported by the WSJ source cited; it comes from a different outlet, so the post misattributes the factual claim.
-  -> blocked by fact-check
----
-🌐 BITCOIN FALLS 6.6% AS INVESTORS WITHDRAW $1.07 BILLION
-
-📌 Bitcoin fell 6.6% as $1.07 billion was pulled from crypto funds.
-📊 $BTC: -6.6%
-💡 Higher interest rates usually make risky assets less popular.
