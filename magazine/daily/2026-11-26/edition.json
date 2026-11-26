@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "ASIA-PACIFIC",
+   "text": "South Korea raised its policy rate to 3.25% amid economic strength."
+  },
+  {
+   "name": "THE AMERICAS",
+   "text": "Banxico raised its growth forecast for Mexico to 1.9% in 2026."
+  },
+  {
+   "name": "MIDDLE EAST",
+   "text": "Turkey's central bank suspended one-week repo auctions, which are short-term loans to banks."
+  }
+ ],
+ "story_ids": [
+  10,
+  27,
+  2,
+  20,
+  39,
+  29,
+  7
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 10,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 27,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 2,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 20,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 39,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 29,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 7,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "The UK mortgage cost",
+ "cover_dek": "Rising interest rates will force higher monthly payments for many households.",
+ "big_headline": "430,000 UK homeowners face a £500-plus jump in monthly mortgage payments.",
+ "big_body": "The Bank of England warns of increases for millions coming off fixed deals as interest rates rise, heaping extra pressure on households.",
+ "big_stat": "£500+",
+ "big_stat_l1": "Monthly jump in payments",
+ "big_stat_l2": "faced by many homeowners",
+ "pol_headline": "Stock markets close",
+ "pol_body": "Brazil stocks rose 4.30% at the close of trade. Russia stocks fell 0.80% at the close of trade.",
+ "pol_stat": "4.30%",
+ "pol_stat_l1": "how much Brazil stocks",
+ "pol_stat_l2": "rose at the close of trade",
+ "biz_headline": "Bitcoin faces a threat from Japan",
+ "biz_body": "Its recovery above a certain price level meets pressure while US markets are closed and Tokyo releases an inflation report.",
+ "biz_stats": [
+  {
+   "value": "$60,000",
+   "name": "Bitcoin level",
+   "note": "recent recovery"
+  },
+  {
+   "value": "$60,000",
+   "name": "Price threshold",
+   "note": "price milestone"
+  }
+ ],
+ "up_headline": "Norway pauses power grid access",
+ "up_body": "Data centers have requested about 34 gigawatts of power, a queue larger than Norway's peak demand, pausing grid reservations until 2027.",
+ "cover_photo": "ecb",
+ "big_photo": "euro",
+ "pol_photo": "fed",
+ "biz_photo": "tradingfloor",
+ "up_photo": "servers",
+ "sources_used": [
+  "All News",
+  "Anadolu Ajansı",
+  "Bloomberg",
+  "Breakingthenews.net",
+  "Crude Oil Prices Today",
+  "CryptoSlate",
+  "Cryptonews.net",
+  "Dosya Haber"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "−0.3%",
+    "color": "#B4280E",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) last closed at 7,183."
+   },
+   {
+    "chg": "+1.6%",
+    "color": "#0B6B3A",
+    "text": "<strong>Gold</strong> rose to about $3,593 an ounce."
+   },
+   {
+    "chg": "+0.7%",
+    "color": "#0B6B3A",
+    "text": "<strong>Bitcoin</strong> trades at about $60,779."
+   }
+  ]
+ },
+ "status": "published"
+}

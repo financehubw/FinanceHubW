@@ -1,32 +1,44 @@
 /home/runner/work/FinanceHubW/FinanceHubW/magazine/daily_free.py:88: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   d = dt.datetime.utcnow().date()          # today's edition (published the same evening, Mon-Fri)
-103/171 sources returned news, 1147 recent items
+103/171 sources returned news, 1065 recent items
   big: rejected: big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
-  big: rejected: these numbers are not in the source: 0
-  big: rejected: these numbers are not in the source: 0
-  big: story #23 failed in 646s
-  big #1 draft 1: Groq GPT-OSS: PASS - All numeric and factual statements about Nasdaq drop, AI fears, tariffs, and Nvidia's 8.7% decline are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the Nasdaq's decline, Nvidia's 8.7% drop, and the causes (AI fears and tariffs) are supported by the provided sources.
-  big: story #1 ok in 6s
-  pol #2 draft 1: Groq GPT-OSS: PASS - All numbers, inflation rate, acceleration, and December hike certainty are reflected in the cited articles | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the 3.8% inflation rate, the acceleration of inflation, and the certainty of a December rate hike are supported by the provided sources.
-  pol: story #2 ok in 6s
+  big: rejected: these numbers are not in the source: 500
+  big: rejected: big_stat_l2 must be 1-28 characters (it is 29); big_stat must be a meaningful figure with a unit, like $100+, 5.24%, €3bn or 1.5 million (not a year or a bare count)
+  big: story #1 failed in 491s
+  big #10 draft 1: Groq GPT-OSS: PASS - All numbers and statements are directly supported by the cited Guardian article | Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited Guardian sources. | Groq Qwen: PASS - All factual claims regarding the number of homeowners (430,000), the payment increase (£500+), and the Bank of England's warning are directly supported by the Guardian source.
+  big: story #10 ok in 3s
+  pol: rejected: pol_stat_l2 must be 1-30 characters (it is 31); this repeats the big story (bank, interest, rates); it must be a different story; these numbers are not in the source: 80
+  pol: rejected: this repeats the big story (bank, interest, rates); it must be a different story; these numbers are not in the source: 80
+  pol: rejected: this repeats the big story (bank, interest, rates); it must be a different story; these numbers are not in the source: 5.24
+  pol: story #21 failed in 3s
+  pol #27 draft 1: Groq GPT-OSS: PASS - All percentage changes for Brazil (+4.30%) and Russia (-0.80%) are directly supported by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - The slide accurately reports that Brazil stocks rose 4.30% and Russia stocks fell 0.80% at the close of trade, which is directly supported by the provided sources.
+  pol: story #27 ok in 3s
+  biz: rejected: biz_headline must be 1-34 characters (it is 35); these numbers are not in the source: 4627
+  biz: rejected: biz_headline must be 1-34 characters (it is 35); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: biz_headline must be 1-34 characters (it is 35); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: story #37 failed in 2s
+  biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count); each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: rejected: biz_stats needs exactly two figures; each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
+  biz: story #31 failed in 2s
+  biz: rejected: biz_stats needs exactly two figures; these numbers are not in the source: 60000
+  biz: rejected: these numbers are not in the source: 60000
+  biz: rejected: these numbers are not in the source: 1.5, 60000
+  biz: story #26 failed in 25s
+  biz: rejected: biz_stats needs exactly two figures; biz_stats note must be 1-18 characters; these numbers are not in the source: 52.0
   biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: story #39 failed in 16s
-  biz: rejected: this repeats the big story (drop, early, stock); it must be a different story
-  biz: rejected: this repeats the big story (fell, market, shares, stock); it must be a different story; these numbers are not in the source: 0
-  biz: rejected: this repeats the big story (drop, early, market, shares); it must be a different story
-  biz: story #35 failed in 7s
-  biz #3 draft 1: Groq GPT-OSS: PASS - All specific figures and statements are backed by the cited sources. | Groq GPT-OSS 20B: PASS - All numerical and factual claims are supported by the cited sources. | Groq Qwen: FAIL - The slide incorrectly attributes the 3.8% PCE price index prediction to Australia, whereas the sources identify it as a US economic indicator.
   biz: rejected: biz_stats needs exactly two figures
-  biz: rejected: each biz_stats value must be a figure with a unit, like -13.3% or $4bn (not a bare count)
-  biz: story #3 ok in 12s
-  up #4 draft 1: Groq GPT-OSS: PASS - All claims about Franklin Templeton adding the HYPE token to its Crypto Index ETF on Dec. 1 are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - All factual claims regarding the asset manager, token, fund name, date, and action are supported by the sources.
-  up: story #4 ok in 7s
-  r1 #9 draft 1: Groq GPT-OSS: PASS - The Borneo Bulletin source confirms Japan's key services inflation gauge hit a 36‑year high, supporting the slide's claim. | Groq GPT-OSS 20B: PASS - The claim that Japan’s key services inflation gauge reached a 36‑year high is directly supported by the Borneo Bulletin source. | Groq Qwen: PASS - The claim that Japan's key services inflation gauge reached a 36-year high is directly supported by the Borneo Bulletin source.
-  r1: story #9 ok in 5s
-  r2 #36 draft 1: Groq GPT-OSS: PASS - The source confirms the U.S. total active oil and gas rigs stayed at 607. | Groq GPT-OSS 20B: PASS - The slide’s claim that the U.S. active drilling rig count was 607 is directly supported by the cited Oilprice.com article. | Groq Qwen: PASS - The slide accurately reports that the total number of active drilling rigs in the United States stayed at 607, which is directly supported by the source text stating the count 'remains at 607' and 'st
-  r2: story #36 ok in 6s
-  r3 #15 draft 1: Groq GPT-OSS: PASS - The sources confirm Switzerland approved 57 jurisdictions for automatic crypto tax data exchanges starting in 2028. | Groq GPT-OSS 20B: PASS - All factual claims are supported by the cited sources. | Groq Qwen: PASS - The slide's claim that Switzerland approved 57 partner jurisdictions for automatic crypto tax data exchanges is directly supported by both sources.
-  r3: story #15 ok in 5s
-Draft ready for review: magazine/daily/2026-11-25/edition.json (not published)
+  biz: story #35 failed in 22s
+  biz: rejected: biz_stats needs exactly two figures
+  biz #2 draft 2: Groq GPT-OSS: PASS - All claims about Bitcoin above $60,000, pressure from Japan, US markets closed, and Tokyo inflation report are stated in the cited CryptoSlate article. | Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited CryptoSlate article. | Groq Qwen: PASS - The slide accurately reflects the source headlines and details regarding Bitcoin's recovery above $60,000, the threat from Japan's inflation report, and the timing relative to US market closures.
+  biz: story #2 ok in 3s
+  up #20 draft 1: Groq GPT-OSS: PASS - All factual statements about the pause, 34 GW request, queue size, and 2027 timeline are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the sources. | Groq Qwen: PASS - All factual claims regarding the 34 GW request, the pause until 2027, and the comparison to peak demand are supported by the sources.
+  up: story #20 ok in 3s
+  r1 #39 draft 1: Groq GPT-OSS: PASS - All claims about the rate increase to 3.25% and the strong economy are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - The slide accurately reports the Bank of Korea raising its policy rate to 3.25% and cites a strong economy, which is supported by the provided sources. | Groq Qwen: PASS - The slide accurately reflects the sources, which confirm the Bank of Korea raised its rate to 3.25% due to a strong economy.
+  r1: story #39 ok in 2s
+  r2 #29 draft 1: Groq GPT-OSS: PASS - The slide's claim matches the titles of the provided sources, which state Banxico raised Mexico's 2026 growth forecast to 1.9%. | Groq GPT-OSS 20B: PASS - The slide’s claim matches the cited sources. | Groq Qwen: PASS - The slide's claim that Banxico raised Mexico's 2026 growth forecast to 1.9% is directly supported by all provided sources.
+  r2: story #29 ok in 3s
+  r3: rejected: region text must be 1-100 characters
+  r3 #7 draft 2: Groq GPT-OSS: PASS - All claims about Turkey's central bank suspending one-week repo auctions and their nature are confirmed by the cited sources. | Groq GPT-OSS 20B: PASS - All claims are supported by the cited sources. | Groq Qwen: PASS - The claim that Turkey's central bank suspended one-week repo auctions is directly supported by multiple sources, and the definition of repo auctions as short-term loans to banks is a standard financia
+  r3: story #7 ok in 8s
+Draft ready for review: magazine/daily/2026-11-26/edition.json (not published)
