@@ -1,19 +1,12 @@
 /home/runner/work/FinanceHubW/FinanceHubW/social/news_short.py:27: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   now = dt.datetime.utcnow()
-news short: Nasdaq futures plunge 3% as tech stocks fall (today's money news)
-rendering news_20261125
-  -> news_20261125.mp4 | Nasdaq futures plunge 3% as tech stocks fall (today's money news)
-[vost#0:0/rawvideo @ 0x577e06e4ff00] Error submitting a packet to the muxer: Broken pipe
+news short: European stocks rally on easing tariff fears (today's money news)
+rendering news_20261126
+  -> news_20261126.mp4 | European stocks rally on easing tariff fears (today's money news)
+[vost#0:0/rawvideo @ 0x5aeddcece240] Error submitting a packet to the muxer: Broken pipe
     Last message repeated 1 times
-[out#0/rawvideo @ 0x577e06eb7040] Error muxing a packet
-[out#0/rawvideo @ 0x577e06eb7040] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x577e06eb7040] Terminating thread with return code -32 (Broken pipe)
-[vost#0:0/rawvideo @ 0x5b382a8f7580] Error submitting a packet to the muxer: Broken pipe
-    Last message repeated 1 times
-[out#0/rawvideo @ 0x5b382aa4cb80] Error muxing a packet
-[out#0/rawvideo @ 0x5b382aa4cb80] Task finished with error code: -32 (Broken pipe)
-[out#0/rawvideo @ 0x5b382aa4cb80] Terminating thread with return code -32 (Broken pipe)
-[out#0/rawvideo @ 0x5b382aa4cb80] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x5b382aa4cb80] Error closing file: Broken pipe
-[out#0/rawvideo @ 0x577e06eb7040] Error writing trailer: Broken pipe
-[out#0/rawvideo @ 0x577e06eb7040] Error closing file: Broken pipe
+[out#0/rawvideo @ 0x5aeddcecdec0] Error muxing a packet
+[out#0/rawvideo @ 0x5aeddcecdec0] Task finished with error code: -32 (Broken pipe)
+[out#0/rawvideo @ 0x5aeddcecdec0] Terminating thread with return code -32 (Broken pipe)
+[out#0/rawvideo @ 0x5aeddcecdec0] Error writing trailer: Broken pipe
+[out#0/rawvideo @ 0x5aeddcecdec0] Error closing file: Broken pipe

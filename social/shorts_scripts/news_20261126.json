@@ -1,0 +1,41 @@
+{
+ "id": "news_20261126",
+ "title": "European stocks rally on easing tariff fears (today's money news)",
+ "thumb": "*TODAY:* European stocks rally on easing tariff f",
+ "thumb_photo": "european union flags",
+ "thumb_tag": "NEWS",
+ "caption": "European stocks rose as tech and banking shares bounced back and tariff worries faded.",
+ "comment": "Good news or bad news for your money? 👇",
+ "tags": [
+  "#news",
+  "#finance",
+  "#stockmarket",
+  "#money",
+  "#economy",
+  "#breaking"
+ ],
+ "sources": [
+  "Europe,  Reuters,  5 sources"
+ ],
+ "scenes": [
+  {
+   "say": "Today in money. European stocks rally on easing tariff fears.",
+   "chat": "European stocks rally on easing tariff fears."
+  },
+  {
+   "say": "European stocks rose as tech and banking shares bounced back and tariff worries faded.",
+   "photo": "european union flags",
+   "clip": {
+    "kicker": "Europe",
+    "year": "26 Nov",
+    "text": "European stocks rally on easing tariff fears"
+   }
+  },
+  {
+   "say": "Follow for the day's money news in under a minute.",
+   "photo": "newspaper",
+   "big": "Follow",
+   "sub": "daily money news"
+  }
+ ]
+}
