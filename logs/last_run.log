@@ -1,3 +1,66 @@
+=== run 2026-11-26T08:56:36Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 6
+106/171 sources returned news, 1233 recent items
+re-check of earlier post: 0 fail / 5 pass
+269 new trusted stories, posting up to 3 this run
+---
+🇮🇳 RUPEE FALLS TO 92.40 PER US DOLLAR
+
+📌 The Indian rupee dropped 20 paise against the US dollar in early trade.
+📊 USD/INR: 92.40
+💡 A weaker local currency makes imported goods and fuel more expensive.
+
+📍 India · 📰 Economic Times · ✅ 6 sources
+https://economictimes.indiatimes.com/markets/forex/rupee-falls-20-paise-to-92-40-against-us-dollar-in-early-trade/articleshow/136179591.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article and listed sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: PASS - All factual claims regarding the rupee's fall to 92.40, the 20 paise drop, and the source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-385539f08805
+---
+🇮🇳 INDIAN BONDS FALL AS OIL PASSES $95
+
+📌 Indian bonds dropped after crude oil passed $95 per barrel and the RBI warned of high food inflation.
+📊 Bond yield (return on government loans): 7.2125%
+
+📍 India · 📰 Economic Times · ✅ 2 sources
+https://economictimes.indiatimes.com/markets/bonds/india-bonds-tumble-as-brent-tops-95-per-barrel-rbi-flags-food-inflation-risks/articleshow/136179562.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about bond drop, oil price, RBI warning, and 7.2125% yield are supported by the Economic Times source.
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the cited source.
+  Groq Qwen: PASS - All factual claims regarding the bond yield (7.2125%), oil price ($95), RBI's warning on food inflation, and the source attribution are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-6e07d6c5aa9c
+---
+🇰🇷 SOUTH KOREA HIKES INTEREST RATES TO 3.25%
+
+📌 South Korea raised its key interest rate to 3.25% amid strong growth.
+📊 Rate: 3.25%
+
+📍 South Korea · 📰 The Straits Times World News · ✅ 11 sources
+https://www.straitstimes.com/business/south-korea-hikes-interest-rates-again-to-3-25-as-ai-boom-powers-growth-and-inflation
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (rate 3.25%, strong growth context, location, source) are directly supported by the cited articles
+  Groq GPT-OSS 20B: FAIL - The claim that there are 11 sources is unsupported; only six sources are listed.
+  -> blocked by fact-check
+---
+🇪🇺 EUROPEAN STOCKS RALLY ON EASING TARIFF FEARS
+
+📌 European stocks rose as tech and banking shares bounced back and tariff worries faded.
+
+📍 Europe · 📰 Reuters · ✅ 5 sources
+https://news.google.com/rss/articles/CBMisAFBVV95cUxOWDAyOS03ZTA0ZzRTRmR6d2diZDJ5X0V0ejhjSlg1MzhMaTlCNU1LNTBCYVlJS2VhVV9USmNxYnNGYk9CaTdYckN1NVBZLWNKQm9BYXB5SEpNYVMyN3hzbFRjaExPY3piakNDakM1Qm1NSDJ1MFJLZzF3NGN5TFVCYThrYmNzZFhyVzN1bVBhaXh6a2t4cUxNQzBGUnpWVVFxb1l2cFR5WE1UZ0tvUEpDcw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about European stocks rallying, tech and banking rebounds, and easing tariff fears are directly supported by the Reuters source.
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the rally in European stocks, the specific sectors (tech and banking), and the cause (easing tariff fears) are directly supported by the provided sources, and the location
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - The rise in European stocks driven by tech and bank rebounds with easing tariff fears matches the Reuters headlines, and Europe/Reuters attribution is correct with no advice or prediction.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-3344812bc488
+done: 3 post(s) this run
 === run 2026-11-26T00:43:41Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 5
@@ -1435,66 +1498,3 @@ published to: website, Instagram Story
 ---
 🇮🇳 INDIA WHOLESALE INFLATION RISES TO 12.29% IN OCTOBER
 
-📌 India's wholesale prices rose 12.29% year-on-year in October as fuel costs surged.
-📊 WPI Inflation: 12.29%
-
-📍 India · 📰 Fortune India · ✅ 5 sources
-https://news.google.com/rss/articles/CBMipAFBVV95cUxNd25wdEV2cXJrZUNEalJsRFVKcWx4dG1IWUlCYk1EeFJmWjJlV05DQUJwM3M2NHAzS2NtWXd1MkFCbUtvWDFMb3o3V1p0NEVSU0g4a2s1WnVLS3dEb3RvSGtRNXM1V3BGWU5DUHVXTzJ2eWRibk0yZHJtU2VZREZHbDdHNmI3elYxbFFvaXQzNjNoQXJMU2hSV1VLY2IyM0dvcjhGTNIBsgFBVV95cUxQcXFSNGhGVHhNZk81YW5lQ0d1TzJ2anhCU0taYi1FMF9XOTkzYXQtelJtVkU3ZE8zcEJqZG1sMzZNaWhBNFlqY2tEblJRWE5RS2Y3Nmp6SmpUX0dpTG8tMG4zRndtM0VsYnF4VDdndURXLTB2djBRd0xuRDZJVnF5VS1WaEVkVV9TLXVpWmRFU2o3blpSbUxfaldJY1JnRU54c2M3SnVJeGFLcDR0cERka19B?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All figures, dates, and context are directly supported by the cited Fortune India source
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
-  Groq Qwen: PASS - All factual claims regarding the 12.29% WPI inflation rise in India for October and the surge in fuel costs are directly supported by the provided sources.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-cb75911c5793
-done: 2 post(s) this run
-=== run 2026-11-15T23:06:21Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
-80/171 sources returned news, 576 recent items
-125 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-15T17:26:45Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-82/171 sources returned news, 587 recent items
-149 new trusted stories, posting up to 2 this run
----
-🇺🇸 MICHAEL SAYLOR HINTS AT MORE BITCOIN PURCHASES
-
-📌 Michael Saylor suggested his firm may buy more Bitcoin as prices fall.
-💡 Big corporate buys can signal strong confidence in the crypto market.
-#Bitcoin
-
-📍 US · 📰 Bitcoin News · ✅ 2 sources
-https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVNqU0gyNGxYelJ4dHdlb3QwcGpSSlV4bFEyMmpLN0M4ZzFFVHVyd2tVdllTcFJGVzVUNk5xRnlfOU9jaHZCU0dpYVpGSDdXbWluTjExeHpvSzNaNGpCcXFvM01qRGNhV1JXN2NaMFJoN3VlN3ItYnB5LTMwQzVnTzA1X0w2Y3BfYU9GSnh5bng3LUVNMU9PUC1vNWVrTFlnU19F?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about Saylor's hint to buy more Bitcoin amid price declines are supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited Bitcoin News article and the general explanation is accurate.
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding Michael Saylor's hints at further Bitcoin purchases by Strategy during a price slide, and the general explanation is valid.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-401e8bbbe060
----
-🇮🇳 RBI RATE HIKE IN DECEMBER APPEARS CERTAIN
-
-📌 High inflation makes a December interest rate hike by the RBI likely.
-💡 Higher rates usually make home and car loans more expensive.
-#RBI
-
-📍 India · 📰 Business Standard
-https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTGxzbkRiZXplSlZSVHpWc1A5Wnc1X0J3NHBJc2FJejdhcHVpZFE3WXo4MnVtSF9VMFdtaEpDSFFLeUR5RGZkNTV1NGhLWXAxOGxUNlRnSmFNNnpBb1dPT1diWU8yU3UzeUlHcGtBWFpYRHMzY0t5TEp3ZTVVSjhZcS1Yd0dHT3FMOW54SnhJbDRKOW1fT2NrVVBrcjFZblNKRUhyZTM3TDR3enQwQnNVZS1pV1lVVmRZUExhSXpMLUw5STVNQ295dTUzaVJQbEE4c0h3RVVacnRROVUx0gHiAUFVX3lxTE01bTJ2d2gwYm1RN0ZTeE5iTHVlSG5pXzBLUDBKY3dBZkdHa1ozSnF1V3FUT1FHR2tweDU3Ymk1NkZyZ3BJV0w3NF9HRjZEV3A4bjEzX0JlQk5wTjVucEdLV2dnQmsxeTU2dzVSQlcwakpYZV83aUFqc1Q4VzlIMjFPQmprNzFvVzA0dkRVYkstUHUtR1c5ODNzZDRXZk5RaG4xQXRvcDBTR0tiOGl1akN0Q3ZnTzZaeU5ZaFJxT2xGbEU4VGxBbFFfNVI2eUREeHo1Mjc1THdIZlBVYkdRR0JwY3c?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements are directly supported by the Business Standard article.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Business Standard source.
-  Groq Qwen: PASS - The post accurately reflects the source headline regarding the likelihood of an RBI rate hike in December due to high inflation, and the general explanation of loan costs is correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-9a18a7c41233
-done: 2 post(s) this run
-=== run 2026-11-15T09:53:25Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 9
-76/171 sources returned news, 579 recent items
-130 new trusted stories, posting up to 2 this run
----
-🇮🇳 INDIAN STOCKS GAINED LAST WEEK
-
-📌 Sensex rose 564.43 points (0.69%) and Nifty climbed 113.95 points (0.45%) last week.
