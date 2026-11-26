@@ -1,26 +1,32 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "weights": {
-  "lesson": 0.63,
-  "data": 0.52,
-  "micro": 1.65,
+  "data": 0.54,
+  "story": 0.74,
   "clip": 4.0,
+  "micro": 1.66,
   "news": 0.4,
-  "campaign": 2.0,
-  "story": 0.74
+  "lesson": 0.64,
+  "campaign": 2.0
  },
  "table": {
-  "lesson": {
-   "shorts": 33,
-   "median_views": 46,
-   "mean_views": 109.6,
-   "median_watch_pct": 63.599999999999994
-  },
   "data": {
-   "shorts": 16,
-   "median_views": 46.0,
-   "mean_views": 58.3,
-   "median_watch_pct": 63.2
+   "shorts": 17,
+   "median_views": 47,
+   "mean_views": 57.9,
+   "median_watch_pct": 65.2
+  },
+  "story": {
+   "shorts": 10,
+   "median_views": 68.5,
+   "mean_views": 89.0,
+   "median_watch_pct": 55.0
+  },
+  "clip": {
+   "shorts": 43,
+   "median_views": 754,
+   "mean_views": 1060.1,
+   "median_watch_pct": 65.8
   },
   "micro": {
    "shorts": 5,
@@ -28,29 +34,23 @@
    "mean_views": 115.2,
    "median_watch_pct": 100.55
   },
-  "clip": {
-   "shorts": 41,
-   "median_views": 949,
-   "mean_views": 1097.1,
-   "median_watch_pct": 71.0
-  },
   "news": {
-   "shorts": 8,
-   "median_views": 32.0,
-   "mean_views": 44.5,
+   "shorts": 9,
+   "median_views": 32,
+   "mean_views": 48.0,
    "median_watch_pct": 56.150000000000006
+  },
+  "lesson": {
+   "shorts": 33,
+   "median_views": 46,
+   "mean_views": 109.6,
+   "median_watch_pct": 63.599999999999994
   },
   "campaign": {
    "shorts": 0,
    "median_views": null,
    "mean_views": null,
    "median_watch_pct": null
-  },
-  "story": {
-   "shorts": 10,
-   "median_views": 68.5,
-   "mean_views": 89.0,
-   "median_watch_pct": 55.0
   }
  }
 }
