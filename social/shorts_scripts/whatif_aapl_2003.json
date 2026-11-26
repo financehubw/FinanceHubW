@@ -1,0 +1,51 @@
+{
+ "id": "whatif_aapl_2003",
+ "title": "$1,000 in Apple in 2003 is now worth this",
+ "thumb": "$1,000 in Apple 2003 = *{growth:AAPL:2003-01-02}*",
+ "thumb_photo": "music player",
+ "thumb_tag": "WHAT IF",
+ "caption": "In 2003, Apple was selling iPods.\n$1,000 in it then would be worth about {growth:AAPL:2003-01-02} today (price growth only, no dividends).",
+ "comment": "What would you have done with Apple in 2003? 👇",
+ "tags": [
+  "#investing",
+  "#stocks",
+  "#money",
+  "#whatif",
+  "#finance",
+  "#compounding"
+ ],
+ "sources": [
+  "Apple price history, Yahoo Finance (split-adjusted), at render time"
+ ],
+ "scenes": [
+  {
+   "say": "In 2003, Apple was selling iPods.",
+   "photo": "music player",
+   "clip": {
+    "kicker": "Cupertino",
+    "year": "2003",
+    "text": "Apple: selling iPods"
+   }
+  },
+  {
+   "say": "Say you put in one thousand dollars.",
+   "photo": "dollar bills",
+   "big": "$1,000",
+   "sub": "2003"
+  },
+  {
+   "say": "Watch what it turns into. Today, it would be worth about {growth:AAPL:2003-01-02}.",
+   "growth": {
+    "tick": "AAPL",
+    "name": "Apple",
+    "start": "2003-01-02"
+   }
+  },
+  {
+   "say": "Time in the market does the heavy lifting.",
+   "photo": "hourglass",
+   "big": "Time",
+   "sub": "the real ingredient"
+  }
+ ]
+}
