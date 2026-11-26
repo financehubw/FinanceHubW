@@ -1,3 +1,9 @@
+=== run 2026-11-26T19:47:04Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 7
+94/171 sources returned news, 863 recent items
+201 new trusted stories, posting up to 0 this run
+done: 0 post(s) this run
 === run 2026-11-26T08:56:36Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1492,9 +1498,3 @@ https://news.google.com/rss/articles/CBMirgFBVV95cUxNVDFhNEp6VXhxcGFxclBtSGdSSFF
   written by Gemini
   Groq GPT-OSS: PASS - All factual statements about Asian shares, US futures falling, and Nvidia earnings are confirmed by the cited sources, and the general explanation is accurate.
   Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
-  Groq Qwen: PASS - The factual claims regarding the fall in Asian shares and US futures ahead of Nvidia earnings are directly supported by the provided sources, and the general explanation is accurate.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-7a0ac871b797
----
-🇮🇳 INDIA WHOLESALE INFLATION RISES TO 12.29% IN OCTOBER
-
