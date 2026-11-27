@@ -1596,6 +1596,19 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "clip_thrift_1948_1.mp4",
+   "title": "1948 educational film: How did teens budget an eight-dollar weekly income?",
+   "date": "2026-11-27T07:32:04Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/T1i9TLYtcfw",
+    "Instagram": "17916018978558244",
+    "Facebook": "2346855229499345"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
