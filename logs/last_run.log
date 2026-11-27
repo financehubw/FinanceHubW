@@ -1,3 +1,55 @@
+=== run 2026-11-27T03:12:50Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+93/171 sources returned news, 870 recent items
+198 new trusted stories, posting up to 3 this run
+---
+🇯🇵 TOKYO INFLATION HITS 16-MONTH HIGH
+
+📌 Prices in Tokyo rose 2.9% year-on-year, reaching a 16-month high.
+📊 Tokyo Core CPI: 2.9%
+💡 Higher inflation usually reduces everyday buying power.
+#Japan
+
+📍 Japan · 📰 The Japan Times · ✅ 3 sources
+https://news.google.com/rss/articles/CBMiigFBVV95cUxOV0lkVUpsYTVua3ZCNTRjQm5mTjh0ZEhtSmNIMHVHMy1UalVQUWgwUGk3eDFSaklHY2hZWUdNTjdRN2ZhbTRrSTA2aXBfbWF5QjFPWmx6WXdQSXQzMW1zV2xSVnR6cUJBUHdlS3hPbndFZlVET1U4TVk3X0xFQWplZ2tQa0pYbm81TEE?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims (2.9% YoY, 16‑month high, Tokyo Core CPI) are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the 2.9% inflation rate, 16-month high, and location are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-1ce0724ca786
+---
+🇺🇸 US DOLLAR HOLDS NEAR 22-MONTH HIGH
+
+📌 The US dollar stayed near its highest level in 22 months as market worries continue.
+📊 US Dollar: Near 22-month high
+
+📍 US · 📰 Mint · ✅ 7 sources
+https://www.livemint.com/market/dollar-lingers-near-22-month-peak-as-ai-worries-simmer-11795741427005.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (22‑month high, market worries, source and location) are directly confirmed by the Mint article.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the LiveMint source.
+  Groq Qwen: PASS - All factual claims regarding the US dollar's 22-month high, the source attribution to Mint, and the location are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-a5daf735eaf0
+---
+🇺🇸 GOLD FALLS AS FED RATE HIKE EXPECTATIONS GROW
+
+📌 Gold dropped while the US dollar stayed in the lower 159 yen range.
+📊 Dollar-Yen: Lower 159 range
+
+📍 US · 📰 Business Recorder · ✅ 2 sources
+https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tZ1NTXzYxMkdRaDFOaVdSbjFkdmhpd1MyLWt5TkxXUFo1ZHowVGtQdlVqaU9ucHB2R1BiWWU4YzZtLUpaa0xrUmxHb1FTVjRpQ2w0T0dn0gFWQVVfeXFMTm1nU1NfNjEyR1FoMU5pV1JuMWR2aGl3UzIta3lOTFdQWjVkejBUa1B2VWppT25wcHZHUGJZZThjNm0tSlprTGtSbEdvUVNWNGlDbDRPR2c?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements about gold falling, Fed expectations, and USD/JPY lower 159 range are directly supported by the cited Business Recorder and BigGo Finance sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: PASS - All factual claims regarding gold's decline, the dollar-yen range, and the attribution to the US and Business Recorder are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - Gold falling on Fed rate-hike expectations (Business Recorder) and dollar-yen in the lower 159 range (BigGo Finance) are both directly supported, with matching location, source, and 2-source count.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-43fdabd9f02b
+done: 3 post(s) this run
 === run 2026-11-26T19:47:04Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 7
@@ -1446,55 +1498,3 @@ daily cap: 12, room left in the last 24h: 8
 96/171 sources returned news, 960 recent items
 201 new trusted stories, posting up to 2 this run
 ---
-🌐 STOCKS FALL AS INVESTORS AWAIT NVIDIA EARNINGS
-
-📌 Stocks dropped in Asia and worldwide as traders waited for Nvidia results.
-💡 Falling stock markets can reduce the value of investment funds.
-#Stocks
-
-📍 Global · 📰 Business · ✅ 7 sources
-https://www.euronews.com/2026/11/16/stocks-extend-losses-as-traders-await-nvidia-earnings-and-anthropic-ipo
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about stock declines and awaiting Nvidia earnings are confirmed by the Euronews article, and the general explanation is accurate.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the listed sources.
-  Groq Qwen: FAIL - The post claims stocks dropped 'worldwide,' but the sources only explicitly support declines in Asia and overnight markets, without confirming a global drop.
-  -> blocked by fact-check
----
-🇮🇳 🔄 UPDATE: INDIAN STOCKS RALLY IN EARLY TRADE
-
-📌 Indian shares rose as the Sensex jumped 420 points in morning trade.
-📊 $Sensex: +420 points
-💡 Lower crude oil prices usually help reduce costs for businesses.
-
-📍 India · 📰 The Hindu · ✅ 4 sources
-https://news.google.com/rss/articles/CBMizAFBVV95cUxOVFhsNHVIZkRrWnBIQzlxOXFnaHVtemx3R3NCMDUyNzVXU2FwcHdwOVdRSGZQYjJOZzJ1c1BjTTNTdl9zd0hfLWtFNDNtTWJpbnZNR0hrLU1WenMtd2hkNk15VlQzVGlfZ1lrUXBGTDEzRnJCampjYy1SQ3A1dzVCZzNqRnlSRE52NjhuMlhtbUx6VXVyZFZ3N1JfU3I1Vkk0c244bnRpWExaa1lGOXJqMmlHUzNaXzExQmZJb3JJSVU4UzdjczA3QWFhQXrSAdMBQVVfeXFMTlhTX3pmMUJuLWM1UlN0Q2Q0Z1hFTkZISmFiQWdoVXJQbkN2OUpYMDRLXzlrWVVMc2U1Ny1mLUxoRmk3MlZvamFOTV9OZHFPM1ZyZnZhbDlMSzRJNG9OOHE5S19wWDQzdklOY2tDZ0U4VFVRay1lRWFOcEVxSnBGMEtHQ0hlRlg1d0JtZkVUc1V0eGR2c2RLcjBJOUJaYnRRaWVLR3VIWkxOTWZ4NkpWLUNwamJHNmdiNUxGdl90UmNhSHBZdVVqWHhYWVh3bk80MXc3SQ?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - Sensex +420 points and rally are confirmed by the listed sources, and the general note on crude prices is accurate.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims, including the specific 420-point Sensex gain and the context of lower crude oil prices, are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All claims (Sensex +420 points in morning trade, Indian shares rising, lower crude) are directly supported by the source headlines, the place/source labels match, and the 💡 line is a correct general e
----
-🌏 ASIAN CHIP STOCKS DROP AHEAD OF NVIDIA EARNINGS
-
-📌 Asian chip stocks fell, with South Korea's Kospi down 2.6% and Japan's Nikkei down 2%.
-📊 Kospi: -2.6%
-
-📍 Asia · 📰 Bloomberg.com · ✅ 6 sources
-https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmRRVXFPS1V5SllmWC10cU9wblRCS1BaOGxBaXZLZ29PclFjZkZnQWd6T010SUFhSVdBQ0ZYLWw5Qno2TDhzSDE4RHBlUUVoaU9DZEdYSmphMjdUUFFiR1JrVmhsSUhkZmNfSkgwQzhXQkFlRWMwU1NIX0VHNUZSZFNrcFhxZWRjTDFSWmItemxuSE8zbXp1ZFBnV0JKVC11ekZoSnhPTzZhZFlPdEttb2V3WjA?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (stock declines and context) are directly supported by the cited sources.
-  Groq GPT-OSS 20B: FAIL - The claim that there are 6 sources is unsupported; only five sources are listed.
-  -> blocked by fact-check
----
-🌐 ASIAN SHARES AND US FUTURES FALL BEFORE NVIDIA EARNINGS
-
-📌 Asian stocks and US futures fell as investors wait for $NVDA earnings.
-💡 Earnings from major tech firms often drive wider market movements.
-#Nvidia
-
-📍 Global · 📰 FXEmpire · ✅ 4 sources
-https://news.google.com/rss/articles/CBMirgFBVV95cUxNVDFhNEp6VXhxcGFxclBtSGdSSFFDUzdrZVRXYUZmTEpsSVQ2WmxZcHU2ekpTS01HeEFZYjFzM0w3S05oTkpkdE5yVmhaT1lMaHozV2NDdHM4c0F0R1l5VWZobHgtcXd5Y01VRldVWldKcTVaQkxmcVozS24zaFA1M1Y3bzJleEIyM3ZZa0psRW9lRFFsOUFCSGhyeWpvZEg5cnFqZVlWRDlRTWJ2MVE?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements about Asian shares, US futures falling, and Nvidia earnings are confirmed by the cited sources, and the general explanation is accurate.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the listed sources.
