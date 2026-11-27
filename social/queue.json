@@ -914,6 +914,29 @@
    ]
   },
   {
+   "file": "news_20261127.mp4",
+   "title": "ECB says two rate hikes are not enough (today's money news)",
+   "caption": "An official says two rate hikes are not enough to bring inflation down to 2%.\nInflation target: 2%",
+   "tags": [
+    "#news",
+    "#finance",
+    "#stockmarket",
+    "#money",
+    "#economy",
+    "#breaking"
+   ],
+   "comment": "Good news or bad news for your money? 👇",
+   "thumb": "*TODAY:* ECB says two rate hikes are not enough",
+   "thumb_photo": "euro banknotes",
+   "thumb_tag": "NEWS",
+   "ai_voice": true,
+   "voice": "elevenlabs",
+   "made": "2026-11-27",
+   "sources": [
+    "Europe,  Bloomberg.com,  3 sources"
+   ]
+  },
+  {
    "file": "news_20261113.mp4",
    "title": "Fed says more rate hikes May be needed (today's money news)",
    "caption": "A US central bank official says interest rates may need to go up again soon.\n\nHigher rates usually make borrowing money costlier.",
