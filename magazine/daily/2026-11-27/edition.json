@@ -1,0 +1,127 @@
+{
+ "writer": "Gemini",
+ "regions": [
+  {
+   "name": "LATIN AMERICA",
+   "text": "Brazilian markets rallied after Lula tapped Bradesco chairman for finance chief."
+  },
+  {
+   "name": "ASIA",
+   "text": "China's stocks surged after Beijing vowed stronger market support."
+  },
+  {
+   "name": "THE AMERICAS",
+   "text": "The US goods trade deficit, buying more than selling, had an October deficit of more than 10%."
+  }
+ ],
+ "story_ids": [
+  28,
+  3,
+  21,
+  11,
+  35,
+  37,
+  12
+ ],
+ "review": [
+  {
+   "slot": "big",
+   "story": 28,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "pol",
+   "story": 3,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "biz",
+   "story": 21,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "up",
+   "story": 11,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r1",
+   "story": 35,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r2",
+   "story": 37,
+   "free_checkers": "passed"
+  },
+  {
+   "slot": "r3",
+   "story": 12,
+   "free_checkers": "passed"
+  }
+ ],
+ "cover_title": "The fake takeover",
+ "cover_dek": "A man received a suspended sentence over a fake £154m company takeover bid.",
+ "big_headline": "A man received a 2-year suspended prison sentence for staging a fake takeover bid.",
+ "big_body": "Christopher Woolcott built a stake in Touchstone, an oil firm. He used Chat GPT to forge documents to raise its share price, or stock value.",
+ "big_stat": "£154m",
+ "big_stat_l1": "The value of a fake",
+ "big_stat_l2": "takeover bid for a company",
+ "pol_headline": "Higher tax on bank profits",
+ "pol_body": "The UK raised its surcharge, an extra tax on bank profits, from 3% to 6% for 15 months. The Bank of England warned banks may pass the £1.5bn cost to customers.",
+ "pol_stat": "£1.5bn",
+ "pol_stat_l1": "in tax that banks may",
+ "pol_stat_l2": "pass on to customers",
+ "biz_headline": "Government stock auction results",
+ "biz_body": "An auction accepted 12,000 crore rupees for 6.57% GS 2033. The cut-off price was 96.30 with a yield of 7.2736%.",
+ "biz_stats": [
+  {
+   "value": "7.2736%",
+   "name": "6.57% GS 2033",
+   "note": "yield at cut-off"
+  },
+  {
+   "value": "7.7996%",
+   "name": "7.63% GS 2056",
+   "note": "yield at cut-off"
+  }
+ ],
+ "up_headline": "Ethereum schedules Glamsterdam test",
+ "up_body": "Ethereum developers set the Glamsterdam upgrade on the Hoodi testnet for December 15, after security concerns halted it in October.",
+ "cover_photo": "nyse",
+ "big_photo": "tradingfloor",
+ "pol_photo": "boe",
+ "biz_photo": "jet",
+ "up_photo": "servers",
+ "sources_used": [
+  "All News",
+  "Borneo Bulletin",
+  "Business Recorder",
+  "CryptoRank",
+  "Decrypt",
+  "FCA",
+  "NTD News",
+  "RBI"
+ ],
+ "market": {
+  "title": "Shares, gold, bitcoin",
+  "rows": [
+   {
+    "chg": "+1.6%",
+    "color": "#0B6B3A",
+    "text": "<strong>US shares</strong> (the S&amp;P 500) closed at 7,297."
+   },
+   {
+    "chg": "+3.8%",
+    "color": "#0B6B3A",
+    "text": "<strong>Gold</strong> rose to about $3,668 an ounce."
+   },
+   {
+    "chg": "−1.2%",
+    "color": "#B4280E",
+    "text": "<strong>Bitcoin</strong> trades at about $59,793."
+   }
+  ]
+ },
+ "status": "draft"
+}
