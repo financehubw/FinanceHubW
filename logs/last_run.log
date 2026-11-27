@@ -1,3 +1,103 @@
+=== run 2026-11-27T14:19:55Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+102/171 sources returned news, 1125 recent items
+267 new trusted stories, posting up to 3 this run
+---
+🇮🇳 INDIA BOND YIELDS REACH 7.265% AS OIL PRICES RISE
+
+📌 Indian bond yield (interest rate) rose to a 1-week high of 7.265%.
+📊 India bond yield: 7.265%
+💡 Higher inflation often leads central banks to raise interest rates.
+
+📍 India · 📰 Economic Times
+https://economictimes.indiatimes.com/markets/bonds/india-bonds-slump-as-oil-spike-adds-to-rbi-hike-bets/articleshow/136221243.cms
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Economic Times article
+  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source.
+  Groq Qwen: PASS - All factual claims regarding the bond yield (7.265%), the 1-week high, the source, and the context of rising oil prices and RBI hike bets are directly supported by the provided source text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-789b7c196dee
+---
+🇺🇸 US STOCK FUTURES JUMP AHEAD OF BLACK FRIDAY
+
+📌 US stock futures rose before a shortened Black Friday trading session.
+💡 Higher futures usually signal a strong start for stock markets.
+#Stocks
+
+📍 US · 📰 Upstox · ✅ 5 sources
+https://news.google.com/rss/articles/CBMi_AFBVV95cUxNVEJjank5M2F1S0RJMDJSb2VIb3NZSDVVQk9oLVlta2VBOWI1ZnVqWUF6YTMwRVZ4c1VqcVdQZVlqZU5ISTJUYkdCM3F0Zzg3ZmlUN0F6dHo4bXRSaWdLZFdUYVhrT2VZcERsU3lueFlkTFdINFBUYndZb3pBQzZUT0pBX2N0RmNQeUtvMEpnZXE3U1hkM2VZSU45WFVwUGxLS1NoNEQwMnVvSlhBV0pPdGI3c3dSaVZLaDZKaGRZaVhHODFBOFVxVHdZTHdpT21ZMzJMbnJHQW5SY0x4UUtlc1ctc2dKZTE2WGZKbkFadUYwX1BDS0JfVEZBZEs?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly backed by the cited sources
+  Groq GPT-OSS 20B: FAIL - The post claims 5 sources, but 6 are listed.
+  -> blocked by fact-check
+---
+🇪🇺 ECB SAYS TWO RATE HIKES ARE NOT ENOUGH
+
+📌 An official says two rate hikes are not enough to bring inflation down to 2%.
+📊 Inflation target: 2%
+
+📍 Europe · 📰 Bloomberg.com · ✅ 3 sources
+https://news.google.com/rss/articles/CBMisAFBVV95cUxNTnRLWU5fSDVMeUxHSmY5azROXzVqQkRlc05ZYnY2bEwyMU4zNVdTamhKSUtLY3REbmZGUW43T2lnZUtLZEpUYng3Vkk0VlFZRzRlcnBVNU9IcVE1cmhCZ3BGS1Rtb3Q4bWZmTkIwZUVNbnFaakNlaXFpeGNFNGtxNnRHRUpSbXlydXJQRXNOd09CS1gzb1czbGVaeVZzRl8taXUyaGpkblRiUnh2TEo1Uw?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All claims about the ECB official's statement and the 2% inflation target are directly supported by the cited Bloomberg and related sources.
+  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
+  Groq Qwen: PASS - All factual claims regarding the ECB official's statement, the inflation target, and the source attribution are directly supported by the provided sources.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims match the sources, including the ECB official, two rate hikes, 2% inflation target, Europe, Bloomberg, and three unique sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-437543ec0acb
+---
+🇪🇺 ECB MAY RAISE RATES AGAIN AS INFLATION STAYS ABOVE 3%
+
+📌 Euro zone inflation stays above 3%, so the ECB may raise rates.
+📊 Inflation: Above 3%
+
+📍 Europe · 📰 Yahoo Finance · ✅ 4 sources
+https://news.google.com/rss/articles/CBMilwFBVV95cUxPdFVCSThtYUtNS1lVNlNPcEpUOG00eEpIQnNsWjBCVFlLTjFaOTByeWs4VUMyUkF1dWVwNmp0THI4QjV2ams3RXBHck1IallDQVhkQUVLZWoydFNCSEE2VGV5cTRDTmpoeW9zcmFRQkV4eVNwSkJlbVU5eXJPSk5qamlOQ0dQQlFZM3VzTWRDSkplSmgwcFJr?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim of "✅ 4 sources" is not supported; the listed sources amount to 3 distinct outlets
+  -> blocked by fact-check
+---
+🇮🇳 SVATANTRA MICROFIN GETS OK FOR RS 3,000 CRORE IPO
+
+📌 Svatantra Microfin got approval for a Rs 3,000 crore IPO (first public share sale).
+📊 IPO size: Rs 3,000 crore
+
+📍 India · 📰 Economic Times · ✅ 3 sources
+https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbDlqenlDS1hFai00YjNqVlRWYmhtOThDT0VZa2huNDZVcW9VQmZtaVhzUmtldU5OVU1Wb21JbEpOd0xwWkJxYzYxZ1Q0X0xvZ2stMmxKM3I3dm8wQTE0N1hlZVJSVzY5SjN4RmpmNVhSMVNPNnY1VDhQVnRveUxzeG5PN0VRSURfT2ExNG1kMDNLc2kxSE5JV1J1dWxCR2Zia0pCQ2FEVU5OQVF0UG04bkphMF9MVmxadVJQV0FYMzdtMU83X3FhTWRnWHlNQXkwRWdKWVBMOHpQeUHSAeABQVVfeXFMTjNKcFZTWS1ILXF1YV94TGtuVEVEODJsWi1MWmZNeU5mUFk1ZndFZEFsVHZmV0FaSk5jazFGLVVsSENXbFBSQU0xMTNrT2RWOWZUeHcySjIwX0NfdjRGbDE5STVweElxdUg1VzkwT2d6WV9JVDR0YV9KaW1kSHhYU1dHeTVrVlNnUGtrRjJGa2pETFllZkZWMTRZTGVsUlVmOFFqbTZKVnpzWUJ0NTNFbHpYcFkxNlZQYkNibFZOWFJ6VFdTRFVGT0hSZ3lFcTRXdzBuVkJnT1dGSjNnTVFjeUo?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The claim that it is the company's first public share sale is not directly supported by the sources
+  -> blocked by fact-check
+---
+🇪🇺 NORSE ATLANTIC UNIT FILES FOR BANKRUPTCY
+
+📌 Norse Atlantic's Norwegian unit filed for bankruptcy after running out of cash.
+
+📍 Europe · 📰 The Straits Times World News · ✅ 5 sources
+https://www.straitstimes.com/business/airline-norse-atlantics-norwegian-operating-unit-declares-bankruptcy
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the cited Straits Times article and listed sources.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: FAIL - The post claims the 'Norwegian unit' filed for bankruptcy, but the sources state that 'Norse Atlantic' (the parent company) filed for bankruptcy, with the Norwegian unit being the operating entity inv
+  -> blocked by fact-check
+---
+🇮🇳 GOLD AND SILVER ETFS DROP BY UP TO 62%
+
+📌 Gold and silver ETFs (funds that track prices) fell by up to 62%.
+📊 ETF drop: Up to 62%
+💡 Buying assets after a sharp price rise can increase the risk of losses.
+#Gold
+
+📍 India · 📰 Mint · ✅ 2 sources
+https://www.livemint.com/money/personal-finance/bought-gold-or-silver-at-peak-etfs-plunge-up-to-62-as-late-investors-bear-the-brunt-of-sharp-correction-11795782657816.html
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims about a up‑to‑62% drop in Indian gold and silver ETFs are supported by the Mint article, and the general advice is accurate.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the Mint article.
+  Groq Qwen: PASS - All factual claims regarding the 62% drop in gold and silver ETFs, the location (India), and the source (Mint) are directly supported by the provided text.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-d9c925d63108
+done: 3 post(s) this run
 === run 2026-11-27T03:12:50Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1398,103 +1498,3 @@ skip (off-topic or nothing new): Investors look to Nvidia's earnings and Anthrop
 📍 India · 📰 Latest Share Market News, Sensex, Nifty, · ✅ 3 sources
 https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-live-updates-17th-november-2026/article71708442.ece
   written by Gemini
-  Groq GPT-OSS: PASS - All claims about the Sensex/Nifty levels, dates, percentages, and banking stock leadership are directly supported by the cited sources
-  Groq GPT-OSS 20B: SKIP - unavailable (RuntimeError: openai/gpt-oss-20b returned an empty reply)
-  Groq Qwen: FAIL - The source states Nifty closed at 25,387.40, which contradicts the claim in the source title and potentially the post's implication that it topped 25,500, and the post omits the specific Nifty closing
-  -> blocked by fact-check
-skip (off-topic or nothing new): What to watch in Nvidia’s first earnings report since Huang’s resignation
----
-🇮🇳 SENSEX JUMPS 750 POINTS AS BANK STOCKS RALLY
-
-📌 The Indian stock market rose significantly, led by gains in banking shares.
-📊 Sensex: +750 points
-
-📍 India · 📰 theopenpress.in · ✅ 2 sources
-https://news.google.com/rss/articles/CBMilgFBVV95cUxPSmRZX1RHbncxYXRqb3lYelE5TUZkaEtJOFAxZmh2dGZjSFRzZzN4R2l4bGNaakVRV3Y4Q09iUUpqLTdGSVF3LUQ1NGRHcTBsTjdfX3cyZnRCaGpueTJJczZhOW9BUWloODZIWlFKOUxXYUhacl9yYVFSM2NpRmpfVE5jU2xXVW5Cc0VId2xIVkdVZC1aZ1E?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims (750‑point Sensex rise, bank stock rally, India location, source name) are directly supported by the cited article
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: FAIL - The post claims the source is 'theopenpress.in' and lists '2 sources', but the provided source list includes 'The Eastern Herald' which reports a different figure (700 points) and is not cited in the 
-  -> blocked by fact-check
----
-🌐 BITCOIN HOLDS NEAR $65,000
-
-📌 Bitcoin stayed near $65,000 following a monthly price drop of 21 percent.
-📊 $BTC: $65,000
-#Crypto
-
-📍 Global · 📰 Economic Times
-https://news.google.com/rss/articles/CBMinwJBVV95cUxOSHdpN1cxUmtBbzhDaTQ3dVZnWFJoSVpaMlEtNVJsY0JLODRjQjVJZWlqQWxqZkpINHZ1Yl9HWHAzcjg0cGxrZ0VYYVZ1VGVCRnpUNDNnT1NnU0hDS2s0dWV0MnFmUFBJYXlWU0hscG1KX28tODFsdUdMMGVDZG8tLU1NaTNQekZkOVF0ZXAxZ2ItaHh1Mm5pM0RsNEdfVE5zTGs1RnZCTFo1bm0xXy0tU0ZvR1BjbUgyTWNrVWkwSjhfZWNTaS1jcG5VamxtRjllR1JlYVJVeHJZRVMzNGRQamhjQjBOZDBSYnVnSWJhNFRyMGo1MElhRVh5M1FsS2pCcmFSTTZkMXptQklqaW96VXdhNW10NmY4b3Z5ckhic9IBpAJBVV95cUxQMjY0cHRENTZWa0cxcm96TE4wYnpXUUNSazlHSEtZcGk5M2MyOXVTVm52VTRqTEJZQWNESVgyZkxHRUJZdXQwSEFZZHFXeDYyTzNHR0dUMmlTelJPdDRDR3M0dFFBVVE0QXpfdVd5d3pyWVJIR0dzVmhzLWNDUzZCZkFLM3d3VVdOM3NKUzdVVXZBV3RkM2l4cXhjbzR0anMyN3NmeVVuNkN5TU4yR2hxQ1JnOVFENzF1c1ktdV81cUZKQ2FWWUw4Nk51MGhjVUVUbnI2UGFUQThFT0lTa0RxZXhrcnJJX3F4LWJ5QXQtVXNOcDhfbkVfblc5TzFVMFFncTZxWFhKVldzUDdxVDdLbGN2bS1VWGUxZml6RjhrWTRUVUhY?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about Bitcoin price and 21% monthly drop are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: PASS - All factual claims are directly supported by the source.
-  Groq Qwen: PASS - The post accurately reflects the source headline regarding Bitcoin's price near $65,000 and the 21% monthly drop, with correct attribution to The Economic Times.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-5c9ecc30320a
----
-🇺🇸 WALL STREET STABILIZES
-
-📌 US stocks steady after a selloff in tech shares ahead of Nvidia's earnings report.
-💡 Market drops can reduce the value of retirement accounts and investments.
-#Stocks
-
-📍 US · 📰 The Killeen Daily Herald · ✅ 5 sources
-https://news.google.com/rss/articles/CBMi2wFBVV95cUxPT0QxSkp4OUExOXI3YnJNeHkzY3AxNXJydW9YZW5aaE9BSm02WmF3TXdKMWNGeVlTVXA5aUdRVWJ0NjJkakFTRDhvdi0wQzcxeF9fTFRVdDBWNHh2RTdYbjFmX1dybmRmSXlGbkI5YUVrdnZjNEpEQTlaNTVRanFVNDNja0hzZjFkUnlLckNNLXBBY2lwUVZ0czJ6VXF3T1ZMV2ktNDY1Skh2Wml3S0d2RWhTSVpGb3pqcGZJbEFFcFhMVFkzbkRlMFM4TEhUaloxcnJkVW12UGRLSG8?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All claims are directly supported by the cited sources and the general explanation is accurate.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - The post accurately reflects the source headlines regarding Wall Street stabilizing after an AI/tech selloff ahead of Nvidia earnings, and the source attribution matches.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - The post's claims (US stocks steady/stabilizing after an AI/tech selloff ahead of Nvidia earnings) match the source headlines, the place and source name are correct, and the 💡 line is a general, accur
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-d63989cc3965
-done: 3 post(s) this run
-=== run 2026-11-17T03:10:43Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 10
-72/171 sources returned news, 590 recent items
-153 new trusted stories, posting up to 2 this run
----
-🇨🇦 CANADIAN DOLLAR FALLS AGAINST US DOLLAR
-
-📌 Canada's dollar fell against the US dollar as oil prices dropped.
-💡 A weaker currency can make buying foreign goods more expensive.
-#Canada
-
-📍 Canada · 📰 شبكة تواصل الإخبارية · ✅ 2 sources
-https://news.google.com/rss/articles/CBMiU0FVX3lxTE84Z3dOc0gzZ3EzMjl4UmtMaGRzd3ZweGFNb1haWmdBc201R0RBV1JEekpPdkZXZzByMHJkWWUzNXYyOFUwVm10YmRFcUZEYWtkSi1F?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited sources.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources and contain no unsupported or predictive statements.
-  Groq Qwen: PASS - The post accurately reflects the sources regarding the Canadian dollar's decline against the US dollar due to falling oil prices, and the general economic explanation provided is correct.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-8493f7b9b26b
----
-🇺🇸 US DOLLAR HITS 19-MONTH HIGH
-
-📌 The US dollar index rose to 103.66 as traders expect interest rate hikes.
-📊 US Dollar Index: 103.66
-💡 Higher interest rates usually make loans costlier.
-#Fed
-
-📍 US · 📰 Economic Times · ✅ 6 sources
-https://economictimes.indiatimes.com/markets/commodities/news/gold-hovers-near-over-one-year-low-as-firm-dollar-fed-hike-bets-weigh/articleshow/135907217.cms
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims are directly supported by the Economic Times sources.
-  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
-  Groq Qwen: PASS - All factual claims regarding the dollar index value, the 19-month high, and the reason (Fed hike bets) are directly supported by the sources, and the location and source name match.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-b94c69363474
-done: 2 post(s) this run
-=== run 2026-11-16T18:51:03Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 10
-103/171 sources returned news, 912 recent items
-220 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-16T07:15:32Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 8
-96/171 sources returned news, 960 recent items
-201 new trusted stories, posting up to 2 this run
----
