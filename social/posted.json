@@ -1646,6 +1646,19 @@
    },
    "failed": [],
    "errors": {}
+  },
+  {
+   "file": "clip_credit_wise_1.mp4",
+   "title": "Educational film: Does it cost more to buy things on credit?",
+   "date": "2026-11-28T07:33:03Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/yrQcBF6gjIM",
+    "Instagram": "18121570516797427",
+    "Facebook": "3267503180105975"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
