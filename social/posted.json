@@ -1659,6 +1659,19 @@
    "failed": [],
    "errors": {},
    "format": "clip"
+  },
+  {
+   "file": "clip_credit_wise_2.mp4",
+   "title": "Educational film: How do you build a credit rating?",
+   "date": "2026-11-28T15:02:50Z",
+   "results": {
+    "YouTube": "https://youtube.com/shorts/jmKRAvBt5KU",
+    "Instagram": "18098085602180917",
+    "Facebook": "2208833160028797"
+   },
+   "failed": [],
+   "errors": {},
+   "format": "clip"
   }
  ]
 }
