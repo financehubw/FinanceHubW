@@ -1,3 +1,68 @@
+=== run 2026-11-28T17:11:05Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 11
+79/171 sources returned news, 587 recent items
+145 new trusted stories, posting up to 2 this run
+skip (off-topic or nothing new): Middle East war: 5 things UAE residents need to know today (Nov 28, 2026)
+skip (off-topic or nothing new): France's credit outlook cut to negative by S&P, economy minister calls it 'warning'
+---
+🇺🇸 BREAKING: US BANK FAILS AFTER 112 YEARS
+
+📌 Regulators closed United Fidelity Bank in the biggest US bank failure in two years.
+📊 Cost to FDIC: $1.83 billion
+#Banks
+
+📍 US · 📰 Beinsure · ✅ 6 sources
+https://news.google.com/rss/articles/CBMijwFBVV95cUxOY2EzN1NhS09KaXV5elI2bEdmYml1dVd1TTlRWkxsRzM3bXRBeE5nMGEwNWJaRE1GRXR6XzNZaTRlZDZILWluVEliQUJ1dnlPWGRmRkRuMGNLcWxjMFJIN0R6QmN4WXZOaEF6ZEpuMW9wOE16NlEyM19ZREhYV3Y0TTl4TVQyWmJsZXJjYUpISQ?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements (112‑year history, biggest failure in two years, $1.83 bn FDIC cost) are directly supported by the cited sources.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the listed sources.
+  Groq Qwen: PASS - All factual claims regarding the bank name, age, cost, regulator action, and significance are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-384e0ee414f4
+skip (off-topic or nothing new): The Fed Enters Its Blackout Period This Weekend With a December Rate Hike 100% Priced In
+skip (off-topic or nothing new): Index Outlook: Nifty 50, Sensex can see some more dip before a rebound
+skip (off-topic or nothing new): Silver Rate Today 28 Nov 2026 - Live Silver Prices Per 10gm & kg
+---
+🇮🇳 SENSEX AND NIFTY SNAP FOUR-WEEK WINNING STREAK
+
+📌 Indian stock markets broke a four-week winning streak due to profit-taking by investors.
+
+📍 India · 📰 India's News.Net · ✅ 2 sources
+https://news.google.com/rss/articles/CBMi0AFBVV95cUxNS3Jnd0txakpnS2drcHhlaFdWazRFaE52YmwyYjFJNXdualFuOXhiQUg0ZW5oX25aQnIxa3llTmpacHQ5b2tiUlhheWxDQWppZWJDcGQ4a21oNW1xa3c2OTFqaTB3b3ptZWhiZXpILVRNVDYycFFLYmtSa2pxZjI3NFU5WHpSb1ZweUE2SXlZU1pqLUE4VVRsT2lfTmp0emU0T3FCWmhPNWNCUTBTRVB1TTJvaUJJQ1M2b2tacXNINEV4czE4ZVVFRjNfWG9ORzEx?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All statements about the four‑week streak ending due to profit‑taking are directly confirmed by the cited articles.
+  Groq GPT-OSS 20B: PASS - All claims are supported by the sources.
+  Groq Qwen: FAIL - The source from Rediff.com contradicts the claim that both indices snapped the streak, stating that Nifty gained while Sensex slipped.
+  -> blocked by fact-check
+---
+🇮🇷 IRAN RIAL FALLS TO RECORD LOW
+
+📌 The Iranian currency dropped to nearly 3 million rials for one US dollar.
+📊 1 USD: ~3,000,000 rials
+
+📍 Iran · 📰 marketscreener.com · ✅ 2 sources
+https://news.google.com/rss/articles/CBMixgFBVV95cUxOSktQVDNyTW8tbVRYZUxMc0xTYjk1MDlvcGoxYlB3Z3JaSUZtOElQUjdxNmgyMVdvMFBfbEhxOFZsOUszcGFZekdvbjhFLVBXOHVyQzAxRV9mUERwbWhTRnczeXc0VTQtQ2VobU54dzVsMHRJX2dLVW9tN3VYYUpteTVDUlRHTC1zY1lGckM0MzlKVnBCU1EydnRjMzdMZ2hjcXpLMks4Sms1VENQNjc1OFU5OFJiOS15ajRhOXdqbmp0TmpLMEE?oc=5
+  written by Gemini
+  Groq GPT-OSS: FAIL - The source mentions the rial near 3 million per USD but does not explicitly state it is a record low
+  -> blocked by fact-check
+---
+🇮🇳 INDIA WEIGHS PRE-IPO SHARE TRADING PLATFORM
+
+📌 The market regulator is considering a new platform to trade shares before they go public.
+💡 New trading rules can change how easily investors buy and sell shares.
+
+📍 India · 📰 Reuters · ✅ 4 sources
+https://news.google.com/rss/articles/CBMivAFBVV95cUxOZFlEaUhickZwaDlUMWVJTjI0X3JBdTRhNmwyUTl5LWZOcUN0ZFo3VnZQYl9KRUFEcWRQTjVqSG1KMllFdGRwLUFCM095QVg4MjVHU2QzX3A3cWFaZC1jOWJ1aGFNS2Jrb3BFUGVTWENMT1BPajJGMm1YNG5kNnRIUXdaNzVqRjZaeWJrRzI1dTM0WjJFVkV2SHRwUUI2MXRWeU5lQkNHZG1wWHBQN2JtTzF5MXRER3pGdm9PZg?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual statements are directly supported by the Reuters source and the general explanation is accurate
+  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
+  Groq Qwen: PASS - All factual claims regarding the regulator considering a pre-IPO trading platform in India are supported by the provided sources, and the metadata matches.
+  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
+  OpenRouter: PASS - All factual claims, location, and source attribution are directly supported by the provided sources.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-acf1b2f83144
+done: 2 post(s) this run
 === run 2026-11-28T08:22:53Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 9
@@ -1433,68 +1498,3 @@ published to: website, Instagram Story
   -> posted https://x.com/FinanceHubW/status/web-146ba2bcddc8
 ---
 🇺🇸 GOLD HITS ONE-YEAR LOW
-
-📌 Gold prices dropped to their lowest level in over a year as the US dollar grew stronger.
-📊 US Treasury Yield: 5%
-💡 Higher rates usually make loans costlier
-#Gold
-
-📍 US · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/markets/commodities/news/gold-hits-over-one-year-low-ahead-of-fed-minutes/articleshow/135945512.cms
-  written by Gemini
-  Groq GPT-OSS: FAIL - The post states the US Treasury Yield is exactly 5%, but the source only says it breached 5% (i.e., was above 5%).
-  -> blocked by fact-check
----
-🇯🇵 BANK OF JAPAN PLANS TO KEEP RAISING INTEREST RATES
-
-📌 The head of Japan's central bank said interest rates should keep going up.
-📊 Inflation goal: 2%
-
-📍 Japan · 📰 The Straits Times World News · ✅ 5 sources
-https://www.straitstimes.com/business/bank-of-japan-governor-says-central-bank-should-keep-raising-rates
-  written by Gemini
-  Groq GPT-OSS: PASS - All statements about the BOJ governor's intent to keep raising rates and the 2% inflation goal are directly supported by the cited sources.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the BOJ governor's stance on raising rates and the 2% inflation target are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - The post accurately reflects the sources: the BOJ governor said the central bank should keep raising rates, the 2% inflation goal matches 'anchoring underlying inflation around 2%', and the place, sou
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-aa52a4008f2c
----
-🇰🇷 SOUTH KOREA HOUSEHOLD DEBT HITS RECORD
-
-📌 South Korea household debt hit a record 2,030.5 trillion won in Q3, with growth slowing.
-📊 Debt: 2,030.5T Won
-
-📍 South Korea · 📰 Yonhap News Agency · ✅ 5 sources
-https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TTldMS0tUNzFhZWY0V0FUVVBOX3dqLUJmMlFEcnhia01xczQwclpta0E2Zm9pMEZPaHpEUHpSWmwybXhuZ3Jlal9HUDF2emc3RURuWFlNQVNkdw?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual claims about South Korea's Q3 household debt amount and slowing growth are directly supported by the cited sources.
-  Groq GPT-OSS 20B: SKIP - unavailable (HTTP 400: {"error":{"message":"Tool choice is none, but model called a tool","type":"invalid_request_error","code":"tool_use_failed","failed_generatio)
-  Groq Qwen: PASS - All factual claims regarding the record debt amount (2,030.5 trillion won), the quarter (Q3), the trend (growth slowing), and the source attribution are directly supported by the provided sources.
-  Gemma: SKIP - unavailable (HTTP 404: { "error": { "code": 404, "message": "models/gemma-3-12b-it is not found for API version v1beta, or is not supported for generateContent. Ca)
-  OpenRouter: PASS - All claims (South Korea, record 2,030.5 trillion won household debt in Q3, slowing growth) are directly supported by the cited sources, and the place and source name match.
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-f9a66b4218cb
-done: 4 post(s) this run
-=== run 2026-11-17T22:38:21Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 7
-82/171 sources returned news, 692 recent items
-re-check of earlier post: 5 fail / 0 pass
-179 new trusted stories, posting up to 0 this run
-done: 0 post(s) this run
-=== run 2026-11-17T13:55:28Z
-models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
-daily cap: 12, room left in the last 24h: 10
-104/171 sources returned news, 1068 recent items
-284 new trusted stories, posting up to 3 this run
----
-🇮🇳 INDIAN BONDS SURGE ON OIL DROP
-
-📌 Indian government bonds rallied as falling oil prices eased interest rate fears.
-📊 Yield: 7.2528%
-
-📍 India · 📰 Economic Times · ✅ 2 sources
-https://economictimes.indiatimes.com/markets/bonds/indian-bonds-surge-after-oil-slide-eases-aggressive-rate-hike-concerns/articleshow/135924727.cms
-  written by Gemini
