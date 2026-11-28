@@ -1,3 +1,24 @@
+=== run 2026-11-28T08:22:53Z
+models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
+daily cap: 12, room left in the last 24h: 9
+87/171 sources returned news, 721 recent items
+166 new trusted stories, posting up to 1 this run
+---
+🌐 OIL PRICES RECORD FIRST WEEKLY GAIN IN NOVEMBER
+
+📌 Oil prices rose this week due to fears over Middle East supply.
+💡 Higher oil prices usually make fuel and transport more expensive.
+#Oil
+
+📍 Global · 📰 PUKmedia · ✅ 4 sources
+https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tNjFiS29udmxUb0tOUWNMaUE4N3ROZUItZjE4QnV1UGxidVoySW9rMTRXaEt1bkU3elg0RXlhaDhxVUd6SG04eGdudWdCSUNzWVJV?oc=5
+  written by Gemini
+  Groq GPT-OSS: PASS - All factual claims are directly supported by the cited PUKmedia source.
+  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
+  Groq Qwen: PASS - All factual claims regarding the weekly gain, timing (November), and cause (Middle East supply concerns) are directly supported by the provided sources, and the location and source attribution match.
+published to: website, Instagram Story
+  -> posted https://x.com/FinanceHubW/status/web-f7bb973381ee
+done: 1 post(s) this run
 === run 2026-11-27T22:53:49Z
 models available: Gemini, Groq GPT-OSS, Groq GPT-OSS 20B, Groq Qwen, Gemma, OpenRouter
 daily cap: 12, room left in the last 24h: 6
@@ -1477,24 +1498,3 @@ daily cap: 12, room left in the last 24h: 10
 📍 India · 📰 Economic Times · ✅ 2 sources
 https://economictimes.indiatimes.com/markets/bonds/indian-bonds-surge-after-oil-slide-eases-aggressive-rate-hike-concerns/articleshow/135924727.cms
   written by Gemini
-  Groq GPT-OSS: PASS - All factual statements in the post are directly supported by the Economic Times article.
-  Groq GPT-OSS 20B: FAIL - The claim that there are 2 sources is incorrect; the post lists three sources.
-  -> blocked by fact-check
----
-🇺🇸 FED OFFICIAL SAYS RATE HIKES LIKELY NEEDED
-
-📌 A US central bank official says several rate hikes (increases in borrowing costs) may be needed by spring.
-📊 Four more rate hikes expected
-
-📍 US · 📰 Bloomberg.com · ✅ 10 sources
-https://news.google.com/rss/articles/CBMisgFBVV95cUxPSkZydFlvcVY4NVJKN2hQbkdROU1adjRJNGVSaVNvTmRlQVBZUzJQMmFLaFhWemtURVFqNDNVd1NTT2ZFQ0V6VDdpLUdYcEhUdGlxNXh3dWQ0TFdJVjM4aDZONzkzd0xiSTliSVhKWkFlSnNDWmhxOEpYbDNLdFhPRjhoY19KRnNreTNZOXV4TTNtNnB5M1E3V1dUSGtJMlJYLUtVUnRzMWk5VlN1UVduZnVR?oc=5
-  written by Gemini
-  Groq GPT-OSS: PASS - All factual statements (official’s comment, timing, number of hikes, location, source) are directly supported by the cited Bloomberg and other articles.
-  Groq GPT-OSS 20B: PASS - All claims are directly supported by the cited sources.
-  Groq Qwen: PASS - All factual claims regarding the official (Musalem), the entity (Fed/St. Louis Fed), the specific number of hikes (four/several), and the timeline (by spring) are directly supported by the provided so
-published to: website, Instagram Story
-  -> posted https://x.com/FinanceHubW/status/web-abab68821041
-skip (off-topic or nothing new): Investors look to Nvidia's earnings and Anthropic's IPO to refresh the tech rally
----
-🇮🇳 INDIA STOCKS HIT 9-MONTH HIGH
-
